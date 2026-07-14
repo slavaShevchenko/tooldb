@@ -1,0 +1,6 @@
+body {
+  background: var(--color-background);
+  transition:
+    background var(--transition-base),
+    color var(--transition-base);
+}
