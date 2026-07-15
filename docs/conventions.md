@@ -106,3 +106,17 @@ Example
 Write code for the next developer.
 
 Assume that future developer is yourself six months later.
+
+---
+
+## Nuxt Conventions
+
+Follow Nuxt conventions whenever possible.
+
+Use Nuxt auto imports for:
+
+- Components
+- Composables
+- Vue APIs
+
+Avoid disabling built-in framework features without a clear architectural reason.

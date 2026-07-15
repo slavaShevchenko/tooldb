@@ -128,3 +128,17 @@ Architecture decisions are documented before implementation whenever possible.
 Reason
 
 Documenting decisions early makes the project easier to maintain and helps avoid accidental architectural drift.
+
+---
+
+### Nuxt Auto Imports
+
+Decision
+
+Use Nuxt auto imports for components, composables and Vue APIs.
+
+Reason
+
+Auto imports are part of the Nuxt ecosystem and improve developer experience without sacrificing maintainability.
+
+Avoid overriding framework conventions unless there is a strong technical reason.
