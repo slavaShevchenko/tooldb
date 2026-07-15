@@ -142,3 +142,47 @@ Reason
 Auto imports are part of the Nuxt ecosystem and improve developer experience without sacrificing maintainability.
 
 Avoid overriding framework conventions unless there is a strong technical reason.
+
+---
+
+## 2026-07-15
+
+### SEO architecture
+
+Decision
+
+Separate SEO configuration by business domains and centralize SEO application through a composable.
+
+Structure
+
+```text
+app/
+├── seo/
+│   ├── app.ts
+│   ├── home.ts
+│   ├── tools.ts
+│   ├── categories.ts
+│   ├── collections.ts
+│   ├── compare.ts
+│   └── index.ts
+│
+└── composables/
+    └── useSeo.ts
+
+Reason
+
+SEO is one of the fastest-growing parts of the application.
+
+Keeping SEO configuration separated by domains keeps files small, improves maintainability, and allows every page to reuse the same SEO infrastructure.
+
+The useSeo() composable provides a single entry point for applying metadata and allows future expansion without changing page implementations.
+
+Future
+
+Dynamic pages will use dedicated SEO builders such as:
+
+* toolSeo(tool)
+* categorySeo(category)
+* comparisonSeo(comparison)
+
+Pages should never construct SEO metadata manually.

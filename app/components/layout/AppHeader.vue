@@ -1,13 +1,24 @@
 <template>
   <header class="header">
-    <BaseContainer>
+    <BaseContainer class="content">
       <AppLogo />
+
+      <nav class="nav">
+        <NuxtLink
+          v-for="item in navigation"
+          :key="item.to"
+          :to="item.to"
+          class="link"
+        >
+          {{ item.label }}
+        </NuxtLink>
+      </nav>
     </BaseContainer>
   </header>
 </template>
 
 <script setup lang="ts">
-import AppLogo from '~/components/app/AppLogo.vue'
+import { navigation } from '~/constants/navigation'
 </script>
 
 <style scoped lang="scss">

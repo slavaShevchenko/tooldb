@@ -1,34 +1,40 @@
 <template>
   <article class="card">
-    <div class="header">
-      <div class="logo">
-        {{ tool.logo }}
+    <NuxtLink
+      :to="routes.tool(tool.slug)"
+      class="link"
+    >
+      <div class="header">
+        <div class="logo">
+          {{ tool.logo }}
+        </div>
+
+        <div class="content">
+          <h3 class="title">
+            {{ tool.name }}
+          </h3>
+
+          <p class="tagline">
+            {{ tool.tagline }}
+          </p>
+        </div>
       </div>
 
-      <div class="content">
-        <h3 class="title">
-          {{ tool.name }}
-        </h3>
+      <div class="footer">
+        <span class="pricing">
+          {{ tool.pricing }}
+        </span>
 
-        <p class="tagline">
-          {{ tool.tagline }}
-        </p>
+        <span class="rating">
+          ★ {{ tool.rating }}
+        </span>
       </div>
-    </div>
-
-    <div class="footer">
-      <span class="pricing">
-        {{ tool.pricing }}
-      </span>
-
-      <span class="rating">
-        ★ {{ tool.rating }}
-      </span>
-    </div>
+    </NuxtLink>
   </article>
 </template>
 
 <script setup lang="ts">
+import { routes } from '~/constants/routes'
 import type { Tool } from '~/types/tool'
 
 defineProps<{
@@ -38,12 +44,6 @@ defineProps<{
 
 <style scoped lang="scss">
 .card {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-5);
-
-  padding: var(--space-5);
-
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
@@ -54,6 +54,17 @@ defineProps<{
 .card:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+
+  padding: var(--space-5);
+
+  color: inherit;
+  text-decoration: none;
 }
 
 .header {

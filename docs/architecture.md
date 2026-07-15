@@ -50,6 +50,26 @@ Infrastructure
 
 ---
 
+## Current top-level structure:
+
+- app/
+- assets/
+- components/
+- composables/
+- constants/
+- docs/
+- layouts/
+- pages/
+- plugins/
+- public/
+- seo/
+- server/
+- services/
+- types/
+- utils/
+
+---
+
 ## Development Principles
 
 - Every commit must leave the project in a working state.
@@ -105,3 +125,13 @@ Avoid premature abstractions.
 The project grows only when necessary.
 
 New folders, dependencies and abstractions are introduced only when they solve a real problem.
+
+---
+
+## SEO
+
+SEO is treated as a dedicated application layer.
+
+SEO configuration is organized by business domains rather than by page implementation.
+
+All pages apply metadata exclusively through the `useSeo()` composable.
