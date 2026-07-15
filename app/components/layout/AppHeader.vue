@@ -1,12 +1,14 @@
 <template>
   <header class="header">
     <BaseContainer>
-      <h1 class="logo">
-        ToolDB
-      </h1>
+      <AppLogo />
     </BaseContainer>
   </header>
 </template>
+
+<script setup lang="ts">
+import AppLogo from '~/components/app/AppLogo.vue'
+</script>
 
 <style scoped lang="scss">
 .header {
