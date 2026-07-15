@@ -7,6 +7,4 @@ export interface Category {
   description: string
 
   icon: string
-
-  toolCount: number
 }

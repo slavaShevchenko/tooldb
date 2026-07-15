@@ -7,7 +7,6 @@ export const categories: Category[] = [
     name: 'AI',
     description: 'Artificial intelligence tools',
     icon: '🤖',
-    toolCount: 18,
   },
   {
     id: '2',
@@ -15,7 +14,6 @@ export const categories: Category[] = [
     name: 'Design',
     description: 'Design and prototyping',
     icon: '🎨',
-    toolCount: 12,
   },
   {
     id: '3',
@@ -23,7 +21,6 @@ export const categories: Category[] = [
     name: 'Developer',
     description: 'Developer tools',
     icon: '💻',
-    toolCount: 26,
   },
   {
     id: '4',
@@ -31,6 +28,5 @@ export const categories: Category[] = [
     name: 'Marketing',
     description: 'Marketing platforms',
     icon: '📈',
-    toolCount: 14,
   },
 ]

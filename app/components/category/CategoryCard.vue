@@ -17,19 +17,27 @@
       </p>
 
       <span class="count">
-        {{ category.toolCount }} tools
+        {{ toolCount }} tools
       </span>
     </NuxtLink>
   </article>
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
 import { routes } from '~/constants/routes'
+
 import type { Category } from '~/types/category'
 
-defineProps<{
+const props = defineProps<{
   category: Category
 }>()
+
+const { getToolsByCategory } = useTools()
+
+const toolCount = computed(() =>
+  getToolsByCategory(props.category.slug).length
+)
 </script>
 
 <style scoped lang="scss">
