@@ -1,188 +1,292 @@
 # Architecture Decisions
 
-## 2026-07-14
+This document records significant architectural decisions made during the development of ToolDB.
 
-### Project initialized
-
-Nuxt 4 project created.
+Only long-term decisions that affect the project's architecture, maintainability or development process should be documented here.
 
 ---
 
-### Package manager
+## Monolithic Application
 
-Decision:
+### Status
 
-Use npm.
+Accepted
 
-Reason:
+### Context
 
-The team is already familiar with npm.
-The difference in performance compared to pnpm is not critical for this project.
+The project is currently small and developed by a single team.
 
----
+### Decision
 
-### Node.js version
+Use a single Nuxt application containing frontend, backend and server API.
 
-Decision:
+### Consequences
 
-Use Node.js 24 LTS.
-
-Reason:
-
-Latest LTS with long-term support.
+- Simple project structure.
+- Easy local development.
+- No unnecessary complexity.
+- Can be split into multiple services in the future if required.
 
 ---
 
-### Repository
+## Nuxt Project Structure
 
-Decision:
+### Status
 
-Single repository.
+Accepted
 
-Reason:
+### Context
 
-The project is small enough to keep frontend, backend and API in one codebase.
+Nuxt provides a well-established project structure that is familiar to most Vue developers.
 
----
+### Decision
 
-### Architecture
+Follow the default Nuxt directory structure whenever possible.
 
-Decision:
+Avoid creating custom folders unless there is a clear architectural reason.
 
-Monolithic Nuxt application.
+### Consequences
 
-Reason:
-
-Avoid unnecessary complexity during the early stages.
-
----
-
-### Development philosophy
-
-Decision:
-
-The project should be developed as a production product rather than a pet project.
-
-Reason:
-
-Architectural decisions made early will determine the long-term maintainability of the project.
+- Easier onboarding.
+- Better compatibility with Nuxt ecosystem.
+- Less project-specific complexity.
 
 ---
 
-### Styling
+## Folder Creation
 
-Decision:
+### Status
 
-Use SCSS with scoped styles instead of Tailwind CSS.
+Accepted
 
-Reason:
+### Context
 
-The project aims to be maintainable for many years.
-Component styles are easier to read, navigate and refactor than long utility-class chains.
-CSS Variables will be used to build a reusable design system with light and dark themes.
+Premature abstractions often lead to unused folders and unnecessary complexity.
 
----
+### Decision
 
-### Project structure
+Create directories only when they are required by the current implementation.
 
-Decision
+Avoid creating folders for future ideas.
 
-Follow the default Nuxt project structure.
+### Consequences
 
-Reason
-
-Following framework conventions makes the project easier to maintain and reduces the learning curve for new contributors.
+The project structure always reflects the current application.
 
 ---
 
-### Folder creation
+## Component Organization
 
-Decision
+### Status
 
-Do not create directories before they are needed.
+Accepted
 
-Reason
+### Context
 
-The project structure should reflect the current state of the codebase rather than future ideas.
+Components naturally belong to different business domains.
 
----
+### Decision
 
-### Components
+Organize components by purpose or business domain.
 
-Decision
+Examples:
 
-Avoid generic folders such as `common`.
+- base
+- layout
+- home
+- tool
+- category
 
-Reason
+Avoid generic folders such as `common`, `shared` or `misc`.
 
-Component grouping should be based on business domains rather than ambiguous names.
+### Consequences
 
----
-
-### Architecture process
-
-Decision
-
-Architecture decisions are documented before implementation whenever possible.
-
-Reason
-
-Documenting decisions early makes the project easier to maintain and helps avoid accidental architectural drift.
+Components remain easy to locate and the structure scales naturally.
 
 ---
 
-### Nuxt Auto Imports
+## Base Components
 
-Decision
+### Status
 
-Use Nuxt auto imports for components, composables and Vue APIs.
+Accepted
 
-Reason
+### Context
 
-Auto imports are part of the Nuxt ecosystem and improve developer experience without sacrificing maintainability.
+Many interface elements are reused across the application.
 
-Avoid overriding framework conventions unless there is a strong technical reason.
+### Decision
+
+Reusable UI elements belong in `components/base`.
+
+Examples include:
+
+- BaseButton
+- BaseInput
+- BaseCard
+
+Business-specific components should never be placed inside the base directory.
+
+### Consequences
+
+The design system remains centralized and reusable.
 
 ---
 
-## 2026-07-15
+## Styling System
 
-### SEO architecture
+### Status
 
-Decision
+Accepted
 
-Separate SEO configuration by business domains and centralize SEO application through a composable.
+### Context
 
-Structure
+The project requires a maintainable styling solution with support for themes and long-term scalability.
 
-```text
-app/
-├── seo/
-│   ├── app.ts
-│   ├── home.ts
-│   ├── tools.ts
-│   ├── categories.ts
-│   ├── collections.ts
-│   ├── compare.ts
-│   └── index.ts
-│
-└── composables/
-    └── useSeo.ts
+### Decision
 
-Reason
+Use:
+
+- Scoped SCSS
+- CSS Variables
+- Design Tokens
+
+Do not use Tailwind CSS or other utility-first CSS frameworks.
+
+### Consequences
+
+- Styles remain colocated with components.
+- Themes are implemented through CSS variables.
+- Styling remains framework-independent.
+
+---
+
+## Design Tokens
+
+### Status
+
+Accepted
+
+### Context
+
+Consistent spacing, colors and sizing improve maintainability.
+
+### Decision
+
+Use design tokens instead of hardcoded values whenever possible.
+
+Examples include spacing, colors, border radius and shadows.
+
+### Consequences
+
+The design system remains consistent and easy to evolve.
+
+---
+
+## Icons
+
+### Status
+
+Accepted
+
+### Context
+
+The project requires a consistent icon system that supports theming and minimizes maintenance.
+
+### Decision
+
+Use `@nuxt/icon` with the Lucide icon set.
+
+Prefer framework-provided icons over storing local SVG files.
+
+Only create custom SVG icons when customization is not possible.
+
+### Consequences
+
+- No manual SVG management.
+- Automatic theming through `currentColor`.
+- Consistent icon style across the application.
+
+---
+
+## Nuxt Auto Imports
+
+### Status
+
+Accepted
+
+### Context
+
+Auto imports are part of the Nuxt ecosystem and improve developer experience.
+
+### Decision
+
+Use Nuxt auto imports for:
+
+- Components
+- Composables
+- Vue APIs
+
+Avoid overriding framework conventions without a strong technical reason.
+
+### Consequences
+
+Cleaner code and better consistency with Nuxt best practices.
+
+---
+
+## SEO Architecture
+
+### Status
+
+Accepted
+
+### Context
 
 SEO is one of the fastest-growing parts of the application.
 
-Keeping SEO configuration separated by domains keeps files small, improves maintainability, and allows every page to reuse the same SEO infrastructure.
+### Decision
 
-The useSeo() composable provides a single entry point for applying metadata and allows future expansion without changing page implementations.
+Organize SEO configuration by business domains.
 
-Future
-
-Dynamic pages will use dedicated SEO builders such as:
-
-* toolSeo(tool)
-* categorySeo(category)
-* comparisonSeo(comparison)
+Use a single `useSeo()` composable as the only public API for applying page metadata.
 
 Pages should never construct SEO metadata manually.
+
+Future dynamic pages should use dedicated SEO builders.
+
+Examples:
+
+- `toolSeo()`
+- `categorySeo()`
+- `comparisonSeo()`
+
+### Consequences
+
+- Consistent SEO implementation.
+- Centralized metadata management.
+- Easy future expansion without changing page code.
+
+---
+
+## Development Process
+
+### Status
+
+Accepted
+
+### Context
+
+Architectural consistency is more important than short-term development speed.
+
+### Decision
+
+Document significant architectural decisions before implementation whenever possible.
+
+Large architectural changes should be discussed before being introduced.
+
+### Consequences
+
+- Better long-term maintainability.
+- Fewer accidental architectural inconsistencies.
+- Easier collaboration between developers and AI assistants.

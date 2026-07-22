@@ -6,7 +6,11 @@
     >
       <div class="header">
         <div class="logo">
-          {{ tool.logo }}
+          <img
+            :src="tool.logo"
+            :alt="`${tool.name} logo`"
+            class="logo-image"
+          >
         </div>
 
         <div class="content">
@@ -59,9 +63,9 @@ defineProps<{
 .link {
   display: flex;
   flex-direction: column;
-  gap: var(--space-5);
+  gap: var(--space-1-5);
 
-  padding: var(--space-5);
+  padding: var(--space-1-5);
 
   color: inherit;
   text-decoration: none;
@@ -69,7 +73,7 @@ defineProps<{
 
 .header {
   display: flex;
-  gap: var(--space-4);
+  gap: var(--space-1);
 }
 
 .logo {
@@ -77,13 +81,20 @@ defineProps<{
   align-items: center;
   justify-content: center;
 
+  flex-shrink: 0;
+
   width: 3rem;
   height: 3rem;
 
-  font-size: 1.75rem;
-
   border-radius: var(--radius-md);
   background: var(--color-background);
+}
+
+.logo-image {
+  width: 2rem;
+  height: 2rem;
+
+  object-fit: contain;
 }
 
 .content {
@@ -91,7 +102,7 @@ defineProps<{
 }
 
 .title {
-  margin-bottom: var(--space-1);
+  margin-bottom: var(--space-0-25);
 
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-semibold);

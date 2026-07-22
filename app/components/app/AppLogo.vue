@@ -17,7 +17,7 @@
 .logo {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-1);
+  gap: var(--space-0-25);
 
   color: var(--color-text);
 

@@ -4,6 +4,7 @@
     :class="{
       'input--disabled': disabled,
       'input--focused': isFocused,
+      'input--transparent': variant === 'transparent',
     }"
   >
     <slot name="prefix" />
@@ -34,11 +35,13 @@ withDefaults(
     type?: string
     placeholder?: string
     disabled?: boolean
+    variant?: 'default' | 'transparent'
   }>(),
   {
     type: 'text',
     placeholder: '',
     disabled: false,
+    variant: 'default',
   },
 )
 
@@ -49,13 +52,14 @@ const isFocused = ref(false)
 .input {
   display: flex;
   align-items: center;
-  gap: var(--space-3);
+  gap: var(--space-0-75);
 
   width: 100%;
 
   padding: .75rem 1rem;
 
   background: var(--color-surface);
+
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
 
@@ -70,12 +74,21 @@ const isFocused = ref(false)
   opacity: .6;
 }
 
+.input--transparent {
+  padding: 0;
+
+  background: transparent;
+
+  border: none;
+}
+
 .field {
   flex: 1;
 
+  background: transparent;
+
   border: none;
   outline: none;
-  background: transparent;
 
   color: var(--color-text);
 

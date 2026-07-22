@@ -6,6 +6,10 @@
 - Prefer readability over cleverness.
 - Every new dependency must have a clear purpose.
 - Do not create files or folders before they are needed.
+- Follow existing project patterns before introducing new ones.
+- Prefer consistency over personal preference.
+- Keep changes focused and atomic.
+- Never modify unrelated code.
 
 ---
 
@@ -19,75 +23,87 @@
 
 ## Naming
 
-Components
+### Components
 
 - PascalCase
 
-Example
+Examples:
 
-BaseButton.vue
+- BaseButton.vue
+- ToolCard.vue
+- SearchInput.vue
 
-ToolCard.vue
-
-SearchInput.vue
-
-Composables
+### Composables
 
 - useXxx.ts
 
-Example
+Examples:
 
-useTheme.ts
+- useTheme.ts
+- useSearch.ts
 
-useSearch.ts
-
-Services
+### Services
 
 - domain.service.ts
 
-Example
+Examples:
 
-search.service.ts
+- search.service.ts
+- tools.service.ts
 
-Types
-
-- camelCase
-
-Example
-
-search.ts
-
-category.ts
-
-Constants
+### Types
 
 - camelCase
 
-Example
+Examples:
 
-routes.ts
+- search.ts
+- category.ts
 
-pagination.ts
+### Constants
+
+- camelCase
+
+Examples:
+
+- routes.ts
+- pagination.ts
 
 ---
 
-## Styling
+## Vue
 
-- Scoped SCSS
-- CSS Variables
-- Design Tokens
-- Use rem whenever possible
-- Avoid magic numbers
+- Use `<script setup>`.
+- Use Composition API only.
+- Never use the Options API.
+- Prefer `const` over `let`.
+- Prefer arrow functions.
+- Avoid unnecessary watchers.
+- Prefer computed properties over duplicated state.
 
 ---
 
 ## Components
 
-A component should have one responsibility.
+- A component should have a single responsibility.
+- Keep components focused and easy to understand.
+- Reuse existing Base components whenever possible.
+- Split components before they become difficult to maintain.
+- Do not duplicate UI patterns.
 
-Avoid large components.
+---
 
-Split components before they become difficult to understand.
+## Styling
+
+- Scoped SCSS.
+- CSS Variables.
+- Design Tokens.
+- Use `rem` whenever possible.
+- Avoid magic numbers.
+- Never hardcode colors.
+- Never hardcode spacing.
+- Never hardcode border radius.
+- Never hardcode shadows.
 
 ---
 
@@ -95,17 +111,13 @@ Split components before they become difficult to understand.
 
 Use absolute imports whenever possible.
 
-Example
+Example:
 
-~/components/base/BaseButton.vue
+```ts
+import BaseButton from '~/components/base/BaseButton.vue'
+```
 
----
-
-## Project Philosophy
-
-Write code for the next developer.
-
-Assume that future developer is yourself six months later.
+Prefer imports from project aliases instead of relative paths.
 
 ---
 
@@ -113,10 +125,21 @@ Assume that future developer is yourself six months later.
 
 Follow Nuxt conventions whenever possible.
 
-Use Nuxt auto imports for:
+Use Nuxt auto-imports for:
 
 - Components
 - Composables
 - Vue APIs
 
 Avoid disabling built-in framework features without a clear architectural reason.
+
+---
+
+## Code Style
+
+- Keep functions short.
+- Prefer early returns.
+- Avoid deeply nested conditions.
+- Remove unused code.
+- Avoid commented-out code.
+- Write self-explanatory code before adding comments.

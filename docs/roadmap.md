@@ -1,72 +1,152 @@
 # ToolDB Roadmap
 
-## Phase 1 — Foundation
+This document describes the current development priorities.
 
-- [x] Initialize Nuxt project
-- [x] Configure Git repository
-- [x] Create GitHub repository
-- [x] Configure Node.js environment
-- [x] Project structure
-- [ ] Configure SCSS architecture
-- [ ] Configure development environment
-- [ ] Configure global styles
-- [ ] Configure design system
-- [ ] Configure Prisma
-- [ ] Configure PostgreSQL
+Only work on the current milestone unless explicitly instructed otherwise.
+
+Completed milestones remain documented for historical context.
 
 ---
 
-## Phase 2 — Design System
+# Current Milestone
 
-- [ ] SCSS architecture
-- [ ] Design Tokens
-- [ ] Typography
-- [ ] Theme system
-- [ ] Layout
-- [ ] Base Components
+## Homepage
 
----
+**Status:** In Progress
 
-## Phase 3 — Core
+### Current Focus
 
-- [ ] Homepage
-- [ ] Categories
-- [ ] Tool page
-- [ ] Search
-- [ ] Compare page
-- [ ] Collections
+- Search section
+- Theme switcher
+- Homepage polish
+- Responsive improvements
 
 ---
 
-## Phase 4 — SEO
+# Completed
 
-- [ ] Sitemap
-- [ ] robots.txt
-- [ ] Open Graph
-- [ ] Schema.org
-- [ ] Metadata
+## Foundation
+
+- [x] Initialize Nuxt 4 project
+- [x] Configure Git & GitHub
+- [x] Configure TypeScript
+- [x] Configure Nuxt auto-imports
+- [x] Configure SCSS
+- [x] Configure design tokens
+- [x] Configure global styles
+- [x] Create project structure
+
+## Design System
+
+### Base Components
+
+- [x] BaseContainer
+- [x] BaseButton
+- [x] BaseInput
+
+### Layout
+
+- [x] LayoutSection
+- [x] Header
+- [x] Footer
+
+### Shared Components
+
+- [x] AppLogo
+
+## Homepage
+
+### Hero
+
+- [x] Hero section
+
+### Categories
+
+- [x] Categories section
+- [x] Category cards
+- [x] Dynamic tool count
+
+### Tools
+
+- [x] Featured tools
+
+## Catalog
+
+### Tools
+
+- [x] Tools listing
+- [x] Tool details
+
+### Categories
+
+- [x] Categories listing
+- [x] Category details
+- [x] Filter tools by category
+
+## SEO
+
+- [x] SEO architecture
+- [x] SEO composable
+- [x] SEO configuration
 
 ---
 
-## Phase 5 — Content
+# Next Milestone
 
-- [ ] First 50 tools
-- [ ] First categories
-- [ ] First comparisons
-- [ ] First collections
+## Catalog
 
----
-
-## Phase 6 — Monetization
-
-- [ ] Affiliate programs
-- [ ] Tracking
-- [ ] Analytics
+- Tool page polish
+- Related tools
+- Collections
+- Compare page
 
 ---
 
-## Phase 7 — Public Launch
+# Future Milestones
 
-- [ ] Beta release
-- [ ] Indexing
-- [ ] Promotion
+## Search
+
+- Backend search
+- Filters
+- Sorting
+- Pagination
+
+## Database
+
+- Prisma
+- PostgreSQL
+- Database schema
+- Seed data
+- API endpoints
+
+## Content
+
+- Import tools
+- Import categories
+- Import collections
+- Import comparisons
+
+## Monetization
+
+- Affiliate links
+- Analytics
+- Submit tool
+
+## Launch
+
+- Beta testing
+- Performance optimization
+- Accessibility audit
+- Production deployment
+- Search engine indexing
+
+---
+
+# Development Notes
+
+When implementing new features:
+
+- Focus only on the current milestone.
+- Do not implement future milestones unless explicitly requested.
+- Prefer improving existing functionality over introducing new systems.
+- Keep changes small and incremental.

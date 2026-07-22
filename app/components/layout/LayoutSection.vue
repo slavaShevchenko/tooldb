@@ -1,22 +1,31 @@
 <template>
   <section class="section">
     <header
-      v-if="title || description"
+      v-if="title || description || $slots.action"
       class="header"
     >
-      <h2
-        v-if="title"
-        class="title"
-      >
-        {{ title }}
-      </h2>
+      <div class="content">
+        <h2
+          v-if="title"
+          class="title"
+        >
+          {{ title }}
+        </h2>
 
-      <p
-        v-if="description"
-        class="description"
+        <p
+          v-if="description"
+          class="description"
+        >
+          {{ description }}
+        </p>
+      </div>
+
+      <div
+        v-if="$slots.action"
+        class="action"
       >
-        {{ description }}
-      </p>
+        <slot name="action" />
+      </div>
     </header>
 
     <slot />
@@ -32,15 +41,24 @@ defineProps<{
 
 <style scoped lang="scss">
 .section {
-  margin-top: var(--space-8);
+  margin-top: var(--space-4);
 }
 
 .header {
-  margin-bottom: var(--space-5);
+  display: flex;
+  gap: var(--space-1);
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-bottom: var(--space-1-5);
+}
+
+.content {
+  min-width: 0;
 }
 
 .title {
-  margin-bottom: var(--space-2);
+  margin-bottom: var(--space-0-5);
 
   font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-bold);
@@ -50,5 +68,15 @@ defineProps<{
   max-width: 42rem;
 
   color: var(--color-text-secondary);
+}
+
+.action {
+  flex: 0 0 auto;
+}
+
+@media (width <= 640px) {
+  .header {
+    flex-direction: column;
+  }
 }
 </style>

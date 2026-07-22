@@ -1,30 +1,8 @@
 # ToolDB Architecture
 
-## Vision
-
-ToolDB is an open catalog of digital products that helps users discover, compare and choose the best software for their needs.
-
-The project is built with long-term scalability in mind. Every architectural decision should prioritize maintainability, SEO, performance and developer experience.
-
----
-
-## Core Principles
-
-- SEO first
-- Server-side rendering
-- Mobile first
-- Accessibility
-- Reusable components
-- Clean architecture
-- Strong typing
-- No duplicated code
-- Simplicity over complexity
-
----
-
 ## Tech Stack
 
-Frontend
+### Frontend
 
 - Vue 3
 - Nuxt 4
@@ -32,16 +10,16 @@ Frontend
 - SCSS
 - CSS Variables
 
-Backend
+### Backend
 
 - Nuxt Server API
 
-Database
+### Database
 
 - PostgreSQL (planned)
 - Prisma ORM (planned)
 
-Infrastructure
+### Infrastructure
 
 - Node.js 24 LTS
 - npm
@@ -50,7 +28,11 @@ Infrastructure
 
 ---
 
-## Current top-level structure:
+## Directory Structure
+
+The project follows the default Nuxt directory structure whenever possible.
+
+Main directories:
 
 - app/
 - assets/
@@ -68,6 +50,69 @@ Infrastructure
 - types/
 - utils/
 
+Only directories that are actively used should exist.
+
+Avoid creating folders "for the future".
+
+---
+
+## Application Layers
+
+### Pages
+
+- Route entry points.
+- Compose page layout.
+- Should remain thin.
+- Should not contain business logic.
+
+### Composables
+
+- Business logic.
+- Data transformations.
+- Shared application logic.
+
+### Components
+
+- UI only.
+- Rendering and user interaction.
+- No business logic.
+- No data fetching.
+
+### Services
+
+- API communication.
+
+### Constants
+
+- Shared constants.
+
+### Types
+
+- Shared TypeScript types.
+
+### SEO
+
+- Page metadata.
+- Structured SEO configuration.
+
+---
+
+## Data Flow
+
+The preferred application flow is:
+
+Page
+
+↓
+
+Composable
+
+↓
+
+Component
+
+Business logic should not bypass composables.
+
 ---
 
 ## Development Principles
@@ -75,8 +120,35 @@ Infrastructure
 - Every commit must leave the project in a working state.
 - Every dependency must have a clear purpose.
 - Avoid premature optimization.
-- Discuss architecture before implementing large features.
 - Prefer readability over cleverness.
+- Prefer extending existing patterns over introducing new ones.
+- Discuss architecture before implementing large features.
+- Keep changes atomic.
+- Do not modify unrelated code.
+- Read nearby code before implementing new functionality.
+
+---
+
+## Component Philosophy
+
+- Every component has a single responsibility.
+- Components should be reusable whenever possible.
+- Business logic belongs in composables.
+- Components should focus on rendering and user interaction.
+- Avoid tightly coupled components.
+
+---
+
+## Reuse Priority
+
+Before creating new code, always check for an existing solution.
+
+Priority:
+
+1. Existing Base component
+2. Existing domain component
+3. Existing composable
+4. Create a new implementation
 
 ---
 
@@ -90,23 +162,14 @@ Infrastructure
 - No Tailwind CSS
 - No CSS frameworks
 
----
+Never hardcode:
 
-## Component Philosophy
+- colors
+- spacing
+- border radius
+- shadows
 
-Every component owns its markup, styles and behavior.
-
-A component should be understandable without opening unrelated files.
-
----
-
-## Project Structure
-
-The project follows the default Nuxt directory structure whenever possible.
-
-Only directories that are actively used should exist.
-
-Avoid creating folders "for the future".
+Prefer design tokens and CSS variables.
 
 ---
 
@@ -114,7 +177,7 @@ Avoid creating folders "for the future".
 
 The domain model should evolve together with the product.
 
-Business entities are designed only when requirements become clear.
+Business entities are introduced only when requirements become clear.
 
 Avoid premature abstractions.
 
@@ -126,6 +189,10 @@ The project grows only when necessary.
 
 New folders, dependencies and abstractions are introduced only when they solve a real problem.
 
+Consistency is preferred over cleverness.
+
+Simple solutions are preferred over complex ones.
+
 ---
 
 ## SEO
@@ -135,3 +202,17 @@ SEO is treated as a dedicated application layer.
 SEO configuration is organized by business domains rather than by page implementation.
 
 All pages apply metadata exclusively through the `useSeo()` composable.
+
+---
+
+## AI Development
+
+AI assistants should:
+
+- inspect surrounding files before making changes
+- follow existing architecture and coding patterns
+- reuse existing components before creating new ones
+- avoid introducing new abstractions without a clear benefit
+- avoid modifying unrelated files
+- keep changes focused and atomic
+- prefer consistency over personal preference

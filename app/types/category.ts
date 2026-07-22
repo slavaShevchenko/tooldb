@@ -3,8 +3,10 @@ export interface Category {
   slug: string
 
   name: string
-
   description: string
 
   icon: string
+
+  isSeeMore?: boolean
+  to?: string
 }

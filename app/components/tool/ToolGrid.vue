@@ -19,7 +19,7 @@ defineProps<{
 <style scoped lang="scss">
 .grid {
   display: grid;
-  gap: var(--space-5);
+  gap: var(--space-1-5);
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 </style>

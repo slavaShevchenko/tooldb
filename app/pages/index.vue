@@ -2,9 +2,9 @@
   <BaseContainer>
     <HomeHero />
 
-    <HomeSearch />
-
     <HomeCategories />
+
+    <HomeRecentlyAddedTools />
 
     <HomeFeaturedTools />
   </BaseContainer>
