@@ -1,18 +1,18 @@
 <template>
   <BaseContainer>
-    <LayoutSection
-      :title="tool?.name ?? 'Tool not found'"
-      :description="tool?.description ?? ''"
-    >
-      <ToolCard
-        v-if="tool"
-        :tool="tool"
-      />
+    <template v-if="tool">
+      <ToolHero :tool="tool" />
 
-      <p v-else>
-        Tool not found.
-      </p>
-    </LayoutSection>
+      <ToolOverview :tool="tool" />
+
+      <ToolFeatures :tool="tool" />
+
+      <ToolStats :tool="tool" />
+    </template>
+
+    <p v-else>
+      Tool not found.
+    </p>
   </BaseContainer>
 </template>
 

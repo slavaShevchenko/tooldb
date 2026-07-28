@@ -1,29 +1,53 @@
 <template>
-  <button
+  <component
+    :is="tag"
+    :to="to"
+    :href="href"
+    :target="target"
+    :rel="target === '_blank' ? 'noopener noreferrer' : undefined"
     class="button"
     :class="[
       `button--${variant}`,
-      `button--${size}`,
+      `button--${size}`
     ]"
-    :disabled="disabled"
+    :disabled="tag === 'button' ? disabled : undefined"
   >
     <slot />
-  </button>
+  </component>
 </template>
 
 <script setup lang="ts">
-withDefaults(
+import { computed } from 'vue'
+
+const props = withDefaults(
   defineProps<{
     variant?: 'primary' | 'secondary' | 'ghost'
     size?: 'sm' | 'md' | 'lg'
     disabled?: boolean
+
+    to?: string
+    href?: string
+    target?: '_blank' | '_self'
   }>(),
   {
     variant: 'primary',
     size: 'md',
     disabled: false,
-  },
+    target: '_self'
+  }
 )
+
+const tag = computed(() => {
+  if (props.to) {
+    return 'NuxtLink'
+  }
+
+  if (props.href) {
+    return 'a'
+  }
+
+  return 'button'
+})
 </script>
 
 <style scoped lang="scss">

@@ -3,11 +3,11 @@
     to="/"
     class="logo"
   >
-    <span class="accent">
+    <span class="primary">
       Tool
     </span>
 
-    <span>
+    <span class="secondary">
       DB
     </span>
   </NuxtLink>
@@ -25,7 +25,11 @@
   font-weight: var(--font-weight-bold);
 }
 
-.accent {
+.primary {
   color: var(--color-primary);
+}
+
+.secondary {
+  color: var(--color-secondary);
 }
 </style>

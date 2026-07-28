@@ -30,7 +30,12 @@
         </span>
 
         <span class="rating">
-          ★ {{ tool.rating }}
+          <BaseIcon
+            name="star"
+            :size="20"
+            :color="'var(--color-secondary)'"
+          />
+          {{ tool.rating }}
         </span>
       </div>
     </NuxtLink>
@@ -48,7 +53,9 @@ defineProps<{
 
 <style scoped lang="scss">
 .card {
-  background: var(--color-surface);
+  background:
+    linear-gradient(var(--color-surface), var(--color-surface)) padding-box,
+    linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%) border-box;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
 
@@ -58,6 +65,7 @@ defineProps<{
 .card:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+  border: 1px solid transparent;
 }
 
 .link {
@@ -123,5 +131,10 @@ defineProps<{
 .rating {
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: var(--space-0-25);
 }
 </style>

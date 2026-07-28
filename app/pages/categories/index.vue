@@ -16,3 +16,9 @@ const { categories } = useCategories()
 
 useSeo(categoriesSeo)
 </script>
+
+<style scoped lang="scss">
+  .section {
+    margin-top: var(--space-2);
+  }
+</style>

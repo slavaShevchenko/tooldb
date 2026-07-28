@@ -11,16 +11,20 @@ export const footerLinkGroups: FooterLinkGroup[] = [
     title: 'Navigation',
     links: [
       {
+        label: 'Tools',
+        to: routes.tools(),
+      },
+      {
         label: 'Categories',
         to: routes.categories(),
       },
       {
-        label: 'Collections',
-        to: routes.collections(),
-      },
-      {
         label: 'Compare',
         to: routes.compare(),
+      },
+      {
+        label: 'Collections',
+        to: routes.collections(),
       },
     ],
   },

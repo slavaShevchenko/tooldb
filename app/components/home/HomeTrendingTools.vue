@@ -32,9 +32,12 @@ const { featuredTools } = useTools()
 <style scoped lang="scss">
 .trending {
   padding: var(--space-1-5);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
+  border: 1px solid transparent;
   border-radius: var(--radius-lg);
+
+  background:
+    linear-gradient(var(--color-surface), var(--color-surface)) padding-box,
+    linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%) border-box;
 }
 
 .trending__header {

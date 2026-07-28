@@ -1,10 +1,13 @@
 <template>
   <BaseContainer>
     <LayoutSection
-      title="All Tools"
-      description="Browse all available tools in the catalog."
+      v-for="toolCategory in toolCategories"
+      :key="toolCategory.id"
+      :title="toolCategory.name"
+      :description="toolCategory.description"
+      :icon="toolCategory.icon"
     >
-      <ToolGrid :tools="tools" />
+      <ToolGrid :tools="toolCategory.tools" />
     </LayoutSection>
   </BaseContainer>
 </template>
@@ -12,7 +15,7 @@
 <script setup lang="ts">
 import { toolsSeo } from '~/seo'
 
-const { tools } = useTools()
+const { toolCategories } = useTools()
 
 useSeo(toolsSeo)
 </script>

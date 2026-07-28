@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <BaseContainer>
+    <BaseContainer top-line>
       <div class="layout">
         <div class="brand">
           <AppLogo />
@@ -51,8 +51,6 @@ import { footerBrand, footerLinkGroups } from '~/data/footer'
 <style scoped lang="scss">
 .footer {
   padding: var(--space-4) 0;
-
-  background: var(--color-background);
 }
 
 .layout {

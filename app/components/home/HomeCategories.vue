@@ -3,16 +3,6 @@
     title="Browse by category"
     description="Explore tools by category."
   >
-    <template #action>
-      <NuxtLink
-        :to="routes.categories()"
-        class="link"
-      >
-        View all categories
-        <span aria-hidden="true">&rarr;</span>
-      </NuxtLink>
-    </template>
-
     <CategoryGrid
       :categories="categories"
       :limit="7"

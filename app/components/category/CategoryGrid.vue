@@ -42,11 +42,11 @@ const hasMoreCategories = computed(() => {
 })
 
 const seeMoreCategory: Category = {
-  id: 'see-more',
-  slug: '',
+  id: 'see-all',
+  slug: 'see-all',
   name: 'See all',
   description: '',
-  icon: '→',
+  icon: 'arrow-right',
   isSeeMore: true,
   to: routes.categories(),
 }

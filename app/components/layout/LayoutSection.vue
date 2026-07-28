@@ -9,6 +9,17 @@
           v-if="title"
           class="title"
         >
+          <span
+            v-if="icon"
+            class="icon"
+          >
+            <BaseIcon
+              :name="icon"
+              :size="28"
+              color="var(--color-surface)"
+            />
+          </span>
+
           {{ title }}
         </h2>
 
@@ -36,12 +47,13 @@
 defineProps<{
   title?: string
   description?: string
+  icon?: string
 }>()
 </script>
 
 <style scoped lang="scss">
 .section {
-  margin-top: var(--space-4);
+  margin-bottom: var(--space-4);
 }
 
 .header {
@@ -58,10 +70,33 @@ defineProps<{
 }
 
 .title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-0-75);
+
   margin-bottom: var(--space-0-5);
 
   font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-bold);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.5rem;
+  height: 2.5rem;
+
+  border-radius: var(--radius-md);
+
+  background: linear-gradient(
+    135deg,
+    var(--color-secondary) 0%,
+    var(--color-primary) 100%
+  );
+
+  flex-shrink: 0;
 }
 
 .description {

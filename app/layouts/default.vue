@@ -2,6 +2,8 @@
   <div class="layout">
     <AppHeader />
 
+    <LayoutBreadcrumbs />
+
     <main class="layout__main">
       <slot />
     </main>
@@ -20,6 +22,53 @@ import AppFooter from '~/components/layout/AppFooter.vue'
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.layout::before,
+.layout::after {
+  content: '';
+  opacity: 0.15;
+  width: 100%;
+  aspect-ratio: 1;
+  background: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  filter: blur(200px);
+  animation: rotateGlowHeader 3s linear infinite;
+}
+
+.layout::after {
+  left: auto;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  transform: translate(50%, 50%);
+  animation: rotateGlowFooter 3s linear infinite;
+}
+
+@keyframes rotateGlowHeader {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes rotateGlowFooter {
+  from {
+    transform: translate(50%, 50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(50%, 50%) rotate(360deg);
+  }
 }
 
 .layout__main {

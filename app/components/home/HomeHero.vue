@@ -30,7 +30,8 @@
 
 <style scoped lang="scss">
 .hero {
-  padding: var(--space-4) 0;
+  margin-bottom: var(--space-4);
+  padding-top: var(--space-2);
 }
 
 .hero__layout {
@@ -50,27 +51,21 @@
 
 .hero__eyebrow {
   display: inline-block;
-
   margin-bottom: var(--space-1);
-
   color: var(--color-primary);
   font-weight: var(--font-weight-semibold);
 }
 
 .hero__title {
   margin-bottom: var(--space-1-5);
-
   font-size: var(--font-size-3xl);
   line-height: 1.15;
 }
 
 .hero__description {
   max-width: 640px;
-
   margin-bottom: var(--space-3);
-
   color: var(--color-text-secondary);
-
   font-size: var(--font-size-lg);
   line-height: 1.7;
 }

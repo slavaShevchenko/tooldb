@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <BaseContainer class="content">
+    <BaseContainer class="content" bottom-line>
       <AppLogo />
 
       <nav class="nav">
@@ -24,8 +24,6 @@ import { navigation } from '~/constants/navigation'
 <style scoped lang="scss">
 .header {
   padding: var(--space-1-5) 0;
-  background: var(--color-background);
-  border-bottom: 1px solid var(--color-border);
 }
 
 .content {

@@ -43,6 +43,10 @@ export const TOOL_CATEGORIES = {
     id: 'writing',
     title: 'Writing',
   },
+  SEE_ALL: {
+    id: 'see-all',
+    title: 'See All',
+  },
 } as const
 
 export type ToolCategory =

@@ -23,7 +23,12 @@
       </div>
 
       <div class="rating">
-        ★ {{ tool.rating }}
+        <BaseIcon
+          name="star"
+          :size="20"
+          :color="'var(--color-secondary)'"
+        />
+        {{ tool.rating }}
       </div>
     </NuxtLink>
   </article>
@@ -97,6 +102,9 @@ defineProps<{
 }
 
 .rating {
+  display: flex;
+  align-items: center;
+  gap: var(--space-0-25);
   color: var(--color-text-secondary);
 
   font-size: var(--font-size-sm);

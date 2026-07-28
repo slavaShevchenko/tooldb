@@ -8,7 +8,11 @@
       class="link"
     >
       <div class="icon">
-        {{ category.icon }}
+        <BaseIcon
+          :name="category.icon"
+          :size="40"
+          :color="'var(--color-surface)'"
+        />
       </div>
 
       <h3 class="title">
@@ -44,16 +48,18 @@ const toolCount = computed(() =>
 
 <style scoped lang="scss">
 .card {
-  background: var(--color-surface);
+  background:
+    linear-gradient(var(--color-surface), var(--color-surface)) padding-box,
+    linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%) border-box;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-
   transition: var(--transition-fast);
 }
 
 .card:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+  border: 1px solid transparent;
 }
 
 .link {
@@ -62,10 +68,7 @@ const toolCount = computed(() =>
   align-items: center;
   justify-content: center;
   gap: var(--space-0-75);
-
-  min-height: calc(var(--space-6) + var(--space-1));
   padding: var(--space-1);
-
   color: inherit;
   text-align: center;
   text-decoration: none;
@@ -75,14 +78,11 @@ const toolCount = computed(() =>
   display: flex;
   align-items: center;
   justify-content: center;
-
-  width: calc(var(--space-2) + var(--space-0-5));
-  height: calc(var(--space-2) + var(--space-0-5));
-
+  width: calc(var(--space-3) + var(--space-0-5));
+  height: calc(var(--space-3) + var(--space-0-5));
   font-size: 2rem;
-
   border-radius: var(--radius-md);
-  background: var(--color-surface-secondary);
+  background: linear-gradient(135deg, var(--color-secondary-75) 0%, var(--color-primary-75) 100%) border-box;
 }
 
 .title {
@@ -92,7 +92,6 @@ const toolCount = computed(() =>
 
 .count {
   color: var(--color-text-secondary);
-
   font-size: var(--font-size-xs);
 }
 
@@ -100,16 +99,9 @@ const toolCount = computed(() =>
   display: flex;
   align-items: center;
   justify-content: center;
-  border-style: dashed;
-  border-color: var(--color-primary);
 }
 
 .card--see-more .icon {
   background: var(--color-primary);
-  color: #fff;
-}
-
-.card--see-more .title {
-  color: var(--color-primary);
 }
 </style>

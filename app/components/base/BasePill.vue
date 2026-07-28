@@ -27,7 +27,7 @@ defineProps<{
   text-decoration: none;
   white-space: nowrap;
 
-  background: var(--color-surface-secondary);
+  background: var(--color-surface);
   border-radius: var(--radius-pill);
 
   transition: var(--transition-fast);
