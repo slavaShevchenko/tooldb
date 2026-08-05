@@ -47,14 +47,10 @@ defineProps<{
 <style scoped lang="scss">
 .link {
   display: flex;
-  align-items: center;
   gap: var(--space-0-75);
-
   padding: var(--space-0-5) 0;
-
   color: inherit;
   text-decoration: none;
-
   transition: var(--transition-fast);
 }
 
@@ -66,20 +62,16 @@ defineProps<{
   display: flex;
   align-items: center;
   justify-content: center;
-
   flex-shrink: 0;
-
-  width: 2.5rem;
-  height: 2.5rem;
-
+  width: var(--space-2-5);
+  height: var(--space-2-5);
   border-radius: var(--radius-md);
   background: var(--color-background);
 }
 
 .logo-image {
-  width: 1.5rem;
-  height: 1.5rem;
-
+  width: var(--space-1-5);
+  height: var(--space-1-5);
   object-fit: contain;
 }
 
@@ -90,15 +82,14 @@ defineProps<{
 
 .title {
   margin-bottom: var(--space-0-25);
-
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-semibold);
 }
 
 .tagline {
   color: var(--color-text-secondary);
-
   font-size: var(--font-size-sm);
+  line-height: 1.25;
 }
 
 .rating {

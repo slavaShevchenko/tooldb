@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const elevenlabsContent: ToolContent = {
+  overview: `ElevenLabs is one of the world's leading AI voice generation platforms, allowing users to create realistic speech, clone voices, dub videos, and build conversational AI experiences using advanced artificial intelligence. Designed for content creators, businesses, developers, educators, publishers, and media companies, the platform transforms written text into natural-sounding speech with impressive accuracy, emotional expression, and multilingual support. Its high-quality voice synthesis has made ElevenLabs one of the most popular AI tools for voice generation, audiobook production, podcasts, videos, customer support, and interactive applications.
+
+At the core of ElevenLabs is its advanced text-to-speech technology, capable of producing human-like voices that capture natural pacing, pronunciation, emotion, and intonation. Users can choose from a growing library of professionally created voices or generate entirely new voices that match their specific needs. The platform also offers AI voice cloning, allowing creators to replicate existing voices with appropriate permission, making it possible to maintain a consistent voice across different projects while significantly reducing recording time.
+
+Beyond voice generation, ElevenLabs provides AI dubbing and multilingual translation tools that help creators localize videos, podcasts, courses, and marketing content for international audiences. Speech can be translated into multiple languages while preserving the speaker's original tone and style, enabling businesses to expand their global reach without the cost of traditional voice recording sessions.
+
+Developers can integrate ElevenLabs into their own applications through a comprehensive API that supports text-to-speech, speech-to-text, voice cloning, conversational AI, and real-time voice generation. This makes the platform suitable for building AI assistants, customer service bots, accessibility tools, gaming experiences, educational software, and voice-enabled products. Combined with low latency and scalable infrastructure, ElevenLabs has become a popular choice for companies building next-generation AI applications.
+
+The platform continues to evolve with new AI models, improved speech quality, and additional tools for creators and enterprises. While some advanced capabilities require paid subscription plans, the free tier allows users to explore many of the platform's core features before upgrading.
+
+Overall, ElevenLabs is widely recognized as one of the best AI voice generators available today. Its combination of realistic text-to-speech technology, voice cloning, multilingual dubbing, developer APIs, and enterprise-ready infrastructure makes it an excellent solution for anyone looking to create professional voice content, automate audio production, or build innovative AI-powered voice experiences.`
+}

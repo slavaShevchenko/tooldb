@@ -28,10 +28,10 @@ import AppFooter from '~/components/layout/AppFooter.vue'
 .layout::before,
 .layout::after {
   content: '';
-  opacity: 0.15;
+  opacity: 0.25;
   width: 100%;
   aspect-ratio: 1;
-  background: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+  background: linear-gradient(90deg, var(--color-secondary) 25%, var(--color-primary) 100%);
   border-radius: 100%;
   position: absolute;
   left: 0;
@@ -39,7 +39,8 @@ import AppFooter from '~/components/layout/AppFooter.vue'
   z-index: -1;
   transform: translate(-50%, -50%);
   filter: blur(200px);
-  animation: rotateGlowHeader 3s linear infinite;
+  animation: rotateGlowHeader 4s linear infinite;
+  pointer-events: none;
 }
 
 .layout::after {
@@ -48,7 +49,7 @@ import AppFooter from '~/components/layout/AppFooter.vue'
   top: auto;
   bottom: 0;
   transform: translate(50%, 50%);
-  animation: rotateGlowFooter 3s linear infinite;
+  animation: rotateGlowFooter 4s linear infinite;
 }
 
 @keyframes rotateGlowHeader {

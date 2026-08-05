@@ -25,6 +25,16 @@ export function useBreadcrumbs() {
       return []
     }
 
+    const pageBreadcrumb = route.meta.breadcrumb
+
+    if (typeof pageBreadcrumb === 'string') {
+      items.push({
+        label: pageBreadcrumb,
+      })
+
+      return items
+    }
+
     if (path.startsWith('/tools')) {
       items.push({
         label: 'Tools',

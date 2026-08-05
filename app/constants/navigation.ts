@@ -9,12 +9,4 @@ export const navigation = [
     label: 'Categories',
     to: routes.categories(),
   },
-  {
-    label: 'Compare',
-    to: routes.compare(),
-  },
-  {
-    label: 'Collections',
-    to: routes.collections(),
-  },
 ] as const

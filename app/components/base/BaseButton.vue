@@ -8,7 +8,8 @@
     class="button"
     :class="[
       `button--${variant}`,
-      `button--${size}`
+      `button--${size}`,
+      width ? `button--width-${width}` : '',
     ]"
     :disabled="tag === 'button' ? disabled : undefined"
   >
@@ -23,6 +24,7 @@ const props = withDefaults(
   defineProps<{
     variant?: 'primary' | 'secondary' | 'ghost'
     size?: 'sm' | 'md' | 'lg'
+    width?: 'full' | 'auto'
     disabled?: boolean
 
     to?: string
@@ -32,6 +34,7 @@ const props = withDefaults(
   {
     variant: 'primary',
     size: 'md',
+    width: 'auto',
     disabled: false,
     target: '_self'
   }
@@ -52,18 +55,13 @@ const tag = computed(() => {
 
 <style scoped lang="scss">
 .button {
-  display: inline-flex;
   align-items: center;
   justify-content: center;
-
   border: none;
   border-radius: var(--radius-md);
-
   cursor: pointer;
-
   font: inherit;
   font-weight: var(--font-weight-semibold);
-
   transition: var(--transition-fast);
 
   &:disabled {
@@ -75,25 +73,35 @@ const tag = computed(() => {
 /* Sizes */
 
 .button--sm {
-  padding: .5rem .875rem;
+  padding: var(--space-0-5) var(--space-0-75);
   font-size: var(--font-size-sm);
 }
 
 .button--md {
-  padding: .75rem 1.25rem;
+  padding: var(--space-0-75) var(--space-1-25);
   font-size: var(--font-size-md);
 }
 
 .button--lg {
-  padding: 1rem 1.75rem;
+  padding: var(--space-1) var(--space-1-75);
   font-size: var(--font-size-lg);
+}
+
+/* Widths */
+
+.button--width-full {
+  display: flex;
+}
+
+.button--width-auto {
+  display: inline-flex;
 }
 
 /* Variants */
 
 .button--primary {
   background: var(--color-primary);
-  color: white;
+  color: var(--color-surface);
 
   &:hover:not(:disabled) {
     background: var(--color-primary-hover);
@@ -103,7 +111,6 @@ const tag = computed(() => {
 .button--secondary {
   background: var(--color-surface);
   color: var(--color-text);
-
   border: 1px solid var(--color-border);
 
   &:hover:not(:disabled) {

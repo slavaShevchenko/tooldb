@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const clickUpContent: ToolContent = {
+  overview: `ClickUp is a comprehensive project management and productivity platform designed to help teams organize work, collaborate efficiently, and manage projects from a single workspace. Used by startups, marketing teams, software companies, agencies, and large enterprises, ClickUp combines task management, documents, goals, time tracking, dashboards, automation, and team communication into one unified solution. Its flexibility allows organizations to replace multiple standalone productivity tools with a single platform that scales as their business grows.
+
+One of ClickUp's biggest strengths is its highly customizable workspace. Teams can organize projects using Lists, Boards, Calendars, Gantt charts, Timelines, Mind Maps, or Table views depending on their preferred workflow. Tasks support priorities, custom statuses, subtasks, dependencies, recurring schedules, file attachments, comments, checklists, and custom fields, making the platform suitable for everything from simple to-do lists to complex cross-functional project management.
+
+Beyond task management, ClickUp includes powerful collaboration features that help teams work together in real time. Users can create documentation with ClickUp Docs, assign comments, share updates, manage company knowledge, collaborate on whiteboards, track goals and OKRs, and build custom dashboards to monitor team performance. Built-in automation reduces repetitive work by automatically assigning tasks, updating statuses, sending notifications, and triggering workflows based on predefined rules.
+
+ClickUp integrates with hundreds of popular business tools, including Slack, GitHub, Google Workspace, Microsoft Teams, Zoom, Figma, Dropbox, GitLab, HubSpot, and many others. Combined with its API and growing ecosystem of integrations, the platform fits naturally into existing business processes without requiring companies to replace their entire software stack.
+
+The platform is available on the web, desktop, and mobile devices, allowing teams to stay productive wherever they work. While ClickUp offers an impressive range of features, new users may need some time to explore its capabilities and configure workspaces to match their preferred workflows. However, this flexibility is also one of the reasons why organizations of all sizes choose ClickUp over simpler task management applications.
+
+Overall, ClickUp is one of the most powerful all-in-one productivity and project management platforms available today. Its combination of project planning, collaboration, workflow automation, reporting, and customization makes it an excellent choice for teams looking to improve productivity, centralize operations, and manage work more efficiently from a single platform.`
+}

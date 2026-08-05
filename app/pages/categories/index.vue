@@ -4,7 +4,7 @@
       title="Categories"
       description="Browse tools by category."
     >
-      <CategoryGrid :categories="categories" />
+      <CategoryGrid :categories="toolCategories" />
     </LayoutSection>
   </BaseContainer>
 </template>
@@ -12,9 +12,18 @@
 <script setup lang="ts">
 import { categoriesSeo } from '~/seo'
 
-const { categories } = useCategories()
+const { toolCategories } = useTools()
 
-useSeo(categoriesSeo)
+useBreadcrumbJsonLd([
+  { name: 'Home', url: '/' },
+  { name: 'Categories', url: '/categories' },
+])
+
+useSeo({
+  title: categoriesSeo.title,
+  description: categoriesSeo.description,
+  canonical: 'https://tooldb.org/categories',
+})
 </script>
 
 <style scoped lang="scss">

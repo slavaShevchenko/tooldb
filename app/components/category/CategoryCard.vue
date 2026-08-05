@@ -23,14 +23,13 @@
         v-if="!category.isSeeMore"
         class="count"
       >
-        {{ toolCount }} tools
+        {{ category.toolCount }} tools
       </span>
     </NuxtLink>
   </article>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
 import { routes } from '~/constants/routes'
 
 import type { Category } from '~/types/category'
@@ -38,12 +37,6 @@ import type { Category } from '~/types/category'
 const props = defineProps<{
   category: Category
 }>()
-
-const { getToolsByCategory } = useTools()
-
-const toolCount = computed(() =>
-  getToolsByCategory(props.category.slug).length
-)
 </script>
 
 <style scoped lang="scss">
@@ -80,7 +73,7 @@ const toolCount = computed(() =>
   justify-content: center;
   width: calc(var(--space-3) + var(--space-0-5));
   height: calc(var(--space-3) + var(--space-0-5));
-  font-size: 2rem;
+  font-size: var(--font-size-2xl);
   border-radius: var(--radius-md);
   background: linear-gradient(135deg, var(--color-secondary-75) 0%, var(--color-primary-75) 100%) border-box;
 }

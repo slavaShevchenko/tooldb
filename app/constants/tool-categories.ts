@@ -7,29 +7,45 @@ export const TOOL_CATEGORIES = {
     id: 'analytics',
     title: 'Analytics',
   },
-  AUTOMATION: {
-    id: 'automation',
-    title: 'Automation',
+  COMMUNICATION: {
+    id: 'communication',
+    title: 'Communication',
   },
-  COLLABORATION: {
-    id: 'collaboration',
-    title: 'Collaboration',
+  COMMUNITY: {
+    id: 'community',
+    title: 'Community',
+  },
+  CRM: {
+    id: 'crm',
+    title: 'CRM',
   },
   DESIGN: {
     id: 'design',
     title: 'Design',
   },
-  DEVELOPER: {
-    id: 'developer',
-    title: 'Developer',
+  ECOMMERCE: {
+    id: 'ecommerce',
+    title: 'Ecommerce',
+  },
+  EDUCATION: {
+    id: 'education',
+    title: 'Education',
+  },
+  FINANCE: {
+    id: 'finance',
+    title: 'Finance',
+  },
+  HR: {
+    id: 'hr',
+    title: 'HR',
   },
   MARKETING: {
     id: 'marketing',
     title: 'Marketing',
   },
-  NO_CODE: {
-    id: 'no-code',
-    title: 'No-Code',
+  MEDIA: {
+    id: 'media',
+    title: 'Media',
   },
   PRODUCTIVITY: {
     id: 'productivity',
@@ -39,17 +55,19 @@ export const TOOL_CATEGORIES = {
     id: 'sales',
     title: 'Sales',
   },
-  WRITING: {
-    id: 'writing',
-    title: 'Writing',
+  SECURITY: {
+    id: 'security',
+    title: 'Security',
   },
-  SEE_ALL: {
-    id: 'see-all',
-    title: 'See All',
+  SEO: {
+    id: 'seo',
+    title: 'SEO',
+  },
+  WEB_DEVELOPMENT: {
+    id: 'web-development',
+    title: 'WebDev',
   },
 } as const
 
 export type ToolCategory =
   typeof TOOL_CATEGORIES[keyof typeof TOOL_CATEGORIES]['id']
-
-export const TOOL_CATEGORY_LIST = Object.values(TOOL_CATEGORIES)

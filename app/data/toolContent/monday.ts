@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const mondaycomContent: ToolContent = {
+  overview: `monday.com is a cloud-based work management platform that helps teams plan projects, manage tasks, automate workflows, and collaborate more efficiently from a single workspace. Originally launched as a project management solution, monday.com has evolved into a flexible Work OS that can be customized for marketing, sales, software development, human resources, operations, customer support, and many other business functions. Organizations of all sizes use the platform to replace spreadsheets, scattered documents, and disconnected tools with a centralized system for managing work.
+
+One of monday.com's biggest advantages is its flexibility. Users can build custom workflows using boards, groups, columns, statuses, automations, dashboards, timelines, calendars, Kanban boards, Gantt charts, and workload views without writing code. Teams can track project progress, assign responsibilities, monitor deadlines, manage resources, and visualize work using multiple layouts that fit different business processes. Whether managing a simple marketing campaign or coordinating hundreds of tasks across multiple departments, monday.com adapts to the way teams prefer to work.
+
+Automation plays a significant role in the platform. Routine processes such as assigning tasks, sending notifications, updating statuses, creating recurring items, or syncing information between boards can be automated using built-in workflow rules. This reduces manual work, minimizes human error, and allows employees to focus on higher-value activities instead of repetitive administration.
+
+monday.com also offers a large ecosystem of integrations with popular business applications, including Slack, Microsoft Teams, Google Workspace, Zoom, Jira, GitHub, Salesforce, HubSpot, Outlook, Dropbox, and many more. Together with its API and marketplace of extensions, the platform can become the operational hub for companies that rely on multiple software solutions throughout their daily work.
+
+Beyond project management, monday.com provides reporting dashboards, workload management, document collaboration, file sharing, forms, time tracking, goal monitoring, and advanced permissions for larger organizations. The platform is available through web browsers, desktop applications, and mobile apps, making it easy for distributed teams to stay connected whether they work remotely or in the office.
+
+Overall, monday.com is one of the most versatile work management platforms available today. Its combination of project planning, workflow automation, team collaboration, customizable dashboards, and extensive integrations makes it an excellent choice for businesses looking to improve productivity, streamline operations, and manage projects more efficiently from a single, highly customizable platform.`
+}

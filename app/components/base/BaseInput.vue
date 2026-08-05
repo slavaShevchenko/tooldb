@@ -53,16 +53,11 @@ const isFocused = ref(false)
   display: flex;
   align-items: center;
   gap: var(--space-0-75);
-
   width: 100%;
-
-  padding: .75rem 1rem;
-
+  padding: var(--space-0-75) var(--space-1);
   background: var(--color-surface);
-
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-
   transition: var(--transition-fast);
 }
 
@@ -76,22 +71,16 @@ const isFocused = ref(false)
 
 .input--transparent {
   padding: 0;
-
   background: transparent;
-
   border: none;
 }
 
 .field {
   flex: 1;
-
   background: transparent;
-
   border: none;
   outline: none;
-
   color: var(--color-text);
-
   font: inherit;
 }
 

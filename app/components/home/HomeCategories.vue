@@ -4,7 +4,7 @@
     description="Explore tools by category."
   >
     <CategoryGrid
-      :categories="categories"
+      :categories="availableToolCategories"
       :limit="7"
     />
   </LayoutSection>
@@ -13,7 +13,7 @@
 <script setup lang="ts">
 import { routes } from '~/constants/routes'
 
-const { categories } = useCategories()
+const { availableToolCategories } = useTools()
 </script>
 
 <style scoped lang="scss">

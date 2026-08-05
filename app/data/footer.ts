@@ -18,13 +18,30 @@ export const footerLinkGroups: FooterLinkGroup[] = [
         label: 'Categories',
         to: routes.categories(),
       },
+    ],
+  },
+  {
+    title: 'Legal',
+    links: [
       {
-        label: 'Compare',
-        to: routes.compare(),
+        label: 'Affiliate Disclosure',
+        to: routes.affiliateDisclosure(),
       },
       {
-        label: 'Collections',
-        to: routes.collections(),
+        label: 'Privacy Policy',
+        to: routes.privacyPolicy(),
+      },
+      {
+        label: 'Terms of Service',
+        to: routes.termsOfService(),
+      },
+      {
+        label: 'About Us',
+        to: routes.about(),
+      },
+      {
+        label: 'Contact',
+        to: routes.contact(),
       },
     ],
   },

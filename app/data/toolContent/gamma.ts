@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const gammaContent: ToolContent = {
+  overview: `Gamma is an AI-powered presentation and document creation platform that helps individuals and teams produce professional content faster without the complexity of traditional presentation software. Instead of manually designing slides, adjusting layouts, or formatting documents, users can describe their ideas in natural language and let Gamma generate visually appealing presentations, documents, reports, proposals, and websites within minutes. The platform combines artificial intelligence with modern design principles, making it a popular choice for startups, marketers, consultants, educators, and business professionals.
+
+One of Gamma's biggest advantages is its AI-first workflow. Users simply provide a prompt, upload existing content, or outline their ideas, and Gamma automatically creates structured presentations complete with layouts, typography, images, diagrams, and content blocks. Unlike conventional slide-based tools, Gamma uses flexible, responsive cards that adapt naturally to different screen sizes, providing a more modern reading and presentation experience.
+
+Collaboration is another core strength of the platform. Teams can edit presentations together in real time, leave comments, share workspaces, manage permissions, and publish presentations through a simple web link without requiring recipients to download files or install additional software. This makes Gamma particularly useful for remote teams, client presentations, internal documentation, sales pitches, training materials, and knowledge sharing.
+
+Beyond presentations, Gamma supports creating interactive documents, project proposals, onboarding guides, product documentation, marketing materials, and lightweight websites. The platform integrates with popular services and allows users to embed videos, charts, images, code snippets, Figma designs, spreadsheets, and other interactive content directly into their documents, creating richer and more engaging experiences than traditional presentation software.
+
+Gamma also includes built-in analytics that help creators understand how audiences interact with shared presentations and documents. Users can monitor views, engagement, and reading activity, making it easier to evaluate how effectively their content communicates information and where improvements may be needed.
+
+Overall, Gamma is one of the most innovative AI presentation tools available today. By combining artificial intelligence, modern design, collaboration features, and interactive publishing into a single platform, Gamma enables users to create polished presentations and business documents significantly faster while maintaining a professional appearance. It is an excellent choice for anyone looking to streamline content creation, improve productivity, and deliver visually engaging presentations without spending hours on design and formatting.`
+}

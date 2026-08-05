@@ -58,8 +58,11 @@ defineProps<{
     linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%) border-box;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-
   transition: var(--transition-fast);
+}
+
+.card .link {
+  height: 100%;
 }
 
 .card:hover {
@@ -71,10 +74,9 @@ defineProps<{
 .link {
   display: flex;
   flex-direction: column;
-  gap: var(--space-1-5);
-
-  padding: var(--space-1-5);
-
+  justify-content: space-between;
+  gap: var(--space-1);
+  padding: var(--space-1);
   color: inherit;
   text-decoration: none;
 }
@@ -88,20 +90,16 @@ defineProps<{
   display: flex;
   align-items: center;
   justify-content: center;
-
   flex-shrink: 0;
-
-  width: 3rem;
-  height: 3rem;
-
+  width: var(--space-3);
+  height: var(--space-3);
   border-radius: var(--radius-md);
   background: var(--color-background);
 }
 
 .logo-image {
-  width: 2rem;
-  height: 2rem;
-
+  width: var(--space-2);
+  height: var(--space-2);
   object-fit: contain;
 }
 
@@ -111,14 +109,15 @@ defineProps<{
 
 .title {
   margin-bottom: var(--space-0-25);
-
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-semibold);
 }
 
 .tagline {
+  margin-top: var(--space-0-5);
   color: var(--color-text-secondary);
   font-size: var(--font-size-sm);
+  line-height: 1.3;
 }
 
 .footer {

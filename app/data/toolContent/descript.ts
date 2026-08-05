@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const descriptContent: ToolContent = {
+  overview: `Descript is an AI-powered audio and video editing platform that makes content creation faster and more accessible by allowing users to edit media as easily as editing a text document. Designed for podcasters, video creators, marketers, educators, journalists, and businesses, Descript combines video editing, audio editing, transcription, screen recording, AI voice generation, and collaboration tools into a single workspace. Instead of working with complex timelines, users can edit recordings simply by modifying the automatically generated transcript, significantly reducing the learning curve for beginners while speeding up professional workflows.
+
+One of Descript's most distinctive features is its text-based editing experience. Every recording is automatically transcribed, allowing creators to remove words, sentences, pauses, or entire sections by editing the transcript itself. Changes are instantly reflected in the audio and video timeline, making common editing tasks dramatically faster than in traditional editing software. This workflow is especially valuable for podcasts, interviews, webinars, tutorials, online courses, and marketing videos where spoken content is the primary focus.
+
+Descript also offers a powerful collection of AI features designed to improve production quality. Users can automatically remove filler words, reduce background noise, enhance speech clarity, generate captions, create summaries, and even correct spoken mistakes using AI voice technology. Its Overdub feature allows creators to generate realistic voice replacements for edited sections using an AI version of their own voice, helping avoid costly re-recording sessions while maintaining natural-sounding narration.
+
+Beyond editing, Descript includes built-in screen recording, remote interview recording, multitrack editing, collaborative workspaces, and publishing tools that simplify the entire content creation process. Teams can collaborate on projects, leave comments, review edits, and share work without relying on multiple disconnected applications. The platform also integrates with popular creative and productivity tools, making it easy to incorporate Descript into existing content production workflows.
+
+Available for both individual creators and professional teams, Descript scales from simple podcast editing to enterprise-level video production. While advanced AI capabilities and higher usage limits are available through paid plans, the platform offers an accessible starting point for creators who want to explore AI-powered editing without investing in traditional professional software.
+
+Overall, Descript is one of the most innovative AI content creation platforms available today. Its combination of text-based editing, automatic transcription, AI voice technology, video editing, podcast production, and collaboration features makes it an excellent choice for anyone looking to create high-quality audio and video content faster, reduce editing time, and streamline modern content production workflows.`
+}

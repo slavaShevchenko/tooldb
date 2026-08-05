@@ -9,11 +9,13 @@ export const routes = {
 
   category: (slug: string) => `/categories/${slug}`,
 
-  compare: () => '/compare',
+  affiliateDisclosure: () => '/affiliate-disclosure',
 
-  comparison: (slug: string) => `/compare/${slug}`,
+  privacyPolicy: () => '/privacy-policy',
 
-  collections: () => '/collections',
+  termsOfService: () => '/terms-of-service',
 
-  collection: (slug: string) => `/collections/${slug}`,
+  about: () => '/about',
+
+  contact: () => '/contact',
 } as const

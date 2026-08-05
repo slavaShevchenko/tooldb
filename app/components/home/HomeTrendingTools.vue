@@ -2,11 +2,11 @@
   <section class="trending">
     <div class="trending__header">
       <h2 class="trending__title">
-        Trending Tools
+        {{ title }}
       </h2>
 
       <NuxtLink
-        :to="routes.tools()"
+        :to="link"
         class="trending__link"
       >
         View all
@@ -15,7 +15,7 @@
 
     <div class="trending__list">
       <HomeTrendingToolCard
-        v-for="tool in featuredTools"
+        v-for="tool in tools"
         :key="tool.id"
         :tool="tool"
       />
@@ -24,9 +24,15 @@
 </template>
 
 <script setup lang="ts">
-import { routes } from '~/constants/routes'
+import type { RouteLocationRaw } from 'vue-router'
 
-const { featuredTools } = useTools()
+import type { Tool } from '~/types/tool'
+
+defineProps<{
+  title: string
+  link: RouteLocationRaw
+  tools: Tool[]
+}>()
 </script>
 
 <style scoped lang="scss">
@@ -61,5 +67,11 @@ const { featuredTools } = useTools()
 .trending__list {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 479px) {
+  .trending {
+    padding: var(--space-1);
+  }
 }
 </style>

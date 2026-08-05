@@ -4,8 +4,13 @@ import type { PopularSearch } from '~/types/popularSearch'
 export const popularSearches: PopularSearch[] = [
   {
     id: 'ai',
-    label: 'AI Tools',
+    label: 'AI',
     to: routes.category('ai'),
+  },
+  {
+    id: 'marketing',
+    label: 'Marketing',
+    to: routes.category('marketing'),
   },
   {
     id: 'productivity',
@@ -13,18 +18,13 @@ export const popularSearches: PopularSearch[] = [
     to: routes.category('productivity'),
   },
   {
-    id: 'no-code',
-    label: 'No Code',
-    to: routes.category('no-code'),
-  },
-  {
     id: 'design',
     label: 'Design',
     to: routes.category('design'),
   },
   {
-    id: 'writing',
-    label: 'Writing',
-    to: routes.category('writing'),
+    id: 'web-development',
+    label: 'WebDev',
+    to: routes.category('web-development'),
   },
 ]

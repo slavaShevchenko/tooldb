@@ -84,24 +84,19 @@ defineProps<{
   display: flex;
   align-items: center;
   justify-content: center;
-
-  width: 2.5rem;
-  height: 2.5rem;
-
+  width: var(--space-2-5);
+  height: var(--space-2-5);
   border-radius: var(--radius-md);
-
   background: linear-gradient(
     135deg,
     var(--color-secondary) 0%,
     var(--color-primary) 100%
   );
-
   flex-shrink: 0;
 }
 
 .description {
-  max-width: 42rem;
-
+  margin-top: var(--space-1);
   color: var(--color-text-secondary);
 }
 

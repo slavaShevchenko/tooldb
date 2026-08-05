@@ -55,27 +55,7 @@ import { navigation } from '~/constants/navigation'
   color: var(--color-primary);
 }
 
-@media (width <= 768px) {
-  .header {
-    padding: var(--space-1) 0;
-  }
-
-  .content {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nav {
-    width: 100%;
-    justify-content: flex-start;
-    gap: var(--space-1);
-
-    overflow-x: auto;
-    padding-bottom: var(--space-0-25);
-  }
-}
-
-@media (width <= 480px) {
+@media (max-width: 470px) {
   .nav {
     gap: var(--space-0-75);
   }

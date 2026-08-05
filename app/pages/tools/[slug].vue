@@ -1,26 +1,12 @@
 <template>
   <BaseContainer>
-    <template v-if="tool">
-      <ToolHero :tool="tool" />
-
-      <ToolOverview :tool="tool" />
-
-      <ToolFeatures :tool="tool" />
-
-      <ToolStats :tool="tool" />
-    </template>
-
-    <p v-else>
-      Tool not found.
-    </p>
+    <ToolHero :tool="tool!" />
   </BaseContainer>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRoute } from '#imports'
-
-import { toolsSeo } from '~/seo'
 
 const route = useRoute()
 
@@ -30,5 +16,24 @@ const tool = computed(() =>
   getToolBySlug(route.params.slug as string)
 )
 
-useSeo(toolsSeo)
+if (!tool.value) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: 'Tool not found',
+  })
+}
+
+useSoftwareApplicationJsonLd(tool.value)
+
+useBreadcrumbJsonLd([
+  { name: 'Home', url: '/' },
+  { name: 'Tools', url: '/tools' },
+  { name: tool.value.name, url: `/tools/${tool.value.slug}` },
+])
+
+useSeo({
+  title: `${tool.value.name} - ${tool.value.tagline}`,
+  description: tool.value.description,
+  canonical: `https://tooldb.org/tools/${tool.value.slug}`,
+})
 </script>

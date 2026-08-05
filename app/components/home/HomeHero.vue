@@ -7,13 +7,12 @@
         </span>
 
         <h1 class="hero__title">
-          Find the right software
-          for your workflow
+          Find the best software
+          for your business
         </h1>
 
         <p class="hero__description">
-          Compare AI tools, design software, developer platforms,
-          marketing services and hundreds of other digital products.
+          ToolDB is a curated software directory that helps you discover, compare, and choose the best AI tools, SaaS platforms, productivity apps, developer software, marketing solutions, CRM systems, finance tools, and business applications. Explore detailed reviews, key features, pricing, integrations, and expert recommendations to find the right tool for your workflow, team, or business.
         </p>
 
         <HomeSearch />
@@ -22,11 +21,21 @@
       </div>
 
       <aside class="hero__sidebar">
-        <HomeTrendingTools />
+        <HomeTrendingTools
+          title="Trending Tools"
+          :link="routes.tools()"
+          :tools="trendingTools"
+        />
       </aside>
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+import { routes } from '~/constants/routes'
+
+const { trendingTools } = useTools()
+</script>
 
 <style scoped lang="scss">
 .hero {
@@ -63,25 +72,24 @@
 }
 
 .hero__description {
-  max-width: 640px;
   margin-bottom: var(--space-3);
   color: var(--color-text-secondary);
-  font-size: var(--font-size-lg);
-  line-height: 1.7;
+  line-height: 1.8;
 }
 
-.hero__actions {
-  display: flex;
-  gap: var(--space-1);
-}
-
-@media (width <= 1024px) {
+@media (max-width: 1023px) {
   .hero__layout {
     grid-template-columns: 1fr;
   }
 
   .hero__sidebar {
     min-height: auto;
+  }
+}
+
+@media (max-width: 723px) {
+  .hero__title {
+    font-size: var(--font-size-2xl);
   }
 }
 </style>

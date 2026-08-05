@@ -1,31 +1,27 @@
 import { computed, ref } from 'vue'
 
+import { categories } from '~/data/categories'
 import { tools } from '~/data/tools'
 
 import type { Tool } from '~/types/tool'
+import type { Category } from '~/types/category'
 
-interface SearchMatch {
-  type: 'name' | 'tag'
-  value: string
-}
-
-interface SearchResult {
+interface ToolSearchResult {
+  type: 'tool'
   tool: Tool
-  matches: SearchMatch[]
 }
+
+interface CategorySearchResult {
+  type: 'category'
+  category: Category
+}
+
+export type SearchResult =
+  | ToolSearchResult
+  | CategorySearchResult
 
 export const useToolSearch = () => {
   const query = ref('')
-
-  const searchIndex = tools.map(tool => ({
-    tool,
-    text: [
-      tool.name,
-      ...tool.tags,
-    ]
-      .join(' ')
-      .toLowerCase(),
-  }))
 
   const results = computed<SearchResult[]>(() => {
     const value = query.value.trim().toLowerCase()
@@ -34,32 +30,28 @@ export const useToolSearch = () => {
       return []
     }
 
-    return tools
-      .map(tool => {
-        const matches: SearchMatch[] = []
+    const toolResults: ToolSearchResult[] = tools
+      .filter(tool =>
+        tool.name.toLowerCase().includes(value),
+      )
+      .map(tool => ({
+        type: 'tool',
+        tool,
+      }))
 
-        if (tool.name.toLowerCase().includes(value)) {
-          matches.push({
-            type: 'name',
-            value: tool.name,
-          })
-        }
+    const categoryResults: CategorySearchResult[] = categories
+      .filter(category =>
+        category.name.toLowerCase().includes(value),
+      )
+      .map(category => ({
+        type: 'category',
+        category,
+      }))
 
-        tool.tags.forEach(tag => {
-          if (tag.toLowerCase().includes(value)) {
-            matches.push({
-              type: 'tag',
-              value: tag,
-            })
-          }
-        })
-
-        return {
-          tool,
-          matches,
-        }
-      })
-      .filter(result => result.matches.length)
+    return [
+      ...toolResults,
+      ...categoryResults,
+    ]
   })
 
   return {

@@ -1,5 +1,5 @@
 <template>
-  <BaseContainer>
+  <BaseContainer bottom-line>
     <nav
       v-if="breadcrumbs.length"
       class="breadcrumbs"
@@ -32,18 +32,20 @@ const { breadcrumbs } = useBreadcrumbs()
 </script>
 
 <style scoped lang="scss">
+.container--bottom-line::after {
+  bottom: 0;
+}
 .breadcrumbs {
   padding: var(--space-1) 0;
+  font-size: var(--font-size-sm);
 }
 
 .breadcrumbs__list {
   display: flex;
   flex-wrap: wrap;
-  gap: .5rem;
-
+  gap: var(--space-1);
   margin: 0;
   padding: 0;
-
   list-style: none;
 }
 
@@ -53,8 +55,9 @@ const { breadcrumbs } = useBreadcrumbs()
 }
 
 .breadcrumbs__item:not(:last-child)::after {
-  content: "/";
-  margin-left: .5rem;
+  content: ">";
+  margin-left: var(--space-1);
+  font-size: var(--font-size-xs);
   color: var(--color-text-secondary);
 }
 

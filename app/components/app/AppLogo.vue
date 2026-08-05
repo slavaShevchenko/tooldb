@@ -20,8 +20,8 @@
   gap: var(--space-0-25);
 
   color: var(--color-text);
-
-  font-size: var(--font-size-xl);
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-bold);
 }
 

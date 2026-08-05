@@ -1,4 +1,5 @@
 import type { ToolCategory } from '~/constants/tool-categories'
+import type { ToolContent } from './toolContent'
 
 export interface Tool {
   id: string
@@ -12,10 +13,7 @@ export interface Tool {
   logo: string
 
   website: string
-  websiteLabel: string
   affiliateUrl: string | null
-
-  company: string
 
   categories: ToolCategory[]
   tags: string[]
@@ -24,7 +22,6 @@ export interface Tool {
   pricingDescription: string
 
   featured: boolean
-  verified: boolean
 
   rating: number
   reviewCount: number
@@ -33,8 +30,11 @@ export interface Tool {
 
   highlights: ToolHighlight[]
   features: ToolFeature[]
-  stats: ToolStat[]
   platforms: ToolPlatform[]
+}
+
+export type ToolDetails = Tool & {
+  content?: ToolContent
 }
 
 export interface ToolHighlight {
@@ -49,18 +49,13 @@ export interface ToolFeature {
   icon: string
 }
 
-export interface ToolStat {
-  id: string
-  label: string
-  value: string
-}
-
 export type ToolPlatform =
   | 'web'
   | 'windows'
   | 'mac'
   | 'ios'
   | 'android'
+  | 'linux'
 
 export type ToolPricing =
   | 'Free'

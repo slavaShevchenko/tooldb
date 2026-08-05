@@ -54,10 +54,9 @@ import { footerBrand, footerLinkGroups } from '~/data/footer'
 }
 
 .layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
-  gap: var(--space-4);
-  align-items: start;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-6);
 }
 
 .brand {
@@ -68,21 +67,19 @@ import { footerBrand, footerLinkGroups } from '~/data/footer'
 }
 
 .description {
-  max-width: calc(var(--space-6) * 4);
-
+  max-width: 300px;
   color: var(--color-text-secondary);
   line-height: 1.7;
 }
 
 .navigation {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--space-3);
 }
 
 .group-title {
   margin-bottom: var(--space-1);
-
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-semibold);
 }
@@ -91,10 +88,8 @@ import { footerBrand, footerLinkGroups } from '~/data/footer'
   display: flex;
   flex-direction: column;
   gap: var(--space-0-75);
-
   margin: 0;
   padding: 0;
-
   list-style: none;
 }
 
@@ -102,7 +97,6 @@ import { footerBrand, footerLinkGroups } from '~/data/footer'
   color: var(--color-text-secondary);
   font-size: var(--font-size-sm);
   text-decoration: none;
-
   transition: var(--transition-fast);
 }
 
@@ -112,7 +106,8 @@ import { footerBrand, footerLinkGroups } from '~/data/footer'
 
 @media (width <= 768px) {
   .layout {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    gap: var(--space-3);
   }
 
   .navigation {

@@ -1,41 +1,65 @@
 <template>
-  <LayoutSection
-    title="Overview"
-    :description="tool.overview"
-  >
-    <ul class="tool-overview__highlights">
-      <li
-        v-for="highlight in tool.highlights"
-        :key="highlight.id"
+  <LayoutSection title="Overview">
+    <div class="tool-overview__content">
+      <p
+        v-for="(paragraph, index) in paragraphs"
+        :key="index"
       >
-        {{ highlight.text }}
-      </li>
-    </ul>
+        {{ paragraph }}
+      </p>
+    </div>
+
+    <div class="tool-overview__button">
+      <BaseButton
+        :href="tool.affiliateUrl ?? tool.website"
+        target="_blank"
+        size="lg"
+        width="full"
+      >
+        Visit Website
+      </BaseButton>
+    </div>
   </LayoutSection>
 </template>
 
 <script setup lang="ts">
-import type { Tool } from '~/types/tool'
+import { computed } from 'vue'
 
-defineProps<{
-  tool: Tool
+import type { ToolDetails } from '~/types/tool'
+
+const props = defineProps<{
+  tool: ToolDetails
 }>()
+
+const paragraphs = computed(() =>
+  props.tool.content?.overview
+    ?.split('\n\n')
+    .map(paragraph => paragraph.trim())
+    .filter(Boolean) ?? [],
+)
 </script>
 
 <style scoped lang="scss">
-.tool-overview__highlights {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--space-1);
+.tool-overview__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
 
-  margin-top: var(--space-2);
-
-  padding-left: 1.25rem;
+  p {
+    margin: 0;
+    line-height: 1.7;
+  }
 }
 
-@media (max-width: 700px) {
-  .tool-overview__highlights {
-    grid-template-columns: 1fr;
+.tool-overview__button {
+  max-width: 300px;
+  margin: 0 auto;
+  padding-top: var(--space-3);
+}
+
+@media (max-width: 919px) {
+  .tool-overview__button {
+    max-width: 100%;
   }
 }
 </style>

@@ -25,12 +25,18 @@ const props = defineProps<{
   limit?: number
 }>()
 
+const sortedCategories = computed(() =>
+  [...props.categories].sort(
+    (a, b) => (b.toolCount ?? 0) - (a.toolCount ?? 0),
+  ),
+)
+
 const visibleCategories = computed(() => {
   if (props.limit === undefined) {
-    return props.categories
+    return sortedCategories.value
   }
 
-  return props.categories.slice(0, props.limit)
+  return sortedCategories.value.slice(0, props.limit)
 })
 
 const hasMoreCategories = computed(() => {
@@ -38,7 +44,7 @@ const hasMoreCategories = computed(() => {
     return false
   }
 
-  return props.categories.length > props.limit
+  return sortedCategories.value.length > props.limit
 })
 
 const seeMoreCategory: Category = {
