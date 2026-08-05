@@ -1,6 +1,6 @@
 <template>
   <Icon
-    :name="`lucide:${name}`"
+    :name="iconName"
     :size="size"
     :class="class"
     :style="{ color }"
@@ -8,6 +8,8 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+
 interface Props {
   name: string
   size?: number
@@ -15,7 +17,13 @@ interface Props {
   class?: string
 }
 
-withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<Props>(), {
   size: 20,
+})
+
+const iconName = computed(() => {
+  return props.name.includes(':')
+    ? props.name
+    : `lucide:${props.name}`
 })
 </script>

@@ -22,14 +22,14 @@
         </p>
       </div>
 
-      <div class="rating">
+      <!-- <div class="rating">
         <BaseIcon
           name="star"
           :size="20"
           :color="'var(--color-secondary)'"
         />
         {{ tool.rating }}
-      </div>
+      </div> -->
     </NuxtLink>
   </article>
 </template>

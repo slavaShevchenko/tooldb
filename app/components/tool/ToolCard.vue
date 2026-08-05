@@ -29,14 +29,14 @@
           {{ tool.pricing }}
         </span>
 
-        <span class="rating">
+        <!-- <span class="rating">
           <BaseIcon
             name="star"
             :size="20"
             :color="'var(--color-secondary)'"
           />
           {{ tool.rating }}
-        </span>
+        </span> -->
       </div>
     </NuxtLink>
   </article>
@@ -123,7 +123,7 @@ defineProps<{
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
 }
 
 .pricing,

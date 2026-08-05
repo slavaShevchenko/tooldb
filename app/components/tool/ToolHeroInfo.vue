@@ -20,6 +20,7 @@
           {{ tool.tagline }}
         </p>
 
+        <h2 class="categories__title">Categories</h2>
         <BasePillGrid>
           <BasePill
             v-for="category in tool.categories"
@@ -30,14 +31,16 @@
           </BasePill>
         </BasePillGrid>
 
-        <div class="tool-info__rating">
+        
+
+        <!-- <div class="tool-info__rating">
           <BaseIcon
             name="star"
             :size="20"
             :color="'var(--color-secondary)'"
           />
           {{ tool.rating }}
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="tool-info__right">
@@ -51,6 +54,9 @@
       </BaseButton>
     </div>
   </div>
+
+  <ToolPlatforms :platforms="tool.platforms" />
+
   <ul class="tool-overview__highlights">
     <li
       v-for="highlight in tool.highlights"
@@ -100,6 +106,12 @@ defineProps<{
 
 .tool-info__content {
   flex: 1;
+}
+
+.categories__title {
+  margin-bottom: var(--space-0-5);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
 }
 
 .tool-info__header {
@@ -156,6 +168,9 @@ defineProps<{
 @media (max-width: 919px) {
   .tool-info {
     display: block;
+  }
+  .tool-info__right {
+    margin-top: var(--space-2);
   }
 }
 
