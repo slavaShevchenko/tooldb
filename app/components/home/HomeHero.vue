@@ -21,7 +21,12 @@
       </div>
 
       <aside class="hero__sidebar">
-        <HomeTrendingTools
+        <!-- <HomeTrendingTools
+          title="Trending Tools"
+          :link="routes.tools()"
+          :tools="trendingTools"
+        /> -->
+        <LazyHomeTrendingTools
           title="Trending Tools"
           :link="routes.tools()"
           :tools="trendingTools"
