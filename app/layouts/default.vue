@@ -75,4 +75,11 @@ import AppFooter from '~/components/layout/AppFooter.vue'
 .layout__main {
   flex: 1;
 }
+
+@media (max-width: 767px) {
+  .layout::before,
+  .layout::after {
+    display: none;
+  }
+}
 </style>
