@@ -2,37 +2,25 @@
 
 > ToolDB is a curated directory of AI tools, software, and developer resources. Discover, compare, and explore tools by category, platform, pricing model, and use case.
 
-## Website
+ToolDB provides structured information about software tools to help users discover the right solution for their needs.
 
-- https://tooldb.org
+## Core Pages
 
-## Main sections
+- [Home](https://tooldb.org/): ToolDB homepage.
+- [Tools](https://tooldb.org/tools): Browse all software and AI tools.
+- [Categories](https://tooldb.org/categories): Explore tools by category.
 
-- https://tooldb.org/tools — Browse all tools
-- https://tooldb.org/categories — Browse categories
+## Information
 
-## About
-
-- https://tooldb.org/about
-- https://tooldb.org/contact
+- [About](https://tooldb.org/about): Learn about ToolDB.
+- [Contact](https://tooldb.org/contact): Contact the ToolDB team.
 
 ## Legal
 
-- https://tooldb.org/privacy-policy
-- https://tooldb.org/terms-of-service
-- https://tooldb.org/affiliate-disclosure
+- [Privacy Policy](https://tooldb.org/privacy-policy): Privacy information.
+- [Terms of Service](https://tooldb.org/terms-of-service): Terms of use.
+- [Affiliate Disclosure](https://tooldb.org/affiliate-disclosure): Affiliate relationship disclosure.
 
-## Data
+## Structured Data
 
-ToolDB provides structured information about software tools, including:
-
-- Name
-- Description
-- Categories
-- Platforms
-- Pricing model
-- Features
-- Official website
-- Related tools
-
-The goal of ToolDB is to help users discover and compare software tools through curated and structured information.
+- [Sitemap](https://tooldb.org/sitemap.xml): Complete list of public pages.
