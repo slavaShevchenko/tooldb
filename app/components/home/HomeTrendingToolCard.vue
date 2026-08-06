@@ -6,7 +6,7 @@
     >
       <div class="logo">
         <img
-          :src="tool.logo"
+          :src="cardLogo"
           :alt="`${tool.name} logo`"
           class="logo-image"
         >
@@ -39,9 +39,13 @@ import { routes } from '~/constants/routes'
 
 import type { Tool } from '~/types/tool'
 
-defineProps<{
+const { tool } = defineProps<{
   tool: Tool
 }>()
+
+const cardLogo = computed(() =>
+  tool.logo.replace(/(\.[^.]+)$/, '-size-32$1')
+)
 </script>
 
 <style scoped lang="scss">
