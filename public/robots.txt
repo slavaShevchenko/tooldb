@@ -2,5 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://tooldb.org/sitemap.xml
-
-LLM: https://tooldb.org/llms.txt
