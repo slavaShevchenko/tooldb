@@ -22,5 +22,10 @@
     "@iconify-json/lucide": "1.2.120",
     "@iconify-json/simple-icons": "^1.2.93",
     "sass-embedded": "1.100.0"
+  },
+  "overrides": {
+    "@vercel/analytics": {
+      "vue-router": "$vue-router"
+    }
   }
 }
