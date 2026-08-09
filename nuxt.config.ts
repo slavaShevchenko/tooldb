@@ -46,6 +46,7 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxt/icon',
+    '@vercel/analytics',
   ],
 
   runtimeConfig: {
