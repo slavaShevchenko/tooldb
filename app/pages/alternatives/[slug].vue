@@ -11,6 +11,15 @@
           :key="alternative.id"
         />
       </div>
+
+      <div class="tooldb__grid">
+        <div class="tooldb__grid-left">
+          <CommonAuthorBox />
+        </div>
+        <div class="tooldb__grid-right">
+          <ToolAffiliateNotice />
+        </div>
+      </div>
     </LayoutSection>
   </BaseContainer>
 </template>
@@ -46,6 +55,7 @@ const alternativeTools = computed(() =>
 )
 
 useAlternativesJsonLd(alternative.value.name, alternativeTools.value)
+useAuthorJsonLd()
 
 useSeo({
   title: `Best ${alternative.value.name} Alternatives in 2026`,
@@ -73,6 +83,10 @@ useSeo({
 
 .alt-item + .alt-item {
   margin-top: var(--space-2);
+}
+
+.tooldb__grid {
+  padding-top: var(--space-3);
 }
 
 @media (max-width: 1279px) {

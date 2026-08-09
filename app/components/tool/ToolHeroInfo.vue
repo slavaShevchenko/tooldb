@@ -51,7 +51,10 @@
         Visit Website
       </BaseButton>
 
-      <AlternativesFor :tool-slug="tool.slug" />
+      <AlternativesFor
+        :tool-slug="tool.slug"
+        :tool-name="tool.name"
+      />
     </div>
   </div>
 

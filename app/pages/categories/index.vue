@@ -5,6 +5,15 @@
       description="Browse tools by category."
     >
       <CategoryGrid :categories="toolCategories" />
+
+      <div class="tooldb__grid">
+        <div class="tooldb__grid-left">
+          <CommonAuthorBox />
+        </div>
+        <div class="tooldb__grid-right">
+          <ToolAffiliateNotice />
+        </div>
+      </div>
     </LayoutSection>
   </BaseContainer>
 </template>
@@ -19,6 +28,8 @@ useBreadcrumbJsonLd([
   { name: 'Categories', url: '/categories' },
 ])
 
+useAuthorJsonLd()
+
 useSeo({
   title: categoriesSeo.title,
   description: categoriesSeo.description,
@@ -30,4 +41,8 @@ useSeo({
   .section {
     margin-top: var(--space-2);
   }
+
+  .tooldb__grid {
+    padding-top: var(--space-3);
+  } 
 </style>

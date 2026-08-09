@@ -14,11 +14,11 @@
 
 <style scoped lang="scss">
 .affiliate-notice {
-  margin-bottom: var(--space-4);
+  height: 100%;
   padding: var(--space-1);
   background: var(--color-surface-secondary);
+  border-radius: var(--radius-xl);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
 }
 
 p {

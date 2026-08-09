@@ -118,3 +118,28 @@ export const useAlternativesJsonLd = (toolName: string, alternatives: { name: st
     ],
   })
 }
+
+export const useAuthorJsonLd = () => {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Slava Shevchenko',
+    url: 'https://tooldb.org/about',
+    image: 'https://tooldb.org/images/slava.webp',
+    jobTitle: 'Frontend Developer',
+    description: 'Frontend developer with 10+ years of experience evaluating and using digital tools for web development projects.',
+    sameAs: [
+      'https://www.linkedin.com/in/slava-shevchenko90210/',
+      'https://github.com/slavaShevchenko',
+    ],
+  }
+
+  useHead({
+    script: [
+      {
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify(jsonLd),
+      },
+    ],
+  })
+}

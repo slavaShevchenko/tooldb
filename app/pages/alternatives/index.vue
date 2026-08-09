@@ -12,6 +12,15 @@
       <AlternativesTable
         :alternatives="alternatives"
       />
+
+      <div class="tooldb__grid">
+        <div class="tooldb__grid-left">
+          <CommonAuthorBox />
+        </div>
+        <div class="tooldb__grid-right">
+          <ToolAffiliateNotice />
+        </div>
+      </div>
     </LayoutSection>
   </BaseContainer>
 </template>
@@ -34,6 +43,8 @@ useItemListJsonLd(
   })),
   'Software Alternatives'
 )
+
+useAuthorJsonLd()
 
 useSeo({
   title: alternativesSeo.title,
@@ -61,6 +72,10 @@ useSeo({
 }
 .section:deep() .description {
   line-height: 1.8;
+}
+
+.tooldb__grid {
+  padding-top: var(--space-3);
 }
 
 @media (max-width: 1199px) {

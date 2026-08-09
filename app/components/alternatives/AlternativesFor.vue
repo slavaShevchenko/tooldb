@@ -4,7 +4,7 @@
     class="tool-alternatives"
   >
     <h2 class="tool-alternatives__title">
-      Alternatives for:
+      {{ toolName }} is listed as an alternative to:
     </h2>
 
     <div class="tool-alternatives__buttons">
@@ -28,6 +28,7 @@ import { routes } from '~/constants/routes'
 
 const props = defineProps<{
   toolSlug: string
+  toolName: string
 }>()
 
 const {

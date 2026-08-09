@@ -33,7 +33,14 @@
 
         <ToolOverview :tool="tool" />
 
-        <ToolAffiliateNotice />
+        <div class="tooldb__grid">
+          <div class="tooldb__grid-left">
+            <CommonAuthorBox />
+          </div>
+          <div class="tooldb__grid-right">
+            <ToolAffiliateNotice />
+          </div>
+        </div>
       </div>
 
       <aside class="hero__sidebar hero__sidebar-wide">
@@ -68,6 +75,8 @@ const { getRelatedToolsData } = useTools()
 const related = computed(() =>
   getRelatedToolsData(props.tool),
 )
+
+useAuthorJsonLd()
 </script>
 
 <style scoped lang="scss">

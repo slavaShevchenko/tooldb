@@ -9,6 +9,15 @@
     >
       <ToolGrid :tools="toolCategory.tools" />
     </LayoutSection>
+
+    <div class="tooldb__grid">
+      <div class="tooldb__grid-left">
+        <CommonAuthorBox />
+      </div>
+      <div class="tooldb__grid-right">
+        <ToolAffiliateNotice />
+      </div>
+    </div>
   </BaseContainer>
 </template>
 
@@ -31,6 +40,8 @@ useItemListJsonLd(
   'Digital Tools Catalog'
 )
 
+useAuthorJsonLd()
+
 useSeo({
   title: toolsSeo.title,
   description: toolsSeo.description,
@@ -39,7 +50,10 @@ useSeo({
 </script>
 
 <style lang="scss" scoped>
-.container {
-  margin-top: var(--space-2);
-}
+  .container {
+    margin-top: var(--space-2);
+  }
+  .tooldb__grid {
+    margin-bottom: var(--space-2);
+  } 
 </style>
