@@ -11,6 +11,15 @@
       <p v-else>
         Category not found.
       </p>
+
+      <div class="tooldb__grid">
+        <div class="tooldb__grid-left">
+          <CommonAuthorBox />
+        </div>
+        <div class="tooldb__grid-right">
+          <ToolAffiliateNotice />
+        </div>
+      </div>
     </LayoutSection>
   </BaseContainer>
 </template>
@@ -55,7 +64,11 @@ useSeo({
 </script>
 
 <style scoped lang="scss">
-.section {
-  margin-top: var(--space-2);
-}
+  .section {
+    margin-top: var(--space-2);
+  }
+
+  .tooldb__grid {
+    padding-top: var(--space-3);
+  } 
 </style>
