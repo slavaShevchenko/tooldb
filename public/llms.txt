@@ -1,26 +1,45 @@
 # ToolDB
 
-> ToolDB is a curated directory of AI tools, software, and developer resources. Discover, compare, and explore tools by category, platform, pricing model, and use case.
+> ToolDB is a curated catalog of 72+ digital tools organized by category. Discover, compare, and explore alternatives to popular software by category, platform, pricing model, and use case.
 
-ToolDB provides structured information about software tools to help users discover the right solution for their needs.
+ToolDB provides structured, unbiased information about each tool including features, pricing models, platform availability, and use cases. All content is independently researched — affiliate relationships do not influence recommendations.
 
 ## Core Pages
 
-- [Home](https://tooldb.org/): ToolDB homepage.
-- [Tools](https://tooldb.org/tools): Browse all software and AI tools.
+- [Home](https://tooldb.org/): Browse all tools and categories.
+- [All Tools](https://tooldb.org/tools): Complete catalog of 72+ tools.
 - [Categories](https://tooldb.org/categories): Explore tools by category.
+- [Alternatives](https://tooldb.org/alternatives): Find alternatives to popular software like Jira, Mailchimp, HubSpot, Notion, and more.
+
+## Alternatives to Popular Software
+
+- [Jira Alternatives](https://tooldb.org/alternatives/jira): ClickUp, monday.com, Wrike — simpler and cheaper project management.
+- [Mailchimp Alternatives](https://tooldb.org/alternatives/mailchimp): Brevo, Kit, ActiveCampaign, GetResponse, Campaign Monitor, AWeber, Drip, Moosend — better value email marketing.
+- [HubSpot Alternatives](https://tooldb.org/alternatives/hubspot): Pipedrive, Close, ActiveCampaign, Brevo, Freshdesk, Zendesk — focused CRM without enterprise pricing.
+- [Notion Alternatives](https://tooldb.org/alternatives/notion): ClickUp, Miro, Todoist, Wrike — more structure or better performance.
+- [Zoom Alternatives](https://tooldb.org/alternatives/zoom): Livestorm, Fireflies.ai, Restream — browser-based, AI notes, multistreaming.
+- [Trello Alternatives](https://tooldb.org/alternatives/trello): ClickUp, monday.com, Wrike, Todoist — more views and automations.
+- [WordPress Alternatives](https://tooldb.org/alternatives/wordpress): Webflow, Netlify — no plugins, zero maintenance, faster sites.
+- [Google Analytics Alternatives](https://tooldb.org/alternatives/google-analytics): Amplitude, Crazy Egg, Databox, Similarweb — privacy-first and simpler analytics.
+- [Shopify Alternatives](https://tooldb.org/alternatives/shopify): Sellfy, Printify, Webflow — lower fees, simpler setup.
+- [Slack Alternatives](https://tooldb.org/alternatives/slack): Fireflies.ai, respond.io, Tidio — AI notes, omnichannel, live chat.
+- [Canva Alternatives](https://tooldb.org/alternatives/canva): Gamma, Miro — AI presentations and visual collaboration.
+- [Calendly Alternatives](https://tooldb.org/alternatives/calendly): Livestorm, Fireflies.ai — scheduling plus webinars or AI notes.
+- [Salesforce Alternatives](https://tooldb.org/alternatives/salesforce): Pipedrive, Close, Apollo.io, Freshdesk — simpler CRM at lower cost.
+- [Otter.ai Alternatives](https://tooldb.org/alternatives/otter-ai): Fireflies.ai — AI transcription with CRM sync.
+- [Teachable Alternatives](https://tooldb.org/alternatives/teachable): Thinkific, LearnWorlds, Circle — better pricing and community features.
 
 ## Information
 
-- [About](https://tooldb.org/about): Learn about ToolDB.
-- [Contact](https://tooldb.org/contact): Contact the ToolDB team.
+- [About](https://tooldb.org/about): About ToolDB and our editorial standards.
+- [Contact](https://tooldb.org/contact): Get in touch with us.
 
 ## Legal
 
-- [Privacy Policy](https://tooldb.org/privacy-policy): Privacy information.
+- [Privacy Policy](https://tooldb.org/privacy-policy): How we collect and use data.
 - [Terms of Service](https://tooldb.org/terms-of-service): Terms of use.
-- [Affiliate Disclosure](https://tooldb.org/affiliate-disclosure): Affiliate relationship disclosure.
+- [Affiliate Disclosure](https://tooldb.org/affiliate-disclosure): How we handle affiliate relationships.
 
 ## Structured Data
 
-- [Sitemap](https://tooldb.org/sitemap.xml): Complete list of public pages.
+- [Sitemap](https://tooldb.org/sitemap.xml): Complete list of all public pages.
