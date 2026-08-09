@@ -1,3 +1,4 @@
+import { navigation } from '~/constants/navigation'
 import { routes } from '~/constants/routes'
 import type { FooterBrand, FooterLinkGroup } from '~/types/footer'
 
@@ -9,16 +10,7 @@ export const footerBrand: FooterBrand = {
 export const footerLinkGroups: FooterLinkGroup[] = [
   {
     title: 'Navigation',
-    links: [
-      {
-        label: 'Tools',
-        to: routes.tools(),
-      },
-      {
-        label: 'Categories',
-        to: routes.categories(),
-      },
-    ],
+    links: [...navigation],
   },
   {
     title: 'Legal',

@@ -3,12 +3,16 @@
     to="/"
     class="logo"
   >
-    <span class="primary">
+    <span>
       Tool
     </span>
 
-    <span class="secondary">
-      DB
+    <span class="primary">
+      D
+    </span>
+
+    <span>
+      B
     </span>
   </NuxtLink>
 </template>
@@ -17,7 +21,6 @@
 .logo {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-0-25);
 
   color: var(--color-text);
   font-family: var(--font-family-heading);

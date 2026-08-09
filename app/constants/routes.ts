@@ -9,6 +9,10 @@ export const routes = {
 
   category: (slug: string) => `/categories/${slug}`,
 
+  alternatives: () => '/alternatives',
+
+  alternative: (slug: string) => `/alternatives/${slug}`,
+
   affiliateDisclosure: () => '/affiliate-disclosure',
 
   privacyPolicy: () => '/privacy-policy',

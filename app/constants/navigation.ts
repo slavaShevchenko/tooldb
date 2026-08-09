@@ -9,4 +9,8 @@ export const navigation = [
     label: 'Categories',
     to: routes.categories(),
   },
+  {
+    label: 'Alternatives',
+    to: routes.alternatives(),
+  },
 ] as const

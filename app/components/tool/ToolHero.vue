@@ -107,7 +107,7 @@ const related = computed(() =>
   margin-top: var(--space-3);
 }
 
-@media (width <= 1200px) {
+@media (max-width: 1199px) {
   .hero__sidebar-wide {
     display: none;
   }
@@ -119,7 +119,7 @@ const related = computed(() =>
   }
 }
 
-@media (width <= 1024px) {
+@media (max-width: 1023px) {
   .hero__layout {
     grid-template-columns: 1fr;
   }

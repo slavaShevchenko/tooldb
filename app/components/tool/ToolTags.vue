@@ -48,6 +48,7 @@ defineProps<{
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-medium);
   background: var(--color-surface);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-pill);
 }
 </style>

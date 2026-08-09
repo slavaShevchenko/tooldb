@@ -5,7 +5,8 @@
       class="header"
     >
       <div class="content">
-        <h2
+        <component
+          :is="headingTag"
           v-if="title"
           class="title"
         >
@@ -21,7 +22,7 @@
           </span>
 
           {{ title }}
-        </h2>
+        </component>
 
         <p
           v-if="description"
@@ -44,11 +45,14 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
+withDefaults(defineProps<{
   title?: string
   description?: string
   icon?: string
-}>()
+  headingTag?: 'h1' | 'h2'
+}>(), {
+  headingTag: 'h2',
+})
 </script>
 
 <style scoped lang="scss">
@@ -104,7 +108,7 @@ defineProps<{
   flex: 0 0 auto;
 }
 
-@media (width <= 640px) {
+@media (max-width: 639px) {
   .header {
     flex-direction: column;
   }

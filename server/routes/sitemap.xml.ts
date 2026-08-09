@@ -1,5 +1,6 @@
 import { tools } from '~/data/tools'
 import { categories } from '~/data/categories'
+import { alternatives } from '~/data/alternatives'
 
 type SitemapUrl = {
   loc: string
@@ -24,6 +25,7 @@ export default defineEventHandler(() => {
     { loc: '/', changefreq: 'daily', priority: '1.0' },
     { loc: '/tools', changefreq: 'daily', priority: '0.9' },
     { loc: '/categories', changefreq: 'daily', priority: '0.9' },
+    { loc: '/alternatives', changefreq: 'weekly', priority: '0.8' },
     { loc: '/about', changefreq: 'monthly', priority: '0.5' },
     { loc: '/contact', changefreq: 'monthly', priority: '0.5' },
     { loc: '/privacy-policy', changefreq: 'monthly', priority: '0.3' },
@@ -44,20 +46,27 @@ export default defineEventHandler(() => {
     priority: '0.8',
   }))
 
+  const alternativeUrls: SitemapUrl[] = alternatives.map(alternative => ({
+    loc: `/alternatives/${alternative.slug}`,
+    changefreq: 'weekly',
+    priority: '0.7',
+  }))
+
   const allUrls: SitemapUrl[] = [
     ...staticUrls,
     ...categoryUrls,
     ...toolUrls,
+    ...alternativeUrls,
   ]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${allUrls.map(url => `  <url>
-    <loc>${escapeXml(`${siteUrl}${url.loc}`)}</loc>${url.lastmod ? `\n    <lastmod>${url.lastmod}</lastmod>` : ''}
-    <changefreq>${url.changefreq}</changefreq>
-    <priority>${url.priority}</priority>
-  </url>`).join('\n')}
-</urlset>`
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    ${allUrls.map(url => `  <url>
+        <loc>${escapeXml(`${siteUrl}${url.loc}`)}</loc>${url.lastmod ? `\n    <lastmod>${url.lastmod}</lastmod>` : ''}
+        <changefreq>${url.changefreq}</changefreq>
+        <priority>${url.priority}</priority>
+      </url>`).join('\n')}
+    </urlset>`
 
   return new Response(xml, {
     headers: {

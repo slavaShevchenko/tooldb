@@ -104,7 +104,7 @@ import { footerBrand, footerLinkGroups } from '~/data/footer'
   color: var(--color-primary);
 }
 
-@media (width <= 768px) {
+@media (max-width: 767px) {
   .layout {
     flex-direction: column;
     gap: var(--space-3);
@@ -115,7 +115,7 @@ import { footerBrand, footerLinkGroups } from '~/data/footer'
   }
 }
 
-@media (width <= 480px) {
+@media (max-width: 479px) {
   .navigation {
     grid-template-columns: 1fr;
   }

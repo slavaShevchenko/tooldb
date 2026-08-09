@@ -27,11 +27,9 @@
             :key="category"
             :to="`/categories/${category}`"
           >
-            {{ category }}
+            {{ getCategoryName(category) }}
           </BasePill>
         </BasePillGrid>
-
-        
 
         <!-- <div class="tool-info__rating">
           <BaseIcon
@@ -52,33 +50,29 @@
       >
         Visit Website
       </BaseButton>
+
+      <AlternativesFor :tool-slug="tool.slug" />
     </div>
   </div>
 
   <ToolPlatforms :platforms="tool.platforms" />
 
-  <ul class="tool-overview__highlights">
-    <li
-      v-for="highlight in tool.highlights"
-      :key="highlight.id"
-    >
-      <BaseIcon
-        name="circle-check-big"
-        :size="20"
-        color="var(--color-primary)"
-      />
-
-      <span>{{ highlight.text }}</span>
-    </li>
-  </ul>
+  <ToolHighlights :items="tool.highlights.map(item => item.text)" />
 </template>
 
 <script setup lang="ts">
 import type { Tool } from '~/types/tool'
 
+const { getCategoryBySlug } = useCategories()
+
 defineProps<{
   tool: Tool
 }>()
+
+const getCategoryName = (slug: string) => {
+  const category = getCategoryBySlug(slug)
+  return category?.name || slug
+}
 </script>
 
 <style scoped lang="scss">
@@ -93,6 +87,9 @@ defineProps<{
 }
 .tool-info__right {
   flex: 0 0 300px;
+}
+.tool-info__right .button {
+  margin-bottom: var(--space-2);
 }
 
 .tool-info__logo {
@@ -142,29 +139,6 @@ defineProps<{
   color: var(--color-text-secondary);
 }
 
-.tool-overview__highlights {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-1);
-  padding-left: 0;
-  padding-top: var(--space-2);
-  padding-bottom: var(--space-3);
-  list-style: none;
-}
-
-.tool-overview__highlights li {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--space-0-5);
-  font-family: var(--font-family-heading);
-  letter-spacing: 1px;
-  line-height: 1.6;
-}
-
-.tool-overview__highlights li .iconify {
-  margin-top: 3px;
-}
-
 @media (max-width: 919px) {
   .tool-info {
     display: block;
@@ -191,14 +165,6 @@ defineProps<{
 
   .tool-info__header {
     flex-wrap: wrap;
-  }
-
-  .tool-overview__highlights {
-    display: block;
-  }
-
-  .tool-overview__highlights li + li {
-    margin-top: var(--space-1);
   }
 
   .tool-info__header h1 {

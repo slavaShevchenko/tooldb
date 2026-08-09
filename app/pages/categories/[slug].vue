@@ -55,7 +55,7 @@ useSeo({
 </script>
 
 <style scoped lang="scss">
-  .section {
-    margin-top: var(--space-2);
-  }
+.section {
+  margin-top: var(--space-2);
+}
 </style>

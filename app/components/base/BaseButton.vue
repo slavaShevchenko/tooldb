@@ -19,10 +19,11 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
+import { NuxtLink } from '#components'
 
 const props = withDefaults(
   defineProps<{
-    variant?: 'primary' | 'secondary' | 'ghost'
+    variant?: 'primary' | 'secondary' | 'orange' | 'ghost'
     size?: 'sm' | 'md' | 'lg'
     width?: 'full' | 'auto'
     disabled?: boolean
@@ -42,7 +43,7 @@ const props = withDefaults(
 
 const tag = computed(() => {
   if (props.to) {
-    return 'NuxtLink'
+    return NuxtLink
   }
 
   if (props.href) {
@@ -115,6 +116,15 @@ const tag = computed(() => {
 
   &:hover:not(:disabled) {
     border-color: var(--color-border-hover);
+  }
+}
+
+.button--orange {
+  background: var(--color-secondary);
+  color: var(--color-surface);
+
+  &:hover:not(:disabled) {
+    background: var(--color-secondary-hover);
   }
 }
 

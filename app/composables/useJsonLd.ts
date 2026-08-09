@@ -2,12 +2,9 @@ export const useSoftwareApplicationJsonLd = (tool: {
   name: string
   description: string
   slug: string
-  rating: number
-  reviewCount: number
   pricing: string
   platforms: string[]
   categories: string[]
-  website: string
 }) => {
   const platformMap: Record<string, string> = {
     web: 'WebApplication',
@@ -85,6 +82,30 @@ export const useItemListJsonLd = (items: { name: string; url: string; position: 
       position: item.position,
       name: item.name,
       url: item.url.startsWith('http') ? item.url : `https://tooldb.org${item.url}`,
+    })),
+  }
+
+  useHead({
+    script: [
+      {
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify(jsonLd),
+      },
+    ],
+  })
+}
+
+export const useAlternativesJsonLd = (toolName: string, alternatives: { name: string; slug: string }[]) => {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Alternatives to ${toolName}`,
+    numberOfItems: alternatives.length,
+    itemListElement: alternatives.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: `${item.name} - Alternative to ${toolName}`,
+      url: `https://tooldb.org/tools/${item.slug}`,
     })),
   }
 

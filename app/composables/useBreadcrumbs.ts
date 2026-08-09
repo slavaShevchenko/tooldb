@@ -67,6 +67,21 @@ export function useBreadcrumbs() {
       }
     }
 
+    if (path.startsWith('/alternatives')) {
+      items.push({
+        label: 'Alternatives',
+        to: '/alternatives',
+      })
+
+      const slug = route.params.slug as string | undefined
+
+      if (slug) {
+        items.push({
+          label: slug,
+        })
+      }
+    }
+
     return items
   })
 
