@@ -82,7 +82,6 @@ import { computed } from 'vue'
 import { routes } from '~/constants/routes'
 
 import type { AlternativeItem } from '~/types/alternatives'
-import type { Tool } from '~/types/tool'
 
 const { getToolBySlug } = useTools()
 const { getCategoryBySlug } = useCategories()

@@ -33,11 +33,16 @@ export const useAlternatives = () => {
     ).size
 
   const getAlternativeSlugsByToolSlug = (toolSlug: string): string[] =>
-  getAlternatives()
-    .filter(page =>
-      page.alternatives.some(item => item.slug === toolSlug)
-    )
-    .map(page => page.slug)
+    getAlternatives()
+      .filter(page =>
+        page.alternatives.some(item => item.slug === toolSlug)
+      )
+      .map(page => page.slug)
+
+  const getFeaturedAlternatives = (limit = 6, order: 'desc' | 'asc' = 'desc'): AlternativePage[] =>
+    [...getAlternatives()]
+      .sort((a, b) => order === 'desc' ? Number(b.id) - Number(a.id) : Number(a.id) - Number(b.id))
+      .slice(0, limit)
 
   return {
     getAlternatives,
@@ -46,5 +51,6 @@ export const useAlternatives = () => {
     getCategoriesCount,
     getAlternativesCount,
     getAlternativeSlugsByToolSlug,
+    getFeaturedAlternatives,
   }
 }

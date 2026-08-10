@@ -7,6 +7,8 @@
     <HomeRecentlyAddedTools />
 
     <HomeFeaturedTools />
+
+    <HomeAlternativesTools />
   </BaseContainer>
 </template>
 
