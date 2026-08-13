@@ -143,3 +143,47 @@ export const useAuthorJsonLd = () => {
     ],
   })
 }
+
+export const useBlogPostingJsonLd = (post: {
+  title: string
+  description: string
+  slug: string
+  image?: string
+  publishedAt: string
+  updatedAt: string
+}) => {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.description,
+    image: post.image,
+    url: `https://tooldb.org/blog/${post.slug}`,
+    datePublished: post.publishedAt,
+    dateModified: post.updatedAt,
+    mainEntityOfPage: `https://tooldb.org/blog/${post.slug}`,
+    author: {
+      '@type': 'Person',
+      name: 'Slava Shevchenko',
+      url: 'https://tooldb.org/about',
+      sameAs: [
+        'https://www.linkedin.com/in/slava-shevchenko90210/',
+        'https://github.com/slavaShevchenko',
+      ],
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'ToolDB',
+      url: 'https://tooldb.org',
+    },
+  }
+
+  useHead({
+    script: [
+      {
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify(jsonLd),
+      },
+    ],
+  })
+}

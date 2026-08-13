@@ -1,6 +1,7 @@
 import { tools } from '~/data/tools'
 import { categories } from '~/data/categories'
 import { alternatives } from '~/data/alternatives'
+import { blogPosts } from '~/data/blog'
 
 type SitemapUrl = {
   loc: string
@@ -26,6 +27,7 @@ export default defineEventHandler(() => {
     { loc: '/tools', changefreq: 'daily', priority: '0.9' },
     { loc: '/categories', changefreq: 'daily', priority: '0.9' },
     { loc: '/alternatives', changefreq: 'weekly', priority: '0.8' },
+    { loc: '/blog', changefreq: 'weekly', priority: '0.7' },
     { loc: '/about', changefreq: 'monthly', priority: '0.5' },
     { loc: '/contact', changefreq: 'monthly', priority: '0.5' },
     { loc: '/privacy-policy', changefreq: 'monthly', priority: '0.3' },
@@ -52,11 +54,21 @@ export default defineEventHandler(() => {
     priority: '0.7',
   }))
 
+  const blogUrls: SitemapUrl[] = blogPosts
+    .filter(post => post.published)
+    .map(post => ({
+      loc: `/blog/${post.slug}`,
+      lastmod: new Date(post.updatedAt).toISOString(),
+      changefreq: 'monthly',
+      priority: '0.6',
+    }))
+
   const allUrls: SitemapUrl[] = [
     ...staticUrls,
     ...categoryUrls,
     ...toolUrls,
     ...alternativeUrls,
+    ...blogUrls,
   ]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

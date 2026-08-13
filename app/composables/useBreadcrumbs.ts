@@ -10,6 +10,7 @@ export function useBreadcrumbs() {
   const route = useRoute()
 
   const { getToolBySlug } = useTools()
+  const { getBlogPostBySlug } = useBlog()
 
   const breadcrumbs = computed<Breadcrumb[]>(() => {
     const items: Breadcrumb[] = [
@@ -78,6 +79,23 @@ export function useBreadcrumbs() {
       if (slug) {
         items.push({
           label: slug,
+        })
+      }
+    }
+
+    if (path.startsWith('/blog')) {
+      items.push({
+        label: 'Blog',
+        to: '/blog',
+      })
+
+      const slug = route.params.slug as string | undefined
+
+      if (slug) {
+        const post = getBlogPostBySlug(slug)
+
+        items.push({
+          label: post.title,
         })
       }
     }

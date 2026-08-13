@@ -4,14 +4,18 @@
       <AppLogo />
 
       <nav class="nav">
-        <NuxtLink
+        <template
           v-for="item in navigation"
           :key="item.to"
-          :to="item.to"
-          class="link"
         >
-          {{ item.label }}
-        </NuxtLink>
+          <NuxtLink
+            :to="item.to"
+            class="link"
+            :class="{ 'link--active': isActive(item.to)}"
+          >
+            {{ item.label }}
+          </NuxtLink>
+        </template>
       </nav>
     </BaseContainer>
   </header>
@@ -19,6 +23,11 @@
 
 <script setup lang="ts">
 import { navigation } from '~/constants/navigation'
+
+const route = useRoute()
+
+const isActive = (path: string) =>
+  route.path === path || route.path.startsWith(`${path}/`)
 </script>
 
 <style scoped lang="scss">
@@ -52,6 +61,10 @@ import { navigation } from '~/constants/navigation'
 }
 
 .link:hover {
+  color: var(--color-primary);
+}
+
+.link--active {
   color: var(--color-primary);
 }
 

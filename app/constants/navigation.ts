@@ -13,4 +13,8 @@ export const navigation = [
     label: 'Alternatives',
     to: routes.alternatives(),
   },
+  {
+    label: 'Blog',
+    to: routes.blog(),
+  },
 ] as const

@@ -13,6 +13,10 @@ export const routes = {
 
   alternative: (slug: string) => `/alternatives/${slug}`,
 
+  blog: () => '/blog',
+
+  blogPost: (slug: string) => `/blog/${slug}`,
+
   affiliateDisclosure: () => '/affiliate-disclosure',
 
   privacyPolicy: () => '/privacy-policy',

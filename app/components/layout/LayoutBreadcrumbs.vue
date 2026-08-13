@@ -43,7 +43,7 @@ const { breadcrumbs } = useBreadcrumbs()
 .breadcrumbs__list {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-1);
+  gap: 0 var(--space-1);
   margin: 0;
   padding: 0;
   list-style: none;
@@ -52,6 +52,7 @@ const { breadcrumbs } = useBreadcrumbs()
 .breadcrumbs__item {
   display: flex;
   align-items: center;
+  line-height: 1.4;
 }
 
 .breadcrumbs__item:not(:last-child)::after {
