@@ -1,45 +1,120 @@
 # ToolDB
 
-> ToolDB is a curated catalog of 72+ digital tools organized by category. Discover, compare, and explore alternatives to popular software by category, platform, pricing model, and use case.
+> ToolDB is a curated software directory covering 105+ digital tools across AI, productivity, CRM, marketing, analytics, finance, HR, security, web development, and business software. ToolDB helps users discover, compare, and evaluate software by category, platform, pricing model, use case, and curated alternatives.
 
-ToolDB provides structured, unbiased information about each tool including features, pricing models, platform availability, and use cases. All content is independently researched — affiliate relationships do not influence recommendations.
+ToolDB provides independently researched information about software products. Recommendations and comparisons are editorially independent and are not influenced by affiliate partnerships.
+
+## Editorial Policy
+
+Recommendations and comparisons are based on independent research.
+
+Affiliate links may be present on some pages, but they do not affect rankings or recommendations.
+
+Information is reviewed regularly, although product features and pricing may change over time.
+
+## Data
+
+Each software page may include:
+
+- Product description
+- Categories
+- Supported platforms
+- Pricing model
+- Key features
+- Use cases
+- Pros and cons
+- Alternatives
+- Official website
 
 ## Core Pages
 
-- [Home](https://tooldb.org/): Browse all tools and categories.
-- [All Tools](https://tooldb.org/tools): Complete catalog of 72+ tools.
-- [Categories](https://tooldb.org/categories): Explore tools by category.
-- [Alternatives](https://tooldb.org/alternatives): Find alternatives to popular software like Jira, Mailchimp, HubSpot, Notion, and more.
+- [Home](https://tooldb.org/): Browse featured software, categories, and recently added tools.
+- [All Tools](https://tooldb.org/tools): Complete catalog of 105+ digital tools.
+- [Categories](https://tooldb.org/categories): Explore software by category.
+- [Alternatives](https://tooldb.org/alternatives): Curated alternatives to popular software.
+- [Blog](https://tooldb.org/blog): Practical guides, comparisons, and buying advice.
 
 ## Alternatives to Popular Software
 
-- [Jira Alternatives](https://tooldb.org/alternatives/jira): ClickUp, monday.com, Wrike — simpler and cheaper project management.
-- [Mailchimp Alternatives](https://tooldb.org/alternatives/mailchimp): Brevo, Kit, ActiveCampaign, GetResponse, Campaign Monitor, AWeber, Drip, Moosend — better value email marketing.
-- [HubSpot Alternatives](https://tooldb.org/alternatives/hubspot): Pipedrive, Close, ActiveCampaign, Brevo, Freshdesk, Zendesk — focused CRM without enterprise pricing.
-- [Notion Alternatives](https://tooldb.org/alternatives/notion): ClickUp, Miro, Todoist, Wrike — more structure or better performance.
-- [Zoom Alternatives](https://tooldb.org/alternatives/zoom): Livestorm, Fireflies.ai, Restream — browser-based, AI notes, multistreaming.
-- [Trello Alternatives](https://tooldb.org/alternatives/trello): ClickUp, monday.com, Wrike, Todoist — more views and automations.
-- [WordPress Alternatives](https://tooldb.org/alternatives/wordpress): Webflow, Netlify — no plugins, zero maintenance, faster sites.
-- [Google Analytics Alternatives](https://tooldb.org/alternatives/google-analytics): Amplitude, Crazy Egg, Databox, Similarweb — privacy-first and simpler analytics.
-- [Shopify Alternatives](https://tooldb.org/alternatives/shopify): Sellfy, Printify, Webflow — lower fees, simpler setup.
-- [Slack Alternatives](https://tooldb.org/alternatives/slack): Fireflies.ai, respond.io, Tidio — AI notes, omnichannel, live chat.
-- [Canva Alternatives](https://tooldb.org/alternatives/canva): Gamma, Miro — AI presentations and visual collaboration.
-- [Calendly Alternatives](https://tooldb.org/alternatives/calendly): Livestorm, Fireflies.ai — scheduling plus webinars or AI notes.
-- [Salesforce Alternatives](https://tooldb.org/alternatives/salesforce): Pipedrive, Close, Apollo.io, Freshdesk — simpler CRM at lower cost.
-- [Otter.ai Alternatives](https://tooldb.org/alternatives/otter-ai): Fireflies.ai — AI transcription with CRM sync.
-- [Teachable Alternatives](https://tooldb.org/alternatives/teachable): Thinkific, LearnWorlds, Circle — better pricing and community features.
+### Project Management & Productivity
+
+- [Jira Alternatives](https://tooldb.org/alternatives/jira): Compare ClickUp, monday.com, Wrike, SmartSuite, and BugHerd.
+- [Asana Alternatives](https://tooldb.org/alternatives/asana): Compare ClickUp, monday.com, Wrike, SmartSuite, Process Street, and Todoist.
+- [Notion Alternatives](https://tooldb.org/alternatives/notion): Compare ClickUp, Miro, Todoist, Wrike, SmartSuite, Softr, and Glide.
+- [Trello Alternatives](https://tooldb.org/alternatives/trello): Compare ClickUp, monday.com, Wrike, Todoist, SmartSuite, and Process Street.
+- [Airtable Alternatives](https://tooldb.org/alternatives/airtable): Compare SmartSuite, Softr, Glide, Notion, ClickUp, and monday.com.
+- [Calendly Alternatives](https://tooldb.org/alternatives/calendly): Compare Livestorm, Fireflies.ai, Motion, and Reclaim.ai.
+
+### Communication & VoIP
+
+- [Slack Alternatives](https://tooldb.org/alternatives/slack): Compare Fireflies.ai, respond.io, Tidio, Quo, and Connecteam.
+- [Zoom Alternatives](https://tooldb.org/alternatives/zoom): Compare Livestorm, Fireflies.ai, and Restream.
+- [RingCentral Alternatives](https://tooldb.org/alternatives/ringcentral): Compare Aircall, CloudTalk, Nextiva, Kixie, CallHippo, Quo, and KrispCall.
+- [Intercom Alternatives](https://tooldb.org/alternatives/intercom): Compare Tidio, respond.io, Freshdesk, Help Scout, and Landbot.
+- [Otter.ai Alternatives](https://tooldb.org/alternatives/otter-ai): Compare Fireflies.ai for AI meeting transcription.
+
+### CRM & Sales
+
+- [HubSpot Alternatives](https://tooldb.org/alternatives/hubspot): Compare Pipedrive, Close, ActiveCampaign, Brevo, Freshdesk, Zendesk, AgencyAnalytics, and CallRail.
+- [Salesforce Alternatives](https://tooldb.org/alternatives/salesforce): Compare Pipedrive, Close, Apollo.io, and Freshdesk.
+
+### Marketing & Analytics
+
+- [Mailchimp Alternatives](https://tooldb.org/alternatives/mailchimp): Compare Brevo, Kit, ActiveCampaign, GetResponse, Campaign Monitor, AWeber, Drip, and Moosend.
+- [Google Analytics Alternatives](https://tooldb.org/alternatives/google-analytics): Compare Amplitude, Crazy Egg, Databox, Similarweb, and AgencyAnalytics.
+- [Canva Alternatives](https://tooldb.org/alternatives/canva): Compare Gamma and Miro.
+
+### E-commerce & Web
+
+- [Shopify Alternatives](https://tooldb.org/alternatives/shopify): Compare Sellfy, Printify, and Webflow.
+- [WordPress Alternatives](https://tooldb.org/alternatives/wordpress): Compare Webflow and Netlify.
+
+### Documents & Signatures
+
+- [Adobe Acrobat Alternatives](https://tooldb.org/alternatives/adobe-acrobat): Compare Foxit PDF Editor.
+- [DocuSign Alternatives](https://tooldb.org/alternatives/docusign): Compare Signable and PandaDoc.
+
+### HR & Education
+
+- [BambooHR Alternatives](https://tooldb.org/alternatives/bamboohr): Compare Connecteam, HiBob, Gusto, Deel, and TestGorilla.
+- [Teachable Alternatives](https://tooldb.org/alternatives/teachable): Compare Thinkific, LearnWorlds, and Circle.
+
+## Featured Blog Articles
+
+- [Mailchimp Alternatives Worth Switching To](https://tooldb.org/blog/mailchimp-alternatives-worth-switching-to): Comparison of popular email marketing platforms.
+- [Free vs Paid CRM: When to Upgrade](https://tooldb.org/blog/free-vs-paid-crm-when-to-upgrade): When it makes sense to move to a paid CRM.
+- [Notion vs ClickUp vs Obsidian](https://tooldb.org/blog/notion-vs-clickup-vs-obsidian): Workspace comparison for different workflows.
+- [Best Email Marketing Tools for Small Business](https://tooldb.org/blog/best-email-marketing-tools-for-small-business): Complete guide to email marketing software.
+- [How to Choose a Project Management Tool](https://tooldb.org/blog/how-to-choose-project-management-tool): Framework for selecting project management software.
+
+## Canonical Entities
+
+Each software page represents a single software product and may include:
+
+- Product name
+- Description
+- Categories
+- Supported platforms
+- Pricing model
+- Key features
+- Use cases
+- Alternatives
+- Official website
+
+Each alternatives page represents a curated comparison between one popular software product and a selected set of alternative tools.
 
 ## Information
 
-- [About](https://tooldb.org/about): About ToolDB and our editorial standards.
-- [Contact](https://tooldb.org/contact): Get in touch with us.
+- [About](https://tooldb.org/about): About ToolDB and editorial standards.
+- [Contact](https://tooldb.org/contact): Contact the ToolDB team.
 
 ## Legal
 
-- [Privacy Policy](https://tooldb.org/privacy-policy): How we collect and use data.
-- [Terms of Service](https://tooldb.org/terms-of-service): Terms of use.
-- [Affiliate Disclosure](https://tooldb.org/affiliate-disclosure): How we handle affiliate relationships.
+- [Privacy Policy](https://tooldb.org/privacy-policy): Information about data collection and privacy.
+- [Terms of Service](https://tooldb.org/terms-of-service): Terms governing the use of ToolDB.
+- [Affiliate Disclosure](https://tooldb.org/affiliate-disclosure): Information about affiliate relationships.
 
-## Structured Data
+## Technical Resources
 
-- [Sitemap](https://tooldb.org/sitemap.xml): Complete list of all public pages.
+- [Sitemap](https://tooldb.org/sitemap.xml): Complete list of public pages.
+- [Robots](https://tooldb.org/robots.txt): Crawling directives for search engines and bots.
