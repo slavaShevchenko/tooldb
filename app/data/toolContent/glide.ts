@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const glideContent: ToolContent = {
+  overview: `Glide is a no-code platform for building mobile and web applications directly from spreadsheets and databases. The platform specializes in creating progressive web apps (PWAs) that install like native mobile applications while running in browsers — eliminating app store approval processes and cross-platform development complexity. Glide particularly serves operations teams, field workers, and small businesses needing custom mobile tools without hiring developers.
+
+The platform connects directly to Google Sheets, Excel files, and SQL databases, transforming tabular data into interactive mobile interfaces. Unlike traditional app development requiring separate iOS and Android codebases, Glide applications work across all devices from a single configuration. Updates deploy instantly to all users without app store reviews or manual updates. For internal tools and business applications where speed-to-deployment matters more than native performance, this approach dramatically reduces development and maintenance overhead.
+
+Glide's interface builder uses a component-based system optimized for mobile screens: lists, detail views, forms, maps, charts, and actions that modify underlying data. Components are designed for touch interaction with appropriate sizing, spacing, and gestures. The result feels native despite running in a browser — smooth scrolling, offline support, push notifications, and access to device features like cameras and location services.
+
+Built-in AI components distinguish Glide from basic no-code builders. Text generation, image analysis, sentiment detection, and data extraction work without configuring external AI APIs or managing authentication tokens. A field inspection app can analyze photos automatically, a customer feedback tool can categorize sentiment, and an inventory system can extract data from receipt images — all using Glide's native AI blocks rather than custom integrations.
+
+Progressive web app technology means users "install" Glide apps to their home screens with a single tap, creating an app-like experience without App Store or Play Store distribution. Apps work offline, caching data locally and syncing when connectivity returns. This offline capability is critical for field workers in areas with poor connectivity — technicians, inspectors, delivery drivers — who need reliable access to job information regardless of network conditions.
+
+Pricing starts free for building and testing applications. Explorer at $19/month (annual billing) supports personal projects with basic features. Maker at $49/month adds custom domains and more rows. Teams at $99/month enables collaboration across multiple builders. Business at $249/month provides enterprise features with higher limits. For teams needing mobile applications that work immediately across all devices without app store friction, Glide offers the fastest path from idea to deployed solution.`
+}

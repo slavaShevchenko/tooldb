@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const connecteamContent: ToolContent = {
+  overview: `Connecteam is a workforce management platform purpose-built for deskless and frontline employees — the 80% of the global workforce that does not sit at a desk. While most HR and productivity tools optimize for office workers with laptops and email, Connecteam designs every feature for mobile-first employees in retail, hospitality, healthcare, construction, logistics, and field services. This specialization has earned the platform a 4.6/5 G2 rating and strong adoption among hourly-workforce businesses.
+
+The platform is organized into three independent hubs: Operations (scheduling, time tracking, checklists), Communications (updates, chat, forms), and HR & Skills (training, onboarding, knowledge base). Teams can adopt one hub or all three, with pricing scaling per hub rather than forcing an all-or-nothing purchase. This modular approach lets businesses solve specific problems first and expand as needs evolve.
+
+Scheduling uses a drag-and-drop interface with shift templates, availability management, shift swapping, and automatic conflict detection. The GPS-enabled time clock tracks clock-ins with location verification and geofencing to prevent buddy punching. Overtime alerts, break tracking, and timesheet approvals streamline payroll preparation. For managers coordinating hourly workers across multiple locations, this eliminates the spreadsheet chaos that typically consumes several hours weekly.
+
+Training and onboarding features let teams create courses, quizzes, digital SOPs, and certification programs accessible from employee mobile apps. Progress tracking shows who has completed required training, and automatic reminders chase incomplete assignments. For regulated industries requiring documented compliance training — food safety, workplace safety, HIPAA — this provides the audit trail necessary without paper binders or separate LMS subscriptions.
+
+Internal communication replaces scattered channels like WhatsApp groups, bulletin boards, and mass texts. Company updates reach every employee's phone with read receipts, comments, and reactions. Digital forms capture inspections, incident reports, and equipment requests with photos and signatures. Checklists standardize opening and closing procedures across locations. Everything feeds into a single chronological activity stream that keeps distributed teams aligned.
+
+Pricing includes a free Small Business plan for up to 10 users with core features across all hubs — genuinely useful for micro-businesses rather than a crippled trial. Paid plans start at $29/month per hub for the first 30 users with per-user pricing for additional employees. For businesses managing hourly, field, or frontline workers, Connecteam consolidates tools that would otherwise require five separate subscriptions.`
+}

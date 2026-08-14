@@ -4860,4 +4860,2215 @@ export const tools: Tool[] = [
       }
     ]
   },
+  {
+    id: '73',
+    slug: 'aircall',
+    name: 'Aircall',
+    tagline: 'AI-powered cloud phone system for sales and support teams',
+    description: 'Cloud-based calling platform with 250+ integrations, AI conversation intelligence, power dialer, and advanced analytics for revenue and customer success teams.',
+    overview: '',
+    pricingDescription: 'Essentials at $30/user/month, Professional at $50/user/month. Add-ons: AI Assist $9/user/mo, AI Assist Pro $49/user/mo, Analytics+ $15/user/mo. 3-user minimum on Essentials [[2]][[3]].',
+    logo: '/images/tool-logo/aircall.webp',
+    website: 'https://aircall.io',
+    affiliateUrl: null,
+    categories: ['sales', 'communication'],
+    tags: [
+      'cloud-phone',
+      'voip',
+      'call-center',
+      'power-dialer',
+      'ai-conversation-intelligence',
+      'crm-integration',
+      'sales-calling',
+      'customer-support'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 1643,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'integrations',
+        text: '250+ native integrations with HubSpot, Salesforce, Zendesk, and more'
+      },
+      {
+        id: 'ai-assist',
+        text: 'AI-powered call summaries, transcription, and coaching suggestions'
+      },
+      {
+        id: 'power-dialer',
+        text: 'Automated outbound dialing with local presence numbers'
+      },
+      {
+        id: 'analytics',
+        text: 'Real-time dashboards with team performance and call quality metrics'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Power Dialer',
+        description: 'Automate outbound calling with sequential dialing, local presence numbers, and voicemail drop to increase rep productivity.',
+        icon: 'phone-outgoing'
+      },
+      {
+        id: '2',
+        title: 'AI Conversation Intelligence',
+        description: 'Automatic call transcription, summarization, sentiment analysis, and coaching recommendations powered by AI.',
+        icon: 'brain'
+      },
+      {
+        id: '3',
+        title: 'CRM Sync',
+        description: 'Automatic call logging, contact enrichment, and activity sync with 250+ CRM and helpdesk platforms without manual data entry.',
+        icon: 'refresh'
+      }
+    ]
+  },
+  {
+    id: '74',
+    slug: 'callrail',
+    name: 'CallRail',
+    tagline: 'AI-powered call tracking and lead engagement intelligence',
+    description: 'Call tracking and analytics platform that attributes phone calls to marketing campaigns, analyzes conversations with AI, and helps businesses optimize lead conversion.',
+    overview: '',
+    pricingDescription: 'Call Tracking starts at $45/month. Voice Assist at $95/month with 50 included calls, then $1 per additional call. Lead Center and Form Tracking available as add-ons. 14-day free trial [[10]][[15]].',
+    logo: '/images/tool-logo/callrail.webp',
+    website: 'https://www.callrail.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'analytics'],
+    tags: [
+      'call-tracking',
+      'lead-attribution',
+      'conversation-intelligence',
+      'marketing-analytics',
+      'form-tracking',
+      'ai-analytics',
+      'local-seo',
+      'lead-management'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 1200,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'attribution',
+        text: 'Keyword-level call attribution across Google Ads, SEO, and offline campaigns'
+      },
+      {
+        id: 'ai-analytics',
+        text: 'AI-powered conversation analysis with lead scoring and intent detection'
+      },
+      {
+        id: 'form-tracking',
+        text: 'Track form submissions alongside calls for complete lead visibility'
+      },
+      {
+        id: 'integrations',
+        text: 'Native integrations with Google Analytics, Google Ads, HubSpot, and Salesforce'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Call Tracking & Attribution',
+        description: 'Assign unique tracking numbers to campaigns, keywords, and channels to measure which marketing drives phone calls and conversions.',
+        icon: 'phone-incoming'
+      },
+      {
+        id: '2',
+        title: 'Conversation Intelligence',
+        description: 'AI analyzes call recordings to identify lead quality, customer intent, objections, and coaching opportunities automatically.',
+        icon: 'message-square'
+      },
+      {
+        id: '3',
+        title: 'Lead Center',
+        description: 'Unified inbox for calls, texts, forms, and chats with lead scoring, routing rules, and follow-up automation.',
+        icon: 'inbox'
+      }
+    ]
+  },
+  {
+    id: '75',
+    slug: 'cloudtalk',
+    name: 'CloudTalk',
+    tagline: 'Cloud call center software for sales and support teams',
+    description: 'AI-powered cloud calling platform with smart call routing, real-time analytics, CRM sync, and automation workflows for remote sales and customer support teams.',
+    overview: '',
+    pricingDescription: 'Starter at $25/user/month, Essential at $29/user/month, Expert at $49/user/month (billed annually). Custom Enterprise plans available. 14-day free trial, no setup fees [[19]][[21]].',
+    logo: '/images/tool-logo/cloudtalk.webp',
+    website: 'https://www.cloudtalk.io',
+    affiliateUrl: null,
+    categories: ['sales', 'communication'],
+    tags: [
+      'cloud-call-center',
+      'voip',
+      'smart-routing',
+      'ai-call-center',
+      'crm-integration',
+      'remote-teams',
+      'call-automation',
+      'international-calling'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 1850,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'smart-routing',
+        text: 'AI-powered call routing based on skills, availability, and customer history'
+      },
+      {
+        id: 'global-numbers',
+        text: 'Local and toll-free numbers in 160+ countries'
+      },
+      {
+        id: 'crm-sync',
+        text: 'Automatic call logging and contact sync with 95+ CRM platforms'
+      },
+      {
+        id: 'ai-features',
+        text: 'Real-time transcription, sentiment analysis, and AI agent assist'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Smart Call Routing',
+        description: 'Route incoming calls to the right agent based on skills, language, time zone, customer history, and IVR selections.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'AI Agent Assist',
+        description: 'Real-time transcription, suggested responses, and knowledge base articles surfaced during live calls to help agents resolve issues faster.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'Workflow Automation',
+        description: 'Build custom call flows, after-call actions, SMS follow-ups, and CRM updates without code using visual automation builder.',
+        icon: 'settings'
+      }
+    ]
+  },
+  {
+    id: '76',
+    slug: 'kixie',
+    name: 'Kixie',
+    tagline: 'AI-powered sales dialer and VoIP platform for revenue teams',
+    description: 'Sales-focused calling platform with multi-line power dialer, AI human voice detection, local presence, SMS, and deep CRM integrations built for outbound sales teams.',
+    overview: '',
+    pricingDescription: 'Integrated at $35/user/month, Professional at $65/user/month, Outbound PowerDialer at $95/user/month (billed quarterly). Usage-based calling at ~$0.016/min. 7-day free trial [[29]][[30]].',
+    logo: '/images/tool-logo/kixie.webp',
+    website: 'https://www.kixie.com',
+    affiliateUrl: null,
+    categories: ['sales'],
+    tags: [
+      'power-dialer',
+      'sales-dialer',
+      'voip',
+      'local-presence',
+      'ai-voice-detection',
+      'sms',
+      'crm-integration',
+      'outbound-sales'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.8,
+    reviewCount: 860,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'power-dialer',
+        text: 'Multi-line simultaneous dialing with AI human voice detection'
+      },
+      {
+        id: 'local-presence',
+        text: 'Automatic local number matching to increase answer rates'
+      },
+      {
+        id: 'crm-native',
+        text: 'Deep native integration with HubSpot, Salesforce, Pipedrive, and Zoho'
+      },
+      {
+        id: 'voicemail-drop',
+        text: 'Pre-recorded voicemail drop and SMS follow-up automation'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Multi-Line PowerDialer',
+        description: 'Dial multiple numbers simultaneously with AI human voice detection that distinguishes live answers from voicemail and IVR systems.',
+        icon: 'phone-call'
+      },
+      {
+        id: '2',
+        title: 'Local Presence Dialing',
+        description: 'Automatically display a local phone number matching the prospect area code to increase answer rates significantly.',
+        icon: 'map-pin'
+      },
+      {
+        id: '3',
+        title: 'CRM-Native Calling',
+        description: 'Click-to-call, automatic call logging, disposition tagging, and activity sync directly inside your CRM without switching apps.',
+        icon: 'link'
+      }
+    ]
+  },
+  {
+    id: '77',
+    slug: 'nextiva',
+    name: 'Nextiva',
+    tagline: 'AI-powered unified business communications platform',
+    description: 'All-in-one business phone system combining VoIP, video, SMS, team messaging, auto-attendant, and CXM features with AI-powered analytics for small to enterprise businesses.',
+    overview: '',
+    pricingDescription: 'Core at $15/user/month, Engage at $25/user/month, Power Suite CX at $35/user/month (annual billing). Enterprise plans from $129/agent/month. All plans include voice, video, SMS, and team messaging [[35]][[40]].',
+    logo: '/images/tool-logo/nextiva.webp',
+    website: 'https://www.nextiva.com',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'business-phone',
+      'voip',
+      'unified-communications',
+      'video-conferencing',
+      'team-messaging',
+      'auto-attendant',
+      'cxm',
+      'small-business'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.7,
+    reviewCount: 3200,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'all-in-one',
+        text: 'Voice, video, SMS, team messaging, and fax in a single platform'
+      },
+      {
+        id: 'pricing',
+        text: 'Affordable business phone system starting at $15/user/month'
+      },
+      {
+        id: 'ai-cxm',
+        text: 'AI-powered customer experience management with sentiment analysis'
+      },
+      {
+        id: 'reliability',
+        text: '99.999% uptime SLA with redundant data centers'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Unified Communications',
+        description: 'Business phone, video conferencing, SMS, team messaging, and voicemail-to-email in one platform with seamless cross-channel switching.',
+        icon: 'layers'
+      },
+      {
+        id: '2',
+        title: 'Auto-Attendant & IVR',
+        description: 'Professional automated phone menus with custom greetings, department routing, business hours scheduling, and after-hours handling.',
+        icon: 'menu'
+      },
+      {
+        id: '3',
+        title: 'AI Customer Experience',
+        description: 'Sentiment analysis, conversation summaries, and AI-powered insights across calls, chats, and emails to improve service quality.',
+        icon: 'trending-up'
+      }
+    ]
+  },
+  {
+    id: '78',
+    slug: 'callhippo',
+    name: 'CallHippo',
+    tagline: 'AI-driven business communication and VoIP platform',
+    description: 'Cloud-based VoIP phone system with AI-powered call analytics, smart routing, power dialer, and 50+ integrations for sales and support teams of all sizes.',
+    overview: '',
+    pricingDescription: 'Free Basic plan available. Starter from $1/user/month, Professional at $30/user/month, Ultimate at $55/user/month (annual billing). Enterprise plans with custom pricing. 10-day free trial on paid plans [[1]][[8]].',
+    logo: '/images/tool-logo/callhippo.webp',
+    website: 'https://callhippo.com',
+    affiliateUrl: null,
+    categories: ['sales', 'communication'],
+    tags: [
+      'voip',
+      'cloud-phone',
+      'ai-calling',
+      'power-dialer',
+      'call-analytics',
+      'smart-routing',
+      'crm-integration',
+      'business-phone'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 1500,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'free-plan',
+        text: 'Free basic plan available for small teams getting started'
+      },
+      {
+        id: 'ai-analytics',
+        text: 'AI-powered call insights and conversation intelligence'
+      },
+      {
+        id: 'global-numbers',
+        text: 'Local and toll-free numbers in 50+ countries'
+      },
+      {
+        id: 'integrations',
+        text: '50+ native integrations with HubSpot, Salesforce, Zoho, and more'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Smart Call Routing',
+        description: 'Route incoming calls based on agent skills, availability, time zones, and custom rules to ensure every call reaches the right person.',
+        icon: 'route'
+      },
+      {
+        id: '2',
+        title: 'AI Call Analytics',
+        description: 'AI-powered transcription, sentiment analysis, and conversation summaries that surface coaching opportunities automatically.',
+        icon: 'brain'
+      },
+      {
+        id: '3',
+        title: 'Power Dialer',
+        description: 'Automated outbound dialing with local presence, voicemail drop, and CRM sync to maximize rep productivity.',
+        icon: 'phone-outgoing'
+      }
+    ]
+  },
+  {
+    id: '79',
+    slug: 'quo',
+    name: 'Quo (OpenPhone)',
+    tagline: 'AI-powered business phone system for modern teams',
+    description: 'Simple, affordable cloud phone system combining calls, texts, voicemail, and contacts in one workspace with AI call tagging and team collaboration features.',
+    overview: '',
+    pricingDescription: 'Starter at $15/user/month (annual) or $19/user/month (monthly). Business at $23/user/month adds integrations and analytics. Scale at $35/user/month includes AI call tags and priority support [[12]][[13]].',
+    logo: '/images/tool-logo/quo.webp',
+    website: 'https://www.quo.com',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'business-phone',
+      'voip',
+      'team-messaging',
+      'sms',
+      'ai-call-tags',
+      'small-business',
+      'virtual-phone',
+      'collaboration'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.7,
+    reviewCount: 2100,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'simplicity',
+        text: 'Clean, intuitive interface designed for non-technical teams'
+      },
+      {
+        id: 'shared-numbers',
+        text: 'Shared phone numbers with team inbox for collaborative handling'
+      },
+      {
+        id: 'ai-tags',
+        text: 'AI-powered automatic call tagging and categorization'
+      },
+      {
+        id: 'pricing',
+        text: 'Affordable flat-rate pricing starting at $15/user/month'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Shared Team Inbox',
+        description: 'Collaborative inbox for calls, texts, and voicemails where team members can assign, comment, and resolve conversations together.',
+        icon: 'inbox'
+      },
+      {
+        id: '2',
+        title: 'AI Call Tags',
+        description: 'Automatic AI-powered tagging and categorization of calls so you can search, filter, and analyze conversations without manual labeling.',
+        icon: 'tag'
+      },
+      {
+        id: '3',
+        title: 'Auto-Replies & Scheduling',
+        description: 'Set up automated text replies for after-hours, missed calls, and common questions with customizable templates and scheduling rules.',
+        icon: 'clock'
+      }
+    ]
+  },
+  {
+    id: '80',
+    slug: 'freshservice',
+    name: 'Freshservice',
+    tagline: 'AI-powered IT service management platform',
+    description: 'Modern ITSM platform with ticketing, asset management, self-service portal, knowledge base, and AI automation for IT teams managing employee support and infrastructure.',
+    overview: '',
+    pricingDescription: 'Free plan available for up to 2 agents. Starter at $19/agent/month, Growth at $49/agent/month, Pro at $99/agent/month. Enterprise with custom pricing. Freddy AI features require Pro or Enterprise tier [[14]][[18]].',
+    logo: '/images/tool-logo/freshservice.webp',
+    website: 'https://freshservice.com',
+    affiliateUrl: null,
+    categories: ['communication', 'productivity'],
+    tags: [
+      'itsm',
+      'help-desk',
+      'ticketing',
+      'asset-management',
+      'self-service',
+      'knowledge-base',
+      'ai-automation',
+      'it-support'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 1300,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'gartner-leader',
+        text: 'Named Leader in 2026 Gartner Magic Quadrant for ITSM'
+      },
+      {
+        id: 'freddy-ai',
+        text: 'Freddy AI for ticket classification, resolution suggestions, and chatbot'
+      },
+      {
+        id: 'asset-management',
+        text: 'Built-in IT asset discovery, lifecycle tracking, and CMDB'
+      },
+      {
+        id: 'free-tier',
+        text: 'Free plan for up to 2 agents to get started risk-free'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Intelligent Ticketing',
+        description: 'AI-powered ticket routing, classification, and prioritization with multi-channel intake from email, chat, phone, and self-service portal.',
+        icon: 'ticket'
+      },
+      {
+        id: '2',
+        title: 'Asset Management & CMDB',
+        description: 'Automated discovery and tracking of hardware, software, and network assets with relationship mapping and lifecycle management.',
+        icon: 'server'
+      },
+      {
+        id: '3',
+        title: 'Self-Service Portal',
+        description: 'Employee-facing portal with knowledge base, service catalog, request forms, and AI chatbot for instant answers without creating tickets.',
+        icon: 'book-open'
+      }
+    ]
+  },
+  {
+    id: '81',
+    slug: 'connecteam',
+    name: 'Connecteam',
+    tagline: 'All-in-one employee management platform for deskless teams',
+    description: 'Workforce management platform combining scheduling, time tracking, communication, training, checklists, and HR tools designed for frontline and deskless employees.',
+    overview: '',
+    pricingDescription: 'Free Small Business plan for up to 10 users. Operations, Communications, and HR hubs priced separately: Basic at $29/month, Advanced at $49/month, Expert at $99/month for first 30 users. Per-user pricing for additional employees [[22]][[25]].',
+    logo: '/images/tool-logo/connecteam.webp',
+    website: 'https://connecteam.com',
+    affiliateUrl: null,
+    categories: ['hr', 'productivity'],
+    tags: [
+      'workforce-management',
+      'employee-scheduling',
+      'time-tracking',
+      'deskless-workers',
+      'internal-communication',
+      'training',
+      'checklists',
+      'hr-tools'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 760,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'deskless-focus',
+        text: 'Purpose-built for frontline, field, and deskless employees'
+      },
+      {
+        id: 'modular-hubs',
+        text: 'Three independent hubs: Operations, Communications, HR & Skills'
+      },
+      {
+        id: 'free-plan',
+        text: 'Free plan for up to 10 users with core features included'
+      },
+      {
+        id: 'mobile-first',
+        text: 'Mobile-first design optimized for employees without desks'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Scheduling & Time Tracking',
+        description: 'Drag-and-drop shift scheduling with GPS-enabled time clock, geofencing, overtime alerts, and payroll integration.',
+        icon: 'calendar'
+      },
+      {
+        id: '2',
+        title: 'Training & Knowledge Base',
+        description: 'Create courses, quizzes, and SOPs with progress tracking, certifications, and mobile access for onboarding and compliance training.',
+        icon: 'graduation-cap'
+      },
+      {
+        id: '3',
+        title: 'Team Communication',
+        description: 'Company-wide updates, team chat, digital forms, checklists, and task assignments in a single mobile-friendly feed.',
+        icon: 'message-circle'
+      }
+    ]
+  },
+  {
+    id: '82',
+    slug: 'processstreet',
+    name: 'Process Street',
+    tagline: 'Compliance operations and workflow automation platform',
+    description: 'Workflow management platform that turns policies and procedures into automated, AI-enforced checklists with conditional logic, approvals, and compliance reporting.',
+    overview: '',
+    pricingDescription: 'Free trial available. Startup at $100/month (up to 10 users), Teams at $250/month (up to 25 users), Business at $500/month (up to 50 users), Pro at $1,500/month with advanced features. Annual billing discounts available [[28]][[33]].',
+    logo: '/images/tool-logo/process-street.webp',
+    website: 'https://www.process.st',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'workflow-automation',
+      'checklists',
+      'compliance',
+      'sop',
+      'process-management',
+      'approvals',
+      'conditional-logic',
+      'operations'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 900,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'ai-workflows',
+        text: 'AI-enforced workflows that adapt based on responses and conditions'
+      },
+      {
+        id: 'compliance',
+        text: 'Audit-ready compliance reporting with version history and approvals'
+      },
+      {
+        id: 'integrations',
+        text: 'Native integrations with Slack, Salesforce, Zapier, and 1000+ apps'
+      },
+      {
+        id: 'templates',
+        text: 'Pre-built templates for onboarding, inspections, audits, and more'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Conditional Workflows',
+        description: 'Build dynamic checklists with if/then logic, role-based visibility, required fields, and branching paths that adapt to each run.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'Approvals & Sign-offs',
+        description: 'Multi-stage approval chains with e-signatures, timestamps, and audit trails for compliance-critical processes.',
+        icon: 'check-circle'
+      },
+      {
+        id: '3',
+        title: 'Reporting & Analytics',
+        description: 'Track completion rates, bottlenecks, SLA adherence, and team performance with exportable reports and real-time dashboards.',
+        icon: 'bar-chart'
+      }
+    ]
+  },
+  {
+    id: '83',
+    slug: 'smartsuite',
+    name: 'SmartSuite',
+    tagline: 'Work management platform for processes and projects',
+    description: 'All-in-one work management platform combining project management, workflow automation, forms, and dashboards to replace multiple disconnected productivity tools.',
+    overview: '',
+    pricingDescription: 'Team at $15/user/month (annual) or $20/month (monthly). Professional at $32/user/month. Enterprise at $50/user/month. Free plan available for individuals. 14-day free trial [[1]][[3]].',
+    logo: '/images/tool-logo/smartsuite.webp',
+    website: 'https://smartsuite.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'work-management',
+      'project-management',
+      'workflow-automation',
+      'forms',
+      'dashboards',
+      'team-collaboration',
+      'task-management',
+      'operations'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.7,
+    reviewCount: 950,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'all-in-one',
+        text: 'Replace Notion, Airtable, Asana, and Monday with a single platform'
+      },
+      {
+        id: 'workflow-automation',
+        text: 'Build complex automations without code using visual builder'
+      },
+      {
+        id: 'flexible-views',
+        text: 'Grid, kanban, calendar, timeline, gallery, and map views for any data'
+      },
+      {
+        id: 'forms',
+        text: 'Custom forms with conditional logic that feed directly into workflows'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Workflow Automation',
+        description: 'Build multi-step automations with triggers, conditions, and actions across any solution without writing code.',
+        icon: 'workflow'
+      },
+      {
+        id: '2',
+        title: 'Flexible Views',
+        description: 'View the same data as grid, kanban, calendar, timeline, gallery, or map depending on the context and user preference.',
+        icon: 'kanban'
+      },
+      {
+        id: '3',
+        title: 'Custom Forms',
+        description: 'Build forms with conditional logic, file uploads, e-signatures, and approval workflows that feed directly into your solutions.',
+        icon: 'file-text'
+      }
+    ]
+  },
+  {
+    id: '84',
+    slug: 'bugherd',
+    name: 'BugHerd',
+    tagline: 'Visual bug tracking and website feedback tool',
+    description: 'Website review platform that turns visual feedback into actionable tasks with point-and-click annotations, automatic metadata capture, and integrations with development tools.',
+    overview: '',
+    pricingDescription: 'Standard at $50/month for 5 users and 10 projects. Studio at $80/month with unlimited projects and advanced features. Enterprise with custom pricing. 14-day free trial [[9]][[14]].',
+    logo: '/images/tool-logo/bugherd.webp',
+    website: 'https://bugherd.com',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'bug-tracking',
+      'visual-feedback',
+      'website-review',
+      'client-feedback',
+      'task-management',
+      'qa-testing',
+      'agencies',
+      'development-workflow'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 480,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'visual-feedback',
+        text: 'Point-and-click annotations directly on live websites'
+      },
+      {
+        id: 'automatic-metadata',
+        text: 'Automatically captures browser, OS, screen size, and console data'
+      },
+      {
+        id: 'integrations',
+        text: 'Native integrations with Jira, GitHub, GitLab, Slack, and Asana'
+      },
+      {
+        id: 'agencies',
+        text: 'Designed for agencies managing multiple client website projects'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Visual Annotations',
+        description: 'Click directly on any website element to pin feedback with comments, screenshots, and automatic technical metadata capture.',
+        icon: 'message-square'
+      },
+      {
+        id: '2',
+        title: 'Bug Tracking & Tasks',
+        description: 'Convert feedback into actionable tasks with statuses, assignments, priorities, and kanban boards that sync with development tools.',
+        icon: 'bug'
+      },
+      {
+        id: '3',
+        title: 'Client Review Workflow',
+        description: 'Invite clients to review websites without accounts, collect feedback in one place, and manage approval cycles with custom workflows.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '85',
+    slug: 'agencyanalytics',
+    name: 'AgencyAnalytics',
+    tagline: 'Marketing reporting platform for agencies and freelancers',
+    description: 'Automated marketing reporting platform with 80+ integrations, white-label dashboards, and scheduled report delivery designed specifically for digital marketing agencies.',
+    overview: '',
+    pricingDescription: 'Freelancer at $59/month for 5 clients. Agency at $179/month for 10 clients. Agency Pro at $349/month for 25 clients. Per-client pricing at $20/client/month on annual billing. 14-day free trial [[15]][[24]].',
+    logo: '/images/tool-logo/agencyanalytics.webp',
+    website: 'https://agencyanalytics.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'analytics'],
+    tags: [
+      'marketing-reporting',
+      'dashboards',
+      'white-label',
+      'seo-reporting',
+      'ppc-reporting',
+      'social-media-analytics',
+      'agencies',
+      'automated-reports'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.7,
+    reviewCount: 1100,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'integrations',
+        text: '80+ native integrations with Google Analytics, Ads, Facebook, SEO tools, and more'
+      },
+      {
+        id: 'white-label',
+        text: 'Fully white-label dashboards and reports with custom branding'
+      },
+      {
+        id: 'automation',
+        text: 'Scheduled automated reports delivered to clients via email or PDF'
+      },
+      {
+        id: 'agency-focus',
+        text: 'Built specifically for agencies managing multiple client accounts'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'White-Label Dashboards',
+        description: 'Custom branded dashboards combining data from multiple platforms into unified views that clients can access with your agency branding.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '2',
+        title: 'Automated Reporting',
+        description: 'Schedule PDF or email reports with custom templates, client-specific commentary, and automatic delivery to stakeholders on any cadence.',
+        icon: 'file-bar-chart'
+      },
+      {
+        id: '3',
+        title: '80+ Integrations',
+        description: 'Native connectors for Google Analytics, Google Ads, Facebook, Instagram, SEO tools, CRMs, and dozens more marketing platforms.',
+        icon: 'plug'
+      }
+    ]
+  },
+  {
+    id: '86',
+    slug: 'storylane',
+    name: 'Storylane',
+    tagline: 'Interactive product demo automation platform',
+    description: 'Demo automation platform for B2B companies to create interactive product tours, HTML-captured demos, and personalized experiences for marketing, sales, and presales teams.',
+    overview: '',
+    pricingDescription: 'Free plan with 1 demo. Starter at $40/month per seat. Growth at $500/month with 5 seats and HTML capture. Premium at $1,200/month with deal intelligence. 14-day free trial [[26]][[28]].',
+    logo: '/images/tool-logo/storylane.webp',
+    website: 'https://storylane.io',
+    affiliateUrl: null,
+    categories: ['marketing', 'sales'],
+    tags: [
+      'product-demos',
+      'demo-automation',
+      'interactive-tours',
+      'sales-enablement',
+      'b2b-marketing',
+      'product-marketing',
+      'html-capture',
+      'saas-marketing'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.8,
+    reviewCount: 420,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'html-capture',
+        text: 'Real HTML capture of your product for fully interactive demos'
+      },
+      {
+        id: 'personalization',
+        text: 'Dynamic demos that adapt to visitor industry, role, or use case'
+      },
+      {
+        id: 'analytics',
+        text: 'Detailed engagement analytics with viewer-level insights'
+      },
+      {
+        id: 'integrations',
+        text: 'CRM and marketing automation integrations for lead enrichment'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Interactive Product Demos',
+        description: 'Create clickable, guided product tours that let prospects explore your software without signing up or talking to sales.',
+        icon: 'presentation'
+      },
+      {
+        id: '2',
+        title: 'HTML Capture',
+        description: 'Capture real HTML of your product interface for authentic interactive experiences rather than screenshots or videos.',
+        icon: 'code'
+      },
+      {
+        id: '3',
+        title: 'Engagement Analytics',
+        description: 'Track which features prospects explore, where they drop off, and what drives conversion with viewer-level analytics.',
+        icon: 'bar-chart'
+      }
+    ]
+  },
+  {
+    id: '87',
+    slug: 'browse-ai',
+    name: 'Browse AI',
+    tagline: 'No-code web scraping and monitoring platform',
+    description: 'AI-powered web automation platform that lets anyone extract data from any website, monitor changes, and automate web tasks without writing code.',
+    overview: '',
+    pricingDescription: 'Free plan with limited credits. Personal at $48/month (or $19 annual). Professional at $87/month. Premium at $249/month. Credit-based pricing for extraction and monitoring tasks [[35]][[38]].',
+    logo: '/images/tool-logo/browseai.webp',
+    website: 'https://browse.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'web-development'],
+    tags: [
+      'web-scraping',
+      'no-code',
+      'data-extraction',
+      'web-monitoring',
+      'automation',
+      'ai-tools',
+      'competitor-intelligence',
+      'price-monitoring'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 320,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'no-code',
+        text: 'Train AI robots by showing them what to do — no coding required'
+      },
+      {
+        id: 'monitoring',
+        text: 'Schedule recurring extractions and get alerts on changes'
+      },
+      {
+        id: 'integrations',
+        text: 'Connect to Google Sheets, Zapier, Airtable, and 5,000+ apps'
+      },
+      {
+        id: 'templates',
+        text: 'Pre-built robots for common scraping tasks across popular sites'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'No-Code Web Scraping',
+        description: 'Train AI robots by demonstrating extraction tasks in a real browser — no programming or selectors knowledge required.',
+        icon: 'mouse-pointer-click'
+      },
+      {
+        id: '2',
+        title: 'Scheduled Monitoring',
+        description: 'Run extractions on schedule and receive notifications via email, Slack, or webhooks when monitored data changes.',
+        icon: 'clock'
+      },
+      {
+        id: '3',
+        title: 'Data Integrations',
+        description: 'Send extracted data directly to Google Sheets, Airtable, Notion, Zapier, or your own API without manual exports.',
+        icon: 'database'
+      }
+    ]
+  },
+  {
+    id: '88',
+    slug: 'softr',
+    name: 'Softr',
+    tagline: 'No-code platform for building web apps from Airtable and Google Sheets',
+    description: 'No-code development platform that transforms Airtable and Google Sheets data into client portals, internal tools, and web applications without writing code.',
+    overview: '',
+    pricingDescription: 'Free plan available. Basic at $49/month (annual), Professional at $139/month, Business at $269/month. Scales with users, records, and features. 14-day free trial on paid plans [[3]][[6]].',
+    logo: '/images/tool-logo/softr.webp',
+    website: 'https://softr.io',
+    affiliateUrl: null,
+    categories: ['web-development', 'productivity'],
+    tags: [
+      'no-code',
+      'web-apps',
+      'client-portals',
+      'internal-tools',
+      'airtable',
+      'google-sheets',
+      'low-code',
+      'business-apps'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 680,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'no-code',
+        text: 'Build full web applications without writing a single line of code'
+      },
+      {
+        id: 'data-sources',
+        text: 'Native integration with Airtable and Google Sheets as backends'
+      },
+      {
+        id: 'client-portals',
+        text: 'Purpose-built templates for client portals, directories, and marketplaces'
+      },
+      {
+        id: 'user-management',
+        text: 'Built-in user authentication, permissions, and member areas'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Visual App Builder',
+        description: 'Drag-and-drop interface builder with pre-built blocks for lists, forms, charts, and detail pages connected to your data sources.',
+        icon: 'layout'
+      },
+      {
+        id: '2',
+        title: 'User Management',
+        description: 'Built-in authentication, user groups, permissions, and gated content for client portals and member-only areas.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Custom Domains & Branding',
+        description: 'Deploy apps to custom domains with full branding control, SEO optimization, and analytics tracking.',
+        icon: 'globe'
+      }
+    ]
+  },
+  {
+    id: '89',
+    slug: 'glide',
+    name: 'Glide',
+    tagline: 'No-code platform for building mobile apps from spreadsheets',
+    description: 'No-code app builder that transforms Google Sheets, Excel, and databases into beautiful mobile and web applications with AI-powered features.',
+    overview: '',
+    pricingDescription: 'Free to build and test. Explorer at $19/month (annual), Maker at $49/month, Teams at $99/month, Business at $249/month. Scales with rows, users, and features [[8]].',
+    logo: '/images/tool-logo/glide.webp',
+    website: 'https://glideapps.com',
+    affiliateUrl: null,
+    categories: ['web-development', 'productivity'],
+    tags: [
+      'no-code',
+      'mobile-apps',
+      'progressive-web-apps',
+      'spreadsheets',
+      'ai-apps',
+      'internal-tools',
+      'field-apps',
+      'low-code'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.7,
+    reviewCount: 520,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'mobile-first',
+        text: 'Beautiful mobile-optimized apps that work as progressive web apps'
+      },
+      {
+        id: 'ai-features',
+        text: 'Built-in AI components for text generation, image analysis, and more'
+      },
+      {
+        id: 'spreadsheets',
+        text: 'Connect directly to Google Sheets, Excel, and SQL databases'
+      },
+      {
+        id: 'offline-mode',
+        text: 'Apps work offline and sync automatically when connection returns'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Spreadsheet Integration',
+        description: 'Connect apps directly to Google Sheets, Excel, or SQL databases with automatic two-way sync and real-time updates.',
+        icon: 'table'
+      },
+      {
+        id: '2',
+        title: 'AI-Powered Components',
+        description: 'Built-in AI blocks for text generation, image recognition, sentiment analysis, and data extraction without external APIs.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'Progressive Web Apps',
+        description: 'Apps install like native mobile apps with offline support, push notifications, and device feature access.',
+        icon: 'smartphone'
+      }
+    ]
+  },
+  {
+    id: '90',
+    slug: 'guesty',
+    name: 'Guesty',
+    tagline: 'Property management platform for short-term rental businesses',
+    description: 'All-in-one vacation rental management software with channel distribution, automated messaging, unified inbox, pricing optimization, and operations tools for property managers.',
+    overview: '',
+    pricingDescription: 'Lite from $9/listing/month plus 1% per reservation. Pro from $40-72/listing/month with advanced automation. Enterprise with custom pricing for 100+ listings. Annual billing discounts available [[14]][[19]].',
+    logo: '/images/tool-logo/guesty.webp',
+    website: 'https://guesty.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'property-management',
+      'vacation-rentals',
+      'channel-manager',
+      'short-term-rentals',
+      'airbnb-management',
+      'hospitality',
+      'automated-messaging',
+      'pricing-optimization'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.3,
+    reviewCount: 890,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'channel-distribution',
+        text: 'Sync listings across Airbnb, Booking.com, Vrbo, and 20+ OTAs'
+      },
+      {
+        id: 'automation',
+        text: 'Automated guest messaging, reviews, and operational workflows'
+      },
+      {
+        id: 'unified-inbox',
+        text: 'Single inbox for all guest communications across channels'
+      },
+      {
+        id: 'pricing-tools',
+        text: 'Dynamic pricing optimization based on demand and competition'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Channel Manager',
+        description: 'Synchronize listings, calendars, rates, and availability across Airbnb, Booking.com, Vrbo, and dozens of other distribution channels.',
+        icon: 'share-2'
+      },
+      {
+        id: '2',
+        title: 'Automated Messaging',
+        description: 'Pre-written message templates triggered by booking events — confirmations, check-in instructions, review requests — sent automatically.',
+        icon: 'message-square'
+      },
+      {
+        id: '3',
+        title: 'Unified Inbox',
+        description: 'Consolidate all guest communications from every channel into a single inbox with conversation history and quick responses.',
+        icon: 'inbox'
+      }
+    ]
+  },
+  {
+    id: '91',
+    slug: 'contractorforeman',
+    name: 'Contractor Foreman',
+    tagline: 'All-in-one construction management software',
+    description: 'Comprehensive construction project management platform with scheduling, daily logs, budgeting, time tracking, and document management for general and trade contractors.',
+    overview: '',
+    pricingDescription: 'Starting at $49/month for the entire company with unlimited users. Plans scale with features: Standard, Plus, and Enterprise tiers. Annual contracts with 30-day money-back guarantee [[21]][[22]].',
+    logo: '/images/tool-logo/contractorforeman.webp',
+    website: 'https://contractorforeman.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'construction-management',
+      'project-management',
+      'scheduling',
+      'daily-logs',
+      'budgeting',
+      'time-tracking',
+      'contractors',
+      'field-management'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 450,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'affordable',
+        text: 'Most affordable all-in-one solution starting at $49/month for unlimited users'
+      },
+      {
+        id: 'comprehensive',
+        text: '35+ integrated modules covering entire construction workflow'
+      },
+      {
+        id: 'mobile-apps',
+        text: 'Full-featured mobile apps for field crews and project managers'
+      },
+      {
+        id: 'integrations',
+        text: 'QuickBooks, Sage, Procore, and other construction tools'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Project Scheduling',
+        description: 'Gantt charts, task dependencies, resource allocation, and critical path management with mobile access for field updates.',
+        icon: 'calendar'
+      },
+      {
+        id: '2',
+        title: 'Daily Logs',
+        description: 'Mobile-friendly daily reports with photos, weather tracking, crew hours, and automated distribution to stakeholders.',
+        icon: 'clipboard-list'
+      },
+      {
+        id: '3',
+        title: 'Budget & Cost Tracking',
+        description: 'Real-time budget vs actual tracking with change orders, purchase orders, and subcontractor management.',
+        icon: 'dollar-sign'
+      }
+    ]
+  },
+  {
+    id: '92',
+    slug: 'housecallpro',
+    name: 'Housecall Pro',
+    tagline: 'Field service management for home service businesses',
+    description: 'All-in-one business management platform for home service professionals with scheduling, estimates, invoicing, payment processing, and marketing tools.',
+    overview: '',
+    pricingDescription: 'Basic at $59/month (annual) or $79/month (monthly). Essentials at $149/month. MAX at $329/month. Add-ons available for QuickBooks, SMS, and advanced features. 14-day free trial [[29]][[31]].',
+    logo: '/images/tool-logo/housecallpro.webp',
+    website: 'https://housecallpro.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'crm'],
+    tags: [
+      'field-service',
+      'home-services',
+      'scheduling',
+      'invoicing',
+      'estimates',
+      'payment-processing',
+      'dispatch',
+      'hvac'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 3200,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'home-services',
+        text: 'Built specifically for HVAC, plumbing, electrical, and other home services'
+      },
+      {
+        id: 'mobile-app',
+        text: 'Highly-rated mobile app for technicians in the field'
+      },
+      {
+        id: 'payment-processing',
+        text: 'Integrated credit card processing with instant deposits'
+      },
+      {
+        id: 'marketing',
+        text: 'Built-in review generation and email marketing tools'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Scheduling & Dispatch',
+        description: 'Drag-and-drop calendar with technician tracking, route optimization, and automated appointment reminders via text and email.',
+        icon: 'calendar-check'
+      },
+      {
+        id: '2',
+        title: 'Estimates & Invoicing',
+        description: 'Create professional estimates and invoices in the field with line items, photos, e-signatures, and instant conversion from estimate to invoice.',
+        icon: 'file-text'
+      },
+      {
+        id: '3',
+        title: 'Payment Processing',
+        description: 'Accept credit cards, ACH, and financing with integrated processing, automatic reconciliation, and next-day deposits.',
+        icon: 'credit-card'
+      }
+    ]
+  },
+  {
+    id: '93',
+    slug: 'motion',
+    name: 'Motion',
+    tagline: 'AI-powered calendar, task and project management platform',
+    description: 'All-in-one productivity platform combining AI calendar scheduling, task management, and project tracking that automatically optimizes your daily schedule.',
+    overview: '',
+    pricingDescription: 'Individual Pro AI at $19/month (annual) or $29/month (monthly). Team Business AI at $12/user/month (annual) or $19/user/month (monthly). 14-day free trial [[2]][[4]].',
+    logo: '/images/tool-logo/motion.webp',
+    website: 'https://usemotion.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'ai-calendar',
+      'task-management',
+      'project-management',
+      'auto-scheduling',
+      'time-blocking',
+      'productivity',
+      'ai-tools',
+      'workflow-automation'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 750,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'ai-scheduling',
+        text: 'AI automatically schedules tasks into calendar gaps based on priorities and deadlines'
+      },
+      {
+        id: 'auto-reschedule',
+        text: 'Automatically reschedules tasks when meetings run long or priorities change'
+      },
+      {
+        id: 'all-in-one',
+        text: 'Calendar, tasks, projects, and meetings in a single unified platform'
+      },
+      {
+        id: 'time-blocking',
+        text: 'Intelligent time blocking that protects focus time and prevents overcommitment'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'AI Auto-Scheduling',
+        description: 'AI analyzes your calendar, task priorities, and deadlines to automatically schedule work into available time slots throughout your day.',
+        icon: 'calendar-cog'
+      },
+      {
+        id: '2',
+        title: 'Smart Rescheduling',
+        description: 'When meetings run over or priorities shift, Motion automatically moves tasks to optimal new time slots without manual replanning.',
+        icon: 'refresh-cw'
+      },
+      {
+        id: '3',
+        title: 'Unified Workspace',
+        description: 'Calendar, task manager, project tracker, and meeting scheduler in one platform with data flowing seamlessly between all components.',
+        icon: 'layers'
+      }
+    ]
+  },
+  {
+    id: '94',
+    slug: 'reclaim-ai',
+    name: 'Reclaim.ai',
+    tagline: 'AI calendar scheduling for teams and individuals',
+    description: 'AI-powered calendar app that auto-schedules tasks, habits, meetings, and breaks while protecting focus time and coordinating schedules across teams.',
+    overview: '',
+    pricingDescription: 'Lite free plan with basic features. Starter at $8-10/seat/month, Business at $15/seat/month, Enterprise at $22/seat/month. Free through July 2026 for new users [[11]][[12]].',
+    logo: '/images/tool-logo/reclaimai.webp',
+    website: 'https://reclaim.ai',
+    affiliateUrl: null,
+    categories: ['productivity', 'ai'],
+    tags: [
+      'ai-calendar',
+      'scheduling',
+      'time-management',
+      'focus-time',
+      'team-scheduling',
+      'habits',
+      'google-calendar',
+      'outlook'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 820,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'auto-scheduling',
+        text: 'AI auto-schedules tasks, habits, and breaks around existing meetings'
+      },
+      {
+        id: 'focus-protection',
+        text: 'Protects focus time blocks and prevents meeting overload'
+      },
+      {
+        id: 'team-sync',
+        text: 'Coordinates schedules across teams to find optimal meeting times'
+      },
+      {
+        id: 'free-plan',
+        text: 'Generous free plan with core features for individual users'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Task Auto-Scheduling',
+        description: 'AI finds optimal time slots for tasks based on duration, deadlines, and calendar availability without manual time blocking.',
+        icon: 'clock'
+      },
+      {
+        id: '2',
+        title: 'Focus Time Protection',
+        description: 'Automatically blocks focus time for deep work and defends it against meeting requests with customizable rules.',
+        icon: 'shield'
+      },
+      {
+        id: '3',
+        title: 'Team Scheduling',
+        description: 'Find common availability across team calendars and coordinate group focus time, 1:1s, and collaborative work sessions.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '95',
+    slug: 'sanebox',
+    name: 'SaneBox',
+    tagline: 'AI-powered email management and inbox organization',
+    description: 'Email productivity tool that uses AI to filter, prioritize, and organize incoming emails into custom folders, saving users an average of 2.5 hours per week.',
+    overview: '',
+    pricingDescription: 'Snack at $7/month (annual) for 1 account and 2 features. Lunch at $9/month (annual) for unlimited features. Dinner at $36/month for multiple accounts. 14-day free trial [[16]][[20]].',
+    logo: '/images/tool-logo/sanebox.webp',
+    website: 'https://sanebox.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'email-management',
+      'inbox-zero',
+      'ai-filtering',
+      'email-productivity',
+      'spam-filter',
+      'email-organization',
+      'focus',
+      'time-saving'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 1100,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'ai-filtering',
+        text: 'AI learns your priorities and filters unimportant emails automatically'
+      },
+      {
+        id: 'time-savings',
+        text: 'Average user saves 2.5+ hours per week on email management'
+      },
+      {
+        id: 'custom-folders',
+        text: 'Automatically sorts emails into custom folders you define'
+      },
+      {
+        id: 'works-everywhere',
+        text: 'Works with any email client — Gmail, Outlook, Apple Mail, mobile'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Smart Filtering',
+        description: 'AI analyzes your email behavior and automatically moves low-priority messages out of inbox into designated folders.',
+        icon: 'filter'
+      },
+      {
+        id: '2',
+        title: 'SaneLater Folder',
+        description: 'Unimportant emails route to SaneLater folder for batch review, keeping your inbox focused on urgent communications.',
+        icon: 'archive'
+      },
+      {
+        id: '3',
+        title: 'SaneBlacklist',
+        description: 'One-click unsubscribe and permanent blocking of unwanted senders without complex filter rules or email client configuration.',
+        icon: 'ban'
+      }
+    ]
+  },
+  {
+    id: '96',
+    slug: 'krispcall',
+    name: 'KrispCall',
+    tagline: 'AI-powered cloud phone system for growing businesses',
+    description: 'Unified VoIP communication platform combining calling, SMS, voicemail, and team collaboration with AI-powered features for small and mid-size businesses.',
+    overview: '',
+    pricingDescription: 'Essential at $12/user/month (annual) or $15/user/month (monthly) for up to 5 users. Standard at $32/user/month (annual) or $40/month (monthly). Enterprise with custom pricing [[23]][[25]].',
+    logo: '/images/tool-logo/krispcall.webp',
+    website: 'https://krispcall.com',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'voip',
+      'cloud-phone',
+      'business-phone',
+      'ai-communication',
+      'sms',
+      'team-collaboration',
+      'call-routing',
+      'small-business'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 380,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'ai-features',
+        text: 'AI-powered call transcription, voicemail-to-text, and smart routing'
+      },
+      {
+        id: 'affordable',
+        text: 'Competitive pricing starting at $12/user/month for small teams'
+      },
+      {
+        id: 'unified-communication',
+        text: 'Calling, SMS, voicemail, and team messaging in one workspace'
+      },
+      {
+        id: 'global-numbers',
+        text: 'Local and toll-free numbers in 70+ countries'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'AI Call Transcription',
+        description: 'Automatic real-time transcription of calls with AI-generated summaries and action items extracted from conversations.',
+        icon: 'file-text'
+      },
+      {
+        id: '2',
+        title: 'Smart Call Routing',
+        description: 'Route incoming calls based on time, caller ID, department, and custom rules with IVR menus and ring groups.',
+        icon: 'route'
+      },
+      {
+        id: '3',
+        title: 'Unified Messaging',
+        description: 'Combine voice calls, SMS texts, voicemail, and team chat in a single conversation view with search and history.',
+        icon: 'message-circle'
+      }
+    ]
+  },
+  {
+    id: '97',
+    slug: 'visualcv',
+    name: 'VisualCV',
+    tagline: 'Professional resume and portfolio builder',
+    description: 'Online resume builder with 30+ professional templates, ATS optimization, portfolio features, and analytics to track resume views and downloads.',
+    overview: '',
+    pricingDescription: 'Free plan with basic features. Pro Monthly at $16-24/month. Pro Quarterly at $16/month ($48/quarter). Pro Annual at $9.08/month ($109/year). Team plans from $59/month [[31]][[35]].',
+    logo: '/images/tool-logo/visualcv.webp',
+    website: 'https://visualcv.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'resume-builder',
+      'cv-maker',
+      'portfolio',
+      'career-tools',
+      'ats-optimization',
+      'job-search',
+      'professional-branding',
+      'templates'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 920,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'templates',
+        text: '30+ professionally designed resume and CV templates'
+      },
+      {
+        id: 'ats-friendly',
+        text: 'ATS-optimized formatting that passes applicant tracking systems'
+      },
+      {
+        id: 'analytics',
+        text: 'Track who views and downloads your resume in real-time'
+      },
+      {
+        id: 'portfolio',
+        text: 'Combine resume with portfolio showcase for creative professionals'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Template Library',
+        description: 'Choose from 30+ professional templates across industries with customization options for colors, fonts, and layouts.',
+        icon: 'layout-template'
+      },
+      {
+        id: '2',
+        title: 'ATS Optimization',
+        description: 'Built-in formatting ensures resumes pass applicant tracking systems used by 99% of Fortune 500 companies.',
+        icon: 'check-circle'
+      },
+      {
+        id: '3',
+        title: 'Resume Analytics',
+        description: 'See who views your resume, when they view it, and which sections get the most attention to optimize your content.',
+        icon: 'bar-chart'
+      }
+    ]
+  },
+  {
+    id: '98',
+    slug: 'testgorilla',
+    name: 'TestGorilla',
+    tagline: 'Skills assessment platform for evidence-based hiring',
+    description: 'Pre-employment testing platform with 350+ skills assessments, cognitive ability tests, and AI-powered interviews to help companies hire based on ability rather than resumes.',
+    overview: '',
+    pricingDescription: 'Free plan with 5 basic tests. Core at $142/month (250 credits). Standard and Pro plans scale with credits. Standard assessments cost 1 credit, video features cost 2 credits [[1]][[4]].',
+    logo: '/images/tool-logo/testgorilla.webp',
+    website: 'https://testgorilla.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'pre-employment-testing',
+      'skills-assessment',
+      'hiring',
+      'recruitment',
+      'cognitive-tests',
+      'talent-acquisition',
+      'hr-tech',
+      'candidate-screening'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 1250,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'test-library',
+        text: '350+ pre-built tests covering technical skills, cognitive ability, and personality'
+      },
+      {
+        id: 'anti-cheating',
+        text: 'Advanced anti-cheating measures including snapshots and fullscreen monitoring'
+      },
+      {
+        id: 'bias-reduction',
+        text: 'Evidence-based assessments reduce unconscious bias in hiring decisions'
+      },
+      {
+        id: 'integrations',
+        text: 'Native integrations with major ATS platforms like Greenhouse and Lever'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Skills Assessments',
+        description: 'Pre-built tests for programming, design, marketing, sales, customer service, and dozens of other role-specific skills.',
+        icon: 'clipboard-check'
+      },
+      {
+        id: '2',
+        title: 'Cognitive Ability Tests',
+        description: 'Measure critical thinking, problem-solving, and learning ability with validated psychometric assessments.',
+        icon: 'brain'
+      },
+      {
+        id: '3',
+        title: 'Video Interviews',
+        description: 'One-way video interviews with AI analysis of responses, communication skills, and cultural fit indicators.',
+        icon: 'video'
+      }
+    ]
+  },
+  {
+    id: '99',
+    slug: 'signable',
+    name: 'Signable',
+    tagline: 'Simple and affordable electronic signature platform',
+    description: 'UK-based e-signature platform offering legally binding electronic signatures with unlimited users, templates, and API access at flexible pay-as-you-go pricing.',
+    overview: '',
+    pricingDescription: 'Pay-as-you-go at £1.50 per envelope with no monthly commitment. Subscription plans available for high volume. Unlimited users and templates on all plans. No credit card required for trial [[11]][[15]].',
+    logo: '/images/tool-logo/signable.webp',
+    website: 'https://signable.co.uk',
+    affiliateUrl: null,
+    categories: ['productivity', 'hr'],
+    tags: [
+      'e-signature',
+      'digital-signature',
+      'document-management',
+      'contracts',
+      'legal-tech',
+      'workflow-automation',
+      'uk-compliance',
+      'gdpr'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.8,
+    reviewCount: 185,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'pay-as-you-go',
+        text: 'Pay only £1.50 per envelope with no monthly subscription required'
+      },
+      {
+        id: 'unlimited-users',
+        text: 'Unlimited team members on all plans at no extra cost'
+      },
+      {
+        id: 'uk-compliance',
+        text: 'UK-based with full GDPR compliance and eIDAS certification'
+      },
+      {
+        id: 'api-access',
+        text: 'Full API access and Zapier integration for workflow automation'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Legally Binding Signatures',
+        description: 'eIDAS-certified electronic signatures that are legally binding across UK, EU, and US jurisdictions.',
+        icon: 'signature'
+      },
+      {
+        id: '2',
+        title: 'Document Templates',
+        description: 'Reusable templates with pre-placed signature fields, text boxes, and date fields for recurring contracts.',
+        icon: 'file-text'
+      },
+      {
+        id: '3',
+        title: 'Audit Trail',
+        description: 'Complete audit logs with timestamps, IP addresses, and certificate of completion for every signed document.',
+        icon: 'history'
+      }
+    ]
+  },
+  {
+    id: '100',
+    slug: 'easydmarc',
+    name: 'EasyDMARC',
+    tagline: 'Email authentication and DMARC management platform',
+    description: 'Email security platform that simplifies DMARC, DKIM, and SPF implementation with visual dashboards, monitoring, and enforcement to protect domains from spoofing and phishing.',
+    overview: '',
+    pricingDescription: 'Free tier for basic monitoring. Plus at $35.99/month (annual) for 100,000 emails and 2 domains. Premium at $71.99/month for 250,000 emails and 5 domains. Enterprise with custom pricing [[23]][[25]].',
+    logo: '/images/tool-logo/easydmarc.webp',
+    website: 'https://easydmarc.com',
+    affiliateUrl: null,
+    categories: ['security'],
+    tags: [
+      'email-security',
+      'dmarc',
+      'dkim',
+      'spf',
+      'phishing-protection',
+      'domain-security',
+      'email-authentication',
+      'deliverability'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.8,
+    reviewCount: 420,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'visual-dashboards',
+        text: 'Easy-to-understand dashboards showing DMARC compliance and threat sources'
+      },
+      {
+        id: 'guided-setup',
+        text: 'Step-by-step wizard for implementing DMARC, DKIM, and SPF correctly'
+      },
+      {
+        id: 'threat-intelligence',
+        text: 'Identifies unauthorized senders attempting to spoof your domain'
+      },
+      {
+        id: 'enforcement',
+        text: 'Safe progression from monitoring to enforcement without email delivery issues'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'DMARC Monitoring',
+        description: 'Aggregate and forensic reports showing which sources send email on behalf of your domain and their authentication status.',
+        icon: 'shield'
+      },
+      {
+        id: '2',
+        title: 'SPF & DKIM Management',
+        description: 'Generate, validate, and monitor SPF records and DKIM selectors to ensure proper email authentication.',
+        icon: 'key'
+      },
+      {
+        id: '3',
+        title: 'Threat Detection',
+        description: 'Identify phishing attempts and domain spoofing attacks targeting your brand with real-time alerts.',
+        icon: 'alert-triangle'
+      }
+    ]
+  },
+  {
+    id: '101',
+    slug: 'idrive',
+    name: 'IDrive',
+    tagline: 'Cloud backup and storage for personal and business use',
+    description: 'Comprehensive backup solution offering continuous data protection, disk image backup, and cloud storage for computers, mobile devices, and servers with exceptional value pricing.',
+    overview: '',
+    pricingDescription: 'Free 10GB plan. Personal 5TB at $99.50/year ($69.65 first year). Business plans from $74.62/year per user. Mini plans from $2.95/year for 100GB. 30-day money-back guarantee [[27]][[28]].',
+    logo: '/images/tool-logo/idrive.webp',
+    website: 'https://idrive.com',
+    affiliateUrl: null,
+    categories: ['security'],
+    tags: [
+      'cloud-backup',
+      'data-protection',
+      'disaster-recovery',
+      'cloud-storage',
+      'endpoint-backup',
+      'server-backup',
+      'ransomware-protection',
+      'file-sync'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 1800,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'unlimited-devices',
+        text: 'Backup unlimited computers, mobile devices, and servers under one account'
+      },
+      {
+        id: 'disk-image',
+        text: 'Full disk image backup for bare-metal recovery in case of hardware failure'
+      },
+      {
+        id: 'exceptional-value',
+        text: '5TB personal backup for under $100/year — best value in the industry'
+      },
+      {
+        id: 'physical-shipping',
+        text: 'Optional physical hard drive shipping for large initial backups and restores'
+      }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Continuous Backup',
+        description: 'Real-time backup of files and folders with versioning and retention policies to protect against accidental deletion or corruption.',
+        icon: 'refresh-cw'
+      },
+      {
+        id: '2',
+        title: 'Disk Image Backup',
+        description: 'Complete system image backup enabling full bare-metal restore to same or different hardware in case of catastrophic failure.',
+        icon: 'hard-drive'
+      },
+      {
+        id: '3',
+        title: 'Ransomware Protection',
+        description: 'Immutable snapshots and versioning protect against ransomware encryption with point-in-time recovery options.',
+        icon: 'lock'
+      }
+    ]
+  },
+  {
+    id: '102',
+    slug: 'foxit',
+    name: 'Foxit PDF Editor',
+    tagline: 'Professional PDF editing and document management platform',
+    description: 'Comprehensive PDF editor offering advanced editing, e-signatures, OCR, security features, and collaboration tools as an affordable alternative to Adobe Acrobat.',
+    overview: '',
+    pricingDescription: 'PDF Editor at $10.99/month or $129.99/year per user. PDF Editor+ with eSign and redaction at $159.99/year. Perpetual license available at $209.99 one-time [[1]][[2]].',
+    logo: '/images/tool-logo/foxit.webp',
+    website: 'https://foxit.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'design'],
+    tags: [
+      'pdf-editor',
+      'document-management',
+      'e-signature',
+      'ocr',
+      'pdf-security',
+      'adobe-alternative',
+      'collaboration',
+      'productivity'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 2800,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'affordable',
+        text: 'Around one-third the cost of Adobe Acrobat with comparable features'
+      },
+      {
+        id: 'ai-redaction',
+        text: 'AI-powered redaction for sensitive information removal'
+      },
+      {
+        id: 'fast-performance',
+        text: 'Lightweight application with fast loading and rendering'
+      },
+      {
+        id: 'cross-platform',
+        text: 'Available on Windows, Mac, iOS, Android, and web browsers'
+      }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'PDF Editing',
+        description: 'Edit text, images, and formatting in PDFs with precision comparable to original document editing software.',
+        icon: 'edit'
+      },
+      {
+        id: '2',
+        title: 'E-Signatures',
+        description: 'Legally binding electronic signatures with certificate-based authentication and audit trails for compliance.',
+        icon: 'signature'
+      },
+      {
+        id: '3',
+        title: 'OCR & Conversion',
+        description: 'Convert scanned documents to editable text with optical character recognition supporting 20+ languages.',
+        icon: 'scan-text'
+      }
+    ]
+  },
+  {
+    id: '103',
+    slug: 'plesk',
+    name: 'Plesk',
+    tagline: 'Web hosting control panel and server management platform',
+    description: 'Comprehensive hosting control panel providing graphical interface for managing servers, websites, applications, and security with automation tools for hosting providers and developers.',
+    overview: '',
+    pricingDescription: 'Web Admin Edition at €12.04/month. Web Pro Edition at €18.29/month with additional features. Web Host Edition at €31.38/month for hosting providers with unlimited domains [[9]][[13]].',
+    logo: '/images/tool-logo/plesk.webp',
+    website: 'https://plesk.com',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'control-panel',
+      'server-management',
+      'hosting-automation',
+      'website-management',
+      'devops',
+      'docker',
+      'git-integration',
+      'wordpress-hosting'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 1650,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'user-friendly',
+        text: 'Intuitive graphical interface replacing command-line server management'
+      },
+      {
+        id: 'automation',
+        text: 'Automated updates, backups, and security patches without manual intervention'
+      },
+      {
+        id: 'extensions',
+        text: '100+ extensions for WordPress, Docker, Git, Node.js, and other tools'
+      },
+      {
+        id: 'multi-platform',
+        text: 'Supports both Linux and Windows servers with unified interface'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Website Management',
+        description: 'Create and manage multiple websites, domains, databases, and email accounts from a single dashboard.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '2',
+        title: 'WordPress Toolkit',
+        description: 'One-click WordPress installation, staging environments, cloning, updates, and security hardening tools.',
+        icon: 'wordpress'
+      },
+      {
+        id: '3',
+        title: 'Security & Firewall',
+        description: 'Built-in security advisor, firewall management, fail2ban, and automatic security updates for server protection.',
+        icon: 'shield'
+      }
+    ]
+  },
+  {
+    id: '104',
+    slug: 'ultahost',
+    name: 'Ultahost',
+    tagline: 'High-performance web hosting with affordable pricing',
+    description: 'Web hosting provider offering shared hosting, VPS, and dedicated servers with free SSL, automated backups, DDoS protection, and 24/7 support at competitive prices.',
+    overview: '',
+    pricingDescription: 'Shared hosting from $2.99/month. VPS hosting from $6.99/month. Dedicated servers from $69.99/month. All plans include free SSL, daily backups, and free domain transfer [[18]][[19]].',
+    logo: '/images/tool-logo/ultahost.webp',
+    website: 'https://ultahost.com',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'web-hosting',
+      'vps-hosting',
+      'shared-hosting',
+      'dedicated-servers',
+      'ssl-certificates',
+      'ddos-protection',
+      'wordpress-hosting',
+      'affordable-hosting'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 920,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'affordable',
+        text: 'Highly competitive pricing starting at $2.99/month for shared hosting'
+      },
+      {
+        id: 'free-features',
+        text: 'Free SSL certificates, daily backups, and domain transfers included'
+      },
+      {
+        id: 'performance',
+        text: 'SSD storage with NVMe options and global data center locations'
+      },
+      {
+        id: 'support',
+        text: '24/7 customer support with live chat and ticket system'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Control Panel',
+        description: 'User-friendly control panel for managing websites, domains, email accounts, and databases without technical expertise.',
+        icon: 'settings'
+      },
+      {
+        id: '2',
+        title: 'One-Click Installs',
+        description: 'Install WordPress, Joomla, Drupal, and 400+ other applications with single-click deployment.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'Security Suite',
+        description: 'Free SSL certificates, DDoS protection, malware scanning, and automated security updates.',
+        icon: 'lock'
+      }
+    ]
+  },
+  {
+    id: '105',
+    slug: 'inmotion-hosting',
+    name: 'InMotion Hosting',
+    tagline: 'Reliable web hosting with business-class support',
+    description: 'Web hosting provider offering shared hosting, VPS, dedicated servers, and WordPress hosting with free domain, SSL, email, and 24/7 human technical support.',
+    overview: '',
+    pricingDescription: 'Shared hosting from $4.99/month. VPS hosting from $19.99/month. Dedicated servers from $39.99/month. All plans include free domain, SSL, email, and site migration [[23]][[27]].',
+    logo: '/images/tool-logo/inmotionhosting.webp',
+    website: 'https://inmotionhosting.com',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'web-hosting',
+      'vps-hosting',
+      'dedicated-servers',
+      'wordpress-hosting',
+      'business-hosting',
+      'email-hosting',
+      'site-migration',
+      'customer-support'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.3,
+    reviewCount: 2900,
+    lastUpdated: '2026-08-14',
+    highlights: [
+      {
+        id: 'human-support',
+        text: '24/7 human technical support without chatbots or outsourced call centers'
+      },
+      {
+        id: 'free-migration',
+        text: 'Free website migration service for transferring existing sites'
+      },
+      {
+        id: 'uptime-guarantee',
+        text: '99.99% uptime guarantee with redundant infrastructure'
+      },
+      {
+        id: 'business-focus',
+        text: 'Optimized for business websites with professional email and security'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'cPanel Access',
+        description: 'Industry-standard cPanel control panel for managing websites, email, databases, and files with familiar interface.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '2',
+        title: 'Free Site Migration',
+        description: 'Professional migration service transfers your existing websites, databases, and email accounts at no charge.',
+        icon: 'truck'
+      },
+      {
+        id: '3',
+        title: 'Business Email',
+        description: 'Professional email addresses with your domain, spam filtering, and mobile access included with hosting plans.',
+        icon: 'mail'
+      }
+    ]
+  },
 ]

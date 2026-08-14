@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const agencyanalyticsContent: ToolContent = {
+  overview: `AgencyAnalytics is a marketing reporting platform built specifically for digital marketing agencies, freelancers, and in-house marketing teams managing multiple channels. The platform addresses a pain point familiar to anyone running client reporting: manually logging into Google Analytics, Google Ads, Facebook, SEO tools, and CRM platforms to compile data into spreadsheets or slide decks that take hours to produce and are outdated the moment they are delivered.
+
+The platform connects natively to 80+ marketing platforms including Google Analytics 4, Google Ads, Meta Ads, LinkedIn, TikTok, SEO tools like Ahrefs and SEMrush, email marketing platforms, CRMs, and call tracking systems. Data from all these sources flows into unified dashboards where metrics that previously lived in separate systems can be analyzed together. Clients see the complete picture of marketing performance without the agency spending days assembling it each month.
+
+White-label dashboards and reports carry your agency branding rather than AgencyAnalytics branding, creating a professional client experience that reinforces your value. Custom domains, branded login portals, and custom color schemes make the platform feel like proprietary technology you built rather than a third-party subscription. For agencies where presentation quality influences client retention, this branding control matters significantly.
+
+Automated reporting eliminates the recurring manual effort of client deliverables. Schedule PDF or email reports to deliver weekly, monthly, or quarterly with custom commentary templates. Reports can include dynamic sections that update automatically alongside static context explaining results and strategy adjustments. Clients receive polished, data-rich reports without anyone on your team touching them after initial setup.
+
+The platform supports goal tracking, ROI calculations, custom metrics, and cross-channel attribution models that go beyond what individual platform dashboards provide. Comparison periods, year-over-year analysis, and benchmark data help contextualize performance in ways that raw metrics alone cannot. For agencies justifying retainer value or identifying optimization opportunities, these analytical capabilities differentiate client reporting from basic data dumps.
+
+Pricing uses a per-client model starting at $59/month for 5 clients on the Freelancer plan, scaling to $179 for 10 clients on Agency and $349 for 25 clients on Agency Pro. Annual billing provides approximately 20% savings. A 14-day free trial lets agencies test with real client data before committing. For agencies billing clients for reporting time or struggling with manual reporting processes, AgencyAnalytics typically delivers ROI within the first month through time savings alone.`
+}

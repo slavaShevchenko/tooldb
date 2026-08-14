@@ -1,0 +1,17 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const reclaimaiContent: ToolContent = {
+  overview: `Reclaim.ai is an AI-powered calendar application that automatically schedules tasks, habits, meetings, and breaks while protecting focus time for deep work. Unlike traditional calendar tools that require manual time blocking, Reclaim's AI analyzes your existing commitments and finds optimal slots for everything you need to accomplish — then dynamically adjusts when circumstances change. The platform integrates with Google Calendar and Outlook, adding intelligence layers rather than replacing your existing calendar infrastructure.
+
+The platform addresses a universal problem: calendars fill with meetings while important work gets squeezed into increasingly narrow gaps. Reclaim inverts this dynamic by treating tasks and focus time as first-class calendar citizens alongside meetings. You specify what needs to happen and when it must be completed, and Reclaim ensures those commitments receive dedicated time slots rather than hoping you find time between meetings.
+
+Task auto-scheduling works by specifying duration and deadline rather than specific time slots. A task requiring two hours before Friday gets scheduled into available calendar gaps automatically, with Reclaim defending that time against new meeting requests. If conflicts emerge, the task moves to alternative slots while still meeting its deadline. This flexibility-with-constraints approach delivers structure without rigidity — your calendar adapts to reality while ensuring important work happens.
+
+Focus time protection is perhaps Reclaim's most valuable feature for knowledge workers drowning in meetings. The AI blocks dedicated deep work periods on your calendar and can automatically decline or reschedule meeting requests that conflict with protected focus blocks. Customizable rules define when focus time occurs, minimum duration requirements, and exceptions for specific people or meeting types. For professionals whose productivity depends on uninterrupted concentration, this feature alone justifies the subscription.
+
+Team scheduling capabilities coordinate multiple calendars to find optimal meeting times, group focus periods, and collaborative work sessions. Rather than email chains proposing times, Reclaim surfaces availability across team members and suggests slots that work for everyone while respecting individual focus time and working hours. One-click scheduling converts suggestions into calendar events without manual coordination.
+
+Habits tracking adds recurring personal and professional routines — exercise, learning, breaks, preparation time — that automatically schedule around commitments. Unlike manual habit trackers that rely on willpower, Reclaim ensures habits receive dedicated calendar time and reschedules them when conflicts occur rather than abandoning them entirely. This transforms aspirational routines into calendar-backed commitments.
+
+Pricing includes a generous free Lite plan with core features for individual users. Starter at $8-10/seat/month adds advanced scheduling and more integrations. Business at $15/seat/month enables team features and priority support. Enterprise at $22/seat/month provides security controls and dedicated support. For knowledge workers whose calendars have become sources of stress rather than productivity tools, Reclaim transforms scheduling from daily burden into automated background process.`
+}

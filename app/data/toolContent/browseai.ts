@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const browseaiContent: ToolContent = {
+  overview: `Browse AI is a no-code web scraping and monitoring platform that lets anyone extract data from any website without writing code or understanding HTML selectors. The platform uses AI to learn extraction patterns by watching users demonstrate what they want to capture — point at a product price, click "next page," scroll to a specific section — and then automates that process at scale. This accessibility opens web scraping capabilities to marketers, analysts, researchers, and operations teams who previously needed developer resources for data collection.
+
+The core workflow involves training a "robot" by performing the extraction task once in a real browser interface. Browse AI observes your interactions, learns which elements to target and how to navigate, and then repeats the process autonomously on your schedule. Robots can extract structured data like product prices, job listings, real estate listings, news headlines, or any information visible on a web page. The AI handles variations in page layout, dynamic content loading, and minor structural changes that typically break traditional scraping scripts.
+
+Scheduled monitoring transforms one-time extractions into ongoing intelligence. Robots run hourly, daily, weekly, or on custom schedules, comparing new data against previous runs and triggering alerts when changes occur. Competitor price monitoring, job posting alerts, regulatory update tracking, inventory availability, and content change detection all become automated workflows without ongoing manual effort. Alerts can route to email, Slack, webhooks, or trigger downstream automations through Zapier.
+
+The platform maintains a library of pre-built robots for common extraction tasks across popular websites — Amazon product data, LinkedIn profiles, Indeed job postings, Airbnb listings, and hundreds of other sites. These templates let users start extracting immediately without training their own robots, though custom robots can be created for any website with unique structures or data requirements.
+
+Integrations connect extracted data directly to Google Sheets, Airtable, Notion, Zapier, Make, and custom APIs without manual export-import cycles. Data flows continuously into your existing tools where it can trigger automations, feed dashboards, or enrich other systems. For teams building data-driven workflows, Browse AI eliminates the manual data collection bottleneck that typically requires hiring developers or using fragile DIY scraping solutions.
+
+Pricing uses a credit-based model where credits are consumed based on extraction complexity and frequency. A free plan provides limited credits for testing. Personal at $48/month ($19 annual) covers individual use cases with 1,000 credits. Professional at $87/month provides 10,000 credits for more demanding workloads. Premium at $249/month supports heavy usage with priority support. For non-technical teams needing web data at scale without developer dependencies, Browse AI provides capabilities that previously required custom engineering resources.`
+}

@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const bugherdContent: ToolContent = {
+  overview: `BugHerd is a visual feedback and bug tracking tool purpose-built for web development teams and agencies managing website projects. The platform solves a universal problem: stakeholders describe issues in vague emails like "the button doesn't work" while developers need specific reproduction steps, browser details, and visual context. BugHerd transforms point-and-click annotations on live websites into actionable tasks with complete technical metadata automatically attached.
+
+The core workflow is simple. Install a lightweight JavaScript snippet on any website — staging, development, or production — and invite reviewers to click directly on elements they want to flag. Each click creates a pin with comments, and BugHerd automatically captures browser, operating system, screen resolution, console errors, and network requests at the moment of feedback. Developers receive everything needed to reproduce and fix the issue without back-and-forth clarification requests.
+
+Feedback flows into a kanban-style task board where issues move through customizable statuses — reported, in progress, ready for review, approved, deployed. Tasks can be assigned to team members, tagged with priorities, linked to specific project milestones, and filtered by severity or type. The board provides visibility into project health and bottlenecks without separate spreadsheets or email threads tracking outstanding issues.
+
+BugHerd integrates natively with development tools including Jira, GitHub, GitLab, Linear, Asana, Trello, and Slack. Issues created in BugHerd sync bi-directionally with your project management system, so developers can work in their preferred environment while stakeholders continue providing feedback through the familiar web interface. When issues are resolved in the development tool, they update automatically in BugHerd, keeping everyone aligned without manual status updates.
+
+The platform particularly serves agencies managing multiple client website projects simultaneously. Client stakeholders can review and provide feedback without creating BugHerd accounts, and feedback from multiple reviewers on the same page consolidates into a single view rather than fragmenting across email threads. Approval workflows with sign-off gates ensure clients formally accept deliverables before moving to the next phase.
+
+Pricing starts at $50/month for the Standard plan covering 5 users and 10 active projects. Studio at $80/month removes project limits and adds advanced features like guest reviewers and custom branding. Enterprise plans with SSO, audit logs, and dedicated support are available for larger organizations. A 14-day free trial requires no credit card. For teams losing hours to unclear bug reports and fragmented feedback channels, BugHerd typically pays for itself within the first week through reduced clarification cycles.`
+}

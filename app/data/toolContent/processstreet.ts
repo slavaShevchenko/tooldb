@@ -1,0 +1,17 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const processStreetContent: ToolContent = {
+  overview: `Process Street is a compliance operations platform that transforms policies, procedures, and recurring workflows into automated, AI-enforced checklists. Unlike general-purpose project management tools optimized for creative work, Process Street targets operational processes that cannot afford missed steps: employee onboarding, client intake, property inspections, equipment maintenance, compliance audits, and SOPs. The platform is particularly valued by operations, HR, quality, and compliance teams responsible for consistent execution across distributed organizations.
+
+The core building block is the dynamic checklist template with conditional logic that adapts based on responses. A single template can branch into different paths depending on employee role, location, customer type, or previous answers — eliminating the need to maintain dozens of similar but slightly different versions. Role-based visibility controls which sections each user sees and edits, preventing confusion and enforcing separation of duties.
+
+Approvals and sign-offs enable multi-stage review chains with e-signatures, timestamps, and complete audit trails. When a process requires manager approval, legal review, or customer sign-off, Process Street routes automatically and blocks progression until authorization is granted. Every action is recorded with who, when, and what changed — providing the documentation auditors require without additional effort from teams.
+
+The platform integrates natively with Slack, Salesforce, Google Workspace, Microsoft 365, Zapier, and 1,000+ additional applications through Zapier and native connectors. Workflow triggers can create Salesforce records, send Slack notifications, update Google Sheets, or initiate actions in any connected system. For teams operating across multiple tools, this eliminates manual data transfer and ensures information flows correctly through the entire process chain.
+
+Pre-built templates cover common operational scenarios including employee onboarding, offboarding, property inspections, equipment maintenance, safety checks, client intake, and compliance audits. Teams can start with templates and customize to their specific requirements rather than building from scratch. Template libraries accelerate deployment and provide proven structures refined across thousands of customer implementations.
+
+Reporting and analytics track completion rates, bottlenecks, SLA adherence, and team performance across every process run. Exportable reports support compliance documentation and operational reviews. Real-time dashboards surface processes at risk of missing deadlines before they escalate. For operations leaders managing distributed execution, this visibility replaces guesswork with actionable data.
+
+Pricing starts at $100/month for Startup (up to 10 users), $250/month for Teams (up to 25 users), $500/month for Business (up to 50 users), and $1,500/month for Pro with advanced features. Annual billing provides discounts. While not the cheapest workflow tool available, Process Street justifies its premium through compliance-grade reliability, audit capabilities, and the operational risk reduction that comes from enforced process adherence.`
+}

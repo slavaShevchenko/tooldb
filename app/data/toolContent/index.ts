@@ -71,6 +71,40 @@ import { xeroContent } from './xero'
 import { zendeskContent } from './zendesk'
 import { zoominfoContent } from './zoominfo'
 
+import { aircallContent } from './aircall'
+import { callrailContent } from './callrail'
+import { cloudtalkContent } from './cloudtalk'
+import { kixieContent } from './kixie'
+import { nextivaContent } from './nextiva'
+import { callhippoContent } from './callhippo'
+import { quoContent } from './quo'
+import { freshserviceContent } from './freshservice'
+import { connecteamContent } from './connecteam'
+import { processStreetContent } from './processstreet'
+import { agencyanalyticsContent } from './agencyanalytics'
+import { browseaiContent } from './browseai'
+import { bugherdContent } from './bugherd'
+import { smartsuiteContent } from './smartsuite'
+import { storylaneContent } from './storylane'
+import { contractorForemanContent } from './contractorforeman'
+import { glideContent } from './glide'
+import { guestyContent } from './guesty'
+import { housecallProContent } from './housecallpro'
+import { softrContent } from './softr'
+import { krispcallContent } from './krispcall'
+import { motionContent } from './motion'
+import { reclaimaiContent } from './reclaimai'
+import { saneboxContent } from './sanebox'
+import { visualcvContent } from './visualcv'
+import { easydmarcContent } from './easydmarc'
+import { idriveContent } from './idrive'
+import { signableContent } from './signable'
+import { testgorillaContent } from './testgorilla'
+import { foxitContent } from './foxit'
+import { inmotionHostingContent } from './inmotionhosting'
+import { pleskContent } from './plesk'
+import { ultahostContent } from './ultahost'
+
 export const getToolContent = (slug: string) => {
   return toolContent[slug as keyof typeof toolContent]
 }
@@ -148,4 +182,38 @@ export const toolContent = {
   xero: xeroContent,
   zendesk: zendeskContent,
   zoominfo: zoominfoContent,
+
+  aircall: aircallContent,
+  callrail: callrailContent,
+  cloudtalk: cloudtalkContent,
+  kixie: kixieContent,
+  nextiva: nextivaContent,
+  callhippo: callhippoContent,
+  connecteam: connecteamContent,
+  freshservice: freshserviceContent,
+  processstreet: processStreetContent,
+  quo: quoContent,
+  agencyanalytics: agencyanalyticsContent,
+  browseai: browseaiContent,
+  bugherd: bugherdContent,
+  smartsuite: smartsuiteContent,
+  storylane: storylaneContent,
+  contractorforeman: contractorForemanContent,
+  glide: glideContent,
+  guesty: guestyContent,
+  housecallpro: housecallProContent,
+  softr: softrContent,
+  krispcall: krispcallContent,
+  motion: motionContent,
+  reclaimai: reclaimaiContent,
+  sanebox: saneboxContent,
+  visualcv: visualcvContent,
+  easydmarc: easydmarcContent,
+  idrive: idriveContent,
+  signable: signableContent,
+  testgorilla: testgorillaContent,
+  foxit: foxitContent,
+  inmotionhosting: inmotionHostingContent,
+  plesk: pleskContent,
+  ultahost: ultahostContent,
 } as const

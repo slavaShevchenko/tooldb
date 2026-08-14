@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const softrContent: ToolContent = {
+  overview: `Softr is a no-code development platform that transforms data from Airtable and Google Sheets into fully functional web applications, client portals, internal tools, and marketplaces — without requiring any programming knowledge. The platform serves non-technical founders, operations teams, and agencies who need custom business applications but lack development resources or budgets for traditional software projects.
+
+The core value proposition is turning spreadsheet data into structured web experiences. If your business processes live in Airtable bases or Google Sheets — client databases, inventory catalogs, job boards, resource directories, membership content — Softr converts that data into searchable, filterable, user-authenticated web applications in hours rather than months. This eliminates the gap between having organized data and having usable interfaces for customers, employees, or partners to interact with that data.
+
+Softr's visual app builder uses a block-based system where you compose pages from pre-built components: lists with filtering and search, detail pages, forms for data entry, user dashboards, charts, and navigation structures. Each block connects to your data source with configuration rather than code. Conditional logic, calculated fields, and relationships between tables are handled through Softr's interface rather than requiring database queries or API calls.
+
+User management is built into the platform rather than requiring separate authentication services. Create member-only areas with user groups, permissions, and gated content. Client portals can restrict visibility to specific records based on user identity — clients see only their projects, students see only their courses, members see only their account information. This granular access control enables B2B client portals, membership sites, and internal tools without custom authorization logic.
+
+The platform deploys applications to custom domains with SSL certificates, SEO optimization, and analytics tracking. Applications are responsive by default, working across desktop, tablet, and mobile devices without separate mobile development. Integration with Zapier, Make, and native Airtable/Google Sheets connections enable workflows that extend beyond Softr's interface into other business systems.
+
+Pricing scales with usage: Free plan for testing and small projects, Basic at $49/month for freelancers and small internal tools, Professional at $139/month for client-facing portals with custom domains, and Business at $269/month for high-traffic applications with advanced features. A 14-day free trial on paid plans lets you validate fit before committing. For businesses that have outgrown spreadsheets but cannot justify custom development costs, Softr provides a middle path that preserves data ownership while delivering professional user experiences.`
+}

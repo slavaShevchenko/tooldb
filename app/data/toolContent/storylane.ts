@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const storylaneContent: ToolContent = {
+  overview: `Storylane is a demo automation platform that enables B2B SaaS companies to create interactive product experiences for marketing, sales, and presales use cases. Rather than forcing prospects to schedule calls, sign up for trials, or watch passive videos, Storylane lets them click through actual product interfaces at their own pace — on websites, in email campaigns, at trade shows, or embedded in sales outreach. The platform has become the category leader for interactive demos with a 4.8/5 G2 rating.
+
+The platform supports three demo formats: interactive HTML demos that capture your real product interface and let prospects click through genuine functionality, screenshot-based tours with hotspot overlays for simpler use cases, and video walkthroughs for narrative-driven content. HTML capture is Storylane's signature capability — a browser extension records your product interactions and produces fully interactive experiences that feel like using the actual software without requiring authentication or data access.
+
+Personalization enables different demo paths based on visitor attributes like industry, company size, role, or use case. A healthcare prospect sees clinical workflows while a financial services prospect sees compliance features — all from the same base demo. This relevance dramatically increases engagement compared to generic one-size-fits-all product tours. Dynamic variables can pull prospect company names or other attributes into the demo for additional personalization.
+
+Storylane's analytics provide viewer-level insights unavailable from static content. You see which features prospects explore, where they drop off, how long they spend in each section, and whether they complete desired actions. These engagement signals enrich lead profiles in your CRM and trigger automation workflows — high-engagement visitors can be routed to sales while low-engagement visitors enter nurture sequences. For demand generation teams optimizing conversion funnels, this behavioral data is invaluable.
+
+The platform integrates with HubSpot, Salesforce, Marketo, Pardot, and other marketing automation systems to sync engagement data with lead records. Demos can be gated behind forms to capture contact information, ungated for maximum reach, or progressively gated requiring information only after initial exploration. Embed options include website pages, blog posts, email templates, and in-app experiences.
+
+Pricing starts with a free plan supporting a single demo for testing the platform. Starter at $40/month per seat supports basic screenshot and video demos. Growth at $500/month unlocks HTML capture, advanced analytics, and CRM integrations with five included seats. Premium at $1,200/month adds deal intelligence, advanced personalization, and additional seats. For B2B SaaS companies where product complexity creates friction in the buying process, Storylane demos typically increase conversion rates significantly compared to static content alternatives.`
+}

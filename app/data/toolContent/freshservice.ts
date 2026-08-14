@@ -1,0 +1,15 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const freshserviceContent: ToolContent = {
+  overview: `Freshservice is a modern IT service management (ITSM) platform from Freshworks that helps IT teams manage employee support, infrastructure, and digital workplace services. Named a Leader in the 2026 Gartner Magic Quadrant for ITSM, Freshservice differentiates itself through ease of deployment, intuitive user experience, and AI capabilities branded as Freddy — contrasting with legacy ITSM tools that require months of implementation and specialized consultants.
+
+The platform provides intelligent ticketing across multiple intake channels including email, chat, phone, self-service portal, and employee app. AI-powered routing automatically classifies, prioritizes, and assigns tickets based on content analysis and historical patterns. For IT teams drowning in manual ticket triage, this automation reduces first-response time and ensures issues reach the right resolver group without dispatcher bottlenecks.
+
+Freshservice's asset management and CMDB capabilities provide automated discovery and tracking of hardware, software, network devices, and cloud resources. Asset relationships are mapped visually, enabling teams to understand dependencies and impact radius when infrastructure components fail. Lifecycle management tracks procurement, depreciation, maintenance, and disposal — providing the audit trail necessary for compliance and financial reporting.
+
+The self-service portal gives employees instant access to knowledge base articles, service catalog requests, and an AI chatbot that resolves common questions without creating tickets. This deflects routine inquiries — password resets, software requests, how-to questions — freeing IT staff to focus on complex issues. The portal is customizable with your branding and supports multi-language deployment for global organizations.
+
+Freddy AI powers automation across the platform: ticket classification, resolution suggestions, chatbot conversations, and predictive analytics identifying emerging issues before they escalate. While basic AI features are available on Growth plans, the most advanced Freddy capabilities require Pro or Enterprise tiers. For organizations prioritizing AI-driven service management, Freshservice offers some of the most accessible entry points in the ITSM market.
+
+Pricing starts at $19/agent/month for Starter, $49 for Growth with automation and reporting, and $99 for Pro with full AI capabilities. A free plan supports up to 2 agents for small IT teams or pilot deployments. Enterprise pricing is custom-quoted for large organizations. For IT teams seeking modern ITSM without ServiceNow complexity or pricing, Freshservice delivers comprehensive functionality with rapid time-to-value.`
+}
