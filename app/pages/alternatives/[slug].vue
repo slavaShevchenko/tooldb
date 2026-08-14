@@ -4,6 +4,13 @@
       :title="`Best alternatives for ${alternative?.name}`"
       :description="alternative?.description ?? ''"
     > 
+      <template #action>
+        <ToolHighlights
+          :icon-size="16"
+          :items="alternative.why"
+        />
+      </template>
+
       <div class="alt-items__wrapper">
         <AlternativesItem
           v-for="alternativeItem in alternative.alternatives"
@@ -72,13 +79,25 @@ useSeo({
   margin-bottom: var(--space-3);
 }
 .section:deep() .content {
-  max-width: 640px;
+  flex: 0 0 50%;
+}
+.section:deep() .action {
+  flex: 0 0 50%;
 }
 .section:deep() .title {
   font-size: var(--font-size-3xl);
 }
 .section:deep() .description {
   line-height: 1.8;
+}
+
+.section:deep() .tool-overview__highlights {
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.section:deep() .tool-overview__highlights li + li {
+  margin-top: var(--space-0-5);
 }
 
 .alt-item + .alt-item {
@@ -97,6 +116,17 @@ useSeo({
   }
   .alt-item + .alt-item {
     margin-top: 0;
+  }
+}
+@media (max-width: 991px) {
+  .section:deep() .header {
+    display: block;
+  }
+  .section:deep() .action {
+    padding-top: var(--space-2);
+  }
+  .section:deep() .title {
+    font-size: var(--font-size-2xl);
   }
 }
 @media (max-width: 767px) {

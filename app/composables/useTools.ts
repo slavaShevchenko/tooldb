@@ -42,12 +42,8 @@ export const useTools = () => {
    */
   const recentlyAddedTools = computed(() =>
     [...tools]
-      .sort(
-        (a, b) =>
-          new Date(b.lastUpdated).getTime() -
-          new Date(a.lastUpdated).getTime(),
-      )
-      .slice(0, HOMEPAGE_RECENTLY_ADDED_TOOLS_LIMIT),
+      .sort((a, b) => Number(b.id) - Number(a.id))
+      .slice(0, HOMEPAGE_RECENTLY_ADDED_TOOLS_LIMIT)
   )
 
   /**

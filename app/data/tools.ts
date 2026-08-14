@@ -4996,68 +4996,68 @@ export const tools: Tool[] = [
   },
   {
     id: '75',
-    slug: 'cloudtalk',
-    name: 'CloudTalk',
-    tagline: 'Cloud call center software for sales and support teams',
-    description: 'AI-powered cloud calling platform with smart call routing, real-time analytics, CRM sync, and automation workflows for remote sales and customer support teams.',
+    slug: 'cloudtask',
+    name: 'CloudTask',
+    tagline: 'LATAM talent marketplace for hiring pre-vetted remote professionals',
+    description: 'Talent marketplace connecting businesses with pre-vetted remote professionals from Latin America — SDRs, AEs, virtual assistants, operations coordinators — with matching in 48 hours.',
     overview: '',
-    pricingDescription: 'Starter at $25/user/month, Essential at $29/user/month, Expert at $49/user/month (billed annually). Custom Enterprise plans available. 14-day free trial, no setup fees [[19]][[21]].',
-    logo: '/images/tool-logo/cloudtalk.webp',
-    website: 'https://www.cloudtalk.io',
+    pricingDescription: '$299/month membership for platform access and matching. Talent rates from $1,500-$8,000/month all-inclusive per team member. No placement fees, cancel anytime. 24-month guarantee included [[3]][[12]].',
+    logo: '/images/tool-logo/cloudtask.webp',
+    website: 'https://cloudtask.com',
     affiliateUrl: null,
-    categories: ['sales', 'communication'],
+    categories: ['hr', 'sales'],
     tags: [
-      'cloud-call-center',
-      'voip',
-      'smart-routing',
-      'ai-call-center',
-      'crm-integration',
-      'remote-teams',
-      'call-automation',
-      'international-calling'
+      'talent-marketplace',
+      'remote-hiring',
+      'latam-talent',
+      'virtual-assistants',
+      'sdr-hiring',
+      'sales-talent',
+      'operations-staff',
+      'pre-vetted-hires'
     ],
     pricing: 'Paid',
     featured: false,
-    rating: 4.4,
-    reviewCount: 1850,
+    rating: 4.5,
+    reviewCount: 280,
     lastUpdated: '2026-08-14',
     highlights: [
       {
-        id: 'smart-routing',
-        text: 'AI-powered call routing based on skills, availability, and customer history'
+        id: 'fast-matching',
+        text: 'Matched with pre-vetted talent in 48 hours'
       },
       {
-        id: 'global-numbers',
-        text: 'Local and toll-free numbers in 160+ countries'
+        id: 'latam-focus',
+        text: 'Specialized in LATAM professionals at 40-60% cost savings vs US hires'
       },
       {
-        id: 'crm-sync',
-        text: 'Automatic call logging and contact sync with 95+ CRM platforms'
+        id: 'no-placement-fees',
+        text: 'No recruitment or placement fees, just flat monthly membership'
       },
       {
-        id: 'ai-features',
-        text: 'Real-time transcription, sentiment analysis, and AI agent assist'
+        id: 'guarantee',
+        text: '24-month guarantee on every hire with free replacement'
       }
     ],
-    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    platforms: ['web'],
     features: [
       {
         id: '1',
-        title: 'Smart Call Routing',
-        description: 'Route incoming calls to the right agent based on skills, language, time zone, customer history, and IVR selections.',
-        icon: 'git-branch'
+        title: 'Pre-Vetted Talent Pool',
+        description: 'Access to thousands of pre-screened LATAM professionals including SDRs, AEs, VAs, operations coordinators, and e-commerce specialists.',
+        icon: 'users'
       },
       {
         id: '2',
-        title: 'AI Agent Assist',
-        description: 'Real-time transcription, suggested responses, and knowledge base articles surfaced during live calls to help agents resolve issues faster.',
+        title: '48-Hour Matching',
+        description: 'AI-powered matching system connects you with suitable candidates within 48 hours based on role requirements and cultural fit.',
         icon: 'zap'
       },
       {
         id: '3',
-        title: 'Workflow Automation',
-        description: 'Build custom call flows, after-call actions, SMS follow-ups, and CRM updates without code using visual automation builder.',
-        icon: 'settings'
+        title: 'All-Inclusive Pricing',
+        description: 'One flat monthly rate covers salary, benefits, compliance, equipment, and HR support — no hidden fees or surprise charges.',
+        icon: 'credit-card'
       }
     ]
   },
@@ -5471,7 +5471,7 @@ export const tools: Tool[] = [
     description: 'Workflow management platform that turns policies and procedures into automated, AI-enforced checklists with conditional logic, approvals, and compliance reporting.',
     overview: '',
     pricingDescription: 'Free trial available. Startup at $100/month (up to 10 users), Teams at $250/month (up to 25 users), Business at $500/month (up to 50 users), Pro at $1,500/month with advanced features. Annual billing discounts available [[28]][[33]].',
-    logo: '/images/tool-logo/process-street.webp',
+    logo: '/images/tool-logo/processstreet.webp',
     website: 'https://www.process.st',
     affiliateUrl: null,
     categories: ['productivity'],
@@ -6269,7 +6269,7 @@ export const tools: Tool[] = [
   },
   {
     id: '94',
-    slug: 'reclaim-ai',
+    slug: 'reclaimai',
     name: 'Reclaim.ai',
     tagline: 'AI calendar scheduling for teams and individuals',
     description: 'AI-powered calendar app that auto-schedules tasks, habits, meetings, and breaks while protecting focus time and coordinating schedules across teams.',

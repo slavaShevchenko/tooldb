@@ -73,7 +73,7 @@ import { zoominfoContent } from './zoominfo'
 
 import { aircallContent } from './aircall'
 import { callrailContent } from './callrail'
-import { cloudtalkContent } from './cloudtalk'
+import { cloudtaskContent } from './cloudtask'
 import { kixieContent } from './kixie'
 import { nextivaContent } from './nextiva'
 import { callhippoContent } from './callhippo'
@@ -185,7 +185,7 @@ export const toolContent = {
 
   aircall: aircallContent,
   callrail: callrailContent,
-  cloudtalk: cloudtalkContent,
+  cloudtask: cloudtaskContent,
   kixie: kixieContent,
   nextiva: nextivaContent,
   callhippo: callhippoContent,

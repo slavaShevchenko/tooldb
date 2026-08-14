@@ -43,13 +43,36 @@ export const alternatives: AlternativePage[] = [
           'Proofing and approval workflows built-in'
         ],
       },
+      {
+        slug: 'smartsuite',
+        bestFor: 'Teams wanting work management beyond issue tracking',
+        keyStrengths: [
+          'Flexible work management beyond just tickets and bugs',
+          'Multiple views: grid, kanban, calendar, timeline, gallery',
+          'Built-in forms, workflows, and dashboards without plugins',
+          'Significantly cheaper than Jira with 5 seats per license',
+          'Scales from dev teams to operations and marketing'
+        ],
+      },
+      {
+        slug: 'bugherd',
+        bestFor: 'Web development teams needing visual bug reporting',
+        keyStrengths: [
+          'Point-and-click bug reporting directly on live websites',
+          'Captures browser, OS, and console data automatically',
+          'Ideal for client website feedback without Jira complexity',
+          'Integrates with Jira, GitHub, GitLab, and Slack',
+          'Much simpler than Jira for QA and client review cycles'
+        ],
+      },
     ],
     why: [
       'Jira requires significant setup time and administrative overhead',
       'Pricing scales quickly as your team grows beyond the free tier',
       'The interface is optimized for developers, not general business users',
       'Many features require additional paid plugins from the Atlassian Marketplace',
-      'Simpler alternatives can reduce onboarding time from weeks to hours'
+      'Simpler alternatives can reduce onboarding time from weeks to hours',
+      'Visual bug reporting tools like BugHerd capture context Jira cannot provide for web projects',
     ],
   },
   {
@@ -233,13 +256,36 @@ export const alternatives: AlternativePage[] = [
           'Better for large support teams with complex needs'
         ],
       },
+      {
+        slug: 'agencyanalytics',
+        bestFor: 'Marketing agencies needing reporting without HubSpot complexity',
+        keyStrengths: [
+          '80+ marketing platform integrations for unified reporting',
+          'White-label dashboards with your agency branding',
+          'Automated report delivery to clients on schedule',
+          'Fraction of HubSpot Marketing Hub cost',
+          'Built specifically for agencies managing multiple clients'
+        ],
+      },
+      {
+        slug: 'callrail',
+        bestFor: 'Marketing teams needing call attribution and tracking',
+        keyStrengths: [
+          'Call tracking and attribution HubSpot cannot match',
+          'AI conversation analysis with lead scoring',
+          'Keyword-level attribution for Google Ads and SEO',
+          'Much cheaper than HubSpot for call-focused businesses',
+          'Unified inbox for calls, texts, forms, and chats'
+        ],
+      },
     ],
     why: [
       'HubSpot pricing increases exponentially as your contact database grows',
       'Many essential features require upgrading to Professional or Enterprise tiers',
       'The platform can feel overwhelming for teams that only need one or two functions',
       'Onboarding and implementation often require paid consultants or significant time investment',
-      'Focused alternatives let you pay only for what you actually use'
+      'Focused alternatives let you pay only for what you actually use',
+      'Specialized tools like AgencyAnalytics and CallRail cover marketing gaps HubSpot leaves at lower cost',
     ],
   },
   {
@@ -295,13 +341,47 @@ export const alternatives: AlternativePage[] = [
           'Enterprise security and compliance features'
         ],
       },
+      {
+        slug: 'smartsuite',
+        bestFor: 'Teams needing structured work management with databases',
+        keyStrengths: [
+          'Database-driven like Notion but more structured out of the box',
+          'Better performance with large datasets than Notion',
+          'Native workflow automation without third-party tools',
+          'Built-in forms and approval workflows',
+          'Multiple views of the same data without rebuilding'
+        ],
+      },
+      {
+        slug: 'softr',
+        bestFor: 'Teams building client portals and internal tools from data',
+        keyStrengths: [
+          'Turns Airtable and Google Sheets into web applications',
+          'Built-in user authentication and member areas',
+          'No-code app building without Notion complexity',
+          'Deploy to custom domains with SEO optimization',
+          'Better than Notion for customer-facing portals'
+        ],
+      },
+      {
+        slug: 'glide',
+        bestFor: 'Teams needing mobile-first apps from spreadsheet data',
+        keyStrengths: [
+          'Transforms spreadsheets into beautiful mobile apps',
+          'Built-in AI components without external APIs',
+          'Progressive web apps that install like native mobile apps',
+          'Works offline and syncs when connection returns',
+          'Much faster to deploy than building Notion systems'
+        ],
+      },
     ],
     why: [
       'Notion can become slow and laggy with large databases and many blocks',
       'The blank canvas requires significant setup time to build useful systems',
       'Offline support is limited compared to dedicated productivity apps',
       'Team permissions and access controls are less granular than alternatives',
-      'Specialized tools often provide better experiences for specific use cases'
+      'Specialized tools often provide better experiences for specific use cases',
+      'No-code platforms like Softr and Glide turn structured data into full applications faster than Notion setups',
     ],
   },
   {
@@ -408,13 +488,36 @@ export const alternatives: AlternativePage[] = [
           'Focus on getting things done, not organizing boards'
         ],
       },
+      {
+        slug: 'smartsuite',
+        bestFor: 'Teams needing more than Kanban boards',
+        keyStrengths: [
+          'Kanban plus grid, calendar, timeline, and gallery views',
+          'Built-in workflow automation without Power-Up limits',
+          'Forms, dashboards, and databases in one platform',
+          'Better for processes than simple card-based boards',
+          'Scales from personal use to enterprise teams'
+        ],
+      },
+      {
+        slug: 'processstreet',
+        bestFor: 'Teams running recurring operational processes',
+        keyStrengths: [
+          'Structured checklists with conditional logic and approvals',
+          'Built for SOPs, onboarding, and compliance workflows',
+          'Audit-ready reporting with version history',
+          'Much more powerful than Trello for process execution',
+          'Templates for common business operations'
+        ],
+      },
     ],
     why: [
       'Trello free plan limits you to 10 boards per workspace',
       'Power-Ups (integrations) are capped on lower-tier plans',
       'No native time tracking, Gantt charts, or dependency management',
       'Automation through Butler has usage limits even on paid plans',
-      'Large boards with hundreds of cards become difficult to navigate'
+      'Large boards with hundreds of cards become difficult to navigate',
+      'Process-focused tools like Process Street handle recurring operations that Kanban boards struggle with'
     ],
   },
   {
@@ -510,13 +613,25 @@ export const alternatives: AlternativePage[] = [
           'Data GA cannot provide about other websites'
         ],
       },
+      {
+        slug: 'agencyanalytics',
+        bestFor: 'Marketing teams needing unified dashboards from multiple sources',
+        keyStrengths: [
+          'Combines GA data with ads, CRM, and social in one view',
+          'White-label dashboards for client reporting',
+          'Automated report delivery without manual exports',
+          'Much simpler interface than GA4',
+          'Goal tracking and cross-channel attribution built-in'
+        ],
+      },
     ],
     why: [
       'GA4 interface is notoriously complex and unintuitive',
       'Data sampling kicks in at high traffic volumes, reducing accuracy',
       'Privacy regulations make Google Analytics risky in some regions',
       'Setting up meaningful tracking requires significant technical expertise',
-      'GA does not provide competitive intelligence or visual behavior data'
+      'GA does not provide competitive intelligence or visual behavior data',
+      'Marketing reporting tools like AgencyAnalytics combine GA data with other channels for complete visibility',
     ],
   },
   {
@@ -612,13 +727,36 @@ export const alternatives: AlternativePage[] = [
           'Affordable pricing for small support teams'
         ],
       },
+      {
+        slug: 'quo',
+        bestFor: 'Small teams wanting business phone plus messaging in one',
+        keyStrengths: [
+          'Combines calls, texts, and team messaging in one workspace',
+          'Shared phone numbers for collaborative customer handling',
+          'AI call tagging and automatic categorization',
+          'Much simpler and cheaper than Slack for small teams',
+          'Auto-replies and scheduling for after-hours communication'
+        ],
+      },
+      {
+        slug: 'connecteam',
+        bestFor: 'Deskless and frontline teams needing internal communication',
+        keyStrengths: [
+          'Built specifically for employees without desks',
+          'Company updates, team chat, and digital forms in one feed',
+          'Mobile-first design optimized for field workers',
+          'Combines communication with scheduling and training',
+          'Free plan for up to 10 users with core features'
+        ],
+      },
     ],
     why: [
       'Slack pricing per active user becomes expensive for larger organizations',
       'Free plan limits message history to 90 days',
       'Notification overload reduces productivity for many users',
       'Customer-facing communication requires separate tools anyway',
-      'AI-powered alternatives can reduce meeting and communication overhead'
+      'AI-powered alternatives can reduce meeting and communication overhead',
+      'Deskless teams need mobile-first communication like Connecteam rather than desktop-centric Slack',
     ],
   },
   {
@@ -692,13 +830,36 @@ export const alternatives: AlternativePage[] = [
           'One tool for scheduling, recording, and documenting'
         ],
       },
+      {
+        slug: 'motion',
+        bestFor: 'Teams wanting AI to schedule tasks alongside meetings',
+        keyStrengths: [
+          'AI automatically schedules tasks into calendar gaps',
+          'Combines project management with calendar in one platform',
+          'Automatically reschedules when meetings run long',
+          'Replaces Calendly plus Todoist plus Asana together',
+          'Protects focus time blocks from meeting interruptions'
+        ],
+      },
+      {
+        slug: 'reclaimai',
+        bestFor: 'Professionals needing smart scheduling with habit tracking',
+        keyStrengths: [
+          'AI schedules tasks, habits, and breaks around meetings',
+          'Free plan with core features for individual users',
+          'Protects focus time and defends against meeting overload',
+          'Works with Google Calendar and Outlook you already use',
+          'Team scheduling finds optimal meeting times across calendars'
+        ],
+      },
     ],
     why: [
       'Calendly free plan limits you to one event type only',
       'No built-in video conferencing, requires Zoom or Meet integration',
       'No AI features for meeting documentation or follow-ups',
       'Team scheduling features require paid per-seat pricing',
-      'Alternatives combine scheduling with webinars or AI notes for better value'
+      'Alternatives combine scheduling with webinars or AI notes for better value',
+      'AI-native scheduling tools like Motion and Reclaim optimize entire workdays, not just meeting slots',
     ],
   },
   {
@@ -841,6 +1002,463 @@ export const alternatives: AlternativePage[] = [
       'Limited customization on lower-tier plans restricts branding',
       'Community features are an afterthought compared to dedicated platforms',
       'Alternatives offer better value for interactive and community-driven learning'
+    ],
+  },
+
+  {
+    id: '16',
+    slug: 'ringcentral',
+    name: 'RingCentral',
+    toolDescription: 'Enterprise cloud phone system offering VoIP calling, video meetings, team messaging, and contact center solutions for large organizations with complex communication needs.',
+    description: 'RingCentral is a powerful enterprise VoIP platform, but its pricing and complexity make it overkill for small to mid-size businesses. These modern alternatives offer better value, simpler setup, and AI-powered features at a fraction of the cost.',
+    logo: '/images/alternatives-logo/ringcentral.webp',
+    categories: ['communication'],
+    alternatives: [
+      {
+        slug: 'aircall',
+        bestFor: 'Sales and support teams needing deep CRM integration',
+        keyStrengths: [
+          '250+ native integrations with HubSpot, Salesforce, and Zendesk',
+          'AI-powered call transcription and coaching suggestions',
+          'Power dialer for outbound sales teams',
+          'Much simpler setup than RingCentral enterprise features',
+          'Transparent per-user pricing without hidden fees'
+        ],
+      },
+      {
+        slug: 'nextiva',
+        bestFor: 'Small businesses wanting all-in-one communications',
+        keyStrengths: [
+          'Voice, video, SMS, and team messaging in one platform',
+          'Starting at just $15/user/month for core features',
+          'Auto-attendant and IVR without enterprise complexity',
+          '99.999% uptime SLA with redundant infrastructure',
+          'Much more affordable than RingCentral for small teams'
+        ],
+      },
+      {
+        slug: 'kixie',
+        bestFor: 'Outbound sales teams focused on calling efficiency',
+        keyStrengths: [
+          'Multi-line power dialer with AI voice detection',
+          'Local presence dialing to increase answer rates',
+          'Deep CRM integration without switching apps',
+          'Built specifically for high-velocity sales teams',
+          'Fraction of RingCentral cost for sales-focused features'
+        ],
+      },
+      {
+        slug: 'callhippo',
+        bestFor: 'Budget-conscious teams getting started with VoIP',
+        keyStrengths: [
+          'Free basic plan available for testing',
+          'Starter plans from just $1/user/month',
+          '50+ country phone numbers for global reach',
+          'AI call analytics without expensive add-ons',
+          'Most affordable entry point in business VoIP'
+        ],
+      },
+      {
+        slug: 'quo',
+        bestFor: 'Small teams wanting simplicity over enterprise features',
+        keyStrengths: [
+          'Clean, intuitive interface anyone can use immediately',
+          'Shared phone numbers with team inbox collaboration',
+          'AI call tagging and automatic categorization',
+          'Starting at $15/user/month with no complexity',
+          'Perfect for teams that find RingCentral overwhelming'
+        ],
+      },
+      {
+        slug: 'krispcall',
+        bestFor: 'Growing businesses wanting AI-powered calling',
+        keyStrengths: [
+          'AI call transcription and voicemail-to-text included',
+          'Unified calling, SMS, and team messaging',
+          'Local numbers in 70+ countries',
+          'Competitive pricing starting at $12/user/month',
+          'Modern AI features RingCentral charges extra for'
+        ],
+      },
+    ],
+    why: [
+      'RingCentral pricing starts high and escalates quickly with add-ons',
+      'Enterprise features create unnecessary complexity for small teams',
+      'Implementation often requires professional services and lengthy setup',
+      'AI features like transcription require expensive premium tiers',
+      'Modern alternatives deliver 90% of functionality at 30% of the cost'
+    ],
+  },
+  {
+    id: '17',
+    slug: 'asana',
+    name: 'Asana',
+    toolDescription: 'Popular project management platform offering task tracking, team collaboration, timelines, and workflow automation for organizing work across teams and departments.',
+    description: 'Asana is a solid project management tool, but it can feel limiting for complex workflows and expensive as teams grow. These alternatives offer more flexibility, better automation, and specialized features for different work styles.',
+    logo: '/images/alternatives-logo/asana.webp',
+    categories: ['productivity'],
+    alternatives: [
+      {
+        slug: 'clickup',
+        bestFor: 'Teams wanting everything in one platform',
+        keyStrengths: [
+          'Docs, whiteboards, time tracking, and goals alongside tasks',
+          'More flexible views: List, Board, Calendar, Gantt, Timeline, Map',
+          'Built-in automations without Asana limitations',
+          'Significantly cheaper pricing for growing teams',
+          'Replaces Asana plus Notion plus Harvest together'
+        ],
+      },
+      {
+        slug: 'mondaycom',
+        bestFor: 'Teams needing visual customization and automation',
+        keyStrengths: [
+          'Highly visual and colorful interface anyone can use',
+          'Powerful automations without coding knowledge',
+          'Dashboard widgets for portfolio-level visibility',
+          'Better for non-technical teams than Asana',
+          'Pre-built templates for every department and workflow'
+        ],
+      },
+      {
+        slug: 'wrike',
+        bestFor: 'Enterprise teams managing complex projects',
+        keyStrengths: [
+          'Advanced Gantt charts with dependencies and critical path',
+          'Resource management and workload balancing',
+          'Proofing and approval workflows for creative teams',
+          'Enterprise security and compliance features',
+          'Better for complex projects than Asana timelines'
+        ],
+      },
+      {
+        slug: 'smartsuite',
+        bestFor: 'Teams needing work management beyond simple tasks',
+        keyStrengths: [
+          'Flexible work management combining projects and processes',
+          'Multiple views of the same data without rebuilding',
+          'Built-in forms, workflows, and dashboards',
+          '5 seats per license makes it very cost-effective',
+          'Scales from task management to full operations platform'
+        ],
+      },
+      {
+        slug: 'processstreet',
+        bestFor: 'Teams running recurring operational processes',
+        keyStrengths: [
+          'Structured checklists with conditional logic and approvals',
+          'Built specifically for SOPs and compliance workflows',
+          'Audit-ready reporting with version history',
+          'Much better than Asana for standardized processes',
+          'Templates for onboarding, inspections, and audits'
+        ],
+      },
+      {
+        slug: 'todoist',
+        bestFor: 'Individuals and small teams wanting simplicity',
+        keyStrengths: [
+          'Radically simpler than Asana for daily task management',
+          'Natural language input for lightning-fast task entry',
+          'Cross-platform sync that just works',
+          'No learning curve compared to Asana projects',
+          'Perfect for personal productivity without team overhead'
+        ],
+      },
+    ],
+    why: [
+      'Asana can feel limiting for teams needing more than basic task management',
+      'Timeline and portfolio features require expensive Premium or Business plans',
+      'Automation rules have limitations that frustrate growing teams',
+      'No native time tracking, docs, or whiteboards without integrations',
+      'Specialized alternatives offer better experiences for specific workflows'
+    ],
+  },
+  {
+    id: '18',
+    slug: 'adobe-acrobat',
+    name: 'Adobe Acrobat',
+    toolDescription: 'Industry-standard PDF editor offering advanced editing, e-signatures, form creation, security features, and document collaboration for professional PDF workflows.',
+    description: 'Adobe Acrobat is the PDF standard, but its subscription pricing has become expensive for many users. These alternatives offer comparable features at significantly lower costs without sacrificing professional capabilities.',
+    logo: '/images/alternatives-logo/adobeacrobat.webp',
+    categories: ['productivity', 'design'],
+    alternatives: [
+      {
+        slug: 'foxit',
+        bestFor: 'Professionals wanting Adobe features at lower cost',
+        keyStrengths: [
+          'Full PDF editing comparable to Acrobat at one-third the price',
+          'AI-powered redaction for sensitive information removal',
+          'E-signatures with legal compliance and audit trails',
+          'OCR supporting 20+ languages for scanned documents',
+          'Perpetual license option available without subscriptions'
+        ],
+      },
+    ],
+    why: [
+      'Adobe Acrobat subscription costs $20-25/month per user',
+      'Pricing increased significantly in 2023-2024 across all plans',
+      'Many users only need core editing features, not the full Creative Cloud ecosystem',
+      'Alternatives deliver 90% of functionality at 30% of the cost',
+      'Perpetual license options exist for teams preferring one-time purchases'
+    ],
+  },
+  {
+    id: '19',
+    slug: 'airtable',
+    name: 'Airtable',
+    toolDescription: 'Flexible database-spreadsheet hybrid platform offering customizable views, automation, and integrations for building business applications without coding.',
+    description: 'Airtable revolutionized no-code databases, but recent pricing changes and record limits have pushed many teams to explore alternatives. These platforms offer better value, more generous limits, or specialized approaches to data management.',
+    logo: '/images/alternatives-logo/airtable.webp',
+    categories: ['productivity', 'web-development'],
+    alternatives: [
+      {
+        slug: 'smartsuite',
+        bestFor: 'Teams wanting work management with database flexibility',
+        keyStrengths: [
+          'Database-driven like Airtable but more structured',
+          'Better performance with large datasets',
+          'Built-in workflow automation without extensions',
+          '5 seats per license makes it very cost-effective',
+          'Multiple views without rebuilding data structures'
+        ],
+      },
+      {
+        slug: 'softr',
+        bestFor: 'Teams building client portals from Airtable data',
+        keyStrengths: [
+          'Turns Airtable bases into full web applications',
+          'Built-in user authentication and member areas',
+          'Deploy to custom domains with SEO optimization',
+          'Much better than Airtable interfaces for customer-facing apps',
+          'No-code app building without developer resources'
+        ],
+      },
+      {
+        slug: 'glide',
+        bestFor: 'Teams needing mobile apps from spreadsheet data',
+        keyStrengths: [
+          'Transforms Google Sheets and databases into mobile apps',
+          'Built-in AI components without external APIs',
+          'Progressive web apps that work offline',
+          'Much faster to deploy than Airtable interfaces',
+          'Better for field teams needing mobile access'
+        ],
+      },
+      {
+        slug: 'clickup',
+        bestFor: 'Teams wanting task management with database features',
+        keyStrengths: [
+          'Custom fields and database-like views for tasks',
+          'Docs, time tracking, and goals alongside data',
+          'More generous free plan than Airtable',
+          'Better for project-focused workflows',
+          'Built-in automations without Zapier costs'
+        ],
+      },
+      {
+        slug: 'mondaycom',
+        bestFor: 'Teams wanting visual databases with automation',
+        keyStrengths: [
+          'Colorful, visual database interface anyone can use',
+          'Powerful automations without technical knowledge',
+          'Dashboard widgets for data visualization',
+          'Better for non-technical teams than Airtable',
+          'Pre-built templates for common database use cases'
+        ],
+      },
+    ],
+    why: [
+      'Airtable record limits on lower tiers restrict growing teams',
+      'Pricing increased significantly in 2023-2024 across all plans',
+      'Interface features for customer-facing apps require expensive plans',
+      'Mobile app experience is limited compared to native alternatives',
+      'Specialized platforms offer better experiences for specific use cases'
+    ],
+  },
+  {
+    id: '20',
+    slug: 'docusign',
+    name: 'DocuSign',
+    toolDescription: 'Leading electronic signature platform offering legally binding e-signatures, workflow automation, contract lifecycle management, and integrations with thousands of business applications.',
+    description: 'DocuSign is the e-signature market leader, but its pricing has become expensive for many teams. These alternatives offer legally binding signatures, workflow automation, and compliance features at significantly lower costs.',
+    logo: '/images/alternatives-logo/docusign.webp',
+    categories: ['productivity', 'hr'],
+    alternatives: [
+      {
+        slug: 'signable',
+        bestFor: 'Teams wanting simple pricing without subscriptions',
+        keyStrengths: [
+          'Pay-as-you-go pricing at £1.50 per envelope',
+          'Unlimited users and templates on all plans',
+          'UK-based with full GDPR and eIDAS compliance',
+          'Full API access and Zapier integration included',
+          'No monthly commitment or credit card required'
+        ],
+      },
+      {
+        slug: 'pandadoc',
+        bestFor: 'Sales teams needing proposals with signatures',
+        keyStrengths: [
+          'Beautiful proposal templates with embedded signatures',
+          'Document analytics showing who viewed and how long',
+          'CRM integration for automated proposal workflows',
+          'Content library for reusable proposal sections',
+          'Better than DocuSign for sales document workflows'
+        ],
+      },
+    ],
+    why: [
+      'DocuSign pricing has increased significantly, especially for business plans',
+      'Per-user pricing adds up quickly for teams with many occasional signers',
+      'Advanced features like bulk sending require expensive enterprise tiers',
+      'Simpler alternatives deliver legally binding signatures at fraction of the cost',
+      'Sales-focused tools like PandaDoc combine proposals and signatures in one workflow'
+    ],
+  },
+  {
+    id: '21',
+    slug: 'bamboohr',
+    name: 'BambooHR',
+    toolDescription: 'Human resources software for small and medium businesses offering employee data management, onboarding, performance reviews, time tracking, and payroll integration.',
+    description: 'BambooHR is a solid HR platform, but its pricing and US-centric focus limit its appeal for many organizations. These alternatives offer better value, specialized features, or global capabilities at competitive price points.',
+    logo: '/images/alternatives-logo/bamboohr.webp',
+    categories: ['hr'],
+    alternatives: [
+      {
+        slug: 'connecteam',
+        bestFor: 'Companies with deskless and frontline workers',
+        keyStrengths: [
+          'Purpose-built for hourly, field, and frontline employees',
+          'Scheduling, time tracking, and training in one platform',
+          'Mobile-first design optimized for non-desk workers',
+          'Free plan for up to 10 users with core features',
+          'Much more affordable than BambooHR for hourly workforces'
+        ],
+      },
+      {
+        slug: 'hibob',
+        bestFor: 'Mid-size companies wanting modern employee engagement',
+        keyStrengths: [
+          'Beautiful, modern interface employees actually want to use',
+          'Strong focus on culture, recognition, and engagement',
+          'Organizational charts and people analytics built-in',
+          'Better onboarding experience than BambooHR',
+          'Popular with tech companies and scale-ups'
+        ],
+      },
+      {
+        slug: 'gusto',
+        bestFor: 'Small businesses needing payroll with HR features',
+        keyStrengths: [
+          'Full-service payroll with automatic tax filing',
+          'Benefits administration: health, 401k, workers comp',
+          'HR features included with payroll at no extra cost',
+          'Excellent for US small businesses with under 50 employees',
+          'Much simpler than BambooHR plus separate payroll provider'
+        ],
+      },
+      {
+        slug: 'deel',
+        bestFor: 'Companies hiring international contractors and employees',
+        keyStrengths: [
+          'Hire in 150+ countries without setting up entities',
+          'Global payroll, compliance, and contract management',
+          'EOR services for full-time international employees',
+          'Built for remote-first and distributed teams',
+          'Essential for global hiring BambooHR does not support'
+        ],
+      },
+      {
+        slug: 'testgorilla',
+        bestFor: 'Teams needing skills-based hiring alongside HR',
+        keyStrengths: [
+          '350+ pre-employment assessments for evidence-based hiring',
+          'Reduces bias in hiring decisions with objective testing',
+          'Anti-cheating measures protect assessment integrity',
+          'Integrates with ATS platforms for seamless workflows',
+          'Complements HR systems rather than replacing them'
+        ],
+      },
+    ],
+    why: [
+      'BambooHR pricing per employee adds up quickly for growing companies',
+      'Limited support for international hiring and global teams',
+      'US-centric features do not translate well for other regions',
+      'Less suitable for deskless workforces than specialized alternatives',
+      'Modern alternatives offer better value for specific HR needs'
+    ],
+  },
+  {
+    id: '22',
+    slug: 'intercom',
+    name: 'Intercom',
+    toolDescription: 'Customer messaging platform offering live chat, chatbots, help center, product tours, and customer support tools for engaging website visitors and supporting customers.',
+    description: 'Intercom pioneered modern customer messaging, but its pricing has become prohibitive for many businesses. These alternatives offer comparable features, specialized capabilities, or more affordable pricing for growing teams.',
+    logo: '/images/alternatives-logo/intercom.webp',
+    categories: ['communication'],
+    alternatives: [
+      {
+        slug: 'tidio',
+        bestFor: 'Small businesses needing affordable live chat',
+        keyStrengths: [
+          'Live chat plus AI chatbot at fraction of Intercom cost',
+          'Shared team inbox for managing conversations',
+          'Visitor tracking shows who is on your website',
+          'Easy setup without technical knowledge',
+          'Free plan available for getting started'
+        ],
+      },
+      {
+        slug: 'respondio',
+        bestFor: 'Teams managing customer conversations across channels',
+        keyStrengths: [
+          'Unified inbox for WhatsApp, Messenger, Instagram, SMS, email',
+          'Team collaboration on customer conversations',
+          'Automation and chatbot workflows built-in',
+          'Broadcast messages to segmented audiences',
+          'Better for multi-channel customer engagement than Intercom'
+        ],
+      },
+      {
+        slug: 'freshdesk',
+        bestFor: 'Teams needing full customer support beyond chat',
+        keyStrengths: [
+          'Complete helpdesk: email, chat, phone, social, messaging',
+          'Omnichannel ticketing with AI routing',
+          'Knowledge base and self-service portal included',
+          'Much cheaper than Intercom for full support operations',
+          'Scales from small teams to enterprise support'
+        ],
+      },
+      {
+        slug: 'helpscout',
+        bestFor: 'Teams wanting simple, email-based customer support',
+        keyStrengths: [
+          'Clean, email-like interface that teams adopt quickly',
+          'Shared inbox with collaboration features',
+          'Knowledge base and docs built-in',
+          'Much simpler than Intercom for email-first support',
+          'Transparent pricing without conversation-based scaling'
+        ],
+      },
+      {
+        slug: 'landbot',
+        bestFor: 'Teams wanting advanced conversational experiences',
+        keyStrengths: [
+          'Visual chatbot builder without coding',
+          'WhatsApp, web, and Facebook Messenger support',
+          'Advanced branching logic and integrations',
+          'Better for complex conversational flows than Intercom',
+          'Human handoff when chatbots cannot resolve issues'
+        ],
+      },
+    ],
+    why: [
+      'Intercom pricing scales based on conversations, becoming expensive quickly',
+      'Recent price increases pushed many customers to explore alternatives',
+      'Advanced features require expensive add-ons and premium tiers',
+      'The platform can feel bloated for teams needing specific capabilities',
+      'Specialized alternatives offer better value for focused use cases'
     ],
   },
 ]
