@@ -2,12 +2,13 @@ import { blogPosts } from '~/data/blog'
 import type { BlogPost } from '~/types/blog'
 
 export const useBlog = () => {
-  const getBlogPosts = (): BlogPost[] =>
-    blogPosts
+  const getBlogPosts = (limit?: number): BlogPost[] => {
+    const posts = blogPosts
       .filter(post => post.published)
-      .sort((first, second) =>
-        Number(first.id) - Number(second.id)
-      )
+      .sort((first, second) => Number(first.id) - Number(second.id))
+
+    return limit ? posts.slice(0, limit) : posts
+  }
 
   const getBlogPostBySlug = (slug: string): BlogPost => {
     const post = getBlogPosts().find(item => item.slug === slug)
