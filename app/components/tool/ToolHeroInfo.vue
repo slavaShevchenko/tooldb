@@ -51,6 +51,8 @@
         Visit Website
       </BaseButton>
 
+      <BaseShare />
+
       <AlternativesFor
         :tool-slug="tool.slug"
         :tool-name="tool.name"
@@ -90,9 +92,9 @@ const getCategoryName = (slug: string) => {
 }
 .tool-info__right {
   flex: 0 0 300px;
-}
-.tool-info__right .button {
-  margin-bottom: var(--space-2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
 }
 
 .tool-info__logo {

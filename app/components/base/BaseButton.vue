@@ -56,6 +56,7 @@ const tag = computed(() => {
 
 <style scoped lang="scss">
 .button {
+  gap: var(--space-0-5);
   align-items: center;
   justify-content: center;
   border: none;
@@ -74,17 +75,20 @@ const tag = computed(() => {
 /* Sizes */
 
 .button--sm {
-  padding: var(--space-0-5) var(--space-0-75);
+  height: 32px;
+  padding: 0 var(--space-0-75);
   font-size: var(--font-size-sm);
 }
 
 .button--md {
-  padding: var(--space-0-75) var(--space-1-25);
+  height: 40px;
+  padding: 0 var(--space-1-25);
   font-size: var(--font-size-md);
 }
 
 .button--lg {
-  padding: var(--space-1) var(--space-1-75);
+  height: 48px;
+  padding: 0 var(--space-1-75);
   font-size: var(--font-size-lg);
 }
 
@@ -92,6 +96,7 @@ const tag = computed(() => {
 
 .button--width-full {
   display: flex;
+  width: 100%;
 }
 
 .button--width-auto {

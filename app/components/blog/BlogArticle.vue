@@ -15,6 +15,10 @@
       {{ post.description }}
     </p>
 
+    <div class="blog__share-wrapper">
+      <BaseShare />
+    </div>
+
     <img
       v-if="post.image"
       :src="post.image"
@@ -82,6 +86,11 @@ const publishedDate = computed(() =>
 .title {
   margin-top: var(--space-0-5);
   font-size: var(--font-size-3xl);
+}
+
+.blog__share-wrapper {
+  display: flex;
+  padding-top: var(--space-1);
 }
 
 .description {

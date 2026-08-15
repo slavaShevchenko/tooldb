@@ -9,6 +9,10 @@
           :icon-size="16"
           :items="alternative.why"
         />
+
+        <div class="alternative__share-wrapper">
+          <BaseShare />
+        </div>
       </template>
 
       <div class="alt-items__wrapper">
@@ -76,13 +80,13 @@ useSeo({
   margin-top: var(--space-2);
 }
 .section:deep() .header {
-  margin-bottom: var(--space-3);
+  margin-bottom: var(--space-2);
 }
 .section:deep() .content {
-  flex: 0 0 50%;
+  flex: 0 0 var(50% - var(--space-0-5));
 }
 .section:deep() .action {
-  flex: 0 0 50%;
+  flex: 0 0 var(50% - var(--space-0-5));
 }
 .section:deep() .title {
   font-size: var(--font-size-3xl);
@@ -106,6 +110,12 @@ useSeo({
 
 .tooldb__grid {
   padding-top: var(--space-3);
+}
+
+.alternative__share-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: var(--space-2);
 }
 
 @media (max-width: 1279px) {
