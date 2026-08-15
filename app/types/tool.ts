@@ -1,5 +1,6 @@
 import type { ToolCategory } from '~/constants/tool-categories'
 import type { ToolContent } from './toolContent'
+import type { LucideIcon } from '~/types/lucideIcons'
 
 export interface Tool {
   id: string
@@ -46,7 +47,7 @@ export interface ToolFeature {
   id: string
   title: string
   description: string
-  icon: string
+  icon: LucideIcon
 }
 
 export type ToolPlatform =

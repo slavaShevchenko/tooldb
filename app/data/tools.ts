@@ -836,7 +836,7 @@ export const tools: Tool[] = [
         id: '3',
         title: 'Landing Page Builder',
         description: 'Create conversion-optimized landing pages and forms without coding skills.',
-        icon: 'layout'
+        icon: 'layout-dashboard'
       }
     ]
   },
@@ -1238,7 +1238,7 @@ export const tools: Tool[] = [
         id: '3',
         title: 'Landing Page Builder',
         description: 'Create conversion-optimized landing pages without coding skills using responsive templates.',
-        icon: 'layout'
+        icon: 'layout-dashboard'
       }
     ]
   },
@@ -1360,7 +1360,7 @@ export const tools: Tool[] = [
         id: '1',
         title: 'Visual Deal Management',
         description: 'Drag-and-drop pipeline interface that mirrors how salespeople naturally manage deals.',
-        icon: 'kanban'
+        icon: 'square-kanban'
       },
       {
         id: '2',
@@ -2036,7 +2036,7 @@ export const tools: Tool[] = [
         id: '2',
         title: 'E-Signatures',
         description: 'Collect legally binding signatures with comprehensive audit trails and compliance features.',
-        icon: 'signature'
+        icon: 'file-pen'
       },
       {
         id: '3',
@@ -3236,7 +3236,7 @@ export const tools: Tool[] = [
         id: '1',
         title: 'Content Editor',
         description: 'Write optimized content with real-time feedback based on analysis of top-ranking pages.',
-        icon: 'file-edit'
+        icon: 'file-pen'
       },
       {
         id: '2',
@@ -3717,7 +3717,7 @@ export const tools: Tool[] = [
         id: '3',
         title: 'Incident Response',
         description: 'Forensic investigation and response capabilities to contain and remediate security incidents.',
-        icon: 'alert-triangle'
+        icon: 'triangle-alert'
       }
     ]
   },
@@ -4850,7 +4850,7 @@ export const tools: Tool[] = [
         id: '2',
         title: 'Video Analytics',
         description: 'Track individual viewer behavior, engagement heatmaps, and drop-off points to optimize content.',
-        icon: 'bar-chart'
+        icon: 'chart-column'
       },
       {
         id: '3',
@@ -4923,7 +4923,7 @@ export const tools: Tool[] = [
         id: '3',
         title: 'CRM Sync',
         description: 'Automatic call logging, contact enrichment, and activity sync with 250+ CRM and helpdesk platforms without manual data entry.',
-        icon: 'refresh'
+        icon: 'refresh-cw'
       }
     ]
   },
@@ -5520,13 +5520,13 @@ export const tools: Tool[] = [
         id: '2',
         title: 'Approvals & Sign-offs',
         description: 'Multi-stage approval chains with e-signatures, timestamps, and audit trails for compliance-critical processes.',
-        icon: 'check-circle'
+        icon: 'circle-check'
       },
       {
         id: '3',
         title: 'Reporting & Analytics',
         description: 'Track completion rates, bottlenecks, SLA adherence, and team performance with exportable reports and real-time dashboards.',
-        icon: 'bar-chart'
+        icon: 'chart-column'
       }
     ]
   },
@@ -5587,7 +5587,7 @@ export const tools: Tool[] = [
         id: '2',
         title: 'Flexible Views',
         description: 'View the same data as grid, kanban, calendar, timeline, gallery, or map depending on the context and user preference.',
-        icon: 'kanban'
+        icon: 'square-kanban'
       },
       {
         id: '3',
@@ -5721,7 +5721,7 @@ export const tools: Tool[] = [
         id: '2',
         title: 'Automated Reporting',
         description: 'Schedule PDF or email reports with custom templates, client-specific commentary, and automatic delivery to stakeholders on any cadence.',
-        icon: 'file-bar-chart'
+        icon: 'file-chart-column'
       },
       {
         id: '3',
@@ -5794,7 +5794,7 @@ export const tools: Tool[] = [
         id: '3',
         title: 'Engagement Analytics',
         description: 'Track which features prospects explore, where they drop off, and what drives conversion with viewer-level analytics.',
-        icon: 'bar-chart'
+        icon: 'chart-column'
       }
     ]
   },
@@ -5916,7 +5916,7 @@ export const tools: Tool[] = [
         id: '1',
         title: 'Visual App Builder',
         description: 'Drag-and-drop interface builder with pre-built blocks for lists, forms, charts, and detail pages connected to your data sources.',
-        icon: 'layout'
+        icon: 'layout-dashboard'
       },
       {
         id: '2',
@@ -6251,7 +6251,7 @@ export const tools: Tool[] = [
         id: '1',
         title: 'AI Auto-Scheduling',
         description: 'AI analyzes your calendar, task priorities, and deadlines to automatically schedule work into available time slots throughout your day.',
-        icon: 'calendar-cog'
+        icon: 'calendar-clock'
       },
       {
         id: '2',
@@ -6525,13 +6525,13 @@ export const tools: Tool[] = [
         id: '2',
         title: 'ATS Optimization',
         description: 'Built-in formatting ensures resumes pass applicant tracking systems used by 99% of Fortune 500 companies.',
-        icon: 'check-circle'
+        icon: 'circle-check'
       },
       {
         id: '3',
         title: 'Resume Analytics',
         description: 'See who views your resume, when they view it, and which sections get the most attention to optimize your content.',
-        icon: 'bar-chart'
+        icon: 'chart-column'
       }
     ]
   },
@@ -6653,7 +6653,7 @@ export const tools: Tool[] = [
         id: '1',
         title: 'Legally Binding Signatures',
         description: 'eIDAS-certified electronic signatures that are legally binding across UK, EU, and US jurisdictions.',
-        icon: 'signature'
+        icon: 'file-pen'
       },
       {
         id: '2',
@@ -6665,7 +6665,7 @@ export const tools: Tool[] = [
         id: '3',
         title: 'Audit Trail',
         description: 'Complete audit logs with timestamps, IP addresses, and certificate of completion for every signed document.',
-        icon: 'history'
+        icon: 'undo-2'
       }
     ]
   },
@@ -6732,7 +6732,7 @@ export const tools: Tool[] = [
         id: '3',
         title: 'Threat Detection',
         description: 'Identify phishing attempts and domain spoofing attacks targeting your brand with real-time alerts.',
-        icon: 'alert-triangle'
+        icon: 'triangle-alert'
       }
     ]
   },
@@ -6854,19 +6854,19 @@ export const tools: Tool[] = [
         id: '1',
         title: 'PDF Editing',
         description: 'Edit text, images, and formatting in PDFs with precision comparable to original document editing software.',
-        icon: 'edit'
+        icon: 'pencil'
       },
       {
         id: '2',
         title: 'E-Signatures',
         description: 'Legally binding electronic signatures with certificate-based authentication and audit trails for compliance.',
-        icon: 'signature'
+        icon: 'file-pen'
       },
       {
         id: '3',
         title: 'OCR & Conversion',
         description: 'Convert scanned documents to editable text with optical character recognition supporting 20+ languages.',
-        icon: 'scan-text'
+        icon: 'scan'
       }
     ]
   },
@@ -6927,7 +6927,7 @@ export const tools: Tool[] = [
         id: '2',
         title: 'WordPress Toolkit',
         description: 'One-click WordPress installation, staging environments, cloning, updates, and security hardening tools.',
-        icon: 'wordpress'
+        icon: 'globe'
       },
       {
         id: '3',
