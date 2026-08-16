@@ -31,10 +31,4 @@
 .secondary {
   color: var(--color-secondary);
 }
-
-@media (max-width: 359px) {
-  .logo {
-    font-size: var(--font-size-lg);
-  }
-}
 </style>
