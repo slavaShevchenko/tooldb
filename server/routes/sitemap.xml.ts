@@ -1,3 +1,5 @@
+import { PAGINATION } from '~/constants/pagination'
+
 import { tools } from '~/data/tools'
 import { categories } from '~/data/categories'
 import { alternatives } from '~/data/alternatives'
@@ -22,6 +24,10 @@ export default defineEventHandler(() => {
   const config = useRuntimeConfig()
   const siteUrl = config.public.siteUrl
 
+  const alternativesPages = Math.ceil(
+    alternatives.length / PAGINATION.alternatives,
+  )
+
   const staticUrls: SitemapUrl[] = [
     { loc: '/', changefreq: 'daily', priority: '1.0' },
     { loc: '/tools', changefreq: 'daily', priority: '0.9' },
@@ -34,6 +40,15 @@ export default defineEventHandler(() => {
     { loc: '/terms-of-service', changefreq: 'monthly', priority: '0.3' },
     { loc: '/affiliate-disclosure', changefreq: 'monthly', priority: '0.3' },
   ]
+
+  const alternativesPaginationUrls: SitemapUrl[] = Array.from(
+    { length: Math.max(alternativesPages - 1, 0) },
+    (_, index) => ({
+      loc: `/alternatives?page=${index + 2}`,
+      changefreq: 'weekly',
+      priority: '0.7',
+    }),
+  )
 
   const categoryUrls: SitemapUrl[] = categories.map(category => ({
     loc: `/categories/${category.slug}`,
@@ -65,6 +80,7 @@ export default defineEventHandler(() => {
 
   const allUrls: SitemapUrl[] = [
     ...staticUrls,
+    ...alternativesPaginationUrls,
     ...categoryUrls,
     ...toolUrls,
     ...alternativeUrls,
@@ -72,13 +88,17 @@ export default defineEventHandler(() => {
   ]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    ${allUrls.map(url => `  <url>
-        <loc>${escapeXml(`${siteUrl}${url.loc}`)}</loc>${url.lastmod ? `\n    <lastmod>${url.lastmod}</lastmod>` : ''}
-        <changefreq>${url.changefreq}</changefreq>
-        <priority>${url.priority}</priority>
-      </url>`).join('\n')}
-    </urlset>`
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${allUrls
+  .map(
+    url => `<url>
+  <loc>${escapeXml(`${siteUrl}${url.loc}`)}</loc>${url.lastmod ? `\n  <lastmod>${url.lastmod}</lastmod>` : ''}
+  <changefreq>${url.changefreq}</changefreq>
+  <priority>${url.priority}</priority>
+</url>`,
+  )
+  .join('\n')}
+</urlset>`
 
   return new Response(xml, {
     headers: {

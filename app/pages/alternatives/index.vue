@@ -10,7 +10,12 @@
       </template>
 
       <AlternativesTable
-        :alternatives="alternatives"
+        :alternatives="paginatedAlternatives"
+      />
+
+      <CommonPagination
+        :current-page="currentPage"
+        :total-pages="totalPages"
       />
 
       <div class="tooldb__grid">
@@ -29,6 +34,13 @@
 import AlternativeStats from '~/components/alternatives/AlternativeStats.vue';
 import { alternatives } from '~/data/alternatives'
 import { alternativesSeo } from '~/seo'
+import { PAGINATION } from '~/constants/pagination'
+
+const {
+  items: paginatedAlternatives,
+  currentPage,
+  totalPages,
+} = usePagination(alternatives, PAGINATION.alternatives)
 
 useBreadcrumbJsonLd([
   { name: 'Home', url: '/' },
@@ -36,20 +48,24 @@ useBreadcrumbJsonLd([
 ])
 
 useItemListJsonLd(
-  alternatives.map((alt, i) => ({
+  paginatedAlternatives.value.map((alt, i) => ({
     name: `${alt.name} Alternatives`,
     url: `/alternatives/${alt.slug}`,
-    position: i + 1,
+    position:
+      (currentPage.value - 1) * PAGINATION.alternatives + i + 1,
   })),
-  'Software Alternatives'
+  'Software Alternatives',
 )
 
 useAuthorJsonLd()
 
+const canonical = useCanonical()
+
 useSeo({
   title: alternativesSeo.title,
   description: alternativesSeo.description,
-  canonical: 'https://tooldb.org/alternatives',
+  canonical,
+  appendPageNumber: true,
 })
 </script>
 
