@@ -1,6 +1,7 @@
 <template>
   <BaseContainer>
     <LayoutSection
+      heading-tag="h1"
       :title="`Best alternatives for ${alternative?.name}`"
       :description="alternative?.description ?? ''"
     > 

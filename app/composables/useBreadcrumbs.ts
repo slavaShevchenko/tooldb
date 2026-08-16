@@ -11,6 +11,8 @@ export function useBreadcrumbs() {
 
   const { getToolBySlug } = useTools()
   const { getBlogPostBySlug } = useBlog()
+  const { getCategoryBySlug } = useCategories()
+  const { getAlternativeBySlug } = useAlternatives()
 
   const breadcrumbs = computed<Breadcrumb[]>(() => {
     const items: Breadcrumb[] = [
@@ -62,8 +64,10 @@ export function useBreadcrumbs() {
       const slug = route.params.slug as string | undefined
 
       if (slug) {
+        const category = getCategoryBySlug(slug)
+
         items.push({
-          label: slug,
+          label: category?.name ?? slug,
         })
       }
     }
@@ -77,8 +81,10 @@ export function useBreadcrumbs() {
       const slug = route.params.slug as string | undefined
 
       if (slug) {
+        const alternative = getAlternativeBySlug(slug)
+
         items.push({
-          label: slug,
+          label: alternative?.name ?? slug,
         })
       }
     }

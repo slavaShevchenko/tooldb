@@ -1,6 +1,7 @@
 <template>
   <BaseContainer>
     <LayoutSection
+      heading-tag="h1"
       :title="category?.name ?? 'Category not found'"
       :description="category?.description ?? ''"
     >
