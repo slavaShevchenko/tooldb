@@ -36,12 +36,12 @@ export default defineNuxtConfig({
           href: '/favicon/site.webmanifest'
         }
       ],
-      // meta: [
-      //   {
-      //     name: 'impact-site-verification',
-      //     content: 'ef3cacef-700c-4249-9cb3-a7be19f08266'
-      //   }
-      // ],
+      meta: [
+        {
+          name: 'yandex-verification',
+          content: 'a4275c91e37d2e21'
+        }
+      ],
     },
   },
 
