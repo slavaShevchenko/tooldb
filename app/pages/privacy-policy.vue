@@ -1,6 +1,7 @@
 <template>
   <BaseContainer>
     <LayoutSection
+      heading-tag="h1"
       title="Privacy Policy"
       description="How ToolDB collects, uses and protects information."
     >

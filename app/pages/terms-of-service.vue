@@ -1,6 +1,7 @@
 <template>
   <BaseContainer>
     <LayoutSection
+      heading-tag="h1"
       title="Terms of Service"
       description="The rules for accessing and using ToolDB."
     >

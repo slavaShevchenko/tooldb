@@ -1,6 +1,7 @@
 <template>
   <BaseContainer>
     <LayoutSection
+      heading-tag="h1"
       title="Affiliate Disclosure"
       description="How ToolDB handles affiliate relationships and editorial ratings."
     >

@@ -1,6 +1,7 @@
 <template>
   <BaseContainer>
     <LayoutSection
+      heading-tag="h1"
       title="Contact"
       description="Questions, feedback, or corrections about ToolDB?"
     >

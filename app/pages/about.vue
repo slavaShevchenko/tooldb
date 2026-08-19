@@ -1,6 +1,7 @@
 <template>
   <BaseContainer>
     <LayoutSection
+      heading-tag="h1"
       title="About ToolDB"
       description="A curated catalog of digital tools to help you find the right software for your needs."
     >
