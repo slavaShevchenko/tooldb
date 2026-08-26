@@ -73,7 +73,7 @@ useSeo({
     margin-bottom: var(--space-3);
   }
   .section:deep() > .header .content {
-    flex: 0 0 50%;
+    flex: 0 0 75%;
   }
   .section:deep() > .header .content .title {
     font-size: var(--font-size-3xl);
