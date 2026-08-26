@@ -3,7 +3,7 @@
     <LayoutSection
       heading-tag="h1"
       :title="category?.name ?? 'Category not found'"
-      :description="category?.description ?? ''"
+      :description="category?.descriptionFull ?? ''"
     >
       <template v-if="category">
         <ToolGrid :tools="tools" />
@@ -59,7 +59,7 @@ if (!category.value) {
 
 useSeo({
   title: `${category.value.name} Tools`,
-  description: category.value.description,
+  description: category.value.descriptionFull,
   canonical: `https://tooldb.org/categories/${category.value.slug}`,
 })
 </script>
@@ -68,8 +68,27 @@ useSeo({
   .section {
     margin-top: var(--space-2);
   }
+  .section:deep() > .header {
+    gap: var(--space-3);
+    margin-bottom: var(--space-3);
+  }
+  .section:deep() > .header .content {
+    flex: 0 0 50%;
+  }
+  .section:deep() > .header .content .title {
+    font-size: var(--font-size-3xl);
+  }
+  .section:deep() > .header .content .description {
+    line-height: 1.8;
+  }
 
   .tooldb__grid {
     padding-top: var(--space-3);
   } 
+
+  @media (max-width: 991px) {
+    .section:deep() > .header {
+      display: block;
+    }
+  }
 </style>

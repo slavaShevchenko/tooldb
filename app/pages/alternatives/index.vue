@@ -31,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-import AlternativeStats from '~/components/alternatives/AlternativeStats.vue';
+import AlternativeStats from '~/components/alternatives/AlternativeStats.vue'
 import { alternatives } from '~/data/alternatives'
 import { alternativesSeo } from '~/seo'
 import { PAGINATION } from '~/constants/pagination'
@@ -42,6 +42,18 @@ const {
   totalPages,
 } = usePagination(alternatives, PAGINATION.alternatives)
 
+const dynamicMetaDescription = computed(() => {
+  const toolNames = paginatedAlternatives.value
+    .slice(0, 3)
+    .map(alt => alt.name)
+    .join(', ')
+
+  const base = 'Compare top-rated alternatives to '
+  const suffix = '. Find better pricing, features, and the right replacement for your team.'
+
+  return `${base}${toolNames}${suffix}`
+})
+
 useBreadcrumbJsonLd([
   { name: 'Home', url: '/' },
   { name: 'Alternatives', url: '/alternatives' },
@@ -51,8 +63,7 @@ useItemListJsonLd(
   paginatedAlternatives.value.map((alt, i) => ({
     name: `${alt.name} Alternatives`,
     url: `/alternatives/${alt.slug}`,
-    position:
-      (currentPage.value - 1) * PAGINATION.alternatives + i + 1,
+    position: (currentPage.value - 1) * PAGINATION.alternatives + i + 1,
   })),
   'Software Alternatives',
 )
@@ -63,7 +74,7 @@ const canonical = useCanonical()
 
 useSeo({
   title: alternativesSeo.title,
-  description: alternativesSeo.description,
+  description: dynamicMetaDescription, 
   canonical,
   appendPageNumber: true,
 })

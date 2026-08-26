@@ -1,10 +1,11 @@
 <template>
   <BaseContainer>
+    <h1 class="tools__header">The Complete Directory of Digital Tools & SaaS (2026)</h1>
     <LayoutSection
       v-for="toolCategory in toolCategoriesWithTools"
       :key="toolCategory.id"
       :title="toolCategory.name"
-      :description="toolCategory.description"
+      :description="toolCategory.descriptionFull"
       :icon="toolCategory.icon"
     >
       <ToolGrid :tools="toolCategory.tools" />
@@ -50,10 +51,32 @@ useSeo({
 </script>
 
 <style lang="scss" scoped>
-  .container {
+  .tools__header {
+    margin-top: var(--space-2);
+    font-size: var(--font-size-3xl);
+  }
+  .section {
     margin-top: var(--space-2);
   }
+  .section:deep() > .header {
+    gap: var(--space-3);
+    margin-bottom: var(--space-3);
+  }
+  .section:deep() > .header .content .description {
+    line-height: 1.8;
+  }
+
   .tooldb__grid {
     margin-bottom: var(--space-2);
   } 
+
+  @media (max-width: 991px) {
+    .tools__header {
+      margin-top: var(--space-2);
+      font-size: var(--font-size-2xl);
+    }
+    .section:deep() > .header {
+      display: block;
+    }
+  }
 </style>

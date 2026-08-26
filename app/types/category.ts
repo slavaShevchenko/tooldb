@@ -5,6 +5,7 @@ export interface Category {
   slug: ToolCategory
   name: string
   description: string
+  descriptionFull: string
   icon: string
 
   toolCount?: number

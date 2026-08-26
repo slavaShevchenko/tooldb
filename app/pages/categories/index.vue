@@ -3,7 +3,7 @@
     <LayoutSection
       heading-tag="h1"
       title="Categories"
-      description="Browse tools by category."
+      :description="categoriesSeo.onPageDescription"
     >
       <CategoryGrid :categories="toolCategories" />
 
@@ -34,7 +34,7 @@ useAuthorJsonLd()
 useSeo({
   title: categoriesSeo.title,
   description: categoriesSeo.description,
-  canonical: 'https://tooldb.org/categories',
+  canonical: categoriesSeo.canonical,
 })
 </script>
 
@@ -42,8 +42,27 @@ useSeo({
   .section {
     margin-top: var(--space-2);
   }
+  .section:deep() .header {
+    gap: var(--space-3);
+    margin-bottom: var(--space-3);
+  }
+  .section:deep() .content {
+    flex: 0 0 50%;
+  }
+  .section:deep() .content .title {
+    font-size: var(--font-size-3xl);
+  }
+  .section:deep() .content .description {
+    line-height: 1.8;
+  }
 
   .tooldb__grid {
     padding-top: var(--space-3);
   } 
+  
+  @media (max-width: 991px) {
+    .section:deep() .header {
+      display: block;
+    }
+  }
 </style>

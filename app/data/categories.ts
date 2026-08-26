@@ -6,6 +6,7 @@ export const categories: Category[] = [
     slug: 'ai',
     name: 'AI',
     description: 'Artificial intelligence tools',
+    descriptionFull: 'Discover the best AI tools and artificial intelligence software for 2026. From generative AI platforms and AI writing assistants to machine learning tools and AI automation, our catalog covers every category of intelligent software. Whether you need AI-powered content creation, code generation, or data analysis, find the right solution for your workflow.',
     icon: 'sparkles',
   },
   {
@@ -13,6 +14,7 @@ export const categories: Category[] = [
     slug: 'analytics',
     name: 'Analytics',
     description: 'Analytics and reporting tools',
+    descriptionFull: 'Explore top analytics tools and business intelligence software to track performance and make data-driven decisions. Compare web analytics platforms, product analytics, marketing reporting tools, and dashboard solutions. Find the right analytics software to measure KPIs, visualize data, and generate actionable insights for your business.',
     icon: 'chart-column',
   },
   {
@@ -20,6 +22,7 @@ export const categories: Category[] = [
     slug: 'communication',
     name: 'Communication',
     description: 'Communication and customer support tools',
+    descriptionFull: 'Find the best business communication tools and customer support software for your team. Compare VoIP phone systems, team messaging platforms, unified communications, and helpdesk solutions. From cloud phone systems and live chat software to video conferencing and omnichannel support, discover tools that keep your team connected and customers happy.',
     icon: 'messages-square',
   },
   {
@@ -27,6 +30,7 @@ export const categories: Category[] = [
     slug: 'community',
     name: 'Community',
     description: 'Community management platforms',
+    descriptionFull: 'Build and grow engaged audiences with the best online community platforms and community management software. Compare member platforms, forum software, and social community builders for creators, brands, and organizations. Find the right community tool to host discussions, events, courses, and member-only content.',
     icon: 'users',
   },
   {
@@ -34,6 +38,7 @@ export const categories: Category[] = [
     slug: 'crm',
     name: 'CRM',
     description: 'Customer relationship management tools',
+    descriptionFull: 'Compare the best CRM software and customer relationship management platforms for small business and enterprise teams. From sales CRM and marketing CRM to service CRM and industry-specific solutions, find tools that help you manage contacts, track deals, and grow revenue. Discover affordable CRM alternatives to Salesforce and HubSpot.',
     icon: 'contact-round',
   },
   {
@@ -41,6 +46,7 @@ export const categories: Category[] = [
     slug: 'design',
     name: 'Design',
     description: 'Design and creative tools',
+    descriptionFull: 'Discover top design tools and graphic design software for designers, marketers, and creative teams. Compare UI/UX design platforms, vector graphics editors, prototyping tools, and design collaboration software. Find the right creative tools for web design, brand identity, social media graphics, and visual content production.',
     icon: 'palette',
   },
   {
@@ -48,6 +54,7 @@ export const categories: Category[] = [
     slug: 'ecommerce',
     name: 'Ecommerce',
     description: 'Ecommerce and online selling tools',
+    descriptionFull: 'Find the best ecommerce platforms and online store builders to launch and grow your business. Compare shopping cart solutions, payment processors, and ecommerce software for digital products, physical goods, and print-on-demand. Discover Shopify alternatives and affordable ecommerce solutions for small businesses and creators.',
     icon: 'shopping-cart',
   },
   {
@@ -55,6 +62,7 @@ export const categories: Category[] = [
     slug: 'education',
     name: 'Education',
     description: 'Online learning and education platforms',
+    descriptionFull: 'Explore the best online learning platforms and education software for creators, educators, and corporate trainers. Compare LMS platforms, course creation tools, and elearning software to sell courses, host webinars, and build training programs. Find the right platform to monetize your expertise and deliver engaging learning experiences.',
     icon: 'graduation-cap',
   },
   {
@@ -62,6 +70,7 @@ export const categories: Category[] = [
     slug: 'finance',
     name: 'Finance',
     description: 'Finance and accounting software',
+    descriptionFull: 'Compare top finance software and accounting tools for small businesses, freelancers, and accountants. From bookkeeping software and invoicing platforms to expense tracking and payroll solutions, find tools that simplify financial management. Discover QuickBooks alternatives and affordable accounting software for every business size.',
     icon: 'landmark',
   },
   {
@@ -69,6 +78,7 @@ export const categories: Category[] = [
     slug: 'hr',
     name: 'HR',
     description: 'Human resources and payroll tools',
+    descriptionFull: 'Find the best HR software and human resources tools to manage your team from hiring to retirement. Compare HRIS platforms, payroll software, employee management systems, and recruitment tools. From applicant tracking and onboarding to performance reviews and workforce management, discover solutions that streamline HR operations.',
     icon: 'briefcase-business',
   },
   {
@@ -76,6 +86,7 @@ export const categories: Category[] = [
     slug: 'marketing',
     name: 'Marketing',
     description: 'Marketing and advertising tools',
+    descriptionFull: 'Discover the best marketing tools and digital marketing software to grow your business. Compare email marketing platforms, marketing automation tools, social media managers, and advertising solutions. From SEO tools and content marketing platforms to marketing analytics and lead generation software, find everything you need to execute your marketing strategy.',
     icon: 'megaphone',
   },
   {
@@ -83,6 +94,7 @@ export const categories: Category[] = [
     slug: 'media',
     name: 'Media',
     description: 'Audio, video and content creation tools',
+    descriptionFull: 'Explore top media tools and content creation software for video, audio, and multimedia production. Compare video editing software, audio production tools, podcast hosting platforms, and streaming solutions. Find the right media tools for creators, marketers, and production teams to produce professional content at scale.',
     icon: 'clapperboard',
   },
   {
@@ -90,6 +102,7 @@ export const categories: Category[] = [
     slug: 'productivity',
     name: 'Productivity',
     description: 'Productivity and collaboration tools',
+    descriptionFull: 'Find the best productivity tools and collaboration software to streamline your workflow. Compare project management platforms, task managers, note-taking apps, and team collaboration tools. From workflow automation and time tracking to document collaboration and knowledge management, discover solutions that help teams work smarter and ship faster.',
     icon: 'check-square',
   },
   {
@@ -97,6 +110,7 @@ export const categories: Category[] = [
     slug: 'sales',
     name: 'Sales',
     description: 'Sales and lead generation tools',
+    descriptionFull: 'Discover top sales tools and sales enablement software to accelerate your revenue growth. Compare CRM platforms, sales automation tools, lead generation software, and prospecting solutions. From cold email tools and sales dialers to conversation intelligence and deal management, find everything your sales team needs to close more deals.',
     icon: 'handshake',
   },
   {
@@ -104,6 +118,7 @@ export const categories: Category[] = [
     slug: 'security',
     name: 'Security',
     description: 'Security and privacy tools',
+    descriptionFull: 'Compare the best security tools and cybersecurity software to protect your business and data. From password managers and endpoint security to cloud backup solutions and email authentication, find tools that safeguard your organization. Discover privacy-focused software, disaster recovery platforms, and compliance solutions for modern businesses.',
     icon: 'shield-check',
   },
   {
@@ -111,6 +126,7 @@ export const categories: Category[] = [
     slug: 'seo',
     name: 'SEO',
     description: 'Search engine optimization tools',
+    descriptionFull: 'Find the best SEO tools and search engine optimization software to rank higher in Google. Compare keyword research tools, site audit platforms, link building software, and rank tracking solutions. From technical SEO analyzers to content optimization platforms and SERP monitoring tools, discover everything you need to improve organic search visibility.',
     icon: 'search',
   },
   {
@@ -118,6 +134,7 @@ export const categories: Category[] = [
     slug: 'web-development',
     name: 'WebDev',
     description: 'Web development and hosting tools',
+    descriptionFull: 'Explore top web development tools and hosting platforms for developers and agencies. Compare web hosting providers, website builders, CMS platforms, and developer tools for building modern websites. From shared hosting and VPS solutions to control panels and no-code platforms, find the right stack to launch and scale your web projects.',
     icon: 'code-xml',
   },
 ]
