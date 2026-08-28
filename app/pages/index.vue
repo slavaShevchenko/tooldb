@@ -22,8 +22,8 @@
 <script setup lang="ts">
 import { homeSeo } from '~/seo'
 
-const { getBlogPosts } = useBlog()
-const posts = getBlogPosts(3)
+const { getLatestBlogPosts } = useBlog()
+const posts = getLatestBlogPosts(3)
 
 useSeo({
   title: homeSeo.title,

@@ -5,7 +5,7 @@ export const useBlog = () => {
   const getBlogPosts = (limit?: number): BlogPost[] => {
     const posts = blogPosts
       .filter(post => post.published)
-      .sort((first, second) => Number(first.id) - Number(second.id))
+      .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
 
     return limit ? posts.slice(0, limit) : posts
   }
