@@ -5,7 +5,7 @@ export const bestSalesProspectingTools: BlogPostData = {
   image: '/images/blog-image/best-sales-prospecting-tools.webp',
   title: 'Best Sales Prospecting Tools in 2026: Find Leads, Verify Emails & Automate Outreach',
   description: 'The best sales prospecting tools help you find qualified leads, discover contact information and automate outreach without building the entire process by hand.',
-  published: false,
+  published: true,
   publishedAt: '2026-08-31',
   updatedAt: '2026-08-31',
   content: [
