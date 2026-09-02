@@ -5,7 +5,7 @@ export const bestCustomerSupportSoftware: BlogPostData = {
   image: '/images/blog-image/best-customer-support-software.webp',
   title: 'Best Customer Support Software for Small Businesses in 2026',
   description: 'The best customer support software helps small teams manage tickets, live chat, email and customer questions without creating unnecessary complexity.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-02',
   updatedAt: '2026-09-02',
   content: [
