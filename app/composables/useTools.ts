@@ -93,11 +93,11 @@ export const useTools = () => {
    * @param slug Tool slug.
    * @returns The matching tool or undefined.
    */
-  const getToolBySlug = (slug: string): ToolDetails => {
+  const getToolBySlug = (slug: string): ToolDetails | undefined => {
     const tool = tools.find(tool => tool.slug === slug)
 
     if (!tool) {
-      throw new Error(`Tool with slug "${slug}" not found`)
+      return undefined
     }
 
     return {
