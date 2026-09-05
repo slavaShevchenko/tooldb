@@ -5,7 +5,7 @@ export const bestWebsiteBuildersForSmallBusiness: BlogPostData = {
   image: '/images/blog-image/best-website-builders-for-small-business.webp',
   title: 'Best Website Builders for Small Businesses in 2026',
   description: 'Choosing the best website builder depends on what you are building. Here is how Webflow, Softr, Glide and other platforms compare for small businesses.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-05',
   updatedAt: '2026-09-05',
   content: [
