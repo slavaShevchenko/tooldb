@@ -5,7 +5,7 @@ export const bestGlobalPayrollSoftwareForRemoteTeams: BlogPostData = {
   image: '/images/blog-image/best-global-payroll-software-for-remote-teams.webp',
   title: 'Best Global Payroll Software for Remote Teams in 2026',
   description: 'Hiring internationally creates payroll, compliance and onboarding challenges. These global payroll platforms help businesses manage distributed teams.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-08',
   updatedAt: '2026-09-08',
   content: [
