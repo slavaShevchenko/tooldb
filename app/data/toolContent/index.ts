@@ -70,7 +70,6 @@ import { wrikeContent } from './wrike'
 import { xeroContent } from './xero'
 import { zendeskContent } from './zendesk'
 import { zoominfoContent } from './zoominfo'
-
 import { aircallContent } from './aircall'
 import { callrailContent } from './callrail'
 import { cloudtaskContent } from './cloudtask'
@@ -182,7 +181,6 @@ export const toolContent = {
   xero: xeroContent,
   zendesk: zendeskContent,
   zoominfo: zoominfoContent,
-
   aircall: aircallContent,
   callrail: callrailContent,
   cloudtask: cloudtaskContent,

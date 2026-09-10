@@ -5800,7 +5800,7 @@ export const tools: Tool[] = [
   },
   {
     id: '87',
-    slug: 'browse-ai',
+    slug: 'browseai',
     name: 'Browse AI',
     tagline: 'No-code web scraping and monitoring platform',
     description: 'AI-powered web automation platform that lets anyone extract data from any website, monitor changes, and automate web tasks without writing code.',
@@ -7006,7 +7006,7 @@ export const tools: Tool[] = [
   },
   {
     id: '105',
-    slug: 'inmotion-hosting',
+    slug: 'inmotionhosting',
     name: 'InMotion Hosting',
     tagline: 'Reliable web hosting with business-class support',
     description: 'Web hosting provider offering shared hosting, VPS, dedicated servers, and WordPress hosting with free domain, SSL, email, and 24/7 human technical support.',
