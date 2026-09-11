@@ -5,7 +5,7 @@ export const bestCrmSoftwareForSmallBusiness: BlogPostData = {
   image: '/images/blog-image/best-crm-software-for-small-business.webp',
   title: 'Best CRM Software for Small Business in 2026: 10 Tools Compared',
   description: 'Finding the best CRM for small business can transform your sales process. We compare top CRM tools to help you choose the right fit for your team.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-12',
   updatedAt: '2026-09-12',
   content: [
