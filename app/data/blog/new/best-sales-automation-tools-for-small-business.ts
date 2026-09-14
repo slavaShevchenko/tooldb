@@ -5,7 +5,7 @@ export const bestSalesAutomationToolsForSmallBusiness: BlogPostData = {
   image: '/images/blog-image/best-sales-automation-tools-for-small-business.webp',
   title: 'Best Sales Automation Tools for Small Businesses and Startups in 2026',
   description: 'Scale your revenue without hiring a massive team. We compare the best sales automation tools and software to streamline outreach and close more deals.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-14',
   updatedAt: '2026-09-14',
   content: [
