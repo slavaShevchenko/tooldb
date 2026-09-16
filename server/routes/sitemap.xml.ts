@@ -28,6 +28,10 @@ export default defineEventHandler(() => {
     alternatives.length / PAGINATION.alternatives,
   )
 
+  const blogPages = Math.ceil(
+    blogPosts.filter(post => post.published).length / PAGINATION.blog,
+  )
+
   const staticUrls: SitemapUrl[] = [
     { loc: '/', changefreq: 'daily', priority: '1.0' },
     { loc: '/tools', changefreq: 'daily', priority: '0.9' },
@@ -47,6 +51,15 @@ export default defineEventHandler(() => {
       loc: `/alternatives?page=${index + 2}`,
       changefreq: 'weekly',
       priority: '0.7',
+    }),
+  )
+
+  const blogPaginationUrls: SitemapUrl[] = Array.from(
+    { length: Math.max(blogPages - 1, 0) },
+    (_, index) => ({
+      loc: `/blog?page=${index + 2}`,
+      changefreq: 'weekly',
+      priority: '0.6',
     }),
   )
 
@@ -81,6 +94,7 @@ export default defineEventHandler(() => {
   const allUrls: SitemapUrl[] = [
     ...staticUrls,
     ...alternativesPaginationUrls,
+    ...blogPaginationUrls,
     ...categoryUrls,
     ...toolUrls,
     ...alternativeUrls,

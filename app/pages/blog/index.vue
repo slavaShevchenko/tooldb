@@ -5,7 +5,12 @@
       title="Blog"
       description="Practical guides, comparisons and tips for choosing, evaluating and getting the most out of digital tools. Whether you're switching from an expensive platform, comparing options for your team, or just exploring what's out there — our articles help you make informed decisions faster. Updated regularly by our team."
     >
-      <BlogList :posts="posts" />
+      <BlogList :posts="paginatedPosts" />
+
+      <CommonPagination
+        :current-page="currentPage"
+        :total-pages="totalPages"
+      />
     </LayoutSection>
   </BaseContainer>
 </template>
@@ -13,9 +18,28 @@
 <script setup lang="ts">
 import { routes } from '~/constants/routes'
 import { blogSeo } from '~/seo'
+import { PAGINATION } from '~/constants/pagination'
 
 const { getBlogPosts } = useBlog()
-const posts = getBlogPosts()
+const allPosts = getBlogPosts()
+
+const {
+  items: paginatedPosts,
+  currentPage,
+  totalPages,
+} = usePagination(allPosts, PAGINATION.blog)
+
+const dynamicMetaDescription = computed(() => {
+  const postTitles = paginatedPosts.value
+    .slice(0, 3)
+    .map(post => post.title)
+    .join(', ')
+
+  const base = 'Latest articles: '
+  const suffix = '. Practical guides, comparisons and tips for choosing digital tools.'
+
+  return `${base}${postTitles}${suffix}`
+})
 
 useBreadcrumbJsonLd([
   { name: 'Home', url: routes.home() },
@@ -23,18 +47,19 @@ useBreadcrumbJsonLd([
 ])
 
 useItemListJsonLd(
-  posts.map((post, index) => ({
+  paginatedPosts.value.map((post, index) => ({
     name: post.title,
     url: routes.blogPost(post.slug),
-    position: index + 1,
+    position: (currentPage.value - 1) * PAGINATION.blog + index + 1,
   })),
   'ToolDB Blog'
 )
 
 useSeo({
   title: blogSeo.title,
-  description: blogSeo.description,
+  description: dynamicMetaDescription,
   canonical: `https://tooldb.org${routes.blog()}`,
+  appendPageNumber: true,
 })
 </script>
 
