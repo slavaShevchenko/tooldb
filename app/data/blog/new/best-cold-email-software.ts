@@ -5,7 +5,7 @@ export const bestColdEmailSoftware: BlogPostData = {
   image: '/images/blog-image/best-cold-email-software.webp',
   title: 'Best Cold Email Software in 2026: Compare Outreach Tools',
   description: 'Scale your outreach without landing in spam. We compare the best cold email software and tools to help you automate sequences and protect your sender reputation.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-16',
   updatedAt: '2026-09-16',
   content: [
