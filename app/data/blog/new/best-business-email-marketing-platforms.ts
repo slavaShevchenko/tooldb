@@ -5,7 +5,7 @@ export const bestBusinessEmailMarketingPlatforms: BlogPostData = {
   image: '/images/blog-image/best-business-email-marketing-platforms.webp',
   title: 'Best Business Email Marketing Platforms: From Newsletters to Automation',
   description: 'Grow your audience and drive sales with the right tools. We compare the best email marketing platforms and software for newsletters and advanced automation.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-18',
   updatedAt: '2026-09-18',
   content: [
