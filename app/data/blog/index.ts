@@ -14,7 +14,7 @@ import { bestGlobalPayrollSoftwareForRemoteTeams } from './best-global-payroll-s
 import { bestCrmSoftwareForSmallBusiness } from './new/best-crm-software-for-small-business' // +
 import { bestSalesAutomationToolsForSmallBusiness } from './new/best-sales-automation-tools-for-small-business' // +
 import { bestColdEmailSoftware } from './new/best-cold-email-software' // +
-import { bestBusinessEmailMarketingPlatforms } from './new/best-business-email-marketing-platforms'
+import { bestBusinessEmailMarketingPlatforms } from './new/best-business-email-marketing-platforms' // +
 import { bestCustomerCommunicationTools } from './new/best-customer-communication-tools'
 import { bestAiToolsForSmallBusiness } from './new/best-ai-tools-for-small-business'
 import { bestProjectManagementToolsForRemoteTeams } from './new/best-project-management-tools-for-remote-teams'
