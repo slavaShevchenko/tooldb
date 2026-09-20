@@ -5,7 +5,7 @@ export const bestCustomerCommunicationTools: BlogPostData = {
   image: '/images/blog-image/best-customer-communication-tools.webp',
   title: 'Best Customer Communication Tools for Small Businesses in 2026',
   description: 'Deliver seamless support and sales experiences. We compare the best customer communication tools and software to help you master omnichannel engagement.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-20',
   updatedAt: '2026-09-20',
   content: [
