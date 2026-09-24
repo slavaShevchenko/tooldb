@@ -5,7 +5,7 @@ export const bestAiToolsForSmallBusiness: BlogPostData = {
   image: '/images/blog-image/best-ai-tools-for-small-business.webp',
   title: 'Best AI Tools for Small Business: 10 Tools That Actually Save Time',
   description: 'Stop wasting hours on manual tasks. We compare the best AI tools for small business to help you automate workflows and boost productivity.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-22',
   updatedAt: '2026-09-22',
   content: [

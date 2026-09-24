@@ -5,7 +5,7 @@ export const bestProjectManagementToolsForRemoteTeams: BlogPostData = {
   image: '/images/blog-image/best-project-management-tools-for-remote-teams.webp',
   title: 'Best Project Management Tools for Remote Teams in 2026',
   description: 'Keep your distributed workforce aligned and productive. We compare the best project management software for remote teams to streamline collaboration.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-24',
   updatedAt: '2026-09-24',
   content: [
