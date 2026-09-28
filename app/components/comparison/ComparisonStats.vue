@@ -4,16 +4,16 @@
 
 <script setup lang="ts">
 const {
-  getPopularToolsCount,
+  getComparisonsCount,
   getCategoriesCount,
-  getAlternativesCount,
-} = useAlternatives()
+  getToolsCount,
+} = useComparisons()
 
 const stats = computed(() => [
   {
-    icon: 'lucide:star',
-    value: getPopularToolsCount(),
-    label: 'Popular Tools',
+    icon: 'lucide:arrow-left-right',
+    value: getComparisonsCount(),
+    label: 'Comparisons',
   },
   {
     icon: 'lucide:layers',
@@ -21,9 +21,9 @@ const stats = computed(() => [
     label: 'Categories',
   },
   {
-    icon: 'lucide:arrow-left-right',
-    value: getAlternativesCount(),
-    label: 'Alternatives',
+    icon: 'lucide:wrench',
+    value: getToolsCount(),
+    label: 'Tools',
   },
 ])
 </script>

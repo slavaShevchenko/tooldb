@@ -56,6 +56,15 @@
     <ComparisonRelatedArticles
       :related-comparisons="relatedComparisons"
     />
+
+    <div class="tooldb__grid">
+      <div class="tooldb__grid-left">
+        <CommonAuthorBox />
+      </div>
+      <div class="tooldb__grid-right">
+        <ToolAffiliateNotice />
+      </div>
+    </div>
   </BaseContainer>
 </template>
 

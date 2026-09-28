@@ -29,16 +29,9 @@ const {
   totalPages,
 } = usePagination(allPosts, PAGINATION.blog)
 
-const dynamicMetaDescription = computed(() => {
-  const postTitles = paginatedPosts.value
-    .slice(0, 3)
-    .map(post => post.title)
-    .join(', ')
-
-  const base = 'Latest articles: '
-  const suffix = '. Practical guides, comparisons and tips for choosing digital tools.'
-
-  return `${base}${postTitles}${suffix}`
+const dynamicMetaDescription = useDynamicSeoDescription(paginatedPosts, {
+  prefix: 'Latest articles: ',
+  suffix: '. Practical guides, comparisons and tips for choosing digital tools.',
 })
 
 useBreadcrumbJsonLd([

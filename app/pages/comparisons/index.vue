@@ -5,64 +5,30 @@
       title="Comparisons"
       description="Compare popular digital tools side by side. Find the best software for your needs with detailed feature comparisons, pros and cons, and expert recommendations."
     >
-      <div class="comparisons-grid">
-        <NuxtLink
-          v-for="comparison in paginatedComparisons"
-          :key="comparison.id"
-          :to="routes.comparison(comparison.slug)"
-          class="comparison-card"
-        >
-          <div class="card-header">
-            <div class="badge">
-              {{ comparison.category }}
-            </div>
+      <template #action>
+        <ComparisonStats />
+      </template>
 
-            <div class="meta">
-              <BaseIcon
-                name="clock"
-                :size="14"
-                color="var(--color-text-secondary)"
-              />
-              <span>{{ comparison.readTime }}</span>
-            </div>
-          </div>
-
-          <h2 class="card-title">
-            {{ comparison.title }}
-          </h2>
-
-          <p class="card-description">
-            {{ comparison.description }}
-          </p>
-
-          <div class="tools-preview">
-            <div
-              v-for="toolSlug in comparison.tools"
-              :key="toolSlug"
-              class="tool-chip"
-            >
-              <img
-                :src="getToolLogo(toolSlug)"
-                :alt="getToolName(toolSlug)"
-                class="tool-logo"
-                loading="lazy"
-              >
-              <span>{{ getToolName(toolSlug) }}</span>
-            </div>
-          </div>
-        </NuxtLink>
-      </div>
+      <ComparisonGrid :comparisons="paginatedComparisons" />
 
       <CommonPagination
         :current-page="currentPage"
         :total-pages="totalPages"
       />
+
+      <div class="tooldb__grid">
+        <div class="tooldb__grid-left">
+          <CommonAuthorBox />
+        </div>
+        <div class="tooldb__grid-right">
+          <ToolAffiliateNotice />
+        </div>
+      </div>
     </LayoutSection>
   </BaseContainer>
 </template>
 
 <script setup lang="ts">
-import { tools } from '~/data/tools'
 import { routes } from '~/constants/routes'
 import { comparisonsSeo } from '~/seo'
 import { PAGINATION } from '~/constants/pagination'
@@ -76,15 +42,10 @@ const {
   totalPages,
 } = usePagination(allComparisons, PAGINATION.comparisons)
 
-const getToolLogo = (slug: string): string => {
-  const tool = tools.find(t => t.slug === slug)
-  return tool?.logo || ''
-}
-
-const getToolName = (slug: string): string => {
-  const tool = tools.find(t => t.slug === slug)
-  return tool?.name || slug
-}
+const dynamicMetaDescription = useDynamicSeoDescription(paginatedComparisons, {
+  prefix: 'Latest comparisons: ',
+  suffix: '. Compare popular digital tools side by side with detailed feature analysis.',
+})
 
 useBreadcrumbJsonLd([
   { name: 'Home', url: routes.home() },
@@ -93,101 +54,43 @@ useBreadcrumbJsonLd([
 
 useSeo({
   title: comparisonsSeo.title,
-  description: comparisonsSeo.description,
+  description: dynamicMetaDescription,
   canonical: `https://tooldb.org${routes.comparisons()}`,
   appendPageNumber: true,
 })
 </script>
 
 <style scoped lang="scss">
-.comparisons-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: var(--space-1-5);
+.section {
+  margin-top: var(--space-2);
+}
+.section:deep() .header {
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+.section:deep() .content {
+  flex: 1 1 auto;
+}
+.section:deep() .action {
+  flex: 0 0 max-content;
+}
+.section:deep() .title {
+  font-size: var(--font-size-3xl);
+}
+.section:deep() .description {
+  line-height: 1.8;
 }
 
-.comparison-card {
-  display: flex;
-  flex-direction: column;
-  padding: var(--space-1-5);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  background: var(--color-surface);
-  text-decoration: none;
-  color: inherit;
-  transition: var(--transition-fast);
+.tooldb__grid {
+  padding-top: var(--space-3);
 }
 
-.comparison-card:hover {
-  border-color: var(--color-border-hover);
-  box-shadow: var(--shadow-md);
-  transform: translateY(-2px);
-}
-
-.card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: var(--space-0-75);
-}
-
-.badge {
-  padding: var(--space-0-25) var(--space-0-5);
-  border-radius: var(--radius-pill);
-  background: var(--color-primary-25);
-  color: var(--color-primary);
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-semibold);
-}
-
-.meta {
-  display: flex;
-  align-items: center;
-  gap: var(--space-0-25);
-  color: var(--color-text-secondary);
-  font-size: var(--font-size-xs);
-}
-
-.card-title {
-  margin-bottom: var(--space-0-75);
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-semibold);
-  line-height: 1.3;
-}
-
-.card-description {
-  flex: 1;
-  margin-bottom: var(--space-1);
-  color: var(--color-text-secondary);
-  font-size: var(--font-size-sm);
-  line-height: 1.5;
-}
-
-.tools-preview {
-  display: flex;
-  gap: var(--space-0-5);
-  flex-wrap: wrap;
-}
-
-.tool-chip {
-  display: flex;
-  align-items: center;
-  gap: var(--space-0-5);
-  padding: var(--space-0-25) var(--space-0-5);
-  border-radius: var(--radius-pill);
-  background: var(--color-surface-secondary);
-  font-size: var(--font-size-xs);
-}
-
-.tool-logo {
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
-}
-
-@media (max-width: 767px) {
-  .comparisons-grid {
-    grid-template-columns: 1fr;
+@media (max-width: 1199px) {
+  .section:deep() .header {
+    display: block;
+  }
+  .section:deep() .content {
+    margin-bottom: var(--space-2);
   }
 }
 </style>

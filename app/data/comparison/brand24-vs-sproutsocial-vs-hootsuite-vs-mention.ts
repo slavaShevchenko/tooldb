@@ -6,7 +6,7 @@ export const brand24VsSproutsocialVsHootsuiteVsMention: ComparisonPageData = {
   slug: 'brand24-vs-sproutsocial-vs-hootsuite-vs-mention',
   title: 'Brand24 vs Sprout Social vs Hootsuite vs Mention: Best Brand Monitoring Tool in 2026?',
   description: 'Four brand monitoring platforms with very different philosophies. We compare Brand24, Sprout Social, Hootsuite and Mention on pricing, data sources, analytics, and use cases to help you pick the right monitoring tool in 2026.',
-  category: ['marketing', 'social-media'],
+  category: ['marketing'],
   date: 'September 28, 2026',
   readTime: '14 min read',
 

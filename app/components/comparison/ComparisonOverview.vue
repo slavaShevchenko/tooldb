@@ -128,6 +128,7 @@ const props = defineProps<{
   flex: 1 1 auto;
   color: var(--color-text-secondary);
   font-size: var(--font-size-sm);
+  line-height: 1.4;
 }
 
 .tool-buttons {

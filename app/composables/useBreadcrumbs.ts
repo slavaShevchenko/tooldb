@@ -113,7 +113,7 @@ export function useBreadcrumbs() {
       })
     }
 
-    if (path.startsWith('/comparison/') && path !== '/comparisons') {
+    if (path.startsWith('/comparisons/') && path !== '/comparisons') {
       items.push({
         label: 'Comparisons',
         to: '/comparisons',
