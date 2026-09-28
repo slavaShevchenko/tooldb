@@ -5,7 +5,7 @@ export const bestEmployeeProductivityToolsForRemoteTeams: BlogPostData = {
   image: '/images/blog-image/best-employee-productivity-tools-for-remote-teams.webp',
   title: 'Best Employee Productivity Tools for Remote Teams in 2026',
   description: 'Keep your distributed workforce focused and efficient. We compare the best employee productivity tools and time tracking software for modern remote teams.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-26',
   updatedAt: '2026-09-26',
   content: [

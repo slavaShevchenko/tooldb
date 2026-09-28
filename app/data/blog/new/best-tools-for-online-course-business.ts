@@ -5,7 +5,7 @@ export const bestToolsForOnlineCourseBusiness: BlogPostData = {
   image: '/images/blog-image/best-tools-for-online-course-business.webp',
   title: 'Best Tools for Running an Online Course or Training Business in 2026',
   description: 'Build, market and scale your e-learning business. We compare the best online course platforms and training software to help you choose the right stack.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-28',
   updatedAt: '2026-09-28',
   content: [
