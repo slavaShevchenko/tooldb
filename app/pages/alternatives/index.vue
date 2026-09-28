@@ -42,16 +42,10 @@ const {
   totalPages,
 } = usePagination(alternatives, PAGINATION.alternatives)
 
-const dynamicMetaDescription = computed(() => {
-  const toolNames = paginatedAlternatives.value
-    .slice(0, 3)
-    .map(alt => alt.name)
-    .join(', ')
-
-  const base = 'Compare top-rated alternatives to '
-  const suffix = '. Find better pricing, features, and the right replacement for your team.'
-
-  return `${base}${toolNames}${suffix}`
+const dynamicMetaDescription = useDynamicSeoDescription(paginatedAlternatives, {
+  prefix: 'Compare top-rated alternatives to ',
+  suffix: '. Find better pricing, features, and the right replacement for your team.',
+  key: 'name',
 })
 
 useBreadcrumbJsonLd([

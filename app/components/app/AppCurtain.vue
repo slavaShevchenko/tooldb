@@ -34,8 +34,8 @@ const { isClosing, isOpening } = usePageCurtain()
   inset: 0;
   background: linear-gradient(
     135deg,
-    var(--color-secondary-50) 0%,
-    var(--color-primary-50) 100%
+    var(--color-secondary-25) 0%,
+    var(--color-primary-25) 100%
   );
 }
 

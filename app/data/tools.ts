@@ -7071,4 +7071,3496 @@ export const tools: Tool[] = [
       }
     ]
   },
+  {
+    id: '106',
+    slug: 'wordpress',
+    name: 'WordPress',
+    tagline: 'The world\'s most popular open-source content management system',
+    description: 'WordPress powers over 40% of all websites on the internet, from personal blogs to enterprise portals. This free open-source CMS offers unmatched flexibility through 60,000+ plugins and thousands of themes, making it the default choice for content-driven businesses, e-commerce stores via WooCommerce, and developers who value full data ownership.',
+    overview: '',
+    pricingDescription: 'Free open-source software. Realistic production costs: shared hosting $3-15/mo, managed WordPress hosting $20-60/mo, premium themes $50-200 one-time, premium plugins $50-500/year per extension. Domain registration $10-20/year. Total cost typically $15-150/mo depending on stack complexity.',
+    logo: '/images/tool-logo/wordpress.webp',
+    website: 'https://wordpress.org',
+    affiliateUrl: null,
+    categories: ['web-development', 'design', 'ecommerce'],
+    tags: [
+      'cms',
+      'blogging',
+      'website-builder',
+      'open-source',
+      'self-hosted',
+      'plugins',
+      'themes',
+      'seo',
+      'e-commerce',
+      'woocommerce',
+      'gutenberg',
+      'php'
+    ],
+    pricing: 'Free',
+    featured: true,
+    rating: 4.5,
+    reviewCount: 15200,
+    lastUpdated: '2026-09-20',
+    highlights: [
+      {
+        id: 'market-share',
+        text: 'Powers over 40% of all websites — the largest CMS market share in the world'
+      },
+      {
+        id: 'plugin-ecosystem',
+        text: '60,000+ free plugins and thousands of premium extensions for any feature imaginable'
+      },
+      {
+        id: 'seo-excellence',
+        text: 'Best-in-class SEO capabilities with Yoast, Rank Math, and full URL control'
+      },
+      {
+        id: 'ownership',
+        text: 'Full ownership of code, data, and content with zero vendor lock-in'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Gutenberg Block Editor',
+        description: 'Modern block-based editor enabling drag-and-drop content creation with reusable blocks, patterns, and templates without touching code.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '2',
+        title: 'Plugin Architecture',
+        description: 'Modular plugin system with 60,000+ free extensions covering SEO, e-commerce, security, performance, memberships, and every business model.',
+        icon: 'puzzle'
+      },
+      {
+        id: '3',
+        title: 'Theme System',
+        description: 'Thousands of free and premium themes with full customization of colors, fonts, layouts, and branding through the Customizer or Full Site Editing.',
+        icon: 'palette'
+      },
+      {
+        id: '4',
+        title: 'WooCommerce Integration',
+        description: 'Native integration with WooCommerce — the world\'s most popular e-commerce platform — transforms any WordPress site into a full online store.',
+        icon: 'shopping-cart'
+      }
+    ]
+  },
+  {
+    id: '107',
+    slug: 'shopify',
+    name: 'Shopify',
+    tagline: 'All-in-one e-commerce platform for businesses of all sizes',
+    description: 'Hosted e-commerce platform powering millions of stores worldwide with the deepest app ecosystem, Shopify Payments, and multi-channel selling across Amazon, TikTok Shop, Instagram, and retail POS.',
+    overview: '',
+    pricingDescription: 'Basic at $39/month, Shopify at $105/month, Advanced at $399/month (annual billing). Shopify Plus for enterprise from $2,300/month. Transaction fees of 2%/1%/0.5% on third-party gateways; zero with Shopify Payments. 3-day free trial available.',
+    logo: '/images/tool-logo/shopify.webp',
+    website: 'https://www.shopify.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'ecommerce',
+      'online-store',
+      'dropshipping',
+      'pos',
+      'multi-channel',
+      'shopify-payments',
+      'app-store',
+      'd2c'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 14500,
+    lastUpdated: '2026-09-27',
+    highlights: [
+      {
+        id: 'app-ecosystem',
+        text: 'Largest app ecosystem in e-commerce with thousands of integrations'
+      },
+      {
+        id: 'shopify-payments',
+        text: 'Shopify Payments with zero transaction fees and strong checkout conversion'
+      },
+      {
+        id: 'multi-channel',
+        text: 'Deepest multi-channel selling: Amazon, Walmart, TikTok Shop, Instagram, POS'
+      },
+      {
+        id: 'scale',
+        text: 'Scales from side-hustle dropshipping to billion-dollar DTC brands'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Shopify Payments',
+        description: 'Built-in payment processing with zero transaction fees, Shop Pay installments, and industry-leading checkout conversion.',
+        icon: 'credit-card'
+      },
+      {
+        id: '2',
+        title: 'App Store',
+        description: 'Thousands of apps for reviews, subscriptions, loyalty, email, upsells, and almost any use case you can imagine.',
+        icon: 'puzzle'
+      },
+      {
+        id: '3',
+        title: 'Multi-Channel Sales',
+        description: 'Sell on Amazon, Walmart, TikTok Shop, Instagram, Facebook, eBay, and in-person via Shopify POS from one dashboard.',
+        icon: 'share-2'
+      }
+    ]
+  },
+  {
+    id: '108',
+    slug: 'woocommerce',
+    name: 'WooCommerce',
+    tagline: 'Open-source e-commerce plugin for WordPress',
+    description: 'Free WordPress plugin that turns any WordPress site into a fully-featured online store, with full ownership of code and data, unlimited extensibility via 60,000+ WordPress plugins, and best-in-class SEO.',
+    overview: '',
+    pricingDescription: 'Plugin is free and open source. Realistic production stack: managed hosting $20-60/mo, premium theme $50-150 one-time, extensions $50-300/year. No platform transaction fees. Total cost typically $40-150/month for a production store.',
+    logo: '/images/tool-logo/woocommerce.webp',
+    website: 'https://woocommerce.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'ecommerce',
+      'wordpress',
+      'open-source',
+      'self-hosted',
+      'free',
+      'plugin',
+      'customizable',
+      'seo-friendly'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 4200,
+    lastUpdated: '2026-09-27',
+    highlights: [
+      {
+        id: 'open-source',
+        text: 'Free open-source plugin with full ownership of code and data'
+      },
+      {
+        id: 'seo',
+        text: 'Best-in-class SEO with Yoast, Rank Math, and full URL control'
+      },
+      {
+        id: 'extensibility',
+        text: 'Unlimited extensibility via 60,000+ WordPress plugins'
+      },
+      {
+        id: 'no-fees',
+        text: 'Zero platform transaction fees — you only pay your processor'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Open Source Core',
+        description: 'Fully open-source plugin you can install, modify, and extend without restrictions or vendor lock-in.',
+        icon: 'code-xml'
+      },
+      {
+        id: '2',
+        title: 'WordPress Native',
+        description: 'Built into WordPress — inherits the CMS, SEO, and content features your site already uses.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '3',
+        title: 'Unlimited Extensions',
+        description: 'Thousands of free and premium extensions for subscriptions, memberships, bookings, B2B, and every business model.',
+        icon: 'puzzle'
+      }
+    ]
+  },
+  {
+    id: '109',
+    slug: 'bigcommerce',
+    name: 'BigCommerce',
+    tagline: 'Hosted e-commerce platform for mid-market and enterprise brands',
+    description: 'Enterprise-grade hosted e-commerce platform built for large catalogs, B2B sales, and multi-channel operations, with zero transaction fees and many advanced features included natively that competitors charge apps for.',
+    overview: '',
+    pricingDescription: 'Standard at $39/month, Plus at $105/month, Pro at $399/month (annual billing). Enterprise with custom pricing. Zero transaction fees on every plan regardless of payment gateway. Annual sales caps trigger plan upgrades.',
+    logo: '/images/tool-logo/bigcommerce.webp',
+    website: 'https://www.bigcommerce.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'ecommerce',
+      'enterprise',
+      'b2b',
+      'multi-channel',
+      'headless',
+      'no-transaction-fees',
+      'mid-market',
+      'api-first'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 980,
+    lastUpdated: '2026-09-27',
+    highlights: [
+      {
+        id: 'no-fees',
+        text: 'Zero transaction fees on every plan with any payment processor'
+      },
+      {
+        id: 'b2b',
+        text: 'Native B2B pricing, customer groups, and quote workflows'
+      },
+      {
+        id: 'scale',
+        text: 'Built for large catalogs and complex variant matrices'
+      },
+      {
+        id: 'headless',
+        text: 'Headless-ready with a modern Storefront API'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Zero Transaction Fees',
+        description: 'No platform fees on top of payment processor costs, regardless of which gateway you choose.',
+        icon: 'credit-card'
+      },
+      {
+        id: '2',
+        title: 'B2B Commerce',
+        description: 'Native customer groups, tiered pricing, quote management, and B2B buyer portals on mid and upper tiers.',
+        icon: 'building-2'
+      },
+      {
+        id: '3',
+        title: 'Multi-Storefront',
+        description: 'Run multiple branded storefronts from a single dashboard with separate catalogs, themes, and domains.',
+        icon: 'layout-grid'
+      }
+    ]
+  },
+  {
+    id: '110',
+    slug: 'asana',
+    name: 'Asana',
+    tagline: 'Structured work management for cross-functional teams',
+    description: 'Asana is a polished project management platform designed for cross-functional teams that need timelines, workload views, portfolio tracking, and structured workflows. It excels at coordinating work across marketing, product, operations, and HR without the engineering-centric complexity of Jira.',
+    overview: '',
+    pricingDescription: 'Free for up to 10 users with basic features. Starter at $10.99/user/mo, Advanced at $24.99/user/mo, Enterprise with custom pricing (annual billing). Advanced features like portfolios, custom fields, and workload views require paid plans. 30-day free trial on paid tiers.',
+    logo: '/images/tool-logo/asana.webp',
+    website: 'https://asana.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'project-management',
+      'work-management',
+      'task-management',
+      'team-collaboration',
+      'timeline',
+      'portfolio-management',
+      'workload',
+      'cross-functional'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 12500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'polished-ux',
+        text: 'Intuitive interface that non-technical stakeholders adopt without training'
+      },
+      {
+        id: 'timelines',
+        text: 'Best-in-class timeline and workload views for cross-functional planning'
+      },
+      {
+        id: 'portfolios',
+        text: 'Portfolio feature for managing programs across multiple teams'
+      },
+      {
+        id: 'integrations',
+        text: '300+ native integrations with Slack, Salesforce, Microsoft 365, and GitHub'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Timeline & Workload',
+        description: 'Visual timeline with dependencies and workload views that help managers balance capacity across teams and projects.',
+        icon: 'calendar'
+      },
+      {
+        id: '2',
+        title: 'Portfolios',
+        description: 'Monitor status and progress across multiple related projects from a single dashboard with automated health updates.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '3',
+        title: 'Asana AI & AI Studio',
+        description: 'AI-powered smart status updates, workflow suggestions, and AI Studio for building custom automation without code.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '111',
+    slug: 'trello',
+    name: 'Trello',
+    tagline: 'Visual kanban boards for fast team organization',
+    description: 'Trello is the kanban-first project management tool that popularized card-based workflows. Simple, visual, and fast to adopt — most teams are productive in under an hour. Ideal for small teams, freelancers, and lightweight projects where speed of setup matters more than feature depth.',
+    overview: '',
+    pricingDescription: 'Free plan with unlimited cards and up to 10 boards per workspace. Standard at $5/user/mo, Premium at $10/user/mo, Enterprise at $17.50/user/mo (annual billing). Butler automation engine included on all plans. Power-Ups add advanced features.',
+    logo: '/images/tool-logo/trello.webp',
+    website: 'https://trello.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'kanban',
+      'project-management',
+      'task-management',
+      'visual-workflow',
+      'simple-pm',
+      'card-based',
+      'freelancer',
+      'small-team'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 23500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'fast-adoption',
+        text: 'Fastest to adopt — most teams are productive in under an hour'
+      },
+      {
+        id: 'generous-free',
+        text: 'Free plan with unlimited cards and up to 10 boards per workspace'
+      },
+      {
+        id: 'butler-automation',
+        text: 'Butler automation engine included on all plans, free and paid'
+      },
+      {
+        id: 'visual-identity',
+        text: 'Kanban boards and cards are the core identity — simple and visual'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Kanban Boards',
+        description: 'Visual card-based boards with lists, labels, due dates, and attachments — the defining interface of modern project management.',
+        icon: 'square-kanban'
+      },
+      {
+        id: '2',
+        title: 'Butler Automation',
+        description: 'Built-in no-code automation engine that triggers actions based on card events, due dates, and button clicks.',
+        icon: 'workflow'
+      },
+      {
+        id: '3',
+        title: 'Power-Ups',
+        description: '200+ Power-Ups extend Trello with calendar views, time tracking, custom fields, and integrations with Google Drive, Slack, and more.',
+        icon: 'puzzle'
+      }
+    ]
+  },
+  {
+    id: '112',
+    slug: 'jira',
+    name: 'Jira',
+    tagline: 'Industry-standard agile platform for software teams',
+    description: 'Jira is Atlassian\'s agile project management platform built specifically for software development teams. Industry standard for Scrum and Kanban workflows with deep DevOps integrations, sprint planning, backlog grooming, and issue tracking that connects directly to Git repositories and CI/CD pipelines.',
+    overview: '',
+    pricingDescription: 'Free for up to 10 users with full Scrum and Kanban features. Standard at $8.15/user/mo, Premium at $16.15/user/mo, Enterprise with custom pricing (annual billing). Advanced Roadmaps and Atlassian Intelligence require Premium or higher.',
+    logo: '/images/tool-logo/jira.webp',
+    website: 'https://www.atlassian.com/software/jira',
+    affiliateUrl: null,
+    categories: ['productivity', 'web-development'],
+    tags: [
+      'agile',
+      'scrum',
+      'kanban',
+      'project-management',
+      'issue-tracking',
+      'devops',
+      'software-development',
+      'sprint-planning'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.4,
+    reviewCount: 18500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'agile-standard',
+        text: 'Industry standard for Scrum and Kanban with unmatched sprint and backlog tools'
+      },
+      {
+        id: 'devops',
+        text: 'Deepest DevOps integrations — Git, CI/CD, Bitbucket, and incident management'
+      },
+      {
+        id: 'free-tier',
+        text: 'Free for up to 10 users — unbeatable value for small dev teams'
+      },
+      {
+        id: 'marketplace',
+        text: '3,000+ Atlassian Marketplace apps covering almost every engineering workflow'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Sprint Planning & Backlogs',
+        description: 'Industry-standard agile boards with sprint planning, backlog grooming, story points, velocity reports, and burndown charts.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'DevOps Integrations',
+        description: 'Native integration with Bitbucket, GitHub, GitLab, CI/CD pipelines, and incident management tools for full development visibility.',
+        icon: 'code-xml'
+      },
+      {
+        id: '3',
+        title: 'Atlassian Intelligence',
+        description: 'AI-powered search, issue summarization, and code suggestions that accelerate engineering workflows across the Atlassian ecosystem.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '113',
+    slug: 'notion',
+    name: 'Notion',
+    tagline: 'All-in-one workspace for notes, docs, and lightweight project management',
+    description: 'Notion is a flexible workspace built around blocks and databases that combines note-taking, documentation, wikis, knowledge bases, and lightweight project management in a single tool. Ideal for teams that prioritize docs and knowledge management over complex task tracking.',
+    overview: '',
+    pricingDescription: 'Free plan for individuals with unlimited blocks. Plus at $10/user/mo, Business at $18/user/mo, Enterprise with custom pricing (annual billing). AI features available as paid add-on at $10/user/mo. 14-day free trial on paid plans.',
+    logo: '/images/tool-logo/notion.webp',
+    website: 'https://www.notion.so',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'notes',
+      'documentation',
+      'wiki',
+      'knowledge-base',
+      'project-management',
+      'databases',
+      'all-in-one',
+      'block-editor'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.7,
+    reviewCount: 8500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'flexibility',
+        text: 'Unmatched flexibility — docs, databases, wikis, and tasks in one block-based workspace'
+      },
+      {
+        id: 'knowledge-base',
+        text: 'Industry-leading for company wikis and knowledge management'
+      },
+      {
+        id: 'ai-features',
+        text: 'Notion AI for writing, summarization, translation, and database queries'
+      },
+      {
+        id: 'community',
+        text: 'Massive template community with thousands of pre-built workflows'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Block-Based Editor',
+        description: 'Flexible block editor where every paragraph, image, database, and embed is a movable block you can rearrange, nest, and transform.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '2',
+        title: 'Databases & Views',
+        description: 'Relational databases with table, board, timeline, calendar, gallery, and list views — powerful enough for most project management needs.',
+        icon: 'database'
+      },
+      {
+        id: '3',
+        title: 'Notion AI',
+        description: 'Built-in AI assistant for writing, summarization, translation, brainstorming, and natural-language database queries across your workspace.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '114',
+    slug: 'basecamp',
+    name: 'Basecamp',
+    tagline: 'Simple, flat-rate project management and team communication',
+    description: 'Basecamp is a deliberately simple project management and team communication platform from 37signals. It replaces the sprawl of Slack, email, Dropbox, Trello, and Google Docs with a single calm workspace. Famous for flat-rate pricing and opinionated design that resists feature bloat.',
+    overview: '',
+    pricingDescription: 'Free Personal plan with limited features. Basecamp Pro at $29/user/mo or Pro Unlimited at $299/mo flat rate for unlimited users, projects, and storage (annual billing). No per-feature upsells, no paid add-ons, no transaction fees.',
+    logo: '/images/tool-logo/basecamp.webp',
+    website: 'https://basecamp.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'communication'],
+    tags: [
+      'project-management',
+      'team-communication',
+      'flat-rate',
+      'simple-pm',
+      'remote-work',
+      'async-communication',
+      'client-collaboration',
+      '37signals'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.3,
+    reviewCount: 7800,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'flat-rate',
+        text: 'Flat-rate pricing at $299/mo for unlimited users — unbeatable for large teams'
+      },
+      {
+        id: 'simplicity',
+        text: 'Deliberately simple — replaces Slack, email, Dropbox, Trello, and Google Docs'
+      },
+      {
+        id: 'async-first',
+        text: 'Designed for async-first remote teams that want to reduce interruptions'
+      },
+      {
+        id: 'opinionated',
+        text: 'Opinionated design that resists feature bloat and notification fatigue'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Campfires & Message Boards',
+        description: 'Real-time chat (Campfire) plus long-form async discussions (Message Board) in one place — replacing both Slack and email.',
+        icon: 'message-circle'
+      },
+      {
+        id: '2',
+        title: 'Card Table',
+        description: 'Lightweight kanban board for tracking tasks and projects without the complexity of full project management platforms.',
+        icon: 'square-kanban'
+      },
+      {
+        id: '3',
+        title: 'Hill Charts',
+        description: 'Unique visualization for tracking project progress through the "figuring things out" and "making it happen" phases.',
+        icon: 'mountain'
+      }
+    ]
+  },
+  {
+    id: '115',
+    slug: 'hubspot',
+    name: 'HubSpot',
+    tagline: 'All-in-one inbound marketing, sales, and service platform',
+    description: 'HubSpot is an integrated CRM platform combining marketing, sales, service, and content management tools in a single ecosystem. Famous for its generous free CRM tier and inbound methodology, HubSpot serves everyone from solo founders to enterprise teams with a unified customer database and connected hubs.',
+    overview: '',
+    pricingDescription: 'Free CRM with unlimited users and up to 1 million contacts. Starter at $20/user/mo, Professional at $100/user/mo, Enterprise at $150/user/mo for Sales Hub (annual billing). Marketing, Service, and Content Hubs priced separately. Onboarding fees apply on Professional and above.',
+    logo: '/images/tool-logo/hubspot.webp',
+    website: 'https://www.hubspot.com',
+    affiliateUrl: null,
+    categories: ['crm', 'marketing', 'sales'],
+    tags: [
+      'crm',
+      'inbound-marketing',
+      'sales-automation',
+      'marketing-automation',
+      'service-hub',
+      'email-marketing',
+      'lead-generation',
+      'all-in-one'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.5,
+    reviewCount: 32000,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'free-crm',
+        text: 'Free CRM with unlimited users and up to 1 million contacts'
+      },
+      {
+        id: 'inbound-methodology',
+        text: 'Built around inbound methodology — attract, engage, delight customers'
+      },
+      {
+        id: 'unified-platform',
+        text: 'Marketing, Sales, Service, and CMS hubs sharing one customer database'
+      },
+      {
+        id: 'ecosystem',
+        text: '1,500+ App Marketplace integrations and extensive learning resources'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Unified Customer Database',
+        description: 'Single source of truth for contacts, companies, deals, and tickets shared across Marketing, Sales, and Service hubs.',
+        icon: 'database'
+      },
+      {
+        id: '2',
+        title: 'Inbound Marketing Tools',
+        description: 'Blog, SEO, landing pages, email marketing, marketing automation, and social media management in one platform.',
+        icon: 'megaphone'
+      },
+      {
+        id: '3',
+        title: 'Sales Hub Automation',
+        description: 'Email sequences, meeting scheduling, playbooks, call tracking, and conversation intelligence for sales teams.',
+        icon: 'workflow'
+      }
+    ]
+  },
+  {
+    id: '116',
+    slug: 'salesforce',
+    name: 'Salesforce',
+    tagline: 'Enterprise CRM platform powering the world\'s largest sales organizations',
+    description: 'Salesforce is the world\'s leading enterprise CRM platform, powering sales, service, marketing, and commerce for more than 150,000 companies including 90% of the Fortune 500. Known for unmatched customization, extensive ecosystem, and enterprise-grade security — but also for complexity and high total cost of ownership.',
+    overview: '',
+    pricingDescription: 'Starter at $25/user/mo, Pro at $100/user/mo, Enterprise at $165/user/mo, Unlimited at $330/user/mo, Einstein 1 at $500/user/mo (annual billing). Minimum 5 users on most plans. Implementation and customization typically add 1-3x subscription cost in services.',
+    logo: '/images/tool-logo/salesforce.webp',
+    website: 'https://www.salesforce.com',
+    affiliateUrl: null,
+    categories: ['crm', 'sales'],
+    tags: [
+      'crm',
+      'enterprise-crm',
+      'sales-automation',
+      'customization',
+      'sales-cloud',
+      'service-cloud',
+      'einstein-ai',
+      'fortune-500'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.3,
+    reviewCount: 25000,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'market-leader',
+        text: 'Market-leading enterprise CRM powering 90% of Fortune 500 companies'
+      },
+      {
+        id: 'customization',
+        text: 'Unmatched customization depth with custom objects, flows, and Apex code'
+      },
+      {
+        id: 'appexchange',
+        text: '7,000+ AppExchange apps and 10M+ Trailhead-trained professionals'
+      },
+      {
+        id: 'einstein-ai',
+        text: 'Einstein AI for predictive analytics, lead scoring, and conversational AI'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Sales Cloud',
+        description: 'Enterprise-grade sales automation with lead scoring, territory management, CPQ, and predictive forecasting powered by Einstein AI.',
+        icon: 'target'
+      },
+      {
+        id: '2',
+        title: 'Custom Objects & Flows',
+        description: 'Build custom data models, automated workflows, and complex business logic without code using Lightning Platform.',
+        icon: 'layers'
+      },
+      {
+        id: '3',
+        title: 'AppExchange Ecosystem',
+        description: '7,000+ pre-built apps for every business function — from document signing to industry-specific compliance tools.',
+        icon: 'puzzle'
+      }
+    ]
+  },
+  {
+    id: '117',
+    slug: 'linkedinsalesnavigator',
+    name: 'LinkedIn Sales Navigator',
+    tagline: 'Premium LinkedIn subscription for B2B sales prospecting',
+    description: 'LinkedIn Sales Navigator is LinkedIn\'s premium sales intelligence platform that extends the core LinkedIn network with advanced search filters, lead recommendations, InMail outreach, and CRM integrations. The default choice for B2B salespeople prospecting on the world\'s largest professional network.',
+    overview: '',
+    pricingDescription: 'Core at $99.99/user/mo, Advanced at $149.99/user/mo, Advanced Plus at $249.99/user/mo (annual billing). All plans include 50 InMail credits per month and unlimited profile views. Annual contracts typically required; no free tier beyond 30-day trial.',
+    logo: '/images/tool-logo/linkedinsalesnavigator.webp',
+    website: 'https://www.linkedin.com/sales/solutions/sales-navigator',
+    affiliateUrl: null,
+    categories: ['sales', 'crm'],
+    tags: [
+      'sales-intelligence',
+      'prospecting',
+      'linkedin',
+      'inmail',
+      'lead-generation',
+      'b2b-sales',
+      'social-selling',
+      'account-based-marketing'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.4,
+    reviewCount: 21500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'linkedin-network',
+        text: 'Access to 1+ billion LinkedIn profiles — the world\'s largest professional network'
+      },
+      {
+        id: 'inmail',
+        text: 'Direct InMail outreach to prospects outside your network'
+      },
+      {
+        id: 'social-selling',
+        text: 'Built for social selling with activity tracking and warm intro paths'
+      },
+      {
+        id: 'accuracy',
+        text: 'Self-reported profile data — most accurate job title and company info available'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Advanced Lead Search',
+        description: '40+ search filters including seniority, function, company headcount, technology used, and recent job changes for precise prospecting.',
+        icon: 'search'
+      },
+      {
+        id: '2',
+        title: 'InMail Outreach',
+        description: '50 InMail credits per month on all plans — direct messages to prospects outside your network with higher response rates than cold email.',
+        icon: 'mail'
+      },
+      {
+        id: '3',
+        title: 'Smart Signals',
+        description: 'Activity tracking and alerts for job changes, company news, content shares, and profile views that reveal optimal outreach timing.',
+        icon: 'bell'
+      }
+    ]
+  },
+  {
+    id: '118',
+    slug: 'mailchimp',
+    name: 'Mailchimp',
+    tagline: 'The world\'s most recognized email marketing platform',
+    description: 'Mailchimp is the pioneer email marketing platform serving businesses of all sizes since 2001. Known for its polished drag-and-drop editor, extensive template library, and expansion into full marketing suite with landing pages, social media, and CRM features. Acquired by Intuit in 2021 for $12 billion.',
+    overview: '',
+    pricingDescription: 'Free plan for up to 500 contacts and 1,000 emails/month. Essentials at $13/mo, Standard at $20/mo, Premium at $350/mo (for 500 contacts, scales with list size). Pricing increased significantly in 2024 — many long-time users report 2-3x cost increases.',
+    logo: '/images/tool-logo/mailchimp.webp',
+    website: 'https://mailchimp.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'email-marketing',
+      'marketing-automation',
+      'newsletter',
+      'drag-and-drop',
+      'landing-pages',
+      'crm',
+      'small-business',
+      'templates'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.3,
+    reviewCount: 28500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'brand-recognition',
+        text: 'Most recognized email marketing brand with 11+ million users worldwide'
+      },
+      {
+        id: 'template-library',
+        text: 'Extensive template library with polished drag-and-drop editor'
+      },
+      {
+        id: 'free-tier',
+        text: 'Free plan for up to 500 contacts — good for getting started'
+      },
+      {
+        id: 'all-in-one',
+        text: 'Expanded into full marketing suite: landing pages, social, CRM, websites'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Drag-and-Drop Editor',
+        description: 'Polished visual email builder with 100+ templates, mobile optimization, and extensive customization options.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '2',
+        title: 'Marketing Automation',
+        description: 'Customer journey builder with triggers, conditions, and multi-step workflows on Standard and above.',
+        icon: 'workflow'
+      },
+      {
+        id: '3',
+        title: 'Marketing Suite',
+        description: 'Landing pages, social media posting, postcards, CRM, and basic website builder in one platform.',
+        icon: 'megaphone'
+      }
+    ]
+  },
+  {
+    id: '119',
+    slug: 'klaviyo',
+    name: 'Klaviyo',
+    tagline: 'Email and SMS marketing platform built for e-commerce',
+    description: 'Klaviyo is a marketing automation platform purpose-built for e-commerce brands, with deep native integrations for Shopify, WooCommerce, BigCommerce, and Magento. Famous for powerful segmentation, revenue attribution, and SMS capabilities that turn email and SMS into direct revenue drivers.',
+    overview: '',
+    pricingDescription: 'Free for up to 250 contacts. $20/mo for 501 contacts, $45/mo for 1,501, $75/mo for 3,001, $150/mo for 10,001. Pricing based on contact count, not emails sent. SMS requires separate credits purchased in addition to email subscription.',
+    logo: '/images/tool-logo/klaviyo.webp',
+    website: 'https://www.klaviyo.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'ecommerce'],
+    tags: [
+      'email-marketing',
+      'sms-marketing',
+      'ecommerce',
+      'shopify',
+      'marketing-automation',
+      'segmentation',
+      'revenue-attribution',
+      'd2c'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.6,
+    reviewCount: 2400,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'ecommerce-native',
+        text: 'Purpose-built for e-commerce with deepest Shopify, WooCommerce, BigCommerce integrations'
+      },
+      {
+        id: 'revenue-attribution',
+        text: 'Direct revenue attribution from email and SMS campaigns to actual purchases'
+      },
+      {
+        id: 'segmentation',
+        text: 'Most powerful segmentation in email marketing based on purchase behavior and engagement'
+      },
+      {
+        id: 'sms-native',
+        text: 'Built-in SMS marketing with unified email and SMS flows in one platform'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'E-commerce Integrations',
+        description: 'Deepest native integrations with Shopify, WooCommerce, BigCommerce, and Magento — real-time product, order, and customer data.',
+        icon: 'shopping-cart'
+      },
+      {
+        id: '2',
+        title: 'Powerful Segmentation',
+        description: 'Segment audiences by purchase behavior, product views, cart abandonment, lifetime value, and 100+ e-commerce-specific attributes.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Revenue Attribution',
+        description: 'Track exactly which emails and SMS messages generated revenue with direct integration to e-commerce platforms.',
+        icon: 'dollar-sign'
+      }
+    ]
+  },
+  {
+    id: '120',
+    slug: 'constantcontact',
+    name: 'Constant Contact',
+    tagline: 'Email marketing and event platform for small businesses',
+    description: 'Constant Contact is an email marketing platform built specifically for small businesses, nonprofits, and local organizations. Founded in 1995, it is one of the oldest players in the space, known for US-based phone support, event marketing tools, and straightforward simplicity that appeals to non-technical users.',
+    overview: '',
+    pricingDescription: 'Lite at $12/mo for 500 contacts, Standard at $35/mo for 500 contacts, Premium at $70/mo for 500 contacts (annual billing). Pricing scales with contact count. 30-day free trial, no credit card required. Higher price per contact than most competitors.',
+    logo: '/images/tool-logo/constantcontact.webp',
+    website: 'https://www.constantcontact.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'communication'],
+    tags: [
+      'email-marketing',
+      'newsletter',
+      'small-business',
+      'event-marketing',
+      'nonprofit',
+      'local-business',
+      'simple-email',
+      'us-support'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.2,
+    reviewCount: 4800,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'us-support',
+        text: 'US-based phone and chat support — rare in the category'
+      },
+      {
+        id: 'event-marketing',
+        text: 'Built-in event registration and management tools for workshops and webinars'
+      },
+      {
+        id: 'simplicity',
+        text: 'Straightforward interface designed for non-technical small business owners'
+      },
+      {
+        id: 'longevity',
+        text: 'Operating since 1995 — one of the oldest and most established players'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Drag-and-Drop Email Builder',
+        description: 'Simple visual email editor with 100+ mobile-responsive templates designed for small business use cases.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '2',
+        title: 'Event Marketing',
+        description: 'Built-in event registration, RSVP tracking, and attendee management for workshops, webinars, and local events.',
+        icon: 'calendar'
+      },
+      {
+        id: '3',
+        title: 'AI Content Generator',
+        description: 'AI-powered email content, subject lines, and social post generation integrated throughout the platform.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '121',
+    slug: 'canva',
+    name: 'Canva',
+    tagline: 'Visual design platform for everyone',
+    description: 'Canva is a visual design platform that enables anyone to create presentations, social media graphics, videos, documents, and marketing materials through an intuitive drag-and-drop interface. With 200+ million monthly active users, Canva has become the default design tool for non-designers.',
+    overview: '',
+    pricingDescription: 'Free plan with 5GB storage and basic features. Pro at $15/mo (or $120/year) for one user with 1TB storage and Magic Studio AI. Teams at $10/user/mo (minimum 3 users). Enterprise with custom pricing. Canva Docs, Whiteboards, and Video all included.',
+    logo: '/images/tool-logo/canva.webp',
+    website: 'https://www.canva.com',
+    affiliateUrl: null,
+    categories: ['design', 'ai', 'productivity'],
+    tags: [
+      'design',
+      'presentations',
+      'graphic-design',
+      'social-media',
+      'templates',
+      'drag-and-drop',
+      'magic-studio',
+      'no-code'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.7,
+    reviewCount: 19500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'massive-adoption',
+        text: '200+ million monthly active users — the most widely used design platform'
+      },
+      {
+        id: 'magic-studio',
+        text: 'Magic Studio AI suite: text-to-image, Magic Design, Magic Write, and background remover'
+      },
+      {
+        id: 'template-library',
+        text: 'Millions of templates for presentations, social media, videos, and documents'
+      },
+      {
+        id: 'all-in-one',
+        text: 'Presentations, docs, whiteboards, video, and print in one platform'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Magic Studio AI',
+        description: 'AI-powered suite: Magic Design generates complete presentations from prompts, Magic Write creates content, Magic Edit transforms images.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Drag-and-Drop Editor',
+        description: 'Intuitive visual editor with millions of templates, stock photos, videos, and graphics included in every plan.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '3',
+        title: 'Brand Kit',
+        description: 'Centralized brand management with logos, colors, fonts, and templates — applied consistently across all team designs.',
+        icon: 'palette'
+      }
+    ]
+  },
+  {
+    id: '122',
+    slug: 'powerpoint',
+    name: 'Microsoft PowerPoint',
+    tagline: 'The industry-standard presentation software with Copilot AI',
+    description: 'Microsoft PowerPoint is the original presentation software that has defined the category for 40 years. Now enhanced with Copilot AI, PowerPoint remains the default choice for enterprise presentations with unmatched compatibility, deep Office integration, and familiar interface that every professional knows.',
+    overview: '',
+    pricingDescription: 'Included in Microsoft 365: Personal at $9.99/mo, Family at $12.99/mo (up to 6 users), Business Basic at $6/user/mo, Business Standard at $12.50/user/mo. Copilot Pro add-on at $20/user/mo for AI features. Free web version with limited features.',
+    logo: '/images/tool-logo/powerpoint.webp',
+    website: 'https://www.microsoft.com/microsoft-365/powerpoint',
+    affiliateUrl: null,
+    categories: ['productivity', 'ai', 'design'],
+    tags: [
+      'presentations',
+      'microsoft-365',
+      'copilot',
+      'enterprise',
+      'office-suite',
+      'slides',
+      'collaboration',
+      'legacy'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.6,
+    reviewCount: 35000,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'industry-standard',
+        text: '40-year legacy — the default presentation format every professional knows'
+      },
+      {
+        id: 'copilot-ai',
+        text: 'Copilot AI generates presentations, rewrites slides, and summarizes content from documents'
+      },
+      {
+        id: 'compatibility',
+        text: 'Universal .pptx format — every device, every OS, every audience can open your files'
+      },
+      {
+        id: 'enterprise-ready',
+        text: 'Deep integration with Microsoft 365, Teams, SharePoint, and OneDrive'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Copilot AI',
+        description: 'Generates complete presentations from prompts or Word documents, rewrites slides, summarizes long decks, and suggests design improvements.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Designer & Morph',
+        description: 'AI-powered design suggestions (Designer) and cinematic transitions (Morph) that transform basic slides into polished presentations.',
+        icon: 'wand'
+      },
+      {
+        id: '3',
+        title: 'Universal Compatibility',
+        description: '.pptx format opens everywhere — Windows, Mac, mobile, web. The de facto standard for business presentations worldwide.',
+        icon: 'file-text'
+      }
+    ]
+  },
+  {
+    id: '123',
+    slug: 'beautifulai',
+    name: 'Beautiful.ai',
+    tagline: 'AI-powered presentation software with smart design rules',
+    description: 'Beautiful.ai is an AI-first presentation platform that uses smart slide templates with built-in design rules to ensure every presentation looks professional — even for users with no design skills. The platform enforces good design principles automatically, eliminating the "ugly slides" problem.',
+    overview: '',
+    pricingDescription: 'Pro at $12/user/mo (annual), Business at $40/user/mo (annual), Enterprise with custom pricing. No free tier beyond 14-day trial. All plans include unlimited AI DesignerBot generations and smart slide templates.',
+    logo: '/images/tool-logo/beautifulai.webp',
+    website: 'https://www.beautiful.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'productivity', 'design'],
+    tags: [
+      'ai-presentations',
+      'design-automation',
+      'smart-slides',
+      'designerbot',
+      'business-presentations',
+      'templates',
+      'professional-design'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 1200,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'smart-slides',
+        text: 'Smart slide templates with built-in design rules — presentations always look professional'
+      },
+      {
+        id: 'designerbot',
+        text: 'DesignerBot AI generates complete presentations from text prompts'
+      },
+      {
+        id: 'no-design-skills',
+        text: 'Eliminates ugly slides — design rules prevent common layout mistakes'
+      },
+      {
+        id: 'consistency',
+        text: 'Brand consistency enforced automatically across all slides and decks'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Smart Slide Templates',
+        description: '200+ smart slide templates with built-in design rules that automatically adjust layout as content is added or removed.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '2',
+        title: 'DesignerBot AI',
+        description: 'Generate complete presentations from text prompts, outlines, or documents with AI-powered content and design.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'Brand Consistency',
+        description: 'Centralized brand kit with automatic enforcement of colors, fonts, and logos across every slide and deck.',
+        icon: 'palette'
+      }
+    ]
+  },
+  {
+    id: '124',
+    slug: 'synthesia',
+    name: 'Synthesia',
+    tagline: 'AI video generation platform with virtual avatars',
+    description: 'Synthesia is an AI video generation platform that creates professional videos with virtual AI avatars speaking in 140+ languages from text scripts. The default choice for corporate training, L&D teams, and internal communications where consistent video content at scale matters more than creative production.',
+    overview: '',
+    pricingDescription: 'Starter at $22/mo for 3 minutes of video/month, Creator at $67/mo for 10 minutes, Enterprise with custom pricing and unlimited minutes. No free tier beyond limited demo. All plans include 160+ AI avatars and 140+ languages.',
+    logo: '/images/tool-logo/synthesia.webp',
+    website: 'https://www.synthesia.io',
+    affiliateUrl: null,
+    categories: ['ai', 'media', 'education'],
+    tags: [
+      'ai-video',
+      'ai-avatars',
+      'video-generation',
+      'corporate-training',
+      'elearning',
+      'multilingual-video',
+      'text-to-video',
+      'l-and-d'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.6,
+    reviewCount: 1800,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'avatar-library',
+        text: '160+ diverse AI avatars with natural expressions and gestures'
+      },
+      {
+        id: 'multilingual',
+        text: '140+ languages with native-sounding AI voices and accurate lip-sync'
+      },
+      {
+        id: 'enterprise-ready',
+        text: 'SOC 2 Type II certified with SSO, custom avatars, and brand controls'
+      },
+      {
+        id: 'scalability',
+        text: 'Produce thousands of training videos at scale without cameras or studios'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'AI Avatars',
+        description: '160+ diverse avatars with natural facial expressions, gestures, and lip-sync that match spoken content across 140+ languages.',
+        icon: 'users'
+      },
+      {
+        id: '2',
+        title: 'Custom Avatars',
+        description: 'Create personalized AI avatars of yourself or executives for consistent branded video content without reshoots.',
+        icon: 'user-check'
+      },
+      {
+        id: '3',
+        title: 'Text-to-Video',
+        description: 'Generate complete videos from text scripts with automatic scene selection, avatar narration, and background music.',
+        icon: 'file-text'
+      }
+    ]
+  },
+  {
+    id: '125',
+    slug: 'heygen',
+    name: 'HeyGen',
+    tagline: 'AI video platform with avatars and instant video translation',
+    description: 'HeyGen is an AI video platform combining virtual avatars with best-in-class video translation featuring accurate lip-sync across 40+ languages. Popular among marketers, sales teams, and creators who need to produce and localize video content at scale for social media and customer outreach.',
+    overview: '',
+    pricingDescription: 'Free tier with 3 credits. Creator at $24/mo for 15 credits, Business at $72/mo for 50 credits, Enterprise with custom pricing. Credits consumed per minute of generated video. Unlimited avatar selection and 40+ languages on all paid plans.',
+    logo: '/images/tool-logo/heygen.webp',
+    website: 'https://www.heygen.com',
+    affiliateUrl: null,
+    categories: ['ai', 'media', 'marketing'],
+    tags: [
+      'ai-video',
+      'ai-avatars',
+      'video-translation',
+      'lip-sync',
+      'social-media',
+      'marketing-video',
+      'text-to-video',
+      'localization'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.7,
+    reviewCount: 1500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'video-translation',
+        text: 'Best-in-class video translation with accurate lip-sync across 40+ languages'
+      },
+      {
+        id: 'avatar-quality',
+        text: 'High-fidelity AI avatars with expressive gestures and natural movement'
+      },
+      {
+        id: 'instant-avatar',
+        text: 'Create your own AI avatar in minutes from a webcam recording'
+      },
+      {
+        id: 'social-ready',
+        text: 'Optimized for marketing, social media, and customer outreach workflows'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Video Translation',
+        description: 'Translate existing videos into 40+ languages with accurate lip-sync that matches the new language naturally.',
+        icon: 'languages'
+      },
+      {
+        id: '2',
+        title: 'Instant Avatar',
+        description: 'Create personalized AI avatars from a short webcam recording — ready for use in minutes rather than days.',
+        icon: 'circle-user'
+      },
+      {
+        id: '3',
+        title: 'Interactive Avatars',
+        description: 'Real-time conversational AI avatars for customer support, sales demos, and interactive experiences.',
+        icon: 'message-circle'
+      }
+    ]
+  },
+  {
+    id: '126',
+    slug: 'premierepro',
+    name: 'Adobe Premiere Pro',
+    tagline: 'Professional video editing with Adobe Firefly AI',
+    description: 'Adobe Premiere Pro is the industry-standard professional video editor used by filmmakers, agencies, and content creators worldwide. Now enhanced with Adobe Firefly AI for generative video, object removal, auto reframing, and text-based editing — maintaining professional depth while adding AI acceleration.',
+    overview: '',
+    pricingDescription: 'Included in Adobe Creative Cloud: Premiere Pro standalone at $22.99/mo, Creative Cloud All Apps at $59.99/mo. Annual commitment typically required for best pricing. All Firefly AI features included at no additional cost for subscribers.',
+    logo: '/images/tool-logo/premierepro.webp',
+    website: 'https://www.adobe.com/products/premiere.html',
+    affiliateUrl: null,
+    categories: ['media', 'ai', 'design'],
+    tags: [
+      'video-editing',
+      'professional',
+      'adobe-firefly',
+      'creative-cloud',
+      'filmmaking',
+      'color-grading',
+      'visual-effects',
+      'post-production'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.6,
+    reviewCount: 14500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'industry-standard',
+        text: 'Industry-standard professional editor used by Hollywood and top agencies'
+      },
+      {
+        id: 'firefly-ai',
+        text: 'Adobe Firefly AI: generative extend, object removal, and auto-reframe built in'
+      },
+      {
+        id: 'professional-depth',
+        text: 'Unmatched depth in color grading, audio mixing, VFX, and multi-cam editing'
+      },
+      {
+        id: 'creative-cloud',
+        text: 'Seamless integration with After Effects, Photoshop, Audition, and other Adobe apps'
+      }
+    ],
+    platforms: ['mac', 'windows'],
+    features: [
+      {
+        id: '1',
+        title: 'Generative Extend',
+        description: 'Firefly AI extends video clips naturally by generating additional frames — solving the common problem of shots that are too short.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Text-Based Editing',
+        description: 'Edit video by editing the transcript — delete words to cut footage, rearrange sentences to restructure scenes.',
+        icon: 'file-pen'
+      },
+      {
+        id: '3',
+        title: 'Auto Reframe',
+        description: 'AI-powered reframing converts horizontal footage to vertical, square, or any aspect ratio while keeping subjects centered.',
+        icon: 'ratio'
+      }
+    ]
+  },
+  {
+    id: '127',
+    slug: 'lovoai',
+    name: 'Lovo AI',
+    tagline: 'AI voice generator and text-to-speech platform with video studio',
+    description: 'Lovo AI (also known as Genny) is a text-to-speech platform combining 500+ realistic AI voices in 100+ languages with a built-in video editor. Designed for content creators, educators, and marketers who need voiceovers synced directly to video content without switching between tools.',
+    overview: '',
+    pricingDescription: 'Free trial with limited minutes. Basic at $24/mo for 100 minutes, Pro at $48/mo for 300 minutes, Pro+ at $75/mo for 500 minutes (annual billing). All paid plans include 500+ voices, 100+ languages, and the built-in video editor. Enterprise with custom pricing.',
+    logo: '/images/tool-logo/lovoai.webp',
+    website: 'https://lovo.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'media', 'education'],
+    tags: [
+      'text-to-speech',
+      'ai-voice',
+      'voice-generator',
+      'video-editor',
+      'voiceover',
+      'multilingual',
+      'content-creation',
+      'genny'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 850,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'voice-library',
+        text: '500+ realistic AI voices in 100+ languages with emotional range control'
+      },
+      {
+        id: 'video-editor',
+        text: 'Built-in video editor with AI art, subtitles, and timeline for synced voiceovers'
+      },
+      {
+        id: 'emotional-voices',
+        text: 'Fine-tuned emotional control: happy, sad, angry, whisper, and more per voice'
+      },
+      {
+        id: 'voice-cloning',
+        text: 'Custom voice cloning from short audio samples on paid plans'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'AI Voice Library',
+        description: '500+ realistic voices across 100+ languages with granular control over pitch, speed, emphasis, and emotional tone.',
+        icon: 'mic'
+      },
+      {
+        id: '2',
+        title: 'Built-in Video Editor',
+        description: 'Integrated timeline editor with AI art generation, subtitle creation, and audio-visual synchronization in one workflow.',
+        icon: 'video'
+      },
+      {
+        id: '3',
+        title: 'Voice Cloning',
+        description: 'Create custom AI voices from short audio samples — ideal for branded voice identity and consistent character narration.',
+        icon: 'audio-lines'
+      }
+    ]
+  },
+  {
+    id: '128',
+    slug: 'speechify',
+    name: 'Speechify',
+    tagline: 'AI text-to-speech platform for listening and content creation',
+    description: 'Speechify is an AI text-to-speech platform with two distinct products: a listening app for consuming written content (articles, PDFs, books) and a Studio product for creating professional voiceovers. Famous for celebrity voice licenses including Snoop Dogg, Gwyneth Paltrow, and MrBeast, plus best-in-class reading speed up to 900 WPM.',
+    overview: '',
+    pricingDescription: 'Free tier with limited features and standard voices. Premium at $11.58/mo for unlimited listening with HD voices. Studio at $159/mo for professional voiceover creation with premium voices and commercial rights. Enterprise with custom pricing.',
+    logo: '/images/tool-logo/speechify.webp',
+    website: 'https://speechify.com',
+    affiliateUrl: null,
+    categories: ['ai', 'media', 'education', 'productivity'],
+    tags: [
+      'text-to-speech',
+      'ai-voice',
+      'listening-app',
+      'productivity',
+      'celebrity-voices',
+      'accessibility',
+      'reading-assistant',
+      'voiceover-studio'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.6,
+    reviewCount: 28500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'celebrity-voices',
+        text: 'Exclusive celebrity voice licenses: Snoop Dogg, Gwyneth Paltrow, MrBeast, and more'
+      },
+      {
+        id: 'reading-speed',
+        text: 'Industry-leading 900 WPM reading speed for productivity-focused listening'
+      },
+      {
+        id: 'listening-app',
+        text: 'Dedicated listening app for articles, PDFs, emails, and books across all devices'
+      },
+      {
+        id: 'dual-products',
+        text: 'Two products in one: listening app for consumers and Studio for creators'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Celebrity Voices',
+        description: 'Licensed celebrity voices including Snoop Dogg, Gwyneth Paltrow, and MrBeast — exclusive to Speechify.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Universal Listening',
+        description: 'Read any text source — websites, PDFs, emails, Google Docs, Kindle books — at up to 900 WPM across all devices.',
+        icon: 'headphones'
+      },
+      {
+        id: '3',
+        title: 'Studio Voiceovers',
+        description: 'Professional voiceover creation with premium AI voices, commercial rights, and multi-format export.',
+        icon: 'file-audio'
+      }
+    ]
+  },
+  {
+    id: '129',
+    slug: 'otterai',
+    name: 'Otter.ai',
+    tagline: 'AI meeting assistant with real-time transcription and notes',
+    description: 'Otter.ai is a pioneer AI transcription platform that provides real-time transcription, automated meeting notes, and AI-powered summaries for Zoom, Google Meet, and Microsoft Teams meetings. Originally built for journalists and researchers, Otter has evolved into a general-purpose meeting assistant serving individuals, teams, and enterprises across industries.',
+    overview: '',
+    pricingDescription: 'Free plan with 300 minutes/month (30 min per conversation). Pro at $16.99/mo for 1,200 minutes, Business at $29.99/user/mo for 6,000 minutes, Enterprise with custom limits. Annual billing reduces costs by ~20%.',
+    logo: '/images/tool-logo/otterai.webp',
+    website: 'https://otter.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'productivity', 'communication'],
+    tags: [
+      'ai-meeting-assistant',
+      'transcription',
+      'meeting-notes',
+      'real-time',
+      'zoom',
+      'google-meet',
+      'microsoft-teams',
+      'voice-to-text'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.5,
+    reviewCount: 3800,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'real-time-transcription',
+        text: 'Real-time transcription visible as people speak during meetings'
+      },
+      {
+        id: 'pioneer',
+        text: 'Pioneer in AI transcription since 2016 with proven accuracy'
+      },
+      {
+        id: 'otterpilot',
+        text: 'OtterPilot auto-joins Zoom, Google Meet, and Teams meetings'
+      },
+      {
+        id: 'generous-free',
+        text: 'Generous free tier with 300 minutes per month for evaluation'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Real-Time Transcription',
+        description: 'Live transcription visible during meetings with speaker identification and automatic punctuation.',
+        icon: 'mic'
+      },
+      {
+        id: '2',
+        title: 'OtterPilot',
+        description: 'Auto-joins Zoom, Google Meet, and Teams meetings to record and transcribe without manual setup.',
+        icon: 'bot'
+      },
+      {
+        id: '3',
+        title: 'AI Chat & Summaries',
+        description: 'Chat with meeting transcripts using AI, generate summaries, action items, and key decisions automatically.',
+        icon: 'message-square'
+      }
+    ]
+  },
+  {
+    id: '130',
+    slug: 'gong',
+    name: 'Gong',
+    tagline: 'Revenue intelligence platform for B2B sales teams',
+    description: 'Gong is a revenue intelligence platform that records, transcribes, and analyzes customer-facing sales calls to surface insights that drive deal velocity and win rates. The default choice for enterprise B2B sales organizations using conversation intelligence to coach reps, identify deal risks, and replicate winning behaviors.',
+    overview: '',
+    pricingDescription: 'Custom pricing only — typically $1,200-$2,500 per user per year plus platform fee. Requires annual contract with minimum seat counts (typically 10+ users). No free tier or public pricing. Implementation services additional.',
+    logo: '/images/tool-logo/gong.webp',
+    website: 'https://www.gong.io',
+    affiliateUrl: null,
+    categories: ['ai', 'sales', 'crm'],
+    tags: [
+      'revenue-intelligence',
+      'conversation-intelligence',
+      'sales-coaching',
+      'b2b-sales',
+      'deal-intelligence',
+      'call-recording',
+      'sales-analytics',
+      'enterprise'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.7,
+    reviewCount: 4500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'revenue-intelligence',
+        text: 'Industry-leading revenue intelligence connecting conversations to deal outcomes'
+      },
+      {
+        id: 'sales-coaching',
+        text: 'AI-powered coaching insights identifying winning behaviors and deal risks'
+      },
+      {
+        id: 'deal-intelligence',
+        text: 'Track deal health, competitor mentions, and buying signals across conversations'
+      },
+      {
+        id: 'enterprise-proven',
+        text: 'Trusted by 4,000+ enterprise sales organizations including LinkedIn and Uber'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Conversation Intelligence',
+        description: 'Record, transcribe, and analyze every customer-facing call, meeting, and email across the sales organization.',
+        icon: 'phone'
+      },
+      {
+        id: '2',
+        title: 'Deal Intelligence',
+        description: 'AI-powered deal health scoring, competitor tracking, and buying signal identification across the sales pipeline.',
+        icon: 'target'
+      },
+      {
+        id: '3',
+        title: 'Coaching & Training',
+        description: 'Identify winning rep behaviors, surface coachable moments, and scale best practices across the sales team.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '131',
+    slug: 'fathom',
+    name: 'Fathom',
+    tagline: 'Free AI meeting assistant for Zoom, Google Meet, and Teams',
+    description: 'Fathom is an AI meeting assistant offering a genuinely unlimited free tier for individuals joining Zoom, Google Meet, and Microsoft Teams meetings. Provides recording, transcription, AI summaries, and highlights with no minute caps on the free plan — making it the most accessible option for individuals and small teams.',
+    overview: '',
+    pricingDescription: 'Free plan with unlimited recordings, transcription, and AI summaries for individuals. Standard at $19/user/mo, Pro at $29/user/mo with advanced features and CRM integrations. Team and Enterprise tiers with custom pricing. Most features free forever.',
+    logo: '/images/tool-logo/fathom.webp',
+    website: 'https://fathom.video',
+    affiliateUrl: null,
+    categories: ['ai', 'productivity', 'communication'],
+    tags: [
+      'ai-meeting-assistant',
+      'free-meeting-notes',
+      'zoom',
+      'google-meet',
+      'microsoft-teams',
+      'transcription',
+      'individual',
+      'unlimited-free'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.8,
+    reviewCount: 2400,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'unlimited-free',
+        text: 'Unlimited free tier — no minute caps, no hidden limits for individuals'
+      },
+      {
+        id: 'instant-setup',
+        text: 'Zero setup — auto-joins meetings within minutes of signup'
+      },
+      {
+        id: 'clip-highlights',
+        text: 'Instant clip creation for sharing meeting highlights in Slack, email, or CRM'
+      },
+      {
+        id: 'best-ratings',
+        text: 'Highest-rated AI meeting assistant on G2 with 4.8/5 average rating'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows'],
+    features: [
+      {
+        id: '1',
+        title: 'Unlimited Free Recording',
+        description: 'Record unlimited Zoom, Google Meet, and Teams meetings at no cost — no minute caps or hidden limits.',
+        icon: 'infinity'
+      },
+      {
+        id: '2',
+        title: 'AI Summaries & Highlights',
+        description: 'Automatic meeting summaries, action items, and highlight clips ready to share with one click.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'CRM & Workflow Sync',
+        description: 'Auto-sync meeting notes to HubSpot, Salesforce, Slack, Notion, and 20+ business tools.',
+        icon: 'workflow'
+      }
+    ]
+  },
+  {
+    id: '132',
+    slug: 'netsuite',
+    name: 'NetSuite',
+    tagline: 'Cloud ERP platform for financial management and global operations',
+    description: 'Oracle NetSuite is the world\'s leading cloud ERP platform, unifying financial management, order management, inventory, CRM, and e-commerce in a single system. Serving 40,000+ organizations from mid-market to enterprise, NetSuite handles multi-entity consolidation, global currencies, and complex revenue recognition that SMB accounting tools cannot.',
+    overview: '',
+    pricingDescription: 'Platform fee from $999/mo plus user licenses from $99/user/mo (annual contract). SuiteSuccess editions bundle industry-specific features. Implementation typically $10,000-$100,000+ with certified partners. No free tier or self-serve trial.',
+    logo: '/images/tool-logo/netsuite.webp',
+    website: 'https://www.netsuite.com',
+    affiliateUrl: null,
+    categories: ['finance', 'crm', 'ecommerce'],
+    tags: [
+      'erp',
+      'accounting',
+      'financial-management',
+      'multi-entity',
+      'inventory',
+      'order-management',
+      'revenue-recognition',
+      'enterprise'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.4,
+    reviewCount: 3600,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'erp-leader',
+        text: 'World\'s leading cloud ERP serving 40,000+ organizations globally'
+      },
+      {
+        id: 'multi-entity',
+        text: 'Multi-entity consolidation with global currencies and intercompany automation'
+      },
+      {
+        id: 'unified-suite',
+        text: 'Financials, inventory, orders, CRM, and e-commerce in one database'
+      },
+      {
+        id: 'suitecloud',
+        text: 'SuiteCloud platform for custom workflows, scripts, and integrations'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Financial Management',
+        description: 'Full general ledger, AP/AR, fixed assets, revenue recognition (ASC 606), and financial reporting with audit trails.',
+        icon: 'calculator'
+      },
+      {
+        id: '2',
+        title: 'Multi-Entity Consolidation',
+        description: 'Consolidate financials across subsidiaries, currencies, and countries with automated intercompany eliminations.',
+        icon: 'layers'
+      },
+      {
+        id: '3',
+        title: 'Unified ERP Suite',
+        description: 'Inventory, order management, procurement, CRM, and e-commerce sharing one real-time database with financials.',
+        icon: 'database'
+      }
+    ]
+  },
+  {
+    id: '133',
+    slug: 'docusign',
+    name: 'DocuSign',
+    tagline: 'The world\'s #1 e-signature platform with 1.5B+ users',
+    description: 'DocuSign is the market-leading electronic signature platform serving more than 1.5 billion users across 188 countries. The default choice for enterprises, legal teams, and sales organizations needing legally binding signatures, workflow automation, and the deepest integrations with CRM, CLM, and ERP systems.',
+    overview: '',
+    pricingDescription: 'Personal at $10/mo (single user, 5 envelopes/mo), Standard at $25/user/mo, Business Pro at $40/user/mo, Enterprise with custom pricing. Annual contracts typically required. No permanent free tier beyond 30-day trial.',
+    logo: '/images/tool-logo/docusign.webp',
+    website: 'https://www.docusign.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'sales'],
+    tags: [
+      'e-signature',
+      'electronic-signature',
+      'document-management',
+      'contracts',
+      'legal',
+      'workflow-automation',
+      'esign',
+      'enterprise'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.7,
+    reviewCount: 21500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'market-leader',
+        text: 'Market leader with 1.5B+ users and the most recognized e-signature brand globally'
+      },
+      {
+        id: 'integrations',
+        text: 'Deepest integrations: Salesforce, HubSpot, Microsoft 365, SAP, Oracle, and 400+ apps'
+      },
+      {
+        id: 'compliance',
+        text: 'SOC 2, ISO 27001, GDPR, HIPAA, ESIGN Act and eIDAS compliant with full audit trails'
+      },
+      {
+        id: 'iam-platform',
+        text: 'Intelligent Agreement Management platform extending beyond signatures to full contract lifecycle'
+      }
+    ],
+    platforms: ['web', 'ios', 'android', 'mac', 'windows'],
+    features: [
+      {
+        id: '1',
+        title: 'Electronic Signatures',
+        description: 'Legally binding e-signatures with full audit trails, certificate of completion, and compliance with ESIGN Act and eIDAS.',
+        icon: 'file'
+      },
+      {
+        id: '2',
+        title: 'Workflow Automation',
+        description: 'Multi-step signing workflows with conditional routing, parallel and sequential signing, reminders, and expirations.',
+        icon: 'workflow'
+      },
+      {
+        id: '3',
+        title: 'Templates & Bulk Send',
+        description: 'Reusable templates with field mapping and bulk send capabilities for mass distribution of documents.',
+        icon: 'files'
+      }
+    ]
+  },
+  {
+    id: '134',
+    slug: 'adobesign',
+    name: 'Adobe Sign',
+    tagline: 'Enterprise e-signatures integrated with Acrobat and Microsoft 365',
+    description: 'Adobe Acrobat Sign is Adobe\'s enterprise e-signature solution, deeply integrated with the Acrobat PDF ecosystem and Microsoft 365. Built on the 40-year heritage of Acrobat and PDF, it is the default choice for enterprises already invested in Adobe Creative Cloud and Microsoft environments.',
+    overview: '',
+    pricingDescription: 'Acrobat Pro includes e-signature at $22.99/mo. Standalone Acrobat Sign Standard at $29.99/user/mo, Teams at $39.99/user/mo, Enterprise with custom pricing. Often bundled in Adobe Creative Cloud All Apps for existing Adobe customers.',
+    logo: '/images/tool-logo/adobesign.webp',
+    website: 'https://www.adobe.com/sign.html',
+    affiliateUrl: null,
+    categories: ['productivity', 'sales'],
+    tags: [
+      'e-signature',
+      'pdf',
+      'acrobat',
+      'microsoft-365',
+      'enterprise',
+      'document-management',
+      'esign',
+      'adobe'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.6,
+    reviewCount: 4500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'acrobat-integration',
+        text: 'Native integration with Acrobat Pro — sign PDFs directly within the Acrobat workflow'
+      },
+      {
+        id: 'microsoft-deep',
+        text: 'Deepest Microsoft 365 integration: sign inside Word, PowerPoint, Outlook, and Teams'
+      },
+      {
+        id: 'enterprise-compliance',
+        text: 'Enterprise-grade compliance with FedRAMP, HIPAA, 21 CFR Part 11, and data residency options'
+      },
+      {
+        id: 'pdf-heritage',
+        text: 'Built on 40 years of Acrobat and PDF expertise from the creators of the PDF format'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Acrobat-Native Signing',
+        description: 'Sign, send, and manage documents directly within Acrobat Pro — the natural workflow for PDF-heavy organizations.',
+        icon: 'file-text'
+      },
+      {
+        id: '2',
+        title: 'Microsoft 365 Integration',
+        description: 'Send for signature directly from Word, PowerPoint, Outlook, and Teams without leaving the Microsoft environment.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '3',
+        title: 'Advanced Workflows',
+        description: 'Mega Sign for bulk distribution, form data collection, and workflow designer for complex multi-party agreements.',
+        icon: 'workflow'
+      }
+    ]
+  },
+  {
+    id: '135',
+    slug: 'dropboxsign',
+    name: 'Dropbox Sign',
+    tagline: 'Developer-friendly e-signature platform with best-in-class API',
+    description: 'Dropbox Sign (formerly HelloSign) is an e-signature platform optimized for developers and product teams, with the strongest API in the category and the cleanest embedded signing experience. Acquired by Dropbox in 2019, it serves SaaS platforms, marketplaces, and fintech companies embedding signatures into their own products.',
+    overview: '',
+    pricingDescription: 'Free plan with 3 documents per month. Essentials at $20/user/mo, Standard at $33.33/user/mo, Premium with custom pricing and API access. Templates and bulk send require Standard tier. API access is the primary reason teams choose Premium.',
+    logo: '/images/tool-logo/dropboxsign.webp',
+    website: 'https://www.dropbox.com/sign',
+    affiliateUrl: null,
+    categories: ['productivity', 'web-development'],
+    tags: [
+      'e-signature',
+      'api',
+      'developer-tools',
+      'embedded-signing',
+      'saas',
+      'marketplace',
+      'esign',
+      'hellosign'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 1200,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'best-api',
+        text: 'Best-in-class API with cleanest documentation and fastest implementation in the category'
+      },
+      {
+        id: 'embedded-signing',
+        text: 'Embedded signing keeps users inside your product without redirects to external sites'
+      },
+      {
+        id: 'free-tier',
+        text: 'Only platform with a genuine free tier — 3 documents per month forever'
+      },
+      {
+        id: 'white-label',
+        text: 'Full white-label capabilities for SaaS platforms and marketplaces embedding signatures'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Embeddable Signing',
+        description: 'Embed signing directly into your application — users sign without leaving your product, preserving your brand experience.',
+        icon: 'code-xml'
+      },
+      {
+        id: '2',
+        title: 'Developer-First API',
+        description: 'RESTful API with clean documentation, SDKs in 8+ languages, webhooks, and sandbox environment for testing.',
+        icon: 'braces'
+      },
+      {
+        id: '3',
+        title: 'White-Label Branding',
+        description: 'Fully branded signing experience with your logo, colors, and domain — no Dropbox Sign branding visible to signers.',
+        icon: 'palette'
+      }
+    ]
+  },
+  {
+    id: '136',
+    slug: 'remote',
+    name: 'Remote',
+    tagline: 'Global HR platform with transparent EOR pricing and IP protection',
+    description: 'Remote is a global HR platform enabling companies to hire, pay, and manage employees and contractors across 180+ countries. Known for its transparent Remote Fair Price policy and owning its own legal entities in every country, Remote is the default choice for distributed-first companies prioritizing compliance, IP protection, and predictable global payroll costs.',
+    overview: '',
+    pricingDescription: 'Contractors at $29/mo per contractor. Employment (EOR) at $599/mo per employee under Remote Fair Price — no hidden fees, no exchange rate markups. Global Pay at $29/mo for local payroll where you already have entities. Enterprise with custom pricing. No free tier.',
+    logo: '/images/tool-logo/remote.webp',
+    website: 'https://remote.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'eor',
+      'global-hr',
+      'global-payroll',
+      'distributed-teams',
+      'remote-work',
+      'compliance',
+      'ip-protection',
+      'contractor-management'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.7,
+    reviewCount: 2100,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'fair-price',
+        text: 'Remote Fair Price policy: $599/mo flat EOR fee with no hidden markups'
+      },
+      {
+        id: 'owned-entities',
+        text: 'Owns legal entities in 180+ countries — no third-party local partners'
+      },
+      {
+        id: 'ip-protection',
+        text: 'Strongest IP protection clauses in the industry for distributed teams'
+      },
+      {
+        id: 'distributed-native',
+        text: 'Built by a fully distributed team for fully distributed companies'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Global EOR',
+        description: 'Employ people in 180+ countries through Remote-owned entities with full compliance, benefits, and equity compensation support.',
+        icon: 'globe'
+      },
+      {
+        id: '2',
+        title: 'Contractor Management',
+        description: 'Onboard, pay, and manage global contractors with automatic tax form generation, compliance checks, and misclassification protection.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Global Benefits',
+        description: 'Administer health insurance, pension, and statutory benefits in every country with localized plans and equity support.',
+        icon: 'heart-pulse'
+      }
+    ]
+  },
+  {
+    id: '137',
+    slug: 'adp',
+    name: 'ADP',
+    tagline: 'Largest payroll and HR provider serving 50+ years of enterprise payroll',
+    description: 'ADP is the world\'s largest payroll and HR services provider, processing payroll for 50+ million workers across 140+ countries. Founded in 1949, ADP serves businesses of every size with tiered products from ADP Run for small businesses to ADP Vantage HCM and ADP Workforce Now for mid-market to enterprise. The default choice for traditional US businesses needing proven payroll reliability and deep compliance.',
+    overview: '',
+    pricingDescription: 'ADP Run starts at $79/mo base + $4/employee for Essential, scaling to $14/employee for HR Plus. ADP Workforce Now from $140/mo base + $8-14/employee. ADP Vantage HCM and Enterprise custom pricing. Typically requires annual contracts with setup fees.',
+    logo: '/images/tool-logo/adp.webp',
+    website: 'https://www.adp.com',
+    affiliateUrl: null,
+    categories: ['hr', 'finance'],
+    tags: [
+      'payroll',
+      'hr',
+      'hris',
+      'benefits-administration',
+      'tax-services',
+      'time-tracking',
+      'enterprise-payroll',
+      'small-business'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.3,
+    reviewCount: 14500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'payroll-leader',
+        text: 'World\'s largest payroll provider — 50+ million workers paid globally'
+      },
+      {
+        id: 'compliance-deep',
+        text: 'Deepest US tax compliance with 75+ years of payroll tax expertise'
+      },
+      {
+        id: 'tiered-products',
+        text: 'Tiered products from ADP Run for SMB to Vantage HCM for enterprise'
+      },
+      {
+        id: 'benefits-breadth',
+        text: 'Broadest benefits marketplace with health, retirement, and HSA administration'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'US Payroll',
+        description: 'Industry-leading US payroll with automated federal, state, and local tax filing, W-2s, and year-end processing.',
+        icon: 'calculator'
+      },
+      {
+        id: '2',
+        title: 'Benefits Administration',
+        description: 'Full benefits administration including health insurance, 401(k), HSA, FSA, and COBRA with automatic enrollment.',
+        icon: 'heart-pulse'
+      },
+      {
+        id: '3',
+        title: 'HR & Compliance',
+        description: 'HR resources, compliance alerts, employee handbook builder, and access to HR experts for every plan tier.',
+        icon: 'shield-check'
+      }
+    ]
+  },
+  {
+    id: '138',
+    slug: 'rippling',
+    name: 'Rippling',
+    tagline: 'Unified HR, IT, and Finance platform for modern companies',
+    description: 'Rippling is a unified platform combining HR, IT device management, finance, and global payroll in a single system where employee identity drives everything. Founded in 2016 by Parker Conrad (co-founder of Zenefits), Rippling serves mid-market and tech-forward companies that want automated device provisioning, app access, and global hiring from one employee record.',
+    overview: '',
+    pricingDescription: 'Base platform at $35/mo + $8/employee/mo for HR. Modules priced separately: IT from $10/employee, Finance from $10/employee, Global Payroll from $15/employee. EOR from $599/mo per employee. Bundles available with significant discounts for multiple modules.',
+    logo: '/images/tool-logo/rippling.webp',
+    website: 'https://www.rippling.com',
+    affiliateUrl: null,
+    categories: ['hr', 'finance'],
+    tags: [
+      'hris',
+      'it-management',
+      'device-management',
+      'global-payroll',
+      'finance',
+      'unified-platform',
+      'mid-market',
+      'automation'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.8,
+    reviewCount: 3400,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'unified-platform',
+        text: 'Unified HR, IT, and Finance in one system driven by employee identity'
+      },
+      {
+        id: 'device-management',
+        text: 'Automated device provisioning and retrieval with global hardware inventory'
+      },
+      {
+        id: 'highest-ratings',
+        text: 'Highest-rated HRIS on G2 with 4.8/5 average across thousands of reviews'
+      },
+      {
+        id: 'policy-automation',
+        text: 'Policy-driven automation — one employee change triggers updates across all modules'
+      }
+    ],
+    platforms: ['web', 'ios', 'android', 'mac', 'windows'],
+    features: [
+      {
+        id: '1',
+        title: 'Unified HR & IT',
+        description: 'Single employee record drives HR, payroll, device management, app access, and corporate cards — one change propagates everywhere.',
+        icon: 'layers'
+      },
+      {
+        id: '2',
+        title: 'Device Management',
+        description: 'Global device inventory with automated provisioning, MDM, software deployment, and hardware retrieval for distributed teams.',
+        icon: 'laptop'
+      },
+      {
+        id: '3',
+        title: 'Global Payroll & EOR',
+        description: 'Native payroll in 50+ countries plus EOR in 185+ countries, with unified view of global workforce in one system.',
+        icon: 'globe'
+      }
+    ]
+  },
+  {
+    id: '139',
+    slug: 'bamboohr',
+    name: 'BambooHR',
+    tagline: 'HRIS for SMBs with best-in-class employee experience',
+    description: 'BambooHR is an HR information system designed specifically for small and mid-sized businesses, known for its beautiful interface, strong onboarding workflows, and employee self-service features. The default choice for SMBs prioritizing employee experience, company culture, and HRIS depth over payroll complexity.',
+    overview: '',
+    pricingDescription: 'Essentials at $6.25/employee/mo, Advantage at $8.25/employee/mo (typically 15+ employee minimum). Annual contracts standard. Payroll available as add-on (Gusto-powered in most states) but not the platform core. Free trial available.',
+    logo: '/images/tool-logo/bamboohr.webp',
+    website: 'https://www.bamboohr.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'hris',
+      'employee-experience',
+      'onboarding',
+      'performance-management',
+      'time-off',
+      'smb-hr',
+      'people-analytics',
+      'self-service'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.6,
+    reviewCount: 3200,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'employee-experience',
+        text: 'Best-in-class employee self-service with beautiful mobile and web experience'
+      },
+      {
+        id: 'onboarding',
+        text: 'Industry-leading onboarding workflows with e-signatures and document collection'
+      },
+      {
+        id: 'smb-focused',
+        text: 'Purpose-built for small and mid-sized businesses from 20 to 1,000 employees'
+      },
+      {
+        id: 'culture-tools',
+        text: 'Employee satisfaction surveys (eNPS), recognition, and culture analytics built in'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Employee Self-Service',
+        description: 'Intuitive employee portal for personal data updates, time-off requests, document access, and benefits enrollment.',
+        icon: 'message-circle'
+      },
+      {
+        id: '2',
+        title: 'Onboarding Workflows',
+        description: 'Configurable onboarding with e-signatures, document collection, task checklists, and automated provisioning.',
+        icon: 'workflow'
+      },
+      {
+        id: '3',
+        title: 'Performance & Culture',
+        description: 'Goal tracking, performance reviews, eNPS surveys, and employee recognition tools for building company culture.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '140',
+    slug: 'workday',
+    name: 'Workday',
+    tagline: 'Enterprise HCM platform for large global organizations',
+    description: 'Workday is the leading cloud-based Human Capital Management (HCM) platform for large enterprises, combining HR, payroll, finance, planning, and analytics in a single unified system. Serving 65% of the Fortune 500, Workday is the default choice for organizations with 1,000+ employees needing enterprise-grade workforce management at global scale.',
+    overview: '',
+    pricingDescription: 'Custom enterprise pricing only — typically $100-$200+ per employee per month with multi-year contracts. Implementation services typically $250,000 to $5M+ via certified partners. No self-serve pricing or free tier. Requires enterprise sales engagement.',
+    logo: '/images/tool-logo/workday.webp',
+    website: 'https://www.workday.com',
+    affiliateUrl: null,
+    categories: ['hr', 'finance'],
+    tags: [
+      'hcm',
+      'enterprise-hr',
+      'global-payroll',
+      'workforce-planning',
+      'finance',
+      'analytics',
+      'talent-management',
+      'fortune-500'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.3,
+    reviewCount: 4200,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'enterprise-leader',
+        text: 'Leading enterprise HCM serving 65% of the Fortune 500 globally'
+      },
+      {
+        id: 'unified-suite',
+        text: 'Unified HR, Payroll, Finance, and Planning in a single cloud system'
+      },
+      {
+        id: 'global-scale',
+        text: 'Built for 1,000 to 500,000+ employee organizations with global operations'
+      },
+      {
+        id: 'analytics-depth',
+        text: 'Enterprise-grade analytics, planning, and workforce modeling capabilities'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Unified HCM Suite',
+        description: 'Single system for HR, payroll, talent management, time tracking, and benefits across global organizations.',
+        icon: 'layers'
+      },
+      {
+        id: '2',
+        title: 'Workforce Planning',
+        description: 'Adaptive Planning for headcount, compensation, and workforce modeling with scenario analysis.',
+        icon: 'trending-up'
+      },
+      {
+        id: '3',
+        title: 'Enterprise Analytics',
+        description: 'Prism Analytics and embedded reporting with AI/ML-powered insights across HR, finance, and operations.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '141',
+    slug: 'intercom',
+    name: 'Intercom',
+    tagline: 'Conversational customer service platform with AI-powered Fin agent',
+    description: 'Intercom is a conversational customer service platform combining messenger, chatbots, help center, and AI-powered Fin agent in one system. Built for modern SaaS and product companies wanting proactive customer engagement through in-product messaging rather than traditional ticket-based support.',
+    overview: '',
+    pricingDescription: 'Essential at $29/seat/mo, Advanced at $85/seat/mo, Expert at $132/seat/mo (annual billing). Fin AI agent charged per resolution at $0.99 per resolution. Proactive messaging charged per message at $100 per 1,000 messages on some plans.',
+    logo: '/images/tool-logo/intercom.webp',
+    website: 'https://www.intercom.com',
+    affiliateUrl: null,
+    categories: ['communication', 'sales'],
+    tags: [
+      'helpdesk',
+      'customer-service',
+      'live-chat',
+      'ai-chatbot',
+      'messenger',
+      'proactive-support',
+      'saas-support',
+      'fin-ai'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.6,
+    reviewCount: 3800,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'fin-ai',
+        text: 'Fin AI agent resolving 50%+ of support inquiries automatically with $0.99/resolution pricing'
+      },
+      {
+        id: 'in-product',
+        text: 'In-product messenger and proactive messaging for modern SaaS engagement'
+      },
+      {
+        id: 'conversational',
+        text: 'Conversational-first approach — real-time chat over traditional ticket queues'
+      },
+      {
+        id: 'product-tours',
+        text: 'Built-in product tours, announcements, and onboarding workflows'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Fin AI Agent',
+        description: 'AI agent built on GPT-4 resolving customer inquiries automatically from help center content with human handoff when needed.',
+        icon: 'bot'
+      },
+      {
+        id: '2',
+        title: 'In-Product Messenger',
+        description: 'Embedded messenger inside your web and mobile apps for real-time customer conversations without leaving the product.',
+        icon: 'message-circle'
+      },
+      {
+        id: '3',
+        title: 'Proactive Campaigns',
+        description: 'Targeted in-product messages, product tours, and announcements triggered by user behavior and attributes.',
+        icon: 'megaphone'
+      }
+    ]
+  },
+  {
+    id: '142',
+    slug: 'salesforceservicecloud',
+    name: 'Salesforce Service Cloud',
+    tagline: 'Enterprise customer service platform integrated with Salesforce CRM',
+    description: 'Salesforce Service Cloud is an enterprise customer service platform built on the Salesforce platform, unifying case management, omnichannel routing, knowledge base, field service, and AI-powered Einstein bots. The default choice for large enterprises already invested in Salesforce CRM wanting a single customer view across sales and service.',
+    overview: '',
+    pricingDescription: 'Starter at $25/user/mo, Pro at $100/user/mo, Enterprise at $165/user/mo, Unlimited at $330/user/mo, Einstein 1 Service at $500/user/mo (annual billing). Minimum seats typically apply. Implementation and customization typically add significant cost.',
+    logo: '/images/tool-logo/salesforceservicecloud.webp',
+    website: 'https://www.salesforce.com/service/',
+    affiliateUrl: null,
+    categories: ['sales', 'crm'],
+    tags: [
+      'helpdesk',
+      'customer-service',
+      'enterprise-service',
+      'salesforce',
+      'omnichannel',
+      'field-service',
+      'einstein-ai',
+      'case-management'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.4,
+    reviewCount: 5200,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'crm-integration',
+        text: 'Native integration with Salesforce Sales Cloud — unified customer view across sales and service'
+      },
+      {
+        id: 'omnichannel',
+        text: 'True omnichannel routing across email, chat, phone, social, messaging, and SMS'
+      },
+      {
+        id: 'enterprise-scale',
+        text: 'Built for large enterprises with complex service operations and field service needs'
+      },
+      {
+        id: 'einstein-ai',
+        text: 'Einstein AI for case classification, predictive routing, and conversational bots'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Unified Customer View',
+        description: 'Single customer record combining sales, service, and marketing interactions from across the Salesforce platform.',
+        icon: 'contact'
+      },
+      {
+        id: '2',
+        title: 'Omnichannel Routing',
+        description: 'Route cases across email, chat, phone, social, messaging apps, and SMS based on agent skills and availability.',
+        icon: 'route'
+      },
+      {
+        id: '3',
+        title: 'Field Service',
+        description: 'Manage field technicians, scheduling, dispatching, and mobile work orders for on-site service operations.',
+        icon: 'wrench'
+      }
+    ]
+  },
+  {
+    id: '143',
+    slug: 'livechat',
+    name: 'LiveChat',
+    tagline: 'Customer service live chat with best-in-class ChatBot AI',
+    description: 'LiveChat is a specialized customer service chat platform from Text.com combining live chat, ticketing, and ChatBot — one of the most sophisticated conversational AI builders in the industry. Serving 41,000+ customers in 150+ countries, LiveChat is the default choice for support teams prioritizing chat speed, agent productivity, and enterprise-grade reliability.',
+    overview: '',
+    pricingDescription: 'Team at $19/agent/mo, Pro at $39/agent/mo, Enterprise at $69/agent/mo (annual billing). ChatBot.com sold separately at $52-$600/mo. 14-day free trial available. No permanent free tier.',
+    logo: '/images/tool-logo/livechat.webp',
+    website: 'https://www.livechat.com',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'live-chat',
+      'customer-service',
+      'chatbot',
+      'helpdesk',
+      'ai-chatbot',
+      'ticketing',
+      'support-widget',
+      'enterprise-chat'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.7,
+    reviewCount: 1800,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'chatbot-ai',
+        text: 'ChatBot.com integration — best-in-class conversational AI builder in the industry'
+      },
+      {
+        id: 'fast-agent-tools',
+        text: 'Fastest agent workspace with canned responses, shortcuts, and real-time translation'
+      },
+      {
+        id: 'enterprise-reliability',
+        text: '99.99% uptime SLA with SOC 2 Type II, HIPAA, and ISO 27001 compliance'
+      },
+      {
+        id: 'reporting',
+        text: 'Deepest chat analytics with agent performance, CSAT, and conversion tracking'
+      }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Live Chat Widget',
+        description: 'Customizable chat widget with proactive greetings, chat routing, and 50+ language support embedded on any website.',
+        icon: 'message-circle'
+      },
+      {
+        id: '2',
+        title: 'ChatBot Builder',
+        description: 'Visual no-code chatbot builder with NLP, pre-built templates, and deep LiveChat integration for 24/7 coverage.',
+        icon: 'bot'
+      },
+      {
+        id: '3',
+        title: 'Ticketing & Reporting',
+        description: 'Built-in ticketing for offline messages plus deep analytics on agent performance, response times, and CSAT.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '144',
+    slug: 'drift',
+    name: 'Drift',
+    tagline: 'Conversational marketing and sales platform for B2B',
+    description: 'Drift (now part of Salesloft) is a conversational marketing and sales platform combining AI chatbots, live chat, and account-based marketing to convert website visitors into sales meetings. The default choice for B2B companies using chat as a revenue channel to book meetings with target accounts.',
+    overview: '',
+    pricingDescription: 'Sales at $2,500/mo flat, Premium at $4,500/mo flat, Advanced at $6,500/mo flat, Enterprise with custom pricing. Flat-rate pricing regardless of seat count. Annual contracts typically required. No free tier beyond demo.',
+    logo: '/images/tool-logo/drift.webp',
+    website: 'https://www.salesloft.com/drift',
+    affiliateUrl: null,
+    categories: ['sales', 'marketing', 'communication'],
+    tags: [
+      'conversational-marketing',
+      'conversational-sales',
+      'abm',
+      'b2b-sales',
+      'ai-chatbot',
+      'lead-capture',
+      'meeting-booking',
+      'revenue'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.4,
+    reviewCount: 1400,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'revenue-channel',
+        text: 'Chat as a revenue channel — converts website visitors into booked sales meetings'
+      },
+      {
+        id: 'abm-native',
+        text: 'Native account-based marketing with target account identification and routing'
+      },
+      {
+        id: 'salesloft-integration',
+        text: 'Deep Salesloft integration for sequenced sales engagement from chat leads'
+      },
+      {
+        id: 'flat-rate-pricing',
+        text: 'Flat-rate pricing regardless of agent count — predictable for sales teams'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Conversational Landing Pages',
+        description: 'Replace forms with chat-based landing pages that qualify leads conversationally and book meetings in real time.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '2',
+        title: 'ABM Routing',
+        description: 'Identify target accounts visiting your site and route them to the right sales rep with personalized chat experiences.',
+        icon: 'target'
+      },
+      {
+        id: '3',
+        title: 'AI Sales Assistant',
+        description: 'AI chatbot qualifies leads, answers product questions, and books meetings on rep calendars 24/7 without human involvement.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '145',
+    slug: 'manychat',
+    name: 'ManyChat',
+    tagline: 'No-code chatbot platform for Instagram, Facebook, and WhatsApp marketing',
+    description: 'ManyChat is a no-code chatbot builder focused on social media messaging channels — Instagram DMs, Facebook Messenger, WhatsApp, and SMS — designed for e-commerce brands, creators, and marketers automating lead capture, sales, and customer engagement through conversations. Serving 1+ million businesses, ManyChat is the default choice for social commerce and Meta-ecosystem marketing.',
+    overview: '',
+    pricingDescription: 'Free tier with 1,000 contacts. Pro at $15/mo for up to 1,000 contacts, scaling to $65/mo for 10,000 contacts and $285/mo for 100,000 contacts. Business with custom pricing for enterprise features. Pricing based on contact count, not messages.',
+    logo: '/images/tool-logo/manychat.webp',
+    website: 'https://manychat.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'communication', 'ai'],
+    tags: [
+      'chatbot-builder',
+      'no-code',
+      'instagram-dm',
+      'facebook-messenger',
+      'whatsapp',
+      'sms-marketing',
+      'social-commerce',
+      'meta-marketing'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.6,
+    reviewCount: 6800,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'meta-ecosystem',
+        text: 'Deepest Instagram DM, Facebook Messenger, and WhatsApp automation in the industry'
+      },
+      {
+        id: 'no-code-builder',
+        text: 'Visual flow builder enabling non-technical marketers to build sophisticated bots'
+      },
+      {
+        id: 'social-commerce',
+        text: '1+ million businesses using ManyChat for social commerce and lead capture'
+      },
+      {
+        id: 'contact-pricing',
+        text: 'Transparent contact-based pricing with generous free tier for getting started'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Instagram & Messenger Automation',
+        description: 'Native automation for Instagram DMs, Story mentions, comments, and Facebook Messenger with visual flow builder.',
+        icon: 'message-circle'
+      },
+      {
+        id: '2',
+        title: 'Visual Flow Builder',
+        description: 'Drag-and-drop no-code builder for complex conversational flows with conditions, tags, and integrations.',
+        icon: 'workflow'
+      },
+      {
+        id: '3',
+        title: 'Omnichannel Messaging',
+        description: 'Unified workflows across Instagram, Messenger, WhatsApp, SMS, and email from one dashboard.',
+        icon: 'share-2'
+      }
+    ]
+  },
+  {
+    id: '146',
+    slug: 'chatfuel',
+    name: 'Chatfuel',
+    tagline: 'AI chatbot platform for e-commerce and Meta marketing',
+    description: 'Chatfuel is a no-code AI chatbot platform specializing in Facebook Messenger, Instagram DMs, WhatsApp, and website chat with AI-powered automation for e-commerce brands. One of the original chatbot builders launched in 2015, now focused on AI-driven customer support and sales automation for Shopify and Meta-ecosystem merchants.',
+    overview: '',
+    pricingDescription: 'Starter at $20/mo for 500 contacts, Pro at $80/mo for 5,000 contacts, Business at $250/mo for 25,000 contacts, Enterprise with custom pricing. AI features included on all paid plans. Annual billing reduces cost by ~20%.',
+    logo: '/images/tool-logo/chatfuel.webp',
+    website: 'https://chatfuel.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'communication', 'ai', 'ecommerce'],
+    tags: [
+      'chatbot-builder',
+      'no-code',
+      'ai-chatbot',
+      'messenger-bot',
+      'instagram-dm',
+      'whatsapp',
+      'shopify',
+      'ecommerce-automation'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 2100,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'ecommerce-focus',
+        text: 'Deep Shopify integration with cart abandonment, order updates, and product recommendations'
+      },
+      {
+        id: 'ai-native',
+        text: 'Built-in AI for product questions, customer support, and conversational sales'
+      },
+      {
+        id: 'meta-pioneer',
+        text: 'One of the original Meta chatbot builders since 2015 with deep Messenger expertise'
+      },
+      {
+        id: 'quick-setup',
+        text: 'Fastest setup for Shopify stores — live in minutes with product catalog sync'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Shopify Integration',
+        description: 'Deep native integration with Shopify — sync products, handle cart abandonment, and send order updates via chat.',
+        icon: 'shopping-cart'
+      },
+      {
+        id: '2',
+        title: 'AI Chatbot',
+        description: 'AI-powered bot trained on your product catalog and knowledge base, handling customer questions 24/7.',
+        icon: 'bot'
+      },
+      {
+        id: '3',
+        title: 'Meta Channel Automation',
+        description: 'Automate Instagram DMs, Messenger, WhatsApp, and website chat from one unified platform.',
+        icon: 'message-circle'
+      }
+    ]
+  },
+  {
+    id: '147',
+    slug: 'typeform',
+    name: 'Typeform',
+    tagline: 'Conversational forms with one-question-at-a-time UX',
+    description: 'Typeform is a conversational form builder famous for its signature one-question-at-a-time interface that dramatically increases completion rates. Serving 150,000+ organizations, Typeform is the default choice for brands prioritizing respondent experience and design-forward surveys, lead capture, and interactive content.',
+    overview: '',
+    pricingDescription: 'Free plan with limited features. Basic at $25/mo (annual), Plus at $41/mo, Business at $83/mo. Pricing based on responses collected per month. Annual billing standard.',
+    logo: '/images/tool-logo/typeform.webp',
+    website: 'https://www.typeform.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'productivity'],
+    tags: [
+      'forms',
+      'surveys',
+      'lead-capture',
+      'conversational-forms',
+      'quizzes',
+      'no-code',
+      'ux-design',
+      'typeform'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.6,
+    reviewCount: 950,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'one-question-at-a-time',
+        text: 'Signature one-question-at-a-time UX with 2-3x higher completion rates'
+      },
+      {
+        id: 'design-first',
+        text: 'Design-forward forms with brand customization and beautiful themes'
+      },
+      {
+        id: 'logic-jumps',
+        text: 'Powerful conditional logic for conversational branching'
+      },
+      {
+        id: 'enterprise-adoption',
+        text: 'Used by 150,000+ organizations including Nike, Airbnb, and Spotify'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Conversational Interface',
+        description: 'One-question-at-a-time design that feels more like a conversation than a survey, dramatically improving completion rates.',
+        icon: 'message-circle'
+      },
+      {
+        id: '2',
+        title: 'Logic Jumps',
+        description: 'Powerful conditional branching with logic jumps that route respondents based on previous answers.',
+        icon: 'workflow'
+      },
+      {
+        id: '3',
+        title: 'AI Form Generator',
+        description: 'AI-generated forms from text prompts with automatic question suggestions and structure.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '148',
+    slug: 'jotform',
+    name: 'Jotform',
+    tagline: 'Versatile form builder with 10,000+ templates and payment processing',
+    description: 'Jotform is a versatile drag-and-drop form builder with the largest template library in the industry, native payment processing, e-signatures, PDF generation, and approval workflows. Serving 20+ million users, Jotform is the default choice for businesses needing multi-purpose forms — from lead capture and registrations to payments and contracts.',
+    overview: '',
+    pricingDescription: 'Starter free for up to 5 forms and 100 submissions/mo. Silver at $34/mo (25 forms, 1,000 submissions), Gold at $39/mo (unlimited forms, 10,000 submissions), Pro at $99/mo. Annual billing saves ~30%.',
+    logo: '/images/tool-logo/jotform.webp',
+    website: 'https://www.jotform.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'finance'],
+    tags: [
+      'forms',
+      'surveys',
+      'payment-forms',
+      'e-signatures',
+      'pdf-generator',
+      'approvals',
+      'no-code',
+      'templates'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.7,
+    reviewCount: 8200,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'template-library',
+        text: 'Largest template library with 10,000+ pre-built forms for every use case'
+      },
+      {
+        id: 'native-payments',
+        text: 'Native payment processing with Stripe, PayPal, Square, and 30+ gateways'
+      },
+      {
+        id: 'e-signatures',
+        text: 'Built-in e-signatures with legal compliance — no DocuSign subscription needed'
+      },
+      {
+        id: 'pdf-editor',
+        text: 'PDF editor converts form submissions into branded PDFs automatically'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Drag-and-Drop Builder',
+        description: 'Intuitive drag-and-drop form builder with 10,000+ templates and extensive field types.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '2',
+        title: 'Payment Integration',
+        description: 'Collect payments directly in forms via Stripe, PayPal, Square, and 30+ payment gateways.',
+        icon: 'credit-card'
+      },
+      {
+        id: '3',
+        title: 'Jotform Approvals',
+        description: 'Visual approval workflow builder that routes submissions through multi-step approval chains.',
+        icon: 'check-check'
+      }
+    ]
+  },
+  {
+    id: '149',
+    slug: 'googleforms',
+    name: 'Google Forms',
+    tagline: 'Free form builder included with Google Workspace',
+    description: 'Google Forms is a free form and survey tool included with every Google account and Google Workspace subscription. The simplest option in the category with automatic Google Sheets integration, Google Forms is the default choice for teams already in the Google ecosystem needing basic surveys, registrations, and feedback collection at zero cost.',
+    overview: '',
+    pricingDescription: 'Completely free with every Google account. Google Workspace subscribers get additional features like custom branding, file uploads, and enhanced sharing controls. No paid tiers, no usage limits beyond standard Google Workspace storage.',
+    logo: '/images/tool-logo/googleforms.webp',
+    website: 'https://www.google.com/forms/about/',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'forms',
+      'surveys',
+      'google-workspace',
+      'free',
+      'sheets-integration',
+      'basic-forms',
+      'quizzes',
+      'education'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 15400,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'completely-free',
+        text: 'Completely free with every Google account — no paid tiers'
+      },
+      {
+        id: 'sheets-integration',
+        text: 'Native Google Sheets integration with real-time data sync'
+      },
+      {
+        id: 'workspace-native',
+        text: 'Part of Google Workspace ecosystem — SSO, sharing, and collaboration built in'
+      },
+      {
+        id: 'instant-setup',
+        text: 'Fastest time-to-live — create and share a form in under 5 minutes'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Google Sheets Integration',
+        description: 'Every form response automatically syncs to a Google Sheet in real time for analysis and reporting.',
+        icon: 'table'
+      },
+      {
+        id: '2',
+        title: 'Quiz Mode',
+        description: 'Built-in quiz functionality with automatic grading, answer keys, and score feedback.',
+        icon: 'graduation-cap'
+      },
+      {
+        id: '3',
+        title: 'Collaborative Editing',
+        description: 'Real-time collaboration on form creation with Google Workspace sharing and permissions.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '150',
+    slug: 'ahrefs',
+    name: 'Ahrefs',
+    tagline: 'Industry-leading backlink analysis and keyword research platform',
+    description: 'Ahrefs is a comprehensive SEO toolset famous for having the largest and most accurate backlink index in the industry, combined with powerful keyword research, site audit, and rank tracking capabilities. The default choice for SEO professionals and agencies prioritizing backlink analysis and competitive research.',
+    overview: '',
+    pricingDescription: 'Lite at $129/mo, Standard at $249/mo, Advanced at $449/mo, Enterprise custom (annual billing). Pricing per user with additional users at $50-$100/mo. Usage limits on credits for reports and API calls.',
+    logo: '/images/tool-logo/ahrefs.webp',
+    website: 'https://ahrefs.com',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing'],
+    tags: [
+      'backlink-analysis',
+      'keyword-research',
+      'site-audit',
+      'rank-tracking',
+      'competitor-analysis',
+      'content-explorer',
+      'seo-toolkit'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.7,
+    reviewCount: 5200,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'backlink-index',
+        text: 'Largest and most accurate backlink index in the industry with 35+ trillion links'
+      },
+      {
+        id: 'keyword-research',
+        text: 'Comprehensive keyword database covering 170+ countries with click data'
+      },
+      {
+        id: 'site-audit',
+        text: 'Deep technical site audit identifying 150+ SEO issues automatically'
+      },
+      {
+        id: 'content-explorer',
+        text: 'Content Explorer surfaces top-performing content across the web for research'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Site Explorer',
+        description: 'Analyze any website\'s organic traffic, backlink profile, top pages, and competitor strategies with granular data.',
+        icon: 'search'
+      },
+      {
+        id: '2',
+        title: 'Keywords Explorer',
+        description: 'Research keywords across 170+ countries with search volume, click data, keyword difficulty, and SERP analysis.',
+        icon: 'key-round'
+      },
+      {
+        id: '3',
+        title: 'Site Audit',
+        description: 'Crawl websites and identify 150+ technical SEO issues including broken links, slow pages, and on-page problems.',
+        icon: 'scan'
+      }
+    ]
+  },
+  {
+    id: '151',
+    slug: 'semrush',
+    name: 'Semrush',
+    tagline: 'All-in-one digital marketing suite for SEO, PPC, content, and social',
+    description: 'Semrush is the most comprehensive digital marketing platform combining SEO, PPC, content marketing, social media, and competitive research in one suite. Serving 10+ million users including Fortune 500 companies, Semrush is the default choice for marketing teams wanting a unified toolkit across all digital marketing channels.',
+    overview: '',
+    pricingDescription: 'Pro at $139.95/mo, Guru at $249.95/mo, Business at $499.95/mo (annual billing saves ~17%). Enterprise custom pricing. Pricing per project with additional users at $45-$100/mo. ContentShake AI and ImpactHero add-ons available.',
+    logo: '/images/tool-logo/semrush.webp',
+    website: 'https://www.semrush.com',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing', 'analytics'],
+    tags: [
+      'all-in-one-seo',
+      'keyword-research',
+      'ppc-research',
+      'content-marketing',
+      'social-media',
+      'competitor-analysis',
+      'site-audit',
+      'rank-tracking'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.7,
+    reviewCount: 4800,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'all-in-one',
+        text: 'Most comprehensive suite: SEO, PPC, content, social media, and competitive research'
+      },
+      {
+        id: 'largest-database',
+        text: '25+ billion keywords and 808+ trillion backlinks across 142 geo databases'
+      },
+      {
+        id: 'content-toolkit',
+        text: 'Content Marketing Toolkit with SEO Writing Assistant and AI-powered content tools'
+      },
+      {
+        id: 'enterprise-trusted',
+        text: 'Trusted by 10+ million users including Fortune 500 companies globally'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Keyword Magic Tool',
+        description: 'Research 25+ billion keywords with metrics including search volume, intent, SERP features, and competitive density.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Domain Analytics',
+        description: 'Analyze any domain\'s organic traffic, paid traffic, backlinks, and advertising strategies across all channels.',
+        icon: 'bar-chart-3'
+      },
+      {
+        id: '3',
+        title: 'SEO Writing Assistant',
+        description: 'AI-powered content optimization tool analyzing readability, SEO, originality, and tone of voice in real time.',
+        icon: 'file-pen'
+      }
+    ]
+  },
+  {
+    id: '152',
+    slug: 'moz',
+    name: 'Moz',
+    tagline: 'Beginner-friendly SEO platform with the original Domain Authority metric',
+    description: 'Moz is an SEO platform famous for creating the Domain Authority metric that became the industry standard for measuring website strength. Known for educational resources, beginner-friendly interface, and strong local SEO capabilities, Moz serves agencies and SMBs prioritizing learning-friendly SEO tools.',
+    overview: '',
+    pricingDescription: 'Standard at $99/mo, Medium at $179/mo, Large at $299/mo, Premium at $599/mo (annual billing). 30-day free trial available. STAT plan for enterprise rank tracking priced separately.',
+    logo: '/images/tool-logo/moz.webp',
+    website: 'https://moz.com',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing'],
+    tags: [
+      'domain-authority',
+      'local-seo',
+      'beginner-seo',
+      'keyword-research',
+      'rank-tracking',
+      'link-research',
+      'seo-education',
+      'site-audit'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 1800,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'domain-authority',
+        text: 'Creator of Domain Authority — the most recognized website strength metric in SEO'
+      },
+      {
+        id: 'beginner-friendly',
+        text: 'Most beginner-friendly interface with extensive educational resources and guides'
+      },
+      {
+        id: 'local-seo',
+        text: 'Strong local SEO tools with Moz Local for business listing management'
+      },
+      {
+        id: 'seo-community',
+        text: 'Vibrant SEO community with Whiteboard Friday, blog, and MozCon conference'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Domain Authority',
+        description: 'The original Domain Authority (DA) and Page Authority (PA) metrics for measuring website strength on 100-point scale.',
+        icon: 'trophy'
+      },
+      {
+        id: '2',
+        title: 'Keyword Explorer',
+        description: 'Keyword research with organic CTR data, priority scores, and difficulty metrics to prioritize highest-value keywords.',
+        icon: 'key-round'
+      },
+      {
+        id: '3',
+        title: 'Moz Local',
+        description: 'Manage business listings across 50+ directories with duplicate suppression and review monitoring for local SEO.',
+        icon: 'map-pin'
+      }
+    ]
+  },
+  {
+    id: '153',
+    slug: 'spyfu',
+    name: 'SpyFu',
+    tagline: 'Competitive intelligence platform for PPC and SEO keyword research',
+    description: 'SpyFu is a competitive intelligence platform specializing in Google Ads research, PPC keyword analysis, and SEO keyword tracking. Serving 300,000+ users since 2005, SpyFu is the default choice for PPC managers and agencies prioritizing paid search competitive intelligence at affordable pricing.',
+    overview: '',
+    pricingDescription: 'Basic at $39/mo, Professional at $79/mo, Team at $299/mo (annual billing saves ~25%). No free tier beyond limited search previews. Unlimited domains and keyword research on all paid plans.',
+    logo: '/images/tool-logo/spyfu.webp',
+    website: 'https://www.spyfu.com',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing', 'analytics'],
+    tags: [
+      'ppc-research',
+      'competitor-analysis',
+      'keyword-research',
+      'google-ads',
+      'adwords',
+      'seo-toolkit',
+      'backlink-analysis',
+      'competitive-intelligence'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 950,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'ppc-intelligence',
+        text: 'Best-in-class Google Ads competitive intelligence with ad copy and keyword history'
+      },
+      {
+        id: 'affordable',
+        text: 'Most affordable competitive intelligence platform starting at $39/month'
+      },
+      {
+        id: 'keyword-history',
+        text: '16+ years of historical keyword and ad data for trend analysis'
+      },
+      {
+        id: 'unlimited-searches',
+        text: 'Unlimited domain and keyword searches on all paid plans'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'PPC Research',
+        description: 'Analyze competitors\' Google Ads keywords, ad copy history, and estimated ad spend across 16+ years of data.',
+        icon: 'target'
+      },
+      {
+        id: '2',
+        title: 'Keyword Research',
+        description: 'Comprehensive keyword research with PPC and organic metrics, difficulty scores, and domain keyword overlap.',
+        icon: 'search'
+      },
+      {
+        id: '3',
+        title: 'Backlink Analysis',
+        description: 'Backlink research identifying competitor link sources and link building opportunities.',
+        icon: 'link'
+      }
+    ]
+  },
+  {
+    id: '154',
+    slug: 'seranking',
+    name: 'SE Ranking',
+    tagline: 'All-in-one SEO platform for agencies and in-house teams',
+    description: 'SE Ranking is a comprehensive SEO platform combining rank tracking, keyword research, site audit, backlink monitoring, and white-label reporting. Serving 1,000,000+ users across 140+ countries, SE Ranking is the default choice for agencies and SMB teams wanting a balanced all-in-one SEO tool at competitive pricing.',
+    overview: '',
+    pricingDescription: 'Essential at $55/mo, Pro at $119/mo, Business at $239/mo (annual billing). Pricing varies by keyword count tracked. 14-day free trial with full features. Additional users $15/mo per seat.',
+    logo: '/images/tool-logo/seranking.webp',
+    website: 'https://seranking.com',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing'],
+    tags: [
+      'rank-tracking',
+      'all-in-one-seo',
+      'keyword-research',
+      'site-audit',
+      'backlink-monitoring',
+      'white-label',
+      'agency-seo',
+      'content-marketing'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.7,
+    reviewCount: 2100,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'balanced-platform',
+        text: 'Balanced feature set covering all core SEO needs at competitive pricing'
+      },
+      {
+        id: 'white-label',
+        text: 'White-label reporting and client management built in for agencies'
+      },
+      {
+        id: 'accurate-rank-tracking',
+        text: 'Accurate rank tracking across 190+ locations with daily updates'
+      },
+      {
+        id: 'global-reach',
+        text: 'Serving 1,000,000+ users in 140+ countries with localized databases'
+      }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Rank Tracker',
+        description: 'Accurate daily rank tracking across 190+ locations and devices with SERP feature detection and competitor comparison.',
+        icon: 'trending-up'
+      },
+      {
+        id: '2',
+        title: 'Keyword Research',
+        description: 'Keyword research with volume, difficulty, CPC, and SERP analysis across multiple search engines and locations.',
+        icon: 'search'
+      },
+      {
+        id: '3',
+        title: 'Site Audit',
+        description: 'Technical site audit identifying 120+ issues with prioritized remediation and health score tracking over time.',
+        icon: 'scan'
+      }
+    ]
+  },
+  {
+    id: '155',
+    slug: 'sproutsocial',
+    name: 'Sprout Social',
+    tagline: 'Enterprise social media management with deep listening analytics',
+    description: 'Sprout Social is an enterprise social media management platform combining publishing, engagement, analytics, and advanced social listening. Serving 30,000+ brands including Microsoft, Priceline, and Grubhub, Sprout Social is the default choice for enterprise marketing teams needing sophisticated social listening with actionable analytics.',
+    overview: '',
+    pricingDescription: 'Standard at $249/user/mo, Professional at $399/user/mo, Advanced at $499/user/mo (annual billing). Advanced Listening add-on from $500/mo. Enterprise with custom pricing. No free tier beyond 30-day trial.',
+    logo: '/images/tool-logo/sproutsocial.webp',
+    website: 'https://sproutsocial.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'social-listening',
+      'social-media-management',
+      'brand-monitoring',
+      'analytics',
+      'enterprise',
+      'social-engagement',
+      'sentiment-analysis',
+      'reporting'
+    ],
+    pricing: 'Paid',
+    featured: true,
+    rating: 4.5,
+    reviewCount: 1950,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'advanced-listening',
+        text: 'Advanced Listening with sentiment analysis, image recognition, and custom dashboards'
+      },
+      {
+        id: 'unified-inbox',
+        text: 'Smart Inbox unifying messages from every social network in one stream'
+      },
+      {
+        id: 'enterprise-analytics',
+        text: 'Enterprise-grade reporting with competitive benchmarking and custom reports'
+      },
+      {
+        id: 'trusted-brands',
+        text: 'Trusted by 30,000+ brands including Microsoft, Priceline, and Grubhub'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Social Listening',
+        description: 'Advanced listening with sentiment analysis, image recognition, topic trends, and customizable dashboards.',
+        icon: 'radar'
+      },
+      {
+        id: '2',
+        title: 'Smart Inbox',
+        description: 'Unified inbox aggregating messages from every social network with AI-powered message tagging and routing.',
+        icon: 'inbox'
+      },
+      {
+        id: '3',
+        title: 'Analytics & Reporting',
+        description: 'Comprehensive reporting with competitive benchmarking, custom reports, and executive-ready presentations.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '156',
+    slug: 'hootsuite',
+    name: 'Hootsuite',
+    tagline: 'Social media management platform with built-in monitoring streams',
+    description: 'Hootsuite is a social media management platform combining publishing, scheduling, engagement, and monitoring streams in one dashboard. One of the oldest players in the category (founded 2008), Hootsuite serves 18+ million users across businesses of every size wanting unified social media management with basic brand monitoring.',
+    overview: '',
+    pricingDescription: 'Professional at $99/mo (1 user, 10 profiles), Team at $249/mo (3 users, 20 profiles), Business at $739/mo (5+ users, 35 profiles). Enterprise custom pricing. OwlyGPT AI included on Business+. 30-day free trial available.',
+    logo: '/images/tool-logo/hootsuite.webp',
+    website: 'https://www.hootsuite.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'social-media-management',
+      'social-monitoring',
+      'scheduling',
+      'brand-monitoring',
+      'streams',
+      'social-analytics',
+      'owligpt',
+      'team-collaboration'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.3,
+    reviewCount: 4500,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'streams-dashboard',
+        text: 'Streams dashboard monitoring mentions, hashtags, and searches in real time'
+      },
+      {
+        id: 'brand-recognition',
+        text: 'Most recognized social media management brand with 18+ million users'
+      },
+      {
+        id: 'app-integrations',
+        text: '150+ app integrations in the Hootsuite App Directory'
+      },
+      {
+        id: 'owligpt',
+        text: 'OwlyGPT AI assistant for content creation and insights'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Streams Dashboard',
+        description: 'Real-time streams monitoring mentions, hashtags, keywords, and searches across all connected social networks.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '2',
+        title: 'Content Publishing',
+        description: 'Multi-platform scheduling, bulk publishing, and best-time recommendations across all major networks.',
+        icon: 'calendar'
+      },
+      {
+        id: '3',
+        title: 'OwlyGPT AI',
+        description: 'AI-powered assistant generating captions, hashtags, content ideas, and insights from social data.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '157',
+    slug: 'mention',
+    name: 'Mention',
+    tagline: 'Media monitoring platform focused on news, blogs, and web mentions',
+    description: 'Mention is a media monitoring platform specializing in news, blogs, forums, and web mentions with real-time alerts and sentiment analysis. Founded in 2012 in France, Mention serves 500,000+ users including SMBs, PR agencies, and communications teams prioritizing online reputation and media coverage tracking.',
+    overview: '',
+    pricingDescription: 'Solo at $41/mo (1 alert, 3,000 mentions), Pro at $83/mo (5 alerts, 10,000 mentions), Enterprise custom with unlimited mentions and API access. Annual billing saves ~17%. 14-day free trial available.',
+    logo: '/images/tool-logo/mention.webp',
+    website: 'https://mention.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'communication'],
+    tags: [
+      'media-monitoring',
+      'brand-monitoring',
+      'pr-tools',
+      'news-monitoring',
+      'sentiment-analysis',
+      'reputation-management',
+      'alerts',
+      'web-mentions'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 950,
+    lastUpdated: '2026-09-28',
+    highlights: [
+      {
+        id: 'media-focus',
+        text: 'Strongest coverage of news sites, blogs, forums, and web mentions'
+      },
+      {
+        id: 'real-time-alerts',
+        text: 'Real-time email and mobile alerts for brand mentions across the web'
+      },
+      {
+        id: 'pr-integrations',
+        text: 'Integrations with PR tools including Muck Rack and Cision'
+      },
+      {
+        id: 'affordable',
+        text: 'Most affordable media monitoring starting at $41/month for SMBs'
+      }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Media Monitoring',
+        description: 'Monitor news sites, blogs, forums, and web pages for brand mentions with Boolean query builder.',
+        icon: 'newspaper'
+      },
+      {
+        id: '2',
+        title: 'Real-Time Alerts',
+        description: 'Instant email, mobile, and Slack alerts for brand mentions matching your keywords.',
+        icon: 'bell'
+      },
+      {
+        id: '3',
+        title: 'Sentiment Analysis',
+        description: 'Automatic sentiment analysis categorizing mentions as positive, negative, or neutral.',
+        icon: 'smile'
+      }
+    ]
+  },
 ]

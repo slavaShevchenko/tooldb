@@ -17,4 +17,8 @@ export const navigation = [
     label: 'Blog',
     to: routes.blog(),
   },
+  {
+    label: 'Comparisons',
+    to: routes.comparisons(),
+  },
 ] as const

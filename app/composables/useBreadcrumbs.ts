@@ -13,6 +13,7 @@ export function useBreadcrumbs() {
   const { getBlogPostBySlug } = useBlog()
   const { getCategoryBySlug } = useCategories()
   const { getAlternativeBySlug } = useAlternatives()
+  const { getComparisonBySlug } = useComparisons()
 
   const breadcrumbs = computed<Breadcrumb[]>(() => {
     const items: Breadcrumb[] = [
@@ -102,6 +103,29 @@ export function useBreadcrumbs() {
 
         items.push({
           label: post.title,
+        })
+      }
+    }
+
+    if (path === '/comparisons') {
+      items.push({
+        label: 'Comparisons',
+      })
+    }
+
+    if (path.startsWith('/comparisons/') && path !== '/comparisons') {
+      items.push({
+        label: 'Comparisons',
+        to: '/comparisons',
+      })
+
+      const slug = route.params.slug as string | undefined
+
+      if (slug) {
+        const comparison = getComparisonBySlug(slug)
+
+        items.push({
+          label: comparison?.title ?? slug,
         })
       }
     }

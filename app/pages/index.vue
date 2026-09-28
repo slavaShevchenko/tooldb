@@ -10,6 +10,8 @@
 
     <HomeAlternativesTools />
 
+    <HomeComparisons />
+
     <LayoutSection
       title="Latest from the Blog"
       description="Guides, comparisons and practical tips for choosing the right digital tools."
@@ -31,3 +33,9 @@ useSeo({
   canonical: 'https://tooldb.org',
 })
 </script>
+
+<style scoped lang="scss">
+::v-deep(.content > .description) {
+  line-height: 1.4;
+}
+</style>

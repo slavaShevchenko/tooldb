@@ -103,6 +103,59 @@ import { foxitContent } from './foxit'
 import { inmotionHostingContent } from './inmotionhosting'
 import { pleskContent } from './plesk'
 import { ultahostContent } from './ultahost'
+// non-partner
+import { wordpressContent } from './wordpress'
+import { shopifyContent } from './shopify'
+import { woocommerceContent } from './woocommerce'
+import { bigcommerceContent } from './bigcommerce'
+import { asanaContent } from './asana'
+import { trelloContent } from './trello'
+import { jiraContent } from './jira'
+import { notionContent } from './notion'
+import { basecampContent } from './basecamp'
+import { hubspotContent } from './hubspot'
+import { salesforceContent } from './salesforce'
+import { linkedinSalesNavigatorContent } from './linkedinsalesnavigator'
+import { mailchimpContent } from './mailchimp'
+import { klaviyoContent } from './klaviyo'
+import { constantContactContent } from './constantcontact'
+import { canvaContent } from './canva'
+import { powerpointContent } from './powerpoint'
+import { beautifulAiContent } from './beautifulai'
+import { synthesiaContent } from './synthesia'
+import { heygenContent } from './heygen'
+import { premiereProContent } from './premierepro'
+import { lovoaiContent } from './lovoai'
+import { speechifyContent } from './speechify'
+import { otteraiContent } from './otterai'
+import { gongContent } from './gong'
+import { fathomContent } from './fathom'
+import { netsuiteContent } from './netsuite'
+import { docusignContent } from './docusign'
+import { adobesignContent } from './adobesign'
+import { dropboxsignContent } from './dropboxsign'
+import { remoteContent } from './remote'
+import { adpContent } from './adp'
+import { ripplingContent } from './rippling'
+import { bamboohrContent } from './bamboohr'
+import { workdayContent } from './workday'
+import { intercomContent } from './intercom'
+import { salesforceservicecloudContent } from './salesforceservicecloud'
+import { livechatContent } from './livechat'
+import { driftContent } from './drift'
+import { manychatContent } from './manychat'
+import { chatfuelContent } from './chatfuel'
+import { typeformContent } from './typeform'
+import { jotformContent } from './jotform'
+import { googleformsContent } from './googleforms'
+import { ahrefsContent } from './ahrefs'
+import { semrushContent } from './semrush'
+import { mozContent } from './moz'
+import { spyfuContent } from './spyfu'
+import { serankingContent } from './seranking'
+import { sproutsocialContent } from './sproutsocial'
+import { hootsuiteContent } from './hootsuite'
+import { mentionContent } from './mention'
 
 export const getToolContent = (slug: string) => {
   return toolContent[slug as keyof typeof toolContent]
@@ -214,4 +267,57 @@ export const toolContent = {
   inmotionhosting: inmotionHostingContent,
   plesk: pleskContent,
   ultahost: ultahostContent,
+  // non-parnter
+  shopify: shopifyContent,
+  woocommerce: woocommerceContent,
+  bigcommerce: bigcommerceContent,
+  wordpress: wordpressContent,
+  asana: asanaContent,
+  trello: trelloContent,
+  jira: jiraContent,
+  notion: notionContent,
+  basecamp: basecampContent,
+  hubspot: hubspotContent,
+  salesforce: salesforceContent,
+  linkedinsalesnavigator: linkedinSalesNavigatorContent,
+  mailchimp: mailchimpContent,
+  klaviyo: klaviyoContent,
+  constantcontact: constantContactContent,
+  canva: canvaContent,
+  powerpoint: powerpointContent,
+  beautifulai: beautifulAiContent,
+  synthesia: synthesiaContent,
+  heygen: heygenContent,
+  premierepro: premiereProContent,
+  lovoai: lovoaiContent,
+  speechify: speechifyContent,
+  otterai: otteraiContent,
+  gong: gongContent,
+  fathom: fathomContent,
+  netsuite: netsuiteContent,
+  docusign: docusignContent,
+  adobesign: adobesignContent,
+  dropboxsign: dropboxsignContent,
+  remote: remoteContent,
+  adp: adpContent,
+  rippling: ripplingContent,
+  bamboohr: bamboohrContent,
+  workday: workdayContent,
+  intercom: intercomContent,
+  salesforceservicecloud: salesforceservicecloudContent,
+  livechat: livechatContent,
+  drift: driftContent,
+  manychat: manychatContent,
+  chatfuel: chatfuelContent,
+  typeform: typeformContent,
+  jotform: jotformContent,
+  googleforms: googleformsContent,
+  ahrefs: ahrefsContent,
+  semrush: semrushContent,
+  moz: mozContent,
+  spyfu: spyfuContent,
+  seranking: serankingContent,
+  sproutsocial: sproutsocialContent,
+  hootsuite: hootsuiteContent,
+  mention: mentionContent,
 } as const

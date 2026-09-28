@@ -40,16 +40,11 @@
       </div>
     </div>
 
-    <div class="alternatives-table__td">
-      <BasePillGrid>
-        <BasePill
-          v-for="item in alternativeTools"
-          :key="item.slug"
-          :to="routes.tool(item.slug)"
-        >
-          {{ item.tool.name }}
-        </BasePill>
-      </BasePillGrid>
+    <div class="alternatives-table__td alternatives-table__td--with-space">
+      <CommonToolChipList
+        :slugs="alternative.alternatives.map(a => a.slug)"
+        clickable
+      />
     </div>
 
     <div class="alternatives-table__td">
@@ -66,26 +61,12 @@
 <script setup lang="ts">
 import { routes } from '~/constants/routes'
 import type { AlternativePage } from '~/types/alternatives'
-import type { ToolDetails } from '~/types/tool';
 
-const { getToolBySlug } = useTools()
 const { getCategoryBySlug } = useCategories()
 
 const { alternative } = defineProps<{
   alternative: AlternativePage
 }>()
-
-const alternativeTools = computed(() =>
-  alternative.alternatives
-    .map(item => ({
-      ...item,
-      tool: getToolBySlug(item.slug),
-    }))
-    .filter(
-      (item): item is typeof item & { tool: ToolDetails } =>
-        item.tool !== undefined
-    )
-)
 
 const getCategoryName = (slug: string) => {
   const category = getCategoryBySlug(slug)
@@ -99,7 +80,7 @@ const getCategoryName = (slug: string) => {
   flex-direction: column;
   height: 100%;
   padding: var(--space-1);
-  background: linear-gradient(135deg, var(--color-secondary-50) 0%, var(--color-primary-50) 100%);
+  background: linear-gradient(135deg, var(--color-secondary-25) 0%, var(--color-primary-25) 100%);
   border-radius: var(--radius-xl);
 }
 .alternatives-table__td:last-child {
@@ -107,7 +88,10 @@ const getCategoryName = (slug: string) => {
   justify-content: flex-end;
   margin-top: auto;
   padding-top: var(--space-1);
-  
+}
+
+.alternatives-table__td--with-space {
+  padding-top: var(--space-1);
 }
 
 .alt-card {

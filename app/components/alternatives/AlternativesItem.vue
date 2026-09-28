@@ -103,7 +103,7 @@ const getCategoryName = (slug: string) => {
   display: flex;
   gap: var(--space-2);
   padding: var(--space-1);
-  background: linear-gradient(135deg, var(--color-secondary-50) 0%, var(--color-primary-50) 100%);
+  background: linear-gradient(135deg, var(--color-secondary-25) 0%, var(--color-primary-25) 100%);
   border-radius: var(--radius-lg);
 }
 

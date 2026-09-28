@@ -125,8 +125,9 @@ const getToolName = (slug: string) => {
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: var(--space-1);
+  gap: var(--space-0-5) var(--space-1);
 }
 
 .logo {
