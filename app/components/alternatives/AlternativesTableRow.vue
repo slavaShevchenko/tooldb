@@ -99,7 +99,7 @@ const getCategoryName = (slug: string) => {
   flex-direction: column;
   height: 100%;
   padding: var(--space-1);
-  background: linear-gradient(135deg, var(--color-secondary-50) 0%, var(--color-primary-50) 100%);
+  background: linear-gradient(135deg, var(--color-secondary-25) 0%, var(--color-primary-25) 100%);
   border-radius: var(--radius-xl);
 }
 .alternatives-table__td:last-child {

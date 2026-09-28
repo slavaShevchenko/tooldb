@@ -26,4 +26,8 @@ export const routes = {
   about: () => '/about',
 
   contact: () => '/contact',
+
+  comparisons: () => '/comparisons',
+
+  comparison: (slug: string) => `/comparisons/${slug}`,
 } as const

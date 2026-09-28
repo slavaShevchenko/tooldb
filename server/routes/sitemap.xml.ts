@@ -4,6 +4,7 @@ import { tools } from '~/data/tools'
 import { categories } from '~/data/categories'
 import { alternatives } from '~/data/alternatives'
 import { blogPosts } from '~/data/blog'
+import { comporisonPosts } from '~/data/comparison'
 
 type SitemapUrl = {
   loc: string
@@ -32,12 +33,17 @@ export default defineEventHandler(() => {
     blogPosts.filter(post => post.published).length / PAGINATION.blog,
   )
 
+  const comparisonPages = Math.ceil(
+    comporisonPosts.length / PAGINATION.comparisons,
+  )
+
   const staticUrls: SitemapUrl[] = [
     { loc: '/', changefreq: 'daily', priority: '1.0' },
     { loc: '/tools', changefreq: 'daily', priority: '0.9' },
     { loc: '/categories', changefreq: 'daily', priority: '0.9' },
     { loc: '/alternatives', changefreq: 'weekly', priority: '0.8' },
     { loc: '/blog', changefreq: 'weekly', priority: '0.7' },
+    { loc: '/comparisons', changefreq: 'weekly', priority: '0.7' },
     { loc: '/about', changefreq: 'monthly', priority: '0.5' },
     { loc: '/contact', changefreq: 'monthly', priority: '0.5' },
     { loc: '/privacy-policy', changefreq: 'monthly', priority: '0.3' },
@@ -91,14 +97,31 @@ export default defineEventHandler(() => {
       priority: '0.6',
     }))
 
+  const comparisonPaginationUrls: SitemapUrl[] = Array.from(
+    { length: Math.max(comparisonPages - 1, 0) },
+    (_, index) => ({
+      loc: `/comparisons?page=${index + 2}`,
+      changefreq: 'weekly',
+      priority: '0.6',
+    }),
+  )
+
+  const comparisonUrls: SitemapUrl[] = comporisonPosts.map(comparison => ({
+    loc: `/comparison/${comparison.slug}`,
+    changefreq: 'monthly',
+    priority: '0.6',
+  }))
+
   const allUrls: SitemapUrl[] = [
     ...staticUrls,
     ...alternativesPaginationUrls,
     ...blogPaginationUrls,
+    ...comparisonPaginationUrls,
     ...categoryUrls,
     ...toolUrls,
     ...alternativeUrls,
     ...blogUrls,
+    ...comparisonUrls,
   ]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

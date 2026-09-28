@@ -1,5 +1,15 @@
+export interface ComparisonTool {
+  slug: string
+  name: string
+  logo: string
+  description: string
+  website: string
+  tagline: string
+}
+
 export interface ComparisonDifferenceItem {
   feature: string
+  icon: string
   values: Record<string, string>
 }
 
@@ -15,14 +25,14 @@ export interface ComparisonProsAndCons {
   cons: string[]
 }
 
-export interface ComparisonOverview {
+export interface ComparisonTextBlock {
   title: string
   description: string
 }
 
-export interface ComparisonVerdict {
+export interface ComparisonBigTextBlock {
   title: string
-  description: string
+  paragraphs: string[]
 }
 
 export interface ComparisonPage {
@@ -30,12 +40,16 @@ export interface ComparisonPage {
   slug: string
   title: string
   description: string
-  category: string
+  category: readonly string[]
   date: string
   readTime: string
   tools: readonly string[]
-  overview: ComparisonOverview
+  overview: ComparisonTextBlock
+  textOverview: ComparisonBigTextBlock
   differences: ComparisonDifferences
   prosAndCons: ComparisonProsAndCons[]
-  verdict: ComparisonVerdict
+  textOverall: ComparisonBigTextBlock
+  verdict: ComparisonTextBlock
 }
+
+export type ComparisonPageData = Omit<ComparisonPage, 'id'>

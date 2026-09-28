@@ -100,9 +100,8 @@ const getCategoryName = (slug: string) => {
 .tool-info__logo {
   width: 96px;
   min-width: 96px;
-  height: 96px;
   border-radius: var(--radius-lg);
-  object-fit: cover;
+  object-fit: contain;
   flex-shrink: 0;
 }
 
