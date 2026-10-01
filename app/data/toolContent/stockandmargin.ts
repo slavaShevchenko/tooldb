@@ -1,0 +1,23 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const stockandmarginContent: ToolContent = {
+  overview: `Stock & Margin is a web-based workspace from Power CM Software that consolidates marketplace costs, inventory data, and margin calculations into a single operating view for e-commerce sellers. The platform addresses a critical pain point for online sellers: understanding true profitability after accounting for marketplace fees, shipping costs, payment processing, and other expenses that erode apparent margins.
+
+The core challenge the platform solves is margin visibility across multiple selling channels. E-commerce sellers often operate on Amazon, eBay, Etsy, Shopify, and other marketplaces simultaneously, each with different fee structures, commission rates, and cost considerations. Calculating actual profit margins requires tracking platform fees, FBA charges, shipping costs, payment processing percentages, return rates, and advertising spend — information typically scattered across multiple seller dashboards and spreadsheets.
+
+Stock & Margin centralizes this cost information in one operating view. Sellers input their product costs, selling prices, and marketplace-specific fees, and the platform calculates true margins automatically. This calculation reveals which products are genuinely profitable versus those that appear profitable but actually lose money after all costs. Many sellers discover that 20-30% of their product catalog operates at break-even or loss once all costs are properly accounted for.
+
+Inventory profitability tracking extends beyond individual product margins. The platform shows which inventory categories generate the best returns, which products tie up capital without adequate returns, and where inventory investments should increase or decrease. For sellers managing hundreds or thousands of SKUs, this visibility enables data-driven inventory decisions rather than gut-feel stock management.
+
+Multi-channel comparison helps sellers optimize their channel strategy. The same product might yield different margins on Amazon versus eBay versus a direct Shopify store due to varying fee structures and customer acquisition costs. Stock & Margin calculates channel-specific profitability, revealing where sellers should focus their efforts and where they might redirect resources for better returns.
+
+The platform serves different e-commerce business models with appropriate margin calculations. Dropshippers need to account for supplier costs and shipping variations. Private label sellers must include product development, branding, and inventory financing costs. Handmade sellers on Etsy factor in materials, labor time, and platform-specific audience expectations. Stock & Margin adapts its calculations to these different business models.
+
+Cost breakdown transparency helps sellers understand margin erosion sources. The platform itemizes every cost component — marketplace commission, payment processing, fulfillment fees, storage costs, advertising spend, return processing — showing exactly where money goes. This visibility enables targeted cost reduction efforts, whether negotiating better shipping rates, optimizing advertising spend, or adjusting pricing strategies.
+
+Pricing strategy support helps sellers make informed decisions about discounts, promotions, and price adjustments. Before running a sale or offering a coupon, sellers can calculate whether the promotion remains profitable after all costs. This prevents the common mistake of running promotions that generate revenue but destroy profit margins.
+
+The platform's limitations center on automation depth and integration ecosystem. Stock & Margin requires manual data entry rather than automatically pulling information from marketplace APIs or accounting systems. Sellers must update costs, fees, and inventory levels manually, which creates maintenance overhead for large catalogs. The platform doesn't integrate with inventory management systems, accounting software, or marketplace seller central dashboards.
+
+For users evaluating Stock & Margin, the platform fits e-commerce sellers struggling to understand true product profitability across multiple marketplaces. It fits sellers managing diverse product catalogs who need visibility into which items actually generate profit. It fits entrepreneurs making channel strategy decisions based on profitability data rather than revenue alone. Sellers needing automated data synchronization from marketplaces, deep inventory management features, or integration with accounting systems should consider comprehensive e-commerce analytics platforms like Sellerboard, Jungle Scout, or Helium 10.`
+}

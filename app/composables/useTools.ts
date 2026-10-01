@@ -30,10 +30,14 @@ export const useTools = () => {
 
   /**
    * Returns all tools marked as featured.
+   * Sorted by id descending, so the newest featured tools
+   * (with the highest ids) are selected first.
    */
   const featuredTools = computed(() =>
-    tools.filter(tool => tool.featured)
-    .slice(0, HOMEPAGE_FEATURED_TOOLS_LIMIT),
+    tools
+      .filter(tool => tool.featured)
+      .sort((a, b) => Number(b.id) - Number(a.id))
+      .slice(0, HOMEPAGE_FEATURED_TOOLS_LIMIT),
   )
 
   /**
@@ -170,15 +174,76 @@ export const useTools = () => {
       .map(item => item.tool)
   }
 
+  /**
+   * Returns neighbouring tools from the same category together with
+   * the primary category of the given tool.
+   *
+   * The pool is limited to tools sharing the primary category
+   * (the first entry of the tool categories array). Inside that pool
+   * tools that follow the current id are taken first. If the end of
+   * the category is reached and there are not enough followers to fill
+   * the limit, the missing amount is wrapped around and taken from the
+   * very beginning of the category (ids 1, 2, 3...), so the user always
+   * loops back to the start instead of being trapped at the tail.
+   *
+   * Examples (limit = 5, pool of 20 tools in the category):
+   * - current id 1  -> [2, 3, 4, 5, 6]
+   * - current id 18 -> [1, 2, 3, 19, 20]
+   * - current id 20 -> [1, 2, 3, 4, 5]
+   *
+   * The result never includes the current tool itself and contains
+   * no duplicates.
+   *
+   * @param tool Current tool.
+   * @param limit Maximum number of related tools.
+   * @returns Object with the primary category and neighbouring tools.
+   */
   const getRelatedToolsData = (
     tool: Tool,
     limit = 5,
   ) => {
-    const category = getCategoryBySlug(tool.categories[0])
+    const primaryCategory = tool.categories[0]
+    const category = getCategoryBySlug(primaryCategory)
+
+    const categoryTools = tools
+      .filter(candidate =>
+        candidate.categories.includes(primaryCategory),
+      )
+      .sort((a, b) => Number(a.id) - Number(b.id))
+
+    const currentIndex = categoryTools.findIndex(
+      item => item.id === tool.id,
+    )
+
+    if (currentIndex === -1) {
+      return {
+        category,
+        tools: [] as Tool[],
+      }
+    }
+
+    const followingTools = categoryTools.slice(
+      currentIndex + 1,
+      currentIndex + 1 + limit,
+    )
+
+    const missingCount = limit - followingTools.length
+
+    // Wrap around to the start of the category: take the smallest ids
+    // that are not the current tool and not already in followingTools.
+    const followingIds = new Set(followingTools.map(item => item.id))
+
+    const wrappingTools = missingCount > 0
+      ? categoryTools
+          .filter(item =>
+            item.id !== tool.id && !followingIds.has(item.id),
+          )
+          .slice(0, missingCount)
+      : []
 
     return {
       category,
-      tools: getRelatedTools(tool.slug, limit),
+      tools: [...wrappingTools, ...followingTools],
     }
   }
 

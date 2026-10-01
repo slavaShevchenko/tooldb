@@ -385,7 +385,7 @@ export const tools: Tool[] = [
     ],
     pricing: 'Freemium',
     featured: true,
-    rating: 4.9,
+    rating: 4.7,
     reviewCount: 980,
     lastUpdated: '2026-07-30',
     highlights: [
@@ -10563,4 +10563,671 @@ export const tools: Tool[] = [
       }
     ]
   },
+  {
+    id: '158',
+    slug: 'regution',
+    name: 'Regution',
+    tagline: 'Subscription and renewal tracking workspace',
+    description: 'Track subscriptions, recurring costs, and renewal dates in one workspace with spending forecasts and client service management.',
+    overview: '',
+    pricingDescription: 'Free plan with up to 5 services, 3 clients, and 1 member. Growth and Scale paid subscriptions offer higher limits and team features via Stripe billing.',
+    logo: '/images/tool-logo/regution.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/regution?campaign=15809e30-82fd-4351-b70a-93c0fdd963cc',
+    categories: ['finance', 'productivity'],
+    tags: [
+      'subscription-management',
+      'renewal-tracking',
+      'recurring-costs',
+      'spending-forecast',
+      'client-services',
+      'saas-tracking',
+      'license-management',
+      'budget-planning'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 5,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      {
+        id: 'renewal-tracking',
+        text: 'Track renewal deadlines and cancellation dates'
+      },
+      {
+        id: 'spending-forecast',
+        text: 'Six-month spending forecast based on your records'
+      },
+      {
+        id: 'client-management',
+        text: 'Assign services to clients or keep them internal'
+      },
+      {
+        id: 'multi-language',
+        text: 'Switch between English and Spanish interfaces'
+      }
+    ],
+    platforms: ['web', 'windows'],
+    features: [
+      {
+        id: '1',
+        title: 'Subscription Tracking',
+        description: 'Track software, hosting, domains, and recurring costs with monthly and annual cost equivalents.',
+        icon: 'refresh-cw'
+      },
+      {
+        id: '2',
+        title: 'Renewal Management',
+        description: 'Monitor upcoming renewal and cancellation dates with automated reminders for manual payments.',
+        icon: 'calendar'
+      },
+      {
+        id: '3',
+        title: 'Spending Forecast',
+        description: 'View six-month spending forecasts based on your recorded subscriptions and recurring services.',
+        icon: 'trending-up'
+      }
+    ]
+  },
+  {
+    id: '159',
+    slug: 'borativeworkspaceos',
+    name: 'Borative Workspace OS',
+    tagline: 'Shared workspace for tasks, notes, and planning',
+    description: 'Unified workspace combining tasks, notes, conversations, and planning for team collaboration in one place.',
+    overview: '',
+    pricingDescription: 'Free plan available with core features. Growth and Scale subscriptions offer higher limits and advanced team features.',
+    logo: '/images/tool-logo/borativeworkspaceos.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/borative_workspace_os?campaign=fdb85c68-2b9c-4421-bd57-ccbf82448126',
+    categories: ['productivity', 'communication'],
+    tags: [
+      'workspace',
+      'team-collaboration',
+      'task-management',
+      'notes',
+      'planning',
+      'shared-workspace',
+      'productivity',
+      'communication'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'shared-workspace', text: 'Tasks, notes, and planning in one shared space' },
+      { id: 'team-collaboration', text: 'Collaborate with team members in real time' },
+      { id: 'conversations', text: 'Built-in conversations alongside tasks and notes' },
+      { id: 'flexible-organization', text: 'Flexible organization for different workflows' }
+    ],
+    platforms: ['web'],
+    features: [
+      { id: '1', title: 'Unified Workspace', description: 'Combine tasks, notes, conversations, and planning in a single shared workspace.', icon: 'layout-dashboard' },
+      { id: '2', title: 'Team Collaboration', description: 'Work together with team members on shared projects with real-time updates.', icon: 'users' },
+      { id: '3', title: 'Flexible Organization', description: 'Organize work by project, team, or workflow with customizable views and filters.', icon: 'layers' }
+    ]
+  },
+  {
+    id: '160',
+    slug: 'borativeprojecthub',
+    name: 'Borative Project Hub',
+    tagline: 'Project coordination with phases and dependencies',
+    description: 'Coordinate project phases, dependencies, documents, and timelines in a dedicated project management hub.',
+    overview: '',
+    pricingDescription: 'Free plan available for small projects. Paid subscriptions unlock advanced project management features and team collaboration.',
+    logo: '/images/tool-logo/borativeworkspaceos.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/borative_project_hub?campaign=082bca58-838c-4727-9a41-aeea8dd94204',
+    categories: ['productivity'],
+    tags: [
+      'project-management',
+      'project-coordination',
+      'dependencies',
+      'phases',
+      'timelines',
+      'documents',
+      'team-collaboration',
+      'planning'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'phase-management', text: 'Coordinate project phases and milestones' },
+      { id: 'dependency-tracking', text: 'Track task dependencies across projects' },
+      { id: 'document-organization', text: 'Organize project documents in one place' },
+      { id: 'timeline-views', text: 'Visual timelines for project planning' }
+    ],
+    platforms: ['web'],
+    features: [
+      { id: '1', title: 'Phase Coordination', description: 'Manage project phases with clear milestones, deliverables, and progress tracking.', icon: 'layout-grid' },
+      { id: '2', title: 'Dependency Management', description: 'Track dependencies between tasks and phases to identify bottlenecks and critical paths.', icon: 'git-branch' },
+      { id: '3', title: 'Document Organization', description: 'Centralize project documents, specifications, and resources in organized folders linked to tasks.', icon: 'folder' }
+    ]
+  },
+  {
+    id: '161',
+    slug: 'taskitall',
+    name: 'Task it All',
+    tagline: 'Windows desktop task management for teams',
+    description: 'Organize daily tasks, team spaces, and follow-up directly from your Windows desktop with native application performance.',
+    overview: '',
+    pricingDescription: 'Free plan with core task management features. Paid plans unlock team collaboration, advanced organization, and priority support.',
+    logo: '/images/tool-logo/taskitall.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/task_it_all?campaign=641c4e5d-fbe6-487d-abfb-9fedaf3a4ab0',
+    categories: ['productivity'],
+    tags: [
+      'task-management',
+      'windows-app',
+      'desktop-application',
+      'team-spaces',
+      'daily-tasks',
+      'follow-up',
+      'productivity',
+      'organization'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'windows-native', text: 'Native Windows desktop application' },
+      { id: 'daily-tasks', text: 'Organize daily tasks and responsibilities' },
+      { id: 'team-spaces', text: 'Dedicated team spaces for collaboration' },
+      { id: 'follow-up', text: 'Track follow-ups and pending items' }
+    ],
+    platforms: ['windows'],
+    features: [
+      { id: '1', title: 'Native Windows App', description: 'Fast, responsive desktop application built specifically for Windows with native performance.', icon: 'monitor' },
+      { id: '2', title: 'Daily Task Organization', description: 'Organize daily tasks with priorities, due dates, and custom categories for personal productivity.', icon: 'square-check' },
+      { id: '3', title: 'Team Spaces', description: 'Create dedicated team spaces for shared projects with task assignment and status tracking.', icon: 'users' }
+    ]
+  },
+  {
+    id: '162',
+    slug: 'flytivyaiplanner',
+    name: 'Flytivy AI Planner',
+    tagline: 'AI-powered daily and weekly planning assistant',
+    description: 'Turn tasks and priorities into a structured day or week plan with AI assistance that helps you organize and schedule effectively.',
+    overview: '',
+    pricingDescription: 'Free plan with basic AI planning features. Premium plans offer advanced AI assistance, unlimited planning, and priority processing.',
+    logo: '/images/tool-logo/flytivyaiplanner.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/flytivy_ai_planner?campaign=333c64cd-2094-43c6-83fd-e885af888344',
+    categories: ['ai', 'productivity'],
+    tags: [
+      'ai-planning',
+      'daily-planner',
+      'weekly-planner',
+      'time-management',
+      'task-scheduling',
+      'ai-assistant',
+      'productivity',
+      'windows-app'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.9,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'ai-planning', text: 'AI converts tasks into structured plans' },
+      { id: 'daily-weekly', text: 'Plan your day or week intelligently' },
+      { id: 'priority-aware', text: 'AI considers priorities and deadlines' },
+      { id: 'windows-desktop', text: 'Native Windows desktop application' }
+    ],
+    platforms: ['windows'],
+    features: [
+      { id: '1', title: 'AI Plan Generation', description: 'Input tasks and priorities, and AI generates a structured daily or weekly schedule considering time blocks and dependencies.', icon: 'sparkles' },
+      { id: '2', title: 'Smart Scheduling', description: 'AI analyzes task duration, deadlines, and energy levels to suggest optimal scheduling throughout your day.', icon: 'calendar-clock' },
+      { id: '3', title: 'Priority Integration', description: 'Tasks are automatically prioritized based on deadlines, importance, and your custom priority rules.', icon: 'target' }
+    ]
+  },
+  {
+    id: '163',
+    slug: 'flytivyaiassistance',
+    name: 'Flytivy AI Assistance',
+    tagline: 'Compact AI assistant for writing and organizing',
+    description: 'Compact AI assistant for writing, summarizing, translating, and organizing ideas directly on your Windows desktop.',
+    overview: '',
+    pricingDescription: 'Free plan with basic AI assistance features. Premium plans offer expanded AI capabilities, faster processing, and advanced features.',
+    logo: '/images/tool-logo/flytivyaiassistance.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/flytivy_ai_assistance?campaign=b6c7fd61-df66-4f28-ae92-b947021b4520',
+    categories: ['ai', 'productivity'],
+    tags: [
+      'ai-assistant',
+      'writing-assistant',
+      'summarization',
+      'translation',
+      'idea-organization',
+      'windows-app',
+      'desktop-ai',
+      'productivity'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'compact-assistant', text: 'Lightweight AI assistant for desktop' },
+      { id: 'writing-help', text: 'Writing, editing, and content generation' },
+      { id: 'summarization', text: 'Summarize long documents and articles' },
+      { id: 'translation', text: 'Translate content between languages' }
+    ],
+    platforms: ['windows'],
+    features: [
+      { id: '1', title: 'Writing Assistance', description: 'Generate, edit, and improve written content with AI-powered suggestions for clarity, tone, and structure.', icon: 'file-pen' },
+      { id: '2', title: 'Content Summarization', description: 'Quickly summarize long articles, documents, or meeting notes into concise key points.', icon: 'file-text' },
+      { id: '3', title: 'Multi-language Translation', description: 'Translate text between multiple languages with context-aware accuracy for global communication.', icon: 'languages' }
+    ]
+  },
+  {
+    id: '164',
+    slug: 'flytivyaiknowledgevault',
+    name: 'Flytivy AI Knowledge Vault',
+    tagline: 'Local AI knowledge base for files and notes',
+    description: 'Connect local files, notes, and context into a searchable desktop knowledge vault powered by AI for instant retrieval.',
+    overview: '',
+    pricingDescription: 'Free plan with limited storage and search queries. Premium plans offer expanded storage, advanced AI features, and priority indexing.',
+    logo: '/images/tool-logo/flytivyaiknowledgevault.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/flytivy_ai_knowledge_vault?campaign=9febad99-b841-4c6e-a8ad-7e5e6576dddf',
+    categories: ['ai', 'productivity'],
+    tags: [
+      'knowledge-base',
+      'local-files',
+      'ai-search',
+      'notes-organization',
+      'personal-knowledge',
+      'windows-app',
+      'document-management',
+      'productivity'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'local-storage', text: 'Connect local files and notes securely' },
+      { id: 'ai-search', text: 'AI-powered semantic search across content' },
+      { id: 'context-aware', text: 'Understands context and relationships' },
+      { id: 'desktop-vault', text: 'Desktop-native knowledge management' }
+    ],
+    platforms: ['windows'],
+    features: [
+      { id: '1', title: 'Local File Integration', description: 'Connect local documents, PDFs, and notes to create a unified searchable knowledge base.', icon: 'folder-open' },
+      { id: '2', title: 'AI-Powered Search', description: 'Semantic search that understands meaning and context, not just keywords, for instant information retrieval.', icon: 'search' },
+      { id: '3', title: 'Knowledge Organization', description: 'Automatically categorize and tag content with AI suggestions for better organization and discoverability.', icon: 'tags' }
+    ]
+  },
+  {
+    id: '165',
+    slug: 'stockandmargin',
+    name: 'Stock & Margin',
+    tagline: 'Marketplace cost and margin planning tool',
+    description: 'Bring marketplace costs, inventory, and margin planning into one operating view for e-commerce sellers managing multiple channels.',
+    overview: '',
+    pricingDescription: 'Free plan with basic margin calculations. Paid plans offer multi-channel support, advanced analytics, and inventory forecasting.',
+    logo: '/images/tool-logo/stockandmargin.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/stockandmargin?campaign=0021797f-5988-4ef0-9a57-b70c3f388e09',
+    categories: ['ecommerce', 'finance'],
+    tags: [
+      'margin-calculation',
+      'marketplace-costs',
+      'inventory-management',
+      'profitability',
+      'ecommerce-analytics',
+      'cost-tracking',
+      'pricing-strategy',
+      'seller-tools'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 5,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'margin-planning', text: 'Calculate margins across marketplaces' },
+      { id: 'cost-tracking', text: 'Track all marketplace fees and costs' },
+      { id: 'inventory-view', text: 'Unified inventory and profitability view' },
+      { id: 'multi-channel', text: 'Support for multiple selling channels' }
+    ],
+    platforms: ['web'],
+    features: [
+      { id: '1', title: 'Margin Calculator', description: 'Calculate true profit margins after marketplace fees, shipping, payment processing, and other costs.', icon: 'calculator' },
+      { id: '2', title: 'Cost Breakdown', description: 'Detailed breakdown of all costs associated with selling on different marketplaces including commissions and fees.', icon: 'receipt' },
+      { id: '3', title: 'Inventory Profitability', description: 'Track profitability by product, SKU, or marketplace to identify your most and least profitable items.', icon: 'package' }
+    ]
+  },
+  {
+    id: '166',
+    slug: 'eucommercedesk',
+    name: 'EU Commerce Desk',
+    tagline: 'EU commerce compliance workspace',
+    description: 'Organize product compliance work, supporting evidence, and next steps for EU commerce regulations and requirements.',
+    overview: '',
+    pricingDescription: 'Free plan for basic compliance tracking. Paid plans offer advanced compliance features, document management, and regulatory updates.',
+    logo: '/images/tool-logo/eucommercedesk.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/eucommercedesk?campaign=caf08df1-12c3-4c5d-8c0d-9ac02e1588c8',
+    categories: ['ecommerce'],
+    tags: [
+      'eu-compliance',
+      'product-compliance',
+      'regulatory',
+      'ecommerce-regulations',
+      'compliance-tracking',
+      'documentation',
+      'eu-market',
+      'legal-compliance'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 5,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'eu-regulations', text: 'Track EU commerce requirements' },
+      { id: 'evidence-management', text: 'Organize supporting documentation' },
+      { id: 'compliance-status', text: 'Monitor compliance status per product' },
+      { id: 'next-steps', text: 'Track required actions and deadlines' }
+    ],
+    platforms: ['web'],
+    features: [
+      { id: '1', title: 'Compliance Tracking', description: 'Track compliance requirements for each product across EU regulations including CE marking, WEEE, and product safety.', icon: 'shield-check' },
+      { id: '2', title: 'Evidence Organization', description: 'Store and organize supporting documents, test reports, and certificates linked to specific products and requirements.', icon: 'folder' },
+      { id: '3', title: 'Action Planning', description: 'Track next steps, deadlines, and responsible parties for achieving and maintaining compliance.', icon: 'list-checks' }
+    ]
+  },
+  {
+    id: '167',
+    slug: 'productpassportbase',
+    name: 'Product Passport Base',
+    tagline: 'Digital product passports with QR pages',
+    description: 'Create digital product passports with QR pages, supporting evidence, and public data for transparency and compliance.',
+    overview: '',
+    pricingDescription: 'Free plan with limited product passports. Paid plans offer unlimited passports, custom branding, and advanced features.',
+    logo: '/images/tool-logo/productpassportbase.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/product_passport_base?campaign=c6b2a90b-89fe-481c-a1b5-a08243170436',
+    categories: ['ecommerce'],
+    tags: [
+      'digital-product-passport',
+      'qr-codes',
+      'product-transparency',
+      'sustainability',
+      'product-data',
+      'compliance',
+      'eu-regulations',
+      'product-information'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'digital-passports', text: 'Create digital product passports' },
+      { id: 'qr-pages', text: 'QR code pages for easy access' },
+      { id: 'public-data', text: 'Share product information publicly' },
+      { id: 'evidence-support', text: 'Attach supporting documentation' }
+    ],
+    platforms: ['web'],
+    features: [
+      { id: '1', title: 'Digital Passport Creation', description: 'Build comprehensive digital product passports with specifications, materials, origin, and sustainability data.', icon: 'id-card' },
+      { id: '2', title: 'QR Code Generation', description: 'Generate unique QR codes for each product that link to dedicated passport pages with full product information.', icon: 'qr-code' },
+      { id: '3', title: 'Evidence Attachment', description: 'Attach certificates, test reports, and compliance documentation directly to product passports for verification.', icon: 'file-check' }
+    ]
+  },
+  {
+    id: '168',
+    slug: 'qbitmarkethub',
+    name: 'QbitMarketHub',
+    tagline: 'AI agents and workflows marketplace',
+    description: 'Explore a marketplace of AI agents, workflows, prompts, templates, and tools for productivity and automation.',
+    overview: '',
+    pricingDescription: 'Free to browse and access free resources. Premium marketplace features and exclusive content available through subscriptions.',
+    logo: '/images/tool-logo/qbitmarkethub.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/qbit_market_hub?campaign=211289fb-3776-4263-99e5-1636d1312799',
+    categories: ['ai', 'ecommerce'],
+    tags: [
+      'ai-marketplace',
+      'ai-agents',
+      'prompts',
+      'templates',
+      'workflows',
+      'ai-tools',
+      'productivity',
+      'automation'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.9,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'ai-agents', text: 'Browse AI agents and workflows' },
+      { id: 'prompts-templates', text: 'Access prompts and templates' },
+      { id: 'marketplace', text: 'Discover tools and resources' },
+      { id: 'productivity', text: 'Boost productivity with AI solutions' }
+    ],
+    platforms: ['web'],
+    features: [
+      { id: '1', title: 'AI Agent Directory', description: 'Browse curated collection of AI agents for various tasks including writing, coding, analysis, and automation.', icon: 'bot' },
+      { id: '2', title: 'Prompt Library', description: 'Access tested prompts and templates for popular AI platforms to get better results faster.', icon: 'message-square' },
+      { id: '3', title: 'Workflow Templates', description: 'Discover pre-built workflows and automation templates to streamline common business processes.', icon: 'workflow' }
+    ]
+  },
+  {
+    id: '169',
+    slug: 'flytivypersonalfinance',
+    name: 'Flytivy Personal Finance',
+    tagline: 'Personal budgeting and expense tracking workspace',
+    description: 'Bring budgets, expenses, and savings goals into a practical personal workspace for better financial management.',
+    overview: '',
+    pricingDescription: 'Free plan with basic budgeting features. Premium plans offer advanced analytics, multi-account support, and financial insights.',
+    logo: '/images/tool-logo/flytivypersonalfinance.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/flytivy_personal_finance?campaign=9464c253-bd19-4ea5-8a44-4f9c1bc4242b',
+    categories: ['finance'],
+    tags: [
+      'personal-finance',
+      'budgeting',
+      'expense-tracking',
+      'savings-goals',
+      'financial-planning',
+      'money-management',
+      'personal-budget',
+      'finance'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'budget-tracking', text: 'Track budgets and expenses' },
+      { id: 'savings-goals', text: 'Set and monitor savings goals' },
+      { id: 'financial-overview', text: 'Complete financial overview in one place' },
+      { id: 'practical-workspace', text: 'Practical workspace for daily finance management' }
+    ],
+    platforms: ['web'],
+    features: [
+      { id: '1', title: 'Budget Management', description: 'Create and track budgets by category with real-time spending monitoring and alerts.', icon: 'wallet' },
+      { id: '2', title: 'Expense Tracking', description: 'Record and categorize expenses automatically or manually with detailed transaction history.', icon: 'receipt' },
+      { id: '3', title: 'Savings Goals', description: 'Set savings goals with target amounts and deadlines, tracking progress over time.', icon: 'target' }
+    ]
+  },
+  {
+    id: '170',
+    slug: 'valukee',
+    name: 'Valukee',
+    tagline: 'Purchase and warranty tracking workspace',
+    description: 'Keep purchases, receipts, returns, and warranty dates together in one organized workspace for better consumer management.',
+    overview: '',
+    pricingDescription: 'Free plan with basic purchase tracking. Premium plans offer unlimited items, advanced features, and family sharing.',
+    logo: '/images/tool-logo/valukee.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/valukee?campaign=ff31a00d-b5ce-42db-93bb-336fdd8eac01',
+    categories: ['finance'],
+    tags: [
+      'purchase-tracking',
+      'warranty-management',
+      'receipts',
+      'returns',
+      'consumer-tools',
+      'personal-finance',
+      'shopping-organization',
+      'finance'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'purchase-tracking', text: 'Track all purchases in one place' },
+      { id: 'warranty-dates', text: 'Monitor warranty expiration dates' },
+      { id: 'receipt-storage', text: 'Store receipts digitally' },
+      { id: 'return-tracking', text: 'Track returns and refunds' }
+    ],
+    platforms: ['web'],
+    features: [
+      { id: '1', title: 'Purchase Organization', description: 'Store and organize all purchases with details like price, date, retailer, and product information.', icon: 'shopping-bag' },
+      { id: '2', title: 'Warranty Management', description: 'Track warranty start and end dates with reminders before expiration to maximize coverage.', icon: 'shield' },
+      { id: '3', title: 'Receipt Storage', description: 'Upload and store receipts digitally for easy access during returns, warranty claims, or expense tracking.', icon: 'receipt' }
+    ]
+  },
+  {
+    id: '171',
+    slug: 'pdfpowerkit',
+    name: 'PDF PowerKit',
+    tagline: 'Windows PDF review and organization tool',
+    description: 'Review, organize, and work with PDF documents directly from your Windows desktop with native application performance.',
+    overview: '',
+    pricingDescription: 'Free plan with basic PDF features. Premium plans offer advanced editing, batch processing, and enhanced organization tools.',
+    logo: '/images/tool-logo/pdfpowerkit.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/pdf_powerkit?campaign=908ff961-eebf-4ad3-b1a1-a2b8556e7554',
+    categories: ['productivity'],
+    tags: [
+      'pdf-editor',
+      'pdf-organization',
+      'document-management',
+      'windows-app',
+      'pdf-review',
+      'file-organization',
+      'productivity',
+      'desktop-tools'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'pdf-review', text: 'Review and annotate PDF documents' },
+      { id: 'organization', text: 'Organize PDFs with folders and tags' },
+      { id: 'windows-native', text: 'Fast native Windows application' },
+      { id: 'document-workflow', text: 'Streamlined PDF workflow management' }
+    ],
+    platforms: ['windows'],
+    features: [
+      { id: '1', title: 'PDF Review Tools', description: 'Review PDFs with annotation tools, highlighting, notes, and bookmarks for efficient document review.', icon: 'file-text' },
+      { id: '2', title: 'Document Organization', description: 'Organize PDFs with custom folders, tags, and search functionality for quick retrieval.', icon: 'folder' },
+      { id: '3', title: 'Batch Processing', description: 'Process multiple PDFs simultaneously for operations like merging, splitting, or applying common annotations.', icon: 'files' }
+    ]
+  },
+  {
+    id: '172',
+    slug: 'flytivyaiworkspace',
+    name: 'Flytivy AI Workspace',
+    tagline: 'AI prompts and responses organization tool',
+    description: 'Save prompts, AI responses, and reusable resources organized by project for consistent AI-powered workflows.',
+    overview: '',
+    pricingDescription: 'Free plan with basic organization features. Premium plans offer unlimited storage, advanced features, and team collaboration.',
+    logo: '/images/tool-logo/flytivyaiworkspace.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/flytivy_ai_workspace?campaign=fe69aa91-2c24-4b27-98ae-320b1f9fe4fd',
+    categories: ['ai', 'productivity'],
+    tags: [
+      'ai-prompts',
+      'prompt-management',
+      'ai-responses',
+      'project-organization',
+      'reusable-resources',
+      'ai-workflow',
+      'productivity',
+      'windows-app'
+    ],
+    pricing: 'Freemium',
+    featured: true,
+    rating: 4.9,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'prompt-storage', text: 'Save and organize AI prompts' },
+      { id: 'response-library', text: 'Store AI responses for reuse' },
+      { id: 'project-organization', text: 'Organize resources by project' },
+      { id: 'reusable-resources', text: 'Build library of reusable AI resources' }
+    ],
+    platforms: ['windows'],
+    features: [
+      { id: '1', title: 'Prompt Library', description: 'Save effective prompts organized by project, use case, or AI platform for quick access and reuse.', icon: 'bookmark' },
+      { id: '2', title: 'Response Storage', description: 'Store successful AI responses alongside prompts to build a library of proven outputs.', icon: 'database' },
+      { id: '3', title: 'Project Organization', description: 'Organize all AI resources by project with tags, folders, and search for efficient workflow management.', icon: 'layers' }
+    ]
+  },
+  {
+    id: '173',
+    slug: 'flytivyaidownloadmanager',
+    name: 'Flytivy AI Download Manager',
+    tagline: 'AI-powered download organization and cleanup',
+    description: 'Review downloaded files, find duplicate candidates, and preview file organization with AI assistance.',
+    overview: '',
+    pricingDescription: 'Free plan with basic file review features. Premium plans offer advanced AI organization, duplicate detection, and automation.',
+    logo: '/images/tool-logo/flytivyaidownloadmanager.webp',
+    website: 'https://powercm-software.com',
+    affiliateUrl: 'https://partners.powercm-software.com/r/8d22ea8664b3/flytivy_ai_download_manager?campaign=d3ceca1b-6a3d-4a03-a904-18bdaa1990a5',
+    categories: ['ai', 'productivity'],
+    tags: [
+      'download-manager',
+      'file-organization',
+      'duplicate-detection',
+      'ai-file-management',
+      'cleanup-tools',
+      'windows-app',
+      'productivity',
+      'file-management'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-02',
+    highlights: [
+      { id: 'download-review', text: 'Review and organize downloaded files' },
+      { id: 'duplicate-detection', text: 'Find duplicate file candidates' },
+      { id: 'ai-organization', text: 'AI suggests file organization' },
+      { id: 'preview-cleanup', text: 'Preview organization before applying' }
+    ],
+    platforms: ['windows'],
+    features: [
+      { id: '1', title: 'Download Review', description: 'Review all downloaded files with details like size, date, source, and file type in a unified interface.', icon: 'download' },
+      { id: '2', title: 'Duplicate Detection', description: 'AI identifies potential duplicate files based on content similarity, not just file names, to save storage space.', icon: 'copy' },
+      { id: '3', title: 'Organization Preview', description: 'Preview how files would be organized before applying changes, with AI suggestions for folder structure.', icon: 'folder-tree' }
+    ]
+  }
 ]

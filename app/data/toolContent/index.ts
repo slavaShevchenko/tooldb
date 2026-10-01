@@ -157,6 +157,24 @@ import { sproutsocialContent } from './sproutsocial'
 import { hootsuiteContent } from './hootsuite'
 import { mentionContent } from './mention'
 
+// power cm
+import { regutionContent } from './regution'
+import { borativeworkspaceosContent } from './borativeworkspaceos'
+import { borativeprojecthubContent } from './borativeprojecthub'
+import { taskitallContent } from './taskitall'
+import { flytivyaiplannerContent } from './flytivyaiplanner'
+import { flytivyaiassistanceContent } from './flytivyaiassistance'
+import { flytivyaiknowledgevaultContent } from './flytivyaiknowledgevault'
+import { stockandmarginContent } from './stockandmargin'
+import { eucommercedeskContent } from './eucommercedesk'
+import { productpassportbaseContent } from './productpassportbase'
+import { qbitmarkethubContent } from './qbitmarkethub'
+import { flytivypersonalfinanceContent } from './flytivypersonalfinance'
+import { valukeeContent } from './valukee'
+import { pdfpowerkitContent } from './pdfpowerkit'
+import { flytivyaiworkspaceContent } from './flytivyaiworkspace'
+import { flytivyaidownloadmanagerContent } from './flytivyaidownloadmanager'
+
 export const getToolContent = (slug: string) => {
   return toolContent[slug as keyof typeof toolContent]
 }
@@ -320,4 +338,22 @@ export const toolContent = {
   sproutsocial: sproutsocialContent,
   hootsuite: hootsuiteContent,
   mention: mentionContent,
+
+  // power cm
+  regution: regutionContent,
+  borativeworkspaceos: borativeworkspaceosContent,
+  borativeprojecthub: borativeprojecthubContent,
+  taskitall: taskitallContent,
+  flytivyaiplanner: flytivyaiplannerContent,
+  flytivyaiassistance: flytivyaiassistanceContent,
+  flytivyaiknowledgevault: flytivyaiknowledgevaultContent,
+  stockandmargin: stockandmarginContent,
+  eucommercedesk: eucommercedeskContent,
+  productpassportbase: productpassportbaseContent,
+  qbitmarkethub: qbitmarkethubContent,
+  flytivypersonalfinance: flytivypersonalfinanceContent,
+  valukee: valukeeContent,
+  pdfpowerkit: pdfpowerkitContent,
+  flytivyaiworkspace: flytivyaiworkspaceContent,
+  flytivyaidownloadmanager: flytivyaidownloadmanagerContent,
 } as const
