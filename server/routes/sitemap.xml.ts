@@ -1,4 +1,5 @@
 import { PAGINATION } from '~/constants/pagination'
+import { routes } from '~/constants/routes'
 
 import { tools } from '~/data/tools'
 import { categories } from '~/data/categories'
@@ -38,23 +39,23 @@ export default defineEventHandler(() => {
   )
 
   const staticUrls: SitemapUrl[] = [
-    { loc: '/', changefreq: 'daily', priority: '1.0' },
-    { loc: '/tools', changefreq: 'daily', priority: '0.9' },
-    { loc: '/categories', changefreq: 'daily', priority: '0.9' },
-    { loc: '/alternatives', changefreq: 'weekly', priority: '0.8' },
-    { loc: '/blog', changefreq: 'weekly', priority: '0.7' },
-    { loc: '/comparisons', changefreq: 'weekly', priority: '0.7' },
-    { loc: '/about', changefreq: 'monthly', priority: '0.5' },
-    { loc: '/contact', changefreq: 'monthly', priority: '0.5' },
-    { loc: '/privacy-policy', changefreq: 'monthly', priority: '0.3' },
-    { loc: '/terms-of-service', changefreq: 'monthly', priority: '0.3' },
-    { loc: '/affiliate-disclosure', changefreq: 'monthly', priority: '0.3' },
+    { loc: routes.home(), changefreq: 'daily', priority: '1.0' },
+    { loc: routes.tools(), changefreq: 'daily', priority: '0.9' },
+    { loc: routes.categories(), changefreq: 'daily', priority: '0.9' },
+    { loc: routes.alternatives(), changefreq: 'weekly', priority: '0.8' },
+    { loc: routes.blog(), changefreq: 'weekly', priority: '0.7' },
+    { loc: routes.comparisons(), changefreq: 'weekly', priority: '0.7' },
+    { loc: routes.about(), changefreq: 'monthly', priority: '0.5' },
+    { loc: routes.contact(), changefreq: 'monthly', priority: '0.5' },
+    { loc: routes.privacyPolicy(), changefreq: 'monthly', priority: '0.3' },
+    { loc: routes.termsOfService(), changefreq: 'monthly', priority: '0.3' },
+    { loc: routes.affiliateDisclosure(), changefreq: 'monthly', priority: '0.3' },
   ]
 
   const alternativesPaginationUrls: SitemapUrl[] = Array.from(
     { length: Math.max(alternativesPages - 1, 0) },
     (_, index) => ({
-      loc: `/alternatives?page=${index + 2}`,
+      loc: `${routes.alternatives()}?page=${index + 2}`,
       changefreq: 'weekly',
       priority: '0.7',
     }),
@@ -63,27 +64,27 @@ export default defineEventHandler(() => {
   const blogPaginationUrls: SitemapUrl[] = Array.from(
     { length: Math.max(blogPages - 1, 0) },
     (_, index) => ({
-      loc: `/blog?page=${index + 2}`,
+      loc: `${routes.blog()}?page=${index + 2}`,
       changefreq: 'weekly',
       priority: '0.6',
     }),
   )
 
   const categoryUrls: SitemapUrl[] = categories.map(category => ({
-    loc: `/categories/${category.slug}`,
+    loc: routes.category(category.slug),
     changefreq: 'daily',
     priority: '0.7',
   }))
 
   const toolUrls: SitemapUrl[] = tools.map(tool => ({
-    loc: `/tools/${tool.slug}`,
+    loc: routes.tool(tool.slug),
     lastmod: new Date(tool.lastUpdated).toISOString(),
     changefreq: 'weekly',
     priority: '0.8',
   }))
 
   const alternativeUrls: SitemapUrl[] = alternatives.map(alternative => ({
-    loc: `/alternatives/${alternative.slug}`,
+    loc: routes.alternative(alternative.slug),
     changefreq: 'weekly',
     priority: '0.7',
   }))
@@ -91,7 +92,7 @@ export default defineEventHandler(() => {
   const blogUrls: SitemapUrl[] = blogPosts
     .filter(post => post.published)
     .map(post => ({
-      loc: `/blog/${post.slug}`,
+      loc: routes.blogPost(post.slug),
       lastmod: new Date(post.updatedAt).toISOString(),
       changefreq: 'monthly',
       priority: '0.6',
@@ -100,14 +101,14 @@ export default defineEventHandler(() => {
   const comparisonPaginationUrls: SitemapUrl[] = Array.from(
     { length: Math.max(comparisonPages - 1, 0) },
     (_, index) => ({
-      loc: `/comparisons?page=${index + 2}`,
+      loc: `${routes.comparisons()}?page=${index + 2}`,
       changefreq: 'weekly',
       priority: '0.6',
     }),
   )
 
   const comparisonUrls: SitemapUrl[] = comporisonPosts.map(comparison => ({
-    loc: `/comparison/${comparison.slug}`,
+    loc: routes.comparison(comparison.slug),
     changefreq: 'monthly',
     priority: '0.6',
   }))
