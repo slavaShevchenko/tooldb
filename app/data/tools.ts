@@ -9635,7 +9635,7 @@ export const tools: Tool[] = [
     overview: '',
     pricingDescription: 'Sales at $2,500/mo flat, Premium at $4,500/mo flat, Advanced at $6,500/mo flat, Enterprise with custom pricing. Flat-rate pricing regardless of seat count. Annual contracts typically required. No free tier beyond demo.',
     logo: '/images/tool-logo/drift.webp',
-    website: 'https://www.salesloft.com/drift',
+    website: 'https://www.salesloft.com',
     affiliateUrl: null,
     categories: ['sales', 'marketing', 'communication'],
     tags: [
