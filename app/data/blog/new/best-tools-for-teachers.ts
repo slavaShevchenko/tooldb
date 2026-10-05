@@ -5,7 +5,7 @@ export const bestToolsForTeachers: BlogPostData = {
   image: '/images/blog-image/best-tools-for-teachers.webp',
   title: 'Best Tools for Teachers: 10 Solutions for Online Courses, Classes and Video Lessons',
   description: 'Empower your virtual classroom. We compare the best tools for teachers, from robust online course platforms to interactive video lesson software.',
-  published: false,
+  published: true,
   publishedAt: '2026-10-04',
   updatedAt: '2026-10-04',
   content: [

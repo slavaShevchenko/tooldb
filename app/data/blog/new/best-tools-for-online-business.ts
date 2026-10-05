@@ -5,7 +5,7 @@ export const bestToolsForOnlineBusiness: BlogPostData = {
   image: '/images/blog-image/best-tools-for-online-business.webp',
   title: 'Best Tools for Starting and Running an Online Business in 2026',
   description: 'Build a lean, efficient tech stack. We compare the best tools for online business to help you automate operations, handle finances and scale your reach.',
-  published: false,
+  published: true,
   publishedAt: '2026-09-30',
   updatedAt: '2026-09-30',
   content: [

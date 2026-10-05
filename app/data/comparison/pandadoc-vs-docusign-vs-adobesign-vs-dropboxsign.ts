@@ -136,7 +136,7 @@ export const pandadocVsDocusignVsAdobesignVsDropboxsign: ComparisonPageData = {
       },
       {
         feature: 'Embedded signing',
-        icon: 'embed',
+        icon: 'file-code-2',
         values: {
           [comparisonTools[0]]: 'Available via API but not a core strength; focus is on document creation.',
           [comparisonTools[1]]: 'Available via DocuSign eSignature API; strong but more complex than Dropbox Sign.',

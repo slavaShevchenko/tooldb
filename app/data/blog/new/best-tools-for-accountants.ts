@@ -5,7 +5,7 @@ export const bestToolsForAccountants: BlogPostData = {
   image: '/images/blog-image/best-tools-for-accountants.webp',
   title: 'Best Tools for Accountants: Top Software Solutions for Bookkeeping, Invoicing and Client Management',
   description: 'Streamline your firm’s operations. We compare the best tools for accountants, from robust accounting software to client management platforms.',
-  published: false,
+  published: true,
   publishedAt: '2026-10-02',
   updatedAt: '2026-10-02',
   content: [

@@ -20,9 +20,9 @@ import { bestAiToolsForSmallBusiness } from './new/best-ai-tools-for-small-busin
 import { bestProjectManagementToolsForRemoteTeams } from './new/best-project-management-tools-for-remote-teams' // +
 import { bestEmployeeProductivityToolsForRemoteTeams } from './new/best-employee-productivity-tools-for-remote-teams' // +
 import { bestToolsForOnlineCourseBusiness } from './new/best-tools-for-online-course-business' // +
-import { bestToolsForOnlineBusiness } from './new/best-tools-for-online-business'
-import { bestToolsForAccountants } from './new/best-tools-for-accountants'
-import { bestToolsForTeachers } from './new/best-tools-for-teachers'
+import { bestToolsForOnlineBusiness } from './new/best-tools-for-online-business' // +
+import { bestToolsForAccountants } from './new/best-tools-for-accountants' // +
+import { bestToolsForTeachers } from './new/best-tools-for-teachers' // +
 import { bestToolsForSalesReps } from './new/best-tools-for-sales-reps'
 import { bestToolsForDigitalMarketers } from './new/best-tools-for-digital-marketers'
 import { bestToolsForCustomerSupportTeams } from './new/best-tools-for-customer-support-teams'
