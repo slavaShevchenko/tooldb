@@ -5,7 +5,7 @@ export const bestToolsForDigitalMarketers: BlogPostData = {
   image: '/images/blog-image/best-tools-for-digital-marketers.webp',
   title: 'Best Tools for Digital Marketers: Top Solutions for SEO, Analytics and Brand Monitoring',
   description: 'Build a data-driven marketing stack. We compare the best tools for digital marketers to help you optimize content, track performance and monitor your brand.',
-  published: false,
+  published: true,
   publishedAt: '2026-10-08',
   updatedAt: '2026-10-08',
   content: [

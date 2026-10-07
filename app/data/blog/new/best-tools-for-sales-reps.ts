@@ -5,7 +5,7 @@ export const bestToolsForSalesReps: BlogPostData = {
   image: '/images/blog-image/best-tools-for-sales-reps.webp',
   title: 'Best Tools for Sales Reps: Top Solutions for Prospecting, CRM and Outreach',
   description: 'Close more deals with less manual work. We compare the best tools for sales reps, from powerful CRM systems to automated sales outreach software.',
-  published: false,
+  published: true,
   publishedAt: '2026-10-06',
   updatedAt: '2026-10-06',
   content: [
