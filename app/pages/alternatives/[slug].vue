@@ -84,10 +84,10 @@ useSeo({
   margin-bottom: var(--space-2);
 }
 .section:deep() .content {
-  flex: 0 0 var(50% - var(--space-0-5));
+  flex: 0 0 calc(50% - var(--space-0-5));
 }
 .section:deep() .action {
-  flex: 0 0 var(50% - var(--space-0-5));
+  flex: 0 0 calc(50% - var(--space-0-5));
 }
 .section:deep() .title {
   font-size: var(--font-size-3xl);

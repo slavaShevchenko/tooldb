@@ -10,6 +10,7 @@
       `button--${variant}`,
       `button--${size}`,
       width ? `button--width-${width}` : '',
+      oneline ? 'button--oneline' : ''
     ]"
     :disabled="tag === 'button' ? disabled : undefined"
   >
@@ -27,6 +28,7 @@ const props = withDefaults(
     size?: 'sm' | 'md' | 'lg'
     width?: 'full' | 'auto'
     disabled?: boolean
+    oneline?: boolean
 
     to?: string
     href?: string
@@ -37,7 +39,8 @@ const props = withDefaults(
     size: 'md',
     width: 'auto',
     disabled: false,
-    target: '_self'
+    target: '_self',
+    oneline: false
   }
 )
 
@@ -140,5 +143,14 @@ const tag = computed(() => {
   &:hover:not(:disabled) {
     background: var(--color-surface-secondary);
   }
+}
+
+/* Oneline */
+
+.button--oneline {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
 }
 </style>

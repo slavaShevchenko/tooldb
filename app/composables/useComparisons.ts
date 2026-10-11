@@ -13,6 +13,11 @@ export const useComparisons = () => {
   const getComparisonTools = (slugs: string[]): Tool[] =>
     tools.filter(tool => slugs.includes(tool.slug))
 
+  const getComparisonSlugsByToolSlug = (toolSlug: string): string[] =>
+    comporisonPosts
+      .filter(comparison => comparison.tools.includes(toolSlug))
+      .map(comparison => comparison.slug)
+
   const getRelatedComparisons = (currentSlug: string, limit = 6): ComparisonPage[] => {
     const current = comporisonPosts.find(c => c.slug === currentSlug)
     if (!current) return []
@@ -23,7 +28,7 @@ export const useComparisons = () => {
       .filter(c => c.slug !== currentSlug)
       .map(c => ({
         comparison: c,
-        matchCount: c.category.filter(cat => currentCategories.has(cat)).length,
+        matchCount: c.category.filter(cat => currentCategories.has(cat)).length
       }))
       .sort((a, b) => b.matchCount - a.matchCount)
       .slice(0, limit)
@@ -47,9 +52,10 @@ export const useComparisons = () => {
     getComparisons,
     getComparisonBySlug,
     getComparisonTools,
+    getComparisonSlugsByToolSlug,
     getRelatedComparisons,
     getComparisonsCount,
     getCategoriesCount,
-    getToolsCount,
+    getToolsCount
   }
 }
