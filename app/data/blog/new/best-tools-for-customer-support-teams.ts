@@ -5,7 +5,7 @@ export const bestToolsForCustomerSupportTeams: BlogPostData = {
   image: '/images/blog-image/best-tools-for-customer-support-teams.webp',
   title: 'Best Tools for Customer Support Teams: Top Solutions for Help Desks, Chat and Automation',
   description: 'Deliver exceptional service at scale. We compare the best tools for customer support teams to help you streamline ticketing, chat and automation.',
-  published: false,
+  published: true,
   publishedAt: '2026-10-10',
   updatedAt: '2026-10-10',
   content: [

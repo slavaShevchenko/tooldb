@@ -175,6 +175,36 @@ import { pdfpowerkitContent } from './pdfpowerkit'
 import { flytivyaiworkspaceContent } from './flytivyaiworkspace'
 import { flytivyaidownloadmanagerContent } from './flytivyaidownloadmanager'
 
+// from google SEO
+import { woorankContent } from './woorank'
+import { seobilityContent } from './seobility'
+import { sistrixContent } from './sistrix'
+import { raventoolsContent } from './raventools'
+import { accurankerContent } from './accuranker'
+import { seopowersuiteContent } from './seopowersuite'
+import { sitebulbContent } from './sitebulb'
+import { searchmetricsContent } from './searchmetrics'
+import { xoviContent } from './xovi'
+import { youscanContent } from './youscan'
+import { awarioContent } from './awario'
+import { dashthisContent } from './dashthis'
+import { swydoContent } from './swydo'
+import { oviondContent } from './oviond'
+import { reporteiContent } from './reportei'
+import { statusbrewContent } from './statusbrew'
+import { socialpilotContent } from './socialpilot'
+import { dashsocialContent } from './dashsocial'
+import { sleekplanContent } from './sleekplan'
+import { upvotyContent } from './upvoty'
+import { frillContent } from './frill'
+import { ynabContent } from './ynab'
+import { obsidianContent } from './obsidian'
+import { kuberaContent } from './kubera'
+import { specrightContent } from './specright'
+
+// link change
+import { instaveilContent } from './instaveil'
+
 export const getToolContent = (slug: string) => {
   return toolContent[slug as keyof typeof toolContent]
 }
@@ -356,4 +386,34 @@ export const toolContent = {
   pdfpowerkit: pdfpowerkitContent,
   flytivyaiworkspace: flytivyaiworkspaceContent,
   flytivyaidownloadmanager: flytivyaidownloadmanagerContent,
+
+  // google SEO
+  woorank: woorankContent,
+  seobility: seobilityContent,
+  sistrix: sistrixContent,
+  raventools: raventoolsContent,
+  accuranker: accurankerContent,
+  seopowersuite: seopowersuiteContent,
+  sitebulb: sitebulbContent,
+  searchmetrics: searchmetricsContent,
+  xovi: xoviContent,
+  youscan: youscanContent,
+  awario: awarioContent,
+  dashthis: dashthisContent,
+  swydo: swydoContent,
+  oviond: oviondContent,
+  reportei: reporteiContent,
+  statusbrew: statusbrewContent,
+  socialpilot: socialpilotContent,
+  dashsocial: dashsocialContent,
+  sleekplan: sleekplanContent,
+  upvoty: upvotyContent,
+  frill: frillContent,
+  ynab: ynabContent,
+  obsidian: obsidianContent,
+  kubera: kuberaContent,
+  specright: specrightContent,
+
+  // link change
+  instaveil: instaveilContent,
 } as const

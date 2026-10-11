@@ -11229,5 +11229,1435 @@ export const tools: Tool[] = [
       { id: '2', title: 'Duplicate Detection', description: 'AI identifies potential duplicate files based on content similarity, not just file names, to save storage space.', icon: 'copy' },
       { id: '3', title: 'Organization Preview', description: 'Preview how files would be organized before applying changes, with AI suggestions for folder structure.', icon: 'folder-tree' }
     ]
+  },
+  {
+    id: '174',
+    slug: 'woorank',
+    name: 'WooRank',
+    tagline: 'Website SEO audit and digital agency sales tool',
+    description: 'All-in-one SEO audit platform generating instant website reviews with 100+ checks, keyword tracking, and white-label PDF reports for agencies and marketers.',
+    overview: '',
+    pricingDescription: 'Pro plan at $59.99/mo for 1 website and 50 keywords. Premium at $179.99/mo with multiple websites and advanced tracking. Enterprise from $249.99/mo with white-label reports and agency features.',
+    logo: '/images/tool-logo/woorank.webp',
+    website: 'https://www.woorank.com',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing'],
+    tags: [
+      'seo-audit',
+      'website-analysis',
+      'keyword-tracking',
+      'site-crawl',
+      'core-web-vitals',
+      'white-label',
+      'seo-reports',
+      'agency-tools'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 850,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'instant-reviews', text: 'Instant SEO audits with 100+ checks' },
+      { id: 'browser-extensions', text: 'Chrome and Firefox extensions for on-the-fly reviews' },
+      { id: 'core-web-vitals', text: 'Core Web Vitals monitoring and scoring' },
+      { id: 'white-label', text: 'White-label PDF reports for agencies' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Instant SEO Reviews',
+        description: 'Generate comprehensive SEO audits covering on-page, off-page, usability, and technical factors in seconds.',
+        icon: 'scan'
+      },
+      {
+        id: '2',
+        title: 'Keyword Tracking',
+        description: 'Track keyword rankings across search engines with daily updates and competitor comparison.',
+        icon: 'trending-up'
+      },
+      {
+        id: '3',
+        title: 'White-Label Reporting',
+        description: 'Create branded PDF reports with your agency logo for client presentations and lead generation.',
+        icon: 'file-chart-column'
+      }
+    ]
+  },
+  {
+    id: '175',
+    slug: 'seobility',
+    name: 'Seobility',
+    tagline: 'All-in-one SEO software with generous free tier',
+    description: 'Comprehensive SEO platform combining site audits, rank tracking, backlink monitoring, and AI content tools with a genuinely useful free plan for beginners and affordable pricing for growing teams.',
+    overview: '',
+    pricingDescription: 'Free Basic plan with 1 project and 100 crawled pages. Premium at $69.90/mo for 3 projects. Professional at $109.90/mo for 7 projects. Agency at $239.90/mo for 20 projects with team features.',
+    logo: '/images/tool-logo/seobility.webp',
+    website: 'https://www.seobility.net',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing'],
+    tags: [
+      'seo-audit',
+      'rank-tracking',
+      'backlink-monitoring',
+      'keyword-research',
+      'ai-content',
+      'white-label',
+      'uptime-monitoring',
+      'all-in-one-seo'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 720,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'generous-free', text: 'Useful free plan with 1 project and 100 crawled pages' },
+      { id: 'ai-content', text: 'AI-powered content optimization and creation tools' },
+      { id: 'uptime-monitoring', text: 'Built-in uptime monitoring for all tracked websites' },
+      { id: 'affordable', text: 'Most affordable all-in-one SEO suite starting at $69.90/mo' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Website Audit',
+        description: 'Deep site crawl identifying 300+ on-page, off-page, and technical SEO issues with prioritized remediation.',
+        icon: 'scan'
+      },
+      {
+        id: '2',
+        title: 'Rank Tracking',
+        description: 'Daily keyword ranking monitoring across search engines with historical data and competitor comparison.',
+        icon: 'trending-up'
+      },
+      {
+        id: '3',
+        title: 'AI Content Tools',
+        description: 'AI-powered content optimization with WDF*IDF analysis, content scoring, and generative AI writing assistance.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '176',
+    slug: 'sistrix',
+    name: 'Sistrix',
+    tagline: 'EU SEO benchmark with the original Visibility Index',
+    description: 'Enterprise SEO platform famous for inventing the Visibility Index — the industry benchmark for measuring SEO performance since 2008, covering 100+ million domains across 40 countries.',
+    overview: '',
+    pricingDescription: 'START plan at €119/mo, PLUS at €419/mo with expanded modules, Professional and Premium with custom pricing. Modular pricing lets you pay only for modules you need. 14-day free trial available.',
+    logo: '/images/tool-logo/sistrix.webp',
+    website: 'https://www.sistrix.com',
+    affiliateUrl: null,
+    categories: ['seo', 'analytics'],
+    tags: [
+      'visibility-index',
+      'seo-toolbox',
+      'competitor-analysis',
+      'keyword-research',
+      'link-analysis',
+      'eu-seo',
+      'ai-visibility',
+      'enterprise-seo'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 1100,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'visibility-index', text: 'Original Visibility Index — industry standard since 2008' },
+      { id: 'modular-pricing', text: 'Modular pricing — pay only for the modules you use' },
+      { id: 'eu-coverage', text: 'Deepest European market coverage across 40 countries' },
+      { id: 'ai-visibility', text: 'Free AI Visibility tracking for LLM and chatbot search' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Visibility Index',
+        description: 'The industry-standard metric measuring SEO visibility across 100+ million domains in 40 countries, updated daily since 2008.',
+        icon: 'eye'
+      },
+      {
+        id: '2',
+        title: 'SEO Toolbox',
+        description: 'Modular toolkit covering keywords, links, on-page optimization, competitor analysis, and social media in one platform.',
+        icon: 'wrench'
+      },
+      {
+        id: '3',
+        title: 'AI Visibility',
+        description: 'Track how your brand appears in AI chatbots and LLM responses — free beta feature included with every plan.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '177',
+    slug: 'raventools',
+    name: 'Raven Tools',
+    tagline: 'Agency-focused SEO and marketing analytics suite',
+    description: 'All-in-one marketing platform built for agencies combining site audits, rank tracking, backlink analysis, and white-label reporting across SEO, PPC, social media, and email campaigns.',
+    overview: '',
+    pricingDescription: 'Base at $79/mo for 2 domains. Start at $139/mo, Grow at $179/mo, Connect at $299/mo, Build at $479/mo. Pricing scales with domains tracked and team seats. Annual billing saves ~17%. 7-day free trial available.',
+    logo: '/images/tool-logo/raventools.webp',
+    website: 'https://raventools.com',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing'],
+    tags: [
+      'agency-seo',
+      'white-label-reporting',
+      'site-audit',
+      'rank-tracking',
+      'backlink-analysis',
+      'marketing-analytics',
+      'ppc-reporting',
+      'social-media'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.3,
+    reviewCount: 680,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'agency-focused', text: 'Built specifically for digital agencies managing multiple clients' },
+      { id: 'white-label', text: 'Fully white-labeled reports with your agency branding' },
+      { id: 'multi-channel', text: 'SEO, PPC, social media, and email analytics in one platform' },
+      { id: 'scheduled-reports', text: 'Automated scheduled reporting delivered to clients on any cadence' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Site Auditor',
+        description: 'Deep crawl identifying on-page, off-page, and technical SEO issues with prioritized remediation guidance.',
+        icon: 'scan'
+      },
+      {
+        id: '2',
+        title: 'White-Label Reporting',
+        description: 'Build branded reports combining SEO, PPC, social, and email data with your agency logo and colors.',
+        icon: 'file-chart-column'
+      },
+      {
+        id: '3',
+        title: 'Link Manager',
+        description: 'Track link building campaigns, monitor new and lost backlinks, and measure link acquisition progress over time.',
+        icon: 'link'
+      }
+    ]
+  },
+  {
+    id: '178',
+    slug: 'accuranker',
+    name: 'AccuRanker',
+    tagline: 'The world\'s most accurate on-demand rank tracker',
+    description: 'Specialized rank tracking platform delivering the fastest and most accurate keyword position data with on-demand refresh, granular location tracking, and share-of-voice analytics for enterprise SEO teams and agencies.',
+    overview: '',
+    pricingDescription: 'Starts at $129/mo for 500 tracked keywords. $249/mo for 2,000 keywords, $489/mo for 4,000 keywords, $929/mo for 10,000 keywords. Agency and Enterprise plans available. Pricing based on keyword count. 14-day free trial.',
+    logo: '/images/tool-logo/accuranker.webp',
+    website: 'https://www.accuranker.com',
+    affiliateUrl: null,
+    categories: ['seo'],
+    tags: [
+      'rank-tracking',
+      'serp-tracking',
+      'keyword-positions',
+      'local-seo',
+      'share-of-voice',
+      'agency-seo',
+      'enterprise-seo',
+      'serp-features'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.8,
+    reviewCount: 420,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'on-demand', text: 'On-demand rank refresh — get updated positions in seconds, not days' },
+      { id: 'accuracy', text: 'Industry-leading accuracy across Google, Bing, Yahoo, and Yandex' },
+      { id: 'granular-location', text: 'Track rankings at zip code, city, or neighborhood level' },
+      { id: 'share-of-voice', text: 'Share of voice and traffic value metrics beyond raw positions' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'On-Demand Refresh',
+        description: 'Refresh keyword rankings instantly whenever needed rather than waiting for daily or weekly automated updates.',
+        icon: 'refresh-cw'
+      },
+      {
+        id: '2',
+        title: 'Granular Location Tracking',
+        description: 'Track rankings at zip code, city, neighborhood, or specific coordinates for accurate local SEO measurement.',
+        icon: 'map-pin'
+      },
+      {
+        id: '3',
+        title: 'Share of Voice',
+        description: 'Calculate share of voice and traffic value across tracked keywords with competitor comparison and market share trends.',
+        icon: 'pie-chart'
+      }
+    ]
+  },
+  {
+    id: '179',
+    slug: 'seopowersuite',
+    name: 'SEO PowerSuite',
+    tagline: 'Desktop SEO suite with one-time pricing',
+    description: 'Comprehensive desktop SEO toolkit combining four specialized tools — Rank Tracker, WebSite Auditor, SEO SpyGlass, and LinkAssistant — with unique one-time licensing instead of monthly subscriptions.',
+    overview: '',
+    pricingDescription: 'Free plan with limited features and watermarks. Professional at $299 one-time for full features. Enterprise at $699 one-time with advanced reporting and team features. Lifetime licenses with annual data updates. No monthly subscriptions required.',
+    logo: '/images/tool-logo/seopowersuite.webp',
+    website: 'https://www.seopowersuite.com',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing'],
+    tags: [
+      'desktop-seo',
+      'one-time-pricing',
+      'rank-tracker',
+      'site-audit',
+      'backlink-analysis',
+      'link-building',
+      'unlimited-projects',
+      'offline-seo'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 2100,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'one-time', text: 'One-time purchase — no monthly subscriptions or recurring fees' },
+      { id: 'unlimited-projects', text: 'Unlimited websites, keywords, and backlinks on every plan' },
+      { id: 'four-tools', text: 'Four specialized tools: Rank Tracker, WebSite Auditor, SEO SpyGlass, LinkAssistant' },
+      { id: 'offline-capable', text: 'Desktop app works offline with local data storage' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Rank Tracker',
+        description: 'Track unlimited keywords across 400+ search engines with localized tracking and SERP feature detection.',
+        icon: 'trending-up'
+      },
+      {
+        id: '2',
+        title: 'WebSite Auditor',
+        description: 'Deep site crawl identifying technical and on-page SEO issues with visual site architecture mapping.',
+        icon: 'scan'
+      },
+      {
+        id: '3',
+        title: 'SEO SpyGlass & LinkAssistant',
+        description: 'Analyze competitor backlinks and prospect link building opportunities with outreach automation built in.',
+        icon: 'link'
+      }
+    ]
+  },
+  {
+    id: '180',
+    slug: 'sitebulb',
+    name: 'Sitebulb',
+    tagline: 'Technical SEO crawler with prioritized audit hints',
+    description: 'Desktop and cloud SEO audit tool analyzing 300+ technical issues with visual crawl maps, prioritized remediation guidance, and JavaScript rendering capabilities for comprehensive website audits.',
+    overview: '',
+    pricingDescription: 'Lite at $18/mo for basic audits. Pro at $42/mo with advanced features. Desktop plans from £95/mo (~$120/mo) with higher crawl limits. Up to 500,000 URLs per audit. 14-day free trial available.',
+    logo: '/images/tool-logo/sitebulb.webp',
+    website: 'https://sitebulb.com',
+    affiliateUrl: null,
+    categories: ['seo', 'web-development'],
+    tags: [
+      'site-audit',
+      'technical-seo',
+      'crawler',
+      'javascript-rendering',
+      'crawl-maps',
+      'website-analysis',
+      'seo-reporting',
+      'prioritized-hints'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 380,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'prioritized-hints', text: '300+ audit hints prioritized by SEO impact and effort' },
+      { id: 'visual-crawl-maps', text: 'Visual crawl maps showing site architecture and internal linking' },
+      { id: 'javascript-rendering', text: 'JavaScript rendering included at no extra cost' },
+      { id: 'comparison-reports', text: 'Compare any two audits to track progress over time' }
+    ],
+    platforms: ['windows', 'mac', 'web'],
+    features: [
+      {
+        id: '1',
+        title: 'Prioritized Audit Hints',
+        description: '300+ technical SEO checks organized by impact and effort, helping teams focus on fixes that drive the most value.',
+        icon: 'list-checks'
+      },
+      {
+        id: '2',
+        title: 'Visual Crawl Maps',
+        description: 'Interactive crawl maps visualizing site architecture, internal linking structure, and crawl depth for intuitive understanding.',
+        icon: 'network'
+      },
+      {
+        id: '3',
+        title: 'JavaScript Rendering',
+        description: 'Crawl and render JavaScript-heavy sites without additional cost, capturing content that traditional crawlers miss.',
+        icon: 'code'
+      }
+    ]
+  },
+  {
+    id: '181',
+    slug: 'searchmetrics',
+    name: 'Searchmetrics',
+    tagline: 'Enterprise SEO platform for content optimization and competitive intelligence',
+    description: 'Enterprise-grade SEO platform specializing in content optimization, competitive research, and search visibility analysis for large organizations managing complex content strategies across multiple markets.',
+    overview: '',
+    pricingDescription: 'Enterprise pricing starting from $3,000/mo based on features and scale. Custom quotes for large organizations. Pricing based on keyword queries and competitive analysis depth. No self-serve pricing available.',
+    logo: '/images/tool-logo/searchmetrics.webp',
+    website: 'https://www.searchmetrics.com',
+    affiliateUrl: null,
+    categories: ['seo', 'analytics'],
+    tags: [
+      'enterprise-seo',
+      'content-optimization',
+      'competitive-intelligence',
+      'search-visibility',
+      'keyword-research',
+      'content-marketing',
+      'seo-analytics',
+      'market-research'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 650,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'content-optimization', text: 'Advanced content optimization with semantic analysis and topic relevance' },
+      { id: 'competitive-intelligence', text: 'Deep competitive research across markets and content strategies' },
+      { id: 'enterprise-scale', text: 'Built for large organizations with complex SEO requirements' },
+      { id: 'search-visibility', text: 'Comprehensive search visibility tracking across multiple markets' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Content Optimization',
+        description: 'Semantic content analysis identifying topic relevance, keyword gaps, and optimization opportunities based on top-ranking content.',
+        icon: 'file-text'
+      },
+      {
+        id: '2',
+        title: 'Competitive Research',
+        description: 'Analyze competitor content strategies, keyword portfolios, and search visibility across multiple markets and languages.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Search Visibility Index',
+        description: 'Track search visibility trends over time with historical data spanning years of search performance across markets.',
+        icon: 'trending-up'
+      }
+    ]
+  },
+  {
+    id: '182',
+    slug: 'xovi',
+    name: 'XOVI',
+    tagline: 'All-in-one SEO suite with AI Signal tracking',
+    description: 'German all-in-one SEO platform combining keyword research, site audits, rank tracking, backlink monitoring, and white-label reporting with innovative AI Signal feature tracking brand presence in AI-generated answers.',
+    overview: '',
+    pricingDescription: 'Pro at €99/mo (~$107/mo), Business at €149/mo (~$161/mo), Enterprise with custom pricing. XOVI NOW entry-level from $15/mo for basic SEO tasks. 14-day free trial with full feature access.',
+    logo: '/images/tool-logo/xovi.webp',
+    website: 'https://www.xovi.com',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing'],
+    tags: [
+      'all-in-one-seo',
+      'keyword-research',
+      'site-audit',
+      'rank-tracking',
+      'backlink-monitoring',
+      'white-label',
+      'ai-signal',
+      'agency-seo'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 420,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'ai-signal', text: 'AI Signal tracks brand presence in AI-generated answers and chatbot responses' },
+      { id: 'affordable', text: 'Most affordable all-in-one SEO suite starting at €99/mo' },
+      { id: 'unlimited-queries', text: 'Unlimited keyword queries in keyword research tool' },
+      { id: 'white-label', text: 'White-label reporting for agencies managing multiple clients' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'AI Signal',
+        description: 'Track how your brand appears in AI-generated answers from ChatGPT, Perplexity, and other AI assistants with optimization recommendations.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Keyword Research',
+        description: 'Comprehensive keyword database with unlimited queries, search volume, difficulty, and competitive analysis across multiple markets.',
+        icon: 'search'
+      },
+      {
+        id: '3',
+        title: 'Site Audit & Rank Tracking',
+        description: 'Technical site audits identifying 200+ issues plus daily rank tracking across search engines with local and mobile tracking options.',
+        icon: 'scan'
+      }
+    ]
+  },
+  {
+    id: '183',
+    slug: 'youscan',
+    name: 'YouScan',
+    tagline: 'AI-powered social listening with visual recognition',
+    description: 'AI-powered social listening platform tracking text and image mentions across social media, blogs, forums, and news with real-time sentiment analysis, visual brand recognition, and Insights Copilot AI agent.',
+    overview: '',
+    pricingDescription: 'Starter-3 at $499/mo for 3 topics and 15,000 monthly mentions. Unlimited plans with full image recognition at custom pricing. Annual billing required. 14-day free trial available.',
+    logo: '/images/tool-logo/youscan.webp',
+    website: 'https://youscan.io',
+    affiliateUrl: null,
+    categories: ['analytics', 'marketing'],
+    tags: [
+      'social-listening',
+      'brand-monitoring',
+      'sentiment-analysis',
+      'image-recognition',
+      'ai-analytics',
+      'competitor-analysis',
+      'influencer-discovery',
+      'crisis-management'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 320,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'visual-listening', text: 'AI image recognition detects brand logos in photos and videos' },
+      { id: 'insights-copilot', text: 'Insights Copilot AI agent answers questions about your social data' },
+      { id: 'real-time', text: 'Real-time monitoring across social media, blogs, forums, and news' },
+      { id: 'sentiment', text: 'AI-powered sentiment analysis in multiple languages' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Visual Brand Monitoring',
+        description: 'AI image recognition detects brand logos, products, and visual mentions in photos and videos across social networks.',
+        icon: 'eye'
+      },
+      {
+        id: '2',
+        title: 'Insights Copilot',
+        description: 'AI agent that answers questions about your social data, generates summaries, and surfaces actionable insights automatically.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'Real-Time Monitoring',
+        description: 'Track mentions across social media, blogs, forums, news sites, and review platforms with instant alerts for crisis situations.',
+        icon: 'radio'
+      }
+    ]
+  },
+  {
+    id: '184',
+    slug: 'awario',
+    name: 'Awario',
+    tagline: 'Affordable social media and web monitoring tool',
+    description: 'Budget-friendly social listening platform monitoring brand mentions across social networks, news, blogs, and the web with real-time alerts, lead generation, and influencer discovery starting at just $29/mo.',
+    overview: '',
+    pricingDescription: 'Starter at $29/mo (annual) or $49/mo (monthly) for 3 alerts and 30,000 mentions. Pro at $89/mo (annual) or $149/mo for 15 alerts and 300,000 mentions. Enterprise at $249/mo (annual) or $399/mo for unlimited alerts. 7-day free trial, no credit card required.',
+    logo: '/images/tool-logo/awario.webp',
+    website: 'https://awario.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'marketing'],
+    tags: [
+      'social-listening',
+      'brand-monitoring',
+      'lead-generation',
+      'influencer-discovery',
+      'sentiment-analysis',
+      'competitor-tracking',
+      'web-monitoring',
+      'affordable'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 480,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'affordable', text: 'Most affordable social listening starting at $29/mo' },
+      { id: 'lead-generation', text: 'Find leads by monitoring relevant conversations and questions' },
+      { id: 'influencer-discovery', text: 'Identify niche influencers mentioning your brand or industry' },
+      { id: 'no-credit-card', text: '7-day free trial without credit card information' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Real-Time Monitoring',
+        description: 'Track brand mentions across social networks, news sites, blogs, forums, and review platforms with customizable alerts.',
+        icon: 'radio'
+      },
+      {
+        id: '2',
+        title: 'Lead Generation',
+        description: 'Discover potential customers by monitoring relevant conversations, questions, and complaints about your industry or competitors.',
+        icon: 'user-plus'
+      },
+      {
+        id: '3',
+        title: 'Influencer Discovery',
+        description: 'Identify influencers and thought leaders mentioning your brand, competitors, or industry topics with reach and engagement metrics.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '185',
+    slug: 'dashthis',
+    name: 'DashThis',
+    tagline: 'Automated marketing reporting dashboards for agencies',
+    description: 'Marketing reporting platform connecting 30+ data sources into client-ready dashboards with white-label branding, automated delivery, and drag-and-drop customization designed specifically for digital marketing agencies.',
+    overview: '',
+    pricingDescription: 'Individual at $44/mo for 3 dashboards and 15 data sources. Professional at $139/mo for 10 dashboards and 50 sources. Agency at $479/mo for 50 dashboards and 250 sources. Source-based pricing introduced March 2026. 14-day free trial.',
+    logo: '/images/tool-logo/dashthis.webp',
+    website: 'https://dashthis.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'analytics'],
+    tags: [
+      'marketing-reporting',
+      'dashboards',
+      'agency-tools',
+      'white-label',
+      'automated-reports',
+      'data-visualization',
+      'client-reporting',
+      'multi-channel'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 560,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'thirty-integrations', text: 'Connect 30+ marketing platforms including Google Ads, Meta, and Analytics' },
+      { id: 'white-label', text: 'Fully white-labeled dashboards with your agency logo and branding' },
+      { id: 'drag-and-drop', text: 'Drag-and-drop dashboard builder requiring zero technical skills' },
+      { id: 'automated-delivery', text: 'Schedule automated PDF or email report delivery to clients' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'White-Label Dashboards',
+        description: 'Custom branded dashboards combining data from multiple platforms into unified views that clients access with your agency branding.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '2',
+        title: 'Automated Reporting',
+        description: 'Schedule PDF or email reports with custom templates, client-specific commentary, and automatic delivery to stakeholders on any cadence.',
+        icon: 'file-chart-column'
+      },
+      {
+        id: '3',
+        title: '30+ Integrations',
+        description: 'Connect Google Ads, Google Analytics, Meta Ads, LinkedIn, Mailchimp, HubSpot, and dozens more platforms into unified dashboards.',
+        icon: 'plug'
+      }
+    ]
+  },
+  {
+    id: '186',
+    slug: 'swydo',
+    name: 'Swydo',
+    tagline: 'Marketing reporting and monitoring for PPC agencies',
+    description: 'Marketing reporting platform combining automated client reports, real-time monitoring, and AI-driven insights with predictable per-source pricing designed for PPC and multi-channel agencies.',
+    overview: '',
+    pricingDescription: 'Base plan at $69/mo ($62/mo annual) includes 10 data sources, unlimited clients, and unlimited users. Additional data sources at $6.90 each. All features included on every plan. No per-client fees.',
+    logo: '/images/tool-logo/swydo.webp',
+    website: 'https://www.swydo.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'analytics'],
+    tags: [
+      'marketing-reporting',
+      'ppc-reporting',
+      'white-label',
+      'agency-tools',
+      'automated-reports',
+      'monitoring',
+      'goal-tracking',
+      'multi-channel'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 640,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'unlimited-clients', text: 'Unlimited clients and unlimited users on every plan' },
+      { id: 'source-pricing', text: 'Predictable per-source pricing — costs scale with data sources, not clients' },
+      { id: 'thirty-four-sources', text: '34+ data source integrations including Google Ads, Meta, Analytics' },
+      { id: 'ai-insights', text: 'AI-driven monitoring and anomaly detection with real-time alerts' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Automated White-Label Reports',
+        description: 'Build custom branded reports with drag-and-drop builder, scheduled delivery, and full white-label branding for agency clients.',
+        icon: 'file-chart-column'
+      },
+      {
+        id: '2',
+        title: 'Real-Time Monitoring',
+        description: 'Monitor client accounts 24/7 with AI-driven anomaly detection and instant alerts when metrics deviate from expected patterns.',
+        icon: 'activity'
+      },
+      {
+        id: '3',
+        title: 'Goal Tracking',
+        description: 'Set and track campaign goals with visual progress indicators, automatically included in client reports and monitoring alerts.',
+        icon: 'target'
+      }
+    ]
+  },
+  {
+    id: '187',
+    slug: 'oviond',
+    name: 'Oviond',
+    tagline: 'Per-client marketing reporting with AI analytics',
+    description: 'Marketing reporting platform with per-client pricing, 70+ data source integrations, AI-driven analytics, and white-label dashboards designed for agencies scaling their client base.',
+    overview: '',
+    pricingDescription: '$50/mo for first 10 clients, then $5 per additional client ($4/client on annual billing). All features included: unlimited reports, unlimited users, 70+ data sources, white-label. 15-day free trial.',
+    logo: '/images/tool-logo/oviond.webp',
+    website: 'https://www.oviond.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'analytics'],
+    tags: [
+      'marketing-reporting',
+      'agency-tools',
+      'white-label',
+      'ai-analytics',
+      'dashboards',
+      'automated-reports',
+      'client-reporting',
+      'multi-channel'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.4,
+    reviewCount: 84,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'per-client', text: 'Per-client pricing — costs scale directly with client count, not data sources' },
+      { id: 'seventy-sources', text: '70+ native data source integrations plus Custom API and Google Sheets' },
+      { id: 'ai-analytics', text: 'AI-driven analytics with automated insights and anomaly detection' },
+      { id: 'unlimited', text: 'Unlimited reports, dashboards, and users on every plan' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'White-Label Dashboards',
+        description: 'Fully white-labeled client dashboards with custom domains, branded reports, and unlimited users per client account.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '2',
+        title: 'AI-Driven Analytics',
+        description: 'AI automatically surfaces insights, identifies trends, and generates plain-language explanations for client reports.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: '70+ Data Integrations',
+        description: 'Connect Google Ads, Meta, LinkedIn, Analytics, CRMs, SEO tools, and dozens more with automatic data synchronization.',
+        icon: 'plug'
+      }
+    ]
+  },
+  {
+    id: '188',
+    slug: 'reportei',
+    name: 'Reportei',
+    tagline: 'Social media and digital marketing reporting for agencies',
+    description: 'Marketing reporting platform specializing in social media, paid traffic, SEO, and sales dashboards with affordable pricing, 30+ integrations, and strong adoption across Latin American and European agencies.',
+    overview: '',
+    pricingDescription: 'Starter at $24/mo for basic reporting. Professional and Agency tiers with expanded clients and data sources. Annual billing available. 14-day free trial. All plans include automated reports and dashboards.',
+    logo: '/images/tool-logo/reportei.webp',
+    website: 'https://reportei.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'analytics'],
+    tags: [
+      'social-media-reporting',
+      'marketing-reporting',
+      'agency-tools',
+      'paid-media',
+      'dashboards',
+      'automated-reports',
+      'latam',
+      'client-reporting'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 320,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'affordable', text: 'Most affordable social media reporting starting at $24/month' },
+      { id: 'latam-strong', text: 'Strong adoption across Latin America with Portuguese and Spanish support' },
+      { id: 'timeline', text: 'Unique Timeline feature tracking project milestones alongside metrics' },
+      { id: 'thirty-integrations', text: '30+ integrations for Instagram, Google Ads, YouTube, LinkedIn, Mailchimp' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Social Media Reporting',
+        description: 'Pre-built report templates for Instagram, Facebook, LinkedIn, TikTok, YouTube with automated data collection and branded delivery.',
+        icon: 'share-2'
+      },
+      {
+        id: '2',
+        title: 'Timeline Milestones',
+        description: 'Unique Timeline feature tracking project milestones, campaign launches, and strategy changes alongside performance metrics.',
+        icon: 'calendar-clock'
+      },
+      {
+        id: '3',
+        title: 'Automated Report Delivery',
+        description: 'Schedule automated report dispatch to clients via email or PDF with custom branding and commentary on any cadence.',
+        icon: 'mail'
+      }
+    ]
+  },
+  {
+    id: '189',
+    slug: 'statusbrew',
+    name: 'Statusbrew',
+    tagline: 'Enterprise social media management at fair pricing',
+    description: 'Social media management platform offering 1:1 feature parity with Sprout Social and Hootsuite at competitive pricing, with advanced analytics, SOC Type II compliance, and dedicated support for mid-market teams.',
+    overview: '',
+    pricingDescription: 'Lite at $69/mo for 5 social profiles. Standard at $129/mo with 18 months data backfill. Professional at $249/mo. Bundle pricing ~$200/mo for 8 users. 14-day free trial available.',
+    logo: '/images/tool-logo/statusbrew.webp',
+    website: 'https://statusbrew.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'analytics'],
+    tags: [
+      'social-media-management',
+      'social-analytics',
+      'social-listening',
+      'reporting',
+      'team-collaboration',
+      'enterprise',
+      'sprout-alternative',
+      'white-label'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 420,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'feature-parity', text: '1:1 feature parity with Sprout Social and Hootsuite' },
+      { id: 'fair-pricing', text: 'Competitive pricing at 40-60% less than enterprise alternatives' },
+      { id: 'compliance', text: 'SOC Type II and GDPR compliant for enterprise requirements' },
+      { id: 'data-backfill', text: '18 months historical data backfill on Standard plan and above' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Unified Social Inbox',
+        description: 'Manage messages, comments, and mentions from all social networks in one collaborative inbox with team assignments.',
+        icon: 'inbox'
+      },
+      {
+        id: '2',
+        title: 'Advanced Analytics',
+        description: '250+ KPIs with customizable reports, competitive benchmarking, and 18 months of historical data backfill.',
+        icon: 'chart-column'
+      },
+      {
+        id: '3',
+        title: 'Social Listening',
+        description: 'Monitor brand mentions, industry conversations, and competitor activity with sentiment analysis and trend detection.',
+        icon: 'radar'
+      }
+    ]
+  },
+  {
+    id: '190',
+    slug: 'socialpilot',
+    name: 'SocialPilot',
+    tagline: 'Social media management built for agencies and SMBs',
+    description: 'Affordable social media scheduling and management platform serving 13,500+ agencies and businesses with unlimited users, white-label reporting, and AI-powered content creation starting at $30/month.',
+    overview: '',
+    pricingDescription: 'Essentials at $30/mo for 7 social profiles. Standard at $50/mo for 15 profiles. Premium at $100/mo for 25 profiles. Ultimate at $200/mo for 50 profiles. Enterprise with custom pricing. 14-day free trial.',
+    logo: '/images/tool-logo/socialpilot.webp',
+    website: 'https://www.socialpilot.co',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'social-media-management',
+      'scheduling',
+      'agency-tools',
+      'white-label',
+      'ai-content',
+      'social-analytics',
+      'team-collaboration',
+      'affordable'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 2100,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'agency-focus', text: 'Built specifically for agencies managing multiple clients' },
+      { id: 'unlimited-users', text: 'Unlimited team members on all plans at no extra cost' },
+      { id: 'affordable', text: 'Most affordable agency platform starting at $30/month' },
+      { id: 'white-label', text: 'White-label reporting and client management included' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Multi-Client Management',
+        description: 'Organize unlimited clients and brands with separate workspaces, permissions, and white-label client access.',
+        icon: 'users'
+      },
+      {
+        id: '2',
+        title: 'Bulk Scheduling',
+        description: 'Schedule hundreds of posts at once via CSV upload, RSS feeds, or content curation from multiple sources.',
+        icon: 'calendar'
+      },
+      {
+        id: '3',
+        title: 'AI Content Assistant',
+        description: 'Generate captions, hashtags, and content ideas with unlimited AI credits included on all plans.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '191',
+    slug: 'dashsocial',
+    name: 'Dash Social',
+    tagline: 'Enterprise social media platform with brand-intelligent AI',
+    description: 'Enterprise-grade social media management platform (formerly Dash Hudson) powered by brand-intelligent AI for visual-first consumer brands, combining content management, creator campaigns, and advanced analytics.',
+    overview: '',
+    pricingDescription: 'Engage at $999/mo for core features. Advance at $1,999/mo with advanced analytics. Enterprise starting at $3,499/mo with custom features. Pricing based on social profiles and content volume. 14-day free trial.',
+    logo: '/images/tool-logo/dashsocial.webp',
+    website: 'https://www.dashsocial.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'analytics'],
+    tags: [
+      'social-media-management',
+      'enterprise',
+      'visual-content',
+      'creator-management',
+      'brand-intelligence',
+      'social-analytics',
+      'consumer-brands',
+      'ai-powered'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 680,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'brand-intelligent', text: 'Brand-intelligent AI understanding your visual identity and content performance' },
+      { id: 'visual-first', text: 'Built for visual-first brands on Instagram, TikTok, and Pinterest' },
+      { id: 'creator-campaigns', text: 'End-to-end creator and influencer campaign management' },
+      { id: 'enterprise-grade', text: 'Enterprise security, compliance, and dedicated support' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Visual Content Planning',
+        description: 'Plan and preview visual content grids for Instagram, TikTok, and Pinterest with drag-and-drop calendar.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '2',
+        title: 'Creator Management',
+        description: 'Discover, manage, and measure creator campaigns with built-in briefs, approvals, and ROI tracking.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Brand Intelligence AI',
+        description: 'AI analyzes content performance, identifies winning creative patterns, and predicts post engagement.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '192',
+    slug: 'sleekplan',
+    name: 'Sleekplan',
+    tagline: 'AI-powered customer feedback platform with built-in NPS',
+    description: 'All-in-one customer feedback platform combining feedback boards, public roadmaps, changelogs, NPS/CSAT surveys, and AI that drafts release notes automatically from shipped work.',
+    overview: '',
+    pricingDescription: 'Indie free tier for small teams. Starter at $13/mo, Business at $38/mo, Enterprise with custom pricing. All plans include unlimited tracked users. 14-day free trial available.',
+    logo: '/images/tool-logo/sleekplan.webp',
+    website: 'https://sleekplan.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'community'],
+    tags: [
+      'feedback-boards',
+      'roadmap',
+      'changelog',
+      'nps-surveys',
+      'feature-requests',
+      'product-management',
+      'ai-changelog',
+      'user-feedback'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 380,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'ai-changelog', text: 'AI drafts release notes automatically from shipped work' },
+      { id: 'nps-surveys', text: 'Built-in NPS and CSAT surveys on all plans' },
+      { id: 'in-app-widget', text: 'In-app changelog and feedback widget for product teams' },
+      { id: 'affordable', text: 'Budget-friendly starting at $13/month with free Indie tier' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Feedback Boards',
+        description: 'Public and private boards where users submit feature requests, vote, comment, and engage with your product team.',
+        icon: 'message-square'
+      },
+      {
+        id: '2',
+        title: 'AI Changelog',
+        description: 'Sleek Intelligence drafts changelog entries from shipped work — edit a line, publish, and users hear about updates automatically.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'NPS & CSAT Surveys',
+        description: 'Built-in customer satisfaction surveys with automated distribution and trend tracking across user segments.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '193',
+    slug: 'upvoty',
+    name: 'Upvoty',
+    tagline: 'Feedback platform with voting boards and predictable pricing',
+    description: 'All-in-one feedback platform for product teams combining customizable voting boards, roadmaps, and changelogs with predictable per-board pricing and unlimited teammates on every plan.',
+    overview: '',
+    pricingDescription: 'Power at $15/mo (1 board), Super at $25/mo (3 boards), Hyper at $49/mo (unlimited boards). All plans include unlimited teammates and all core features. 14-day free trial, no credit card required.',
+    logo: '/images/tool-logo/upvoty.webp',
+    website: 'https://upvoty.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'community'],
+    tags: [
+      'voting-boards',
+      'feature-requests',
+      'roadmap',
+      'changelog',
+      'product-management',
+      'user-feedback',
+      'public-boards',
+      'prioritization'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 320,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'per-board', text: 'Predictable per-board pricing starting at $15/month' },
+      { id: 'unlimited-teammates', text: 'Unlimited teammates on every plan at no extra cost' },
+      { id: 'customizable', text: 'Fully customizable boards with leaderboards, tags, and filters' },
+      { id: 'sso-included', text: 'SSO and integrations available on all paid plans' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Voting Boards',
+        description: 'Customizable public boards with upvotes, leaderboards, tags, filters, and moderation tools for community-driven prioritization.',
+        icon: 'thumbs-up'
+      },
+      {
+        id: '2',
+        title: 'Roadmap & Changelog',
+        description: 'Public roadmap showing planned features and changelog announcing shipped updates with custom branding.',
+        icon: 'route'
+      },
+      {
+        id: '3',
+        title: 'Feedback Prioritization',
+        description: 'Internal prioritization tools linking user votes to product decisions with clear visibility into community demand.',
+        icon: 'target'
+      }
+    ]
+  },
+  {
+    id: '194',
+    slug: 'frill',
+    name: 'Frill',
+    tagline: 'Polished feature requests with modular pricing',
+    description: 'Feature request and changelog platform combining ideas boards, roadmap, and announcements with modular add-ons and a polished interface for teams prioritizing clean design and unlimited teammates.',
+    overview: '',
+    pricingDescription: 'Starter at $25/mo (50 active ideas), Growth at $29/mo with unlimited ideas and privacy. Roadmap and Changelog add $25 each per month. Enterprise from $349/mo. Annual billing saves ~10%.',
+    logo: '/images/tool-logo/frill.webp',
+    website: 'https://frill.co',
+    affiliateUrl: null,
+    categories: ['productivity', 'community'],
+    tags: [
+      'feature-requests',
+      'ideas-board',
+      'roadmap',
+      'changelog',
+      'announcements',
+      'product-management',
+      'unlimited-teammates',
+      'modular-pricing'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 280,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'polished-ui', text: 'Polished, modern interface for ideas, roadmap, and announcements' },
+      { id: 'modular', text: 'Modular pricing — pay only for Ideas, Roadmap, or Changelog modules you need' },
+      { id: 'unlimited-teammates', text: 'Unlimited teammates on every plan at no extra cost' },
+      { id: 'privacy', text: 'Private feedback boards and privacy controls on Growth and above' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Ideas Board',
+        description: 'Clean voting board where users submit ideas, vote, comment, and see what the community wants most.',
+        icon: 'lightbulb'
+      },
+      {
+        id: '2',
+        title: 'Roadmap Module',
+        description: 'Public roadmap showing planned features across Now, Next, and Later columns with progress tracking.',
+        icon: 'map'
+      },
+      {
+        id: '3',
+        title: 'Announcements',
+        description: 'Changelog and announcements module for sharing shipped features and product updates with your audience.',
+        icon: 'megaphone'
+      }
+    ]
+  },
+  {
+    id: '195',
+    slug: 'ynab',
+    name: 'YNAB',
+    tagline: 'Zero-based budgeting app that changes spending habits',
+    description: 'You Need A Budget is a zero-based budgeting platform built around the four-rule YNAB method that gives every dollar a job. The most expensive mainstream budgeting app ($109/year) but consistently rated highest for actually changing financial behavior through its proactive methodology.',
+    overview: '',
+    pricingDescription: '$14.99/month or $109/year ($9.08/month annual). No free tier, but 34-day free trial available. The most expensive mainstream budgeting app with no free plan.',
+    logo: '/images/tool-logo/ynab.webp',
+    website: 'https://www.ynab.com',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'zero-based-budgeting',
+      'personal-finance',
+      'envelope-budgeting',
+      'budget-tracking',
+      'debt-payoff',
+      'financial-coaching',
+      'subscription',
+      'behavior-change'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.8,
+    reviewCount: 4500,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'four-rules', text: 'Four-rule methodology that actively changes spending behavior' },
+      { id: 'zero-based', text: 'Zero-based budgeting where every dollar gets a job' },
+      { id: 'results', text: 'Average user saves $600 first two months, $6,000 first year' },
+      { id: 'community', text: 'Strong community with free workshops and financial coaching' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Zero-Based Budgeting',
+        description: 'Assign every dollar a specific job before spending it — proactive planning rather than reactive tracking.',
+        icon: 'wallet'
+      },
+      {
+        id: '2',
+        title: 'Rule-Based Methodology',
+        description: 'Four proven rules: give every dollar a job, embrace true expenses, roll with the punches, and age your money.',
+        icon: 'compass'
+      },
+      {
+        id: '3',
+        title: 'Goal Tracking & Reports',
+        description: 'Visual savings goals, spending reports by category, and net worth tracking to measure progress over time.',
+        icon: 'target'
+      }
+    ]
+  },
+  {
+    id: '196',
+    slug: 'obsidian',
+    name: 'Obsidian',
+    tagline: 'Local-first knowledge base with 1,400+ community plugins',
+    description: 'Obsidian is a free local-first knowledge base built on plain-text Markdown files stored on your own filesystem. Famous for its 1,400+ community plugins, bidirectional linking, and graph view that visualizes note connections. The default choice for privacy-conscious knowledge workers who value data ownership and extensibility.',
+    overview: '',
+    pricingDescription: 'Core app 100% free forever with unlimited vaults. Obsidian Sync $4-8/month (optional). Publish $8-10/month (optional). Commercial license $50/year. All core features remain free.',
+    logo: '/images/tool-logo/obsidian.webp',
+    website: 'https://obsidian.md',
+    affiliateUrl: null,
+    categories: ['productivity', 'ai'],
+    tags: [
+      'knowledge-base',
+      'local-first',
+      'markdown',
+      'second-brain',
+      'note-taking',
+      'bidirectional-links',
+      'plugins',
+      'privacy'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 4.8,
+    reviewCount: 2800,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'free-forever', text: 'Core app 100% free with every feature included forever' },
+      { id: 'local-files', text: 'Plain-text Markdown files stored on your own filesystem' },
+      { id: 'plugins', text: '1,400+ community plugins extending functionality infinitely' },
+      { id: 'data-ownership', text: 'Full data ownership — no vendor lock-in, no cloud dependency' }
+    ],
+    platforms: ['windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Bidirectional Linking',
+        description: 'Link notes bidirectionally — every link creates two-way connections visible in backlinks and graph view.',
+        icon: 'link'
+      },
+      {
+        id: '2',
+        title: 'Graph View',
+        description: 'Visual graph showing connections between notes — see your knowledge structure emerge organically.',
+        icon: 'network'
+      },
+      {
+        id: '3',
+        title: 'Plugin Ecosystem',
+        description: '1,400+ community plugins adding kanban boards, databases, spaced repetition, AI assistants, and more.',
+        icon: 'puzzle'
+      }
+    ]
+  },
+  {
+    id: '197',
+    slug: 'kubera',
+    name: 'Kubera',
+    tagline: 'Premium net worth tracker for high-net-worth individuals',
+    description: 'Kubera is a premium net worth tracker designed for the 1% — tracking stocks, crypto, real estate, private equity, cars, domains, and alternative assets in one unified balance sheet. Flat $249/year pricing regardless of asset value makes it the go-to choice for wealthy individuals and families with complex portfolios.',
+    overview: '',
+    pricingDescription: 'Standard at $249/year flat rate. Kubera Black at $2,499/year for ultra-high-net-worth individuals needing concierge support. 14-day free trial available. No per-asset or percentage-based fees.',
+    logo: '/images/tool-logo/kubera.webp',
+    website: 'https://www.kubera.com',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'net-worth-tracker',
+      'portfolio-tracker',
+      'crypto-tracking',
+      'real-estate',
+      'alternative-assets',
+      'wealth-management',
+      'high-net-worth',
+      'balance-sheet'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.5,
+    reviewCount: 420,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'flat-pricing', text: '$249/year flat — whether you have $250K or $2.5 billion' },
+      { id: 'alternative-assets', text: 'Tracks cars, domains, private equity, real estate, and crypto alongside stocks' },
+      { id: 'no-percentage-fees', text: 'No percentage-based fees — assets grow without cost increases' },
+      { id: 'manual-first', text: 'Manual-first philosophy ensuring accuracy over automation' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Universal Asset Tracking',
+        description: 'Track every asset class: stocks, bonds, crypto, real estate, cars, domains, art, private equity, and more.',
+        icon: 'layers'
+      },
+      {
+        id: '2',
+        title: 'Unified Balance Sheet',
+        description: 'Single balance sheet view of all assets and liabilities with currency conversion across 100+ currencies.',
+        icon: 'landmark'
+      },
+      {
+        id: '3',
+        title: 'Historical Net Worth',
+        description: 'Track net worth changes over time with visualizations showing wealth progression and allocation shifts.',
+        icon: 'trending-up'
+      }
+    ]
+  },
+  {
+    id: '198',
+    slug: 'specright',
+    name: 'Specright',
+    tagline: 'AI platform for specification and packaging management',
+    description: 'Specright is the #1 specification management platform helping CPG brands, manufacturers, and retailers unify packaging, product, and process specifications. AI-powered platform serving enterprise teams needing to manage thousands of SKUs across complex supply chains with regulatory compliance requirements.',
+    overview: '',
+    pricingDescription: 'Enterprise custom pricing only — requires sales engagement. Pricing based on modules, users, and company scale. Typical implementations range $50K-$500K+ annually. 14-day free trial available.',
+    logo: '/images/tool-logo/specright.webp',
+    website: 'https://www.specright.com',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'productivity'],
+    tags: [
+      'specification-management',
+      'packaging',
+      'product-development',
+      'compliance',
+      'supply-chain',
+      'enterprise',
+      'cpg',
+      'plm'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 4.6,
+    reviewCount: 280,
+    lastUpdated: '2026-10-11',
+    highlights: [
+      { id: 'ai-platform', text: 'AI-powered specification data analysis and anomaly detection' },
+      { id: 'unified-data', text: 'Single source of truth for packaging, product, and process specs' },
+      { id: 'compliance', text: 'Regulatory compliance tracking for global markets and certifications' },
+      { id: 'enterprise-scale', text: 'Built for companies managing thousands of SKUs across supply chains' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Specification Management',
+        description: 'Centralize all product, packaging, and process specifications in one searchable, version-controlled platform.',
+        icon: 'file-text'
+      },
+      {
+        id: '2',
+        title: 'Supply Chain Collaboration',
+        description: 'Collaborate with suppliers, manufacturers, and partners on shared specification data with controlled access.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Compliance & Traceability',
+        description: 'Track regulatory requirements, certifications, and sustainability data across products and packaging.',
+        icon: 'shield-check'
+      }
+    ]
+  },
+  {
+    id: '199',
+    slug: 'instaveil',
+    name: 'InstaVeil',
+    tagline: 'Anonymous Instagram profile viewer with creator tools',
+    description: 'Free web-based platform for viewing public Instagram profiles, Stories, Reels, and Highlights without login. Optional paid monitoring for tracking profile changes over time with CSV exports and four embeddable creator utilities.',
+    overview: '',
+    pricingDescription: 'Free anonymous viewing of public profiles. 24h Pro at €1.99 one-time payment. Plus plan up to 10 profiles. Pro at €12.99/month for up to 50 profiles. Studio at €29.99/month for up to 60 profiles with agency features. No auto-renewal on 24h Pro.',
+    logo: '/images/tool-logo/instaveil.webp',
+    website: 'https://instaveil.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'analytics'],
+    tags: [
+      'instagram-viewer',
+      'anonymous-viewing',
+      'social-media-monitoring',
+      'creator-tools',
+      'profile-monitoring',
+      'instagram-stories',
+      'no-login',
+      'creator-research'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-12',
+    highlights: [
+      { id: 'anonymous-viewing', text: 'View public Instagram content without login or account' },
+      { id: 'four-free-tools', text: 'Four free embeddable creator utilities included' },
+      { id: 'profile-monitoring', text: 'Track profile changes over time with VeilWatch' },
+      { id: 'one-time-payment', text: '24h Pro available as single payment without subscription' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Anonymous Profile Viewer',
+        description: 'View public Instagram Stories, posts, Reels, and Highlights without requiring Instagram login, passwords, or session cookies.',
+        icon: 'eye'
+      },
+      {
+        id: '2',
+        title: 'VeilWatch Monitoring',
+        description: 'Save up to 60 public profiles and track changes over time including new Stories, bio updates, and content additions with CSV export.',
+        icon: 'activity'
+      },
+      {
+        id: '3',
+        title: 'Free Creator Tools',
+        description: 'Four browser-based utilities: Story expiry planner, caption & hashtag counter, seven-day posting planner, and engagement rate calculator.',
+        icon: 'wrench'
+      }
+    ]
   }
 ]

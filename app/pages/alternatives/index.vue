@@ -36,30 +36,32 @@ import { alternatives } from '~/data/alternatives'
 import { alternativesSeo } from '~/seo'
 import { PAGINATION } from '~/constants/pagination'
 
+const sortedAlternatives = [...alternatives].sort((a, b) => Number(b.id) - Number(a.id))
+
 const {
   items: paginatedAlternatives,
   currentPage,
-  totalPages,
-} = usePagination(alternatives, PAGINATION.alternatives)
+  totalPages
+} = usePagination(sortedAlternatives, PAGINATION.alternatives)
 
 const dynamicMetaDescription = useDynamicSeoDescription(paginatedAlternatives, {
   prefix: 'Compare top-rated alternatives to ',
   suffix: '. Find better pricing, features, and the right replacement for your team.',
-  key: 'name',
+  key: 'name'
 })
 
 useBreadcrumbJsonLd([
   { name: 'Home', url: '/' },
-  { name: 'Alternatives', url: '/alternatives' },
+  { name: 'Alternatives', url: '/alternatives' }
 ])
 
 useItemListJsonLd(
   paginatedAlternatives.value.map((alt, i) => ({
     name: `${alt.name} Alternatives`,
     url: `/alternatives/${alt.slug}`,
-    position: (currentPage.value - 1) * PAGINATION.alternatives + i + 1,
+    position: (currentPage.value - 1) * PAGINATION.alternatives + i + 1
   })),
-  'Software Alternatives',
+  'Software Alternatives'
 )
 
 useAuthorJsonLd()
@@ -70,7 +72,7 @@ useSeo({
   title: alternativesSeo.title,
   description: dynamicMetaDescription, 
   canonical,
-  appendPageNumber: true,
+  appendPageNumber: true
 })
 </script>
 

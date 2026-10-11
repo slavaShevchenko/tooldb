@@ -24,6 +24,16 @@ import { surferVsAhrefsVsSemrushVsMoz } from './surfer-vs-ahrefs-vs-semrush-vs-m
 import { similarwebVsSpyfuVsSerankingVsAhrefs } from './similarweb-vs-spyfu-vs-seranking-vs-ahrefs'
 import { brand24VsSproutsocialVsHootsuiteVsMention } from './brand24-vs-sproutsocial-vs-hootsuite-vs-mention'
 
+// from google SEO
+import { woorankVsSeobilityVsSistrix } from './woorank-vs-seobility-vs-sistrix'
+import { raventoolsVsAgencyanalyticsVsAccuranker } from './raventools-vs-agencyanalytics-vs-accuranker'
+import { seobilityVsSeopowersuiteVsSitebulb } from './seobility-vs-seopowersuite-vs-sitebulb'
+import { sistrixVsSearchmetricsVsXovi } from './sistrix-vs-searchmetrics-vs-xovi'
+import { brand24VsYouscanVsAwario } from './brand24-vs-youscan-vs-awario'
+import { dashthisVsSwydoVsOviondVsReportei } from './dashthis-vs-swydo-vs-oviond-vs-reportei'
+import { statusbrewVsSocialpilotVsDashsocial } from './statusbrew-vs-socialpilot-vs-dashsocial'
+import { sleekplanVsUpvotyVsFrill } from './sleekplan-vs-upvoty-vs-frill'
+
 const comparisionPostData: ComparisonPageData[] = [
   webflowVsWordpress,
   sellfyVsShopifyVsWooCommerceVsBigCommerce,
@@ -48,6 +58,16 @@ const comparisionPostData: ComparisonPageData[] = [
   surferVsAhrefsVsSemrushVsMoz,
   similarwebVsSpyfuVsSerankingVsAhrefs,
   brand24VsSproutsocialVsHootsuiteVsMention,
+
+  // from google SEO
+  woorankVsSeobilityVsSistrix,
+  raventoolsVsAgencyanalyticsVsAccuranker,
+  seobilityVsSeopowersuiteVsSitebulb,
+  sistrixVsSearchmetricsVsXovi,
+  brand24VsYouscanVsAwario,
+  dashthisVsSwydoVsOviondVsReportei,
+  statusbrewVsSocialpilotVsDashsocial,
+  sleekplanVsUpvotyVsFrill,
 ]
 
 export const comporisonPosts: ComparisonPage[] = comparisionPostData.map((post, index) => ({

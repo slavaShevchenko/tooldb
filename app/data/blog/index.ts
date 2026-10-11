@@ -25,8 +25,8 @@ import { bestToolsForAccountants } from './new/best-tools-for-accountants' // +
 import { bestToolsForTeachers } from './new/best-tools-for-teachers' // +
 import { bestToolsForSalesReps } from './new/best-tools-for-sales-reps' // +
 import { bestToolsForDigitalMarketers } from './new/best-tools-for-digital-marketers' // +
-import { bestToolsForCustomerSupportTeams } from './new/best-tools-for-customer-support-teams'
-import { bestToolsForHrManagers } from './new/best-tools-for-hr-managers'
+import { bestToolsForCustomerSupportTeams } from './new/best-tools-for-customer-support-teams' // +
+import { bestToolsForHrManagers } from './new/best-tools-for-hr-managers' // +
 import { bestToolsForProjectManagers } from './new/best-tools-for-project-managers'
 import { bestToolsForFreelancers } from './new/best-tools-for-freelancers'
 import { bestToolsForFrontendDevelopers } from './new/best-tools-for-frontend-developers'

@@ -19,7 +19,7 @@ export const alternatives: AlternativePage[] = [
           'Multiple views: List, Board, Calendar, Gantt, Timeline',
           'Built-in docs, time tracking, and goals',
           'Faster setup without complex configurations'
-        ],
+        ]
       },
       {
         slug: 'mondaycom',
@@ -30,7 +30,7 @@ export const alternatives: AlternativePage[] = [
           'Pre-built templates for common workflows',
           'Better for marketing, HR, and operations teams',
           'Automations without coding knowledge'
-        ],
+        ]
       },
       {
         slug: 'wrike',
@@ -41,7 +41,7 @@ export const alternatives: AlternativePage[] = [
           'Real-time collaboration on tasks and documents',
           'Customizable dashboards for stakeholders',
           'Proofing and approval workflows built-in'
-        ],
+        ]
       },
       {
         slug: 'smartsuite',
@@ -52,7 +52,7 @@ export const alternatives: AlternativePage[] = [
           'Built-in forms, workflows, and dashboards without plugins',
           'Significantly cheaper than Jira with 5 seats per license',
           'Scales from dev teams to operations and marketing'
-        ],
+        ]
       },
       {
         slug: 'bugherd',
@@ -63,8 +63,8 @@ export const alternatives: AlternativePage[] = [
           'Ideal for client website feedback without Jira complexity',
           'Integrates with Jira, GitHub, GitLab, and Slack',
           'Much simpler than Jira for QA and client review cycles'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Jira requires significant setup time and administrative overhead',
@@ -72,8 +72,8 @@ export const alternatives: AlternativePage[] = [
       'The interface is optimized for developers, not general business users',
       'Many features require additional paid plugins from the Atlassian Marketplace',
       'Simpler alternatives can reduce onboarding time from weeks to hours',
-      'Visual bug reporting tools like BugHerd capture context Jira cannot provide for web projects',
-    ],
+      'Visual bug reporting tools like BugHerd capture context Jira cannot provide for web projects'
+    ]
   },
   {
     id: '2',
@@ -93,7 +93,7 @@ export const alternatives: AlternativePage[] = [
           'Includes SMS marketing and live chat',
           'Built-in CRM at no extra cost',
           'Transactional email API included'
-        ],
+        ]
       },
       {
         slug: 'kit',
@@ -104,7 +104,7 @@ export const alternatives: AlternativePage[] = [
           'Simple, focused interface without bloat',
           'Excellent segmentation and tagging system',
           'Free plan supports up to 10,000 subscribers'
-        ],
+        ]
       },
       {
         slug: 'activecampaign',
@@ -115,7 +115,7 @@ export const alternatives: AlternativePage[] = [
           'Built-in CRM with sales pipeline management',
           'Advanced segmentation and personalization',
           'Better for complex customer journeys'
-        ],
+        ]
       },
       {
         slug: 'getresponse',
@@ -126,7 +126,7 @@ export const alternatives: AlternativePage[] = [
           'Marketing funnel templates ready to use',
           'Autoresponder sequences with visual editor',
           'E-commerce integration for product recommendations'
-        ],
+        ]
       },
       {
         slug: 'campaignmonitor',
@@ -137,7 +137,7 @@ export const alternatives: AlternativePage[] = [
           'Professional email templates library',
           'Advanced reporting and analytics',
           'Dedicated account management on higher tiers'
-        ],
+        ]
       },
       {
         slug: 'aweber',
@@ -148,7 +148,7 @@ export const alternatives: AlternativePage[] = [
           'Reliable deliverability track record since 1998',
           'Good customer support via phone and chat',
           'Straightforward pricing without hidden fees'
-        ],
+        ]
       },
       {
         slug: 'drip',
@@ -159,7 +159,7 @@ export const alternatives: AlternativePage[] = [
           'Revenue attribution for every email campaign',
           'Advanced customer lifecycle automation',
           'Product recommendation engines built-in'
-        ],
+        ]
       },
       {
         slug: 'moosend',
@@ -170,8 +170,8 @@ export const alternatives: AlternativePage[] = [
           'Drag-and-drop editor with modern templates',
           'Automation workflows included on all plans',
           'Free plan available for up to 1,000 subscribers'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Mailchimp pricing increased dramatically in 2023-2024, especially for larger lists',
@@ -179,7 +179,7 @@ export const alternatives: AlternativePage[] = [
       'Advanced automation features are locked behind expensive Pro plans',
       'The interface has become cluttered with features many users do not need',
       'Alternatives often include CRM, SMS, or landing pages at no extra cost'
-    ],
+    ]
   },
   {
     id: '3',
@@ -199,7 +199,7 @@ export const alternatives: AlternativePage[] = [
           'Significantly cheaper than HubSpot Sales Hub',
           'Activity-based selling methodology built-in',
           'Faster implementation and team adoption'
-        ],
+        ]
       },
       {
         slug: 'close',
@@ -210,7 +210,7 @@ export const alternatives: AlternativePage[] = [
           'Designed for high-velocity outbound sales',
           'Automatic call logging and recording',
           'Much simpler than HubSpot for pure sales use'
-        ],
+        ]
       },
       {
         slug: 'activecampaign',
@@ -221,7 +221,7 @@ export const alternatives: AlternativePage[] = [
           'Better value for contact-based pricing',
           'Advanced segmentation and conditional workflows',
           'Does not charge extra for basic CRM features'
-        ],
+        ]
       },
       {
         slug: 'brevo',
@@ -232,7 +232,7 @@ export const alternatives: AlternativePage[] = [
           'Pricing based on emails sent, not contacts stored',
           'Marketing automation included on free plan',
           'Transaction email API at no extra cost'
-        ],
+        ]
       },
       {
         slug: 'freshdesk',
@@ -243,7 +243,7 @@ export const alternatives: AlternativePage[] = [
           'AI-powered ticket routing and suggestions',
           'Much cheaper than HubSpot Service Hub',
           'Integrates with existing CRM tools'
-        ],
+        ]
       },
       {
         slug: 'zendesk',
@@ -254,7 +254,7 @@ export const alternatives: AlternativePage[] = [
           'Extensive app marketplace and integrations',
           'Advanced reporting and workforce management',
           'Better for large support teams with complex needs'
-        ],
+        ]
       },
       {
         slug: 'agencyanalytics',
@@ -265,7 +265,7 @@ export const alternatives: AlternativePage[] = [
           'Automated report delivery to clients on schedule',
           'Fraction of HubSpot Marketing Hub cost',
           'Built specifically for agencies managing multiple clients'
-        ],
+        ]
       },
       {
         slug: 'callrail',
@@ -276,8 +276,8 @@ export const alternatives: AlternativePage[] = [
           'Keyword-level attribution for Google Ads and SEO',
           'Much cheaper than HubSpot for call-focused businesses',
           'Unified inbox for calls, texts, forms, and chats'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'HubSpot pricing increases exponentially as your contact database grows',
@@ -285,8 +285,8 @@ export const alternatives: AlternativePage[] = [
       'The platform can feel overwhelming for teams that only need one or two functions',
       'Onboarding and implementation often require paid consultants or significant time investment',
       'Focused alternatives let you pay only for what you actually use',
-      'Specialized tools like AgencyAnalytics and CallRail cover marketing gaps HubSpot leaves at lower cost',
-    ],
+      'Specialized tools like AgencyAnalytics and CallRail cover marketing gaps HubSpot leaves at lower cost'
+    ]
   },
   {
     id: '4',
@@ -298,91 +298,53 @@ export const alternatives: AlternativePage[] = [
     categories: ['productivity'],
     alternatives: [
       {
+        slug: 'borativeworkspaceos',
+        bestFor: 'Teams needing structure without the chaos of a block editor',
+        keyStrengths: [
+          'Tasks, notes, and planning in a single structured space',
+          'Built-in discussions right next to tasks, no need to create separate pages',
+          'More predictable performance than large Notion databases',
+          'Ideal for teams that need order out of the box'
+        ]
+      },
+      {
+        slug: 'borativeprojecthub',
+        bestFor: 'Projects with complex phases and dependencies',
+        keyStrengths: [
+          'Coordination of project phases and tracking dependencies between tasks',
+          'Centralized document storage linked to specific tasks',
+          'Visual timelines for planning that are easier to set up than in Notion',
+          'Better suited for classic project management than flexible databases'
+        ]
+      },
+      {
         slug: 'clickup',
-        bestFor: 'Teams needing docs plus task management together',
+        bestFor: 'Teams needing docs alongside task management',
         keyStrengths: [
           'Docs, tasks, and databases in one platform',
           'Better performance with large workspaces',
           'Built-in time tracking and goal setting',
-          'More structured than Notion for project management',
-          'Native automations without third-party tools'
-        ],
+          'More structured approach to project management than Notion'
+        ]
       },
       {
-        slug: 'miro',
-        bestFor: 'Visual thinkers and collaborative brainstorming',
+        slug: 'obsidian',
+        bestFor: 'Users valuing local storage and speed',
         keyStrengths: [
-          'Infinite canvas for visual collaboration',
-          'Better for brainstorming and workshops than Notion',
-          'Real-time multiplayer editing experience',
-          'Templates for agile, design thinking, and strategy',
-          'Integrates with video conferencing tools'
-        ],
-      },
-      {
-        slug: 'todoist',
-        bestFor: 'Individuals who want simple task management',
-        keyStrengths: [
-          'Radically simpler than Notion for daily tasks',
-          'Natural language input for quick task entry',
-          'Cross-platform sync that just works',
-          'Karma system and productivity insights',
-          'No learning curve compared to Notion databases'
-        ],
-      },
-      {
-        slug: 'wrike',
-        bestFor: 'Teams needing structured project management',
-        keyStrengths: [
-          'Purpose-built for project management workflows',
-          'Gantt charts, dependencies, and resource planning',
-          'More structure than Notion for complex projects',
-          'Approval workflows and proofing built-in',
-          'Enterprise security and compliance features'
-        ],
-      },
-      {
-        slug: 'smartsuite',
-        bestFor: 'Teams needing structured work management with databases',
-        keyStrengths: [
-          'Database-driven like Notion but more structured out of the box',
-          'Better performance with large datasets than Notion',
-          'Native workflow automation without third-party tools',
-          'Built-in forms and approval workflows',
-          'Multiple views of the same data without rebuilding'
-        ],
-      },
-      {
-        slug: 'softr',
-        bestFor: 'Teams building client portals and internal tools from data',
-        keyStrengths: [
-          'Turns Airtable and Google Sheets into web applications',
-          'Built-in user authentication and member areas',
-          'No-code app building without Notion complexity',
-          'Deploy to custom domains with SEO optimization',
-          'Better than Notion for customer-facing portals'
-        ],
-      },
-      {
-        slug: 'glide',
-        bestFor: 'Teams needing mobile-first apps from spreadsheet data',
-        keyStrengths: [
-          'Transforms spreadsheets into beautiful mobile apps',
-          'Built-in AI components without external APIs',
-          'Progressive web apps that install like native mobile apps',
-          'Works offline and syncs when connection returns',
-          'Much faster to deploy than building Notion systems'
-        ],
-      },
+          'Local Markdown files that work lightning fast',
+          'Bidirectional links and a knowledge graph for building a second brain',
+          'No sync or offline access issues',
+          'Full control over data without vendor lock-in'
+        ]
+      }
     ],
     why: [
       'Notion can become slow and laggy with large databases and many blocks',
       'The blank canvas requires significant setup time to build useful systems',
       'Offline support is limited compared to dedicated productivity apps',
-      'Team permissions and access controls are less granular than alternatives',
-      'Specialized tools often provide better experiences for specific use cases',
-      'No-code platforms like Softr and Glide turn structured data into full applications faster than Notion setups',
-    ],
+      'Team permissions and access controls are less granular than in alternatives',
+      'Tools like Borative Project Hub offer ready-made project structure that has to be built from scratch in Notion'
+    ]
   },
   {
     id: '5',
@@ -402,7 +364,7 @@ export const alternatives: AlternativePage[] = [
           'Built-in registration pages and email reminders',
           'Engagement features: polls, Q&A, reactions',
           'Webinar and meeting modes in one platform'
-        ],
+        ]
       },
       {
         slug: 'fireflies',
@@ -413,7 +375,7 @@ export const alternatives: AlternativePage[] = [
           'Joins Zoom, Meet, Teams calls automatically',
           'Searchable meeting knowledge base',
           'CRM integration to log calls automatically'
-        ],
+        ]
       },
       {
         slug: 'restream',
@@ -424,8 +386,8 @@ export const alternatives: AlternativePage[] = [
           'Unified chat from all platforms in one window',
           'Browser-based studio without OBS complexity',
           'Analytics across all streaming destinations'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Zoom requires downloading a desktop client for the best experience',
@@ -433,7 +395,7 @@ export const alternatives: AlternativePage[] = [
       'Cannot natively stream to multiple platforms simultaneously',
       'Browser experience is limited compared to the desktop app',
       'Meeting fatigue is real and alternatives offer different engagement models'
-    ],
+    ]
   },
   {
     id: '6',
@@ -453,7 +415,7 @@ export const alternatives: AlternativePage[] = [
           'Docs, time tracking, and goals alongside tasks',
           'Free plan is more generous than Trello free',
           'Scales from personal use to enterprise teams'
-        ],
+        ]
       },
       {
         slug: 'mondaycom',
@@ -464,7 +426,7 @@ export const alternatives: AlternativePage[] = [
           'Dashboard widgets for portfolio-level visibility',
           'Better integrations ecosystem than Trello Power-Ups',
           'Guest access and client-facing boards'
-        ],
+        ]
       },
       {
         slug: 'wrike',
@@ -475,7 +437,7 @@ export const alternatives: AlternativePage[] = [
           'Resource management and workload balancing',
           'Proofing and approval workflows for creative teams',
           'Enterprise reporting and custom dashboards'
-        ],
+        ]
       },
       {
         slug: 'todoist',
@@ -486,7 +448,7 @@ export const alternatives: AlternativePage[] = [
           'Priority levels and recurring tasks built-in',
           'Cleaner mobile experience than Trello app',
           'Focus on getting things done, not organizing boards'
-        ],
+        ]
       },
       {
         slug: 'smartsuite',
@@ -497,7 +459,7 @@ export const alternatives: AlternativePage[] = [
           'Forms, dashboards, and databases in one platform',
           'Better for processes than simple card-based boards',
           'Scales from personal use to enterprise teams'
-        ],
+        ]
       },
       {
         slug: 'processstreet',
@@ -508,8 +470,8 @@ export const alternatives: AlternativePage[] = [
           'Audit-ready reporting with version history',
           'Much more powerful than Trello for process execution',
           'Templates for common business operations'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Trello free plan limits you to 10 boards per workspace',
@@ -518,7 +480,7 @@ export const alternatives: AlternativePage[] = [
       'Automation through Butler has usage limits even on paid plans',
       'Large boards with hundreds of cards become difficult to navigate',
       'Process-focused tools like Process Street handle recurring operations that Kanban boards struggle with'
-    ],
+    ]
   },
   {
     id: '7',
@@ -538,7 +500,7 @@ export const alternatives: AlternativePage[] = [
           'Hosting, SSL, and CDN included in the platform',
           'CMS built-in without database management',
           'Designers can build production sites without developers'
-        ],
+        ]
       },
       {
         slug: 'netlify',
@@ -549,8 +511,8 @@ export const alternatives: AlternativePage[] = [
           'Form handling, identity, and serverless functions built-in',
           'Git-based workflow with preview deploys for every PR',
           'Faster and more secure than traditional WordPress hosting'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'WordPress requires constant security updates and patching',
@@ -558,7 +520,7 @@ export const alternatives: AlternativePage[] = [
       'Performance optimization requires caching plugins and technical knowledge',
       'Hosting costs add up when you need speed, security, and backups',
       'Modern alternatives deliver faster sites with zero maintenance overhead'
-    ],
+    ]
   },
   {
     id: '8',
@@ -578,7 +540,7 @@ export const alternatives: AlternativePage[] = [
           'Funnel analysis and user journey mapping',
           'Real-time data without sampling limitations',
           'Better for understanding product usage than GA4'
-        ],
+        ]
       },
       {
         slug: 'crazyegg',
@@ -589,7 +551,7 @@ export const alternatives: AlternativePage[] = [
           'Much simpler interface than GA4',
           'A/B testing tools included in the platform',
           'No data sampling on any plan tier'
-        ],
+        ]
       },
       {
         slug: 'databox',
@@ -600,7 +562,7 @@ export const alternatives: AlternativePage[] = [
           'Scheduled reports delivered via email or Slack',
           'Goal tracking with progress visualization',
           'No SQL or technical skills needed for custom reports'
-        ],
+        ]
       },
       {
         slug: 'similarweb',
@@ -611,7 +573,7 @@ export const alternatives: AlternativePage[] = [
           'Keyword research and SEO competitive analysis',
           'App analytics for mobile competitive intelligence',
           'Data GA cannot provide about other websites'
-        ],
+        ]
       },
       {
         slug: 'agencyanalytics',
@@ -622,8 +584,8 @@ export const alternatives: AlternativePage[] = [
           'Automated report delivery without manual exports',
           'Much simpler interface than GA4',
           'Goal tracking and cross-channel attribution built-in'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'GA4 interface is notoriously complex and unintuitive',
@@ -631,8 +593,8 @@ export const alternatives: AlternativePage[] = [
       'Privacy regulations make Google Analytics risky in some regions',
       'Setting up meaningful tracking requires significant technical expertise',
       'GA does not provide competitive intelligence or visual behavior data',
-      'Marketing reporting tools like AgencyAnalytics combine GA data with other channels for complete visibility',
-    ],
+      'Marketing reporting tools like AgencyAnalytics combine GA data with other channels for complete visibility'
+    ]
   },
   {
     id: '9',
@@ -652,7 +614,7 @@ export const alternatives: AlternativePage[] = [
           'Store setup takes minutes, not days',
           'Email marketing and discount codes included',
           'Much simpler than Shopify for solo creators'
-        ],
+        ]
       },
       {
         slug: 'printify',
@@ -663,7 +625,7 @@ export const alternatives: AlternativePage[] = [
           'Hundreds of customizable products available',
           'Global print network for faster shipping',
           'Free plan available to start selling immediately'
-        ],
+        ]
       },
       {
         slug: 'webflow',
@@ -674,8 +636,8 @@ export const alternatives: AlternativePage[] = [
           'Cleaner code means faster page load times',
           'CMS-driven product catalogs with dynamic content',
           'Better for brands where design differentiation matters'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Shopify transaction fees apply unless you use Shopify Payments',
@@ -683,7 +645,7 @@ export const alternatives: AlternativePage[] = [
       'Theme customization beyond basics requires Liquid template knowledge',
       'Monthly costs escalate quickly with apps, themes, and higher-tier plans',
       'Simpler alternatives exist for digital products and print-on-demand models'
-    ],
+    ]
   },
   {
     id: '10',
@@ -703,7 +665,7 @@ export const alternatives: AlternativePage[] = [
           'Searchable knowledge base of every conversation',
           'Action items extracted and assigned automatically',
           'Complements Slack rather than replacing it entirely'
-        ],
+        ]
       },
       {
         slug: 'respondio',
@@ -714,7 +676,7 @@ export const alternatives: AlternativePage[] = [
           'Automation and chatbot workflows built-in',
           'Better for customer-facing communication than Slack',
           'Broadcast messages to segmented audiences'
-        ],
+        ]
       },
       {
         slug: 'tidio',
@@ -725,7 +687,7 @@ export const alternatives: AlternativePage[] = [
           'AI chatbot handles common questions automatically',
           'Integrates with Slack for internal notifications',
           'Affordable pricing for small support teams'
-        ],
+        ]
       },
       {
         slug: 'quo',
@@ -736,7 +698,7 @@ export const alternatives: AlternativePage[] = [
           'AI call tagging and automatic categorization',
           'Much simpler and cheaper than Slack for small teams',
           'Auto-replies and scheduling for after-hours communication'
-        ],
+        ]
       },
       {
         slug: 'connecteam',
@@ -747,8 +709,8 @@ export const alternatives: AlternativePage[] = [
           'Mobile-first design optimized for field workers',
           'Combines communication with scheduling and training',
           'Free plan for up to 10 users with core features'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Slack pricing per active user becomes expensive for larger organizations',
@@ -756,8 +718,8 @@ export const alternatives: AlternativePage[] = [
       'Notification overload reduces productivity for many users',
       'Customer-facing communication requires separate tools anyway',
       'AI-powered alternatives can reduce meeting and communication overhead',
-      'Deskless teams need mobile-first communication like Connecteam rather than desktop-centric Slack',
-    ],
+      'Deskless teams need mobile-first communication like Connecteam rather than desktop-centric Slack'
+    ]
   },
   {
     id: '11',
@@ -777,7 +739,7 @@ export const alternatives: AlternativePage[] = [
           'Modern, web-native format instead of static slides',
           'Built-in analytics to see who viewed your presentation',
           'Embed videos, GIFs, and interactive elements easily'
-        ],
+        ]
       },
       {
         slug: 'miro',
@@ -788,8 +750,8 @@ export const alternatives: AlternativePage[] = [
           'Real-time multiplayer with sticky notes and diagrams',
           'Templates for user journey maps, flowcharts, and retros',
           'Presentation mode to walk through visual boards'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Canva Pro pricing increased significantly in 2023-2024',
@@ -797,7 +759,7 @@ export const alternatives: AlternativePage[] = [
       'Limited for collaborative visual work beyond commenting',
       'AI features are still catching up to dedicated AI design tools',
       'Specialized tools produce better results for specific use cases like presentations'
-    ],
+    ]
   },
   {
     id: '12',
@@ -817,7 +779,7 @@ export const alternatives: AlternativePage[] = [
           'Automated email reminders and follow-ups',
           'Browser-based experience for attendees',
           'Replaces both Calendly and a separate webinar tool'
-        ],
+        ]
       },
       {
         slug: 'fireflies',
@@ -828,7 +790,7 @@ export const alternatives: AlternativePage[] = [
           'Calendar integration with smart availability detection',
           'Meeting insights and talking point analytics',
           'One tool for scheduling, recording, and documenting'
-        ],
+        ]
       },
       {
         slug: 'motion',
@@ -839,7 +801,7 @@ export const alternatives: AlternativePage[] = [
           'Automatically reschedules when meetings run long',
           'Replaces Calendly plus Todoist plus Asana together',
           'Protects focus time blocks from meeting interruptions'
-        ],
+        ]
       },
       {
         slug: 'reclaimai',
@@ -850,8 +812,8 @@ export const alternatives: AlternativePage[] = [
           'Protects focus time and defends against meeting overload',
           'Works with Google Calendar and Outlook you already use',
           'Team scheduling finds optimal meeting times across calendars'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Calendly free plan limits you to one event type only',
@@ -859,8 +821,8 @@ export const alternatives: AlternativePage[] = [
       'No AI features for meeting documentation or follow-ups',
       'Team scheduling features require paid per-seat pricing',
       'Alternatives combine scheduling with webinars or AI notes for better value',
-      'AI-native scheduling tools like Motion and Reclaim optimize entire workdays, not just meeting slots',
-    ],
+      'AI-native scheduling tools like Motion and Reclaim optimize entire workdays, not just meeting slots'
+    ]
   },
   {
     id: '13',
@@ -880,7 +842,7 @@ export const alternatives: AlternativePage[] = [
           'Fraction of Salesforce pricing per user',
           'Implementation in days instead of months',
           'Activity-based selling methodology guides reps effectively'
-        ],
+        ]
       },
       {
         slug: 'close',
@@ -891,7 +853,7 @@ export const alternatives: AlternativePage[] = [
           'Automatic call logging without manual data entry',
           'SMS and email sequences alongside calling',
           'Designed for high-velocity outbound, not enterprise complexity'
-        ],
+        ]
       },
       {
         slug: 'apollo',
@@ -902,7 +864,7 @@ export const alternatives: AlternativePage[] = [
           'Email sequences and calling built-in',
           'Intent data shows who is researching your solution',
           'Replaces Salesforce plus ZoomInfo plus Outreach stack'
-        ],
+        ]
       },
       {
         slug: 'freshdesk',
@@ -913,8 +875,8 @@ export const alternatives: AlternativePage[] = [
           'AI-powered ticket routing and agent assist',
           'Self-service portal and knowledge base included',
           'Integrates with existing CRM rather than replacing everything'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Salesforce licensing costs are among the highest in the CRM market',
@@ -922,7 +884,7 @@ export const alternatives: AlternativePage[] = [
       'The platform is overwhelmingly complex for teams under 50 people',
       'Essential features often require additional paid packages and add-ons',
       'Modern alternatives deliver 80% of the value at 20% of the cost and complexity'
-    ],
+    ]
   },
   {
     id: '14',
@@ -942,8 +904,8 @@ export const alternatives: AlternativePage[] = [
           'Joins Zoom, Meet, Teams, and Webex automatically',
           'Searchable knowledge base across all meetings',
           'Conversation intelligence and talk-time analytics'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Otter.ai has limited CRM and sales tool integrations',
@@ -951,7 +913,7 @@ export const alternatives: AlternativePage[] = [
       'Automatic meeting join works across more platforms reliably',
       'Team collaboration features are more robust in alternatives',
       'Pricing comparison favors alternatives at higher usage tiers'
-    ],
+    ]
   },
   {
     id: '15',
@@ -971,7 +933,7 @@ export const alternatives: AlternativePage[] = [
           'No transaction fees on any plan tier',
           'Better student engagement tracking and quizzes',
           'Membership and subscription models built-in'
-        ],
+        ]
       },
       {
         slug: 'learnworlds',
@@ -982,7 +944,7 @@ export const alternatives: AlternativePage[] = [
           'Built-in website builder for course schools',
           'SCORM compliance for corporate training',
           'Mobile app for students included in the platform'
-        ],
+        ]
       },
       {
         slug: 'circle',
@@ -993,8 +955,8 @@ export const alternatives: AlternativePage[] = [
           'Live streams and chat integrated with course content',
           'White-label mobile app for your community',
           'Better for cohort-based courses and ongoing engagement'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Teachable transaction fees on the free and Basic plans eat into margins',
@@ -1002,9 +964,8 @@ export const alternatives: AlternativePage[] = [
       'Limited customization on lower-tier plans restricts branding',
       'Community features are an afterthought compared to dedicated platforms',
       'Alternatives offer better value for interactive and community-driven learning'
-    ],
+    ]
   },
-
   {
     id: '16',
     slug: 'ringcentral',
@@ -1023,7 +984,7 @@ export const alternatives: AlternativePage[] = [
           'Power dialer for outbound sales teams',
           'Much simpler setup than RingCentral enterprise features',
           'Transparent per-user pricing without hidden fees'
-        ],
+        ]
       },
       {
         slug: 'nextiva',
@@ -1034,7 +995,7 @@ export const alternatives: AlternativePage[] = [
           'Auto-attendant and IVR without enterprise complexity',
           '99.999% uptime SLA with redundant infrastructure',
           'Much more affordable than RingCentral for small teams'
-        ],
+        ]
       },
       {
         slug: 'kixie',
@@ -1045,7 +1006,7 @@ export const alternatives: AlternativePage[] = [
           'Deep CRM integration without switching apps',
           'Built specifically for high-velocity sales teams',
           'Fraction of RingCentral cost for sales-focused features'
-        ],
+        ]
       },
       {
         slug: 'callhippo',
@@ -1056,7 +1017,7 @@ export const alternatives: AlternativePage[] = [
           '50+ country phone numbers for global reach',
           'AI call analytics without expensive add-ons',
           'Most affordable entry point in business VoIP'
-        ],
+        ]
       },
       {
         slug: 'quo',
@@ -1067,7 +1028,7 @@ export const alternatives: AlternativePage[] = [
           'AI call tagging and automatic categorization',
           'Starting at $15/user/month with no complexity',
           'Perfect for teams that find RingCentral overwhelming'
-        ],
+        ]
       },
       {
         slug: 'krispcall',
@@ -1078,8 +1039,8 @@ export const alternatives: AlternativePage[] = [
           'Local numbers in 70+ countries',
           'Competitive pricing starting at $12/user/month',
           'Modern AI features RingCentral charges extra for'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'RingCentral pricing starts high and escalates quickly with add-ons',
@@ -1087,7 +1048,7 @@ export const alternatives: AlternativePage[] = [
       'Implementation often requires professional services and lengthy setup',
       'AI features like transcription require expensive premium tiers',
       'Modern alternatives deliver 90% of functionality at 30% of the cost'
-    ],
+    ]
   },
   {
     id: '17',
@@ -1107,7 +1068,7 @@ export const alternatives: AlternativePage[] = [
           'Built-in automations without Asana limitations',
           'Significantly cheaper pricing for growing teams',
           'Replaces Asana plus Notion plus Harvest together'
-        ],
+        ]
       },
       {
         slug: 'mondaycom',
@@ -1118,7 +1079,7 @@ export const alternatives: AlternativePage[] = [
           'Dashboard widgets for portfolio-level visibility',
           'Better for non-technical teams than Asana',
           'Pre-built templates for every department and workflow'
-        ],
+        ]
       },
       {
         slug: 'wrike',
@@ -1129,7 +1090,7 @@ export const alternatives: AlternativePage[] = [
           'Proofing and approval workflows for creative teams',
           'Enterprise security and compliance features',
           'Better for complex projects than Asana timelines'
-        ],
+        ]
       },
       {
         slug: 'smartsuite',
@@ -1140,7 +1101,7 @@ export const alternatives: AlternativePage[] = [
           'Built-in forms, workflows, and dashboards',
           '5 seats per license makes it very cost-effective',
           'Scales from task management to full operations platform'
-        ],
+        ]
       },
       {
         slug: 'processstreet',
@@ -1151,7 +1112,7 @@ export const alternatives: AlternativePage[] = [
           'Audit-ready reporting with version history',
           'Much better than Asana for standardized processes',
           'Templates for onboarding, inspections, and audits'
-        ],
+        ]
       },
       {
         slug: 'todoist',
@@ -1162,8 +1123,8 @@ export const alternatives: AlternativePage[] = [
           'Cross-platform sync that just works',
           'No learning curve compared to Asana projects',
           'Perfect for personal productivity without team overhead'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Asana can feel limiting for teams needing more than basic task management',
@@ -1171,7 +1132,7 @@ export const alternatives: AlternativePage[] = [
       'Automation rules have limitations that frustrate growing teams',
       'No native time tracking, docs, or whiteboards without integrations',
       'Specialized alternatives offer better experiences for specific workflows'
-    ],
+    ]
   },
   {
     id: '18',
@@ -1183,24 +1144,45 @@ export const alternatives: AlternativePage[] = [
     categories: ['productivity', 'design'],
     alternatives: [
       {
+        slug: 'pdfpowerkit',
+        bestFor: 'Windows users seeking fast, native PDF workflows',
+        keyStrengths: [
+          'Native Windows desktop application with high performance',
+          'Review tools: annotations, highlighting, notes, and bookmarks',
+          'Organize PDFs with custom folders and tags',
+          'Batch processing for merging, splitting, or applying annotations',
+          'Significantly lighter and faster than the heavy Acrobat Reader'
+        ]
+      },
+      {
         slug: 'foxit',
-        bestFor: 'Professionals wanting Adobe features at lower cost',
+        bestFor: 'Professionals wanting Adobe features at a lower cost',
         keyStrengths: [
           'Full PDF editing comparable to Acrobat at one-third the price',
           'AI-powered redaction for sensitive information removal',
           'E-signatures with legal compliance and audit trails',
           'OCR supporting 20+ languages for scanned documents',
           'Perpetual license option available without subscriptions'
-        ],
+        ]
       },
+      {
+        slug: 'docusign',
+        bestFor: 'Teams primarily needing legally binding signatures',
+        keyStrengths: [
+          'Industry leader in e-signatures with 1.5B+ users',
+          'Deep integrations with Salesforce, HubSpot, Microsoft 365',
+          'Compliance with SOC 2, ISO 27001, GDPR, HIPAA',
+          'Workflow automation with conditional routing'
+        ]
+      }
     ],
     why: [
       'Adobe Acrobat subscription costs $20-25/month per user',
       'Pricing increased significantly in 2023-2024 across all plans',
-      'Many users only need core editing features, not the full Creative Cloud ecosystem',
-      'Alternatives deliver 90% of functionality at 30% of the cost',
-      'Perpetual license options exist for teams preferring one-time purchases'
-    ],
+      'Many users only need core editing and review features, not the full Creative Cloud ecosystem',
+      'Native desktop apps like PDF PowerKit run faster and do not overload the system',
+      'Alternatives deliver 90% of the functionality at 30% of the cost'
+    ]
   },
   {
     id: '19',
@@ -1220,7 +1202,7 @@ export const alternatives: AlternativePage[] = [
           'Built-in workflow automation without extensions',
           '5 seats per license makes it very cost-effective',
           'Multiple views without rebuilding data structures'
-        ],
+        ]
       },
       {
         slug: 'softr',
@@ -1231,7 +1213,7 @@ export const alternatives: AlternativePage[] = [
           'Deploy to custom domains with SEO optimization',
           'Much better than Airtable interfaces for customer-facing apps',
           'No-code app building without developer resources'
-        ],
+        ]
       },
       {
         slug: 'glide',
@@ -1242,7 +1224,7 @@ export const alternatives: AlternativePage[] = [
           'Progressive web apps that work offline',
           'Much faster to deploy than Airtable interfaces',
           'Better for field teams needing mobile access'
-        ],
+        ]
       },
       {
         slug: 'clickup',
@@ -1253,7 +1235,7 @@ export const alternatives: AlternativePage[] = [
           'More generous free plan than Airtable',
           'Better for project-focused workflows',
           'Built-in automations without Zapier costs'
-        ],
+        ]
       },
       {
         slug: 'mondaycom',
@@ -1264,8 +1246,8 @@ export const alternatives: AlternativePage[] = [
           'Dashboard widgets for data visualization',
           'Better for non-technical teams than Airtable',
           'Pre-built templates for common database use cases'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Airtable record limits on lower tiers restrict growing teams',
@@ -1273,7 +1255,7 @@ export const alternatives: AlternativePage[] = [
       'Interface features for customer-facing apps require expensive plans',
       'Mobile app experience is limited compared to native alternatives',
       'Specialized platforms offer better experiences for specific use cases'
-    ],
+    ]
   },
   {
     id: '20',
@@ -1293,7 +1275,7 @@ export const alternatives: AlternativePage[] = [
           'UK-based with full GDPR and eIDAS compliance',
           'Full API access and Zapier integration included',
           'No monthly commitment or credit card required'
-        ],
+        ]
       },
       {
         slug: 'pandadoc',
@@ -1304,8 +1286,8 @@ export const alternatives: AlternativePage[] = [
           'CRM integration for automated proposal workflows',
           'Content library for reusable proposal sections',
           'Better than DocuSign for sales document workflows'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'DocuSign pricing has increased significantly, especially for business plans',
@@ -1313,7 +1295,7 @@ export const alternatives: AlternativePage[] = [
       'Advanced features like bulk sending require expensive enterprise tiers',
       'Simpler alternatives deliver legally binding signatures at fraction of the cost',
       'Sales-focused tools like PandaDoc combine proposals and signatures in one workflow'
-    ],
+    ]
   },
   {
     id: '21',
@@ -1333,7 +1315,7 @@ export const alternatives: AlternativePage[] = [
           'Mobile-first design optimized for non-desk workers',
           'Free plan for up to 10 users with core features',
           'Much more affordable than BambooHR for hourly workforces'
-        ],
+        ]
       },
       {
         slug: 'hibob',
@@ -1344,7 +1326,7 @@ export const alternatives: AlternativePage[] = [
           'Organizational charts and people analytics built-in',
           'Better onboarding experience than BambooHR',
           'Popular with tech companies and scale-ups'
-        ],
+        ]
       },
       {
         slug: 'gusto',
@@ -1355,7 +1337,7 @@ export const alternatives: AlternativePage[] = [
           'HR features included with payroll at no extra cost',
           'Excellent for US small businesses with under 50 employees',
           'Much simpler than BambooHR plus separate payroll provider'
-        ],
+        ]
       },
       {
         slug: 'deel',
@@ -1366,7 +1348,7 @@ export const alternatives: AlternativePage[] = [
           'EOR services for full-time international employees',
           'Built for remote-first and distributed teams',
           'Essential for global hiring BambooHR does not support'
-        ],
+        ]
       },
       {
         slug: 'testgorilla',
@@ -1377,8 +1359,8 @@ export const alternatives: AlternativePage[] = [
           'Anti-cheating measures protect assessment integrity',
           'Integrates with ATS platforms for seamless workflows',
           'Complements HR systems rather than replacing them'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'BambooHR pricing per employee adds up quickly for growing companies',
@@ -1386,7 +1368,7 @@ export const alternatives: AlternativePage[] = [
       'US-centric features do not translate well for other regions',
       'Less suitable for deskless workforces than specialized alternatives',
       'Modern alternatives offer better value for specific HR needs'
-    ],
+    ]
   },
   {
     id: '22',
@@ -1406,7 +1388,7 @@ export const alternatives: AlternativePage[] = [
           'Visitor tracking shows who is on your website',
           'Easy setup without technical knowledge',
           'Free plan available for getting started'
-        ],
+        ]
       },
       {
         slug: 'respondio',
@@ -1417,7 +1399,7 @@ export const alternatives: AlternativePage[] = [
           'Automation and chatbot workflows built-in',
           'Broadcast messages to segmented audiences',
           'Better for multi-channel customer engagement than Intercom'
-        ],
+        ]
       },
       {
         slug: 'freshdesk',
@@ -1428,7 +1410,7 @@ export const alternatives: AlternativePage[] = [
           'Knowledge base and self-service portal included',
           'Much cheaper than Intercom for full support operations',
           'Scales from small teams to enterprise support'
-        ],
+        ]
       },
       {
         slug: 'helpscout',
@@ -1439,7 +1421,7 @@ export const alternatives: AlternativePage[] = [
           'Knowledge base and docs built-in',
           'Much simpler than Intercom for email-first support',
           'Transparent pricing without conversation-based scaling'
-        ],
+        ]
       },
       {
         slug: 'landbot',
@@ -1450,8 +1432,8 @@ export const alternatives: AlternativePage[] = [
           'Advanced branching logic and integrations',
           'Better for complex conversational flows than Intercom',
           'Human handoff when chatbots cannot resolve issues'
-        ],
-      },
+        ]
+      }
     ],
     why: [
       'Intercom pricing scales based on conversations, becoming expensive quickly',
@@ -1459,6 +1441,204 @@ export const alternatives: AlternativePage[] = [
       'Advanced features require expensive add-ons and premium tiers',
       'The platform can feel bloated for teams needing specific capabilities',
       'Specialized alternatives offer better value for focused use cases'
-    ],
+    ]
   },
+  {
+    id: '23',
+    slug: 'quickbooks',
+    name: 'QuickBooks',
+    toolDescription: 'Cloud accounting software for small businesses offering income and expense tracking, invoicing, and payroll.',
+    description: 'QuickBooks is powerful but often overkill and expensive for freelancers, small teams, and startups. These alternatives offer simpler financial, subscription, and budget tracking without complex accounting.',
+    logo: '/images/alternatives-logo/quickbooks.webp',
+    categories: ['finance'],
+    alternatives: [
+      {
+        slug: 'regution',
+        bestFor: 'Freelancers and agencies needing to track software expenses',
+        keyStrengths: [
+          'Track subscription renewal and cancellation dates',
+          'Six-month spending forecast based on your records',
+          'Simple separation of internal and client services',
+          'Significantly cheaper and simpler than full accounting software'
+        ]
+      },
+      {
+        slug: 'flytivypersonalfinance',
+        bestFor: 'Solopreneurs and small teams keeping simple records',
+        keyStrengths: [
+          'Practical workspace for budgets and savings goals',
+          'Real-time expense tracking by category',
+          'No steep learning curve compared to QuickBooks',
+          'Ideal for managing personal and small business finances'
+        ]
+      },
+      {
+        slug: 'xero',
+        bestFor: 'Growing businesses needing cloud accounting',
+        keyStrengths: [
+          'Automatic bank reconciliation',
+          'More modern and intuitive interface than QuickBooks',
+          'Excellent support for multi-currency operations',
+          'Over 1,000 integrations in the marketplace'
+        ]
+      },
+      {
+        slug: 'freshbooks',
+        bestFor: 'Service businesses and freelancers working hourly',
+        keyStrengths: [
+          'Built-in time tracking with conversion to invoices',
+          'Beautiful professional invoices with online payment',
+          'Expense tracking and receipt scanning via mobile app',
+          'Transparent pricing based on the number of clients'
+        ]
+      }
+    ],
+    why: [
+      'QuickBooks requires significant time investment for setup and administration',
+      'Pricing scales quickly as your business grows',
+      'The interface is cluttered with features unnecessary for simple expense and subscription tracking',
+      'Specialized tools like Regution solve SaaS expense control better than general accounting software'
+    ]
+  },
+  {
+    id: '24',
+    slug: 'evernote',
+    name: 'Evernote',
+    toolDescription: 'Popular note-taking, document organization, and web-clipping app known for its notebook and tag system.',
+    description: 'Evernote has become expensive, feature-bloated, and raised privacy concerns. These alternatives offer better search, local storage, or AI capabilities without the subscription.',
+    logo: '/images/alternatives-logo/evernote.webp',
+    categories: ['productivity'],
+    alternatives: [
+      {
+        slug: 'flytivyaiknowledgevault',
+        bestFor: 'Users valuing privacy and local AI search',
+        keyStrengths: [
+          'Connect local files and notes without sending data to the cloud',
+          'Semantic AI search that understands context, not just keywords',
+          'Automatic categorization and tagging of content',
+          'Native Windows desktop application with high performance'
+        ]
+      },
+      {
+        slug: 'obsidian',
+        bestFor: 'Power users building a second brain in Markdown',
+        keyStrengths: [
+          'Local storage of plain-text Markdown files',
+          'Bidirectional links and a visual knowledge graph',
+          'Over 1,400 community plugins for infinite customization',
+          'Full control over data without vendor lock-in'
+        ]
+      },
+      {
+        slug: 'notion',
+        bestFor: 'Teams needing databases alongside notes',
+        keyStrengths: [
+          'Flexible block-based workspace',
+          'Powerful relational databases with multiple views',
+          'Built-in AI for writing, summarization, and database queries',
+          'Better suited for collaboration than Evernote'
+        ]
+      }
+    ],
+    why: [
+      'Evernote significantly restricted its free tier and raised subscription prices',
+      'The app has become slow and bloated with unnecessary features',
+      'Lack of true local storage raises privacy concerns',
+      'Modern AI tools like Flytivy AI Knowledge Vault offer semantic search unavailable in Evernote'
+    ]
+  },
+  {
+    id: '25',
+    slug: 'zapier',
+    name: 'Zapier',
+    toolDescription: 'Workflow automation platform connecting thousands of web applications to transfer data without writing code.',
+    description: 'Zapier is the automation standard, but its cost spikes dramatically when using multi-step scenarios. These alternatives offer AI agents, visual workflows, or specialized automation at better value.',
+    logo: '/images/alternatives-logo/zapier.webp',
+    categories: ['productivity', 'ai'],
+    alternatives: [
+      {
+        slug: 'qbitmarkethub',
+        bestFor: 'Teams seeking ready-made AI agents and workflow templates',
+        keyStrengths: [
+          'Marketplace of ready-made AI agents and prompts for specific tasks',
+          'Automation templates requiring no complex setup from scratch',
+          'Focus on boosting productivity with AI, not just data transfer',
+          'Free access to basic resources and community'
+        ]
+      },
+      {
+        slug: 'browseai',
+        bestFor: 'Automating web actions without using APIs',
+        keyStrengths: [
+          'Train AI robots by demonstrating actions in the browser (no-code)',
+          'Monitor website changes with automatic notifications',
+          'Extract data from any site without knowing selectors or programming',
+          'Integrates with Google Sheets, Airtable, and Zapier for further processing'
+        ]
+      },
+      {
+        slug: 'processstreet',
+        bestFor: 'Automating recurring business processes and checklists',
+        keyStrengths: [
+          'Turn policies and procedures into automated checklists',
+          'Conditional logic and approval chains without writing code',
+          'Audit-ready reporting with version history',
+          'Better suited for operational processes than linear Zapier scenarios'
+        ]
+      }
+    ],
+    why: [
+      'Zapier costs grow exponentially when adding multi-step scenarios (Zaps)',
+      'Complex scenarios are difficult to debug and maintain',
+      'For many tasks, ready-made AI agents from QbitMarketHub are sufficient instead of custom integration',
+      'Specialized tools like BrowseAI solve web scraping tasks where Zapier lacks native integrations'
+    ]
+  },
+  {
+    id: '26',
+    slug: 'junglescout',
+    name: 'Jungle Scout',
+    toolDescription: 'Popular toolkit for Amazon sellers offering product research, competitor tracking, and keyword analytics.',
+    description: 'Jungle Scout is primarily Amazon-focused and can be overkill or expensive for sellers operating on multiple marketplaces or needing margin and compliance control. These tools offer a broader or more specialized approach.',
+    logo: '/images/alternatives-logo/junglescout.webp',
+    categories: ['ecommerce', 'analytics'],
+    alternatives: [
+      {
+        slug: 'stockandmargin',
+        bestFor: 'Sellers needing clear margin control across multiple channels',
+        keyStrengths: [
+          'Unified view of inventory and profitability across marketplaces',
+          'Detailed calculation of true margins accounting for all fees and logistics',
+          'Cost tracking across different sales platforms',
+          'More practical and finance-focused than research combiners'
+        ]
+      },
+      {
+        slug: 'eucommercedesk',
+        bestFor: 'EU sellers needing to manage regulatory compliance',
+        keyStrengths: [
+          'Organize work around EU compliance requirements (CE, WEEE, etc.)',
+          'Store supporting documents and certificates',
+          'Track compliance status for each product',
+          'Plan next steps and deadlines for regulatory requirements'
+        ]
+      },
+      {
+        slug: 'productpassportbase',
+        bestFor: 'Brands implementing digital transparency and sustainability',
+        keyStrengths: [
+          'Create digital product passports with QR codes',
+          'Public access to data on materials, origin, and sustainability',
+          'Attach certificates and testing reports',
+          'Compliance with new European supply chain transparency requirements'
+        ]
+      }
+    ],
+    why: [
+      'Jungle Scout is focused almost exclusively on Amazon, ignoring the specifics of other marketplaces',
+      'Tools do not provide deep understanding of real profitability accounting for all hidden costs',
+      'Compliance and digital transparency (Digital Product Passport) are becoming critical in the EU but are not covered by JS',
+      'Specialized tools like Stock & Margin provide a clearer financial picture for multi-channel sellers'
+    ]
+  }
 ]

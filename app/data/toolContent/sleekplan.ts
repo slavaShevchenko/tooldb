@@ -1,0 +1,27 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const sleekplanContent: ToolContent = {
+  overview: `Sleekplan is an AI-powered customer feedback platform that combines feedback boards, public roadmaps, changelogs, and built-in NPS/CSAT surveys into one workflow for product teams who want to ship features users actually ask for. Founded with the mission to eliminate the gap between customer requests and shipped features, Sleekplan serves thousands of product teams including SaaS companies, agencies, and B2B software providers.
+
+The platform's defining characteristic is AI-driven changelog generation. Sleek Intelligence drafts release notes automatically from shipped work — product teams edit a line, hit publish, and users hear about updates instantly through the in-app changelog widget. This automation eliminates the common scenario where valuable product improvements ship without user awareness because teams lack time to write and publish release notes.
+
+Built-in NPS and CSAT surveys distinguish Sleekplan from pure feedback board tools. Rather than requiring separate survey platforms like Delighted or Wootric, Sleekplan includes customer satisfaction measurement on every plan. Teams can trigger NPS surveys at key product moments, track satisfaction trends across user segments, and correlate satisfaction scores with feature releases and product changes.
+
+Feedback boards form the platform's core collection mechanism. Users submit feature requests, vote on ideas from other users, and comment with context about why they need specific features. Public boards create transparency about what the community wants, while private boards enable internal product team discussions without exposing roadmap uncertainty to customers.
+
+The in-app changelog widget bridges the gap between product work and user awareness. Embedded directly in your application, the widget surfaces new features, improvements, and fixes to active users without requiring them to visit a separate changelog page. This approach dramatically increases feature discovery and adoption compared to traditional changelog pages that receive minimal traffic.
+
+Sleekplan's pricing reflects its budget-conscious positioning. The Indie free tier serves solo developers and small teams wanting to start collecting feedback without financial commitment. The Starter plan at $13/month provides full feature access for growing teams, with Business at $38/month adding team features and custom domains. This pricing undercuts most competitors while including features competitors charge extra for, particularly NPS surveys.
+
+Roadmap visualization helps teams communicate product direction without overcommitting. Public roadmaps show users what's planned across Now, Next, and Later timeframes, managing expectations while demonstrating active product development. Internal roadmap views let teams track priorities and dependencies without exposing uncertainty to customers.
+
+The platform's AI capabilities extend beyond changelog generation. Sleekplan uses AI to categorize incoming feedback, identify duplicate requests, surface trending topics, and generate summaries of community sentiment around specific features. This intelligence reduces the manual work product managers spend processing feedback, freeing time for strategic decisions rather than data organization.
+
+Integration with development tools connects feedback to implementation. Sleekplan integrates with Jira, Linear, GitHub, and other project management platforms, linking feature requests to actual development work. This integration creates closed-loop visibility from user request through implementation to release announcement.
+
+Sleekplan's limitations center on advanced analytics and enterprise features. While the platform provides solid satisfaction metrics and trend tracking, it lacks the sophisticated cohort analysis, predictive analytics, or custom survey logic of dedicated research platforms. Enterprise teams requiring advanced compliance features, custom data retention policies, or sophisticated access controls should consider higher-tier alternatives like Productboard or Pendo.
+
+For users evaluating Sleekplan, the platform fits product teams wanting feedback, roadmap, and changelog in one affordable tool. It fits SaaS companies prioritizing feature discovery through in-app announcements. It fits teams wanting built-in NPS without separate survey subscriptions. It fits bootstrapped startups and growing teams needing professional feedback infrastructure without enterprise pricing. Enterprise organizations requiring advanced analytics, sophisticated survey logic, or complex compliance requirements should consider Productboard, Pendo, or dedicated research platforms instead.
+
+The platform's position in the feedback tool landscape reflects deliberate value positioning. Rather than competing on feature depth with enterprise platforms, Sleekplan focuses on delivering essential feedback capabilities at accessible prices with AI automation that saves product teams time. This approach serves the vast market of growing SaaS companies who need professional feedback infrastructure without enterprise complexity or pricing.`
+}

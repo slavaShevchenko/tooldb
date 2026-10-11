@@ -5,7 +5,7 @@ export const bestToolsForHrManagers: BlogPostData = {
   image: '/images/blog-image/best-tools-for-hr-managers.webp',
   title: 'Best Tools for HR Managers: 10 Solutions for Hiring, Payroll and Employee Management',
   description: 'Streamline your people operations. We compare the best tools for HR managers, from modern HR software to comprehensive global payroll solutions.',
-  published: false,
+  published: true,
   publishedAt: '2026-10-12',
   updatedAt: '2026-10-12',
   content: [

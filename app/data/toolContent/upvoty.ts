@@ -1,0 +1,27 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const upvotyContent: ToolContent = {
+  overview: `Upvoty is a feedback platform built around voting boards that help product teams prioritize features based on community demand, with predictable per-board pricing and unlimited teammates on every plan. Founded with the mission to turn user feedback into product growth, Upvoty serves product teams wanting transparent prioritization driven by actual user votes rather than internal assumptions.
+
+The platform's defining characteristic is voting board mechanics. Users submit feature requests that other users can upvote, creating visible demand signals for product teams. Leaderboards surface the most-requested features, tags organize requests by category, and filters help teams analyze feedback by user segment. This community-driven prioritization provides clear evidence for roadmap decisions, replacing opinion-based debates with data-driven discussions about what users actually want.
+
+Predictable per-board pricing distinguishes Upvoty from competitors charging by feature tier or user count. The Power plan at $15/month covers one board, Super at $25/month adds two more boards, and Hyper at $49/month provides unlimited boards. This structure makes costs predictable as teams grow — adding more teammates or collecting more feedback doesn't trigger unexpected price increases, a common frustration with user-based pricing models.
+
+Unlimited teammates on every plan eliminates collaboration barriers. Product managers, engineers, designers, and support team members can all access feedback and participate in prioritization without per-seat costs that discourage broad team involvement. This approach reflects how modern product teams actually work — feedback insights matter to everyone building the product, not just product managers.
+
+Customizable boards let teams tailor the voting experience to their brand and workflow. Teams control board appearance with custom colors, logos, and domains, creating branded feedback portals that feel like part of their product rather than third-party tools. Moderation tools prevent spam and off-topic submissions while maintaining open community participation.
+
+Roadmap and changelog features complete the feedback loop. Public roadmaps show users what's planned based on community votes, demonstrating that feedback drives decisions. Changelogs announce shipped features, closing the loop from request to delivery. This transparency builds user trust and encourages continued feedback participation.
+
+The platform's integration ecosystem connects feedback to existing workflows. Upvoty integrates with Slack, Intercom, Jira, GitHub, and other tools product teams already use. New feedback triggers notifications in relevant channels, feature requests link to development tasks, and shipped features automatically update changelogs. These integrations embed feedback into daily workflows rather than creating isolated feedback silos.
+
+SSO availability on all paid plans addresses security requirements that gate tool adoption in larger organizations. Single sign-on integration with identity providers like Okta, Google Workspace, and Microsoft Entra eliminates password management friction while maintaining security standards. This feature matters for teams where security requirements would otherwise block tool adoption.
+
+Feedback prioritization tools help teams translate votes into decisions. Beyond raw vote counts, Upvoty provides context about who voted, when they voted, and what other features they requested. This contextual information helps teams understand whether highly-voted features represent broad user demand or concentrated interest from specific customer segments.
+
+Upvoty's limitations center on AI capabilities and advanced analytics. The platform provides solid voting and prioritization mechanics but lacks AI-powered feedback categorization, sentiment analysis, or automated insight generation found in more expensive platforms. Teams wanting AI assistance with feedback processing should consider platforms like Sleekplan or Productboard. The per-board pricing also means costs scale with board count rather than usage, potentially limiting teams wanting many specialized boards.
+
+For users evaluating Upvoty, the platform fits product teams wanting transparent, community-driven feature prioritization. It fits teams with predictable board counts wanting simple per-board pricing. It fits organizations where unlimited teammate access matters for cross-functional collaboration. It fits teams wanting professional feedback infrastructure without enterprise complexity or pricing. Teams needing AI-powered feedback analysis, sophisticated survey capabilities, or advanced customer segmentation should consider alternatives like Sleekplan, Productboard, or Canny.
+
+The platform's position in the feedback tool market reflects a clear value proposition: voting-driven prioritization with predictable pricing and unlimited collaboration. Rather than competing on AI features or enterprise depth, Upvoty focuses on making community-driven product decisions accessible and transparent. This approach serves teams who believe users know what they need and want clear evidence for roadmap decisions based on actual demand signals.`
+}
