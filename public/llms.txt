@@ -1,6 +1,6 @@
 # ToolDB
 
-> ToolDB is a curated software directory covering 105+ digital tools across AI, productivity, CRM, marketing, analytics, finance, HR, security, web development, and business software. ToolDB helps users discover, compare, and evaluate software by category, platform, pricing model, use case, and curated alternatives.
+> ToolDB is a curated software directory covering 190+ digital tools across AI, productivity, CRM, marketing, analytics, finance, HR, security, web development, e-commerce, and business software. ToolDB helps users discover, compare, and evaluate software by category, platform, pricing model, use case, curated alternatives, and in-depth head-to-head comparisons.
 
 ToolDB provides independently researched information about software products. Recommendations and comparisons are editorially independent and are not influenced by affiliate partnerships.
 
@@ -29,10 +29,33 @@ Each software page may include:
 ## Core Pages
 
 - [Home](https://tooldb.org/): Browse featured software, categories, and recently added tools.
-- [All Tools](https://tooldb.org/tools): Complete catalog of 105+ digital tools.
+- [All Tools](https://tooldb.org/tools): Complete catalog of 190+ digital tools.
 - [Categories](https://tooldb.org/categories): Explore software by category.
 - [Alternatives](https://tooldb.org/alternatives): Curated alternatives to popular software.
+- [Comparisons](https://tooldb.org/comparisons): In-depth head-to-head comparisons of competing tools.
 - [Blog](https://tooldb.org/blog): Practical guides, comparisons, and buying advice.
+
+## Categories
+
+ToolDB covers 17 categories:
+
+- [AI](https://tooldb.org/categories/ai)
+- [Analytics](https://tooldb.org/categories/analytics)
+- [Communication](https://tooldb.org/categories/communication)
+- [Community](https://tooldb.org/categories/community)
+- [CRM](https://tooldb.org/categories/crm)
+- [Design](https://tooldb.org/categories/design)
+- [E-commerce](https://tooldb.org/categories/ecommerce)
+- [Education](https://tooldb.org/categories/education)
+- [Finance](https://tooldb.org/categories/finance)
+- [HR](https://tooldb.org/categories/hr)
+- [Marketing](https://tooldb.org/categories/marketing)
+- [Media](https://tooldb.org/categories/media)
+- [Productivity](https://tooldb.org/categories/productivity)
+- [Sales](https://tooldb.org/categories/sales)
+- [Security](https://tooldb.org/categories/security)
+- [SEO](https://tooldb.org/categories/seo)
+- [Web Development](https://tooldb.org/categories/web-development)
 
 ## Alternatives to Popular Software
 
@@ -40,16 +63,18 @@ Each software page may include:
 
 - [Jira Alternatives](https://tooldb.org/alternatives/jira): Compare ClickUp, monday.com, Wrike, SmartSuite, and BugHerd.
 - [Asana Alternatives](https://tooldb.org/alternatives/asana): Compare ClickUp, monday.com, Wrike, SmartSuite, Process Street, and Todoist.
-- [Notion Alternatives](https://tooldb.org/alternatives/notion): Compare ClickUp, Miro, Todoist, Wrike, SmartSuite, Softr, and Glide.
+- [Notion Alternatives](https://tooldb.org/alternatives/notion): Compare Borative Workspace OS, Borative Project Hub, ClickUp, and Obsidian.
 - [Trello Alternatives](https://tooldb.org/alternatives/trello): Compare ClickUp, monday.com, Wrike, Todoist, SmartSuite, and Process Street.
-- [Airtable Alternatives](https://tooldb.org/alternatives/airtable): Compare SmartSuite, Softr, Glide, Notion, ClickUp, and monday.com.
+- [Airtable Alternatives](https://tooldb.org/alternatives/airtable): Compare SmartSuite, Softr, Glide, ClickUp, and monday.com.
 - [Calendly Alternatives](https://tooldb.org/alternatives/calendly): Compare Livestorm, Fireflies.ai, Motion, and Reclaim.ai.
+- [Evernote Alternatives](https://tooldb.org/alternatives/evernote): Compare Flytivy AI Knowledge Vault, Obsidian, and Notion.
+- [Zapier Alternatives](https://tooldb.org/alternatives/zapier): Compare QbitMarketHub, Browse AI, and Process Street.
 
 ### Communication & VoIP
 
 - [Slack Alternatives](https://tooldb.org/alternatives/slack): Compare Fireflies.ai, respond.io, Tidio, Quo, and Connecteam.
 - [Zoom Alternatives](https://tooldb.org/alternatives/zoom): Compare Livestorm, Fireflies.ai, and Restream.
-- [RingCentral Alternatives](https://tooldb.org/alternatives/ringcentral): Compare Aircall, CloudTalk, Nextiva, Kixie, CallHippo, Quo, and KrispCall.
+- [RingCentral Alternatives](https://tooldb.org/alternatives/ringcentral): Compare Aircall, Nextiva, Kixie, CallHippo, Quo, and KrispCall.
 - [Intercom Alternatives](https://tooldb.org/alternatives/intercom): Compare Tidio, respond.io, Freshdesk, Help Scout, and Landbot.
 - [Otter.ai Alternatives](https://tooldb.org/alternatives/otter-ai): Compare Fireflies.ai for AI meeting transcription.
 
@@ -68,10 +93,15 @@ Each software page may include:
 
 - [Shopify Alternatives](https://tooldb.org/alternatives/shopify): Compare Sellfy, Printify, and Webflow.
 - [WordPress Alternatives](https://tooldb.org/alternatives/wordpress): Compare Webflow and Netlify.
+- [Jungle Scout Alternatives](https://tooldb.org/alternatives/junglescout): Compare Stock & Margin, EU Commerce Desk, and Product Passport Base.
+
+### Finance & Accounting
+
+- [QuickBooks Alternatives](https://tooldb.org/alternatives/quickbooks): Compare Regution, Flytivy Personal Finance, Xero, and FreshBooks.
 
 ### Documents & Signatures
 
-- [Adobe Acrobat Alternatives](https://tooldb.org/alternatives/adobe-acrobat): Compare Foxit PDF Editor.
+- [Adobe Acrobat Alternatives](https://tooldb.org/alternatives/adobe-acrobat): Compare PDF PowerKit, Foxit PDF Editor, and DocuSign.
 - [DocuSign Alternatives](https://tooldb.org/alternatives/docusign): Compare Signable and PandaDoc.
 
 ### HR & Education
@@ -79,13 +109,141 @@ Each software page may include:
 - [BambooHR Alternatives](https://tooldb.org/alternatives/bamboohr): Compare Connecteam, HiBob, Gusto, Deel, and TestGorilla.
 - [Teachable Alternatives](https://tooldb.org/alternatives/teachable): Compare Thinkific, LearnWorlds, and Circle.
 
-## Featured Blog Articles
+## Head-to-Head Comparisons
 
-- [Mailchimp Alternatives Worth Switching To](https://tooldb.org/blog/mailchimp-alternatives-worth-switching-to): Comparison of popular email marketing platforms.
-- [Free vs Paid CRM: When to Upgrade](https://tooldb.org/blog/free-vs-paid-crm-when-to-upgrade): When it makes sense to move to a paid CRM.
-- [Notion vs ClickUp vs Obsidian](https://tooldb.org/blog/notion-vs-clickup-vs-obsidian): Workspace comparison for different workflows.
-- [Best Email Marketing Tools for Small Business](https://tooldb.org/blog/best-email-marketing-tools-for-small-business): Complete guide to email marketing software.
-- [How to Choose a Project Management Tool](https://tooldb.org/blog/how-to-choose-project-management-tool): Framework for selecting project management software.
+### E-commerce & Web Platforms
+
+- [Webflow vs WordPress](https://tooldb.org/comparisons/webflow-vs-wordpress): Visual builder vs open-source CMS.
+- [Sellfy vs Shopify vs WooCommerce vs BigCommerce](https://tooldb.org/comparisons/sellfy-vs-shopify-vs-woocommerce-vs-bigcommerce): Four e-commerce platforms compared.
+
+### Project Management
+
+- [ClickUp vs Asana vs Trello vs Jira](https://tooldb.org/comparisons/clickup-vs-asana-vs-trello-vs-jira): Four project management philosophies.
+- [monday.com vs Notion vs Basecamp](https://tooldb.org/comparisons/monday-vs-notion-vs-basecamp): Work management vs all-in-one vs simplicity.
+
+### CRM & Sales Intelligence
+
+- [Pipedrive vs HubSpot vs Salesforce](https://tooldb.org/comparisons/pipedrive-vs-hubspot-vs-salesforce): SMB, mid-market, and enterprise CRM.
+- [Apollo vs ZoomInfo vs LinkedIn Sales Navigator](https://tooldb.org/comparisons/apollo-vs-zoominfo-vs-linkedin-sales-navigator): B2B sales intelligence platforms.
+
+### Email Marketing
+
+- [ActiveCampaign vs Mailchimp vs Klaviyo vs Kit](https://tooldb.org/comparisons/activecampaign-vs-mailchimp-vs-klaviyo-vs-kit): Four email marketing philosophies.
+- [Brevo vs Constant Contact vs AWeber](https://tooldb.org/comparisons/brevo-vs-constant-contact-vs-aweber): Affordable email marketing alternatives.
+
+### Design & Media Creation
+
+- [Gamma vs Canva vs PowerPoint vs Beautiful.ai](https://tooldb.org/comparisons/gamma-vs-canva-vs-powerpoint-vs-beautiful-ai): AI-native vs traditional presentation tools.
+- [Descript vs Synthesia vs HeyGen vs Premiere Pro](https://tooldb.org/comparisons/descript-vs-synthesia-vs-heygen-vs-premiere-pro): AI video generation vs professional editing.
+- [ElevenLabs vs Murf vs Lovo AI vs Speechify](https://tooldb.org/comparisons/elevenlabs-vs-murf-vs-lovoai-vs-speechify): AI text-to-speech platforms.
+
+### AI Meeting Assistants
+
+- [Fireflies vs Otter vs Gong vs Fathom](https://tooldb.org/comparisons/fireflies-vs-otter-vs-gong-vs-fathom): AI meeting transcription and conversation intelligence.
+
+### Accounting & Finance
+
+- [QuickBooks vs Xero vs FreshBooks vs NetSuite](https://tooldb.org/comparisons/quickbooks-vs-xero-vs-freshbooks-vs-netsuite): SMB accounting to enterprise ERP.
+
+### Documents & E-Signatures
+
+- [PandaDoc vs DocuSign vs Adobe Sign vs Dropbox Sign](https://tooldb.org/comparisons/pandadoc-vs-docusign-vs-adobesign-vs-dropboxsign): E-signature and document automation platforms.
+
+### Global HR & Payroll
+
+- [Deel vs Remote vs ADP vs Rippling](https://tooldb.org/comparisons/deel-vs-remote-vs-adp-vs-rippling): Global employment and payroll platforms.
+- [Gusto vs BambooHR vs Workday vs Rippling](https://tooldb.org/comparisons/gusto-vs-bamboohr-vs-workday-vs-rippling): HR platforms from SMB to enterprise.
+
+### Customer Service & Support
+
+- [Zendesk vs Freshdesk vs Intercom vs Salesforce Service Cloud](https://tooldb.org/comparisons/zendesk-vs-freshdesk-vs-intercom-vs-salesforceservicecloud): Customer service platforms compared.
+- [Help Scout vs LiveChat vs Drift vs Tidio](https://tooldb.org/comparisons/helpscout-vs-livechat-vs-drift-vs-tidio): Chat-first support platforms.
+- [Landbot vs Intercom vs ManyChat vs Chatfuel](https://tooldb.org/comparisons/landbot-vs-intercom-vs-manychat-vs-chatfuel): Chatbot builders compared.
+
+### Surveys & Forms
+
+- [SurveyMonkey vs Typeform vs Jotform vs Google Forms](https://tooldb.org/comparisons/surveymonkey-vs-typeform-vs-jotform-vs-googleforms): Form builders for every use case.
+
+### SEO Tools
+
+- [Surfer vs Ahrefs vs Semrush vs Moz](https://tooldb.org/comparisons/surfer-vs-ahrefs-vs-semrush-vs-moz): SEO suites compared.
+- [Similarweb vs SpyFu vs SE Ranking vs Ahrefs](https://tooldb.org/comparisons/similarweb-vs-spyfu-vs-seranking-vs-ahrefs): Competitive intelligence and rank tracking.
+- [WooRank vs Seobility vs SISTRIX](https://tooldb.org/comparisons/woorank-vs-seobility-vs-sistrix): SEO audit platforms.
+- [Raven Tools vs AgencyAnalytics vs AccuRanker](https://tooldb.org/comparisons/raventools-vs-agencyanalytics-vs-accuranker): Agency SEO and reporting tools.
+- [Seobility vs SEO PowerSuite vs Sitebulb](https://tooldb.org/comparisons/seobility-vs-seopowersuite-vs-sitebulb): Technical SEO audit tools.
+- [SISTRIX vs Searchmetrics vs XOVI](https://tooldb.org/comparisons/sistrix-vs-searchmetrics-vs-xovi): Enterprise European SEO platforms.
+
+### Social Media & Monitoring
+
+- [Brand24 vs Sprout Social vs Hootsuite vs Mention](https://tooldb.org/comparisons/brand24-vs-sproutsocial-vs-hootsuite-vs-mention): Social media management and listening.
+- [Brand24 vs YouScan vs Awario](https://tooldb.org/comparisons/brand24-vs-youscan-vs-awario): Social listening platforms.
+
+### Marketing Reporting
+
+- [DashThis vs Swydo vs Oviond vs Reportei](https://tooldb.org/comparisons/dashthis-vs-swydo-vs-oviond-vs-reportei): Agency marketing reporting platforms.
+- [Statusbrew vs SocialPilot vs Dash Social](https://tooldb.org/comparisons/statusbrew-vs-socialpilot-vs-dashsocial): Social media management for agencies.
+
+### Product Feedback & Roadmaps
+
+- [Sleekplan vs Upvoty vs Frill](https://tooldb.org/comparisons/sleekplan-vs-upvoty-vs-frill): Feature request and roadmap platforms.
+
+## Blog Articles
+
+### Email Marketing
+
+- [Best Email Marketing Tools for Small Business](https://tooldb.org/blog/best-email-marketing-tools-for-small-business)
+- [Mailchimp Alternatives Worth Switching To](https://tooldb.org/blog/mailchimp-alternatives-worth-switching-to)
+- [Best Business Email Marketing Platforms](https://tooldb.org/blog/best-business-email-marketing-platforms)
+
+### CRM & Sales
+
+- [Free vs Paid CRM: When to Upgrade](https://tooldb.org/blog/free-vs-paid-crm-when-to-upgrade)
+- [Best CRM Software for Small Business](https://tooldb.org/blog/best-crm-software-for-small-business)
+- [Best Sales Prospecting Tools](https://tooldb.org/blog/best-sales-prospecting-tools)
+- [Best Sales Automation Tools for Small Business](https://tooldb.org/blog/best-sales-automation-tools-for-small-business)
+- [Best Cold Email Software](https://tooldb.org/blog/best-cold-email-software)
+- [Best Tools for Sales Reps](https://tooldb.org/blog/best-tools-for-sales-reps)
+
+### Project Management & Productivity
+
+- [How to Choose a Project Management Tool](https://tooldb.org/blog/how-to-choose-project-management-tool)
+- [Notion vs ClickUp vs Obsidian](https://tooldb.org/blog/notion-vs-clickup-vs-obsidian)
+- [Best Project Management Tools for Remote Teams](https://tooldb.org/blog/best-project-management-tools-for-remote-teams)
+- [Best Employee Productivity Tools for Remote Teams](https://tooldb.org/blog/best-employee-productivity-tools-for-remote-teams)
+
+### AI Tools
+
+- [Best AI Meeting Assistants](https://tooldb.org/blog/best-ai-meeting-assistants)
+- [Best AI Tools for Small Business](https://tooldb.org/blog/best-ai-tools-for-small-business)
+
+### Website & E-commerce
+
+- [Best Website Builders for Small Business](https://tooldb.org/blog/best-website-builders-for-small-business)
+- [Best Tools for Online Course Business](https://tooldb.org/blog/best-tools-for-online-course-business)
+- [Best Tools for Online Business](https://tooldb.org/blog/best-tools-for-online-business)
+
+### Customer Support & Communication
+
+- [Best Customer Support Software](https://tooldb.org/blog/best-customer-support-software)
+- [Best Customer Communication Tools](https://tooldb.org/blog/best-customer-communication-tools)
+- [Best Tools for Customer Support Teams](https://tooldb.org/blog/best-tools-for-customer-support-teams)
+
+### HR & Global Teams
+
+- [Best Global Payroll Software for Remote Teams](https://tooldb.org/blog/best-global-payroll-software-for-remote-teams)
+- [Best Tools for HR Managers](https://tooldb.org/blog/best-tools-for-hr-managers)
+
+### Marketing & Digital
+
+- [Best Tools for Digital Marketers](https://tooldb.org/blog/best-tools-for-digital-marketers)
+
+### Education
+
+- [Best Tools for Teachers](https://tooldb.org/blog/best-tools-for-teachers)
+
+### Finance & Accounting
+
+- [Best Tools for Accountants](https://tooldb.org/blog/best-tools-for-accountants)
 
 ## Canonical Entities
 
@@ -102,6 +260,8 @@ Each software page represents a single software product and may include:
 - Official website
 
 Each alternatives page represents a curated comparison between one popular software product and a selected set of alternative tools.
+
+Each comparison page represents an in-depth head-to-head analysis of 3-4 competing products across pricing, features, target audience, and real-world use cases.
 
 ## Information
 
