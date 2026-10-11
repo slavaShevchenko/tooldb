@@ -152,6 +152,7 @@ const getCategoryName = (slug: string) => {
 .hero__vs-name {
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-semibold);
+  text-align: center;
 }
 
 @media (max-width: 1023px) {
