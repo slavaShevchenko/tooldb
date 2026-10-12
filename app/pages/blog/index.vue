@@ -16,6 +16,8 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+
 import { routes } from '~/constants/routes'
 import { blogSeo } from '~/seo'
 import { PAGINATION } from '~/constants/pagination'
@@ -31,19 +33,26 @@ const {
 
 const dynamicMetaDescription = useDynamicSeoDescription(paginatedPosts, {
   prefix: 'Latest articles: ',
-  suffix: '. Practical guides, comparisons and tips for choosing digital tools.',
+  suffix: '. Practical guides, comparisons and tips for choosing digital tools.'
+})
+
+const canonical = computed(() => {
+  const baseUrl = `https://tooldb.org${routes.blog()}`
+  return currentPage.value > 1
+    ? `${baseUrl}?page=${currentPage.value}`
+    : baseUrl
 })
 
 useBreadcrumbJsonLd([
   { name: 'Home', url: routes.home() },
-  { name: 'Blog', url: routes.blog() },
+  { name: 'Blog', url: routes.blog() }
 ])
 
 useItemListJsonLd(
   paginatedPosts.value.map((post, index) => ({
     name: post.title,
     url: routes.blogPost(post.slug),
-    position: (currentPage.value - 1) * PAGINATION.blog + index + 1,
+    position: (currentPage.value - 1) * PAGINATION.blog + index + 1
   })),
   'ToolDB Blog'
 )
@@ -51,8 +60,8 @@ useItemListJsonLd(
 useSeo({
   title: blogSeo.title,
   description: dynamicMetaDescription,
-  canonical: `https://tooldb.org${routes.blog()}`,
-  appendPageNumber: true,
+  canonical,
+  appendPageNumber: true
 })
 </script>
 

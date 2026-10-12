@@ -31,10 +31,13 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+
 import AlternativeStats from '~/components/alternatives/AlternativeStats.vue'
 import { alternatives } from '~/data/alternatives'
 import { alternativesSeo } from '~/seo'
 import { PAGINATION } from '~/constants/pagination'
+import { routes } from '~/constants/routes'
 
 const sortedAlternatives = [...alternatives].sort((a, b) => Number(b.id) - Number(a.id))
 
@@ -50,9 +53,16 @@ const dynamicMetaDescription = useDynamicSeoDescription(paginatedAlternatives, {
   key: 'name'
 })
 
+const canonical = computed(() => {
+  const baseUrl = `https://tooldb.org${routes.alternatives()}`
+  return currentPage.value > 1
+    ? `${baseUrl}?page=${currentPage.value}`
+    : baseUrl
+})
+
 useBreadcrumbJsonLd([
-  { name: 'Home', url: '/' },
-  { name: 'Alternatives', url: '/alternatives' }
+  { name: 'Home', url: routes.home() },
+  { name: 'Alternatives', url: routes.alternatives() }
 ])
 
 useItemListJsonLd(
@@ -65,8 +75,6 @@ useItemListJsonLd(
 )
 
 useAuthorJsonLd()
-
-const canonical = useCanonical()
 
 useSeo({
   title: alternativesSeo.title,

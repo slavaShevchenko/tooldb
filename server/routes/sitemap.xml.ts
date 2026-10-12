@@ -26,30 +26,32 @@ export default defineEventHandler(() => {
   const config = useRuntimeConfig()
   const siteUrl = config.public.siteUrl
 
+  const generatedAt = new Date().toISOString()
+
   const alternativesPages = Math.ceil(
-    alternatives.length / PAGINATION.alternatives,
+    alternatives.length / PAGINATION.alternatives
   )
 
   const blogPages = Math.ceil(
-    blogPosts.filter(post => post.published).length / PAGINATION.blog,
+    blogPosts.filter(post => post.published).length / PAGINATION.blog
   )
 
   const comparisonPages = Math.ceil(
-    comporisonPosts.length / PAGINATION.comparisons,
+    comporisonPosts.length / PAGINATION.comparisons
   )
 
   const staticUrls: SitemapUrl[] = [
-    { loc: routes.home(), changefreq: 'daily', priority: '1.0' },
-    { loc: routes.tools(), changefreq: 'daily', priority: '0.9' },
-    { loc: routes.categories(), changefreq: 'daily', priority: '0.9' },
-    { loc: routes.alternatives(), changefreq: 'weekly', priority: '0.8' },
-    { loc: routes.blog(), changefreq: 'weekly', priority: '0.7' },
-    { loc: routes.comparisons(), changefreq: 'weekly', priority: '0.7' },
+    { loc: routes.home(), changefreq: 'daily', priority: '1.0', lastmod: generatedAt },
+    { loc: routes.tools(), changefreq: 'daily', priority: '0.9', lastmod: generatedAt },
+    { loc: routes.categories(), changefreq: 'daily', priority: '0.9', lastmod: generatedAt },
+    { loc: routes.alternatives(), changefreq: 'weekly', priority: '0.8', lastmod: generatedAt },
+    { loc: routes.blog(), changefreq: 'weekly', priority: '0.7', lastmod: generatedAt },
+    { loc: routes.comparisons(), changefreq: 'weekly', priority: '0.7', lastmod: generatedAt },
     { loc: routes.about(), changefreq: 'monthly', priority: '0.5' },
     { loc: routes.contact(), changefreq: 'monthly', priority: '0.5' },
     { loc: routes.privacyPolicy(), changefreq: 'monthly', priority: '0.3' },
     { loc: routes.termsOfService(), changefreq: 'monthly', priority: '0.3' },
-    { loc: routes.affiliateDisclosure(), changefreq: 'monthly', priority: '0.3' },
+    { loc: routes.affiliateDisclosure(), changefreq: 'monthly', priority: '0.3' }
   ]
 
   const alternativesPaginationUrls: SitemapUrl[] = Array.from(
@@ -58,7 +60,8 @@ export default defineEventHandler(() => {
       loc: `${routes.alternatives()}?page=${index + 2}`,
       changefreq: 'weekly',
       priority: '0.7',
-    }),
+      lastmod: generatedAt
+    })
   )
 
   const blogPaginationUrls: SitemapUrl[] = Array.from(
@@ -67,26 +70,39 @@ export default defineEventHandler(() => {
       loc: `${routes.blog()}?page=${index + 2}`,
       changefreq: 'weekly',
       priority: '0.6',
-    }),
+      lastmod: generatedAt
+    })
+  )
+
+  const comparisonPaginationUrls: SitemapUrl[] = Array.from(
+    { length: Math.max(comparisonPages - 1, 0) },
+    (_, index) => ({
+      loc: `${routes.comparisons()}?page=${index + 2}`,
+      changefreq: 'weekly',
+      priority: '0.6',
+      lastmod: generatedAt
+    })
   )
 
   const categoryUrls: SitemapUrl[] = categories.map(category => ({
     loc: routes.category(category.slug),
     changefreq: 'daily',
     priority: '0.7',
+    lastmod: generatedAt
   }))
 
   const toolUrls: SitemapUrl[] = tools.map(tool => ({
     loc: routes.tool(tool.slug),
     lastmod: new Date(tool.lastUpdated).toISOString(),
     changefreq: 'weekly',
-    priority: '0.8',
+    priority: '0.8'
   }))
 
   const alternativeUrls: SitemapUrl[] = alternatives.map(alternative => ({
     loc: routes.alternative(alternative.slug),
+    lastmod: generatedAt,
     changefreq: 'weekly',
-    priority: '0.7',
+    priority: '0.7'
   }))
 
   const blogUrls: SitemapUrl[] = blogPosts
@@ -95,22 +111,14 @@ export default defineEventHandler(() => {
       loc: routes.blogPost(post.slug),
       lastmod: new Date(post.updatedAt).toISOString(),
       changefreq: 'monthly',
-      priority: '0.6',
+      priority: '0.6'
     }))
-
-  const comparisonPaginationUrls: SitemapUrl[] = Array.from(
-    { length: Math.max(comparisonPages - 1, 0) },
-    (_, index) => ({
-      loc: `${routes.comparisons()}?page=${index + 2}`,
-      changefreq: 'weekly',
-      priority: '0.6',
-    }),
-  )
 
   const comparisonUrls: SitemapUrl[] = comporisonPosts.map(comparison => ({
     loc: routes.comparison(comparison.slug),
+    lastmod: generatedAt,
     changefreq: 'monthly',
-    priority: '0.6',
+    priority: '0.6'
   }))
 
   const allUrls: SitemapUrl[] = [
@@ -122,7 +130,7 @@ export default defineEventHandler(() => {
     ...toolUrls,
     ...alternativeUrls,
     ...blogUrls,
-    ...comparisonUrls,
+    ...comparisonUrls
   ]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
@@ -133,14 +141,14 @@ ${allUrls
   <loc>${escapeXml(`${siteUrl}${url.loc}`)}</loc>${url.lastmod ? `\n  <lastmod>${url.lastmod}</lastmod>` : ''}
   <changefreq>${url.changefreq}</changefreq>
   <priority>${url.priority}</priority>
-</url>`,
+</url>`
   )
   .join('\n')}
 </urlset>`
 
   return new Response(xml, {
     headers: {
-      'Content-Type': 'application/xml; charset=utf-8',
-    },
+      'Content-Type': 'application/xml; charset=utf-8'
+    }
   })
 })

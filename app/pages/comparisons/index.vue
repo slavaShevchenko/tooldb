@@ -29,6 +29,8 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+
 import { routes } from '~/constants/routes'
 import { comparisonsSeo } from '~/seo'
 import { PAGINATION } from '~/constants/pagination'
@@ -39,24 +41,31 @@ const allComparisons = getComparisons()
 const {
   items: paginatedComparisons,
   currentPage,
-  totalPages,
+  totalPages
 } = usePagination(allComparisons, PAGINATION.comparisons)
 
 const dynamicMetaDescription = useDynamicSeoDescription(paginatedComparisons, {
   prefix: 'Latest comparisons: ',
-  suffix: '. Compare popular digital tools side by side with detailed feature analysis.',
+  suffix: '. Compare popular digital tools side by side with detailed feature analysis.'
+})
+
+const canonical = computed(() => {
+  const baseUrl = `https://tooldb.org${routes.comparisons()}`
+  return currentPage.value > 1
+    ? `${baseUrl}?page=${currentPage.value}`
+    : baseUrl
 })
 
 useBreadcrumbJsonLd([
   { name: 'Home', url: routes.home() },
-  { name: 'Comparisons', url: routes.comparisons() },
+  { name: 'Comparisons', url: routes.comparisons() }
 ])
 
 useSeo({
   title: comparisonsSeo.title,
   description: dynamicMetaDescription,
-  canonical: `https://tooldb.org${routes.comparisons()}`,
-  appendPageNumber: true,
+  canonical,
+  appendPageNumber: true
 })
 </script>
 
