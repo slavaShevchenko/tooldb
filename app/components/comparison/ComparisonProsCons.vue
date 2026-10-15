@@ -85,6 +85,7 @@
             variant="primary"
             size="sm"
             class="visit-button"
+            v-track-click="{ toolName: getTool(item.slug).name, location: 'comparison_pros_cons' }"
           >
             Visit Website
             <BaseIcon

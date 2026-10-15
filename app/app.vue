@@ -3,5 +3,6 @@
     <NuxtPage />
   </NuxtLayout>
 
+  <AppCookieConsent />
   <AppCurtain />
 </template>

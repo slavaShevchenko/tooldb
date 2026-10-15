@@ -61,6 +61,7 @@
         target="_blank"
         size="md"
         width="full"
+        v-track-click="{ toolName: tool.name, location: 'alternatives' }"
       >
         Visit Website
       </BaseButton>

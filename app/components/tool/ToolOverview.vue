@@ -15,6 +15,7 @@
         target="_blank"
         size="lg"
         width="full"
+        v-track-click="{ toolName: tool.name, location: 'tool_bottom' }"
       >
         Visit Website
       </BaseButton>

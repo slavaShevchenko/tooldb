@@ -40,6 +40,7 @@
                 variant="primary"
                 size="sm"
                 class="visit-button"
+                v-track-click="{ toolName: tool.name, location: 'comparison_Overview' }"
               >
                 Visit Website
                 <BaseIcon
