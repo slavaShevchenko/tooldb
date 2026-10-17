@@ -42,6 +42,13 @@ export default defineNuxtConfig({
           content: 'a4275c91e37d2e21'
         }
       ],
+      script: [
+        {
+          src: 'https://s.skimresources.com/js/311203X1799701.skimlinks.js',
+          type: 'text/javascript',
+          tagPosition: 'bodyClose'
+        }
+      ],
     },
   },
 
