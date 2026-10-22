@@ -5,7 +5,7 @@ export const bestToolsForFrontendDevelopers: BlogPostData = {
   image: '/images/blog-image/best-tools-for-frontend-developers.webp',
   title: 'Best Tools for Frontend Developers: Top Solutions for Deployment, Testing and Bug Tracking',
   description: 'Optimize your development workflow. We compare the best tools for frontend developers to help you deploy faster, track bugs and boost productivity.',
-  published: false,
+  published: true,
   publishedAt: '2026-10-18',
   updatedAt: '2026-10-18',
   content: [

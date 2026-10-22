@@ -5,7 +5,7 @@ export const bestToolsForFreelancers: BlogPostData = {
   image: '/images/blog-image/best-tools-for-freelancers.webp',
   title: 'Best Tools for Freelancers: Top Solutions for Time Tracking, Contracts, Invoicing and Payments',
   description: 'Run your solo business like a pro. We compare the best tools for freelancers to help you track time, sign contracts and get paid faster.',
-  published: false,
+  published: true,
   publishedAt: '2026-10-16',
   updatedAt: '2026-10-16',
   content: [

@@ -5,7 +5,7 @@ export const bestToolsForProjectManagers: BlogPostData = {
   image: '/images/blog-image/best-tools-for-project-managers.webp',
   title: 'Best Tools for Project Managers: Top Solutions for Planning, Collaboration and Productivity',
   description: 'Keep your projects on track and your team aligned. We compare the best tools for project managers to streamline planning and boost productivity.',
-  published: false,
+  published: true,
   publishedAt: '2026-10-14',
   updatedAt: '2026-10-14',
   content: [

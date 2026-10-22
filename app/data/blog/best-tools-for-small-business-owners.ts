@@ -5,7 +5,7 @@ export const bestToolsForSmallBusinessOwners: BlogPostData = {
   image: '/images/blog-image/best-tools-for-small-business-owners.webp',
   title: 'Best Tools for Small Business Owners: Top Solutions for Accounting, Marketing, Documents and Project Management',
   description: 'Streamline your operations and scale efficiently. We compare the best tools for small business owners to help you manage accounting, marketing and projects.',
-  published: false,
+  published: true,
   publishedAt: '2026-10-20',
   updatedAt: '2026-10-20',
   content: [
