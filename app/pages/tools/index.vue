@@ -1,8 +1,17 @@
 <template>
   <BaseContainer>
-    <h1 class="tools__header">The Complete Directory of Digital Tools & SaaS (2026)</h1>
+    <h1 class="tools__header">
+      The Complete Directory of Digital Tools & SaaS (2026)
+    </h1>
+
+    <ToolCategoryFilter
+      v-model="selectedCategory"
+      :categories="availableToolCategories"
+      :total-tools="tools.length"
+    />
+
     <LayoutSection
-      v-for="toolCategory in toolCategoriesWithTools"
+      v-for="toolCategory in filteredToolCategories"
       :key="toolCategory.id"
       :title="toolCategory.name"
       :description="toolCategory.descriptionFull"
@@ -15,6 +24,7 @@
       <div class="tooldb__grid-left">
         <CommonAuthorBox />
       </div>
+
       <div class="tooldb__grid-right">
         <ToolAffiliateNotice />
       </div>
@@ -23,9 +33,22 @@
 </template>
 
 <script setup lang="ts">
+import { computed, ref } from 'vue'
 import { toolsSeo } from '~/seo'
 
-const { toolCategoriesWithTools } = useTools()
+const { tools, availableToolCategories, toolCategoriesWithTools } = useTools()
+
+const selectedCategory = ref('')
+
+const filteredToolCategories = computed(() => {
+  if (!selectedCategory.value) {
+    return toolCategoriesWithTools.value
+  }
+
+  return toolCategoriesWithTools.value.filter(
+    category => category.slug === selectedCategory.value,
+  )
+})
 
 useBreadcrumbJsonLd([
   { name: 'Home', url: '/' },
@@ -33,12 +56,12 @@ useBreadcrumbJsonLd([
 ])
 
 useItemListJsonLd(
-  toolCategoriesWithTools.value.map((t, i) => ({
-    name: t.name,
-    url: `/categories/${t.slug}`,
-    position: i + 1,
+  toolCategoriesWithTools.value.map((category, index) => ({
+    name: category.name,
+    url: `/categories/${category.slug}`,
+    position: index + 1,
   })),
-  'Digital Tools Catalog'
+  'Digital Tools Catalog',
 )
 
 useAuthorJsonLd()
@@ -51,32 +74,36 @@ useSeo({
 </script>
 
 <style lang="scss" scoped>
+.tools__header {
+  margin-top: var(--space-2);
+  font-size: var(--font-size-3xl);
+}
+
+.section {
+  margin-top: var(--space-2);
+}
+
+.section:deep() > .header {
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.section:deep() > .header .content .description {
+  line-height: 1.8;
+}
+
+.tooldb__grid {
+  margin-bottom: var(--space-2);
+}
+
+@media (max-width: 991px) {
   .tools__header {
     margin-top: var(--space-2);
-    font-size: var(--font-size-3xl);
+    font-size: var(--font-size-2xl);
   }
-  .section {
-    margin-top: var(--space-2);
-  }
+
   .section:deep() > .header {
-    gap: var(--space-3);
-    margin-bottom: var(--space-3);
+    display: block;
   }
-  .section:deep() > .header .content .description {
-    line-height: 1.8;
-  }
-
-  .tooldb__grid {
-    margin-bottom: var(--space-2);
-  } 
-
-  @media (max-width: 991px) {
-    .tools__header {
-      margin-top: var(--space-2);
-      font-size: var(--font-size-2xl);
-    }
-    .section:deep() > .header {
-      display: block;
-    }
-  }
+}
 </style>

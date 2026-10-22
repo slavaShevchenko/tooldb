@@ -14,11 +14,11 @@ export const navigation = [
     to: routes.alternatives(),
   },
   {
-    label: 'Blog',
-    to: routes.blog(),
-  },
-  {
     label: 'Comparisons',
     to: routes.comparisons(),
+  },
+  {
+    label: 'Blog',
+    to: routes.blog(),
   },
 ] as const
