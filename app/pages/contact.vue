@@ -7,7 +7,9 @@
     >
       <div class="contact__content">
         <p class="contact__intro">
-          The best way to reach us is via email. Whether you want to suggest a new digital tool, report outdated information, or discuss partnership opportunities, we read every message and appreciate your input.
+          The best way to reach us is via email. Whether you want to suggest
+          a new digital tool, report outdated information, or discuss a
+          partnership, we'd love to hear from you.
         </p>
 
         <div class="contact__email-box">
@@ -19,28 +21,69 @@
           </p>
         </div>
 
-        <h2 class="contact__subtitle">What you can contact us about:</h2>
+        <h2 class="contact__subtitle">
+          What you can contact us about
+        </h2>
+
         <ul class="contact__list">
           <li>
-            <strong>🛠️ Suggest a Tool:</strong> 
-            Know a great SaaS, AI tool, or software we missed? Send us the name, website, and a brief description of why it belongs in our catalog.
+            <strong>🛠️ Suggest a Tool</strong>
+            <p>
+              Know a great SaaS, AI tool, or software we missed? Send us
+              the name, website, and a brief description of why it belongs
+              in our catalog. Every submission is reviewed before inclusion.
+            </p>
           </li>
+
           <li>
-            <strong>🐛 Report an Issue:</strong> 
-            Found incorrect pricing, a broken link, or outdated features? Let us know so we can keep our directory accurate and reliable for everyone.
+            <strong>🚀 Paid Listings — €50 One-Time</strong>
+            <p>
+              Want to give your product more visibility? For a one-time
+              payment of €50, you can get a lifetime listing in the ToolDB
+              catalog and featured placement on our homepage.
+            </p>
+            <p>
+              There are no recurring listing fees. All submissions are
+              subject to editorial review and must meet our quality standards.
+              Featured placement is promotional and does not guarantee
+              specific traffic or business results.
+            </p>
+            <p>
+              Interested? Email us with your product name, website, and
+              a short description of your tool to get started.
+            </p>
           </li>
+
           <li>
-            <strong>🤝 Partnerships & Advertising:</strong> 
-            Interested in featuring your tool, discussing affiliate partnerships, or sponsorship opportunities? We are open to mutually beneficial collaborations.
+            <strong>🐛 Report an Issue</strong>
+            <p>
+              Found incorrect pricing, a broken link, or outdated features?
+              Let us know so we can keep our directory accurate and useful.
+            </p>
           </li>
+
           <li>
-            <strong>💬 General Feedback:</strong> 
-            Love the site or have ideas on how we can improve the user experience, add new categories, or enhance our alternative comparisons?
+            <strong>🤝 Partnerships & Advertising</strong>
+            <p>
+              Interested in affiliate partnerships, sponsorships, or other
+              advertising opportunities? We're open to mutually beneficial
+              collaborations.
+            </p>
+          </li>
+
+          <li>
+            <strong>💬 General Feedback</strong>
+            <p>
+              Have ideas on how we can improve the user experience, add
+              new categories, or enhance our tool comparisons? We'd love
+              to hear your suggestions.
+            </p>
           </li>
         </ul>
 
         <p class="contact__footer">
-          We aim to respond to all inquiries within 24–48 hours. Thank you for helping us build the most useful software directory on the web.
+          We review every message and aim to respond as soon as possible.
+          Thank you for helping us build a useful software directory.
         </p>
       </div>
     </LayoutSection>
@@ -54,7 +97,7 @@ definePageMeta({
 
 useSeo({
   title: 'Contact Us - ToolDB',
-  description: 'Get in touch with the ToolDB team. Suggest new software tools, report outdated information, or discuss partnership and advertising opportunities.',
+  description: 'Contact ToolDB to suggest software, report outdated information, purchase a featured listing for €50, or discuss partnerships and advertising.',
   canonical: 'https://tooldb.org/contact',
 })
 </script>
@@ -63,13 +106,16 @@ useSeo({
 .section {
   margin-top: var(--space-2);
 }
+
 .section:deep() .header {
   gap: var(--space-3);
   margin-bottom: var(--space-3);
 }
+
 .section:deep() .content .title {
   font-size: var(--font-size-3xl);
 }
+
 .section:deep() .content .description {
   line-height: 1.8;
 }
@@ -122,7 +168,7 @@ useSeo({
 .contact__list {
   list-style: none;
   padding: 0;
-  margin: 0 0 var(--space-2) 0;
+  margin: 0 0 var(--space-2);
 
   li {
     margin-bottom: var(--space-1-5);
@@ -133,6 +179,14 @@ useSeo({
       color: var(--color-text);
       display: inline-block;
       margin-bottom: 0.25rem;
+    }
+
+    p {
+      margin: 0 0 var(--space-0-5);
+    }
+
+    p:last-child {
+      margin-bottom: 0;
     }
   }
 }

@@ -30,82 +30,194 @@
             We aim to keep tool information useful and current, but listings,
             pricing, ratings, descriptions and availability may change. ToolDB
             does not guarantee that all information is complete, accurate or
-            suitable for your specific needs.
+            suitable for your specific needs. You should verify important
+            information directly with the relevant provider before making
+            purchasing or business decisions.
           </p>
         </section>
 
         <section>
-          <h2>Affiliate links and third-party websites</h2>
+          <h2>Paid Listings and Featured Placement</h2>
+          <p>
+            ToolDB offers paid listing opportunities for eligible SaaS,
+            software and AI products. The standard offer is a one-time
+            payment of €50 for a lifetime listing in the ToolDB catalog
+            and featured placement on the homepage.
+          </p>
+          <p>
+            All submissions are subject to editorial review. Payment does
+            not guarantee acceptance. ToolDB may reject a submission if
+            the product does not meet our quality standards, contains
+            misleading claims, is unavailable, or raises legal, security
+            or other legitimate concerns.
+          </p>
+          <p>
+            A lifetime listing means that no recurring listing fee is
+            required. It does not mean that a listing can never be removed.
+            ToolDB may update, suspend or remove a listing if the product
+            becomes unavailable, materially misrepresents its features,
+            violates applicable law, or no longer meets our editorial
+            standards.
+          </p>
+          <p>
+            Featured placement is promotional. The €50 fee does not guarantee
+            a permanent homepage position, a specific position in organic
+            search results, a particular number of visitors, sales,
+            conversions or other business results.
+          </p>
+          <p>
+            Paid placements may be labeled as sponsored or featured content.
+            Payment does not entitle a provider to a positive review,
+            a particular editorial rating, or control over ToolDB's
+            independent editorial assessments.
+          </p>
+        </section>
+
+        <section>
+          <h2>Payment and Refunds</h2>
+          <p>
+            Payment arrangements for paid listings are handled manually
+            through communication with ToolDB. The applicable price and
+            payment instructions will be confirmed before payment is made.
+          </p>
+          <p>
+            A listing will generally be published after the submission
+            has been approved and the agreed payment has been received.
+            ToolDB may request additional information before making
+            a decision.
+          </p>
+          <p>
+            If a submission is rejected before publication, any payment
+            already received for that submission will be refunded.
+            If a listing has already been published, contact us if you
+            believe you are entitled to a refund. Refunds and any
+            applicable cancellation rights are subject to the agreement
+            with the customer and applicable law.
+          </p>
+          <p>
+            Nothing in these terms excludes or limits any mandatory
+            consumer rights that apply under applicable law.
+          </p>
+        </section>
+
+        <section>
+          <h2>Affiliate Links and Third-Party Websites</h2>
           <p>
             ToolDB may link to third-party websites, products or services.
-            Some links may be affiliate links. We are not responsible for
-            third-party content, policies, pricing, availability or actions.
+            Some links may be affiliate links, through which ToolDB may
+            earn a commission if you make a qualifying purchase, at no
+            additional cost to you unless otherwise disclosed.
           </p>
-        </section>
-
-        <section>
-          <h2>Intellectual property</h2>
           <p>
-            ToolDB's design, text, structure and original content are owned by
-            ToolDB or its licensors. You may not copy, reproduce, scrape,
-            redistribute or commercially reuse substantial parts of the website
-            without permission.
+            We are not responsible for third-party content, policies,
+            pricing, availability, products or actions. Your interactions
+            with third-party providers are governed by their own terms
+            and policies.
+          </p>
+          <p>
+            For more information, see our
+            <NuxtLink :to="routes.affiliateDisclosure()">
+              Affiliate Disclosure
+            </NuxtLink>.
           </p>
         </section>
 
         <section>
-          <h2>Acceptable use</h2>
+          <h2>Intellectual Property</h2>
+          <p>
+            ToolDB's design, text, structure and original content are owned
+            by ToolDB or its licensors. You may not copy, reproduce, scrape,
+            redistribute or commercially reuse substantial parts of the
+            website without permission, except where permitted by applicable
+            law.
+          </p>
+          <p>
+            By submitting product descriptions, logos, images or other
+            materials for a listing, you confirm that you have the necessary
+            rights or permissions to provide those materials and authorize
+            ToolDB to use, reproduce, display and adapt them as reasonably
+            necessary to review, publish, promote and maintain the listing.
+          </p>
+          <p>
+            You remain responsible for the accuracy of the materials you
+            submit and must promptly notify us if you no longer have the
+            right to authorize their use.
+          </p>
+        </section>
+
+        <section>
+          <h2>Acceptable Use</h2>
           <p>
             You agree not to misuse ToolDB, interfere with the website,
             attempt unauthorized access, introduce malware, scrape at abusive
-            scale, or use the website in a way that violates applicable law or
-            harms other users.
+            scale, submit fraudulent or misleading information, infringe
+            third-party rights, or use the website in a way that violates
+            applicable law or harms other users.
           </p>
         </section>
 
         <section>
-          <h2>No professional advice</h2>
+          <h2>No Professional Advice</h2>
           <p>
-            ToolDB is provided for general informational purposes only. It does
-            not provide legal, financial, technical, security or procurement
-            advice. You are responsible for evaluating tools before relying on
-            or purchasing them.
+            ToolDB is provided for general informational purposes only.
+            It does not provide legal, financial, technical, security or
+            procurement advice. You are responsible for evaluating tools
+            before relying on or purchasing them.
           </p>
         </section>
 
         <section>
-          <h2>Disclaimer of warranties</h2>
+          <h2>Disclaimer of Warranties</h2>
           <p>
-            ToolDB is provided on an "as is" and "as available" basis. To the
-            extent allowed by law, we disclaim warranties of merchantability,
-            fitness for a particular purpose and non-infringement.
+            ToolDB is provided on an "as is" and "as available" basis.
+            To the extent allowed by law, we disclaim warranties of
+            merchantability, fitness for a particular purpose and
+            non-infringement.
           </p>
         </section>
 
         <section>
-          <h2>Limitation of liability</h2>
+          <h2>Limitation of Liability</h2>
           <p>
             To the extent allowed by law, ToolDB will not be liable for
             indirect, incidental, consequential, special or punitive damages,
             or for lost profits, data, goodwill or business opportunities
             arising from your use of the website.
           </p>
+          <p>
+            Nothing in these terms excludes or limits liability where
+            such exclusion or limitation is prohibited by applicable law.
+          </p>
         </section>
 
         <section>
-          <h2>Changes to these terms</h2>
+          <h2>Privacy</h2>
           <p>
-            We may update these terms as ToolDB evolves. When we make material
-            changes, we will update the date below. Continued use of ToolDB
-            after changes means you accept the updated terms.
+            Our collection and use of personal information are described
+            in our
+            <NuxtLink :to="routes.privacyPolicy()">
+              Privacy Policy
+            </NuxtLink>.
+            By using ToolDB, you acknowledge that you have had the
+            opportunity to read that policy.
+          </p>
+        </section>
+
+        <section>
+          <h2>Changes to These Terms</h2>
+          <p>
+            We may update these terms as ToolDB evolves. When we make
+            material changes, we will update the date below. Changes
+            apply from the date they are published, subject to any
+            requirements imposed by applicable law.
           </p>
         </section>
 
         <section>
           <h2>Contact</h2>
           <p>
-            If you have questions about these Terms of Service, please visit
-            our
+            If you have questions about these Terms of Service, paid
+            listings or other matters, please visit our
             <NuxtLink :to="routes.contact()">
               contact page
             </NuxtLink>.
@@ -113,7 +225,7 @@
         </section>
 
         <p class="terms-page__updated">
-          Last updated: August 5, 2026
+          Last updated: October 22, 2026
         </p>
       </div>
     </LayoutSection>
@@ -160,6 +272,10 @@ p {
 
   color: var(--color-text-secondary);
   line-height: 1.7;
+}
+
+p + p {
+  margin-top: var(--space-1);
 }
 
 a {

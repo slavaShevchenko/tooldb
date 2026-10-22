@@ -45,13 +45,53 @@
           <p>
             We maintain strict editorial independence. Affiliate relationships
             do not influence which tools we include, how we describe them or
-            what we recommend. If a tool does not meet our quality standards,
-            it will not appear in our catalog regardless of whether we have
-            a partnership with the provider. Transparency about our business
-            model is important to us, and you can read more on our
+            what we recommend. Paid submissions are subject to the same
+            quality standards as other listings. Payment does not guarantee
+            a positive review or a higher position in organic search results.
+            You can learn more about our business model on our
             <NuxtLink :to="routes.affiliateDisclosure()">
               affiliate disclosure page
             </NuxtLink>.
+          </p>
+        </section>
+
+        <section>
+          <h2>Paid Listings</h2>
+          <p>
+            Want to give your product more visibility? For a one-time payment
+            of €50, you can submit your SaaS or AI tool for a featured listing
+            on ToolDB.
+          </p>
+
+          <ul class="paid-listing__features">
+            <li>
+              <strong>Lifetime catalog listing</strong>
+              — your tool remains in our catalog without recurring listing fees,
+              provided it continues to meet our editorial standards.
+            </li>
+            <li>
+              <strong>Featured placement on the homepage</strong>
+              — additional visibility for your product in our featured section.
+            </li>
+            <li>
+              <strong>One-time payment</strong>
+              — €50, with no recurring listing fees.
+            </li>
+          </ul>
+
+          <p>
+            Every submission is reviewed before publication. Payment does not
+            guarantee acceptance, rankings in organic search results or specific
+            traffic and business results. Featured placements are promotional
+            and may be labeled accordingly.
+          </p>
+
+          <p>
+            Interested? Visit our
+            <NuxtLink :to="routes.contact()">
+              contact page
+            </NuxtLink>
+            and select the subject of paid listings to get started.
           </p>
         </section>
 
@@ -122,7 +162,7 @@
         </section>
 
         <p class="about-page__updated">
-          Last updated: August 9, 2026
+          Last updated: October 22, 2026
         </p>
       </div>
     </LayoutSection>
@@ -167,7 +207,7 @@ h2 {
 }
 
 p {
-  margin: 0;
+  margin: 0 0 var(--space-1);
 
   color: var(--color-text-secondary);
   line-height: 1.7;
@@ -178,10 +218,25 @@ a {
   font-weight: var(--font-weight-semibold);
 }
 
-.about-page__updated {
-  font-size: var(--font-size-sm);
+.paid-listing__features {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-0-5);
+  margin: var(--space-1) 0;
+  padding-left: var(--space-2);
+
+  color: var(--color-text-secondary);
+  line-height: 1.7;
 }
 
+.paid-listing__features strong {
+  color: var(--color-text);
+}
+
+.about-page__updated {
+  margin-top: var(--space-3);
+  font-size: var(--font-size-sm);
+}
 
 .about-author__card {
   display: flex;
