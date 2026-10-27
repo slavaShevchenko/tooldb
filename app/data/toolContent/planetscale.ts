@@ -1,0 +1,33 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const planetscaleContent: ToolContent = {
+  overview: `PlanetScale has revolutionized MySQL deployment by bringing Git-like workflows to database schema management and providing horizontal scaling previously impossible with standard MySQL. Built on Vitess — the open-source database clustering system originally developed at YouTube — PlanetScale enables applications to scale beyond single-node MySQL limits while providing safe, non-blocking schema migrations that eliminate deployment anxiety.
+
+The Vitess foundation provides battle-tested scalability. Vitess powers some of the world's largest MySQL deployments, including YouTube, Slack, and GitHub. PlanetScale makes this technology accessible to any development team without requiring deep distributed systems expertise. Applications using PlanetScale can scale from small prototypes to massive production systems handling millions of queries per second without rewriting queries or changing application code.
+
+Database branching transforms schema management. Developers create branches of their database schema to test migrations safely before deploying to production. Each branch provides an isolated schema copy where developers can add columns, create indexes, and modify tables without affecting production. Branches merge through pull request workflows familiar from code development. This Git-like approach brings safety and predictability to database changes that traditionally caused anxiety.
+
+Non-blocking schema migrations eliminate deployment downtime. Traditional MySQL ALTER TABLE statements lock tables during execution, causing application downtime or degraded performance for large tables. PlanetScale executes schema changes using online DDL techniques that don't lock tables, allowing applications to continue serving traffic throughout migrations. This capability matters tremendously for production databases with millions of rows where traditional migrations would take hours.
+
+The deploy request workflow provides safety for schema changes. Developers propose schema modifications through deploy requests, which automatically analyze impact, run compatibility checks, and identify potential issues. Reviews by team members catch problems before production deployment. Automated rollback capabilities revert problematic changes quickly if issues emerge after deployment.
+
+Horizontal scaling happens transparently. Vitess handles query routing, sharding, and replication across multiple database nodes automatically. Applications connect to PlanetScale as if using a single MySQL instance while queries distribute across the cluster. This abstraction means applications scale without understanding distributed systems complexity or rewriting queries for sharded architectures.
+
+MySQL compatibility preserves existing investments. Applications using MySQL drivers, ORMs, and tools work with PlanetScale without modifications. Developers leverage existing MySQL expertise, tools, and ecosystem. The platform supports standard SQL syntax, stored procedures, triggers, and foreign keys. This compatibility reduces migration friction compared to adopting entirely new database technologies.
+
+The web-based management console provides visibility into database operations. Teams monitor query performance, analyze slow queries, view schema history, and manage branches through an intuitive interface. The console displays metrics, logs, and alerts helping teams understand database behavior and optimize performance.
+
+Branching extends to data for development workflows. While schema branches provide isolation for migrations, data branches enable creating isolated data copies for development, testing, and staging environments. Teams branch production data to create realistic test environments without affecting production systems.
+
+The pricing structure reflects production requirements. Fixed monthly pricing starting at $39/month provides predictable costs for growing applications. Scaler at $99/month offers higher limits for production workloads. Enterprise plans provide dedicated resources, SLAs, and custom features for large organizations. All plans include unlimited schema migrations and branching — removing usage anxiety for development workflows.
+
+PlanetScale's limitations center on MySQL compatibility trade-offs. While highly compatible, some advanced MySQL features aren't supported or work differently in the distributed Vitess architecture. Foreign keys have limitations across shards. Some MySQL-specific syntax requires adjustment. Teams must understand these trade-offs when migrating complex MySQL applications.
+
+The pricing represents significant investment compared to basic MySQL hosting. Small projects or hobby applications may find PlanetScale's costs difficult to justify compared to simple managed MySQL services. The value proposition strengthens with application scale and deployment complexity where PlanetScale's advanced features provide clear benefits.
+
+The learning curve for distributed database concepts exists despite abstraction. While PlanetScale hides much complexity, teams benefit from understanding sharding principles, query routing, and distributed transaction behavior. This knowledge helps optimize applications and troubleshoot issues effectively.
+
+For users evaluating PlanetScale, the platform fits applications outgrowing single-node MySQL limits. It fits teams wanting Git-like safety for schema changes. It fits organizations needing zero-downtime migrations on large databases. It fits applications requiring horizontal scaling without rewriting queries. It fits teams with existing MySQL expertise wanting modern workflows. Small projects, applications requiring specific unsupported MySQL features, or teams preferring simpler managed MySQL should consider AWS RDS, PlanetScale alternatives, or Neon alongside PlanetScale.
+
+PlanetScale represents the maturation of MySQL for modern application requirements — providing scalability, safety, and developer experience that traditional MySQL deployments can't match. The combination of Vitess scalability, Git-like branching, and non-blocking migrations addresses fundamental challenges in database management at scale. As applications continue growing in complexity and data volume, PlanetScale's approach to MySQL infrastructure provides the foundation for scalable, reliable database operations.`
+}

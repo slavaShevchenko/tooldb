@@ -1,0 +1,37 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const boltnewContent: ToolContent = {
+  overview: `Bolt.new by StackBlitz represents a breakthrough in AI-powered development by enabling full-stack web application creation entirely within web browsers. Unlike traditional development requiring local environment setup, package installations, and configuration, Bolt.new leverages StackBlitz's WebContainers technology to run complete Node.js environments directly in browsers. Combined with AI generation capabilities, Bolt.new transforms application development from a setup-intensive process into instant, conversational creation.
+
+WebContainers technology forms Bolt.new's technical foundation. This innovation runs Node.js entirely within browser sandboxes using WebAssembly and browser APIs, eliminating server-side execution. Users get full Node.js runtime, npm package installation, file system access, terminal commands, and development server capabilities without any backend infrastructure. This browser-native approach means development works identically across operating systems, requires no local installation, and starts instantly.
+
+AI application generation transforms how software gets built. Users describe applications in natural language — "Create a task management app with drag-and-drop Kanban boards" or "Build an e-commerce site with product catalog and shopping cart" — and Bolt.new generates complete working applications. The AI creates frontend components, backend APIs, database schemas, routing, and styling across multiple files. This generation capability enables non-developers to create functional applications and developers to prototype ideas instantly.
+
+The full-stack support distinguishes Bolt.new from frontend-only AI tools. Generated applications include React or Next.js frontends, Node.js or Express backends, database integration (PostgreSQL, MongoDB, SQLite), authentication systems, and API routes. This comprehensive coverage means generated applications are production-capable rather than just UI mockups. Users can build complete SaaS applications, internal tools, or customer-facing products.
+
+Instant deployment eliminates traditional DevOps complexity. Once applications are generated and refined, users deploy to production with one click. Bolt.new handles domain assignment, SSL certificates, build processes, and hosting automatically. This deployment simplicity means applications go from concept to live URL in minutes rather than hours or days of infrastructure configuration.
+
+The development environment provides familiar IDE capabilities. Users see a code editor with syntax highlighting, file browser, terminal access, and live preview. The interface resembles VS Code or similar editors, making it comfortable for experienced developers. The live preview updates automatically as code changes, providing immediate visual feedback during development.
+
+Package management works seamlessly within the browser. Users install npm packages through terminal commands, and Bolt.new handles installation, dependency resolution, and package.json updates. The WebContainers technology executes package installations in the browser sandbox, providing the same experience as local development without environment setup.
+
+Database integration supports real application data needs. Bolt.new integrates with database services, allowing applications to persist data across sessions. Users can define schemas, execute queries, and manage data through generated admin interfaces or API endpoints. This persistence capability enables building applications requiring data storage rather than just stateless interfaces.
+
+The conversational development workflow enables iterative refinement. Users generate initial applications, then refine them through conversation — "Add user authentication," "Change the color scheme to blue," "Implement pagination for the product list." The AI understands existing code context and makes appropriate modifications across relevant files. This workflow mirrors how developers actually work — iteratively improving applications rather than perfecting them in single attempts.
+
+Collaboration features enable team development. Multiple users can work on projects together, share workspaces, and review code collaboratively. This capability serves teams building applications together, agencies working with clients, or educators teaching development. The browser-based nature means collaboration works without environment synchronization issues.
+
+The token-based pricing reflects AI computation costs. Free tier provides limited daily tokens — enough for exploration and small projects. Pro at $20/month offers increased tokens, priority processing, and private projects for regular users. Team at $40/user/month adds collaboration features for organizations. Enterprise plans provide custom arrangements. Tokens are consumed by AI generation, code execution, and complex operations.
+
+Commercial usage rights accompany paid subscriptions, allowing users to monetize generated applications through SaaS products, client work, or commercial projects. Free tier usage carries limitations on commercial use and project privacy. This clarity helps professionals understand licensing requirements.
+
+Bolt.new's limitations center on performance compared to local development. Browser-based execution, while remarkably capable, doesn't match the raw performance of local development environments for large applications. Complex builds, heavy compilation, or resource-intensive operations may feel slower locally. Very large applications with thousands of files might strain browser capabilities.
+
+The generated code quality varies based on prompt complexity. Simple applications generate cleanly, but complex requirements might produce code needing refactoring. Developers should review and improve generated code rather than blindly deploying. The AI provides starting points rather than production-ready final code.
+
+Technology stack choices are somewhat constrained compared to local development. Bolt.new supports popular web technologies (React, Next.js, Node.js, PostgreSQL) but doesn't accommodate every framework, language, or tool. Teams using less common stacks might find Bolt.new limiting.
+
+For users evaluating Bolt.new, the platform fits entrepreneurs wanting to prototype ideas instantly. It fits developers needing rapid prototyping without environment setup. It fits educators teaching web development concepts. It fits non-technical founders building MVPs. It fits teams wanting quick application creation for internal tools. Developers needing maximum performance, custom technology stacks, or complex enterprise applications should use Bolt.new for prototyping alongside traditional development environments for production work.
+
+Bolt.new represents the future of accessible development — eliminating setup friction and enabling anyone to create functional web applications through conversation. The combination of browser-native Node.js execution and AI generation democratizes software creation in ways previously impossible. As AI capabilities continue advancing and browser performance improves, Bolt.new's approach to instant, full-stack development positions it as a transformative tool for the next generation of application creators.`
+}

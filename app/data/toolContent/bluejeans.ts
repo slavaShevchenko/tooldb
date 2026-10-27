@@ -1,0 +1,33 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const bluejeansContent: ToolContent = {
+  overview: `BlueJeans has established itself as an enterprise-focused video conferencing platform, differentiating from consumer-oriented alternatives through superior audio quality, advanced security features, and reliability required by large organizations. Now part of Verizon following acquisition, BlueJeans serves enterprises, healthcare organizations, educational institutions, and government agencies requiring professional-grade video communication with enterprise security and support.
+
+The Dolby Voice audio technology represents BlueJeans' signature differentiator. Unlike standard audio processing that compresses and flattens sound, Dolby Voice provides spatial audio that makes remote conversations feel more natural. Participants hear voices from different directions based on their virtual positions, reducing the cognitive load of distinguishing speakers in large meetings. Advanced noise suppression eliminates background sounds while preserving voice clarity. This audio quality matters significantly for lengthy meetings, large groups, and professional contexts where audio clarity impacts meeting effectiveness.
+
+Enterprise security features address regulated industry requirements. BlueJeans provides end-to-end encryption, HIPAA compliance for healthcare, FedRAMP authorization for government use, and SOC 2 certification. Advanced host controls manage meeting access, recording permissions, and participant capabilities. These security features enable BlueJeans adoption in industries where Zoom or other platforms face compliance barriers.
+
+Smart Meetings leverage AI to improve meeting outcomes. The platform provides automatic transcription, action item extraction, meeting summaries, and analytics showing participation patterns. Rather than just facilitating conversation, Smart Meetings help organizations capture decisions, track commitments, and understand meeting effectiveness. This intelligence transforms meetings from ephemeral conversations into documented business processes.
+
+The Verizon backing provides enterprise reliability and support. As part of Verizon's business communications portfolio, BlueJeans benefits from enterprise-grade infrastructure, 24/7 support, and the stability that large organizations require. This backing addresses concerns about platform longevity and support quality that affect smaller video conferencing providers.
+
+Large meeting and webinar capabilities serve enterprise needs. BlueJeans handles meetings with hundreds or thousands of participants through webinar mode, breakout rooms for parallel discussions, and Q&A management tools. This scale serves town halls, training sessions, customer events, and other large-scale communication needs.
+
+Cross-platform compatibility ensures broad accessibility. Desktop applications for Windows and Mac provide full features including screen sharing and virtual backgrounds. Mobile apps for iOS and Android enable participation from phones and tablets. Browser-based access eliminates installation requirements for guests and occasional users. This platform breadth ensures participants can join regardless of device or technical constraints.
+
+Integration with enterprise productivity tools streamlines workflows. BlueJeans integrates with Microsoft Outlook, Google Calendar, Slack, Microsoft Teams, and other workplace tools. Meeting scheduling, joining, and follow-up happen within existing workflows rather than requiring separate application switching. Calendar integrations automatically include meeting links in invitations.
+
+Recording and playback features support asynchronous communication. Meetings record to cloud storage with automatic transcription and searchable transcripts. Absent participants catch up through recordings rather than requesting recaps. Searchable transcripts enable finding specific discussion points without watching entire recordings.
+
+Room systems integration enables conference room deployments. BlueJeans works with dedicated room systems from Poly, Logitech, and other hardware providers, enabling professional conference room setups with cameras, microphones, and displays. This hardware integration supports organizations investing in dedicated video conferencing infrastructure.
+
+The pricing structure reflects enterprise positioning. Standard at $12.50/host/month provides core features for 50 participants. Pro at $15/host/month adds advanced features and 100 participant capacity. Enterprise plans provide custom pricing for unlimited participants, dedicated support, and advanced security features. Annual billing requirements and host-based pricing position BlueJeans for organizations with established video conferencing budgets.
+
+BlueJeans' limitations center on market position compared to dominant platforms. While providing excellent enterprise features, BlueJeans has smaller market share than Zoom, Microsoft Teams, or Google Meet. This smaller adoption means external meeting participants may be less familiar with BlueJeans, creating friction when meeting with clients or partners using other platforms.
+
+The pricing exceeds free alternatives. While justifiable for enterprises requiring advanced features and support, BlueJeans costs more than free tiers from Zoom, Google Meet, or Microsoft Teams. Small organizations and individual users may find the cost difficult to justify compared to free alternatives meeting basic needs.
+
+For users evaluating BlueJeans, the platform fits enterprises requiring advanced audio quality. It fits regulated industries needing compliance certifications. It fit organizations valuing Verizon's enterprise support. It fits companies conducting large webinars and events. It fits teams prioritizing audio clarity for lengthy meetings. Small teams, budget-conscious organizations, or teams meeting primarily with external partners using other platforms should consider Zoom, Google Meet, or Microsoft Teams alongside BlueJeans.
+
+BlueJeans represents the enterprise-focused approach to video conferencing — recognizing that professional organizations need more than basic video calls. The platform's combination of Dolby Voice audio, enterprise security, and meeting intelligence serves organizations where communication quality and compliance matter more than free access or mass adoption. For enterprises requiring reliable, secure, high-quality video communication, BlueJeans provides the professional-grade platform that consumer-oriented alternatives can't match.`
+}

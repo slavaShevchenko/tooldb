@@ -1,0 +1,33 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const neonContent: ToolContent = {
+  overview: `Neon has redefined what developers expect from PostgreSQL by bringing modern serverless workflows to the world's most advanced open-source relational database. Built on the separation of storage and compute — an architecture pioneered by cloud data warehouses — Neon provides instant database branching, auto-scaling compute that pauses when idle, and bottomless storage while remaining 100% compatible with standard PostgreSQL. This combination addresses long-standing developer frustrations with traditional database management.
+
+Database branching represents Neon's signature innovation. Just as Git allows developers to branch code repositories instantly, Neon enables branching databases with copy-on-write technology. Creating a branch takes seconds regardless of database size because Neon doesn't copy data — it creates a reference to existing storage, only duplicating modified pages. Developers create branches for every feature, run tests against isolated data copies, and merge changes back with confidence. This workflow transforms database development from a tedious, risky process into a natural part of the development lifecycle.
+
+The serverless compute model eliminates traditional database provisioning challenges. Rather than selecting instance sizes and paying for idle capacity, Neon scales compute automatically based on actual workload. When applications receive no traffic, compute scales to zero with no charges. When traffic spikes, compute scales up instantly to handle demand. This usage-based pricing makes Neon economical for projects of any scale — from hobby projects to production applications with variable traffic.
+
+The storage layer provides bottomless capacity without manual management. Neon stores data in object storage (similar to S3) while maintaining PostgreSQL compatibility. Storage scales automatically without provisioning limits, manual resizing, or capacity planning. The architecture enables features like point-in-time recovery spanning months rather than days, because historical data lives in cheap object storage rather than expensive block storage.
+
+100% PostgreSQL compatibility means no vendor lock-in. Neon runs unmodified PostgreSQL, supporting all extensions, features, and tools that work with standard Postgres. Applications migrate to Neon without code changes. If organizations decide to leave Neon, they export standard PostgreSQL dumps compatible with any other Postgres deployment. This compatibility addresses concerns about proprietary database platforms trapping users.
+
+The open-source foundation creates transparency and community trust. Neon's core technology is open source, allowing developers to audit code, understand architecture, and contribute improvements. The company actively engages with the PostgreSQL community, contributing upstream improvements rather than maintaining a fork. This approach builds credibility among developers skeptical of proprietary database offerings.
+
+Development workflows transform with branching capabilities. Teams create branches for feature development, staging environments, QA testing, and CI/CD pipelines. Each branch provides an isolated database copy with production-like data. Pull request previews can include database branches showing schema changes and data impacts. This integration between code and database workflows eliminates the traditional gap between application code and data layer.
+
+The point-in-time recovery capabilities provide unprecedented debugging power. Developers can restore databases to any second within the retention window, enabling investigation of production issues by examining exact data states when problems occurred. This granularity far exceeds traditional backup systems providing daily or hourly snapshots.
+
+Multi-region capabilities serve global applications. Neon supports read replicas across regions, placing data physically close to users for minimal latency. Write operations route to primary regions while reads distribute globally. This architecture serves applications with worldwide user bases without operational complexity.
+
+The pricing model aligns with actual usage patterns. Free tier provides generous resources for hobby projects and evaluation. Launch at $19/month suits growing applications with steady usage. Scale plans provide dedicated resources for production workloads. Compute is billed per second of active usage — no charges when suspended. Storage is billed per GB-month. This transparency helps teams predict and control database costs.
+
+The integration ecosystem supports modern development tools. Neon works with ORMs like Prisma, Drizzle, and SQLAlchemy. Deployment platforms like Vercel, Netlify, and Railway integrate natively. Frameworks like Next.js and Remix provide easy Neon configuration. This ecosystem ensures Neon fits naturally into existing development workflows.
+
+Neon's limitations center on write performance compared to provisioned databases. The serverless architecture optimizes for cost and flexibility rather than maximum write throughput. Applications with extremely high write volumes might prefer provisioned databases or specialized solutions. The auto-scaling introduces minimal latency on cold starts after idle periods.
+
+Complex query performance depends on active compute resources. When compute scales down during idle periods, the first queries after reactivation take slightly longer as resources spin up. Most applications don't notice this latency, but latency-sensitive workloads should configure always-on compute.
+
+For users evaluating Neon, the platform fits developers wanting modern database workflows. It fits teams embracing Git-like branching for all infrastructure. It fits applications with variable traffic patterns benefiting from auto-scaling. It fits organizations wanting PostgreSQL without operational overhead. It fits projects valuing open-source transparency. Teams with consistently high workloads, extreme write requirements, or preference for traditional provisioned databases should consider AWS RDS, Supabase, or managed PostgreSQL alongside Neon.
+
+Neon represents the evolution of databases into serverless, developer-friendly platforms while preserving the power and compatibility of PostgreSQL. The combination of instant branching, auto-scaling compute, and bottomless storage addresses real pain points in database management. As applications increasingly require flexible, scalable data layers, Neon's approach to modernizing PostgreSQL positions it as essential infrastructure for the next generation of database-driven applications.`
+}

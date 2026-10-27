@@ -1,0 +1,37 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const clineContent: ToolContent = {
+  overview: `Cline represents a new generation of AI coding assistants that gives developers complete control over their AI workflow through open-source development and a bring-your-own-key (BYOK) model. Operating as a VS Code extension, Cline can create and edit files, explore codebases, execute terminal commands, control browsers, and automate complex development tasks — all while requiring explicit human approval before taking actions. This approach addresses concerns about AI autonomy, vendor lock-in, and cost transparency that limit adoption of proprietary AI coding tools.
+
+The BYOK (Bring Your Own Key) model fundamentally changes AI coding economics. Instead of paying platform subscription fees plus markup on AI usage, developers use their own API keys from OpenAI, Anthropic, Google, or any compatible provider. Users pay only the direct API costs — typically $0.01-0.50 per interaction depending on model and context size. This transparency means developers understand exactly what they're paying and can choose models based on capability and cost rather than platform restrictions.
+
+Complete system access distinguishes Cline from chat-only AI assistants. While tools like ChatGPT or Claude can only suggest code to copy-paste, Cline actually executes actions in your development environment. It creates new files, modifies existing code, installs packages via terminal commands, runs tests, starts development servers, and even controls browsers for testing and research. This execution capability transforms AI from an advisor into an active development partner.
+
+The human-in-the-loop approval system maintains developer control. Before every file modification, terminal command, or browser action, Cline presents the proposed action and requires explicit approval. Developers see exactly what the AI plans to do before it happens, preventing unexpected changes or destructive actions. This approval workflow builds trust while enabling powerful automation — developers can approve routine actions quickly while reviewing complex changes carefully.
+
+Codebase exploration capabilities enable effective assistance. Cline can read and understand your entire project structure, analyzing existing code to provide contextually relevant suggestions. When you ask "How does the authentication system work?" Cline explores relevant files, traces function calls, and explains the implementation. This deep understanding produces better suggestions than AI assistants without project context.
+
+File creation and editing happens intelligently. Cline generates new files with appropriate structure, imports, and styling based on project conventions. When editing existing files, it makes surgical changes rather than rewriting entire files. The AI understands diff-style modifications, adding specific lines or replacing sections while preserving surrounding code. This precision prevents accidental damage to working code.
+
+Terminal command execution enables development workflows. Cline runs npm install, executes tests, starts development servers, runs database migrations, and performs other terminal operations. Each command requires approval, so developers maintain control while benefiting from automation. This capability handles routine development tasks without context-switching to terminal windows.
+
+Browser automation extends Cline's capabilities beyond code. The AI can control browsers to test applications, research topics, extract information from websites, or interact with web interfaces. This automation helps with tasks like testing UI changes, gathering competitive research, or extracting data from documentation. Each browser action requires approval to prevent unintended web interactions.
+
+The open-source development model creates transparency and community innovation. Cline's source code is publicly available on GitHub, allowing developers to audit security, understand implementation details, contribute improvements, and fork for customization. The active community contributes features, reports bugs, creates tutorials, and builds extensions. This collaborative development produces rapid innovation impossible with closed-source alternatives.
+
+Flexible model selection accommodates different needs and budgets. Developers can use GPT-4 for complex reasoning, Claude for thoughtful analysis, Gemini for cost-effective assistance, or local models for complete privacy. Different models work better for different tasks — some excel at code generation, others at explanation, others at refactoring. Cline's flexibility lets developers choose optimal models per task.
+
+Custom instructions and memory enable personalization. Developers configure Cline with project-specific instructions, coding conventions, and preferences. The memory system retains context across sessions, remembering project details and past decisions. This customization produces assistance tailored to specific workflows rather than generic suggestions.
+
+The cost transparency helps manage AI expenses. Developers see exact API costs for each interaction, enabling budget control and cost optimization. Teams can track spending, set limits, and choose cost-effective models for routine tasks while reserving expensive models for complex problems. This visibility prevents bill shock common with usage-based platforms.
+
+Cline's limitations center on setup complexity and approval overhead. Initial configuration requires obtaining API keys, configuring models, and understanding the extension. This setup complexity creates barriers compared to turnkey solutions. The approval requirement for every action can slow workflows when developers want rapid iteration — though this overhead ensures control.
+
+The learning curve for effective usage shouldn't be underestimated. Developers must learn effective prompting, understand Cline's capabilities and limitations, and develop workflows incorporating AI assistance. This learning investment pays off in productivity but requires commitment.
+
+The BYOK model means no included support or service level agreements. Developers rely on API providers for uptime and support rather than a unified platform. Teams requiring guaranteed availability and dedicated support might prefer commercial alternatives with SLAs.
+
+For users evaluating Cline, the platform fits developers wanting maximum control over AI coding assistance. It fits cost-conscious developers avoiding platform markup. It fit privacy-conscious users wanting local model support. It fits open-source advocates preferring transparent tools. It fits developers comfortable with technical setup. Teams wanting turnkey simplicity, included support, or minimal configuration should consider GitHub Copilot, Cursor, or Codeium alongside Cline for comprehensive coverage.
+
+Cline represents the developer-empowerment approach to AI coding — recognizing that professionals want control over their tools, costs, and workflows rather than accepting platform restrictions. The combination of open-source development, BYOK economics, and comprehensive system access creates a powerful alternative to proprietary AI coding tools. As AI capabilities continue advancing rapidly, Cline's transparent, controllable approach appeals to developers wanting sophisticated AI assistance without sacrificing autonomy.`
+}

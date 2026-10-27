@@ -1,0 +1,39 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const resendContent: ToolContent = {
+  overview: `Resend has rapidly emerged as the modern email API platform for developers, bringing contemporary design sensibilities and developer experience principles to email infrastructure. Created by the team behind React Email — the popular library for building email templates with React components — Resend provides transactional and marketing email through beautifully designed APIs, intuitive dashboards, and native React Email integration. The platform represents a new generation of developer tools prioritizing experience alongside functionality.
+
+The React Email integration represents Resend's signature innovation. React Email enables building email templates using React components with full TypeScript support, hot reloading during development, and preview tools showing rendering across email clients. Resend provides native integration with React Email, enabling seamless workflows from template development to production sending. This integration eliminates the traditional pain of building email templates in HTML tables and inline CSS while testing across dozens of email clients.
+
+The modern API design reflects contemporary developer expectations. Resend's API follows RESTful best practices with clear endpoint design, comprehensive TypeScript types, excellent error messages, and consistent response formats. SDKs for Node.js, Python, Ruby, Go, PHP, and other languages provide idiomatic interfaces matching each language's conventions. This API quality reduces integration time and debugging compared to legacy email services with inconsistent or poorly documented APIs.
+
+The beautiful dashboard provides exceptional visibility. Rather than cluttered interfaces common in email services, Resend offers a clean, modern dashboard showing delivery analytics, event logs, email previews, and domain configuration. Real-time updates show emails as they're sent and delivered. Email previews render exactly as recipients see them across different email clients. This dashboard design makes email operations transparent and debuggable.
+
+The generous free tier enables frictionless adoption. Resend provides 3,000 emails monthly free forever — substantially more than competitors offering 100/day or time-limited trials. The free tier includes full features without artificial limitations pushing upgrades. This generosity enables developers to build, test, and launch applications without email infrastructure costs during early stages.
+
+TypeScript-first development serves modern JavaScript ecosystems. Resend's SDKs include comprehensive TypeScript definitions with strict typing for API requests, responses, and error handling. Developers catch errors at compile time rather than runtime. IntelliSense and autocomplete work effectively in modern editors. This TypeScript support matches how contemporary JavaScript applications are built.
+
+Email rendering previews eliminate cross-client surprises. Resend's dashboard shows exactly how emails render in Gmail, Outlook, Apple Mail, and other major email clients. Developers see rendering issues before sending to production, preventing the embarrassing experience of emails displaying incorrectly for customers. This preview capability replaces services like Litmus or Email on Acid for basic rendering verification.
+
+The webhooks and events system provides delivery visibility. Resend tracks every email event — sent, delivered, opened, clicked, bounced, complained — and pushes these events through webhooks to applications. Real-time event processing enables responsive handling of delivery issues, user engagement tracking, and compliance management. The event data includes rich context for debugging and analysis.
+
+Domain and DNS configuration receives thoughtful treatment. Resend guides users through SPF, DKIM, and DMARC setup with clear instructions, validation checks, and monitoring. The dashboard shows authentication status and alerts about configuration issues. This guidance helps developers implement email authentication correctly without extensive email infrastructure expertise.
+
+Template management enables reusable email designs. Resend stores templates with variables, enabling personalized sending without rebuilding HTML for each email. Templates support layouts for consistent headers and footers across email types. The template interface integrates with React Email for component-based template development.
+
+Batch sending supports bulk communication needs. Applications send thousands of personalized emails through single API calls with individual variables for each recipient. This batch capability handles newsletters, announcements, and bulk notifications efficiently while maintaining personalization.
+
+Analytics provide insights into email performance. Dashboards show delivery rates, open rates, click rates, and engagement patterns over time. Filtering by template, recipient domain, or time period enables understanding which emails perform well. These analytics inform email strategy and optimization without separate analytics tools.
+
+The pricing structure scales with usage. Free tier provides 3,000 emails monthly. Pro at $20/month offers 50,000 emails with advanced features. Business plans provide custom pricing for high volume and dedicated IPs. Pay-as-you-go at $0.50 per 1,000 emails beyond plan limits provides flexibility for variable usage. This pricing accommodates projects from hobby to enterprise scale.
+
+The developer community and documentation quality accelerate adoption. Resend provides comprehensive documentation with code examples, integration guides, and troubleshooting resources. The developer community shares implementations, patterns, and solutions. This ecosystem support reduces time-to-first-email compared to poorly documented alternatives.
+
+Resend's limitations center on market maturity compared to established providers. While growing rapidly, Resend has shorter track record than Postmark, SendGrid, or Mailgun. Organizations with established email infrastructure may hesitate to migrate to newer platforms. The ecosystem of integrations and community resources, while growing, doesn't match mature alternatives.
+
+The platform's modern focus may not serve all use cases. Organizations needing advanced marketing automation, sophisticated segmentation, or extensive template libraries might find Resend's developer-focused approach limiting compared to marketing-oriented platforms like Mailchimp or Customer.io.
+
+For users evaluating Resend, the platform fits developers building modern JavaScript/TypeScript applications. It fits teams using React Email for template development. It fits startups wanting generous free tiers during early stages. It fits developers prioritizing API design and developer experience. It fits organizations sending transactional and simple marketing emails. Enterprises with complex email requirements, extensive legacy integrations, or specialized compliance needs should consider Postmark, SendGrid, or Amazon SES alongside Resend.
+
+Resend represents the modern developer tool approach to email infrastructure — recognizing that developer experience matters as much as functionality. The platform's combination of React Email integration, beautiful APIs, generous free tier, and thoughtful design provides email infrastructure that developers genuinely enjoy using. For modern development teams building applications with contemporary tools and practices, Resend provides email infrastructure that matches their workflow and expectations rather than forcing adaptation to legacy platforms.`
+}

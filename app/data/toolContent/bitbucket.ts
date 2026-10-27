@@ -1,0 +1,35 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const bitbucketContent: ToolContent = {
+  overview: `Bitbucket is Atlassian's Git repository hosting platform, designed specifically for professional development teams working within the Atlassian ecosystem. While GitHub dominates open-source development and public repositories, Bitbucket has carved out a strong position in enterprise and team environments by offering unlimited private repositories, integrated CI/CD through Bitbucket Pipelines, and deep native integration with Jira — making it the natural choice for teams already using Atlassian's project management tools.
+
+The unlimited private repositories offering on even the free tier distinguishes Bitbucket from competitors. Teams of up to 5 users can host unlimited private Git repositories without cost, making Bitbucket exceptionally attractive for startups, small agencies, and consulting firms managing client work. This generous free tier removes barriers for teams needing private code hosting without budget for premium plans.
+
+Jira integration represents Bitbucket's killer feature for many teams. The deep native integration connects code repositories with issue tracking, enabling seamless development workflows. Developers reference Jira issue keys in commit messages, and Bitbucket automatically updates issue status, links commits to tickets, and displays development activity within Jira. Product managers see code progress alongside project timelines. This integration eliminates context-switching between code and project management tools.
+
+Bitbucket Pipelines provides built-in CI/CD without third-party services. Developers define build, test, and deployment workflows in YAML configuration files, and Bitbucket executes them automatically on code changes. Pipelines run in Docker containers, supporting virtually any technology stack. The integration means CI/CD works immediately without configuring external services like Jenkins, CircleCI, or GitHub Actions. Build minutes are allocated per month based on subscription tier.
+
+Pull request workflows enable effective code review. Developers create pull requests for feature branches, enabling team members to review code changes before merging. Inline commenting allows discussion of specific code lines. Approval requirements ensure code quality standards. Branch restrictions prevent unauthorized merges to protected branches. Merge checks can require passing builds before merging.
+
+The Atlassian ecosystem integration extends beyond Jira. Confluence integration allows embedding repository information in documentation. Trello integration connects project boards with code repositories. Statuspage integration communicates deployment status to users. Opsgenie integration alerts teams about build failures. This ecosystem approach creates unified development workflows across Atlassian's product suite.
+
+Security features address enterprise requirements. Two-factor authentication protects accounts. IP allowlisting restricts repository access to specific networks. Branch permissions control who can push to protected branches. Merge checks enforce code quality gates. Audit logs track all repository activity for compliance purposes. These security controls serve organizations with strict security policies.
+
+Repository management supports various Git workflows. Teams can use feature branches, Gitflow, trunk-based development, or other methodologies. Fork workflows enable external contributions. Repository mirroring provides redundancy. Webhooks integrate with external services. The flexibility accommodates different team sizes and development methodologies.
+
+Code search capabilities help navigate large codebases. Global search finds code across repositories using text matching, file paths, and regular expressions. This search helps developers understand existing code, find usage examples, and locate specific implementations across projects.
+
+The pricing structure targets different team sizes. Free tier supports up to 5 users with unlimited private repositories — generous for small teams. Standard at $3.25/user/month adds advanced permissions, deployment environments, and 2,500 build minutes monthly. Premium at $6/user/month provides IP allowlisting, required pull request approvals, and 3,500 build minutes. Data Center offers self-hosted deployment for enterprises requiring on-premises infrastructure.
+
+Bitbucket Data Center serves enterprise customers with specific requirements. Self-hosted deployment keeps code on-premises for compliance or security reasons. Active-active clustering provides high availability. Performance optimization handles large repository volumes. This option serves regulated industries, government organizations, and enterprises with strict infrastructure policies.
+
+Bitbucket's limitations center on community size compared to GitHub. GitHub's massive developer community creates network effects — more open-source projects, more integrations, more third-party tools, and easier developer recruitment. Developers often prefer GitHub for personal projects and open-source contributions. Teams hiring developers might find more candidates familiar with GitHub workflows.
+
+The CI/CD capabilities, while integrated, don't match specialized tools' depth. Bitbucket Pipelines handles common build and deployment scenarios effectively but lacks advanced features available in Jenkins, GitLab CI, or GitHub Actions. Teams with complex CI/CD requirements might use Bitbucket for code hosting while employing specialized CI/CD tools.
+
+Performance with very large repositories can be slower than competitors. Teams managing monorepos with thousands of commits or extremely large binary files may experience slower operations. Git LFS support helps with large files but doesn't eliminate all performance considerations.
+
+For users evaluating Bitbucket, the platform fits teams already using Jira and Atlassian tools. It fits small teams needing unlimited private repositories affordably. It fits enterprises requiring integrated development and project management workflows. It fits organizations wanting Atlassian ecosystem benefits. Teams prioritizing open-source community engagement, maximum third-party integrations, or personal developer experience should consider GitHub alongside Bitbucket for comprehensive coverage.
+
+Bitbucket represents the integrated development workflow approach — recognizing that code hosting works best when connected to project management, documentation, and team collaboration tools. The platform's deep Jira integration, unlimited private repositories, and Atlassian ecosystem connections create cohesive workflows for professional development teams. For organizations invested in Atlassian's productivity suite, Bitbucket provides natural code hosting that enhances rather than fragments their development processes.`
+}

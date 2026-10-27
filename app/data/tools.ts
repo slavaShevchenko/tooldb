@@ -23,7 +23,7 @@ export const tools: Tool[] = [
       'finance'
     ],
     pricing: 'Paid',
-    featured: true,
+    featured: false,
     rating: 4.7,
     reviewCount: 980,
     lastUpdated: '2026-07-29',
@@ -97,7 +97,7 @@ export const tools: Tool[] = [
       'web-design',
     ],
     pricing: 'Freemium',
-    featured: true,
+    featured: false,
     rating: 4.8,
     reviewCount: 920,
     lastUpdated: '2026-07-29',
@@ -12657,6 +12657,16231 @@ export const tools: Tool[] = [
         title: 'Free Creator Tools',
         description: 'Four browser-based utilities: Story expiry planner, caption & hashtag counter, seven-day posting planner, and engagement rate calculator.',
         icon: 'wrench'
+      }
+    ]
+  },
+  {
+    id: '200',
+    slug: 'adobefirefly',
+    name: 'Adobe Firefly',
+    tagline: 'Generative AI creative engine integrated with Adobe Creative Cloud',
+    description: 'Adobe Firefly is Adobe\'s generative AI creative engine powering image generation, generative fill, generative expand, text-to-image, and AI-assisted editing across Photoshop, Illustrator, and the Firefly web app. Commercially safe training on Adobe Stock images, public domain content, and curated datasets makes it the enterprise-friendly choice for professional designers.',
+    overview: '',
+    pricingDescription: 'Free tier with 25 generative credits/month. Firefly Individual at $9.99/month for 100 credits. Included in Creative Cloud All Apps at $59.99/month with 1,000 credits. Enterprise plans with volume licensing available. Credits reset monthly and unused credits expire.',
+    logo: '/images/tool-logo/adobefirefly.webp',
+    website: 'https://firefly.adobe.com',
+    affiliateUrl: null,
+    categories: ['ai', 'design'],
+    tags: [
+      'image-generation',
+      'ai-art',
+      'generative-ai',
+      'text-to-image',
+      'design-tools',
+      'creative',
+      'adobe',
+      'generative-fill'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'commercially-safe', text: 'Commercially safe generation trained on Adobe Stock, public domain, and licensed content' },
+      { id: 'creative-cloud-integration', text: 'Native integration with Photoshop, Illustrator, and other Creative Cloud apps' },
+      { id: 'generative-fill', text: 'Industry-leading generative fill and expand capabilities for image editing' },
+      { id: 'enterprise-ready', text: 'Enterprise licensing with indemnification for commercial use' }
+    ],
+    platforms: ['web', 'windows', 'mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Text to Image',
+        description: 'Generate high-quality images from text prompts with control over style, lighting, composition, and artistic direction.',
+        icon: 'image'
+      },
+      {
+        id: '2',
+        title: 'Generative Fill',
+        description: 'Add, remove, or replace content in images using text prompts while maintaining consistent lighting and style.',
+        icon: 'wand-sparkles'
+      },
+      {
+        id: '3',
+        title: 'Custom Models',
+        description: 'Train custom models on your own brand assets and images for consistent, on-brand generation across projects.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '201',
+    slug: 'chatgpt',
+    name: 'ChatGPT',
+    tagline: 'Leading AI chatbot with advanced reasoning and multimodal capabilities',
+    description: 'ChatGPT by OpenAI is the world\'s most widely used AI chatbot, powered by GPT-4o, GPT-4o mini, and advanced reasoning models like o1 and o3. Supports text, voice, image input, image generation, code execution, web search, and file analysis in a single conversational interface.',
+    overview: '',
+    pricingDescription: 'Free tier available with usage limits. ChatGPT Plus at $20/month for GPT-4o, DALL-E, and advanced tools. Pro at $200/month for unlimited access to the most advanced models and priority compute. Team and Enterprise plans available with custom pricing. Free tier resets to base models during high demand.',
+    logo: '/images/tool-logo/chatgpt.webp',
+    website: 'https://chatgpt.com',
+    affiliateUrl: null,
+    categories: ['ai', 'productivity', 'communication'],
+    tags: [
+      'ai-chatbot',
+      'llm',
+      'gpt',
+      'conversational-ai',
+      'writing-assistant',
+      'productivity',
+      'coding-assistant',
+      'multimodal'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'gpt4o', text: 'Powered by GPT-4o, o1, and o3 reasoning models with continuous upgrades' },
+      { id: 'multimodal', text: 'Native support for text, voice, images, video, and file analysis in one interface' },
+      { id: 'gpts-marketplace', text: 'Access millions of custom GPTs built by the community and official partners' },
+      { id: 'canvas', text: 'Canvas workspace for collaborative writing and code editing alongside AI' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Conversational AI',
+        description: 'Engage in natural multi-turn conversations with context retention across long chat threads.',
+        icon: 'message-circle'
+      },
+      {
+        id: '2',
+        title: 'Advanced Reasoning',
+        description: 'Solve complex math, logic, coding, and research problems with step-by-step reasoning models.',
+        icon: 'brain'
+      },
+      {
+        id: '3',
+        title: 'Web Search & Code Execution',
+        description: 'Browse the web in real time and run Python code in a sandboxed environment for accurate, actionable outputs.',
+        icon: 'terminal'
+      }
+    ]
+  },
+  {
+    id: '202',
+    slug: 'claude',
+    name: 'Claude',
+    tagline: 'Thoughtful AI assistant focused on safety and long-context reasoning',
+    description: 'Claude by Anthropic is an AI assistant optimized for thoughtful, helpful, and honest conversations. Known for exceptional long-context understanding (up to 500K tokens), careful reasoning, and safety-first design. Popular among writers, researchers, and developers who value depth over speed.',
+    overview: '',
+    pricingDescription: 'Free tier available with daily usage limits. Claude Pro at $20/month for significantly higher usage limits and early access to new features. Team plan at $25/user/month with shared workspaces. Enterprise plan with custom pricing, SSO, and admin controls. Usage limits scale based on demand and model selection.',
+    logo: '/images/tool-logo/claude.webp',
+    website: 'https://claude.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'productivity'],
+    tags: [
+      'ai-chatbot',
+      'llm',
+      'conversational-ai',
+      'writing-assistant',
+      'coding-assistant',
+      'long-context',
+      'safety',
+      'research'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'long-context', text: 'Up to 500K token context window for processing entire books, codebases, and research papers' },
+      { id: 'projects', text: 'Projects feature for organizing conversations around specific topics with persistent knowledge' },
+      { id: 'computer-use', text: 'Computer Use capabilities allowing Claude to interact with desktop applications' },
+      { id: 'safety-first', text: 'Built with Constitutional AI principles prioritizing honesty and harmlessness' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Long-Document Analysis',
+        description: 'Upload and analyze entire books, lengthy research papers, or large codebases in a single conversation.',
+        icon: 'book-open'
+      },
+      {
+        id: '2',
+        title: 'Artifacts',
+        description: 'Generate standalone code, documents, and visualizations in dedicated workspaces alongside chat.',
+        icon: 'layout-freeform'
+      },
+      {
+        id: '3',
+        title: 'Careful Reasoning',
+        description: 'Extended thinking mode for complex problems requiring multi-step logical analysis before responding.',
+        icon: 'lightbulb'
+      }
+    ]
+  },
+  {
+    id: '203',
+    slug: 'dalle',
+    name: 'DALL-E',
+    tagline: 'OpenAI\'s flagship text-to-image generation model',
+    description: 'DALL-E is OpenAI\'s pioneering text-to-image generation model, currently at DALL-E 3 with DALL-E 4 available in advanced tiers. Integrated directly into ChatGPT, allowing natural language prompts with conversational refinement. Also available through the OpenAI API for developers building custom image generation applications.',
+    overview: '',
+    pricingDescription: 'Included in ChatGPT Plus ($20/month) with daily generation limits. Available in ChatGPT Pro ($200/month) with higher limits and priority access. API pricing at per-image rates — approximately $0.04-0.12 per image depending on resolution and quality. Free tier users get very limited access. No standalone subscription.',
+    logo: '/images/tool-logo/dalle.webp',
+    website: 'https://openai.com/dall-e-3',
+    affiliateUrl: null,
+    categories: ['ai', 'design'],
+    tags: [
+      'image-generation',
+      'ai-art',
+      'text-to-image',
+      'generative-ai',
+      'creative',
+      'openai',
+      'api',
+      'visual-design'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'chatgpt-integration', text: 'Native integration with ChatGPT enabling conversational prompt refinement' },
+      { id: 'text-rendering', text: 'Best-in-class text rendering within generated images — signs, logos, labels stay legible' },
+      { id: 'api-access', text: 'Full API access for developers integrating image generation into applications' },
+      { id: 'safety-filters', text: 'Robust safety filters preventing generation of harmful, deceptive, or copyrighted content' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Conversational Generation',
+        description: 'Generate images through natural conversation in ChatGPT, refining prompts iteratively for better results.',
+        icon: 'image'
+      },
+      {
+        id: '2',
+        title: 'Inpainting & Editing',
+        description: 'Edit specific regions of generated images using natural language descriptions without regenerating entirely.',
+        icon: 'pencil'
+      },
+      {
+        id: '3',
+        title: 'Developer API',
+        description: 'RESTful API with SDKs in Python, Node.js, and other languages for custom application integration.',
+        icon: 'code'
+      }
+    ]
+  },
+  {
+    id: '204',
+    slug: 'flux',
+    name: 'Flux',
+    tagline: 'Open-source text-to-image model with exceptional text rendering',
+    description: 'Flux is a family of open-weight text-to-image models developed by Black Forest Labs, a team founded by original Stable Diffusion creators. Known for photorealistic output, exceptional text rendering in images, and flexible deployment options — available via API, cloud services, or self-hosted on local hardware.',
+    overview: '',
+    pricingDescription: 'Flux.1 [schnell] is fully open source and free for commercial use. Flux.1 [dev] has a non-commercial license. Flux.1 [pro] available via Black Forest Labs API and cloud partners (Fal.ai, Replicate, Together AI) at approximately $0.01-0.06 per image. Self-hosting requires GPU hardware (minimum 12GB VRAM recommended).',
+    logo: '/images/tool-logo/flux.webp',
+    website: 'https://blackforestlabs.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'design', 'web-development'],
+    tags: [
+      'image-generation',
+      'ai-art',
+      'text-to-image',
+      'generative-ai',
+      'open-source',
+      'stable-diffusion',
+      'self-hosted',
+      'api'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'open-weights', text: 'Open weights for Flux.1 [schnell] with Apache 2.0 commercial license' },
+      { id: 'text-rendering', text: 'Exceptional text rendering in generated images — signs, logos, labels stay crisp' },
+      { id: 'flexible-deployment', text: 'Self-host locally, use cloud APIs, or run through popular platforms like Fal.ai and Replicate' },
+      { id: 'original-creators', text: 'Built by original Stable Diffusion founders at Black Forest Labs' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Photorealistic Generation',
+        description: 'Produce high-fidelity photorealistic images with accurate lighting, anatomy, and material rendering.',
+        icon: 'camera'
+      },
+      {
+        id: '2',
+        title: 'Model Variants',
+        description: 'Choose between schnell (fast), dev (development), and pro (highest quality) based on your needs.',
+        icon: 'layers'
+      },
+      {
+        id: '3',
+        title: 'Local Deployment',
+        description: 'Run models on your own GPU hardware or cloud infrastructure for full control and privacy.',
+        icon: 'server'
+      }
+    ]
+  },
+  {
+    id: '205',
+    slug: 'githubcopilot',
+    name: 'GitHub Copilot',
+    tagline: 'AI pair programmer with inline code suggestions and chat assistance',
+    description: 'GitHub Copilot is the leading AI-powered code completion tool, integrated directly into popular IDEs like VS Code, JetBrains, Neovim, and Xcode. Powered by OpenAI\'s GPT models and GitHub\'s vast codebase, it provides real-time code suggestions, chat-based programming help, and codebase-aware responses that understand your entire project context.',
+    overview: '',
+    pricingDescription: 'Individual plan at $10/month or $100/year. Business plan at $19/user/month with policy controls and organization management. Enterprise plan at $39/user/month with knowledge bases, IP indemnity, and advanced security features. Free for verified students, teachers, and maintainers of popular open-source projects.',
+    logo: '/images/tool-logo/githubcopilot.webp',
+    website: 'https://github.com/features/copilot',
+    affiliateUrl: null,
+    categories: ['ai', 'productivity', 'web-development'],
+    tags: [
+      'ai-coding',
+      'code-completion',
+      'pair-programming',
+      'developer-tools',
+      'vscode',
+      'jetbrains',
+      'github',
+      'llm'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'inline-suggestions', text: 'Real-time code suggestions appearing as you type directly in your IDE' },
+      { id: 'codebase-aware', text: 'Copilot Workspace understands your entire project context for relevant responses' },
+      { id: 'chat-assistance', text: 'Chat interface for asking coding questions, debugging, and explaining code' },
+      { id: 'multi-ide-support', text: 'Native integration with VS Code, JetBrains, Neovim, Xcode, and more' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Inline Code Completion',
+        description: 'Get entire function suggestions, line completions, and boilerplate generation as you type based on comments and existing code.',
+        icon: 'code'
+      },
+      {
+        id: '2',
+        title: 'Copilot Chat',
+        description: 'Chat-based assistant for asking coding questions, debugging errors, explaining code, and generating tests or documentation.',
+        icon: 'message-circle'
+      },
+      {
+        id: '3',
+        title: 'Copilot Workspace',
+        description: 'Plan, write, and review code changes across multiple files with project-wide context understanding.',
+        icon: 'panels-top-left'
+      }
+    ]
+  },
+  {
+    id: '206',
+    slug: 'huggingface',
+    name: 'Hugging Face',
+    tagline: 'The GitHub of machine learning with models, datasets, and apps',
+    description: 'Hugging Face is the leading open-source machine learning platform hosting over 1 million models, 400,000 datasets, and 300,000 demo apps. The platform provides infrastructure for training, hosting, and deploying AI models with enterprise-grade APIs, spaces for interactive demos, and collaborative community features.',
+    overview: '',
+    pricingDescription: 'Free tier with unlimited public repositories and basic compute. Pro plan at $9/month for unlimited private repos and faster inference. Enterprise Hub at $20/user/month with SSO, audit logs, and advanced security. Inference Endpoints billed hourly based on compute type — from $0.60/hour for small instances to $50+/hour for multi-GPU setups. AutoTrain custom pricing for no-code model training.',
+    logo: '/images/tool-logo/huggingface.webp',
+    website: 'https://huggingface.co',
+    affiliateUrl: null,
+    categories: ['ai', 'web-development'],
+    tags: [
+      'machine-learning',
+      'open-source',
+      'models',
+      'datasets',
+      'ai-platform',
+      'transformers',
+      'mlops',
+      'community'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'model-hub', text: 'Over 1 million open-source models from LLMs to computer vision and audio' },
+      { id: 'spaces', text: 'Interactive demo apps deployable in minutes with Gradio or Streamlit' },
+      { id: 'transformers-library', text: 'Industry-standard Python library used by millions of ML practitioners' },
+      { id: 'enterprise-ready', text: 'SOC 2 compliance, SSO, audit logs, and dedicated support for organizations' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Model Hub',
+        description: 'Discover, download, and deploy hundreds of thousands of pre-trained models across text, image, audio, and video tasks.',
+        icon: 'box'
+      },
+      {
+        id: '2',
+        title: 'Inference Endpoints',
+        description: 'Deploy models to managed infrastructure with auto-scaling, monitoring, and enterprise-grade reliability.',
+        icon: 'server'
+      },
+      {
+        id: '3',
+        title: 'Spaces & Demos',
+        description: 'Build and share interactive AI applications using Gradio, Streamlit, or Docker with instant deployment.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '207',
+    slug: 'ideogram',
+    name: 'Ideogram',
+    tagline: 'AI image generator specializing in text-in-image rendering',
+    description: 'Ideogram is an AI image generation platform known for exceptional text rendering within images — producing signs, logos, posters, and typography with legible, correctly spelled text. Offers photorealistic and artistic styles with strong typography capabilities that most competitors lack.',
+    overview: '',
+    pricingDescription: 'Free tier with 10-25 images/day depending on current policy. Plus plan at $8/month for faster generation and priority access. Pro plan at $20/month for increased daily limits, private images, and commercial rights. Premium plan at $60/month for maximum generation capacity and advanced features. Annual plans offer 17% discount.',
+    logo: '/images/tool-logo/ideogram.webp',
+    website: 'https://ideogram.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'design'],
+    tags: [
+      'image-generation',
+      'ai-art',
+      'text-to-image',
+      'typography',
+      'logo-design',
+      'generative-ai',
+      'creative',
+      'poster-design'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'text-rendering', text: 'Industry-leading text rendering in generated images — signs, logos, labels stay legible' },
+      { id: 'design-styles', text: 'Specialized styles for posters, t-shirts, logos, and typography-focused designs' },
+      { id: '3d-rendering', text: 'High-quality 3D renders and product mockups with realistic materials' },
+      { id: 'community-gallery', text: 'Public gallery for discovering prompts and sharing generations with community' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Text-Rich Generation',
+        description: 'Generate images with complex, legible text including signs, posters, logos, and typographic designs.',
+        icon: 'type'
+      },
+      {
+        id: '2',
+        title: 'Style Presets',
+        description: 'Choose from specialized styles optimized for posters, t-shirts, logos, 3D renders, and artistic expressions.',
+        icon: 'palette'
+      },
+      {
+        id: '3',
+        title: 'Image Remixing',
+        description: 'Remix existing images with new text, styles, or variations while maintaining composition and layout.',
+        icon: 'refresh-cw'
+      }
+    ]
+  },
+  {
+    id: '208',
+    slug: 'klingai',
+    name: 'Kling AI',
+    tagline: 'Advanced AI video generation platform with cinematic quality',
+    description: 'Kling AI is a leading AI video generation platform developed by Kuaishou, producing high-quality videos from text prompts and images. Known for cinematic motion, realistic human movement, and extended video durations — competing directly with Sora, Runway Gen-3, and Pika Labs.',
+    overview: '',
+    pricingDescription: 'Free tier with 66 daily credits (approximately 6 videos). Standard plan at $9/month for 660 monthly credits. Pro plan at $49/month for 3,000 monthly credits and priority generation. Premier plan at $119/month for 8,000 monthly credits and maximum features. Credits are consumed per second of video generated.',
+    logo: '/images/tool-logo/klingai.webp',
+    website: 'https://klingai.com',
+    affiliateUrl: null,
+    categories: ['ai', 'media'],
+    tags: [
+      'ai-video',
+      'video-generation',
+      'text-to-video',
+      'generative-ai',
+      'cinematic',
+      'animation',
+      'content-creation',
+      'social-media'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'cinematic-quality', text: 'Cinematic video quality with realistic motion, lighting, and camera movements' },
+      { id: 'long-duration', text: 'Generate videos up to 3 minutes with consistent character and scene coherence' },
+      { id: 'image-to-video', text: 'Transform static images into dynamic videos with natural motion and animation' },
+      { id: 'human-motion', text: 'Realistic human movement and expressions without common AI video artifacts' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Text-to-Video',
+        description: 'Generate cinematic videos from text descriptions with control over style, duration, camera movement, and motion.',
+        icon: 'video'
+      },
+      {
+        id: '2',
+        title: 'Image-to-Video',
+        description: 'Animate static images into dynamic videos with natural camera motion and scene transitions.',
+        icon: 'image'
+      },
+      {
+        id: '3',
+        title: 'Motion Brush',
+        description: 'Precisely control which parts of an image move and how they move using brush-based motion selection.',
+        icon: 'brush'
+      }
+    ]
+  },
+  {
+    id: '209',
+    slug: 'kreaai',
+    name: 'Krea AI',
+    tagline: 'Real-time AI image generation and enhancement platform',
+    description: 'Krea AI is an AI creative platform specializing in real-time image generation, enhancement, and creative tools. Known for instant image generation as you type prompts, upscaling, and AI-powered creative workflows that prioritize speed and iterative exploration over final polish.',
+    overview: '',
+    pricingDescription: 'Free tier with limited daily generations and basic features. Standard plan at $10/month for increased limits and priority access. Pro plan at $30/month for unlimited generation, commercial rights, and advanced features. Lifetime deals occasionally available through promotions. Enterprise plans with custom pricing for teams.',
+    logo: '/images/tool-logo/kreaai.webp',
+    website: 'https://krea.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'design'],
+    tags: [
+      'image-generation',
+      'ai-art',
+      'real-time',
+      'enhancement',
+      'upscaling',
+      'creative-tools',
+      'generative-ai',
+      'design'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'real-time-generation', text: 'Generate images in real-time as you type, enabling instant creative exploration' },
+      { id: 'enhancement-tools', text: 'AI-powered image upscaling, enhancement, and restoration for existing photos' },
+      { id: 'canvas-mode', text: 'Canvas interface for generating, editing, and compositing multiple images together' },
+      { id: 'style-control', text: 'Fine-grained control over style, composition, and artistic direction through sliders' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Real-Time Generation',
+        description: 'Watch images generate in real-time as you type prompts, enabling rapid creative iteration and exploration.',
+        icon: 'zap'
+      },
+      {
+        id: '2',
+        title: 'Image Enhancement',
+        description: 'Upscale low-resolution images, enhance photo quality, and restore old or damaged photographs with AI.',
+        icon: 'trending-up'
+      },
+      {
+        id: '3',
+        title: 'Creative Canvas',
+        description: 'Multi-layer canvas for generating, editing, and compositing images with AI-powered creative tools.',
+        icon: 'layout-freeform'
+      }
+    ]
+  },
+  {
+    id: '210',
+    slug: 'leonardoai',
+    name: 'Leonardo AI',
+    tagline: 'AI image generation platform optimized for game assets and stylized content',
+    description: 'Leonardo AI is a creative platform specializing in AI image generation with strong focus on game assets, character design, textures, and stylized artwork. Offers fine-tuned models trained on specific art styles, motion capabilities, and comprehensive tools for game developers, digital artists, and creative professionals.',
+    overview: '',
+    pricingDescription: 'Free tier with 150 tokens/day (approximately 75 images). Apprentice at $12/month for 8,500 tokens and commercial rights. Artisan at $30/month for 25,000 tokens and priority generation. Maestro at $60/month for 60,000 tokens and maximum features. Annual plans offer 2 months free. Enterprise plans with custom pricing available.',
+    logo: '/images/tool-logo/leonardoai.webp',
+    website: 'https://leonardo.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'design'],
+    tags: [
+      'image-generation',
+      'ai-art',
+      'game-assets',
+      'character-design',
+      'generative-ai',
+      'stylized',
+      'textures',
+      'digital-art'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'game-optimized', text: 'Specialized models optimized for game assets, characters, environments, and textures' },
+      { id: 'fine-tuned-models', text: 'Community-trained models for specific art styles like anime, realism, fantasy, and sci-fi' },
+      { id: 'motion-generation', text: 'Create animated content and video clips from generated images' },
+      { id: 'realtime-canvas', text: 'Real-time collaborative canvas for iterative design and refinement' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Stylized Generation',
+        description: 'Generate game-ready assets with specialized models for fantasy, sci-fi, anime, and various artistic styles.',
+        icon: 'gamepad-2'
+      },
+      {
+        id: '2',
+        title: 'Motion AI',
+        description: 'Transform static images into animated content with camera movement, parallax effects, and dynamic motion.',
+        icon: 'play'
+      },
+      {
+        id: '3',
+        title: 'Realtime Canvas',
+        description: 'Iteratively refine designs in real-time with immediate feedback and collaborative editing capabilities.',
+        icon: 'brush'
+      }
+    ]
+  },
+  {
+    id: '211',
+    slug: 'lumiai',
+    name: 'Luma AI',
+    tagline: 'AI video generation and 3D capture platform with Dream Machine',
+    description: 'Luma AI develops cutting-edge AI video generation through Dream Machine, producing photorealistic videos from text prompts and images. The platform also offers 3D capture technology using neural radiance fields (NeRF) for creating interactive 3D scenes from smartphone videos.',
+    overview: '',
+    pricingDescription: 'Free tier with limited daily generations and watermark. Standard at $9.99/month for increased limits and no watermark. Pro at $29.99/month for priority access, longer videos, and advanced features. Premier at $99.99/month for maximum generation capacity and commercial rights. API access with per-second pricing for developers. Enterprise plans available.',
+    logo: '/images/tool-logo/lumiai.webp',
+    website: 'https://lumalabs.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'media'],
+    tags: [
+      'ai-video',
+      'video-generation',
+      'text-to-video',
+      '3d-capture',
+      'nerf',
+      'dream-machine',
+      'cinematic',
+      'generative-ai'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'dream-machine', text: 'Dream Machine produces photorealistic AI video with cinematic quality and realistic motion' },
+      { id: '3d-capture', text: 'Capture real-world scenes as interactive 3D using neural radiance fields from smartphone videos' },
+      { id: 'image-to-video', text: 'Transform static images into dynamic videos with natural camera motion and animation' },
+      { id: 'extend-videos', text: 'Extend existing video clips seamlessly with AI-generated continuation maintaining style and motion' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Dream Machine Video',
+        description: 'Generate photorealistic videos from text prompts or images with cinematic camera movement and realistic motion.',
+        icon: 'video'
+      },
+      {
+        id: '2',
+        title: '3D Scene Capture',
+        description: 'Create interactive 3D models and scenes from smartphone videos using neural radiance field technology.',
+        icon: 'box'
+      },
+      {
+        id: '3',
+        title: 'Video Extension',
+        description: 'Extend existing video clips with AI-generated content that maintains consistent style, motion, and continuity.',
+        icon: 'forward'
+      }
+    ]
+  },
+  {
+    id: '212',
+    slug: 'microsoftcopilot',
+    name: 'Microsoft Copilot',
+    tagline: 'AI assistant integrated across Windows, Microsoft 365, and Azure services',
+    description: 'Microsoft Copilot is the company\'s AI assistant platform, integrating GPT-4 capabilities across Windows, Microsoft 365 (Word, Excel, PowerPoint, Outlook, Teams), GitHub, and Azure. Provides AI assistance for document creation, data analysis, presentations, email management, coding, and system-level tasks within the Microsoft ecosystem.',
+    overview: '',
+    pricingDescription: 'Free tier available with usage limits. Microsoft 365 Copilot at $30/user/month requires Microsoft 365 business subscription. Copilot Pro at $20/month for personal use with Microsoft 365 Family/Personal. GitHub Copilot at $10/month individual or $19/user/month business. Azure Copilot included with Azure subscriptions. Enterprise plans with custom pricing for large organizations.',
+    logo: '/images/tool-logo/microsoftcopilot.webp',
+    website: 'https://copilot.microsoft.com',
+    affiliateUrl: null,
+    categories: ['ai', 'productivity'],
+    tags: [
+      'ai-assistant',
+      'microsoft',
+      'productivity',
+      'office-365',
+      'windows',
+      'enterprise',
+      'llm',
+      'workplace-ai'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'microsoft-365-integration', text: 'Native AI assistance in Word, Excel, PowerPoint, Outlook, and Teams' },
+      { id: 'windows-integration', text: 'System-level AI assistance throughout Windows for tasks, settings, and file management' },
+      { id: 'enterprise-ready', text: 'SOC 2 compliance, data protection, and administrative controls for organizations' },
+      { id: 'gpt4-powered', text: 'Powered by OpenAI GPT-4 and GPT-4o models with Microsoft-specific enhancements' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Document Assistance',
+        description: 'Generate, edit, and refine Word documents with AI suggestions for content, structure, and style.',
+        icon: 'file-text'
+      },
+      {
+        id: '2',
+        title: 'Data Analysis',
+        description: 'Analyze Excel spreadsheets, create charts, and derive insights using natural language queries.',
+        icon: 'chart-column'
+      },
+      {
+        id: '3',
+        title: 'Presentation Creation',
+        description: 'Generate PowerPoint presentations from outlines, documents, or natural language descriptions.',
+        icon: 'presentation'
+      }
+    ]
+  },
+  {
+    id: '213',
+    slug: 'midjourney',
+    name: 'Midjourney',
+    tagline: 'Leading AI art generator known for exceptional artistic quality and aesthetic diversity',
+    description: 'Midjourney is the premier AI image generation platform, renowned for producing stunning artistic imagery with exceptional aesthetic quality. Known for its distinctive visual style, Midjourney has become the go-to choice for artists, designers, and creators seeking high-quality AI-generated art across diverse styles from photorealism to abstract expression.',
+    overview: '',
+    pricingDescription: 'Basic at $10/month for approximately 200 images. Standard at $30/month for unlimited relaxed generation plus 15 fast hours. Pro at $60/month for unlimited relaxed generation plus 30 fast hours and stealth mode. Mega at $120/month for unlimited relaxed generation plus 60 fast hours. Annual plans offer 2 months free. No free tier — requires subscription for any usage.',
+    logo: '/images/tool-logo/midjourney.webp',
+    website: 'https://midjourney.com',
+    affiliateUrl: null,
+    categories: ['ai', 'design'],
+    tags: [
+      'image-generation',
+      'ai-art',
+      'artistic',
+      'creative',
+      'generative-ai',
+      'digital-art',
+      'aesthetics',
+      'design'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'artistic-quality', text: 'Industry-leading artistic quality with distinctive aesthetic sensibility and visual polish' },
+      { id: 'style-diversity', text: 'Exceptional range across artistic styles from photorealism to abstract, painting to illustration' },
+      { id: 'community-inspiration', text: 'Vibrant community gallery providing endless inspiration and prompt examples' },
+      { id: 'continuous-evolution', text: 'Regular model updates introducing new capabilities and improved quality' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Artistic Generation',
+        description: 'Create stunning AI-generated artwork with exceptional aesthetic quality across diverse artistic styles.',
+        icon: 'palette'
+      },
+      {
+        id: '2',
+        title: 'Style Reference',
+        description: 'Use reference images to guide generation toward specific artistic styles, moods, or visual aesthetics.',
+        icon: 'eye'
+      },
+      {
+        id: '3',
+        title: 'Variations & Upscaling',
+        description: 'Generate variations of images and upscale results to higher resolutions while maintaining quality.',
+        icon: 'maximize'
+      }
+    ]
+  },
+  {
+    id: '214',
+    slug: 'opusclip',
+    name: 'OpusClip',
+    tagline: 'AI video repurposing tool creating short-form clips from long videos',
+    description: 'OpusClip is an AI-powered video repurposing platform that automatically transforms long videos (podcasts, webinars, tutorials) into engaging short-form clips optimized for TikTok, YouTube Shorts, Instagram Reels, and LinkedIn. Uses AI to identify viral moments, add captions, and optimize for social media engagement.',
+    overview: '',
+    pricingDescription: 'Free tier with limited exports and watermark. Creator at $15/month for 600 minutes processing. Pro at $29/month for 1,500 minutes processing and priority support. Business at $99/month for 4,500 minutes with team collaboration. Enterprise plans with custom pricing and dedicated support. Annual plans offer 20% discount.',
+    logo: '/images/tool-logo/opusclip.webp',
+    website: 'https://opus.pro',
+    affiliateUrl: null,
+    categories: ['ai', 'media', 'productivity'],
+    tags: [
+      'video-editing',
+      'ai-video',
+      'short-form',
+      'social-media',
+      'content-repurposing',
+      'tiktok',
+      'youtube-shorts',
+      'automation'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'viral-moment-detection', text: 'AI identifies the most engaging moments in long videos for maximum social media impact' },
+      { id: 'auto-captions', text: 'Automatically generates accurate captions with customizable styling and branding' },
+      { id: 'multi-platform', text: 'Optimized output for TikTok, YouTube Shorts, Instagram Reels, and LinkedIn' },
+      { id: 'brand-customization', text: 'Add logos, brand colors, and custom styling to maintain consistent visual identity' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Auto Clip Generation',
+        description: 'AI analyzes long videos and automatically extracts the most engaging moments as short-form clips.',
+        icon: 'scissors'
+      },
+      {
+        id: '2',
+        title: 'Caption Generation',
+        description: 'Automatically generate accurate, styled captions with customizable fonts, colors, and positioning.',
+        icon: 'captions'
+      },
+      {
+        id: '3',
+        title: 'Platform Optimization',
+        description: 'Export clips optimized for specific platforms with correct aspect ratios, durations, and engagement features.',
+        icon: 'share-2'
+      }
+    ]
+  },
+  {
+    id: '215',
+    slug: 'perplexity',
+    name: 'Perplexity',
+    tagline: 'AI-powered search engine providing cited answers to complex questions',
+    description: 'Perplexity is an AI-powered search engine that combines the capabilities of large language models with real-time web search to provide accurate, cited answers to complex questions. Unlike traditional search engines returning lists of links, Perplexity synthesizes information from multiple sources into comprehensive answers with inline citations.',
+    overview: '',
+    pricingDescription: 'Free tier available with unlimited basic searches and limited Pro searches. Perplexity Pro at $20/month for unlimited Pro searches, advanced AI models (GPT-4, Claude, Gemini), file upload analysis, and image generation. Enterprise plans with custom pricing for organizations. Annual plan at $200/year offers 2 months free.',
+    logo: '/images/tool-logo/perplexity.webp',
+    website: 'https://perplexity.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'analytics'],
+    tags: [
+      'ai-search',
+      'research',
+      'citations',
+      'llm',
+      'knowledge-base',
+      'real-time',
+      'fact-checking',
+      'productivity'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'cited-answers', text: 'Every answer includes inline citations to source material for verification' },
+      { id: 'real-time-search', text: 'Combines AI reasoning with real-time web search for current information' },
+      { id: 'multi-model', text: 'Access to GPT-4, Claude, Gemini, and other advanced models in one interface' },
+      { id: 'file-analysis', text: 'Upload documents, PDFs, and images for AI-powered analysis and summarization' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Cited Search',
+        description: 'Get comprehensive answers synthesized from multiple sources with inline citations for verification.',
+        icon: 'search'
+      },
+      {
+        id: '2',
+        title: 'Pro Search',
+        description: 'Advanced search with multi-step reasoning, follow-up questions, and deeper analysis capabilities.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'File Upload',
+        description: 'Upload documents, PDFs, images, and other files for AI analysis, summarization, and question answering.',
+        icon: 'upload'
+      }
+    ]
+  },
+  {
+    id: '216',
+    slug: 'pika',
+    name: 'Pika',
+    tagline: 'AI video generation platform with creative control and editing tools',
+    description: 'Pika is an AI video generation platform enabling creators to produce and edit videos from text prompts, images, and existing videos. Known for creative control features like motion brush, lip sync, sound effects, and video extension that provide more directorial control than pure generation tools.',
+    overview: '',
+    pricingDescription: 'Free tier with daily credits and watermark. Standard at $10/month for 700 monthly credits and no watermark. Pro at $35/month for 2,000 monthly credits and priority generation. Unlimited at $80/month for unlimited generation and all features. API access with per-second pricing for developers. Annual plans offer discount.',
+    logo: '/images/tool-logo/pika.webp',
+    website: 'https://pika.art',
+    affiliateUrl: null,
+    categories: ['ai', 'media'],
+    tags: [
+      'ai-video',
+      'video-generation',
+      'text-to-video',
+      'video-editing',
+      'generative-ai',
+      'creative-tools',
+      'animation',
+      'lip-sync'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'creative-control', text: 'Advanced editing tools including motion brush, lip sync, and sound effect generation' },
+      { id: 'video-extension', text: 'Extend existing videos seamlessly with AI-generated continuation' },
+      { id: 'modify-regions', text: 'Select and modify specific regions of videos while preserving the rest' },
+      { id: 'sound-effects', text: 'Generate synchronized sound effects and audio to match video content' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Text to Video',
+        description: 'Generate videos from text descriptions with control over style, motion, camera movement, and duration.',
+        icon: 'video'
+      },
+      {
+        id: '2',
+        title: 'Motion Brush',
+        description: 'Precisely control which parts of images or videos move and how they move using brush-based selection.',
+        icon: 'brush'
+      },
+      {
+        id: '3',
+        title: 'Lip Sync',
+        description: 'Generate realistic lip-synced speech for characters using audio input or text-to-speech.',
+        icon: 'mic'
+      }
+    ]
+  },
+  {
+    id: '217',
+    slug: 'poe',
+    name: 'Poe',
+    tagline: 'Unified platform accessing multiple AI chatbots in one interface',
+    description: 'Poe (Platform for Open Exploration) by Quora provides unified access to multiple AI chatbots including GPT-4, Claude, Gemini, Llama, Stable Diffusion, and custom bots through a single subscription. Users can compare responses across models, create custom bots, and access specialized AI tools in one platform.',
+    overview: '',
+    pricingDescription: 'Free tier with limited daily messages across models. Poe Subscriber at $19.99/month for unlimited messages, access to premium models (GPT-4, Claude Opus), higher usage limits, and custom bot creation. Creator program allows bot developers to earn revenue based on usage. Enterprise plans with custom pricing for organizations.',
+    logo: '/images/tool-logo/poe.webp',
+    website: 'https://poe.com',
+    affiliateUrl: null,
+    categories: ['ai', 'productivity'],
+    tags: [
+      'ai-platform',
+      'chatbot',
+      'llm',
+      'multi-model',
+      'aggregator',
+      'custom-bots',
+      'quora',
+      'conversational-ai'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'multi-model', text: 'Access GPT-4, Claude, Gemini, Llama, Stable Diffusion, and dozens of other models in one subscription' },
+      { id: 'custom-bots', text: 'Create and share custom AI bots with specialized instructions and knowledge bases' },
+      { id: 'model-comparison', text: 'Compare responses across different AI models to find the best for your needs' },
+      { id: 'creator-monetization', text: 'Bot creators earn revenue based on usage through Poe Creator program' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Multi-Model Access',
+        description: 'Chat with GPT-4, Claude, Gemini, Llama, Stable Diffusion, and many other AI models through unified interface.',
+        icon: 'layers'
+      },
+      {
+        id: '2',
+        title: 'Custom Bot Creation',
+        description: 'Build specialized AI bots with custom instructions, knowledge bases, and personality traits.',
+        icon: 'bot'
+      },
+      {
+        id: '3',
+        title: 'Compare Mode',
+        description: 'Send the same prompt to multiple models simultaneously and compare responses side-by-side.',
+        icon: 'git-compare'
+      }
+    ]
+  },
+  {
+    id: '218',
+    slug: 'runway',
+    name: 'Runway',
+    tagline: 'Creative AI suite for video generation, image editing, and multimedia tools',
+    description: 'Runway is a comprehensive creative AI platform offering video generation (Gen-3 Alpha), image generation, video editing, green screen removal, motion tracking, and 3D tools. Used by filmmakers, designers, and creative professionals for AI-powered content creation and post-production workflows.',
+    overview: '',
+    pricingDescription: 'Free tier with limited credits and basic features. Standard at $15/user/month for 625 monthly credits and additional features. Pro at $35/user/month for 2,250 monthly credits and advanced capabilities. Unlimited at $95/user/month for unlimited video generation. Enterprise plans with custom pricing and dedicated support. API access available.',
+    logo: '/images/tool-logo/runway.webp',
+    website: 'https://runwayml.com',
+    affiliateUrl: null,
+    categories: ['ai', 'media', 'design'],
+    tags: [
+      'ai-video',
+      'video-generation',
+      'video-editing',
+      'image-generation',
+      'creative-tools',
+      'gen-3',
+      'post-production',
+      'filmmaking'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'gen-3-alpha', text: 'Gen-3 Alpha produces photorealistic video with exceptional motion and cinematic quality' },
+      { id: 'comprehensive-tools', text: 'Full suite including video generation, image editing, green screen, motion tracking, and 3D tools' },
+      { id: 'professional-grade', text: 'Used by filmmakers, agencies, and creative professionals for production work' },
+      { id: 'continuous-innovation', text: 'Regular releases of new AI models and creative tools pushing boundaries of AI capabilities' }
+    ],
+    platforms: ['web', 'ios'],
+    features: [
+      {
+        id: '1',
+        title: 'Gen-3 Alpha Video',
+        description: 'Generate photorealistic videos from text prompts or images with cinematic quality and realistic motion.',
+        icon: 'film'
+      },
+      {
+        id: '2',
+        title: 'AI Magic Tools',
+        description: 'Suite of 30+ AI-powered tools for video editing, image manipulation, green screen removal, and motion tracking.',
+        icon: 'wand-sparkles'
+      },
+      {
+        id: '3',
+        title: 'Image Generation',
+        description: 'Create and edit images using AI with tools for generation, inpainting, upscaling, and style transfer.',
+        icon: 'image'
+      }
+    ]
+  },
+  {
+    id: '219',
+    slug: 'rytr',
+    name: 'Rytr',
+    tagline: 'AI writing assistant for content creation across 40+ use cases and 30+ languages',
+    description: 'Rytr is an AI writing assistant helping users create content across 40+ use cases including blog posts, emails, social media captions, ad copy, product descriptions, and more. Supports 30+ languages with tone and style customization for different content types and audiences.',
+    overview: '',
+    pricingDescription: 'Free tier with 10,000 characters/month. Saver plan at $9/month for 100,000 characters. Unlimited plan at $29/month for unlimited character generation. All plans include access to 40+ use cases, 30+ languages, 20+ tones, and plagiarism checker. Annual plans offer 2 months free.',
+    logo: '/images/tool-logo/rytr.webp',
+    website: 'https://rytr.me',
+    affiliateUrl: null,
+    categories: ['ai', 'productivity'],
+    tags: [
+      'ai-writing',
+      'content-creation',
+      'copywriting',
+      'blog-writing',
+      'email-marketing',
+      'social-media',
+      'multilingual',
+      'productivity'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'use-cases', text: '40+ specialized use cases from blog posts to emails, ad copy, and product descriptions' },
+      { id: 'multilingual', text: 'Support for 30+ languages including English, Spanish, French, German, Chinese, and more' },
+      { id: 'tone-customization', text: '20+ tone options including professional, casual, persuasive, and humorous' },
+      { id: 'plagiarism-checker', text: 'Built-in plagiarism checker ensuring original content creation' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Multi-Use Case Writing',
+        description: 'Generate content for 40+ use cases including blogs, emails, social posts, ads, and product descriptions.',
+        icon: 'pen-tool'
+      },
+      {
+        id: '2',
+        title: 'Tone & Style Control',
+        description: 'Customize writing tone and style from professional to casual, persuasive to informative.',
+        icon: 'sliders-vertical'
+      },
+      {
+        id: '3',
+        title: 'Multilingual Support',
+        description: 'Write and translate content across 30+ languages for global audience reach.',
+        icon: 'globe'
+      }
+    ]
+  },
+  {
+    id: '220',
+    slug: 'sora',
+    name: 'Sora',
+    tagline: 'OpenAI\'s advanced AI video generation model with cinematic quality',
+    description: 'Sora is OpenAI\'s text-to-video generation model producing high-quality videos up to 1 minute in length with realistic motion, cinematic camera work, and complex scene understanding. Available through ChatGPT Plus and Pro subscriptions, Sora represents the cutting edge of AI video generation technology.',
+    overview: '',
+    pricingDescription: 'Included in ChatGPT Plus ($20/month) with limited generations. ChatGPT Pro ($200/month) provides higher limits and priority access. No standalone subscription — requires ChatGPT subscription. Enterprise plans with custom pricing available. Generations consume credits based on duration and resolution.',
+    logo: '/images/tool-logo/sora.webp',
+    website: 'https://openai.com/sora',
+    affiliateUrl: null,
+    categories: ['ai', 'media'],
+    tags: [
+      'ai-video',
+      'video-generation',
+      'text-to-video',
+      'cinematic',
+      'openai',
+      'generative-ai',
+      'content-creation',
+      'storytelling'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'cinematic-quality', text: 'Cinematic video quality with realistic motion, lighting, and camera movements' },
+      { id: 'long-duration', text: 'Generate videos up to 1 minute with consistent character and scene coherence' },
+      { id: 'complex-scenes', text: 'Understands complex scenes with multiple characters, backgrounds, and interactions' },
+      { id: 'chatgpt-integration', text: 'Seamless integration with ChatGPT for conversational video creation' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Text-to-Video',
+        description: 'Generate cinematic videos from detailed text descriptions with control over style, motion, and camera work.',
+        icon: 'video'
+      },
+      {
+        id: '2',
+        title: 'Image-to-Video',
+        description: 'Transform static images into dynamic videos with natural motion and cinematic camera movement.',
+        icon: 'image'
+      },
+      {
+        id: '3',
+        title: 'Video Extension',
+        description: 'Extend existing video clips seamlessly with AI-generated continuation maintaining style and coherence.',
+        icon: 'forward'
+      }
+    ]
+  },
+  {
+    id: '221',
+    slug: 'stablediffusion',
+    name: 'Stable Diffusion',
+    tagline: 'Open-source image generation model with full customization and local deployment',
+    description: 'Stable Diffusion is the pioneering open-source text-to-image generation model that revolutionized AI art creation. Available through multiple interfaces (Automatic1111, ComfyUI, Diffusers) and deployable locally on personal hardware, it offers unlimited customization through fine-tuning, LoRAs, and ControlNet for complete creative control.',
+    overview: '',
+    pricingDescription: 'Completely free and open-source under CreativeML Open RAIL-M license. Self-hosting requires GPU hardware (minimum 8GB VRAM recommended). Cloud services like RunDiffusion, DreamStudio, and various API providers offer hosted access at $0.002-0.05 per image. Custom model training and fine-tuning services available commercially.',
+    logo: '/images/tool-logo/stablediffusion.webp',
+    website: 'https://stability.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'design', 'web-development'],
+    tags: [
+      'image-generation',
+      'ai-art',
+      'open-source',
+      'text-to-image',
+      'self-hosted',
+      'fine-tuning',
+      'loras',
+      'controlnet'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'open-source', text: 'Fully open-source with permissive license allowing commercial use and modification' },
+      { id: 'local-deployment', text: 'Run locally on your own hardware for unlimited generations and complete privacy' },
+      { id: 'custom-models', text: 'Train custom models, LoRAs, and embeddings for specific styles, characters, or concepts' },
+      { id: 'controlnet', text: 'Precise control over composition, pose, depth, and structure using ControlNet conditioning' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Local Generation',
+        description: 'Run Stable Diffusion on your own GPU hardware for unlimited, private image generation.',
+        icon: 'server'
+      },
+      {
+        id: '2',
+        title: 'Custom Training',
+        description: 'Train custom models, LoRAs, and textual inversions on your own images for personalized generation.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'ControlNet',
+        description: 'Precisely control image composition, pose, depth, and structure using various conditioning inputs.',
+        icon: 'sliders-vertical'
+      }
+    ]
+  },
+  {
+    id: '222',
+    slug: 'suno',
+    name: 'Suno',
+    tagline: 'AI music generation platform creating complete songs from text prompts',
+    description: 'Suno is a leading AI music generation platform that creates complete, radio-quality songs from text prompts. Generates vocals, instruments, lyrics, and production in various genres and styles. Known for producing coherent, catchy songs with realistic vocals and professional production quality.',
+    overview: '',
+    pricingDescription: 'Free tier with 50 credits daily (approximately 10 songs). Pro plan at $10/month for 2,500 monthly credits and commercial rights. Premier plan at $30/month for 10,000 monthly credits and priority generation. Annual plans offer 2 months free. Credits consumed per song generation.',
+    logo: '/images/tool-logo/suno.webp',
+    website: 'https://suno.com',
+    affiliateUrl: null,
+    categories: ['ai', 'media'],
+    tags: [
+      'ai-music',
+      'music-generation',
+      'song-creation',
+      'vocals',
+      'lyrics',
+      'generative-ai',
+      'audio',
+      'creative'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'complete-songs', text: 'Generates complete songs with vocals, instruments, lyrics, and professional production' },
+      { id: 'genre-diversity', text: 'Creates music across all genres from pop and rock to electronic, jazz, and classical' },
+      { id: 'custom-lyrics', text: 'Write your own lyrics or let AI generate them based on your description' },
+      { id: 'radio-quality', text: 'Professional production quality suitable for commercial release and streaming platforms' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Song Generation',
+        description: 'Create complete songs with vocals, instruments, and production from text descriptions or custom lyrics.',
+        icon: 'music'
+      },
+      {
+        id: '2',
+        title: 'Style Control',
+        description: 'Specify genre, mood, tempo, instrumentation, and vocal style for customized music creation.',
+        icon: 'sliders-vertical'
+      },
+      {
+        id: '3',
+        title: 'Extend Songs',
+        description: 'Extend generated songs with additional verses, choruses, or instrumental sections seamlessly.',
+        icon: 'forward'
+      }
+    ]
+  },
+  {
+    id: '223',
+    slug: 'udio',
+    name: 'Udio',
+    tagline: 'AI music generation platform with advanced audio quality and production tools',
+    description: 'Udio is an AI music generation platform producing high-fidelity songs with exceptional audio quality and production value. Known for realistic vocals, complex arrangements, and professional mastering. Offers advanced controls for music creators wanting detailed control over generated compositions.',
+    overview: '',
+    pricingDescription: 'Free tier with limited daily generations. Standard plan at $10/month for increased credits and commercial rights. Pro plan at $30/month for priority generation and advanced features. Premium plan at $100/month for maximum credits and dedicated support. Credits consumed per generation based on duration and quality.',
+    logo: '/images/tool-logo/udio.webp',
+    website: 'https://udio.com',
+    affiliateUrl: null,
+    categories: ['ai', 'media'],
+    tags: [
+      'ai-music',
+      'music-generation',
+      'audio-production',
+      'vocals',
+      'generative-ai',
+      'high-fidelity',
+      'mastering',
+      'creative'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'high-fidelity', text: 'Exceptional audio quality with professional mastering and production value' },
+      { id: 'realistic-vocals', text: 'Highly realistic vocal generation across various styles and languages' },
+      { id: 'complex-arrangements', text: 'Creates complex musical arrangements with multiple instruments and layers' },
+      { id: 'advanced-controls', text: 'Detailed control over tempo, key, instrumentation, and production parameters' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Music Generation',
+        description: 'Generate high-fidelity songs with realistic vocals, instruments, and professional production quality.',
+        icon: 'music'
+      },
+      {
+        id: '2',
+        title: 'Advanced Controls',
+        description: 'Fine-tune tempo, key, instrumentation, vocal style, and production parameters for precise results.',
+        icon: 'settings'
+      },
+      {
+        id: '3',
+        title: 'Remix & Extend',
+        description: 'Remix existing generations with new styles or extend songs with additional sections seamlessly.',
+        icon: 'refresh-cw'
+      }
+    ]
+  },
+  {
+    id: '224',
+    slug: 'veed',
+    name: 'VEED',
+    tagline: 'Online video editor with AI-powered tools for creators and businesses',
+    description: 'VEED is a comprehensive online video editing platform offering AI-powered tools for video creation, editing, captioning, transcription, and enhancement. Designed for content creators, marketers, and businesses needing professional video production without complex desktop software.',
+    overview: '',
+    pricingDescription: 'Free tier with basic features and watermark. Lite at $18/month for HD exports and no watermark. Pro at $30/month for advanced AI tools and 4K exports. Business at $59/month for team collaboration and brand kits. Enterprise plans with custom pricing. Annual plans offer discount.',
+    logo: '/images/tool-logo/veed.webp',
+    website: 'https://veed.io',
+    affiliateUrl: null,
+    categories: ['media', 'productivity'],
+    tags: [
+      'video-editing',
+      'ai-video',
+      'captioning',
+      'transcription',
+      'content-creation',
+      'online-editor',
+      'social-media',
+      'productivity'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'ai-tools', text: 'AI-powered auto-subtitles, transcription, translation, and video enhancement' },
+      { id: 'browser-based', text: 'Full-featured video editing in browser without software installation' },
+      { id: 'screen-recording', text: 'Built-in screen and webcam recording for tutorials and presentations' },
+      { id: 'brand-kits', text: 'Custom brand kits with logos, colors, and fonts for consistent video branding' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Auto Subtitles',
+        description: 'Automatically generate accurate subtitles and captions for videos with customizable styling.',
+        icon: 'captions'
+      },
+      {
+        id: '2',
+        title: 'Video Transcription',
+        description: 'Transcribe video audio to text with high accuracy and export options for various formats.',
+        icon: 'file-text'
+      },
+      {
+        id: '3',
+        title: 'AI Video Enhancement',
+        description: 'Enhance video quality, remove backgrounds, and apply AI-powered filters and effects.',
+        icon: 'wand-sparkles'
+      }
+    ]
+  },
+  {
+    id: '225',
+    slug: 'appwrite',
+    name: 'Appwrite',
+    tagline: 'Open-source backend-as-a-service alternative to Firebase',
+    description: 'Appwrite is an open-source backend platform providing developers with self-hostable APIs for authentication, databases, storage, functions, and messaging. Offers complete control over infrastructure while delivering modern backend capabilities through simple SDKs across web, mobile, and desktop platforms.',
+    overview: '',
+    pricingDescription: 'Completely free and open-source for self-hosting with unlimited usage. Appwrite Cloud offers managed hosting: Free tier with generous limits, Pro at $15/member/month for additional resources and features, Scale with custom pricing for enterprise needs. Self-hosting requires your own server infrastructure.',
+    logo: '/images/tool-logo/appwrite.webp',
+    website: 'https://appwrite.io',
+    affiliateUrl: null,
+    categories: ['web-development', 'productivity'],
+    tags: [
+      'backend',
+      'baas',
+      'open-source',
+      'self-hosted',
+      'firebase-alternative',
+      'authentication',
+      'database',
+      'api'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'self-hosted', text: 'Deploy on your own infrastructure for complete data control and no vendor lock-in' },
+      { id: 'open-source', text: 'Fully open-source with active community and transparent development' },
+      { id: 'comprehensive-apis', text: 'Authentication, databases, storage, functions, and messaging in one platform' },
+      { id: 'multi-platform-sdks', text: 'Official SDKs for web, Flutter, React Native, Apple, Android, and more' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Authentication',
+        description: 'Complete authentication system with 30+ providers, email/password, magic URLs, and multi-factor authentication.',
+        icon: 'lock'
+      },
+      {
+        id: '2',
+        title: 'Database & Storage',
+        description: 'Document-based databases with collections, permissions, and file storage with CDN delivery.',
+        icon: 'database'
+      },
+      {
+        id: '3',
+        title: 'Cloud Functions',
+        description: 'Serverless functions supporting multiple runtimes including Node.js, Python, PHP, Dart, and more.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '226',
+    slug: 'bitbucket',
+    name: 'Bitbucket',
+    tagline: 'Git repository hosting with deep Jira integration for development teams',
+    description: 'Bitbucket is Atlassian\'s Git repository hosting platform designed for professional development teams. Offers unlimited private repositories, built-in CI/CD through Bitbucket Pipelines, and deep integration with Jira and other Atlassian tools for complete development workflow management.',
+    overview: '',
+    pricingDescription: 'Free tier for up to 5 users with unlimited private repositories. Standard at $3.25/user/month for advanced permissions and 2,500 build minutes. Premium at $6/user/month for IP allowlisting and 3,500 build minutes. Data Center with self-hosted deployment available for enterprises. Build minutes consumed by CI/CD pipelines.',
+    logo: '/images/tool-logo/bitbucket.webp',
+    website: 'https://bitbucket.org',
+    affiliateUrl: null,
+    categories: ['web-development', 'productivity'],
+    tags: [
+      'git',
+      'version-control',
+      'repository-hosting',
+      'ci-cd',
+      'atlassian',
+      'jira',
+      'collaboration',
+      'devops'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'unlimited-private', text: 'Unlimited private repositories even on free tier for small teams' },
+      { id: 'jira-integration', text: 'Deep native integration with Jira for issue tracking and development workflow' },
+      { id: 'built-in-cicd', text: 'Bitbucket Pipelines provides integrated CI/CD without third-party services' },
+      { id: 'atlassian-ecosystem', text: 'Seamless integration with Confluence, Trello, and other Atlassian products' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Repository Management',
+        description: 'Host unlimited private Git repositories with branch permissions, code review, and merge request workflows.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'Bitbucket Pipelines',
+        description: 'Built-in CI/CD with Docker-based builds, automated testing, and deployment to any environment.',
+        icon: 'play'
+      },
+      {
+        id: '3',
+        title: 'Code Review',
+        description: 'Pull request workflows with inline comments, approvals, branch restrictions, and merge checks.',
+        icon: 'eye'
+      }
+    ]
+  },
+  {
+    id: '227',
+    slug: 'boltnew',
+    name: 'Bolt.new',
+    tagline: 'AI-powered full-stack web development directly in the browser',
+    description: 'Bolt.new by StackBlitz is an AI-powered development environment enabling full-stack web application creation entirely in the browser. Uses AI to generate, run, and deploy complete applications with Node.js backend, databases, and frontend frameworks — no local setup required.',
+    overview: '',
+    pricingDescription: 'Free tier with limited daily AI tokens and basic features. Pro at $20/month for increased tokens, priority processing, and private projects. Team at $40/user/month for collaboration features and shared workspaces. Enterprise with custom pricing. Tokens consumed by AI generation and code execution.',
+    logo: '/images/tool-logo/boltnew.webp',
+    website: 'https://bolt.new',
+    affiliateUrl: null,
+    categories: ['web-development', 'ai'],
+    tags: [
+      'ai-development',
+      'web-development',
+      'full-stack',
+      'browser-ide',
+      'stackblitz',
+      'rapid-prototyping',
+      'deployment',
+      'no-setup'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'browser-native', text: 'Full-stack development environment running entirely in browser via WebContainers' },
+      { id: 'ai-generation', text: 'AI generates complete applications from natural language descriptions' },
+      { id: 'instant-deployment', text: 'One-click deployment to production with automatic CI/CD and hosting' },
+      { id: 'full-stack-support', text: 'Supports React, Next.js, Node.js, databases, and backend APIs in one environment' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'AI App Generation',
+        description: 'Describe your application in natural language and AI generates complete working code across frontend and backend.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'WebContainers IDE',
+        description: 'Full Node.js development environment running in browser with terminal, file system, and live preview.',
+        icon: 'code'
+      },
+      {
+        id: '3',
+        title: 'Instant Deployment',
+        description: 'Deploy applications to production with one click, including automatic domains and SSL certificates.',
+        icon: 'rocket'
+      }
+    ]
+  },
+  {
+    id: '228',
+    slug: 'cline',
+    name: 'Cline',
+    tagline: 'Open-source AI coding assistant with full IDE control and BYOK flexibility',
+    description: 'Cline is an open-source AI coding assistant for VS Code that gives developers complete control over their AI workflow. Uses a bring-your-own-key (BYOK) model allowing any LLM provider, can create and edit files, explore codebases, execute terminal commands, and automate browser tasks with human approval.',
+    overview: '',
+    pricingDescription: 'Completely free and open-source — you only pay for the LLM API usage you choose. Works with OpenAI, Anthropic, Google, local models, and any compatible API provider. No subscription fees, no platform markup. Typical costs range $0.01-0.50 per interaction depending on model and context size.',
+    logo: '/images/tool-logo/cline.webp',
+    website: 'https://github.com/cline/cline',
+    affiliateUrl: null,
+    categories: ['ai', 'web-development', 'productivity'],
+    tags: [
+      'ai-coding',
+      'vscode-extension',
+      'open-source',
+      'byok',
+      'developer-tools',
+      'code-assistant',
+      'automation',
+      'agent'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'byok-model', text: 'Bring your own API keys — use any LLM provider without platform lock-in' },
+      { id: 'full-system-access', text: 'Can create files, edit code, run terminal commands, and control browser with approval' },
+      { id: 'open-source', text: 'Fully open-source with active community development and transparency' },
+      { id: 'human-in-loop', text: 'Every file change and command requires explicit approval before execution' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'File Management',
+        description: 'Create, edit, and organize files across your project with AI assistance and human approval.',
+        icon: 'file-plus'
+      },
+      {
+        id: '2',
+        title: 'Terminal Execution',
+        description: 'Run shell commands, install packages, and execute scripts with approval before each action.',
+        icon: 'terminal'
+      },
+      {
+        id: '3',
+        title: 'Browser Automation',
+        description: 'Control browser for testing, research, and web interactions through AI-driven automation.',
+        icon: 'globe'
+      }
+    ]
+  },
+  {
+    id: '229',
+    slug: 'codeium',
+    name: 'Codeium',
+    tagline: 'AI code completion and chat assistant across 70+ IDEs and languages',
+    description: 'Codeium provides AI-powered code completion, chat assistance, and code search across 70+ IDEs and 70+ programming languages. Offers free individual plans with unlimited completions, making AI coding assistance accessible to developers worldwide without subscription costs.',
+    overview: '',
+    pricingDescription: 'Free for individual developers with unlimited code completions and chat. Teams plan at $12/user/month for team features and admin controls. Enterprise with custom pricing, SSO, and advanced security. All plans include unlimited completions — no credit systems or usage caps. Windsurf IDE included with subscription.',
+    logo: '/images/tool-logo/codeium.webp',
+    website: 'https://codeium.com',
+    affiliateUrl: null,
+    categories: ['ai', 'web-development', 'productivity'],
+    tags: [
+      'ai-coding',
+      'code-completion',
+      'developer-tools',
+      'vscode',
+      'jetbrains',
+      'windsurf',
+      'free',
+      'multilanguage'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'unlimited-free', text: 'Unlimited code completions free forever for individual developers — no credit limits' },
+      { id: 'wide-ide-support', text: 'Works across 70+ IDEs including VS Code, JetBrains, Vim, Emacs, Xcode, and Eclipse' },
+      { id: 'windsurf-ide', text: 'Includes Windsurf — purpose-built AI IDE designed for deep AI integration' },
+      { id: 'codebase-search', text: 'Semantic search across your entire codebase using natural language queries' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Code Completion',
+        description: 'Real-time inline code suggestions across functions, classes, and entire code blocks as you type.',
+        icon: 'code'
+      },
+      {
+        id: '2',
+        title: 'AI Chat Assistant',
+        description: 'Chat-based coding help for debugging, explanations, refactoring, and generating tests or documentation.',
+        icon: 'message-circle'
+      },
+      {
+        id: '3',
+        title: 'Semantic Search',
+        description: 'Find code across your projects using natural language descriptions rather than regex or text search.',
+        icon: 'search'
+      }
+    ]
+  },
+  {
+    id: '230',
+    slug: 'cursor',
+    name: 'Cursor',
+    tagline: 'AI-first code editor built on VS Code with deep AI integration',
+    description: 'Cursor is an AI-native code editor forked from VS Code, designed from the ground up for AI-assisted programming. Features intelligent code completion, chat-based assistance, multi-file editing through Composer, and autonomous Agent mode that can plan and execute complex coding tasks across entire codebases.',
+    overview: '',
+    pricingDescription: 'Hobby plan is free with limited premium model usage and 2,000 completions. Pro at $20/month for unlimited completions, 500 premium requests, and access to advanced models. Business at $40/user/month for team features, centralized billing, and admin controls. Ultra at $200/month for maximum usage and early access to new features.',
+    logo: '/images/tool-logo/cursor.webp',
+    website: 'https://cursor.com',
+    affiliateUrl: null,
+    categories: ['ai', 'web-development', 'productivity'],
+    tags: [
+      'ai-editor',
+      'vscode-fork',
+      'code-completion',
+      'ai-coding',
+      'developer-tools',
+      'composer',
+      'agent-mode',
+      'ide'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'vscode-compatible', text: 'Built on VS Code — all your extensions, themes, and keybindings work immediately' },
+      { id: 'composer', text: 'Multi-file editing through Composer that updates entire features across codebase' },
+      { id: 'agent-mode', text: 'Autonomous Agent plans and executes complex tasks with terminal and browser access' },
+      { id: 'codebase-indexing', text: 'Semantic understanding of your entire codebase for contextually relevant AI assistance' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Tab Completion',
+        description: 'Intelligent multi-line code suggestions predicting your next edit based on context and patterns.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Composer',
+        description: 'Edit multiple files simultaneously through natural language instructions applied across your codebase.',
+        icon: 'files'
+      },
+      {
+        id: '3',
+        title: 'Agent Mode',
+        description: 'Autonomous AI agent that plans, executes, and iterates on complex coding tasks with terminal access.',
+        icon: 'bot'
+      }
+    ]
+  },
+  {
+    id: '231',
+    slug: 'flyio',
+    name: 'Fly.io',
+    tagline: 'Global application deployment platform running servers close to users',
+    description: 'Fly.io transforms Docker containers into micro-VMs deployed across 30+ global regions, running applications physically close to users for minimal latency. Specializes in full-stack apps, databases, and services needing low-latency global distribution without complex infrastructure management.',
+    overview: '',
+    pricingDescription: 'Free allowance for small personal projects including 3 shared-cpu VMs and 3GB persistent storage. Pay-as-you-go pricing: shared-cpu at $1.94/month, dedicated-cpu from $9.25/month. Bandwidth and storage billed separately. No minimum commitments — scale up or down instantly. Enterprise plans available.',
+    logo: '/images/tool-logo/flyio.webp',
+    website: 'https://fly.io',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'deployment',
+      'hosting',
+      'edge-computing',
+      'docker',
+      'global-infrastructure',
+      'paas',
+      'serverless',
+      'micro-vms'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'global-regions', text: 'Deploy to 30+ regions worldwide — run servers physically close to your users' },
+      { id: 'docker-native', text: 'Deploy any Docker container as micro-VM without rewriting application code' },
+      { id: 'low-latency', text: 'Sub-50ms response times globally by running at the edge rather than centralized data centers' },
+      { id: 'fly-machines', text: 'Programmatically start and stop VMs in milliseconds via Machines API' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Global Deployment',
+        description: 'Deploy applications across 30+ regions with automatic traffic routing to nearest instance.',
+        icon: 'globe'
+      },
+      {
+        id: '2',
+        title: 'Fly Postgres',
+        description: 'Globally distributed PostgreSQL with automatic replication across regions for low-latency reads.',
+        icon: 'database'
+      },
+      {
+        id: '3',
+        title: 'Machines API',
+        description: 'Programmatically control VM lifecycle — start, stop, and scale machines in milliseconds via API.',
+        icon: 'cpu'
+      }
+    ]
+  },
+  {
+    id: '232',
+    slug: 'github',
+    name: 'GitHub',
+    tagline: 'The world\'s leading platform for version control and collaborative development',
+    description: 'GitHub is the world\'s largest development platform, hosting over 100 million repositories and serving 100+ million developers. Provides Git repository hosting, collaboration tools, CI/CD through GitHub Actions, package registry, project management, and AI-powered coding with GitHub Copilot.',
+    overview: '',
+    pricingDescription: 'Free tier with unlimited public/private repositories and core features. Pro at $4/month for advanced tools, protected branches, and 3,000 Actions minutes. Team at $4/user/month for organization management and 3,000 Actions minutes per user. Enterprise at $21/user/month with SSO, audit logs, and advanced security. Copilot billed separately.',
+    logo: '/images/tool-logo/github.webp',
+    website: 'https://github.com',
+    affiliateUrl: null,
+    categories: ['web-development', 'productivity', 'community'],
+    tags: [
+      'git',
+      'version-control',
+      'repository-hosting',
+      'collaboration',
+      'open-source',
+      'ci-cd',
+      'actions',
+      'devops'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'largest-community', text: 'Home to 100+ million developers and the world\'s largest open-source ecosystem' },
+      { id: 'actions', text: 'Built-in CI/CD through GitHub Actions with thousands of community workflows' },
+      { id: 'copilot-integration', text: 'Native integration with GitHub Copilot for AI-powered coding assistance' },
+      { id: 'codespaces', text: 'Cloud development environments with full VS Code in browser' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Repository Hosting',
+        description: 'Host unlimited public and private Git repositories with advanced collaboration features.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'GitHub Actions',
+        description: 'Automate build, test, and deployment workflows directly in your repositories.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'GitHub Copilot',
+        description: 'AI pair programmer providing inline code suggestions and chat-based assistance.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '233',
+    slug: 'gitlab',
+    name: 'GitLab',
+    tagline: 'Complete DevOps platform delivering the entire software development lifecycle',
+    description: 'GitLab is a comprehensive DevOps platform covering the entire software development lifecycle — from planning and source code management through CI/CD, security scanning, monitoring, and deployment. Offers a single application for the complete DevOps workflow, available as SaaS or self-managed.',
+    overview: '',
+    pricingDescription: 'Free tier with unlimited repositories and core features. Premium at $29/user/month for advanced CI/CD, code ownership, and security features. Ultimate at $99/user/month for enterprise security, compliance, and portfolio management. Self-managed deployment available. GitLab Duo AI add-on at $19/user/month.',
+    logo: '/images/tool-logo/gitlab.webp',
+    website: 'https://gitlab.com',
+    affiliateUrl: null,
+    categories: ['web-development', 'productivity'],
+    tags: [
+      'git',
+      'devops',
+      'ci-cd',
+      'version-control',
+      'repository-hosting',
+      'security',
+      'self-managed',
+      'enterprise'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'complete-devops', text: 'Single platform covering planning, SCM, CI/CD, security, and monitoring' },
+      { id: 'self-managed', text: 'Deploy GitLab on your own infrastructure for complete control and compliance' },
+      { id: 'built-in-cicd', text: 'Industry-leading CI/CD built into platform with advanced pipeline capabilities' },
+      { id: 'security-scanning', text: 'Comprehensive security scanning including SAST, DAST, dependency, and container scanning' }
+    ],
+    platforms: ['web', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Git Repository Management',
+        description: 'Host repositories with advanced branching, merge requests, code review, and collaboration tools.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'CI/CD Pipelines',
+        description: 'Build, test, and deploy applications with sophisticated pipeline configurations and auto-scaling runners.',
+        icon: 'play'
+      },
+      {
+        id: '3',
+        title: 'Security & Compliance',
+        description: 'Automated security scanning, vulnerability management, and compliance reporting across the development lifecycle.',
+        icon: 'shield'
+      }
+    ]
+  },
+  {
+    id: '234',
+    slug: 'mongodbatlas',
+    name: 'MongoDB Atlas',
+    tagline: 'Fully managed MongoDB cloud database service with global distribution',
+    description: 'MongoDB Atlas is the official cloud database service for MongoDB, providing fully managed document databases with automated operations, global distribution, built-in security, and advanced features like full-text search, vector search for AI, and real-time analytics.',
+    overview: '',
+    pricingDescription: 'Free M0 tier with 512MB storage for small projects. Shared clusters from $9/month. Dedicated clusters from $60/month with advanced features. Serverless databases billed per read/write unit and storage. Pay-as-you-go pricing across all tiers. Enterprise with custom arrangements.',
+    logo: '/images/tool-logo/mongodbatlas.webp',
+    website: 'https://mongodb.com/atlas',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'database',
+      'mongodb',
+      'nosql',
+      'managed-database',
+      'cloud-database',
+      'vector-search',
+      'document-database',
+      'global-distribution'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'fully-managed', text: 'Automated backups, updates, scaling, and monitoring — no database administration required' },
+      { id: 'global-clusters', text: 'Distribute data across regions for low-latency access and data sovereignty compliance' },
+      { id: 'vector-search', text: 'Built-in vector search for AI applications using embeddings and semantic similarity' },
+      { id: 'atlas-search', text: 'Full-text search and vector search directly within the database without separate services' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Managed MongoDB',
+        description: 'Fully managed MongoDB clusters with automated backups, patching, and scaling across major cloud providers.',
+        icon: 'database'
+      },
+      {
+        id: '2',
+        title: 'Atlas Search',
+        description: 'Full-text search and vector search built directly into MongoDB for AI-powered applications.',
+        icon: 'search'
+      },
+      {
+        id: '3',
+        title: 'Global Clusters',
+        description: 'Distribute data across multiple regions for low-latency global access and compliance requirements.',
+        icon: 'globe'
+      }
+    ]
+  },
+  {
+    id: '235',
+    slug: 'neon',
+    name: 'Neon',
+    tagline: 'Serverless open-source Postgres with database branching',
+    description: 'Neon is a serverless, open-source PostgreSQL platform that brings modern developer workflows to relational databases. Features instant database branching (like Git for data), auto-scaling compute that pauses when idle, and bottomless storage — making Postgres as easy to use as modern serverless platforms.',
+    overview: '',
+    pricingDescription: 'Free tier with 0.5GB storage and auto-suspend compute. Launch at $19/month for 10GB storage and longer compute retention. Scale with custom pricing for dedicated resources and enterprise features. Compute billed per second of active usage, storage billed per GB-month. No minimum commitments.',
+    logo: '/images/tool-logo/neon.webp',
+    website: 'https://neon.tech',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'database',
+      'postgres',
+      'serverless',
+      'open-source',
+      'branching',
+      'relational-database',
+      'cloud-database',
+      'sql'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'database-branching', text: 'Instant database branching creates isolated copies for development, testing, and CI/CD in seconds' },
+      { id: 'serverless-compute', text: 'Auto-scaling compute that scales to zero when idle — pay only for active usage' },
+      { id: 'bottomless-storage', text: 'Storage scales automatically without provisioning limits or manual resizing' },
+      { id: 'open-source-postgres', text: '100% open-source PostgreSQL with no vendor lock-in or proprietary extensions' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Database Branching',
+        description: 'Create instant, copy-on-write branches of your database for development, testing, and staging environments.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'Serverless Postgres',
+        description: 'Fully managed PostgreSQL that scales compute automatically and suspends when not in use.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'Point-in-Time Recovery',
+        description: 'Restore your database to any second within the retention window for disaster recovery and debugging.',
+        icon: 'clock'
+      }
+    ]
+  },
+  {
+    id: '236',
+    slug: 'planetscale',
+    name: 'PlanetScale',
+    tagline: 'Serverless MySQL platform with Git-like database workflows',
+    description: 'PlanetScale is a serverless MySQL-compatible database platform built on Vitess, offering infinite scalability and Git-like branching workflows for database schemas. Designed for applications needing horizontal scaling beyond single-node MySQL limits with non-blocking schema changes.',
+    overview: '',
+    pricingDescription: 'Fixed monthly pricing starting at $39/month for base tier with included compute and storage. Scaler plan at $99/month for higher limits and advanced features. Enterprise with custom pricing for dedicated resources and SLAs. All plans include unlimited schema migrations and branching. Billed monthly with annual discounts available.',
+    logo: '/images/tool-logo/planetscale.webp',
+    website: 'https://planetscale.com',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'database',
+      'mysql',
+      'vitess',
+      'serverless',
+      'relational-database',
+      'horizontal-scaling',
+      'schema-management',
+      'sql'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'vitess-powered', text: 'Built on Vitess — the same technology scaling YouTube and Slack databases' },
+      { id: 'schema-branching', text: 'Git-like branching for database schemas with safe, non-blocking migrations' },
+      { id: 'infinite-scaling', text: 'Horizontal scaling beyond single-node MySQL limits without application rewrites' },
+      { id: 'safe-migrations', text: 'Deploy schema changes without downtime or locking production tables' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Database Branching',
+        description: 'Create branches of your database schema to test migrations safely before merging to production.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'Non-Blocking Migrations',
+        description: 'Deploy schema changes without locking tables or causing application downtime.',
+        icon: 'shuffle'
+      },
+      {
+        id: '3',
+        title: 'Horizontal Scaling',
+        description: 'Scale MySQL horizontally across multiple nodes without rewriting application queries.',
+        icon: 'layers'
+      }
+    ]
+  },
+  {
+    id: '237',
+    slug: 'pocketbase',
+    name: 'PocketBase',
+    tagline: 'Open-source backend in a single executable file',
+    description: 'PocketBase is an open-source backend consisting of embedded SQLite database with realtime subscriptions, authentication, file storage, and admin dashboard — all packed into a single executable file. Perfect for small to medium projects, prototypes, and self-hosted applications.',
+    overview: '',
+    pricingDescription: 'Completely free and open-source under MIT license. Self-host on any server, VPS, or cloud platform with zero licensing costs. Hosting providers like Fly.io, Railway, and DigitalOcean can run PocketBase from $5/month. No SaaS offering — you control your own infrastructure.',
+    logo: '/images/tool-logo/pocketbase.webp',
+    website: 'https://pocketbase.io',
+    affiliateUrl: null,
+    categories: ['web-development', 'productivity'],
+    tags: [
+      'backend',
+      'sqlite',
+      'open-source',
+      'self-hosted',
+      'realtime',
+      'authentication',
+      'baas',
+      'single-file'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'single-executable', text: 'Entire backend runs from a single executable file — no dependencies or complex setup' },
+      { id: 'embedded-sqlite', text: 'Embedded SQLite with realtime subscriptions for instant data synchronization' },
+      { id: 'built-in-auth', text: 'Complete authentication system with OAuth2, email/password, and user management' },
+      { id: 'admin-dashboard', text: 'Beautiful admin UI for managing data, users, and settings without writing code' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Realtime Database',
+        description: 'Embedded SQLite database with realtime subscriptions pushing changes to clients instantly.',
+        icon: 'database'
+      },
+      {
+        id: '2',
+        title: 'Authentication',
+        description: 'Built-in authentication with email/password, OAuth2 providers, and user management.',
+        icon: 'lock'
+      },
+      {
+        id: '3',
+        title: 'File Storage',
+        description: 'Integrated file storage with automatic thumbnails, validation, and S3-compatible external storage.',
+        icon: 'upload'
+      }
+    ]
+  },
+  {
+    id: '238',
+    slug: 'railway',
+    name: 'Railway',
+    tagline: 'Infrastructure platform making deployment as easy as push-to-deploy',
+    description: 'Railway is an infrastructure platform that brings the simplicity of Heroku to modern development with Git-based deployments, automatic scaling, built-in databases, and collaborative environments. Deploy applications, databases, and services from GitHub repositories with zero configuration.',
+    overview: '',
+    pricingDescription: 'Free tier with $5 monthly credit for hobby projects. Developer plan at $5/month for personal use with additional credits. Team plan at $20/user/month for collaboration features and shared resources. Enterprise with custom pricing. Pay only for actual compute, memory, and network usage — no minimum commitments.',
+    logo: '/images/tool-logo/railway.webp',
+    website: 'https://railway.app',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'deployment',
+      'hosting',
+      'paas',
+      'heroku-alternative',
+      'databases',
+      'git-deployment',
+      'serverless',
+      'infrastructure'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'git-deployment', text: 'Deploy directly from GitHub repositories with automatic builds on every push' },
+      { id: 'instant-databases', text: 'Spin up PostgreSQL, MySQL, Redis, MongoDB and more with a single click' },
+      { id: 'collaborative', text: 'Invite team members to projects with granular permissions and shared environments' },
+      { id: 'usage-based', text: 'Pay only for actual compute, memory, and bandwidth usage — no idle charges' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Git-Push Deploy',
+        description: 'Automatic deployment from GitHub repositories with buildpack and Dockerfile support.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'Managed Databases',
+        description: 'One-click deployment of PostgreSQL, MySQL, Redis, and MongoDB with automatic backups.',
+        icon: 'database'
+      },
+      {
+        id: '3',
+        title: 'Auto-Scaling',
+        description: 'Applications scale horizontally based on traffic with configurable resource limits.',
+        icon: 'trending-up'
+      }
+    ]
+  },
+  {
+    id: '239',
+    slug: 'replit',
+    name: 'Replit',
+    tagline: 'Browser-based IDE with AI-powered coding and instant deployment',
+    description: 'Replit is a collaborative browser-based IDE enabling anyone to code, deploy, and share applications from any device. Features AI pair programming through Ghostwriter, real-time multiplayer coding, built-in hosting, and support for 50+ programming languages — making software creation accessible to everyone.',
+    overview: '',
+    pricingDescription: 'Free tier with public Repls and basic features. Hacker at $7/month for private projects and faster containers. Pro at $20/month for Ghostwriter AI, dedicated resources, and always-on deployments. Teams at $40/user/month for collaboration and admin features. Enterprise with custom pricing.',
+    logo: '/images/tool-logo/replit.webp',
+    website: 'https://replit.com',
+    affiliateUrl: null,
+    categories: ['web-development', 'ai', 'productivity', 'education'],
+    tags: [
+      'ide',
+      'browser-ide',
+      'ai-coding',
+      'hosting',
+      'collaboration',
+      'education',
+      'multiplayer',
+      'deployment'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'browser-native', text: 'Full development environment running entirely in browser — code from any device' },
+      { id: 'ai-coding', text: 'Built-in AI assistant (Ghostwriter) for code completion, explanation, and generation' },
+      { id: 'multiplayer', text: 'Real-time collaborative coding like Google Docs for programming' },
+      { id: 'instant-deployment', text: 'Deploy applications to live URLs with one click — no DevOps required' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Browser IDE',
+        description: 'Full-featured development environment running in browser with terminal, file system, and live preview.',
+        icon: 'code'
+      },
+      {
+        id: '2',
+        title: 'AI Assistant',
+        description: 'Ghostwriter AI provides code completion, explanation, generation, and debugging assistance.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'Multiplayer Coding',
+        description: 'Real-time collaborative editing allowing multiple developers to code together simultaneously.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '240',
+    slug: 'render',
+    name: 'Render',
+    tagline: 'Unified cloud platform for deploying web services, sites, and databases',
+    description: 'Render is a unified cloud platform making deployment as simple as Heroku while offering modern infrastructure for web services, static sites, cron jobs, background workers, and managed databases. Provides automatic CI/CD from Git, auto-scaling, and private networking without DevOps complexity.',
+    overview: '',
+    pricingDescription: 'Free tier for static sites and basic services. Starter services from $7/month, Standard from $25/month with more resources. Managed PostgreSQL from $20/month, Redis from $30/month. Usage-based pricing for bandwidth and storage. Team plans at $20/user/month with collaboration features. No per-seat surprises.',
+    logo: '/images/tool-logo/render.webp',
+    website: 'https://render.com',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'deployment',
+      'hosting',
+      'paas',
+      'heroku-alternative',
+      'static-sites',
+      'managed-databases',
+      'auto-scaling',
+      'ci-cd'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'unified-cloud', text: 'Web services, static sites, databases, cron jobs, and background workers in one platform' },
+      { id: 'zero-config-deploy', text: 'Automatic builds and deployments from GitHub or GitLab with zero configuration' },
+      { id: 'managed-databases', text: 'Fully managed PostgreSQL and Redis with automatic backups and scaling' },
+      { id: 'predictable-pricing', text: 'Transparent pricing without per-seat surprises or hidden costs' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Web Services',
+        description: 'Deploy Node.js, Python, Go, Ruby, Rust, Docker, and other apps with auto-scaling and custom domains.',
+        icon: 'server'
+      },
+      {
+        id: '2',
+        title: 'Static Sites',
+        description: 'Host static sites and JAMstack apps with free SSL, global CDN, and preview deployments on pull requests.',
+        icon: 'globe'
+      },
+      {
+        id: '3',
+        title: 'Managed Databases',
+        description: 'Run PostgreSQL and Redis with automated backups, point-in-time recovery, and private networking.',
+        icon: 'database'
+      }
+    ]
+  },
+  {
+    id: '241',
+    slug: 'sourcegraph',
+    name: 'Sourcegraph',
+    tagline: 'Code intelligence platform with AI coding assistant Cody',
+    description: 'Sourcegraph is a code intelligence platform providing universal code search, navigation, and AI-powered assistance across entire codebases. Features Cody — an AI coding assistant that understands your entire repository — helping developers find, understand, and modify code across large engineering organizations.',
+    overview: '',
+    pricingDescription: 'Free tier with Cody AI assistant and basic search. Pro at $9/user/month for advanced Cody features and higher usage limits. Enterprise with custom pricing including SSO, audit logs, and on-premises deployment. Cody API usage billed separately for high-volume applications.',
+    logo: '/images/tool-logo/sourcegraph.webp',
+    website: 'https://sourcegraph.com',
+    affiliateUrl: null,
+    categories: ['web-development', 'ai', 'productivity'],
+    tags: [
+      'code-search',
+      'code-intelligence',
+      'ai-coding',
+      'cody',
+      'developer-tools',
+      'repository-search',
+      'codebase-understanding',
+      'enterprise'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'universal-search', text: 'Search across all repositories, languages, and codebases from a single interface' },
+      { id: 'cody-ai', text: 'AI coding assistant that understands your entire codebase context, not just current file' },
+      { id: 'code-navigation', text: 'Jump to definitions, find references, and explore dependencies across repositories' },
+      { id: 'batch-changes', text: 'Apply code changes across hundreds of repositories simultaneously with review workflows' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Code Search',
+        description: 'Search entire codebases across repositories with regex, structural queries, and natural language.',
+        icon: 'search'
+      },
+      {
+        id: '2',
+        title: 'Cody AI',
+        description: 'AI coding assistant providing chat, code completion, and context-aware answers based on your repository.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'Batch Changes',
+        description: 'Apply automated code transformations across multiple repositories with review and merge workflows.',
+        icon: 'git-merge'
+      }
+    ]
+  },
+  {
+    id: '242',
+    slug: 'tabnine',
+    name: 'Tabnine',
+    tagline: 'AI code assistant prioritizing privacy with local and cloud models',
+    description: 'Tabnine is an AI code completion and chat assistant that runs on your choice of infrastructure — from local models on your device to private cloud deployments. Focused on enterprise privacy, Tabnine never trains on your code and supports 15+ IDEs and all major programming languages.',
+    overview: '',
+    pricingDescription: 'Free tier with basic completions from Tabnine\'s foundation model. Pro at $12/month for advanced models and unlimited completions. Enterprise with custom pricing, private deployments, zero data retention, and SSO. All plans include privacy guarantees — code never used for model training.',
+    logo: '/images/tool-logo/tabnine.webp',
+    website: 'https://tabnine.com',
+    affiliateUrl: null,
+    categories: ['ai', 'web-development', 'productivity'],
+    tags: [
+      'ai-coding',
+      'code-completion',
+      'privacy',
+      'enterprise',
+      'local-models',
+      'developer-tools',
+      'vscode',
+      'jetbrains'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'privacy-first', text: 'Code never used for model training — runs locally or in private cloud with zero data retention' },
+      { id: 'local-models', text: 'Run AI models entirely on your device for maximum privacy without sending code anywhere' },
+      { id: 'wide-ide-support', text: 'Works across 15+ IDEs including VS Code, JetBrains, Vim, Neovim, Sublime, and Eclipse' },
+      { id: 'enterprise-ready', text: 'SOC 2 compliant with SSO, audit logs, and self-hosted deployment options' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Code Completion',
+        description: 'Real-time inline code suggestions across entire functions, classes, and multi-line blocks.',
+        icon: 'code'
+      },
+      {
+        id: '2',
+        title: 'AI Chat Assistant',
+        description: 'Conversational coding help for debugging, explaining, generating tests, and refactoring code.',
+        icon: 'message-circle'
+      },
+      {
+        id: '3',
+        title: 'Private Deployment',
+        description: 'Run AI models on your own infrastructure or locally on your device for complete data control.',
+        icon: 'shield'
+      }
+    ]
+  },
+  {
+    id: '243',
+    slug: 'v0',
+    name: 'v0',
+    tagline: 'AI-powered UI generator creating React components from text descriptions',
+    description: 'v0 by Vercel generates production-ready React and Next.js UI components from natural language descriptions. Built on shadcn/ui and Tailwind CSS, v0 produces clean, accessible, customizable code that developers can directly integrate into applications — bridging the gap between design ideas and working code.',
+    overview: '',
+    pricingDescription: 'Free tier with limited monthly generations. Premium at $20/month for unlimited generations, priority processing, and private projects. Team plans at $30/user/month for collaboration and shared components. Enterprise with custom pricing. All generated code is yours to use commercially without restrictions.',
+    logo: '/images/tool-logo/v0.webp',
+    website: 'https://v0.dev',
+    affiliateUrl: null,
+    categories: ['ai', 'design', 'web-development'],
+    tags: [
+      'ai-ui',
+      'react',
+      'nextjs',
+      'shadcn',
+      'tailwind-css',
+      'component-generator',
+      'vercel',
+      'ui-design'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'react-components', text: 'Generates production-ready React and Next.js components with shadcn/ui and Tailwind CSS' },
+      { id: 'clean-code', text: 'Outputs clean, accessible, customizable code following modern best practices' },
+      { id: 'iterative-refinement', text: 'Refine generated components through conversation — adjust colors, layouts, and interactions' },
+      { id: 'vercel-integration', text: 'Seamless deployment to Vercel with one-click integration into Next.js projects' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'UI Generation',
+        description: 'Create complete React components from text descriptions of desired interface and functionality.',
+        icon: 'layout-template'
+      },
+      {
+        id: '2',
+        title: 'Code Export',
+        description: 'Export generated code as shadcn/ui components, React files, or directly to Next.js projects.',
+        icon: 'code'
+      },
+      {
+        id: '3',
+        title: 'Iterative Refinement',
+        description: 'Refine generated UI through natural language — change colors, layouts, animations, and interactions.',
+        icon: 'refresh-cw'
+      }
+    ]
+  },
+  {
+    id: '244',
+    slug: 'windsurf',
+    name: 'Windsurf',
+    tagline: 'AI-native IDE by Codeium with agentic Cascade workflow',
+    description: 'Windsurf is an AI-native IDE built by Codeium featuring Cascade — an agentic workflow system that understands entire codebases and executes multi-step coding tasks. Combines deep code intelligence with AI assistance, running terminal commands, editing files, and debugging errors with developer oversight.',
+    overview: '',
+    pricingDescription: 'Free tier for individual developers with unlimited code completions and basic Cascade. Pro at $15/month for advanced AI models, priority processing, and unlimited Cascade actions. Teams at $30/user/month with collaboration features and admin controls. All Codeium features included.',
+    logo: '/images/tool-logo/windsurf.webp',
+    website: 'https://codeium.com/windsurf',
+    affiliateUrl: null,
+    categories: ['ai', 'web-development', 'productivity'],
+    tags: [
+      'ai-ide',
+      'codeium',
+      'cascade',
+      'agentic-coding',
+      'developer-tools',
+      'vscode-alternative',
+      'code-intelligence',
+      'agent'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'cascade-agent', text: 'Cascade agent executes multi-step coding tasks across entire codebases with terminal access' },
+      { id: 'deep-context', text: 'Understands your entire codebase, not just current file, for accurate AI assistance' },
+      { id: 'codeium-integration', text: 'Built on Codeium\'s unlimited free completions and semantic code search' },
+      { id: 'agentic-workflow', text: 'AI plans, executes, and iterates on complex tasks with human oversight and approval' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Cascade Agent',
+        description: 'Autonomous AI agent executing multi-step coding tasks with file editing, terminal commands, and debugging.',
+        icon: 'bot'
+      },
+      {
+        id: '2',
+        title: 'Codebase Intelligence',
+        description: 'Deep understanding of your entire codebase structure, dependencies, and patterns for context-aware help.',
+        icon: 'brain'
+      },
+      {
+        id: '3',
+        title: 'Tab Completion',
+        description: 'Unlimited intelligent code completions across all languages powered by Codeium\'s models.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '245',
+    slug: 'lovable',
+    name: 'Lovable',
+    tagline: 'AI full-stack app builder creating production-ready web applications',
+    description: 'Lovable is an AI-powered full-stack application builder that transforms natural language descriptions into complete, production-ready web applications. Generates React frontends, Supabase backends, authentication, and deployment — enabling anyone to build SaaS applications, internal tools, and prototypes without traditional coding.',
+    overview: '',
+    pricingDescription: 'Free tier with limited credits and public projects. Starter at $20/month for private projects and more credits. Launch at $50/month for higher limits and priority processing. Scale at $100/month for heavy usage and advanced features. Credits consumed by AI generation and deployments. Annual plans available.',
+    logo: '/images/tool-logo/lovable.webp',
+    website: 'https://lovable.dev',
+    affiliateUrl: null,
+    categories: ['ai', 'web-development', 'design'],
+    tags: [
+      'ai-app-builder',
+      'full-stack',
+      'react',
+      'supabase',
+      'no-code',
+      'rapid-prototyping',
+      'saas-builder',
+      'deployment'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'full-stack-generation', text: 'Generates complete applications with React frontend, Supabase backend, and authentication' },
+      { id: 'supabase-integration', text: 'Native Supabase integration for databases, authentication, and storage without configuration' },
+      { id: 'instant-deployment', text: 'Deploy applications to live URLs with automatic domains and SSL certificates' },
+      { id: 'visual-editing', text: 'Edit generated applications visually while AI maintains code synchronization' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'App Generation',
+        description: 'Create complete web applications from natural language descriptions with frontend, backend, and database.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Supabase Integration',
+        description: 'Automatic Supabase setup for authentication, database, storage, and real-time subscriptions.',
+        icon: 'database'
+      },
+      {
+        id: '3',
+        title: 'One-Click Deploy',
+        description: 'Deploy applications instantly with automatic domains, SSL certificates, and production hosting.',
+        icon: 'rocket'
+      }
+    ]
+  },
+  {
+    id: '246',
+    slug: 'chartmogul',
+    name: 'ChartMogul',
+    tagline: 'Subscription analytics platform for SaaS metrics and revenue insights',
+    description: 'ChartMogul is the leading subscription analytics platform helping SaaS companies track critical metrics like MRR, churn, LTV, and cohort analysis. Connects to payment systems including Stripe, Braintree, PayPal, and Recurly to provide unified revenue intelligence and subscriber insights.',
+    overview: '',
+    pricingDescription: 'Import plan at $100/month for basic metrics and 2 data sources. Pro at $400/month for advanced analytics, 5 data sources, and API access. Enterprise with custom pricing for unlimited sources, dedicated support, and advanced features. 14-day free trial available. Pricing scales with MRR volume.',
+    logo: '/images/tool-logo/chartmogul.webp',
+    website: 'https://chartmogul.com',
+    affiliateUrl: null,
+    categories: ['analytics'],
+    tags: [
+      'saas-metrics',
+      'subscription-analytics',
+      'mrr',
+      'churn',
+      'ltv',
+      'revenue-analytics',
+      'stripe',
+      'cohort-analysis'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'saas-metrics', text: 'Track MRR, ARR, churn, LTV, ARPU, and 50+ subscription metrics automatically' },
+      { id: 'multi-source', text: 'Connect Stripe, Braintree, PayPal, Recurly, and custom data sources in one dashboard' },
+      { id: 'cohort-analysis', text: 'Analyze customer retention and revenue patterns across acquisition cohorts' },
+      { id: 'revenue-recognition', text: 'Accurate revenue recognition handling upgrades, downgrades, and proration' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'MRR Tracking',
+        description: 'Real-time MRR and ARR tracking with breakdown by plan, customer segment, and acquisition channel.',
+        icon: 'trending-up'
+      },
+      {
+        id: '2',
+        title: 'Churn Analysis',
+        description: 'Detailed churn metrics including customer churn, revenue churn, and expansion MRR analysis.',
+        icon: 'activity'
+      },
+      {
+        id: '3',
+        title: 'Cohort Analytics',
+        description: 'Track customer retention, revenue expansion, and lifetime value across acquisition cohorts.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '247',
+    slug: 'contentsquare',
+    name: 'Contentsquare',
+    tagline: 'Digital experience analytics platform for enterprise teams',
+    description: 'Contentsquare is an enterprise digital experience analytics platform helping teams understand user behavior through heatmaps, session replay, journey analysis, and AI-powered insights. Used by Fortune 500 companies to optimize websites, mobile apps, and digital products.',
+    overview: '',
+    pricingDescription: 'Enterprise custom pricing only — requires sales engagement. Pricing based on monthly sessions, features, and implementation scope. Typical implementations range $50K-$500K+ annually. Includes implementation support, training, and dedicated customer success. Demo and pilot programs available.',
+    logo: '/images/tool-logo/contentsquare.webp',
+    website: 'https://contentsquare.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'marketing'],
+    tags: [
+      'digital-experience',
+      'heatmaps',
+      'session-replay',
+      'user-behavior',
+      'journey-analysis',
+      'enterprise',
+      'cx-analytics',
+      'conversion-optimization'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'enterprise-scale', text: 'Handles billions of sessions monthly for Fortune 500 companies and global brands' },
+      { id: 'ai-insights', text: 'AI-powered automatic detection of UX issues, friction points, and optimization opportunities' },
+      { id: 'journey-analysis', text: 'Map and analyze complete user journeys across sessions, devices, and touchpoints' },
+      { id: 'quantified-impact', text: 'Quantify revenue impact of UX issues and prioritize fixes by business value' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Heatmaps & Zones',
+        description: 'Visualize user engagement through click, scroll, and attention heatmaps with zone-based analysis.',
+        icon: 'activity'
+      },
+      {
+        id: '2',
+        title: 'Session Replay',
+        description: 'Watch recorded user sessions to understand behavior, identify friction, and debug issues.',
+        icon: 'play'
+      },
+      {
+        id: '3',
+        title: 'Journey Analysis',
+        description: 'Map complete user journeys across sessions and devices to understand conversion paths.',
+        icon: 'route'
+      }
+    ]
+  },
+  {
+    id: '248',
+    slug: 'datadog',
+    name: 'Datadog',
+    tagline: 'Cloud monitoring and observability platform for infrastructure and applications',
+    description: 'Datadog is the leading monitoring and observability platform providing unified visibility across infrastructure, applications, logs, and metrics. Used by engineering teams worldwide to monitor cloud environments, troubleshoot issues, and optimize performance across 700+ integrations.',
+    overview: '',
+    pricingDescription: 'Free tier for up to 5 hosts with basic monitoring. Infrastructure monitoring from $15/host/month. APM from $31/host/month. Log management from $0.10/GB ingested. Synthetic monitoring from $5/month per test. Pricing scales with usage across hosts, logs, and metrics. Enterprise plans available.',
+    logo: '/images/tool-logo/datadog.webp',
+    website: 'https://datadoghq.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'web-development'],
+    tags: [
+      'monitoring',
+      'observability',
+      'apm',
+      'logging',
+      'infrastructure',
+      'cloud-monitoring',
+      'devops',
+      'metrics'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'unified-observability', text: 'Infrastructure, APM, logs, metrics, and traces in a single platform' },
+      { id: 'integrations', text: '700+ integrations with cloud providers, databases, frameworks, and services' },
+      { id: 'ai-powered', text: 'Watchdog AI automatically detects anomalies and correlates issues across systems' },
+      { id: 'enterprise-scale', text: 'Monitors millions of hosts and processes trillions of data points daily' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Infrastructure Monitoring',
+        description: 'Monitor servers, containers, and cloud resources with real-time metrics and automated alerting.',
+        icon: 'server'
+      },
+      {
+        id: '2',
+        title: 'APM & Tracing',
+        description: 'Distributed tracing and application performance monitoring across microservices architectures.',
+        icon: 'activity'
+      },
+      {
+        id: '3',
+        title: 'Log Management',
+        description: 'Centralized log collection, search, and analysis with automatic pattern detection.',
+        icon: 'file-text'
+      }
+    ]
+  },
+  {
+    id: '249',
+    slug: 'fathomanalytics',
+    name: 'Fathom Analytics',
+    tagline: 'Privacy-first web analytics without cookies or GDPR banners',
+    description: 'Fathom Analytics is a privacy-focused web analytics platform providing essential website metrics without cookies, tracking cookies, or GDPR cookie banners. Simple, fast, and compliant with GDPR, CCPA, and ePrivacy regulations — the ethical alternative to Google Analytics.',
+    overview: '',
+    pricingDescription: 'No free tier — all plans paid with 30-day free trial. Starter at $15/month for 100K pageviews. Growth at $35/month for 500K pageviews. Pro at $75/month for 2M pageviews. Business at $150/month for 10M pageviews. All plans include unlimited sites, team members, and data retention. Pricing scales with pageview volume.',
+    logo: '/images/tool-logo/fathomanalytics.webp',
+    website: 'https://usefathom.com',
+    affiliateUrl: null,
+    categories: ['analytics'],
+    tags: [
+      'web-analytics',
+      'privacy',
+      'gdpr-compliant',
+      'no-cookies',
+      'google-analytics-alternative',
+      'simple-analytics',
+      'ethical',
+      'website-tracking'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'privacy-first', text: 'No cookies, no personal data collection, no GDPR cookie banners required' },
+      { id: 'simple-dashboard', text: 'Clean, fast dashboard showing essential metrics without complexity' },
+      { id: 'gdpr-compliant', text: 'Fully compliant with GDPR, CCPA, ePrivacy, and PECR without consent mechanisms' },
+      { id: 'unlimited-everything', text: 'Unlimited sites, team members, data retention, and API access on all plans' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Privacy-First Tracking',
+        description: 'Track website analytics without cookies, personal data, or invasive user profiling.',
+        icon: 'shield'
+      },
+      {
+        id: '2',
+        title: 'Simple Dashboard',
+        description: 'Clean interface showing top pages, referrers, countries, devices, and real-time visitors.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '3',
+        title: 'Goal Tracking',
+        description: 'Track custom events and conversions without complex setup or privacy concerns.',
+        icon: 'target'
+      }
+    ]
+  },
+  {
+    id: '250',
+    slug: 'fivetran',
+    name: 'Fivetran',
+    tagline: 'Automated data integration platform moving data to warehouses',
+    description: 'Fivetran is the leading automated data integration platform that moves data from applications, databases, and files into cloud data warehouses. Provides pre-built connectors, automatic schema migrations, and zero-maintenance pipelines for modern data stacks.',
+    overview: '',
+    pricingDescription: 'Free tier with 500K monthly active rows. Standard starting at $1/500K monthly active rows. Enterprise with custom pricing, dedicated support, and advanced security. Pricing based on data volume (monthly active rows) rather than per-connector fees. All connectors included in every plan.',
+    logo: '/images/tool-logo/fivetran.webp',
+    website: 'https://fivetran.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'productivity'],
+    tags: [
+      'data-integration',
+      'etl',
+      'data-pipeline',
+      'data-warehouse',
+      'connectors',
+      'automated-etl',
+      'data-engineering',
+      'elt'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'automated-pipelines', text: 'Zero-maintenance data pipelines with automatic schema migrations and sync' },
+      { id: 'connectors', text: '300+ pre-built connectors for applications, databases, files, and event streams' },
+      { id: 'warehouse-native', text: 'Native integration with Snowflake, BigQuery, Redshift, Databricks, and more' },
+      { id: 'schema-migration', text: 'Automatic schema change detection and migration without pipeline breaks' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Automated Connectors',
+        description: 'Pre-built connectors automatically sync data from 300+ sources to your data warehouse.',
+        icon: 'plug'
+      },
+      {
+        id: '2',
+        title: 'Schema Migration',
+        description: 'Automatic detection and migration of schema changes without breaking pipelines.',
+        icon: 'refresh-cw'
+      },
+      {
+        id: '3',
+        title: 'Data Transformations',
+        description: 'Built-in SQL transformations and dbt integration for data modeling in warehouse.',
+        icon: 'settings'
+      }
+    ]
+  },
+  {
+    id: '251',
+    slug: 'fullstory',
+    name: 'FullStory',
+    tagline: 'Digital experience intelligence platform with session replay and AI insights',
+    description: 'FullStory is a digital experience intelligence platform combining session replay, heatmaps, analytics, and AI-powered insights to help teams understand user behavior and optimize digital products. Used by product, engineering, and UX teams to identify friction, debug issues, and improve conversion.',
+    overview: '',
+    pricingDescription: 'Free tier with limited sessions and basic features. Growth plans starting at $199/month for increased session volume and advanced features. Enterprise with custom pricing, dedicated support, and advanced security. Pricing based on monthly session volume. 14-day free trial available.',
+    logo: '/images/tool-logo/fullstory.webp',
+    website: 'https://fullstory.com',
+    affiliateUrl: null,
+    categories: ['analytics'],
+    tags: [
+      'session-replay',
+      'digital-experience',
+      'heatmaps',
+      'product-analytics',
+      'user-behavior',
+      'debugging',
+      'ux-research',
+      'conversion-optimization'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'session-replay', text: 'Pixel-perfect session replay showing exact user interactions and behavior' },
+      { id: 'ai-insights', text: 'AI-powered automatic detection of errors, rage clicks, and friction points' },
+      { id: 'search-everything', text: 'Search across all sessions by user behavior, attributes, or events' },
+      { id: 'developer-tools', text: 'Console logs, network requests, and performance metrics alongside session replay' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Session Replay',
+        description: 'Watch pixel-perfect recordings of user sessions to understand behavior and identify issues.',
+        icon: 'play'
+      },
+      {
+        id: '2',
+        title: 'Heatmaps',
+        description: 'Visualize user engagement through click, scroll, and attention heatmaps across pages.',
+        icon: 'activity'
+      },
+      {
+        id: '3',
+        title: 'Error Detection',
+        description: 'Automatically detect JavaScript errors, rage clicks, and friction points across sessions.',
+        icon: 'circle-alert'
+      }
+    ]
+  },
+  {
+    id: '252',
+    slug: 'grafana',
+    name: 'Grafana',
+    tagline: 'Open-source observability platform for metrics, logs, and traces',
+    description: 'Grafana is the leading open-source observability platform for visualizing metrics, logs, and traces from any data source. Provides unified dashboards, alerting, and exploration across infrastructure, applications, and business metrics with 150+ data source plugins.',
+    overview: '',
+    pricingDescription: 'Completely free and open-source for self-hosting with unlimited usage. Grafana Cloud offers managed hosting: Free tier with limited metrics/logs, Pro at $49/month for increased limits, Enterprise with custom pricing. Self-hosting requires your own infrastructure. Cloud pricing based on metrics, logs, and traces volume.',
+    logo: '/images/tool-logo/grafana.webp',
+    website: 'https://grafana.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'web-development'],
+    tags: [
+      'observability',
+      'monitoring',
+      'dashboards',
+      'metrics',
+      'open-source',
+      'prometheus',
+      'logging',
+      'visualization'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'open-source', text: 'Fully open-source with active community and transparent development' },
+      { id: 'unified-observability', text: 'Metrics, logs, and traces in a single platform with correlated views' },
+      { id: 'data-source-plugins', text: '150+ plugins connecting to Prometheus, Elasticsearch, InfluxDB, CloudWatch, and more' },
+      { id: 'beautiful-dashboards', text: 'Rich visualization options with customizable panels and dashboard templates' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Metrics Visualization',
+        description: 'Create dashboards visualizing time-series metrics from Prometheus, InfluxDB, and 100+ sources.',
+        icon: 'chart-column'
+      },
+      {
+        id: '2',
+        title: 'Log Exploration',
+        description: 'Search, filter, and analyze logs with live tailing and log-to-metrics correlations.',
+        icon: 'file-text'
+      },
+      {
+        id: '3',
+        title: 'Alerting',
+        description: 'Configure alerts based on metric thresholds, log patterns, or trace anomalies with multiple notification channels.',
+        icon: 'bell'
+      }
+    ]
+  },
+  {
+    id: '253',
+    slug: 'heap',
+    name: 'Heap',
+    tagline: 'Product analytics platform with automatic event capture',
+    description: 'Heap is a product analytics platform that automatically captures all user interactions — clicks, pageviews, form submissions, and custom events — without manual instrumentation. Enables product teams to analyze user behavior, build funnels, and measure feature adoption retroactively.',
+    overview: '',
+    pricingDescription: 'Free tier with 10K monthly sessions and core features. Growth starting at $599/month for increased sessions and advanced features. Enterprise with custom pricing, unlimited seats, and dedicated support. Pricing based on monthly session volume. All features included in every plan.',
+    logo: '/images/tool-logo/heap.webp',
+    website: 'https://heap.io',
+    affiliateUrl: null,
+    categories: ['analytics'],
+    tags: [
+      'product-analytics',
+      'auto-capture',
+      'user-behavior',
+      'funnel-analysis',
+      'cohort-analysis',
+      'retention',
+      'feature-adoption',
+      'retroactive-analytics'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'auto-capture', text: 'Automatically captures all user interactions without manual event tracking code' },
+      { id: 'retroactive-analytics', text: 'Define events after they happen — analyze historical data without re-instrumentation' },
+      { id: 'complete-data', text: 'Captures 100% of user interactions rather than sampled data for accurate analysis' },
+      { id: 'virtual-events', text: 'Create custom events from captured interactions without deploying code changes' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Auto Event Capture',
+        description: 'Automatically tracks all clicks, pageviews, form submissions, and user interactions without code.',
+        icon: 'zap'
+      },
+      {
+        id: '2',
+        title: 'Funnel Analysis',
+        description: 'Build conversion funnels from any user actions and analyze drop-off at each step.',
+        icon: 'filter'
+      },
+      {
+        id: '3',
+        title: 'Cohort Analysis',
+        description: 'Group users by behavior or attributes and analyze retention and engagement over time.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '254',
+    slug: 'hotjar',
+    name: 'Hotjar',
+    tagline: 'User behavior analytics with heatmaps, recordings, and feedback tools',
+    description: 'Hotjar is a user behavior analytics platform combining heatmaps, session recordings, and feedback tools to help teams understand how users interact with websites. Provides visual insights into user behavior, frustration points, and conversion barriers for UX optimization.',
+    overview: '',
+    pricingDescription: 'Free tier with 35 daily sessions and basic features. Starter at $39/month for 500 daily sessions. Growth at $99/month for 5,000 daily sessions and advanced features. Scale with custom pricing for high-volume sites. Pricing based on daily session volume. All plans include unlimited team members.',
+    logo: '/images/tool-logo/hotjar.webp',
+    website: 'https://hotjar.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'marketing'],
+    tags: [
+      'heatmaps',
+      'session-recordings',
+      'user-feedback',
+      'ux-research',
+      'conversion-optimization',
+      'user-behavior',
+      'surveys',
+      'form-analytics'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'heatmaps', text: 'Click, move, and scroll heatmaps showing where users engage on pages' },
+      { id: 'session-recordings', text: 'Watch real user sessions to understand behavior and identify friction points' },
+      { id: 'feedback-tools', text: 'Collect user feedback through surveys, polls, and incoming feedback widgets' },
+      { id: 'form-analytics', text: 'Analyze form completion rates and identify fields causing abandonment' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Heatmaps',
+        description: 'Visualize user clicks, taps, and scrolling behavior with color-coded heatmaps.',
+        icon: 'activity'
+      },
+      {
+        id: '2',
+        title: 'Session Recordings',
+        description: 'Record and playback user sessions to watch actual behavior and identify issues.',
+        icon: 'video'
+      },
+      {
+        id: '3',
+        title: 'Surveys & Feedback',
+        description: 'Collect qualitative feedback through on-site surveys, polls, and feedback widgets.',
+        icon: 'message-square'
+      }
+    ]
+  },
+  {
+    id: '255',
+    slug: 'logrocket',
+    name: 'LogRocket',
+    tagline: 'Frontend monitoring platform combining session replay with error tracking',
+    description: 'LogRocket is a frontend monitoring platform that combines session replay, error tracking, and performance monitoring to help developers understand and fix issues in web and mobile applications. Captures console logs, network requests, and user interactions alongside session recordings.',
+    overview: '',
+    pricingDescription: 'Free tier with 1,000 sessions/month and 14-day retention. Pro at $99/month for 10,000 sessions and 30-day retention. Team at $299/month for 50,000 sessions and advanced features. Enterprise with custom pricing and dedicated support. Pricing based on monthly session volume.',
+    logo: '/images/tool-logo/logrocket.webp',
+    website: 'https://logrocket.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'web-development'],
+    tags: [
+      'session-replay',
+      'error-tracking',
+      'frontend-monitoring',
+      'debugging',
+      'performance',
+      'console-logs',
+      'network-requests',
+      'react'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'developer-focused', text: 'Console logs, network requests, and Redux state alongside session replay' },
+      { id: 'error-tracking', text: 'Automatic error capture with stack traces and session context for debugging' },
+      { id: 'performance-monitoring', text: 'Track page load times, API response times, and frontend performance metrics' },
+      { id: 'framework-support', text: 'Deep integration with React, Redux, Vue, Angular, and other frameworks' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Session Replay',
+        description: 'Record user sessions with console logs, network requests, and performance data for debugging.',
+        icon: 'play'
+      },
+      {
+        id: '2',
+        title: 'Error Tracking',
+        description: 'Automatically capture JavaScript errors with stack traces, user actions, and session context.',
+        icon: 'circle-alert'
+      },
+      {
+        id: '3',
+        title: 'Performance Monitoring',
+        description: 'Monitor page load times, API latency, and frontend performance metrics across users.',
+        icon: 'activity'
+      }
+    ]
+  },
+  {
+    id: '256',
+    slug: 'looker',
+    name: 'Looker',
+    tagline: 'Enterprise business intelligence platform with LookML data modeling',
+    description: 'Looker is Google\'s enterprise business intelligence platform providing governed data exploration, sophisticated dashboards, and embedded analytics. Uses LookML — a proprietary modeling language — to create a single source of truth across organizations with governed, reusable data definitions.',
+    overview: '',
+    pricingDescription: 'Enterprise custom pricing only — requires sales engagement. Pricing based on users, data volume, and deployment scope. Typical implementations range $50K-$500K+ annually. Includes Looker Studio, LookML modeling, embedded analytics, and enterprise support. Part of Google Cloud Platform ecosystem.',
+    logo: '/images/tool-logo/looker.webp',
+    website: 'https://looker.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'productivity'],
+    tags: [
+      'business-intelligence',
+      'enterprise-bi',
+      'lookml',
+      'data-modeling',
+      'dashboards',
+      'google-cloud',
+      'sql',
+      'embedded-analytics'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'lookml-modeling', text: 'LookML modeling language creates governed, reusable data definitions across organization' },
+      { id: 'single-source-truth', text: 'Centralized data model ensuring consistent metrics and definitions company-wide' },
+      { id: 'google-cloud-native', text: 'Deep integration with BigQuery and Google Cloud Platform ecosystem' },
+      { id: 'embedded-analytics', text: 'Embed dashboards and data experiences into applications and workflows' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'LookML Modeling',
+        description: 'Define data models using LookML language creating reusable, governed metrics and dimensions.',
+        icon: 'code'
+      },
+      {
+        id: '2',
+        title: 'Explore Interface',
+        description: 'Self-service data exploration with drag-and-drop interface powered by governed data models.',
+        icon: 'search'
+      },
+      {
+        id: '3',
+        title: 'Embedded Analytics',
+        description: 'Embed dashboards, visualizations, and data experiences into applications and workflows.',
+        icon: 'layout-dashboard'
+      }
+    ]
+  },
+  {
+    id: '257',
+    slug: 'lookerstudio',
+    name: 'Looker Studio',
+    tagline: 'Free data visualization and reporting tool by Google',
+    description: 'Looker Studio (formerly Google Data Studio) is Google\'s free data visualization and reporting platform enabling anyone to create interactive dashboards and reports. Connects to 500+ data sources including Google Analytics, Google Ads, BigQuery, Sheets, and countless third-party connectors.',
+    overview: '',
+    pricingDescription: 'Completely free for all users with unlimited reports and dashboards. Looker Studio Pro at $9/user/month for enterprise features including team workspaces, content manager, and scheduled report distribution. No usage limits, no data caps, no feature restrictions on free tier.',
+    logo: '/images/tool-logo/lookerstudio.webp',
+    website: 'https://lookerstudio.google.com',
+    affiliateUrl: null,
+    categories: ['analytics'],
+    tags: [
+      'data-visualization',
+      'reporting',
+      'dashboards',
+      'google-analytics',
+      'free',
+      'business-intelligence',
+      'data-studio',
+      'reporting-tool'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'completely-free', text: '100% free with unlimited reports, dashboards, and viewers — no usage limits' },
+      { id: 'google-integration', text: 'Native integration with Google Analytics, Ads, Search Console, YouTube, and BigQuery' },
+      { id: 'connectors', text: '500+ data source connectors including databases, SaaS tools, and spreadsheets' },
+      { id: 'collaborative', text: 'Real-time collaboration with sharing, commenting, and simultaneous editing' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Interactive Dashboards',
+        description: 'Create interactive dashboards with charts, tables, maps, and filters from multiple data sources.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '2',
+        title: 'Data Blending',
+        description: 'Combine data from multiple sources in single visualizations without ETL pipelines.',
+        icon: 'merge'
+      },
+      {
+        id: '3',
+        title: 'Calculated Fields',
+        description: 'Create custom metrics and dimensions using formulas without modifying source data.',
+        icon: 'calculator'
+      }
+    ]
+  },
+  {
+    id: '258',
+    slug: 'matomo',
+    name: 'Matomo',
+    tagline: 'Open-source web analytics platform with privacy focus and self-hosting',
+    description: 'Matomo (formerly Piwik) is the leading open-source web analytics platform providing Google Analytics-level insights with complete data ownership and privacy compliance. Available as self-hosted or cloud service, Matomo gives organizations full control over their analytics data.',
+    overview: '',
+    pricingDescription: 'Self-hosted version completely free and open-source under GPLv3. Matomo Cloud: Free for up to 50K pageviews/month. Growth at $29/month for 500K pageviews. Business at $99/month for 2M pageviews. Enterprise with custom pricing. Premium features like heatmaps, session recordings, and form analytics available as paid add-ons.',
+    logo: '/images/tool-logo/matomo.webp',
+    website: 'https://matomo.org',
+    affiliateUrl: null,
+    categories: ['analytics'],
+    tags: [
+      'web-analytics',
+      'open-source',
+      'self-hosted',
+      'privacy',
+      'google-analytics-alternative',
+      'gdpr-compliant',
+      'data-ownership',
+      'piwik'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'data-ownership', text: '100% data ownership — host on your own servers for complete control and privacy' },
+      { id: 'open-source', text: 'Fully open-source with active community, transparent development, and no vendor lock-in' },
+      { id: 'privacy-compliant', text: 'GDPR, CCPA, and PECR compliant with built-in privacy features and consent management' },
+      { id: 'no-sampling', text: 'No data sampling — analyze 100% of your traffic for accurate insights' }
+    ],
+    platforms: ['web', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Web Analytics',
+        description: 'Comprehensive web analytics including visitors, behavior, acquisitions, and conversions.',
+        icon: 'chart-column'
+      },
+      {
+        id: '2',
+        title: 'Heatmaps & Session Recording',
+        description: 'Visualize user behavior through heatmaps and watch recorded user sessions (premium add-on).',
+        icon: 'activity'
+      },
+      {
+        id: '3',
+        title: 'Privacy Controls',
+        description: 'Built-in privacy features including IP anonymization, data retention controls, and consent management.',
+        icon: 'shield'
+      }
+    ]
+  },
+  {
+    id: '259',
+    slug: 'metabase',
+    name: 'Metabase',
+    tagline: 'Open-source business intelligence tool anyone can use',
+    description: 'Metabase is an open-source business intelligence platform making data accessible to everyone in organizations — from executives to analysts. Features a no-code question builder, SQL editor, beautiful dashboards, and simple setup that gets teams from zero to insights in minutes.',
+    overview: '',
+    pricingDescription: 'Open-source version completely free for self-hosting with unlimited users. Metabase Cloud: Starter at $85/month for 5 users. Pro at $200/month for 10 users with advanced features. Enterprise with custom pricing and SSO. Pricing based on user count with unlimited questions and dashboards.',
+    logo: '/images/tool-logo/metabase.webp',
+    website: 'https://metabase.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'productivity'],
+    tags: [
+      'business-intelligence',
+      'open-source',
+      'self-hosted',
+      'sql',
+      'dashboards',
+      'data-visualization',
+      'no-code',
+      'bi-tool'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'no-code-questions', text: 'Visual question builder enabling anyone to query data without SQL knowledge' },
+      { id: 'quick-setup', text: 'Install and start querying data in under 5 minutes with simple configuration' },
+      { id: 'open-source', text: 'Fully open-source with active community and transparent development' },
+      { id: 'database-support', text: 'Connects to 20+ databases including PostgreSQL, MySQL, BigQuery, Snowflake, and more' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Visual Query Builder',
+        description: 'Build queries through intuitive interface without writing SQL — filter, group, and aggregate visually.',
+        icon: 'mouse-pointer'
+      },
+      {
+        id: '2',
+        title: 'SQL Editor',
+        description: 'Advanced SQL editor with autocomplete, query history, and saved snippets for analysts.',
+        icon: 'code'
+      },
+      {
+        id: '3',
+        title: 'Dashboards',
+        description: 'Create interactive dashboards with filters, parameters, and automatic email subscriptions.',
+        icon: 'layout-dashboard'
+      }
+    ]
+  },
+  {
+    id: '260',
+    slug: 'microsoftclarity',
+    name: 'Microsoft Clarity',
+    tagline: 'Free user behavior analytics with heatmaps and session recordings',
+    description: 'Microsoft Clarity is a completely free user behavior analytics tool providing heatmaps, session recordings, and insights to understand how users interact with websites. No traffic limits, no data sampling, no feature restrictions — Microsoft\'s gift to the web development community.',
+    overview: '',
+    pricingDescription: 'Completely free forever with unlimited sessions, recordings, and heatmaps. No paid tiers, no premium features, no usage limits, no data sampling. Microsoft provides Clarity as a free service integrated with their broader ecosystem including Bing and Azure.',
+    logo: '/images/tool-logo/microsoftclarity.webp',
+    website: 'https://clarity.microsoft.com',
+    affiliateUrl: null,
+    categories: ['analytics'],
+    tags: [
+      'heatmaps',
+      'session-recordings',
+      'user-behavior',
+      'free',
+      'microsoft',
+      'ux-analytics',
+      'no-sampling',
+      'web-analytics'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'completely-free', text: '100% free forever with no paid tiers, usage limits, or feature restrictions' },
+      { id: 'no-sampling', text: 'Captures 100% of sessions with no data sampling regardless of traffic volume' },
+      { id: 'ai-insights', text: 'AI-powered automatic detection of rage clicks, dead clicks, and frustration signals' },
+      { id: 'google-analytics-integration', text: 'Seamless integration with Google Analytics for combined behavior and metrics analysis' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Heatmaps',
+        description: 'Click and scroll heatmaps showing where users engage most on every page of your site.',
+        icon: 'activity'
+      },
+      {
+        id: '2',
+        title: 'Session Recordings',
+        description: 'Watch recordings of real user sessions to understand behavior and identify friction points.',
+        icon: 'video'
+      },
+      {
+        id: '3',
+        title: 'Insights Dashboard',
+        description: 'Automatic detection of rage clicks, dead clicks, excessive scrolling, and other UX signals.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '261',
+    slug: 'mixpanel',
+    name: 'Mixpanel',
+    tagline: 'Product analytics platform for understanding user behavior and retention',
+    description: 'Mixpanel is a leading product analytics platform helping teams understand user behavior, measure engagement, and optimize product experiences. Provides event-based analytics, funnel analysis, cohort analysis, and retention metrics for web and mobile applications.',
+    overview: '',
+    pricingDescription: 'Free tier with 20M monthly events and core features. Growth at $20/month for 10M events with advanced features. Enterprise with custom pricing for unlimited events, advanced security, and dedicated support. Pricing based on monthly tracked users (MTUs) and event volume. 14-day free trial available.',
+    logo: '/images/tool-logo/mixpanel.webp',
+    website: 'https://mixpanel.com',
+    affiliateUrl: null,
+    categories: ['analytics'],
+    tags: [
+      'product-analytics',
+      'event-tracking',
+      'funnel-analysis',
+      'cohort-analysis',
+      'retention',
+      'user-behavior',
+      'mobile-analytics',
+      'web-analytics'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'event-based', text: 'Event-based analytics tracking specific user actions rather than just pageviews' },
+      { id: 'funnel-analysis', text: 'Build conversion funnels from any user actions and analyze drop-off at each step' },
+      { id: 'cohort-analysis', text: 'Group users by behavior or attributes and analyze retention and engagement over time' },
+      { id: 'real-time', text: 'Real-time analytics showing user behavior as it happens without processing delays' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Event Tracking',
+        description: 'Track specific user actions and events to understand how users interact with your product.',
+        icon: 'zap'
+      },
+      {
+        id: '2',
+        title: 'Funnel Analysis',
+        description: 'Build conversion funnels from any user actions and analyze drop-off rates at each step.',
+        icon: 'filter'
+      },
+      {
+        id: '3',
+        title: 'Retention Analysis',
+        description: 'Measure how often users return to your product and which features drive long-term engagement.',
+        icon: 'repeat'
+      }
+    ]
+  },
+  {
+    id: '262',
+    slug: 'newrelic',
+    name: 'New Relic',
+    tagline: 'Observability platform for monitoring applications and infrastructure',
+    description: 'New Relic is a comprehensive observability platform providing application performance monitoring (APM), infrastructure monitoring, log management, and distributed tracing. Helps engineering teams monitor, troubleshoot, and optimize software performance across cloud and on-premises environments.',
+    overview: '',
+    pricingDescription: 'Free tier with 100GB/month data ingest and 1 full platform user. Standard at $25/month per 100GB additional data. Pro at $49/month per 100GB with advanced features. Pricing based on data consumption (ingest) and user count. All-inclusive pricing with no per-host charges.',
+    logo: '/images/tool-logo/newrelic.webp',
+    website: 'https://newrelic.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'web-development'],
+    tags: [
+      'observability',
+      'apm',
+      'monitoring',
+      'infrastructure',
+      'logging',
+      'distributed-tracing',
+      'cloud-monitoring',
+      'devops'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'full-stack-observability', text: 'Applications, infrastructure, logs, and traces in unified platform' },
+      { id: 'consumption-based', text: 'Pay for data consumed rather than per-host pricing — scales efficiently' },
+      { id: 'ai-assistance', text: 'NRAI provides AI-powered insights and anomaly detection across your stack' },
+      { id: 'open-telemetry', text: 'Native support for OpenTelemetry standards preventing vendor lock-in' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'APM',
+        description: 'Application performance monitoring with distributed tracing, error tracking, and performance insights.',
+        icon: 'activity'
+      },
+      {
+        id: '2',
+        title: 'Infrastructure Monitoring',
+        description: 'Monitor servers, containers, cloud services, and infrastructure with real-time metrics.',
+        icon: 'server'
+      },
+      {
+        id: '3',
+        title: 'Log Management',
+        description: 'Centralized log collection, search, and analysis with pattern detection and correlations.',
+        icon: 'file-text'
+      }
+    ]
+  },
+  {
+    id: '263',
+    slug: 'piwikpro',
+    name: 'Piwik PRO',
+    tagline: 'Privacy-focused analytics platform with compliance and data ownership',
+    description: 'Piwik PRO is a privacy-focused web analytics and customer data platform designed for organizations with strict data protection requirements. Provides Google Analytics-level insights while ensuring GDPR, HIPAA, and other regulatory compliance with full data ownership.',
+    overview: '',
+    pricingDescription: 'Free tier with 500K monthly actions and core features. Pro at custom pricing for increased volume, advanced features, and dedicated support. Enterprise with custom pricing including SLAs, advanced security, and implementation services. Pricing based on monthly tracked actions. 14-day free trial available.',
+    logo: '/images/tool-logo/piwikpro.webp',
+    website: 'https://piwik.pro',
+    affiliateUrl: null,
+    categories: ['analytics'],
+    tags: [
+      'web-analytics',
+      'privacy',
+      'gdpr-compliant',
+      'hipaa-compliant',
+      'data-ownership',
+      'enterprise-analytics',
+      'consent-management',
+      'customer-data-platform'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'privacy-first', text: 'Built for GDPR, HIPAA, and other regulations with consent management built-in' },
+      { id: 'data-ownership', text: 'Choose data hosting location and maintain complete ownership of analytics data' },
+      { id: 'no-sampling', text: 'Analyze 100% of your data without sampling regardless of traffic volume' },
+      { id: 'customer-data-platform', text: 'Unified customer data platform combining analytics with audience segmentation' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Web Analytics',
+        description: 'Comprehensive web analytics including visitors, behavior, acquisitions, and conversions.',
+        icon: 'chart-column'
+      },
+      {
+        id: '2',
+        title: 'Consent Management',
+        description: 'Built-in consent management platform for collecting and managing user privacy preferences.',
+        icon: 'shield'
+      },
+      {
+        id: '3',
+        title: 'Customer Data Platform',
+        description: 'Unified customer profiles combining analytics data with audience segmentation and activation.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '264',
+    slug: 'plausible',
+    name: 'Plausible',
+    tagline: 'Privacy-first, open-source web analytics without cookies',
+    description: 'Plausible is a lightweight, open-source web analytics platform focused on privacy and simplicity. Provides essential website metrics without cookies, GDPR banners, or cross-site tracking — the ethical alternative to Google Analytics for privacy-conscious website owners.',
+    overview: '',
+    pricingDescription: 'Free for self-hosting with unlimited sites and data. Plausible Cloud: Growth at $9/month for 10K pageviews. Pro at $19/month for 100K pageviews. Business at $69/month for 10M pageviews. All plans include unlimited sites, team members, and features. 30-day free trial available.',
+    logo: '/images/tool-logo/plausible.webp',
+    website: 'https://plausible.io',
+    affiliateUrl: null,
+    categories: ['analytics'],
+    tags: [
+      'web-analytics',
+      'privacy',
+      'open-source',
+      'no-cookies',
+      'gdpr-compliant',
+      'lightweight',
+      'google-analytics-alternative',
+      'self-hosted'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'privacy-first', text: 'No cookies, no personal data collection, no GDPR cookie banners required' },
+      { id: 'lightweight', text: 'Under 1KB tracking script — 45x smaller than Google Analytics for fast page loads' },
+      { id: 'open-source', text: 'Fully open-source with transparent development and self-hosting option' },
+      { id: 'simple-dashboard', text: 'Clean, fast dashboard showing essential metrics in single-page view' }
+    ],
+    platforms: ['web', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Privacy-First Tracking',
+        description: 'Track website analytics without cookies, personal data, or invasive user profiling.',
+        icon: 'shield'
+      },
+      {
+        id: '2',
+        title: 'Simple Dashboard',
+        description: 'Single-page dashboard showing top pages, referrers, countries, devices, and real-time visitors.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '3',
+        title: 'Goal Tracking',
+        description: 'Track custom events and conversions with simple goal setup without complex configuration.',
+        icon: 'target'
+      }
+    ]
+  },
+  {
+    id: '265',
+    slug: 'posthog',
+    name: 'PostHog',
+    tagline: 'Open-source product analytics and feature flag platform',
+    description: 'PostHog is an open-source product analytics platform combining product analytics, session replay, feature flags, A/B testing, and heatmaps in one suite. Designed for engineers and product teams wanting self-hosted control with modern analytics capabilities.',
+    overview: '',
+    pricingDescription: 'Free tier with 1M events/month and all features. Paid at $0.00031/event for additional volume. Session replay at $0.005 per recording. Feature flags included in all plans. Self-hosting completely free with unlimited usage. Cloud pricing based on event volume with generous free tiers.',
+    logo: '/images/tool-logo/posthog.webp',
+    website: 'https://posthog.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'web-development'],
+    tags: [
+      'product-analytics',
+      'open-source',
+      'self-hosted',
+      'feature-flags',
+      'session-replay',
+      'ab-testing',
+      'heatmaps',
+      'product-suite'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'full-product-suite', text: 'Analytics, session replay, feature flags, A/B testing, and heatmaps in one platform' },
+      { id: 'open-source', text: 'Fully open-source with self-hosting option for complete data control' },
+      { id: 'engineer-focused', text: 'Built by engineers for engineers with SQL access and API-first design' },
+      { id: 'generous-free-tier', text: '1M events/month free — more than most competitors offer on paid plans' }
+    ],
+    platforms: ['web', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Product Analytics',
+        description: 'Event-based analytics with funnels, paths, retention, and cohort analysis.',
+        icon: 'chart-column'
+      },
+      {
+        id: '2',
+        title: 'Session Replay',
+        description: 'Record and playback user sessions with console logs and network activity for debugging.',
+        icon: 'play'
+      },
+      {
+        id: '3',
+        title: 'Feature Flags',
+        description: 'Feature flags and experiments for controlled rollouts and A/B testing without deployments.',
+        icon: 'flag'
+      }
+    ]
+  },
+  {
+    id: '266',
+    slug: 'segment',
+    name: 'Segment',
+    tagline: 'Customer data platform collecting and routing data to analytics tools',
+    description: 'Segment is the leading customer data platform (CDP) that collects user event data once and routes it to hundreds of analytics, marketing, and data warehouse tools. Eliminates the need to implement tracking code separately for each destination tool, providing a unified data collection layer.',
+    overview: '',
+    pricingDescription: 'Free tier with 1,000 monthly tracked users (MTUs) and 2 destinations. Teams at $120/month for 10K MTUs and unlimited destinations. Business with custom pricing for advanced features, personas, and dedicated support. Pricing based on monthly tracked users and destination count.',
+    logo: '/images/tool-logo/segment.webp',
+    website: 'https://segment.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'productivity'],
+    tags: [
+      'cdp',
+      'customer-data-platform',
+      'data-collection',
+      'event-tracking',
+      'analytics-integration',
+      'data-pipeline',
+      'twilio',
+      'customer-data'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'single-integration', text: 'Implement tracking once and send data to 400+ analytics and marketing tools' },
+      { id: 'cdp-capabilities', text: 'Unify customer data across devices and touchpoints into single customer profiles' },
+      { id: 'data-governance', text: 'Centralized data governance with protocols, validation, and quality monitoring' },
+      { id: 'destinations', text: '400+ pre-built destinations including analytics tools, CRMs, and data warehouses' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Event Collection',
+        description: 'Collect user events through unified SDKs for web, mobile, and server environments.',
+        icon: 'zap'
+      },
+      {
+        id: '2',
+        title: 'Destinations',
+        description: 'Route collected data to 400+ analytics tools, marketing platforms, and data warehouses.',
+        icon: 'share-2'
+      },
+      {
+        id: '3',
+        title: 'Protocols',
+        description: 'Define data governance rules, validate event schemas, and monitor data quality.',
+        icon: 'shield'
+      }
+    ]
+  },
+  {
+    id: '267',
+    slug: 'snowflake',
+    name: 'Snowflake',
+    tagline: 'Cloud data warehouse enabling scalable analytics across multiple clouds',
+    description: 'Snowflake is a cloud-native data warehouse platform providing elastic scaling, multi-cloud support (AWS, Azure, GCP), and unique data sharing capabilities. Separates storage and compute for independent scaling while enabling secure data sharing between organizations without copying data.',
+    overview: '',
+    pricingDescription: 'Pay-as-you-go based on compute usage (per-second billing) and storage. Standard edition from $2/credit. Enterprise from $3/credit with advanced features. Business Critical from $4/credit with enhanced security. No upfront commitments — scale up or down instantly. Credits consumed by compute usage.',
+    logo: '/images/tool-logo/snowflake.webp',
+    website: 'https://snowflake.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'web-development'],
+    tags: [
+      'data-warehouse',
+      'cloud-data',
+      'sql',
+      'big-data',
+      'multi-cloud',
+      'data-sharing',
+      'analytics',
+      'elt'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'storage-compute-separation', text: 'Independent scaling of storage and compute for optimal cost and performance' },
+      { id: 'multi-cloud', text: 'Run on AWS, Azure, or Google Cloud with seamless data movement between clouds' },
+      { id: 'data-sharing', text: 'Share live data with partners and customers without copying or moving data' },
+      { id: 'per-second-billing', text: 'Pay only for compute actually used with per-second billing granularity' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Data Warehousing',
+        description: 'Run SQL queries on structured and semi-structured data with automatic optimization.',
+        icon: 'database'
+      },
+      {
+        id: '2',
+        title: 'Data Sharing',
+        description: 'Share live data securely with external organizations without copying or ETL processes.',
+        icon: 'share-2'
+      },
+      {
+        id: '3',
+        title: 'Elastic Scaling',
+        description: 'Scale compute resources up or down instantly with automatic suspension when idle.',
+        icon: 'trending-up'
+      }
+    ]
+  },
+  {
+    id: '268',
+    slug: 'tableau',
+    name: 'Tableau',
+    tagline: 'Leading data visualization and business intelligence platform',
+    description: 'Tableau by Salesforce is the industry-leading data visualization and business intelligence platform enabling anyone to analyze data and share insights. Known for intuitive drag-and-drop interface, beautiful visualizations, and powerful analytics capabilities serving organizations of all sizes.',
+    overview: '',
+    pricingDescription: 'Tableau Creator at $75/user/month for full analytics capabilities. Explorer at $42/user/month for interacting with curated content. Viewer at $15/user/month for consuming dashboards. Tableau Cloud (managed) and Tableau Server (self-hosted) deployment options. Public version free for open data sharing.',
+    logo: '/images/tool-logo/tableau.webp',
+    website: 'https://tableau.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'productivity'],
+    tags: [
+      'data-visualization',
+      'business-intelligence',
+      'dashboards',
+      'analytics',
+      'salesforce',
+      'bi-tool',
+      'data-discovery',
+      'enterprise-bi'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'intuitive-interface', text: 'Drag-and-drop visual analytics enabling anyone to create sophisticated visualizations' },
+      { id: 'beautiful-visualizations', text: 'Industry-leading visualization quality with extensive chart types and customization' },
+      { id: 'salesforce-integration', text: 'Deep integration with Salesforce CRM and broader Salesforce ecosystem' },
+      { id: 'large-community', text: 'Massive user community with extensive resources, training, and best practices' }
+    ],
+    platforms: ['web', 'windows', 'mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Visual Analytics',
+        description: 'Create interactive dashboards and visualizations through intuitive drag-and-drop interface.',
+        icon: 'chart-column'
+      },
+      {
+        id: '2',
+        title: 'Data Connections',
+        description: 'Connect to 70+ data sources including databases, cloud services, and spreadsheets.',
+        icon: 'plug'
+      },
+      {
+        id: '3',
+        title: 'Tableau Prep',
+        description: 'Visual data preparation tool for cleaning, combining, and shaping data for analysis.',
+        icon: 'filter'
+      }
+    ]
+  },
+  {
+    id: '269',
+    slug: 'powerbi',
+    name: 'Power BI',
+    tagline: 'Microsoft\'s business analytics service for interactive visualizations',
+    description: 'Power BI is Microsoft\'s business analytics platform providing interactive visualizations, self-service analytics, and enterprise-grade BI capabilities. Deep integration with Microsoft 365, Azure, and Excel makes it the natural choice for organizations in the Microsoft ecosystem.',
+    overview: '',
+    pricingDescription: 'Power BI Desktop is free for individual use. Power BI Pro at $10/user/month for sharing and collaboration. Premium Per User at $20/user/month for advanced AI and larger datasets. Premium capacity from $4,995/month for organization-wide deployment. Included with Microsoft 365 E5.',
+    logo: '/images/tool-logo/powerbi.webp',
+    website: 'https://powerbi.microsoft.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'productivity'],
+    tags: [
+      'business-intelligence',
+      'data-visualization',
+      'dashboards',
+      'microsoft',
+      'excel-integration',
+      'bi-tool',
+      'azure',
+      'enterprise-bi'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'microsoft-integration', text: 'Native integration with Excel, Teams, SharePoint, Azure, and Microsoft 365' },
+      { id: 'affordable-pricing', text: 'Industry-leading pricing at $10/user/month for full BI capabilities' },
+      { id: 'excel-familiar', text: 'DAX language and Power Query familiar to Excel users for easy adoption' },
+      { id: 'copilot-integration', text: 'AI-powered Copilot features enabling natural language analytics and insights' }
+    ],
+    platforms: ['web', 'windows'],
+    features: [
+      {
+        id: '1',
+        title: 'Interactive Reports',
+        description: 'Create interactive reports and dashboards with drag-and-drop visualizations.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '2',
+        title: 'Data Modeling',
+        description: 'Build sophisticated data models using DAX language and Power Query transformations.',
+        icon: 'database'
+      },
+      {
+        id: '3',
+        title: 'Copilot AI',
+        description: 'AI-powered assistant enabling natural language queries and automated insights generation.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '270',
+    slug: 'bluejeans',
+    name: 'BlueJeans',
+    tagline: 'Enterprise video conferencing platform with Dolby Voice audio',
+    description: 'BlueJeans is an enterprise-grade video conferencing platform providing high-quality meetings with Dolby Voice audio technology, advanced security features, and integrations with enterprise productivity tools. Part of Verizon, serving large organizations requiring reliable, secure video communication.',
+    overview: '',
+    pricingDescription: 'Standard at $12.50/host/month for core features and 50 participants. Pro at $15/host/month for advanced features and 100 participants. Enterprise with custom pricing for unlimited participants, dedicated support, and advanced security. Annual billing required. All plans include unlimited meetings and cloud recording.',
+    logo: '/images/tool-logo/bluejeans.webp',
+    website: 'https://bluejeans.com',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'video-conferencing',
+      'enterprise',
+      'meetings',
+      'dolby-voice',
+      'verizon',
+      'webinars',
+      'collaboration',
+      'remote-work'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'dolby-voice', text: 'Dolby Voice audio technology providing spatial audio and noise suppression' },
+      { id: 'enterprise-security', text: 'Advanced security features including end-to-end encryption and compliance certifications' },
+      { id: 'smart-meetings', text: 'AI-powered meeting intelligence with transcription, action items, and analytics' },
+      { id: 'verizon-backing', text: 'Enterprise reliability and support backed by Verizon infrastructure' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'HD Video Meetings',
+        description: 'High-definition video conferencing with Dolby Voice spatial audio for natural conversations.',
+        icon: 'video'
+      },
+      {
+        id: '2',
+        title: 'Smart Meetings',
+        description: 'AI-powered transcription, action item extraction, and meeting analytics for better outcomes.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'Webinars & Events',
+        description: 'Host large-scale webinars and virtual events with registration, Q&A, and engagement tools.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '271',
+    slug: 'discord',
+    name: 'Discord',
+    tagline: 'Voice, video, and text communication platform for communities',
+    description: 'Discord is a communication platform originally built for gamers that has evolved into the default platform for online communities, content creators, and teams. Provides voice channels, text chat, video calls, and screen sharing in organized server structures with extensive customization.',
+    overview: '',
+    pricingDescription: 'Completely free with unlimited servers, channels, and users. Nitro at $9.99/month for enhanced features including HD video, larger file uploads, custom emojis, and profile customization. Nitro Basic at $2.99/month for basic enhancements. Server boosting from $4.99/month unlocks server-wide perks.',
+    logo: '/images/tool-logo/discord.webp',
+    website: 'https://discord.com',
+    affiliateUrl: null,
+    categories: ['communication', 'community'],
+    tags: [
+      'chat',
+      'voice-chat',
+      'communities',
+      'gaming',
+      'streaming',
+      'servers',
+      'social',
+      'collaboration'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-unlimited', text: 'Completely free with unlimited servers, channels, messages, and voice chat' },
+      { id: 'server-structure', text: 'Organized server and channel structure enabling complex community organization' },
+      { id: 'low-latency-voice', text: 'Low-latency voice chat optimized for gaming and real-time conversation' },
+      { id: 'extensible-bots', text: 'Extensive bot ecosystem enabling automation, moderation, and custom functionality' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Voice Channels',
+        description: 'Persistent voice channels where members drop in and out naturally without calling.',
+        icon: 'mic'
+      },
+      {
+        id: '2',
+        title: 'Text Channels',
+        description: 'Organized text chat channels with threads, reactions, file sharing, and rich embeds.',
+        icon: 'message-square'
+      },
+      {
+        id: '3',
+        title: 'Screen Sharing',
+        description: 'Share screens with individuals or entire channels for collaboration, streaming, or presentations.',
+        icon: 'monitor'
+      }
+    ]
+  },
+  {
+    id: '272',
+    slug: 'googlechat',
+    name: 'Google Chat',
+    tagline: 'Team messaging platform integrated with Google Workspace',
+    description: 'Google Chat is Google\'s team messaging platform providing direct messages, group conversations, and team spaces integrated deeply with Google Workspace. Replaces Hangouts Chat as the primary communication tool for organizations using Google\'s productivity suite.',
+    overview: '',
+    pricingDescription: 'Included free with Google Workspace subscriptions (starting at $6/user/month for Business Starter). Standalone free version available with limited features for personal use. No separate pricing — Chat access requires Google Workspace or free Gmail account.',
+    logo: '/images/tool-logo/googlechat.webp',
+    website: 'https://chat.google.com',
+    affiliateUrl: null,
+    categories: ['communication', 'productivity'],
+    tags: [
+      'team-messaging',
+      'google-workspace',
+      'chat',
+      'collaboration',
+      'enterprise',
+      'hangouts-replacement',
+      'google',
+      'workplace-chat'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'workspace-integration', text: 'Deep integration with Gmail, Google Meet, Drive, Calendar, and other Google Workspace apps' },
+      { id: 'spaces', text: 'Organized team spaces for projects, departments, and topics with threaded conversations' },
+      { id: 'meet-integration', text: 'Seamless transition from chat to Google Meet video calls with one click' },
+      { id: 'smart-canvas', text: 'Collaborative documents, sheets, and slides embedded directly in conversations' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Spaces',
+        description: 'Organized team spaces for projects and topics with threaded conversations and file sharing.',
+        icon: 'hash'
+      },
+      {
+        id: '2',
+        title: 'Direct Messages',
+        description: 'One-on-one and small group conversations with rich media sharing and reactions.',
+        icon: 'message-circle'
+      },
+      {
+        id: '3',
+        title: 'Apps Integration',
+        description: 'Connect third-party apps and Google Workspace tools directly into conversations.',
+        icon: 'grid-2x2'
+      }
+    ]
+  },
+  {
+    id: '273',
+    slug: 'googlemeet',
+    name: 'Google Meet',
+    tagline: 'Enterprise video conferencing integrated with Google Workspace',
+    description: 'Google Meet is Google\'s enterprise video conferencing platform providing secure, reliable video meetings integrated with Google Workspace. Serves as the video meeting solution for millions of organizations using Google\'s productivity suite, replacing Hangouts Meet.',
+    overview: '',
+    pricingDescription: 'Free tier with 60-minute limit and 100 participants for personal Gmail accounts. Included with Google Workspace (starting at $6/user/month) with extended limits — Business Starter allows 100 participants and 24-hour meetings, Business Plus allows 500 participants and recordings.',
+    logo: '/images/tool-logo/googlemeet.webp',
+    website: 'https://meet.google.com',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'video-conferencing',
+      'google-workspace',
+      'meetings',
+      'enterprise',
+      'hangouts-replacement',
+      'google',
+      'remote-work',
+      'collaboration'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'workspace-integration', text: 'Native integration with Google Calendar, Gmail, and Google Workspace apps' },
+      { id: 'browser-based', text: 'No software installation required — works directly in Chrome, Firefox, Safari, and Edge' },
+      { id: 'live-captions', text: 'Real-time AI-powered captions and translated captions in multiple languages' },
+      { id: 'enterprise-security', text: 'Enterprise-grade security with encryption, host controls, and compliance certifications' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Video Meetings',
+        description: 'HD video conferencing with screen sharing, virtual backgrounds, and noise cancellation.',
+        icon: 'video'
+      },
+      {
+        id: '2',
+        title: 'Live Captions',
+        description: 'Real-time AI-powered captions and translated captions for accessibility and multilingual meetings.',
+        icon: 'captions'
+      },
+      {
+        id: '3',
+        title: 'Recording & Transcription',
+        description: 'Record meetings to Google Drive with automatic transcription and searchable transcripts.',
+        icon: 'save'
+      }
+    ]
+  },
+  {
+    id: '274',
+    slug: 'mailgun',
+    name: 'Mailgun',
+    tagline: 'Email delivery service for developers with transactional and bulk email',
+    description: 'Mailgun is an email delivery platform providing APIs for sending transactional emails, marketing campaigns, and bulk email at scale. Used by developers and businesses requiring reliable email delivery with advanced features like email validation, tracking, and analytics.',
+    overview: '',
+    pricingDescription: 'Free tier with 5,000 emails/month for 3 months. Foundation at $35/month for 50,000 emails and email validation. Growth at $90/month for 250,000 emails and advanced features. Scale with custom pricing for high volume. Pricing based on email volume with additional features at higher tiers.',
+    logo: '/images/tool-logo/mailgun.webp',
+    website: 'https://mailgun.com',
+    affiliateUrl: null,
+    categories: ['communication', 'web-development'],
+    tags: [
+      'email-delivery',
+      'transactional-email',
+      'email-api',
+      'smtp',
+      'email-marketing',
+      'developer-tools',
+      'email-validation',
+      'sinch'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'developer-focused', text: 'RESTful APIs and SMTP relay designed for developer integration' },
+      { id: 'email-validation', text: 'Built-in email address validation reducing bounce rates and protecting sender reputation' },
+      { id: 'deliverability', text: 'High deliverability rates through dedicated IPs, domain authentication, and reputation management' },
+      { id: 'analytics', text: 'Detailed analytics tracking opens, clicks, bounces, and delivery events' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Email Sending API',
+        description: 'Send transactional and bulk emails through RESTful APIs with SDKs for popular languages.',
+        icon: 'mail'
+      },
+      {
+        id: '2',
+        title: 'Email Validation',
+        description: 'Validate email addresses before sending to reduce bounces and protect sender reputation.',
+        icon: 'circle-check'
+      },
+      {
+        id: '3',
+        title: 'Analytics & Tracking',
+        description: 'Track email delivery, opens, clicks, bounces, and unsubscribes with detailed analytics.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '275',
+    slug: 'mattermost',
+    name: 'Mattermost',
+    tagline: 'Open-source team messaging platform for enterprise self-hosting',
+    description: 'Mattermost is an open-source team messaging and collaboration platform designed as a self-hosted Slack alternative. Provides enterprise-grade security, data sovereignty, and extensive customization while maintaining the familiar channel-based messaging experience developers and teams expect.',
+    overview: '',
+    pricingDescription: 'Team Edition completely free and open-source for self-hosting. Professional at $10/user/month with advanced features and SSO. Enterprise with custom pricing including high availability, compliance features, and dedicated support. Cloud-hosted options available with same pricing tiers.',
+    logo: '/images/tool-logo/mattermost.webp',
+    website: 'https://mattermost.com',
+    affiliateUrl: null,
+    categories: ['communication', 'productivity'],
+    tags: [
+      'team-messaging',
+      'open-source',
+      'self-hosted',
+      'slack-alternative',
+      'enterprise',
+      'data-sovereignty',
+      'devops',
+      'chat'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'self-hosted', text: 'Deploy on your own infrastructure for complete data control and sovereignty' },
+      { id: 'open-source', text: 'Fully open-source with transparent development and no vendor lock-in' },
+      { id: 'enterprise-security', text: 'SOC 2, ISO 27001, HIPAA, and FedRAMP compliance with advanced security controls' },
+      { id: 'developer-focused', text: 'Built for technical teams with DevOps integrations and extensive API access' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Channels & Threads',
+        description: 'Organized channels with threaded conversations, mentions, and file sharing.',
+        icon: 'hash'
+      },
+      {
+        id: '2',
+        title: 'Integrations',
+        description: 'Connect with Jira, GitHub, GitLab, Jenkins, and 100+ DevOps and productivity tools.',
+        icon: 'plug'
+      },
+      {
+        id: '3',
+        title: 'Self-Hosting',
+        description: 'Deploy on your own infrastructure with complete control over data, security, and customization.',
+        icon: 'server'
+      }
+    ]
+  },
+  {
+    id: '276',
+    slug: 'postmark',
+    name: 'Postmark',
+    tagline: 'Transactional email service known for exceptional deliverability',
+    description: 'Postmark is a transactional email delivery service by ActiveCampaign known for industry-leading deliverability, fast delivery times, and exceptional customer support. Focuses exclusively on transactional email (not bulk marketing) to maintain pristine sender reputation and inbox placement.',
+    overview: '',
+    pricingDescription: 'Starts at $10/month for 10,000 emails with $1.25 per 1,000 additional emails. No free tier — all plans paid. Includes unlimited servers, message activity history, and advanced analytics. Volume discounts available for high-volume senders. Simple, transparent pricing without complex tiers.',
+    logo: '/images/tool-logo/postmark.webp',
+    website: 'https://postmarkapp.com',
+    affiliateUrl: null,
+    categories: ['communication', 'web-development'],
+    tags: [
+      'transactional-email',
+      'email-delivery',
+      'email-api',
+      'smtp',
+      'deliverability',
+      'activecampaign',
+      'developer-tools',
+      'reliable'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'deliverability', text: 'Industry-leading inbox placement through strict transactional-only policy' },
+      { id: 'fast-delivery', text: 'Average delivery time under 5 seconds for transactional emails' },
+      { id: 'exceptional-support', text: 'Legendary customer support with real humans responding quickly to issues' },
+      { id: '45-day-activity', text: '45 days of full email content retention for debugging and compliance' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Transactional Email API',
+        description: 'Send transactional emails through simple REST API with SDKs for all major languages.',
+        icon: 'mail'
+      },
+      {
+        id: '2',
+        title: 'Message Activity',
+        description: 'Full email content and delivery events retained for 45 days for debugging and auditing.',
+        icon: 'activity'
+      },
+      {
+        id: '3',
+        title: 'Templates',
+        description: 'Manage email templates with variables, layouts, and preview tools for consistent branding.',
+        icon: 'file-text'
+      }
+    ]
+  },
+  {
+    id: '277',
+    slug: 'resend',
+    name: 'Resend',
+    tagline: 'Modern email API for developers with React Email integration',
+    description: 'Resend is a modern email API platform built for developers, known for beautiful developer experience and native React Email integration. Provides transactional and marketing email through clean APIs, intuitive dashboard, and modern design-first approach.',
+    overview: '',
+    pricingDescription: 'Free tier with 3,000 emails/month and 100 emails/day limit. Pro at $20/month for 50,000 emails with advanced features. Business at custom pricing for high volume and dedicated IPs. Pay-as-you-go option at $0.50 per 1,000 emails beyond plan limits.',
+    logo: '/images/tool-logo/resend.webp',
+    website: 'https://resend.com',
+    affiliateUrl: null,
+    categories: ['communication', 'web-development'],
+    tags: [
+      'email-api',
+      'transactional-email',
+      'react-email',
+      'developer-tools',
+      'modern',
+      'email-delivery',
+      'smtp',
+      'design'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'react-email', text: 'Built by creators of React Email — native integration for building emails with React' },
+      { id: 'modern-api', text: 'Clean, modern API design with TypeScript support and excellent documentation' },
+      { id: 'beautiful-dashboard', text: 'Intuitive dashboard with real-time analytics, logs, and email previews' },
+      { id: 'generous-free-tier', text: '3,000 emails/month free forever for development and small projects' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Email API',
+        description: 'Send emails through modern REST API with SDKs for Node.js, Python, Ruby, Go, and more.',
+        icon: 'code'
+      },
+      {
+        id: '2',
+        title: 'React Email',
+        description: 'Build email templates using React components with full TypeScript support and hot reloading.',
+        icon: 'layout-template'
+      },
+      {
+        id: '3',
+        title: 'Analytics',
+        description: 'Real-time delivery analytics, event tracking, and beautiful email rendering previews.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '278',
+    slug: 'rocketchat',
+    name: 'Rocket.Chat',
+    tagline: 'Open-source communication platform with omni-channel capabilities',
+    description: 'Rocket.Chat is an open-source team communication platform providing Slack-like messaging with additional omni-channel capabilities for customer support. Offers self-hosted deployment, extensive customization, and integrations with 100+ third-party services.',
+    overview: '',
+    pricingDescription: 'Community Edition completely free and open-source for self-hosting. Pro at $7/user/month with advanced features and cloud hosting. Enterprise with custom pricing including compliance, high availability, and dedicated support. Free tier available for small teams.',
+    logo: '/images/tool-logo/rocketchat.webp',
+    website: 'https://rocket.chat',
+    affiliateUrl: null,
+    categories: ['communication', 'productivity'],
+    tags: [
+      'team-messaging',
+      'open-source',
+      'self-hosted',
+      'slack-alternative',
+      'omni-channel',
+      'customer-support',
+      'chat',
+      'collaboration'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'omni-channel', text: 'Unified inbox combining team chat, live chat, email, and social media messaging' },
+      { id: 'open-source', text: 'Fully open-source with active community and transparent development' },
+      { id: 'self-hosted', text: 'Deploy on your own infrastructure for complete data control and customization' },
+      { id: 'extensible', text: 'Extensive API, webhooks, and marketplace of plugins and integrations' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Team Messaging',
+        description: 'Channels, direct messages, and threaded conversations with file sharing and mentions.',
+        icon: 'message-square'
+      },
+      {
+        id: '2',
+        title: 'Omni-Channel',
+        description: 'Unified inbox handling customer conversations from website, email, WhatsApp, and social media.',
+        icon: 'inbox'
+      },
+      {
+        id: '3',
+        title: 'Video Conferencing',
+        description: 'Built-in audio and video calls with screen sharing and Jitsi integration.',
+        icon: 'video'
+      }
+    ]
+  },
+  {
+    id: '279',
+    slug: 'signal',
+    name: 'Signal',
+    tagline: 'Private messaging app with state-of-the-art end-to-end encryption',
+    description: 'Signal is a non-profit private messaging platform providing state-of-the-art end-to-end encryption for messages, calls, and video chats. Open-source protocol used by journalists, activists, privacy advocates, and anyone prioritizing communication privacy and security.',
+    overview: '',
+    pricingDescription: 'Completely free forever with no paid tiers, ads, or data collection. Funded through donations and grants as a 501(c)(3) non-profit organization. No premium features, no subscriptions, no tracking — privacy-focused messaging accessible to everyone.',
+    logo: '/images/tool-logo/signal.webp',
+    website: 'https://signal.org',
+    affiliateUrl: null,
+    categories: ['communication', 'security'],
+    tags: [
+      'encrypted-messaging',
+      'privacy',
+      'security',
+      'e2e-encryption',
+      'open-source',
+      'non-profit',
+      'secure-communication',
+      'privacy-first'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'e2e-encryption', text: 'State-of-the-art end-to-end encryption for all messages, calls, and media' },
+      { id: 'open-protocol', text: 'Open-source Signal Protocol used as encryption standard across the industry' },
+      { id: 'non-profit', text: 'Non-profit organization funded by donations — no ads, no tracking, no investors' },
+      { id: 'minimal-metadata', text: 'Collects virtually no metadata about users or their communications' }
+    ],
+    platforms: ['ios', 'android', 'windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Encrypted Messaging',
+        description: 'Send text messages, photos, videos, and files with end-to-end encryption by default.',
+        icon: 'lock'
+      },
+      {
+        id: '2',
+        title: 'Voice & Video Calls',
+        description: 'Make encrypted voice and video calls with crystal-clear quality and no metadata collection.',
+        icon: 'phone'
+      },
+      {
+        id: '3',
+        title: 'Disappearing Messages',
+        description: 'Set messages to automatically disappear after viewing for additional privacy protection.',
+        icon: 'clock'
+      }
+    ]
+  },
+  {
+    id: '280',
+    slug: 'skype',
+    name: 'Skype',
+    tagline: 'Classic video calling platform for personal and business communication',
+    description: 'Skype is Microsoft\'s long-standing video calling and messaging platform enabling voice calls, video chats, and instant messaging across devices. Provides free calls between Skype users and affordable international calling to phone numbers worldwide through Skype Credit.',
+    overview: '',
+    pricingDescription: 'Free for Skype-to-Skype calls, messaging, and video chats. Skype Credit from $5 for calling phone numbers worldwide. Subscriptions from $2.99/month for unlimited calling to specific countries. Skype Numbers for receiving calls from regular phones. Microsoft 365 Personal/Family includes Skype minutes.',
+    logo: '/images/tool-logo/skype.webp',
+    website: 'https://skype.com',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'video-calling',
+      'voip',
+      'messaging',
+      'microsoft',
+      'international-calls',
+      'personal',
+      'video-chat',
+      'calling'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'global-reach', text: 'Call phone numbers in 200+ countries at affordable rates through Skype Credit' },
+      { id: 'free-skype-calls', text: 'Unlimited free video and voice calls between Skype users worldwide' },
+      { id: 'skype-numbers', text: 'Get local phone numbers in 25+ countries for receiving regular phone calls' },
+      { id: 'cross-platform', text: 'Available on Windows, Mac, Linux, iOS, Android, and web browsers' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Video Calls',
+        description: 'HD video calls with up to 100 participants, screen sharing, and call recording.',
+        icon: 'video'
+      },
+      {
+        id: '2',
+        title: 'International Calling',
+        description: 'Call regular phone numbers worldwide with affordable per-minute rates or unlimited subscriptions.',
+        icon: 'phone'
+      },
+      {
+        id: '3',
+        title: 'Instant Messaging',
+        description: 'Text messaging with file sharing, voice messages, and real-time translation in 100+ languages.',
+        icon: 'message-square'
+      }
+    ]
+  },
+  {
+    id: '281',
+    slug: 'slack',
+    name: 'Slack',
+    tagline: 'The leading team messaging platform for modern workplaces',
+    description: 'Slack is the industry-leading team messaging and collaboration platform that has become the default communication tool for millions of organizations. Provides organized channels, direct messages, extensive integrations, and workflow automation for teams of all sizes.',
+    overview: '',
+    pricingDescription: 'Free tier with 90-day message history and 10 app integrations. Pro at $8.75/user/month with unlimited history and integrations. Business+ at $12.50/user/month with SSO, compliance exports, and 99.99% SLA. Enterprise Grid with custom pricing for advanced security and multi-workspace management.',
+    logo: '/images/tool-logo/slack.webp',
+    website: 'https://slack.com',
+    affiliateUrl: null,
+    categories: ['communication', 'productivity'],
+    tags: [
+      'team-messaging',
+      'collaboration',
+      'channels',
+      'integrations',
+      'workplace',
+      'salesforce',
+      'workflow',
+      'chat'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'channel-organization', text: 'Organized channels by project, team, or topic keeping conversations structured' },
+      { id: 'integrations', text: '2,600+ app integrations connecting Slack with virtually every business tool' },
+      { id: 'workflow-builder', text: 'No-code workflow automation for approvals, onboarding, and repetitive tasks' },
+      { id: 'huddles', text: 'Instant audio conversations for quick discussions without scheduling meetings' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Channels',
+        description: 'Organized conversations by topic, project, or team with public and private options.',
+        icon: 'hash'
+      },
+      {
+        id: '2',
+        title: 'Huddles',
+        description: 'Instant audio conversations dropping in and out naturally without formal calls.',
+        icon: 'mic'
+      },
+      {
+        id: '3',
+        title: 'Workflow Builder',
+        description: 'Create automated workflows for approvals, requests, and onboarding without code.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '282',
+    slug: 'slackconnect',
+    name: 'Slack Connect',
+    tagline: 'Secure external collaboration extending Slack beyond organization boundaries',
+    description: 'Slack Connect enables organizations to collaborate securely with external partners, clients, vendors, and agencies through shared Slack channels. Extends Slack\'s internal collaboration to external stakeholders while maintaining enterprise security and compliance controls.',
+    overview: '',
+    pricingDescription: 'Included with Slack paid plans (starting at $8.75/user/month). Requires paid Slack subscription for all participating organizations. No additional cost beyond standard Slack licensing. Enterprise Grid provides advanced Connect features with granular controls.',
+    logo: '/images/tool-logo/slackconnect.webp',
+    website: 'https://slack.com/connect',
+    affiliateUrl: null,
+    categories: ['communication', 'productivity'],
+    tags: [
+      'external-collaboration',
+      'slack',
+      'partnerships',
+      'client-communication',
+      'b2b',
+      'secure-collaboration',
+      'shared-channels',
+      'enterprise'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'shared-channels', text: 'Collaborate with external organizations in shared Slack channels with unified experience' },
+      { id: 'enterprise-security', text: 'Maintain security controls, compliance, and data governance across organization boundaries' },
+      { id: 'replaces-email', text: 'Replace lengthy email chains with real-time channel-based conversations' },
+      { id: 'partner-ecosystem', text: 'Connect with millions of organizations already using Slack Connect' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Shared Channels',
+        description: 'Create channels shared between organizations with unified Slack experience for all participants.',
+        icon: 'share-2'
+      },
+      {
+        id: '2',
+        title: 'Security Controls',
+        description: 'Granular permissions controlling what external users can see, share, and access.',
+        icon: 'shield'
+      },
+      {
+        id: '3',
+        title: 'Compliance',
+        description: 'Maintain data governance, retention policies, and compliance exports across shared channels.',
+        icon: 'file-check'
+      }
+    ]
+  },
+  {
+    id: '283',
+    slug: 'telegram',
+    name: 'Telegram',
+    tagline: 'Cloud-based messaging platform with channels, bots, and large groups',
+    description: 'Telegram is a cloud-based messaging platform known for speed, security, and unique features like channels supporting unlimited subscribers, large groups up to 200,000 members, powerful bots, and file sharing up to 2GB. Popular for both personal messaging and community building.',
+    overview: '',
+    pricingDescription: 'Completely free with unlimited messages, groups, and channels. Telegram Premium at $4.99/month for enhanced features including larger file uploads, faster downloads, exclusive stickers, and profile customization. Premium optional — core functionality remains free forever.',
+    logo: '/images/tool-logo/telegram.webp',
+    website: 'https://telegram.org',
+    affiliateUrl: null,
+    categories: ['communication', 'community'],
+    tags: [
+      'messaging',
+      'channels',
+      'groups',
+      'bots',
+      'cloud-messaging',
+      'encryption',
+      'social',
+      'community'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'unlimited-channels', text: 'Broadcast channels supporting unlimited subscribers for content distribution' },
+      { id: 'massive-groups', text: 'Groups supporting up to 200,000 members with advanced moderation tools' },
+      { id: 'powerful-bots', text: 'Extensive bot platform enabling custom automation, games, and services' },
+      { id: 'large-file-sharing', text: 'Share files up to 2GB each with no limits on total cloud storage' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Channels',
+        description: 'Broadcast messages to unlimited subscribers with analytics, comments, and reaction features.',
+        icon: 'megaphone'
+      },
+      {
+        id: '2',
+        title: 'Groups',
+        description: 'Large groups up to 200,000 members with admin tools, polls, and topic organization.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Bot Platform',
+        description: 'Build custom bots using Bot API for automation, payments, mini-apps, and services.',
+        icon: 'bot'
+      }
+    ]
+  },
+  {
+    id: '284',
+    slug: 'twilio',
+    name: 'Twilio',
+    tagline: 'Cloud communications platform for building SMS, voice, and video applications',
+    description: 'Twilio is the leading cloud communications platform (CPaaS) providing APIs for building SMS, voice calls, video, email, and authentication into applications. Powers communications for millions of businesses from startups to Fortune 500 companies through developer-friendly APIs.',
+    overview: '',
+    pricingDescription: 'Pay-as-you-go pricing across all products. SMS from $0.0079/message in US. Voice calls from $0.013/minute. Video at $0.004/participant/minute. Email through SendGrid starting at $19.95/month. Free trial credits ($15) for testing. No monthly minimums or contracts.',
+    logo: '/images/tool-logo/twilio.webp',
+    website: 'https://twilio.com',
+    affiliateUrl: null,
+    categories: ['communication', 'web-development'],
+    tags: [
+      'cpaas',
+      'sms-api',
+      'voice-api',
+      'video-api',
+      'communications',
+      'developer-tools',
+      'api',
+      'authentication'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'communications-apis', text: 'APIs for SMS, voice, video, email, and authentication in one platform' },
+      { id: 'global-reach', text: 'Communications infrastructure in 180+ countries with local phone numbers' },
+      { id: 'developer-first', text: 'Developer-friendly APIs with SDKs for every major programming language' },
+      { id: 'scale', text: 'Powers communications for millions of businesses from startups to enterprises' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'SMS & Messaging',
+        description: 'Send and receive SMS, MMS, WhatsApp, and other messaging through simple APIs.',
+        icon: 'message-square'
+      },
+      {
+        id: '2',
+        title: 'Voice & Video',
+        description: 'Build voice calls and video applications with programmable infrastructure.',
+        icon: 'phone'
+      },
+      {
+        id: '3',
+        title: 'Verify',
+        description: 'Two-factor authentication and phone verification through SMS, voice, email, and WhatsApp.',
+        icon: 'shield'
+      }
+    ]
+  },
+  {
+    id: '285',
+    slug: 'vonage',
+    name: 'Vonage',
+    tagline: 'Cloud communications platform providing voice, video, and messaging APIs',
+    description: 'Vonage (now part of Ericsson) is a cloud communications platform providing APIs and SDKs for embedding voice, video, SMS, and messaging capabilities into applications. Serves businesses and developers needing programmable communications with global reach and enterprise reliability.',
+    overview: '',
+    pricingDescription: 'Pay-as-you-go pricing across products. SMS from $0.0068/message. Voice from $0.007/minute. Video at $0.004/minute. Number rental from $1/month. Free trial credits available for testing. Volume discounts for high usage. No monthly minimums required.',
+    logo: '/images/tool-logo/vonage.webp',
+    website: 'https://vonage.com',
+    affiliateUrl: null,
+    categories: ['communication', 'web-development'],
+    tags: [
+      'cpaas',
+      'communications-api',
+      'voice-api',
+      'sms-api',
+      'video-api',
+      'developer-tools',
+      'ericsson',
+      'global-reach'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'unified-apis', text: 'Voice, video, SMS, and messaging APIs in single platform with consistent interface' },
+      { id: 'global-infrastructure', text: 'Communications infrastructure spanning 190+ countries with local compliance' },
+      { id: 'enterprise-grade', text: 'Carrier-grade reliability with 99.999% uptime SLA for mission-critical applications' },
+      { id: 'flexible-deployment', text: 'APIs, SDKs, and low-code options accommodating various technical capabilities' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Voice & Video APIs',
+        description: 'Programmatic voice calls and video sessions with recording, transcription, and conferencing.',
+        icon: 'phone'
+      },
+      {
+        id: '2',
+        title: 'SMS & Messaging',
+        description: 'Send SMS, MMS, and chat messages through WhatsApp, Viber, and Facebook Messenger.',
+        icon: 'message-square'
+      },
+      {
+        id: '3',
+        title: 'Number Management',
+        description: 'Provision and manage phone numbers globally with local, toll-free, and mobile options.',
+        icon: 'hash'
+      }
+    ]
+  },
+  {
+    id: '286',
+    slug: 'webex',
+    name: 'Webex',
+    tagline: 'Cisco\'s enterprise collaboration platform with meetings, calling, and messaging',
+    description: 'Webex by Cisco is a comprehensive enterprise collaboration platform providing video meetings, team messaging, calling, and event hosting. Known for enterprise security, reliability, and advanced features serving large organizations with complex communication needs.',
+    overview: '',
+    pricingDescription: 'Free tier with 100 participants and 40-minute limit. Meet at $14.50/host/month for unlimited meetings. Call at $17/host/month adding enterprise calling. Suite at $25/host/month combining meetings, calling, and messaging. Enterprise plans with custom pricing.',
+    logo: '/images/tool-logo/webex.webp',
+    website: 'https://webex.com',
+    affiliateUrl: null,
+    categories: ['communication', 'productivity'],
+    tags: [
+      'video-conferencing',
+      'enterprise',
+      'cisco',
+      'meetings',
+      'calling',
+      'messaging',
+      'collaboration',
+      'webinars'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'cisco-backing', text: 'Enterprise-grade security and reliability backed by Cisco\'s networking expertise' },
+      { id: 'unified-platform', text: 'Meetings, calling, messaging, and events in single integrated platform' },
+      { id: 'ai-assistant', text: 'Webex AI Assistant providing meeting summaries, action items, and real-time translation' },
+      { id: 'hardware-integration', text: 'Deep integration with Cisco room systems, phones, and collaboration devices' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Video Meetings',
+        description: 'HD video conferencing with AI-powered noise removal, transcription, and real-time translation.',
+        icon: 'video'
+      },
+      {
+        id: '2',
+        title: 'Team Messaging',
+        description: 'Persistent team spaces with channels, file sharing, and integrated apps.',
+        icon: 'message-square'
+      },
+      {
+        id: '3',
+        title: 'Enterprise Calling',
+        description: 'Cloud calling with PSTN integration, call routing, and contact center capabilities.',
+        icon: 'phone'
+      }
+    ]
+  },
+  {
+    id: '287',
+    slug: 'whatsappbusiness',
+    name: 'WhatsApp Business',
+    tagline: 'Business messaging platform reaching 2B+ users with end-to-end encryption',
+    description: 'WhatsApp Business enables companies to communicate with customers through the world\'s most popular messaging app. Provides business profiles, automated responses, catalog features, and WhatsApp Business API for enterprise-scale customer communication with end-to-end encryption.',
+    overview: '',
+    pricingDescription: 'WhatsApp Business App completely free for small businesses. WhatsApp Business API pricing based on conversation type — marketing conversations from $0.0250, utility from $0.0050, authentication from $0.0135, service free for first 1,000/month. Pricing varies by country.',
+    logo: '/images/tool-logo/whatsappbusiness.webp',
+    website: 'https://business.whatsapp.com',
+    affiliateUrl: null,
+    categories: ['communication', 'marketing'],
+    tags: [
+      'business-messaging',
+      'customer-communication',
+      'whatsapp',
+      'meta',
+      'e2e-encryption',
+      'customer-support',
+      'marketing',
+      'mobile-first'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'massive-reach', text: 'Connect with 2+ billion WhatsApp users worldwide through their preferred messaging app' },
+      { id: 'e2e-encryption', text: 'End-to-end encryption protecting all business-customer conversations by default' },
+      { id: 'business-features', text: 'Business profiles, catalogs, automated responses, and quick replies for efficient communication' },
+      { id: 'api-access', text: 'WhatsApp Business API enabling enterprise-scale automation and integration' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Business Profiles',
+        description: 'Professional business profiles with address, description, email, website, and business hours.',
+        icon: 'briefcase'
+      },
+      {
+        id: '2',
+        title: 'Catalog',
+        description: 'Showcase products and services with images, descriptions, and prices directly in chat.',
+        icon: 'shopping-bag'
+      },
+      {
+        id: '3',
+        title: 'Automated Messages',
+        description: 'Greeting messages, away messages, and quick replies for efficient customer communication.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '288',
+    slug: 'whereby',
+    name: 'Whereby',
+    tagline: 'Simple browser-based video meetings without downloads or accounts',
+    description: 'Whereby provides effortless browser-based video meetings where participants join by clicking links — no downloads, installations, or account creation required. Known for simplicity, beautiful design, and embedded video capabilities for websites and applications.',
+    overview: '',
+    pricingDescription: 'Free tier with 45-minute limit and 100 participants. Pro at $9.99/month for unlimited meeting duration and recording. Business at $19.99/month adding branding, analytics, and integrations. Embedded pricing from $49/month for website integration. Annual billing available.',
+    logo: '/images/tool-logo/whereby.webp',
+    website: 'https://whereby.com',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'video-conferencing',
+      'browser-based',
+      'simple',
+      'no-download',
+      'embedded-video',
+      'meetings',
+      'webinars',
+      'collaboration'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'no-download', text: 'Participants join meetings by clicking links — no software installation or accounts required' },
+      { id: 'browser-native', text: 'Complete meeting experience works directly in Chrome, Firefox, Safari, and Edge' },
+      { id: 'embedded-video', text: 'Embed Whereby video rooms directly into websites and applications' },
+      { id: 'beautiful-design', text: 'Clean, modern interface prioritizing simplicity and ease of use' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Browser Meetings',
+        description: 'Full-featured video meetings running entirely in web browsers without downloads.',
+        icon: 'video'
+      },
+      {
+        id: '2',
+        title: 'Embedded Video',
+        description: 'Embed video meeting rooms directly into websites using iframe or SDK integration.',
+        icon: 'code'
+      },
+      {
+        id: '3',
+        title: 'Room Customization',
+        description: 'Customize meeting rooms with branding, layouts, and pre-configured settings.',
+        icon: 'palette'
+      }
+    ]
+  },
+  {
+    id: '289',
+    slug: 'microsoftteams',
+    name: 'Microsoft Teams',
+    tagline: 'Microsoft\'s unified collaboration platform combining chat, meetings, and apps',
+    description: 'Microsoft Teams is Microsoft\'s comprehensive collaboration platform combining team chat, video meetings, file sharing, and application integration. Deep integration with Microsoft 365 makes it the natural collaboration hub for organizations using Microsoft\'s productivity ecosystem.',
+    overview: '',
+    pricingDescription: 'Free tier with 60-minute meetings and 100 participants. Included with Microsoft 365 subscriptions (starting at $6/user/month) providing unlimited meetings, 30-hour duration, and 1TB storage. Teams Premium at $10/user/month adding advanced AI and security features. Enterprise with custom pricing.',
+    logo: '/images/tool-logo/microsoftteams.webp',
+    website: 'https://microsoft.com/teams',
+    affiliateUrl: null,
+    categories: ['communication', 'productivity'],
+    tags: [
+      'team-collaboration',
+      'microsoft-365',
+      'video-meetings',
+      'chat',
+      'enterprise',
+      'microsoft',
+      'workplace',
+      'integration'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'microsoft-integration', text: 'Native integration with Office apps, SharePoint, OneDrive, and Microsoft 365 ecosystem' },
+      { id: 'unified-platform', text: 'Chat, meetings, calling, and collaboration in single application' },
+      { id: 'copilot-ai', text: 'Microsoft Copilot providing AI-powered meeting summaries, action items, and insights' },
+      { id: 'enterprise-scale', text: 'Supports organizations from small teams to hundreds of thousands of users' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Team Channels',
+        description: 'Organized channels for projects, departments, and topics with threaded conversations.',
+        icon: 'hash'
+      },
+      {
+        id: '2',
+        title: 'Video Meetings',
+        description: 'HD video meetings with screen sharing, recording, live captions, and breakout rooms.',
+        icon: 'video'
+      },
+      {
+        id: '3',
+        title: 'File Collaboration',
+        description: 'Real-time document collaboration with Office apps integrated directly into conversations.',
+        icon: 'file-text'
+      }
+    ]
+  },
+  {
+    id: '290',
+    slug: 'zoom',
+    name: 'Zoom',
+    tagline: 'Leading video communications platform for meetings, webinars, and events',
+    description: 'Zoom is the world\'s leading video communications platform, known for reliable video quality, ease of use, and scalability from small meetings to massive virtual events. Serves businesses, education, healthcare, and individuals with comprehensive video solutions.',
+    overview: '',
+    pricingDescription: 'Free tier with 40-minute limit and 100 participants. Pro at $13.33/host/month for unlimited meetings. Business at $21.99/host/month with admin controls and SSO. Enterprise with custom pricing for large organizations. Add-ons available for webinars, rooms, and phone.',
+    logo: '/images/tool-logo/zoom.webp',
+    website: 'https://zoom.us',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'video-conferencing',
+      'meetings',
+      'webinars',
+      'virtual-events',
+      'enterprise',
+      'education',
+      'healthcare',
+      'collaboration'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'reliable-quality', text: 'Industry-leading video and audio quality with adaptive bandwidth optimization' },
+      { id: 'ease-of-use', text: 'Intuitive interface enabling anyone to host or join meetings with minimal friction' },
+      { id: 'scalability', text: 'Scales from 1:1 calls to webinars with 50,000+ participants and virtual events' },
+      { id: 'ecosystem', text: 'Extensive app marketplace and integrations with business tools and hardware' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Video Meetings',
+        description: 'HD video meetings with screen sharing, virtual backgrounds, and breakout rooms.',
+        icon: 'video'
+      },
+      {
+        id: '2',
+        title: 'Zoom Webinars',
+        description: 'Large-scale webinars with registration, Q&A, polling, and attendee management.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Zoom Phone',
+        description: 'Cloud phone system with calling, voicemail, and contact center capabilities.',
+        icon: 'phone'
+      }
+    ]
+  },
+  {
+    id: '291',
+    slug: 'loom',
+    name: 'Loom',
+    tagline: 'Video messaging platform for async communication and screen recording',
+    description: 'Loom is a video messaging platform enabling quick screen and camera recordings for asynchronous communication. Replaces meetings and lengthy emails with short video messages that teams can watch anytime, anywhere. Used by thousands of companies for remote collaboration.',
+    overview: '',
+    pricingDescription: 'Free tier with 25 videos per person and 5-minute limit. Starter at $12.50/creator/month for unlimited videos and 4K recording. Business at $20/creator/month adding analytics, privacy controls, and integrations. Enterprise with custom pricing for advanced security and admin features.',
+    logo: '/images/tool-logo/loom.webp',
+    website: 'https://loom.com',
+    affiliateUrl: null,
+    categories: ['communication', 'productivity', 'media'],
+    tags: [
+      'video-messaging',
+      'async-communication',
+      'screen-recording',
+      'remote-work',
+      'productivity',
+      'collaboration',
+      'documentation',
+      'tutorials'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'async-video', text: 'Record and share video messages team members watch on their schedule' },
+      { id: 'easy-recording', text: 'One-click screen and camera recording with instant sharing via link' },
+      { id: 'engagement-analytics', text: 'See who watched videos, for how long, and their reactions' },
+      { id: 'ai-features', text: 'AI-generated titles, summaries, chapters, and transcripts for all videos' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Screen Recording',
+        description: 'Record screen, camera, or both with one click and share instantly via link.',
+        icon: 'monitor'
+      },
+      {
+        id: '2',
+        title: 'Video Library',
+        description: 'Organized video library with search, folders, and team sharing capabilities.',
+        icon: 'folder'
+      },
+      {
+        id: '3',
+        title: 'AI Assistance',
+        description: 'Automatic titles, summaries, chapters, and transcripts powered by AI.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '292',
+    slug: 'audacity',
+    name: 'Audacity',
+    tagline: 'Free open-source audio editor and recorder',
+    description: 'Audacity is the world\'s most popular free, open-source audio editing software for recording, editing, and mixing audio. Used by podcasters, musicians, educators, and content creators for over 20 years as the accessible alternative to professional audio workstations.',
+    overview: '',
+    pricingDescription: 'Completely free and open-source under GPL license. No paid tiers, no subscriptions, no feature limitations. Available for Windows, Mac, and Linux. Optional cloud save features available through Muse Group ecosystem.',
+    logo: '/images/tool-logo/audacity.webp',
+    website: 'https://audacityteam.org',
+    affiliateUrl: null,
+    categories: ['media'],
+    tags: [
+      'audio-editing',
+      'recording',
+      'podcast',
+      'open-source',
+      'free',
+      'mixing',
+      'music',
+      'audio-production'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'completely-free', text: '100% free and open-source with no paid tiers or feature limitations' },
+      { id: 'cross-platform', text: 'Available for Windows, Mac, and Linux with consistent experience' },
+      { id: 'extensible', text: 'Extensive plugin ecosystem with VST, LV2, and Nyquist support' },
+      { id: 'proven-reliable', text: 'Over 20 years of development with millions of users worldwide' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Multi-Track Editing',
+        description: 'Record and edit multiple audio tracks with precise cutting, copying, and mixing capabilities.',
+        icon: 'music'
+      },
+      {
+        id: '2',
+        title: 'Effects & Processing',
+        description: 'Apply effects including noise reduction, equalization, compression, and reverb to audio.',
+        icon: 'sliders-vertical'
+      },
+      {
+        id: '3',
+        title: 'Format Support',
+        description: 'Import and export all major audio formats including WAV, MP3, FLAC, OGG, and AIFF.',
+        icon: 'file-audio'
+      }
+    ]
+  },
+  {
+    id: '293',
+    slug: 'camtasia',
+    name: 'Camtasia',
+    tagline: 'Screen recording and video editing software for professional tutorials',
+    description: 'Camtasia by TechSmith is the leading screen recording and video editing software for creating professional tutorials, training videos, and demonstrations. Combines powerful screen capture with intuitive video editing tools and extensive annotation features.',
+    overview: '',
+    pricingDescription: 'Individual license at $179.99 one-time purchase or $59.99/year subscription. Business at $349.99 one-time or $99.99/year per user. Education pricing available. Includes Camtasia for both Windows and Mac. 30-day free trial available.',
+    logo: '/images/tool-logo/camtasia.webp',
+    website: 'https://techsmith.com/camtasia',
+    affiliateUrl: null,
+    categories: ['media', 'productivity'],
+    tags: [
+      'screen-recording',
+      'video-editing',
+      'tutorials',
+      'training',
+      'demonstrations',
+      'techsmith',
+      'elearning',
+      'education'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'screen-recording', text: 'Professional screen recording with webcam, system audio, and microphone capture' },
+      { id: 'annotations', text: 'Extensive annotation tools including callouts, arrows, highlights, and sketches' },
+      { id: 'templates', text: 'Pre-built templates and assets for consistent, professional-looking videos' },
+      { id: 'quiz-creation', text: 'Built-in quiz and interactive elements for training and education videos' }
+    ],
+    platforms: ['windows', 'mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Screen Recording',
+        description: 'Capture entire screen, specific regions, or windows with audio, webcam, and cursor effects.',
+        icon: 'monitor'
+      },
+      {
+        id: '2',
+        title: 'Video Editing',
+        description: 'Timeline-based editing with transitions, effects, animations, and audio mixing.',
+        icon: 'film'
+      },
+      {
+        id: '3',
+        title: 'Annotations',
+        description: 'Add callouts, arrows, highlights, sketches, and text overlays to emphasize key points.',
+        icon: 'square-pen'
+      }
+    ]
+  },
+  {
+    id: '294',
+    slug: 'capcut',
+    name: 'CapCut',
+    tagline: 'Free video editor by ByteDance for social media content creation',
+    description: 'CapCut is a free, feature-rich video editor by ByteDance (creators of TikTok) designed for creating engaging social media content. Available on mobile and desktop with powerful editing tools, effects, templates, and AI-powered features optimized for short-form video.',
+    overview: '',
+    pricingDescription: 'Completely free with optional Pro subscription at $7.99/month or $74.99/year for premium features, effects, and cloud storage. Free version includes full editing capabilities without watermarks. Available on iOS, Android, Windows, Mac, and web.',
+    logo: '/images/tool-logo/capcut.webp',
+    website: 'https://capcut.com',
+    affiliateUrl: null,
+    categories: ['media', 'design'],
+    tags: [
+      'video-editing',
+      'social-media',
+      'tiktok',
+      'bytedance',
+      'free',
+      'mobile-editing',
+      'short-form',
+      'effects'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'completely-free', text: 'Full-featured video editing free without watermarks on exported videos' },
+      { id: 'cross-platform', text: 'Available on iOS, Android, Windows, Mac, and web with project sync' },
+      { id: 'ai-features', text: 'AI-powered tools including auto-captions, background removal, and style transfer' },
+      { id: 'templates', text: 'Thousands of trending templates optimized for TikTok, Instagram Reels, and YouTube Shorts' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Video Editing',
+        description: 'Multi-track timeline editing with cutting, splitting, speed control, and transitions.',
+        icon: 'film'
+      },
+      {
+        id: '2',
+        title: 'AI Tools',
+        description: 'Auto-captions, background removal, portrait retouching, and AI-powered effects.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'Templates',
+        description: 'Trending templates for TikTok, Instagram Reels, and YouTube Shorts with one-tap application.',
+        icon: 'layout-template'
+      }
+    ]
+  },
+  {
+    id: '295',
+    slug: 'davinciresolve',
+    name: 'DaVinci Resolve',
+    tagline: 'Professional video editing, color grading, and visual effects software',
+    description: 'DaVinci Resolve by Blackmagic Design is Hollywood-grade video editing software combining professional editing, industry-leading color grading, visual effects, and audio post-production in one application. Available in free and paid Studio versions.',
+    overview: '',
+    pricingDescription: 'Free version includes full editing, color grading, VFX, and audio with minimal limitations. Studio version at $295 one-time purchase adds advanced features including neural engine AI, multi-user collaboration, HDR grading, and additional effects. No subscription required.',
+    logo: '/images/tool-logo/davinciresolve.webp',
+    website: 'https://blackmagicdesign.com/davinciresolve',
+    affiliateUrl: null,
+    categories: ['media', 'design'],
+    tags: [
+      'video-editing',
+      'color-grading',
+      'visual-effects',
+      'professional',
+      'blackmagic',
+      'hollywood',
+      'audio-post',
+      'free'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'hollywood-grade', text: 'Used in major Hollywood films and TV shows for color grading and editing' },
+      { id: 'all-in-one', text: 'Editing, color grading, VFX, motion graphics, and audio post in single application' },
+      { id: 'free-version', text: 'Incredibly powerful free version with 95% of Studio features' },
+      { id: 'no-subscription', text: 'One-time purchase for Studio version — no recurring subscription fees' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Professional Editing',
+        description: 'Multi-track timeline editing with advanced trimming, multicam editing, and collaborative workflows.',
+        icon: 'film'
+      },
+      {
+        id: '2',
+        title: 'Color Grading',
+        description: 'Industry-leading color grading tools used in Hollywood productions with node-based workflow.',
+        icon: 'palette'
+      },
+      {
+        id: '3',
+        title: 'Fusion VFX',
+        description: 'Node-based visual effects and motion graphics compositing comparable to After Effects.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '296',
+    slug: 'ecammlive',
+    name: 'Ecamm Live',
+    tagline: 'Professional live streaming and video production for Mac',
+    description: 'Ecamm Live is professional live streaming and video production software exclusively for Mac, enabling high-quality livestreams, recordings, and video content creation. Used by content creators, businesses, and educators for professional video production.',
+    overview: '',
+    pricingDescription: 'Standard at $15/month for streaming and recording. Pro at $30/month adding advanced features, overlays, and multi-streaming. Business at $60/month with additional enterprise features. Annual billing offers 2 months free. 14-day free trial available.',
+    logo: '/images/tool-logo/ecammlive.webp',
+    website: 'https://ecamm.com',
+    affiliateUrl: null,
+    categories: ['media'],
+    tags: [
+      'live-streaming',
+      'video-production',
+      'mac',
+      'streaming',
+      'recording',
+      'content-creation',
+      'youtube',
+      'twitch'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'mac-exclusive', text: 'Purpose-built for Mac with deep system integration and optimized performance' },
+      { id: 'professional-quality', text: 'Broadcast-quality streaming and recording with advanced scene composition' },
+      { id: 'multi-platform', text: 'Stream simultaneously to YouTube, Twitch, Facebook, LinkedIn, and custom RTMP' },
+      { id: 'interviews', text: 'Built-in guest calling with high-quality audio and video for remote interviews' }
+    ],
+    platforms: ['mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Live Streaming',
+        description: 'Stream to multiple platforms simultaneously with custom scenes, overlays, and transitions.',
+        icon: 'radio'
+      },
+      {
+        id: '2',
+        title: 'Scene Building',
+        description: 'Create professional scenes with multiple cameras, screen shares, images, and graphics.',
+        icon: 'layout-freeform'
+      },
+      {
+        id: '3',
+        title: 'Guest Interviews',
+        description: 'Invite remote guests with high-quality video and audio through built-in calling system.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '297',
+    slug: 'finalcutpro',
+    name: 'Final Cut Pro',
+    tagline: 'Apple\'s professional video editing software for Mac',
+    description: 'Final Cut Pro is Apple\'s professional video editing software optimized for Mac hardware and Apple silicon. Provides magnetic timeline, advanced color grading, 360° video editing, and seamless integration with Apple ecosystem for professional video production.',
+    overview: '',
+    pricingDescription: 'One-time purchase at $299.99 with lifetime updates. No subscription required. Includes Final Cut Pro, Motion, and Compressor as optional additional purchases. 90-day free trial available. Education pricing at $199.99 for students and educators.',
+    logo: '/images/tool-logo/finalcutpro.webp',
+    website: 'https://apple.com/final-cut-pro',
+    affiliateUrl: null,
+    categories: ['media', 'design'],
+    tags: [
+      'video-editing',
+      'professional',
+      'apple',
+      'mac',
+      'magnetic-timeline',
+      'color-grading',
+      '4k',
+      'video-production'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'magnetic-timeline', text: 'Revolutionary magnetic timeline enabling flexible, non-destructive editing' },
+      { id: 'apple-optimized', text: 'Optimized for Apple silicon with industry-leading performance on Mac hardware' },
+      { id: 'one-time-purchase', text: 'Single $299.99 purchase with lifetime updates — no subscription required' },
+      { id: 'pro-workflows', text: 'Professional features including HDR, 360° video, multicam editing, and advanced color' }
+    ],
+    platforms: ['mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Magnetic Timeline',
+        description: 'Revolutionary timeline automatically adjusts clips to prevent gaps and conflicts.',
+        icon: 'film'
+      },
+      {
+        id: '2',
+        title: 'Color Grading',
+        description: 'Professional color grading with color wheels, curves, LUTs, and HDR support.',
+        icon: 'palette'
+      },
+      {
+        id: '3',
+        title: 'Motion Graphics',
+        description: 'Integration with Motion for creating custom titles, transitions, and effects.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '298',
+    slug: 'fliki',
+    name: 'Fliki',
+    tagline: 'AI video creation platform turning text into videos with AI voices',
+    description: 'Fliki is an AI-powered video creation platform that transforms text content into engaging videos with AI voices, stock media, and automatic scene generation. Enables content creators, marketers, and educators to produce videos without filming or recording.',
+    overview: '',
+    pricingDescription: 'Free tier with 5 minutes video/month and watermark. Standard at $28/month for 180 minutes and HD export. Premium at $88/month for 600 minutes and premium voices. Enterprise with custom pricing. Annual plans offer discount.',
+    logo: '/images/tool-logo/fliki.webp',
+    website: 'https://fliki.ai',
+    affiliateUrl: null,
+    categories: ['media', 'ai'],
+    tags: [
+      'ai-video',
+      'text-to-video',
+      'ai-voices',
+      'content-creation',
+      'marketing',
+      'automation',
+      'social-media',
+      'generative-ai'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'text-to-video', text: 'Transform blog posts, scripts, and text content into videos automatically' },
+      { id: 'ai-voices', text: '2000+ realistic AI voices in 75+ languages with emotion and accent control' },
+      { id: 'stock-media', text: 'Automatic scene generation with millions of stock images, videos, and music' },
+      { id: 'multi-language', text: 'Create videos in 75+ languages for global audience reach' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Text to Video',
+        description: 'Convert blog posts, scripts, and text content into videos with automatic scene generation.',
+        icon: 'file-text'
+      },
+      {
+        id: '2',
+        title: 'AI Voices',
+        description: 'Choose from 2000+ realistic AI voices in 75+ languages with natural intonation.',
+        icon: 'mic'
+      },
+      {
+        id: '3',
+        title: 'Auto Scene Creation',
+        description: 'Automatically match text to relevant stock images, videos, and background music.',
+        icon: 'image'
+      }
+    ]
+  },
+  {
+    id: '299',
+    slug: 'invideo',
+    name: 'InVideo',
+    tagline: 'AI-powered video creation platform for marketing and social media',
+    description: 'InVideo is an AI-powered video creation platform enabling marketers, content creators, and businesses to produce professional videos from templates, text prompts, and stock media. Transforms ideas into videos without technical expertise or expensive equipment.',
+    overview: '',
+    pricingDescription: 'Free tier with 40 minutes/month and watermark. Plus at $25/month for 60 minutes HD exports without watermark. Max at $60/month for unlimited exports and premium features. Business at custom pricing for teams. Annual plans offer significant discount.',
+    logo: '/images/tool-logo/invideo.webp',
+    website: 'https://invideo.io',
+    affiliateUrl: null,
+    categories: ['media', 'ai', 'marketing'],
+    tags: [
+      'ai-video',
+      'video-creation',
+      'marketing',
+      'templates',
+      'social-media',
+      'text-to-video',
+      'content-creation',
+      'automation'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'ai-video-creation', text: 'Generate videos from text prompts with AI-powered scene selection and editing' },
+      { id: 'template-library', text: '5000+ professional templates for marketing, social media, and business videos' },
+      { id: 'stock-media', text: 'Access to millions of stock images, videos, and music tracks' },
+      { id: 'brand-kits', text: 'Custom brand kits maintaining consistent visual identity across all videos' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'AI Video Generation',
+        description: 'Create videos from text descriptions with automatic scene selection, transitions, and music.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Template Library',
+        description: '5000+ customizable templates for every use case from ads to educational content.',
+        icon: 'layout-template'
+      },
+      {
+        id: '3',
+        title: 'Stock Media Library',
+        description: 'Access millions of premium stock images, videos, and music tracks included in subscription.',
+        icon: 'image'
+      }
+    ]
+  },
+  {
+    id: '300',
+    slug: 'obsstudio',
+    name: 'OBS Studio',
+    tagline: 'Free open-source software for live streaming and recording',
+    description: 'OBS Studio (Open Broadcaster Software) is the world\'s most popular free, open-source software for live streaming and video recording. Used by millions of streamers, content creators, and professionals for broadcasting to Twitch, YouTube, and other platforms.',
+    overview: '',
+    pricingDescription: 'Completely free and open-source under GPL license. No paid tiers, no subscriptions, no feature limitations. Available for Windows, Mac, and Linux. Optional donations accepted but not required.',
+    logo: '/images/tool-logo/obsstudio.webp',
+    website: 'https://obsproject.com',
+    affiliateUrl: null,
+    categories: ['media'],
+    tags: [
+      'live-streaming',
+      'recording',
+      'open-source',
+      'free',
+      'twitch',
+      'youtube',
+      'broadcasting',
+      'content-creation'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'completely-free', text: '100% free and open-source with no paid features or limitations' },
+      { id: 'professional-features', text: 'Broadcast-quality streaming with advanced scene composition and audio mixing' },
+      { id: 'extensible', text: 'Plugin ecosystem with hundreds of community-developed extensions' },
+      { id: 'cross-platform', text: 'Native support for Windows, Mac, and Linux with consistent experience' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Live Streaming',
+        description: 'Stream to Twitch, YouTube, Facebook, and custom RTMP servers with professional quality.',
+        icon: 'radio'
+      },
+      {
+        id: '2',
+        title: 'Scene Composition',
+        description: 'Build complex scenes with multiple sources, overlays, transitions, and effects.',
+        icon: 'layers'
+      },
+      {
+        id: '3',
+        title: 'Recording',
+        description: 'Record high-quality video locally with customizable encoding settings and formats.',
+        icon: 'video'
+      }
+    ]
+  },
+  {
+    id: '301',
+    slug: 'riverside',
+    name: 'Riverside',
+    tagline: 'Remote podcast and video recording platform with studio quality',
+    description: 'Riverside is a remote recording platform for podcasts, interviews, and video content that captures studio-quality audio and video locally on each participant\'s device before uploading. Eliminates internet quality issues that plague Zoom and other video conferencing tools.',
+    overview: '',
+    pricingDescription: 'Free tier with 2 hours recording/month and 720p video. Standard at $15/month for 10 hours and 1080p. Pro at $25/month for unlimited hours and 4K. Enterprise with custom pricing for teams. Annual billing offers discount.',
+    logo: '/images/tool-logo/riverside.webp',
+    website: 'https://riverside.fm',
+    affiliateUrl: null,
+    categories: ['media', 'productivity'],
+    tags: [
+      'podcast',
+      'remote-recording',
+      'interview',
+      'video-production',
+      'audio-recording',
+      'studio-quality',
+      'content-creation',
+      'collaboration'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'local-recording', text: 'Records locally on each device eliminating internet quality issues' },
+      { id: 'studio-quality', text: 'Up to 4K video and 48kHz audio for broadcast-ready content' },
+      { id: 'separate-tracks', text: 'Individual audio and video tracks for each participant for flexible editing' },
+      { id: 'ai-transcription', text: 'Automatic transcription and AI-powered editing tools included' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Local Recording',
+        description: 'Records high-quality audio and video locally on each participant\'s device before upload.',
+        icon: 'mic'
+      },
+      {
+        id: '2',
+        title: 'Multi-Track Export',
+        description: 'Export individual audio and video tracks for each participant for professional editing.',
+        icon: 'layers'
+      },
+      {
+        id: '3',
+        title: 'AI Transcription',
+        description: 'Automatic transcription with speaker identification and text-based editing capabilities.',
+        icon: 'file-text'
+      }
+    ]
+  },
+  {
+    id: '302',
+    slug: 'screenflow',
+    name: 'ScreenFlow',
+    tagline: 'Screen recording and video editing software for Mac',
+    description: 'ScreenFlow by Telestream is professional screen recording and video editing software exclusively for Mac. Combines powerful screen capture with intuitive editing tools for creating tutorials, demonstrations, and educational content.',
+    overview: '',
+    pricingDescription: 'One-time purchase at $169 for ScreenFlow license. Includes free updates within major version. Upgrade pricing available for previous version owners. 30-day free trial available. Education pricing at $99 for students and educators.',
+    logo: '/images/tool-logo/screenflow.webp',
+    website: 'https://telestream.net/screenflow',
+    affiliateUrl: null,
+    categories: ['media', 'productivity'],
+    tags: [
+      'screen-recording',
+      'video-editing',
+      'mac',
+      'tutorials',
+      'demonstrations',
+      'telestream',
+      'education',
+      'training'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'mac-optimized', text: 'Purpose-built for Mac with deep system integration and optimized performance' },
+      { id: 'comprehensive-recording', text: 'Capture screen, camera, iOS devices, and audio sources simultaneously' },
+      { id: 'intuitive-editing', text: 'Powerful yet accessible video editing with annotations, effects, and transitions' },
+      { id: 'one-time-purchase', text: 'Single purchase with no subscription required — own it forever' }
+    ],
+    platforms: ['mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Screen Recording',
+        description: 'Capture entire screen, regions, or windows with audio, camera, and iOS device recording.',
+        icon: 'monitor'
+      },
+      {
+        id: '2',
+        title: 'Video Editing',
+        description: 'Timeline-based editing with transitions, effects, annotations, and audio mixing.',
+        icon: 'film'
+      },
+      {
+        id: '3',
+        title: 'Annotations',
+        description: 'Add callouts, text, shapes, highlights, and cursor effects to emphasize key points.',
+        icon: 'square-pen'
+      }
+    ]
+  },
+  {
+    id: '303',
+    slug: 'streamyard',
+    name: 'StreamYard',
+    tagline: 'Browser-based live streaming studio for multi-platform broadcasting',
+    description: 'StreamYard is a browser-based live streaming studio enabling anyone to produce professional live streams without downloading software. Streams simultaneously to YouTube, Twitch, Facebook, LinkedIn, and other platforms from a simple web interface.',
+    overview: '',
+    pricingDescription: 'Free tier with StreamYard branding and limited features. Basic at $20/month removes branding and adds custom destinations. Professional at $39/month for multiple stream hosts and recordings. Growth at $199/month for teams and agencies. Annual billing offers discount.',
+    logo: '/images/tool-logo/streamyard.webp',
+    website: 'https://streamyard.com',
+    affiliateUrl: null,
+    categories: ['media'],
+    tags: [
+      'live-streaming',
+      'browser-based',
+      'multi-platform',
+      'youtube',
+      'twitch',
+      'facebook-live',
+      'webinars',
+      'podcast'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'browser-based', text: 'No software download required — stream directly from Chrome, Firefox, or Safari' },
+      { id: 'multi-streaming', text: 'Stream simultaneously to YouTube, Twitch, Facebook, LinkedIn, and custom RTMP' },
+      { id: 'easy-guests', text: 'Invite guests via simple links — no accounts or software installation needed' },
+      { id: 'on-screen-comments', text: 'Display viewer comments and reactions on stream for audience engagement' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Multi-Platform Streaming',
+        description: 'Broadcast simultaneously to multiple platforms including YouTube, Twitch, and Facebook.',
+        icon: 'radio'
+      },
+      {
+        id: '2',
+        title: 'Guest Management',
+        description: 'Invite up to 10 guests via browser links without accounts or software installation.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Studio Features',
+        description: 'Custom backgrounds, overlays, banners, and on-screen comments for professional streams.',
+        icon: 'layout-dashboard'
+      }
+    ]
+  },
+  {
+    id: '304',
+    slug: 'wirecast',
+    name: 'Wirecast',
+    tagline: 'Professional live video production and streaming software',
+    description: 'Wirecast by Telestream is professional live video production software for broadcast-quality streaming and recording. Used by churches, schools, businesses, and broadcasters for multi-camera productions with advanced features rivaling television studios.',
+    overview: '',
+    pricingDescription: 'Wirecast Studio at $599 one-time purchase for basic live production. Wirecast Pro at $799 one-time adding advanced features like ISO recording, 3D graphics, and NDI support. Annual maintenance available for updates and support. No subscription required.',
+    logo: '/images/tool-logo/wirecast.webp',
+    website: 'https://telestream.net/wirecast',
+    affiliateUrl: null,
+    categories: ['media'],
+    tags: [
+      'live-production',
+      'streaming',
+      'professional',
+      'broadcasting',
+      'telestream',
+      'multi-camera',
+      'church',
+      'enterprise'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'broadcast-quality', text: 'Professional live production capabilities rivaling television broadcast systems' },
+      { id: 'multi-camera', text: 'Switch between unlimited cameras, video sources, and media with professional transitions' },
+      { id: 'advanced-features', text: 'ISO recording, 3D graphics, NDI support, and professional audio mixing' },
+      { id: 'one-time-purchase', text: 'Perpetual license with no subscription — own your production software forever' }
+    ],
+    platforms: ['windows', 'mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Live Production',
+        description: 'Professional multi-camera switching with transitions, effects, and real-time compositing.',
+        icon: 'video'
+      },
+      {
+        id: '2',
+        title: 'Streaming & Recording',
+        description: 'Stream to multiple destinations simultaneously while recording ISO and program outputs.',
+        icon: 'radio'
+      },
+      {
+        id: '3',
+        title: 'Graphics & Titles',
+        description: 'Professional lower thirds, titles, and 3D graphics with animation capabilities.',
+        icon: 'type'
+      }
+    ]
+  },
+  {
+    id: '305',
+    slug: 'discourse',
+    name: 'Discourse',
+    tagline: 'Modern open-source forum platform for community discussions',
+    description: 'Discourse is the leading modern forum platform built for the next decade of the internet. Provides civilized community discussions with trust levels, real-time notifications, and mobile-first design. Used by thousands of communities from open-source projects to enterprise support forums.',
+    overview: '',
+    pricingDescription: 'Self-hosted Community Edition completely free and open-source. Basic hosting at $50/month for 50K monthly pageviews. Standard at $100/month for 250K pageviews. Enterprise with custom pricing for high-volume communities. All hosted plans include unlimited users and admins.',
+    logo: '/images/tool-logo/discourse.webp',
+    website: 'https://discourse.org',
+    affiliateUrl: null,
+    categories: ['community', 'communication'],
+    tags: [
+      'forum',
+      'community-platform',
+      'open-source',
+      'discussions',
+      'self-hosted',
+      'modern-forum',
+      'support',
+      'q-and-a'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'modern-forum', text: 'Modern forum design replacing traditional bulletin boards with real-time updates' },
+      { id: 'trust-levels', text: 'Automatic trust level system rewarding active community members with privileges' },
+      { id: 'open-source', text: 'Fully open-source with active community and transparent development' },
+      { id: 'mobile-first', text: 'Responsive design optimized for mobile devices from the ground up' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Real-Time Discussions',
+        description: 'Live-updating discussions with infinite scrolling, mentions, and instant notifications.',
+        icon: 'message-circle'
+      },
+      {
+        id: '2',
+        title: 'Trust Levels',
+        description: 'Automatic permission system rewarding active members with increased privileges.',
+        icon: 'shield'
+      },
+      {
+        id: '3',
+        title: 'Rich Media',
+        description: 'Support for images, videos, code blocks, LaTeX, and embedded content in discussions.',
+        icon: 'image'
+      }
+    ]
+  },
+  {
+    id: '306',
+    slug: 'geneva',
+    name: 'Geneva',
+    tagline: 'Community platform for creators combining chat, forums, and video',
+    description: 'Geneva is a modern community platform designed for creators, combining real-time chat, traditional forums, live video, and content sharing in one unified space. Built for communities that want deeper engagement than Discord or social media can provide.',
+    overview: '',
+    pricingDescription: 'Free for communities under 1,000 members. Pro at $10/month for up to 5,000 members with advanced features. Business at $50/month for up to 25,000 members. Enterprise with custom pricing for large communities. All plans include unlimited posts and messages.',
+    logo: '/images/tool-logo/geneva.webp',
+    website: 'https://geneva.chat',
+    affiliateUrl: null,
+    categories: ['community', 'communication'],
+    tags: [
+      'community-platform',
+      'creators',
+      'chat',
+      'forums',
+      'video',
+      'social',
+      'engagement',
+      'content-sharing'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'unified-experience', text: 'Chat, forums, video, and content in one platform without switching tools' },
+      { id: 'creator-focused', text: 'Built specifically for creators, brands, and community builders' },
+      { id: 'live-video', text: 'Built-in live streaming and video calls for real-time community interaction' },
+      { id: 'content-libraries', text: 'Organized content libraries for courses, resources, and exclusive content' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Chat Channels',
+        description: 'Real-time chat channels with threads, reactions, and rich media sharing.',
+        icon: 'message-square'
+      },
+      {
+        id: '2',
+        title: 'Forum Discussions',
+        description: 'Traditional forum threads for long-form discussions and organized content.',
+        icon: 'message-circle'
+      },
+      {
+        id: '3',
+        title: 'Live Video',
+        description: 'Built-in live streaming and video calls for real-time community gatherings.',
+        icon: 'video'
+      }
+    ]
+  },
+  {
+    id: '307',
+    slug: 'ghost',
+    name: 'Ghost',
+    tagline: 'Professional publishing platform for independent creators and media',
+    description: 'Ghost is a powerful open-source publishing platform designed for professional publishers, bloggers, and media companies. Provides modern content management, built-in membership subscriptions, newsletters, and SEO optimization for independent media.',
+    overview: '',
+    pricingDescription: 'Self-hosted completely free and open-source. Ghost(Pro) managed hosting: Creator at $9/month for 1 staff user. Starter at $25/month for 2 users. Growth at $50/month for 5 users and 100K monthly views. Business at $199/month for unlimited users and 500K views.',
+    logo: '/images/tool-logo/ghost.webp',
+    website: 'https://ghost.org',
+    affiliateUrl: null,
+    categories: ['community', 'media'],
+    tags: [
+      'publishing',
+      'blogging',
+      'cms',
+      'newsletters',
+      'memberships',
+      'open-source',
+      'content-management',
+      'media'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'professional-publishing', text: 'Built for professional publishers with advanced content management features' },
+      { id: 'built-in-memberships', text: 'Native membership and subscription system without third-party plugins' },
+      { id: 'newsletters', text: 'Integrated email newsletters sent automatically to members and subscribers' },
+      { id: 'open-source', text: 'Fully open-source with transparent development and no vendor lock-in' }
+    ],
+    platforms: ['web', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Content Editor',
+        description: 'Modern block-based editor with rich media embedding and markdown support.',
+        icon: 'square-pen'
+      },
+      {
+        id: '2',
+        title: 'Memberships',
+        description: 'Built-in membership tiers, subscriptions, and paywalls for premium content.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Newsletters',
+        description: 'Automated email newsletters with custom templates and member segmentation.',
+        icon: 'mail'
+      }
+    ]
+  },
+  {
+    id: '308',
+    slug: 'higherlogic',
+    name: 'Higher Logic',
+    tagline: 'Enterprise community platform for customer success and engagement',
+    description: 'Higher Logic Thrive is an enterprise community platform helping organizations build engaged customer communities that drive product adoption, reduce support costs, and increase customer retention. Serves B2B companies, associations, and enterprise organizations.',
+    overview: '',
+    pricingDescription: 'Enterprise custom pricing only — requires sales engagement. Pricing based on community size, features, and implementation scope. Typical implementations range $50K-$500K+ annually. Includes implementation services, training, and dedicated customer success management.',
+    logo: '/images/tool-logo/higherlogic.webp',
+    website: 'https://higherlogic.com',
+    affiliateUrl: null,
+    categories: ['community', 'marketing'],
+    tags: [
+      'enterprise-community',
+      'customer-success',
+      'b2b',
+      'associations',
+      'engagement',
+      'knowledge-base',
+      'support',
+      'retention'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'customer-success', text: 'Designed specifically for customer communities driving product adoption and retention' },
+      { id: 'enterprise-features', text: 'Advanced security, SSO, compliance, and administrative controls for large organizations' },
+      { id: 'knowledge-sharing', text: 'Built-in knowledge base and best practice sharing reducing support ticket volume' },
+      { id: 'association-management', text: 'Specialized features for professional associations including events and directories' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Community Forums',
+        description: 'Discussion forums with Q&A, best answers, and expert identification for peer support.',
+        icon: 'message-circle'
+      },
+      {
+        id: '2',
+        title: 'Knowledge Base',
+        description: 'Searchable knowledge base with user-generated content and expert validation.',
+        icon: 'book-open'
+      },
+      {
+        id: '3',
+        title: 'Member Directory',
+        description: 'Searchable member profiles enabling networking and expertise discovery.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '309',
+    slug: 'hivebrite',
+    name: 'Hivebrite',
+    tagline: 'Community platform for alumni networks and professional organizations',
+    description: 'Hivebrite is a community management platform designed for alumni networks, professional associations, and membership organizations. Provides tools for member engagement, networking, events, fundraising, and career development in branded community environments.',
+    overview: '',
+    pricingDescription: 'Enterprise custom pricing based on organization size and requirements. Typically ranges from $15K-$100K+ annually. Includes implementation, training, dedicated support, and ongoing customer success. Pricing scales with member count and feature requirements.',
+    logo: '/images/tool-logo/hivebrite.webp',
+    website: 'https://hivebrite.com',
+    affiliateUrl: null,
+    categories: ['community'],
+    tags: [
+      'alumni-network',
+      'professional-association',
+      'membership',
+      'networking',
+      'events',
+      'fundraising',
+      'career-development',
+      'community-management'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'alumni-focused', text: 'Purpose-built for alumni networks with class years, graduation tracking, and reunions' },
+      { id: 'career-development', text: 'Job boards, mentorship matching, and career resources for professional growth' },
+      { id: 'fundraising-tools', text: 'Integrated donation management and fundraising campaigns for organizations' },
+      { id: 'event-management', text: 'Complete event management with registration, ticketing, and attendance tracking' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Member Profiles',
+        description: 'Rich member profiles with career history, education, interests, and contact information.',
+        icon: 'user'
+      },
+      {
+        id: '2',
+        title: 'Networking',
+        description: 'Advanced search and filtering enabling members to find and connect with relevant peers.',
+        icon: 'network'
+      },
+      {
+        id: '3',
+        title: 'Events',
+        description: 'Event creation, registration, ticketing, and attendance tracking for virtual and in-person events.',
+        icon: 'calendar'
+      }
+    ]
+  },
+  {
+    id: '310',
+    slug: 'khoros',
+    name: 'Khoros',
+    tagline: 'Enterprise customer engagement platform combining community and support',
+    description: 'Khoros is an enterprise customer engagement platform combining community forums, customer support, social media management, and digital experience management. Serves large brands managing customer interactions across multiple digital channels.',
+    overview: '',
+    pricingDescription: 'Enterprise custom pricing only — requires sales engagement. Pricing based on modules selected, community size, support volume, and implementation scope. Typical implementations range $100K-$1M+ annually. Includes implementation services, training, and dedicated success management.',
+    logo: '/images/tool-logo/khoros.webp',
+    website: 'https://khoros.com',
+    affiliateUrl: null,
+    categories: ['community', 'crm'],
+    tags: [
+      'enterprise-community',
+      'customer-support',
+      'social-media',
+      'digital-experience',
+      'customer-engagement',
+      'brand-community',
+      'lithium',
+      'omni-channel'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'unified-engagement', text: 'Community, support, social media, and digital experience in single platform' },
+      { id: 'enterprise-scale', text: 'Handles millions of community interactions for Fortune 500 brands' },
+      { id: 'ai-powered', text: 'AI-driven insights, routing, and content recommendations across engagement channels' },
+      { id: 'omni-channel', text: 'Manage customer interactions across community, social, support, and web channels' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Community Forums',
+        description: 'Enterprise forums with Q&A, gamification, and expert identification for peer support.',
+        icon: 'message-circle'
+      },
+      {
+        id: '2',
+        title: 'Social Media Management',
+        description: 'Unified social media monitoring, publishing, and engagement across platforms.',
+        icon: 'share-2'
+      },
+      {
+        id: '3',
+        title: 'Customer Support',
+        description: 'Integrated support ticketing with community escalation and knowledge base.',
+        icon: 'headphones'
+      }
+    ]
+  },
+  {
+    id: '311',
+    slug: 'mastodon',
+    name: 'Mastodon',
+    tagline: 'Decentralized open-source social network with no ads or tracking',
+    description: 'Mastodon is a decentralized, open-source social network providing Twitter-like microblogging without centralized control, advertising, or algorithmic feeds. Users join independent servers (instances) that federate together, creating a distributed social media ecosystem.',
+    overview: '',
+    pricingDescription: 'Completely free and open-source for self-hosting your own instance. No paid tiers, no advertising, no tracking. Various hosting providers offer managed Mastodon instances from $5-$50/month depending on size. Donations accepted but not required.',
+    logo: '/images/tool-logo/mastodon.webp',
+    website: 'https://mastodon.social',
+    affiliateUrl: null,
+    categories: ['community', 'communication'],
+    tags: [
+      'decentralized',
+      'open-source',
+      'microblogging',
+      'fediverse',
+      'twitter-alternative',
+      'privacy',
+      'no-ads',
+      'self-hosted'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'decentralized', text: 'No single company controls the network — distributed across independent servers' },
+      { id: 'open-source', text: 'Fully open-source with transparent development and community governance' },
+      { id: 'no-ads', text: 'No advertising, no tracking, no algorithmic manipulation of feeds' },
+      { id: 'chronological-feed', text: 'Simple chronological timeline without engagement-optimized algorithms' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Microblogging',
+        description: 'Post short messages (toots) with text, images, videos, polls, and content warnings.',
+        icon: 'message-square'
+      },
+      {
+        id: '2',
+        title: 'Federation',
+        description: 'Connect with users across thousands of independent Mastodon instances worldwide.',
+        icon: 'network'
+      },
+      {
+        id: '3',
+        title: 'Content Moderation',
+        description: 'Granular content warnings, filtering, and instance-level moderation controls.',
+        icon: 'shield'
+      }
+    ]
+  },
+  {
+    id: '312',
+    slug: 'medium',
+    name: 'Medium',
+    tagline: 'Online publishing platform for writers and readers',
+    description: 'Medium is an online publishing platform connecting writers and readers around ideas and stories. Provides clean reading experience, built-in audience, and Partner Program enabling writers to earn from their content through reader engagement.',
+    overview: '',
+    pricingDescription: 'Free for readers and writers to publish content. Medium membership at $5/month or $50/year provides unlimited access to premium content. Partner Program pays writers based on member reading time. No advertising on the platform.',
+    logo: '/images/tool-logo/medium.webp',
+    website: 'https://medium.com',
+    affiliateUrl: null,
+    categories: ['community', 'media'],
+    tags: [
+      'publishing',
+      'blogging',
+      'writing',
+      'reading',
+      'content-platform',
+      'partner-program',
+      'stories',
+      'articles'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'built-in-audience', text: 'Access to millions of active readers without building audience from scratch' },
+      { id: 'clean-reading', text: 'Distraction-free reading experience optimized for long-form content consumption' },
+      { id: 'partner-program', text: 'Writers earn money based on member reading time through Partner Program' },
+      { id: 'publications', text: 'Create or join publications for collaborative publishing and editorial oversight' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Story Editor',
+        description: 'Clean, focused writing editor with rich media embedding and formatting options.',
+        icon: 'square-pen'
+      },
+      {
+        id: '2',
+        title: 'Publications',
+        description: 'Collaborative publications with multiple writers, editors, and custom branding.',
+        icon: 'book'
+      },
+      {
+        id: '3',
+        title: 'Partner Program',
+        description: 'Earn money from writing based on reading time from paying Medium members.',
+        icon: 'dollar-sign'
+      }
+    ]
+  },
+  {
+    id: '313',
+    slug: 'mightynetworks',
+    name: 'Mighty Networks',
+    tagline: 'Community platform combining courses, memberships, and events',
+    description: 'Mighty Networks is an all-in-one community platform enabling creators and brands to build branded communities combining discussions, courses, memberships, events, and content in single unified space. Serves educators, coaches, creators, and membership businesses.',
+    overview: '',
+    pricingDescription: 'Mighty Pro at $99/month for unlimited members with core features. Business at $299/month adding advanced features and integrations. Enterprise with custom pricing for large organizations and white-label options. All plans include unlimited courses and events. Annual billing offers discount.',
+    logo: '/images/tool-logo/mightynetworks.webp',
+    website: 'https://mightynetworks.com',
+    affiliateUrl: null,
+    categories: ['community', 'education'],
+    tags: [
+      'community-platform',
+      'courses',
+      'memberships',
+      'events',
+      'creators',
+      'education',
+      'white-label',
+      'all-in-one'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'all-in-one', text: 'Community, courses, memberships, and events in single unified platform' },
+      { id: 'branded-experience', text: 'Fully branded communities with custom domains, colors, and mobile apps' },
+      { id: 'courses', text: 'Built-in course creation and delivery without separate LMS platform' },
+      { id: 'spaces', text: 'Organized spaces for different topics, cohorts, or member segments' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Community Spaces',
+        description: 'Organized spaces for discussions, content sharing, and member interaction by topic.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '2',
+        title: 'Courses',
+        description: 'Create and deliver courses with lessons, assignments, and progress tracking.',
+        icon: 'graduation-cap'
+      },
+      {
+        id: '3',
+        title: 'Memberships',
+        description: 'Tiered membership levels with different access levels and pricing.',
+        icon: 'credit-card'
+      }
+    ]
+  },
+  {
+    id: '314',
+    slug: 'ning',
+    name: 'Ning',
+    tagline: 'Social network builder for creating custom communities',
+    description: 'Ning is a platform enabling anyone to create their own social network with custom branding, member profiles, activity feeds, groups, and social features. Serves organizations, brands, and communities wanting owned social spaces rather than Facebook groups.',
+    overview: '',
+    pricingDescription: 'Plus at $19/month for up to 500 members. Pro at $49/month for up to 5,000 members. Enterprise at $99/month for unlimited members. All plans include custom domain, mobile apps, and white-label branding. Annual billing offers 2 months free.',
+    logo: '/images/tool-logo/ning.webp',
+    website: 'https://ning.com',
+    affiliateUrl: null,
+    categories: ['community'],
+    tags: [
+      'social-network',
+      'community-builder',
+      'white-label',
+      'custom-branding',
+      'groups',
+      'activity-feed',
+      'social',
+      'membership'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'custom-networks', text: 'Create fully branded social networks with your own domain and branding' },
+      { id: 'white-label', text: 'Complete white-label solution without Ning branding on your community' },
+      { id: 'mobile-apps', text: 'Custom branded mobile apps for iOS and Android for your community' },
+      { id: 'social-features', text: 'Activity feeds, groups, photos, videos, events, and member profiles' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Activity Feed',
+        description: 'Social activity feed showing member posts, comments, photos, and interactions.',
+        icon: 'activity'
+      },
+      {
+        id: '2',
+        title: 'Groups',
+        description: 'Member-created groups for specific interests, projects, or discussions.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Custom Branding',
+        description: 'Complete customization of colors, logos, domains, and mobile app branding.',
+        icon: 'palette'
+      }
+    ]
+  },
+  {
+    id: '315',
+    slug: 'tribe',
+    name: 'Tribe',
+    tagline: 'Customizable community platform for brands and customer engagement',
+    description: 'Tribe is a customizable community platform enabling brands to build engaged customer communities with embedded integrations, custom workflows, and branded experiences. Serves B2C and B2B companies wanting owned community spaces for customer engagement.',
+    overview: '',
+    pricingDescription: 'Plus at $99/month for core community features. Premium at $249/month adding advanced features and integrations. Enterprise with custom pricing for large-scale deployments and custom development. All plans include unlimited members and white-label branding.',
+    logo: '/images/tool-logo/tribe.webp',
+    website: 'https://tribe.so',
+    affiliateUrl: null,
+    categories: ['community', 'marketing'],
+    tags: [
+      'brand-community',
+      'customer-engagement',
+      'white-label',
+      'customizable',
+      'embeddable',
+      'b2c',
+      'b2b',
+      'customer-success'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'embeddable', text: 'Embed community directly into your website or product without separate destination' },
+      { id: 'highly-customizable', text: 'Custom workflows, automations, and integrations matching your specific needs' },
+      { id: 'brand-control', text: 'Complete brand control with white-label design and custom user experiences' },
+      { id: 'customer-data', text: 'Own your community data without platform dependency or algorithm changes' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Embeddable Community',
+        description: 'Embed community widgets and pages directly into your website or application.',
+        icon: 'code'
+      },
+      {
+        id: '2',
+        title: 'Custom Workflows',
+        description: 'Build custom automations and workflows connecting community actions to business systems.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'Member Profiles',
+        description: 'Rich member profiles with activity history, badges, and engagement metrics.',
+        icon: 'user'
+      }
+    ]
+  },
+  {
+    id: '316',
+    slug: 'vanillaforums',
+    name: 'Vanilla Forums',
+    tagline: 'Enterprise community platform with cloud and self-hosted options',
+    description: 'Vanilla Forums is an enterprise community platform providing flexible deployment options including cloud hosting and self-hosted installations. Serves large organizations requiring scalable, customizable forum solutions with enterprise support and security.',
+    overview: '',
+    pricingDescription: 'Cloud plans starting at $99/month for basic features. Advanced plans from $499/month with premium features and support. Enterprise with custom pricing for large-scale deployments. Self-hosted licenses available with annual maintenance fees.',
+    logo: '/images/tool-logo/vanillaforums.webp',
+    website: 'https://vanillaforums.com',
+    affiliateUrl: null,
+    categories: ['community'],
+    tags: [
+      'forum',
+      'enterprise',
+      'cloud-hosting',
+      'self-hosted',
+      'scalable',
+      'customizable',
+      'community-platform',
+      'support'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'flexible-deployment', text: 'Choose between cloud hosting or self-hosted deployment based on your needs' },
+      { id: 'enterprise-scale', text: 'Handles millions of posts and users for large enterprise communities' },
+      { id: 'customizable', text: 'Extensive customization options for branding, workflows, and integrations' },
+      { id: 'gamification', text: 'Built-in reputation system, badges, and gamification driving engagement' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Forum Discussions',
+        description: 'Traditional forum discussions with categories, tags, and advanced search capabilities.',
+        icon: 'message-circle'
+      },
+      {
+        id: '2',
+        title: 'Q&A Format',
+        description: 'Q&A discussion format with best answer selection and expert identification.',
+        icon: 'circle-question-mark'
+      },
+      {
+        id: '3',
+        title: 'Reputation System',
+        description: 'Gamified reputation and badges rewarding valuable community contributions.',
+        icon: 'award'
+      }
+    ]
+  },
+  {
+    id: '317',
+    slug: 'copper',
+    name: 'Copper',
+    tagline: 'CRM built for Google Workspace with automatic data capture',
+    description: 'Copper is the only CRM designed exclusively for Google Workspace, automatically capturing emails, meetings, and interactions without manual data entry. Integrates seamlessly with Gmail, Google Calendar, and Google Drive to eliminate CRM busywork.',
+    overview: '',
+    pricingDescription: 'Starter at $29/user/month for basic CRM features. Professional at $69/user/month with advanced automation and reporting. Business at $134/user/month with custom objects and advanced security. 14-day free trial available.',
+    logo: '/images/tool-logo/copper.webp',
+    website: 'https://copper.com',
+    affiliateUrl: null,
+    categories: ['crm', 'productivity'],
+    tags: [
+      'google-workspace',
+      'crm',
+      'sales',
+      'automation',
+      'gmail-integration',
+      'no-data-entry',
+      'small-business',
+      'productivity'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'google-native', text: 'Built exclusively for Google Workspace with deep Gmail, Calendar, and Drive integration' },
+      { id: 'automatic-capture', text: 'Automatically logs emails, meetings, and interactions without manual data entry' },
+      { id: 'relationship-intelligence', text: 'AI surfaces relationship insights and suggests next best actions' },
+      { id: 'zero-setup', text: 'Import contacts and start working in minutes with automatic data enrichment' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Gmail Integration',
+        description: 'Automatic email logging, email templates, and relationship insights directly in Gmail sidebar.',
+        icon: 'mail'
+      },
+      {
+        id: '2',
+        title: 'Calendar Sync',
+        description: 'Automatic meeting logging and activity tracking from Google Calendar events.',
+        icon: 'calendar'
+      },
+      {
+        id: '3',
+        title: 'Workflow Automation',
+        description: 'Automate follow-ups, task creation, and deal progression based on triggers and conditions.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '318',
+    slug: 'creatio',
+    name: 'Creatio',
+    tagline: 'No-code platform for CRM, marketing, and service automation',
+    description: 'Creatio is an enterprise-grade no-code platform combining CRM, marketing automation, and service management with powerful workflow automation. Serves mid-market and enterprise organizations needing customizable business applications without extensive development.',
+    overview: '',
+    pricingDescription: 'Sales Creatio from $25/user/month. Marketing Creatio from $50/user/month. Service Creatio from $40/user/month. Studio Creatio (no-code platform) from $25/user/month. Enterprise pricing available with custom modules and dedicated support.',
+    logo: '/images/tool-logo/creatio.webp',
+    website: 'https://creatio.com',
+    affiliateUrl: null,
+    categories: ['crm', 'marketing', 'sales'],
+    tags: [
+      'no-code',
+      'crm',
+      'marketing-automation',
+      'service-management',
+      'enterprise',
+      'workflow',
+      'low-code',
+      'customization'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'no-code-platform', text: 'Build custom applications and workflows without coding through visual designer' },
+      { id: 'unified-platform', text: 'CRM, marketing, and service in single platform with shared data and processes' },
+      { id: 'enterprise-ready', text: 'Advanced security, compliance, and scalability for large organizations' },
+      { id: 'marketplace', text: 'Extensive marketplace of pre-built applications and integrations' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Sales Force Automation',
+        description: 'Lead management, opportunity tracking, quote generation, and sales forecasting.',
+        icon: 'trending-up'
+      },
+      {
+        id: '2',
+        title: 'Marketing Automation',
+        description: 'Multi-channel campaigns, lead scoring, segmentation, and marketing analytics.',
+        icon: 'target'
+      },
+      {
+        id: '3',
+        title: 'No-Code Builder',
+        description: 'Visual process designer for building custom workflows, applications, and integrations.',
+        icon: 'layout-template'
+      }
+    ]
+  },
+  {
+    id: '319',
+    slug: 'engagebay',
+    name: 'EngageBay',
+    tagline: 'All-in-one CRM, marketing, and service platform for SMBs',
+    description: 'EngageBay is an affordable all-in-one platform combining CRM, email marketing, marketing automation, helpdesk, and live chat for small and medium businesses. Provides enterprise features at SMB-friendly pricing without sacrificing capabilities.',
+    overview: '',
+    pricingDescription: 'Free tier with 1,000 contacts and basic features. Growth at $15.99/user/month for 15,000 contacts. Pro at $55.99/user/month for 50,000 contacts and advanced features. Annual billing offers significant discount. All plans include unlimited users.',
+    logo: '/images/tool-logo/engagebay.webp',
+    website: 'https://engagebay.com',
+    affiliateUrl: null,
+    categories: ['crm', 'marketing', 'productivity'],
+    tags: [
+      'all-in-one',
+      'crm',
+      'marketing-automation',
+      'helpdesk',
+      'email-marketing',
+      'smb',
+      'affordable',
+      'live-chat'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'all-in-one', text: 'CRM, marketing, helpdesk, and live chat in single platform without integration complexity' },
+      { id: 'affordable-pricing', text: 'Enterprise features at SMB-friendly pricing with unlimited users on all plans' },
+      { id: 'marketing-automation', text: 'Visual workflow builder for multi-step campaigns with triggers and conditions' },
+      { id: 'unlimited-users', text: 'All plans include unlimited team members without per-user pricing surprises' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'CRM & Sales',
+        description: 'Contact management, deal tracking, email sequences, and sales automation tools.',
+        icon: 'users'
+      },
+      {
+        id: '2',
+        title: 'Email Marketing',
+        description: 'Email campaigns, templates, automation, and analytics with drag-and-drop builder.',
+        icon: 'mail'
+      },
+      {
+        id: '3',
+        title: 'Helpdesk & Chat',
+        description: 'Ticket management, knowledge base, live chat, and customer support tools.',
+        icon: 'headphones'
+      }
+    ]
+  },
+  {
+    id: '320',
+    slug: 'freshsales',
+    name: 'Freshsales',
+    tagline: 'AI-powered CRM with built-in phone, email, and activity capture',
+    description: 'Freshsales by Freshworks is an AI-powered CRM providing built-in communication tools, automatic activity capture, and intelligent lead scoring. Serves small to mid-market businesses needing complete sales CRM without assembling multiple tools.',
+    overview: '',
+    pricingDescription: 'Free tier with basic CRM for unlimited users. Growth at $9/user/month for advanced features. Pro at $39/user/month with AI-powered insights and customization. Enterprise at $79/user/month with advanced security and dedicated support. Annual billing offers discount.',
+    logo: '/images/tool-logo/freshsales.webp',
+    website: 'https://freshworks.com/crm/sales',
+    affiliateUrl: null,
+    categories: ['crm', 'sales', 'ai'],
+    tags: [
+      'ai-crm',
+      'sales',
+      'lead-scoring',
+      'built-in-phone',
+      'activity-capture',
+      'freshworks',
+      'smb',
+      'automation'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'built-in-communication', text: 'Built-in phone, email, and chat without third-party integrations or add-ons' },
+      { id: 'ai-powered', text: 'Freddy AI provides lead scoring, deal insights, and next best action recommendations' },
+      { id: 'automatic-capture', text: 'Automatically logs emails, calls, and meetings without manual data entry' },
+      { id: 'free-forever', text: 'Genuinely free tier with unlimited users for basic CRM needs' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'AI Lead Scoring',
+        description: 'Automatic lead scoring based on engagement, demographics, and behavior patterns.',
+        icon: 'brain'
+      },
+      {
+        id: '2',
+        title: 'Built-in Phone',
+        description: 'Make and receive calls directly from CRM with automatic call logging and recording.',
+        icon: 'phone'
+      },
+      {
+        id: '3',
+        title: 'Sales Sequences',
+        description: 'Automated multi-step email and task sequences for lead nurturing and follow-ups.',
+        icon: 'git-branch'
+      }
+    ]
+  },
+  {
+    id: '321',
+    slug: 'highlevel',
+    name: 'HighLevel',
+    tagline: 'All-in-one sales and marketing platform for agencies',
+    description: 'HighLevel is a comprehensive sales and marketing platform designed for marketing agencies serving local businesses. Combines CRM, marketing automation, reputation management, and client management in single white-label platform.',
+    overview: '',
+    pricingDescription: 'Starter at $97/month for single business. Agency at $297/month for unlimited sub-accounts and white-label. Agency Pro at $497/month with advanced features and dedicated support. Annual billing offers 2 months free. All plans include unlimited contacts.',
+    logo: '/images/tool-logo/highlevel.webp',
+    website: 'https://gohighlevel.com',
+    affiliateUrl: null,
+    categories: ['crm', 'marketing', 'sales'],
+    tags: [
+      'agency-platform',
+      'white-label',
+      'marketing-automation',
+      'reputation-management',
+      'local-business',
+      'funnels',
+      'booking',
+      'membership'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'agency-focused', text: 'Built specifically for marketing agencies managing multiple client businesses' },
+      { id: 'white-label', text: 'Complete white-label solution resell under your agency brand without HighLevel branding' },
+      { id: 'all-in-one', text: 'CRM, funnels, email, SMS, reputation, booking, and memberships in one platform' },
+      { id: 'unlimited-contacts', text: 'No contact limits on any plan — scale client databases without pricing surprises' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Marketing Automation',
+        description: 'Multi-channel campaigns with email, SMS, voicemail drops, and social media messaging.',
+        icon: 'zap'
+      },
+      {
+        id: '2',
+        title: 'Reputation Management',
+        description: 'Automated review generation, monitoring, and response across Google, Facebook, and more.',
+        icon: 'star'
+      },
+      {
+        id: '3',
+        title: 'Funnel Builder',
+        description: 'Drag-and-drop funnel builder for landing pages, sales funnels, and websites.',
+        icon: 'layout-template'
+      }
+    ]
+  },
+  {
+    id: '322',
+    slug: 'insightly',
+    name: 'Insightly',
+    tagline: 'CRM with built-in project management for small businesses',
+    description: 'Insightly combines customer relationship management with project management, enabling small businesses to track sales opportunities and deliver projects in single platform. Serves service businesses managing both sales pipelines and project delivery.',
+    overview: '',
+    pricingDescription: 'Plus at $29/user/month for CRM features. Professional at $49/user/month adding project management. Enterprise at $99/user/month with advanced customization and support. Annual billing offers discount. 14-day free trial available.',
+    logo: '/images/tool-logo/insightly.webp',
+    website: 'https://insightly.com',
+    affiliateUrl: null,
+    categories: ['crm', 'productivity', 'sales'],
+    tags: [
+      'project-management',
+      'crm',
+      'small-business',
+      'sales',
+      'project-delivery',
+      'service-business',
+      'opportunity-tracking',
+      'tasks'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'crm-plus-projects', text: 'Unique combination of sales CRM and project management in single platform' },
+      { id: 'opportunity-to-project', text: 'Convert won opportunities directly into projects with automatic data transfer' },
+      { id: 'relationship-linking', text: 'Link contacts, organizations, and opportunities across sales and project activities' },
+      { id: 'milestone-tracking', text: 'Track project milestones, tasks, and deliverables alongside customer relationships' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Opportunity Management',
+        description: 'Track sales opportunities through pipeline stages with forecasting and win probability.',
+        icon: 'target'
+      },
+      {
+        id: '2',
+        title: 'Project Management',
+        description: 'Manage projects with tasks, milestones, time tracking, and team collaboration.',
+        icon: 'clipboard-list'
+      },
+      {
+        id: '3',
+        title: 'Email Integration',
+        description: 'Automatic email logging, templates, and tracking with Gmail and Outlook integration.',
+        icon: 'mail'
+      }
+    ]
+  },
+  {
+    id: '323',
+    slug: 'keap',
+    name: 'Keap',
+    tagline: 'CRM and marketing automation platform for small businesses',
+    description: 'Keap (formerly Infusionsoft) provides CRM and marketing automation designed specifically for small businesses and solopreneurs. Combines contact management, email marketing, automation, and e-commerce in platform built for growing businesses.',
+    overview: '',
+    pricingDescription: 'Pro at $79/month for 1,500 contacts with 2 users. Max at $159/month for 5,000 contacts with 3 users. Max Classic at $199/month for advanced automation and coaching. Pricing scales with contact count. Annual billing offers discount.',
+    logo: '/images/tool-logo/keap.webp',
+    website: 'https://keap.com',
+    affiliateUrl: null,
+    categories: ['crm', 'marketing', 'sales'],
+    tags: [
+      'small-business',
+      'marketing-automation',
+      'crm',
+      'email-marketing',
+      'ecommerce',
+      'automation',
+      'solopreneur',
+      'infusionsoft'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'small-business-focus', text: 'Purpose-built for small businesses and solopreneurs with appropriate complexity' },
+      { id: 'visual-automation', text: 'Visual campaign builder for creating complex automation workflows without coding' },
+      { id: 'ecommerce-integration', text: 'Built-in e-commerce and payment processing for selling products and services' },
+      { id: 'business-coaching', text: 'Includes business coaching and training resources for small business growth' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Marketing Automation',
+        description: 'Visual campaign builder for email sequences, lead nurturing, and customer journeys.',
+        icon: 'zap'
+      },
+      {
+        id: '2',
+        title: 'CRM & Contacts',
+        description: 'Contact management with tags, custom fields, and segmentation for targeted marketing.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'E-commerce',
+        description: 'Built-in storefront, payment processing, and order management for selling online.',
+        icon: 'shopping-cart'
+      }
+    ]
+  },
+  {
+    id: '324',
+    slug: 'lessannoyingcrm',
+    name: 'Less Annoying CRM',
+    tagline: 'Simple, affordable CRM designed for small business owners',
+    description: 'Less Annoying CRM provides straightforward contact management and sales tracking without complexity or high costs. Designed specifically for small business owners who need basic CRM without enterprise features they won\'t use.',
+    overview: '',
+    pricingDescription: 'Single plan at $15/user/month with all features included. No tiers, no upsells, no hidden fees. Unlimited contacts, unlimited storage, unlimited customization. 30-day free trial available. No contracts — cancel anytime.',
+    logo: '/images/tool-logo/lessannoyingcrm.webp',
+    website: 'https://lessannoyingcrm.com',
+    affiliateUrl: null,
+    categories: ['crm', 'sales'],
+    tags: [
+      'simple-crm',
+      'small-business',
+      'affordable',
+      'contact-management',
+      'sales-tracking',
+      'no-contracts',
+      'easy-setup',
+      'solopreneur'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'radical-simplicity', text: 'Intentionally simple design without overwhelming features small businesses don\'t need' },
+      { id: 'transparent-pricing', text: 'Single $15/user/month plan with everything included — no tiers or upsells' },
+      { id: 'exceptional-support', text: 'Legendary customer support with real humans answering phones and emails' },
+      { id: 'quick-setup', text: 'Import contacts and start using in under 15 minutes without technical expertise' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Contact Management',
+        description: 'Organize contacts with custom fields, tags, and groups for easy segmentation.',
+        icon: 'users'
+      },
+      {
+        id: '2',
+        title: 'Pipeline Tracking',
+        description: 'Visual pipeline showing deals through stages with drag-and-drop management.',
+        icon: 'trending-up'
+      },
+      {
+        id: '3',
+        title: 'Task & Follow-up',
+        description: 'Task management with reminders, follow-up scheduling, and activity tracking.',
+        icon: 'circle-check'
+      }
+    ]
+  },
+  {
+    id: '325',
+    slug: 'nimble',
+    name: 'Nimble',
+    tagline: 'Social CRM combining contacts, social media, and email in one inbox',
+    description: 'Nimble is a social CRM that combines contact management, social media monitoring, email, and relationship insights in unified inbox. Automatically enriches contacts with social profiles and business information from across the web.',
+    overview: '',
+    pricingDescription: 'Nimble Business at $24.99/user/month with all features included. Annual billing offers discount. 14-day free trial available. No contact limits or feature restrictions. Includes social enrichment, email integration, and workflow automation.',
+    logo: '/images/tool-logo/nimble.webp',
+    website: 'https://nimble.com',
+    affiliateUrl: null,
+    categories: ['crm', 'sales'],
+    tags: [
+      'social-crm',
+      'contact-management',
+      'social-media',
+      'email-integration',
+      'relationship-intelligence',
+      'networking',
+      'small-business',
+      'enrichment'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'social-enrichment', text: 'Automatically finds and adds social profiles and business information to contacts' },
+      { id: 'unified-inbox', text: 'Combines email, social media, and contact activities in single interface' },
+      { id: 'relationship-insights', text: 'Tracks interactions across channels providing complete relationship context' },
+      { id: 'browser-extension', text: 'Chrome extension enables CRM access from Gmail, LinkedIn, Twitter, and any website' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Social Profiles',
+        description: 'Automatically enrich contacts with social media profiles and business information.',
+        icon: 'network'
+      },
+      {
+        id: '2',
+        title: 'Smart Contacts',
+        description: 'Unified contact view combining email, social, activities, and notes in single profile.',
+        icon: 'user'
+      },
+      {
+        id: '3',
+        title: 'Workflow Automation',
+        description: 'Automate follow-ups, task creation, and contact segmentation based on activities.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '326',
+    slug: 'nutshell',
+    name: 'Nutshell',
+    tagline: 'All-in-one CRM and email marketing platform for B2B sales teams',
+    description: 'Nutshell combines sales CRM, email marketing, and reporting in single platform designed for B2B sales teams. Provides pipeline management, email campaigns, lead enrichment, and sales analytics without requiring multiple tools.',
+    overview: '',
+    pricingDescription: 'Starter at $16/user/month for CRM features. Pro at $42/user/month adding email marketing and advanced features. Annual billing offers discount. 14-day free trial available. No contact limits on any plan.',
+    logo: '/images/tool-logo/nutshell.webp',
+    website: 'https://nutshell.com',
+    affiliateUrl: null,
+    categories: ['crm', 'sales', 'marketing'],
+    tags: [
+      'b2b-sales',
+      'crm',
+      'email-marketing',
+      'pipeline-management',
+      'lead-enrichment',
+      'reporting',
+      'sales-analytics',
+      'small-business'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'b2b-focused', text: 'Designed specifically for B2B sales teams with appropriate features and workflows' },
+      { id: 'email-marketing', text: 'Built-in email campaigns and sequences without separate marketing platform' },
+      { id: 'lead-enrichment', text: 'Automatic contact enrichment with company data and business information' },
+      { id: 'sales-analytics', text: 'Comprehensive reporting on pipeline, activities, and sales performance metrics' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Pipeline Management',
+        description: 'Visual pipeline with customizable stages, forecasting, and deal tracking.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'Email Marketing',
+        description: 'Email campaigns, templates, sequences, and tracking for sales outreach.',
+        icon: 'mail'
+      },
+      {
+        id: '3',
+        title: 'Lead Enrichment',
+        description: 'Automatic enrichment adding company information and contact details to leads.',
+        icon: 'database'
+      }
+    ]
+  },
+  {
+    id: '327',
+    slug: 'reallysimplesystems',
+    name: 'Really Simple Systems',
+    tagline: 'Easy-to-use CRM with marketing automation for small businesses',
+    description: 'Really Simple Systems provides straightforward CRM with integrated marketing automation designed for small businesses wanting simplicity without sacrificing capabilities. European-based platform emphasizing ease of use and GDPR compliance.',
+    overview: '',
+    pricingDescription: 'Free tier with 100 contacts and basic features. Starter at $18/user/month for 1,000 contacts. Professional at $38/user/month for 5,000 contacts and marketing automation. Enterprise with custom pricing. Annual billing offers discount.',
+    logo: '/images/tool-logo/reallysimplesystems.webp',
+    website: 'https://reallysimplesystems.com',
+    affiliateUrl: null,
+    categories: ['crm', 'marketing', 'sales'],
+    tags: [
+      'simple-crm',
+      'marketing-automation',
+      'small-business',
+      'gdpr-compliant',
+      'email-marketing',
+      'european',
+      'easy-setup',
+      'contact-management'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'genuine-simplicity', text: 'Intentionally simple interface without unnecessary complexity or feature bloat' },
+      { id: 'gdpr-compliant', text: 'European platform with built-in GDPR compliance tools and data residency' },
+      { id: 'marketing-integration', text: 'Integrated email marketing and automation without separate platform complexity' },
+      { id: 'quick-setup', text: 'Import contacts and start working in minutes with guided setup process' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Contact Management',
+        description: 'Organize contacts with custom fields, tags, and segmentation for targeted communication.',
+        icon: 'users'
+      },
+      {
+        id: '2',
+        title: 'Email Marketing',
+        description: 'Email campaigns, templates, automation, and tracking with drag-and-drop builder.',
+        icon: 'mail'
+      },
+      {
+        id: '3',
+        title: 'Pipeline Management',
+        description: 'Visual sales pipeline with deal tracking, forecasting, and activity management.',
+        icon: 'trending-up'
+      }
+    ]
+  },
+  {
+    id: '328',
+    slug: 'streak',
+    name: 'Streak',
+    tagline: 'CRM that lives entirely inside Gmail for sales teams',
+    description: 'Streak is the only CRM built entirely inside Gmail, enabling sales teams to manage pipelines, track emails, and automate workflows without leaving their inbox. Serves teams wanting CRM functionality without switching between applications.',
+    overview: '',
+    pricingDescription: 'Free tier with basic pipeline management. Solo at $15/user/month for advanced features. Pro at $49/user/month with team collaboration and automation. Enterprise at $99/user/month with advanced security and support. Annual billing offers discount.',
+    logo: '/images/tool-logo/streak.webp',
+    website: 'https://streak.com',
+    affiliateUrl: null,
+    categories: ['crm', 'sales', 'productivity'],
+    tags: [
+      'gmail-crm',
+      'inbox-crm',
+      'sales',
+      'pipeline-management',
+      'email-tracking',
+      'workflow-automation',
+      'google-workspace',
+      'small-team'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'inbox-native', text: 'CRM lives entirely inside Gmail — no separate application or context switching' },
+      { id: 'email-tracking', text: 'Track email opens, clicks, and replies with real-time notifications' },
+      { id: 'mail-merge', text: 'Send personalized email campaigns to thousands directly from Gmail' },
+      { id: 'pipeline-views', text: 'Visual pipelines overlaid directly on Gmail inbox for seamless workflow' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Gmail Pipelines',
+        description: 'Visual pipeline stages overlaid on Gmail with drag-and-drop deal management.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'Email Tracking',
+        description: 'Track email opens, clicks, and replies with real-time notifications and analytics.',
+        icon: 'eye'
+      },
+      {
+        id: '3',
+        title: 'Mail Merge',
+        description: 'Send personalized email campaigns with merge fields and scheduling from Gmail.',
+        icon: 'send'
+      }
+    ]
+  },
+  {
+    id: '329',
+    slug: 'sugarcrm',
+    name: 'SugarCRM',
+    tagline: 'Flexible CRM platform with extensive customization and on-premises option',
+    description: 'SugarCRM is a flexible CRM platform providing extensive customization, on-premises deployment options, and enterprise features. Serves organizations needing tailored CRM solutions with complete control over data and deployment.',
+    overview: '',
+    pricingDescription: 'Sell from $49/user/month for sales automation. Serve from $80/user/month for customer service. Enterprise with custom pricing for advanced features and dedicated support. On-premises and cloud deployment options available. Annual contracts required.',
+    logo: '/images/tool-logo/sugarcrm.webp',
+    website: 'https://sugarcrm.com',
+    affiliateUrl: null,
+    categories: ['crm', 'sales'],
+    tags: [
+      'enterprise-crm',
+      'customizable',
+      'on-premises',
+      'flexible',
+      'sales-automation',
+      'customer-service',
+      'open-source',
+      'self-hosted'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'extensive-customization', text: 'Deep customization of fields, layouts, workflows, and business logic without limits' },
+      { id: 'deployment-flexibility', text: 'Choose cloud, on-premises, or hybrid deployment based on security and control needs' },
+      { id: 'open-source-roots', text: 'Built on open-source foundation providing transparency and community extensions' },
+      { id: 'enterprise-features', text: 'Advanced security, compliance, and scalability for large organizations' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Sales Automation',
+        description: 'Lead management, opportunity tracking, quotes, forecasting, and territory management.',
+        icon: 'trending-up'
+      },
+      {
+        id: '2',
+        title: 'Workflow Engine',
+        description: 'Visual workflow builder for automating business processes and approval chains.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'Customization Tools',
+        description: 'Module builder, custom fields, and layout designer for tailored CRM experiences.',
+        icon: 'settings'
+      }
+    ]
+  },
+  {
+    id: '330',
+    slug: 'zohocrm',
+    name: 'Zoho CRM',
+    tagline: 'Comprehensive CRM platform with extensive ecosystem integration',
+    description: 'Zoho CRM is a comprehensive customer relationship management platform with deep integration across Zoho\'s 50+ business applications. Serves small to enterprise businesses with scalable features, AI capabilities, and extensive customization options.',
+    overview: '',
+    pricingDescription: 'Free tier with basic CRM for up to 3 users. Standard at $14/user/month for advanced features. Professional at $23/user/month adding customization and analytics. Enterprise at $40/user/month with advanced automation. Ultimate at $52/user/month with AI features. Annual billing offers discount.',
+    logo: '/images/tool-logo/zohocrm.webp',
+    website: 'https://zoho.com/crm',
+    affiliateUrl: null,
+    categories: ['crm', 'sales', 'productivity'],
+    tags: [
+      'comprehensive-crm',
+      'zoho-ecosystem',
+      'sales-automation',
+      'ai-features',
+      'customization',
+      'scalable',
+      'affordable',
+      'integration'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'zoho-ecosystem', text: 'Seamless integration with 50+ Zoho applications for complete business suite' },
+      { id: 'zia-ai', text: 'Zia AI assistant provides predictions, anomaly detection, and next best actions' },
+      { id: 'scalable-platform', text: 'Scales from free tier for small teams to enterprise for large organizations' },
+      { id: 'extensive-customization', text: 'Custom modules, fields, layouts, and workflows adapting to any business process' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Sales Force Automation',
+        description: 'Lead management, contact management, deals, and territory management.',
+        icon: 'users'
+      },
+      {
+        id: '2',
+        title: 'Zia AI Assistant',
+        description: 'AI-powered predictions, anomaly detection, sentiment analysis, and recommendations.',
+        icon: 'brain'
+      },
+      {
+        id: '3',
+        title: 'Workflow Automation',
+        description: 'Visual workflow builder for automating processes, approvals, and notifications.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '331',
+    slug: 'anytype',
+    name: 'Anytype',
+    tagline: 'Local-first private workspace for notes, tasks, and knowledge management',
+    description: 'Anytype is a local-first, open-source workspace that keeps all your data on your devices with optional encrypted sync. Combines notes, tasks, databases, and knowledge management in single private platform without cloud dependency.',
+    overview: '',
+    pricingDescription: 'Completely free and open-source with all features included. Optional paid sync service at $8/month for encrypted cloud sync across devices. Self-hosted sync available for technically inclined users. No feature limitations on free version.',
+    logo: '/images/tool-logo/anytype.webp',
+    website: 'https://anytype.io',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'local-first',
+      'privacy',
+      'open-source',
+      'notes',
+      'knowledge-management',
+      'tasks',
+      'offline',
+      'encryption'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'local-first', text: 'All data stored locally on your devices — works offline without internet' },
+      { id: 'privacy-focused', text: 'End-to-end encryption with no cloud dependency or data harvesting' },
+      { id: 'open-source', text: 'Fully open-source with transparent development and community governance' },
+      { id: 'flexible-blocks', text: 'Mix text, databases, tasks, and media in flexible block-based documents' }
+    ],
+    platforms: ['windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Block-Based Editor',
+        description: 'Flexible document editor mixing text, databases, tasks, images, and embedded content.',
+        icon: 'layout-list'
+      },
+      {
+        id: '2',
+        title: 'Encrypted Sync',
+        description: 'Optional end-to-end encrypted sync across devices without compromising privacy.',
+        icon: 'lock'
+      },
+      {
+        id: '3',
+        title: 'Knowledge Graph',
+        description: 'Visual knowledge graph showing connections between notes and concepts.',
+        icon: 'network'
+      }
+    ]
+  },
+  {
+    id: '332',
+    slug: 'bear',
+    name: 'Bear',
+    tagline: 'Beautiful markdown notes app for Apple ecosystem',
+    description: 'Bear is a polished markdown notes application designed exclusively for Apple devices. Combines beautiful design with powerful organization through tags, nested tags, and cross-note linking for writers, students, and knowledge workers.',
+    overview: '',
+    pricingDescription: 'Free for basic note-taking on single device. Bear Pro at $2.99/month or $29.99/year unlocks sync across all Apple devices, advanced export options, and premium themes. Apple-only platform.',
+    logo: '/images/tool-logo/bear.webp',
+    website: 'https://bear.app',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'notes',
+      'markdown',
+      'apple',
+      'writing',
+      'knowledge-management',
+      'tags',
+      'ios',
+      'mac'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'apple-native', text: 'Designed exclusively for Mac, iPhone, and iPad with native Apple design language' },
+      { id: 'markdown-support', text: 'Full markdown support with live preview and syntax highlighting' },
+      { id: 'nested-tags', text: 'Powerful organization through nested tags creating hierarchical structures' },
+      { id: 'beautiful-design', text: 'Award-winning design with customizable themes and typography options' }
+    ],
+    platforms: ['mac', 'ios'],
+    features: [
+      {
+        id: '1',
+        title: 'Markdown Editor',
+        description: 'Live markdown preview with syntax highlighting and formatting shortcuts.',
+        icon: 'square-pen'
+      },
+      {
+        id: '2',
+        title: 'Tag Organization',
+        description: 'Organize notes with nested tags, multiple tags per note, and tag-based search.',
+        icon: 'tag'
+      },
+      {
+        id: '3',
+        title: 'Cross-Note Linking',
+        description: 'Link notes together with wiki-style linking and backlinks tracking.',
+        icon: 'link'
+      }
+    ]
+  },
+  {
+    id: '333',
+    slug: 'coda',
+    name: 'Coda',
+    tagline: 'Powerful docs that transform into apps with formulas and automation',
+    description: 'Coda is a collaborative document platform that combines the flexibility of docs with the power of applications. Features formulas, automations, and packs that transform documents into custom tools for teams and workflows.',
+    overview: '',
+    pricingDescription: 'Free tier with limited doc size and features. Pro at $12/editor/month for unlimited docs and advanced features. Team at $36/editor/month with enhanced collaboration. Enterprise with custom pricing. Viewers always free.',
+    logo: '/images/tool-logo/coda.webp',
+    website: 'https://coda.io',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'docs',
+      'automation',
+      'formulas',
+      'collaboration',
+      'no-code',
+      'workflows',
+      'teams',
+      'databases'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'doc-as-app', text: 'Documents that behave like applications with buttons, formulas, and automations' },
+      { id: 'powerful-formulas', text: 'Spreadsheet-like formulas enabling complex calculations and data manipulation' },
+      { id: 'packs-ecosystem', text: 'Hundreds of packs connecting Coda to external services and adding capabilities' },
+      { id: 'automation', text: 'Built-in automation triggering actions based on document changes and schedules' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Flexible Tables',
+        description: 'Powerful tables with formulas, relations, lookups, and multiple view types.',
+        icon: 'table'
+      },
+      {
+        id: '2',
+        title: 'Automation',
+        description: 'Automate workflows with buttons, rules, and scheduled actions without coding.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'Packs',
+        description: 'Extend functionality with packs connecting to Slack, Gmail, Jira, and 100+ services.',
+        icon: 'plug'
+      }
+    ]
+  },
+  {
+    id: '334',
+    slug: 'doodle',
+    name: 'Doodle',
+    tagline: 'Meeting scheduling platform eliminating email coordination chaos',
+    description: 'Doodle is the leading meeting scheduling platform that eliminates endless email chains when coordinating times across multiple participants. Simple polls and calendar integration make finding meeting times effortless.',
+    overview: '',
+    pricingDescription: 'Free tier with basic scheduling and ads. Pro at $6.95/month removes ads and adds features. Business at $12.50/user/month for team features and calendar integration. Enterprise with custom pricing for large organizations.',
+    logo: '/images/tool-logo/doodle.webp',
+    website: 'https://doodle.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'communication'],
+    tags: [
+      'scheduling',
+      'meetings',
+      'calendar',
+      'coordination',
+      'polls',
+      'productivity',
+      'time-management',
+      'collaboration'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'simple-polls', text: 'Create scheduling polls in seconds — participants vote on available times' },
+      { id: 'no-account-needed', text: 'Participants vote without creating accounts or installing software' },
+      { id: 'calendar-sync', text: 'Syncs with Google Calendar, Outlook, and iCloud for availability checking' },
+      { id: 'timezone-handling', text: 'Automatic timezone conversion for international meeting coordination' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Meeting Polls',
+        description: 'Create polls with proposed times — participants vote on their availability.',
+        icon: 'calendar'
+      },
+      {
+        id: '2',
+        title: '1:1 Scheduling',
+        description: 'Share booking links letting others schedule time on your calendar.',
+        icon: 'user-plus'
+      },
+      {
+        id: '3',
+        title: 'Group Scheduling',
+        description: 'Coordinate meetings across multiple participants with automatic time zone handling.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '335',
+    slug: 'evernote',
+    name: 'Evernote',
+    tagline: 'Note-taking and organization platform for capturing and finding information',
+    description: 'Evernote is the pioneering note-taking platform enabling users to capture ideas, documents, web clips, and information in searchable notebooks. Serves individuals and teams organizing knowledge across devices with powerful search and organization features.',
+    overview: '',
+    pricingDescription: 'Free tier with 60MB monthly upload and 2 devices. Personal at $14.99/month for 10GB monthly and unlimited devices. Professional at $17.99/month with advanced features. Teams at $18.99/user/month for collaboration.',
+    logo: '/images/tool-logo/evernote.webp',
+    website: 'https://evernote.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'note-taking',
+      'organization',
+      'web-clipper',
+      'search',
+      'documents',
+      'knowledge-management',
+      'productivity',
+      'cross-platform'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'powerful-search', text: 'Search text in images, PDFs, and handwritten notes with OCR technology' },
+      { id: 'web-clipper', text: 'Save web pages, articles, and screenshots directly to Evernote' },
+      { id: 'cross-platform', text: 'Access notes across Windows, Mac, iOS, Android, and web' },
+      { id: 'rich-content', text: 'Mix text, images, audio, files, and sketches in single notes' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Note Organization',
+        description: 'Organize notes in notebooks with tags, shortcuts, and powerful search.',
+        icon: 'book'
+      },
+      {
+        id: '2',
+        title: 'Web Clipper',
+        description: 'Save web pages, articles, and screenshots with formatting preserved.',
+        icon: 'globe'
+      },
+      {
+        id: '3',
+        title: 'Document Scanning',
+        description: 'Scan documents and business cards with automatic text recognition.',
+        icon: 'camera'
+      }
+    ]
+  },
+  {
+    id: '336',
+    slug: 'fantastical',
+    name: 'Fantastical',
+    tagline: 'Calendar app with natural language input for Apple devices',
+    description: 'Fantastical is a premium calendar application for Apple devices featuring natural language event creation, beautiful design, and deep integration with calendar services. Transforms calendar management from tedious clicking into natural conversation.',
+    overview: '',
+    pricingDescription: 'Free basic version with core calendar features. Fantastical Premium at $4.99/month or $39.99/year unlocks advanced features, weather integration, and premium widgets. Apple-only platform.',
+    logo: '/images/tool-logo/fantastical.webp',
+    website: 'https://flexibits.com/fantastical',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'calendar',
+      'apple',
+      'natural-language',
+      'scheduling',
+      'productivity',
+      'ios',
+      'mac',
+      'time-management'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'natural-language', text: 'Create events by typing naturally — "Lunch with Sarah tomorrow at noon"' },
+      { id: 'beautiful-design', text: 'Award-winning design with customizable views and elegant widgets' },
+      { id: 'apple-integration', text: 'Deep integration with Apple Calendar, Reminders, and system features' },
+      { id: 'multiple-views', text: 'Day, week, month, year, and agenda views with quick switching' }
+    ],
+    platforms: ['mac', 'ios'],
+    features: [
+      {
+        id: '1',
+        title: 'Natural Language Input',
+        description: 'Create events and reminders by typing natural sentences that parse automatically.',
+        icon: 'message-square'
+      },
+      {
+        id: '2',
+        title: 'Calendar Views',
+        description: 'Multiple calendar views including day, week, month, year, and custom agenda.',
+        icon: 'calendar'
+      },
+      {
+        id: '3',
+        title: 'Widgets',
+        description: 'Beautiful home screen and notification center widgets showing upcoming events.',
+        icon: 'layout-grid'
+      }
+    ]
+  },
+  {
+    id: '337',
+    slug: 'ganttpro',
+    name: 'GanttPRO',
+    tagline: 'Online Gantt chart software for project planning and management',
+    description: 'GanttPRO is online Gantt chart software enabling project managers to plan, schedule, and track projects visually. Provides drag-and-drop timeline creation, resource management, and team collaboration for projects of any size.',
+    overview: '',
+    pricingDescription: 'Individual at $7.99/user/month for single user. Team at $12.99/user/month for collaboration features. Business at $19.99/user/month with advanced features. Enterprise with custom pricing. Annual billing offers discount.',
+    logo: '/images/tool-logo/ganttpro.webp',
+    website: 'https://ganttpro.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'gantt-chart',
+      'project-management',
+      'scheduling',
+      'timeline',
+      'resource-management',
+      'planning',
+      'collaboration',
+      'project-planning'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'visual-planning', text: 'Drag-and-drop Gantt charts making project planning intuitive and visual' },
+      { id: 'resource-management', text: 'Assign team members to tasks and track workload across projects' },
+      { id: 'dependencies', text: 'Link tasks with dependencies showing how delays cascade through projects' },
+      { id: 'baseline-tracking', text: 'Compare actual progress against planned baseline to identify deviations' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Gantt Charts',
+        description: 'Create and customize Gantt charts with drag-and-drop task management.',
+        icon: 'chart-column'
+      },
+      {
+        id: '2',
+        title: 'Task Dependencies',
+        description: 'Link tasks with dependencies showing predecessor-successor relationships.',
+        icon: 'link'
+      },
+      {
+        id: '3',
+        title: 'Resource Allocation',
+        description: 'Assign team members to tasks and visualize workload distribution.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '338',
+    slug: 'goodbudget',
+    name: 'Goodbudget',
+    tagline: 'Budget app using envelope system for personal finance management',
+    description: 'Goodbudget is a personal finance app based on the envelope budgeting system. Helps individuals and families manage money by allocating funds to virtual envelopes representing spending categories, promoting mindful spending and debt reduction.',
+    overview: '',
+    pricingDescription: 'Free tier with 10 envelopes and 1 account. Plus at $8/month or $70/year for unlimited envelopes, accounts, and advanced features. One-time purchase option available. Annual billing offers discount.',
+    logo: '/images/tool-logo/goodbudget.webp',
+    website: 'https://goodbudget.com',
+    affiliateUrl: null,
+    categories: ['finance', 'productivity'],
+    tags: [
+      'budgeting',
+      'personal-finance',
+      'envelope-system',
+      'money-management',
+      'debt-reduction',
+      'savings',
+      'family-finance',
+      'spending-tracker'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'envelope-system', text: 'Proven envelope budgeting method allocating money to spending categories' },
+      { id: 'family-sharing', text: 'Sync budgets across family members for collaborative money management' },
+      { id: 'debt-payoff', text: 'Built-in debt snowball tracking helping eliminate debt systematically' },
+      { id: 'offline-capable', text: 'Works offline with automatic sync when connection available' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Envelope Budgeting',
+        description: 'Allocate income to virtual envelopes representing spending categories.',
+        icon: 'credit-card'
+      },
+      {
+        id: '2',
+        title: 'Expense Tracking',
+        description: 'Track spending against envelope budgets with automatic categorization.',
+        icon: 'trending-down'
+      },
+      {
+        id: '3',
+        title: 'Debt Tracking',
+        description: 'Track debt balances and plan payoff strategies with debt snowball method.',
+        icon: 'target'
+      }
+    ]
+  },
+  {
+    id: '339',
+    slug: 'ifttt',
+    name: 'IFTTT',
+    tagline: 'Automation platform connecting apps and devices with simple if-then rules',
+    description: 'IFTTT (If This Then That) is an automation platform enabling users to create connections between apps, devices, and services through simple conditional statements. Automates workflows across hundreds of services without coding.',
+    overview: '',
+    pricingDescription: 'Free tier with 2 applets and basic features. Pro at $3.99/month for 20 applets and faster execution. Pro+ at $6.99/month for unlimited applets and advanced features. Annual billing offers discount.',
+    logo: '/images/tool-logo/ifttt.webp',
+    website: 'https://ifttt.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'automation',
+      'integration',
+      'no-code',
+      'workflows',
+      'smart-home',
+      'productivity',
+      'applets',
+      'triggers'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'simple-automation', text: 'Create automations with simple if-then logic — no coding required' },
+      { id: 'hundreds-services', text: 'Connect 700+ apps and services including social media, smart home, and productivity tools' },
+      { id: 'pre-made-applets', text: 'Thousands of community-created applets ready to use immediately' },
+      { id: 'smart-home', text: 'Control smart home devices and create automated home routines' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Applet Creation',
+        description: 'Build automations connecting triggers and actions across services.',
+        icon: 'zap'
+      },
+      {
+        id: '2',
+        title: 'Service Connections',
+        description: 'Connect to 700+ services including Gmail, Twitter, smart home devices, and more.',
+        icon: 'plug'
+      },
+      {
+        id: '3',
+        title: 'Applet Library',
+        description: 'Browse thousands of pre-made applets created by community and IFTTT.',
+        icon: 'grid-2x2'
+      }
+    ]
+  },
+  {
+    id: '340',
+    slug: 'iawriter',
+    name: 'iA Writer',
+    tagline: 'Distraction-free writing app focused on pure text creation',
+    description: 'iA Writer is a minimalist writing application designed for focused writing without distractions. Features clean interface, focus mode highlighting current sentence, and markdown support for writers, bloggers, and anyone valuing distraction-free text creation.',
+    overview: '',
+    pricingDescription: 'One-time purchase at $49.99 for all platforms (Mac, Windows, iOS, Android). No subscription required. Free trial available. Lifetime updates within major version.',
+    logo: '/images/tool-logo/iawriter.webp',
+    website: 'https://ia.net/writer',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'writing',
+      'markdown',
+      'distraction-free',
+      'focus',
+      'minimalist',
+      'blogging',
+      'authoring',
+      'cross-platform'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'distraction-free', text: 'Clean, minimal interface removing everything except your text' },
+      { id: 'focus-mode', text: 'Highlights current sentence while dimming others to maintain writing flow' },
+      { id: 'markdown-support', text: 'Full markdown support with live preview and syntax highlighting' },
+      { id: 'cross-platform', text: 'Native apps for Mac, Windows, iOS, and Android with seamless sync' }
+    ],
+    platforms: ['windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Focus Mode',
+        description: 'Highlights current sentence while dimming others to maintain writing concentration.',
+        icon: 'eye'
+      },
+      {
+        id: '2',
+        title: 'Markdown Editor',
+        description: 'Write in markdown with live preview and export to multiple formats.',
+        icon: 'square-pen'
+      },
+      {
+        id: '3',
+        title: 'Content Blocks',
+        description: 'Add tables, images, and other content blocks within markdown documents.',
+        icon: 'layout-list'
+      }
+    ]
+  },
+  {
+    id: '341',
+    slug: 'joplin',
+    name: 'Joplin',
+    tagline: 'Open-source note-taking app with end-to-end encryption',
+    description: 'Joplin is a free, open-source note-taking and to-do application that handles large numbers of notes organized into notebooks. Features end-to-end encryption, markdown support, and synchronization across devices through various cloud services.',
+    overview: '',
+    pricingDescription: 'Completely free and open-source under AGPL license. No paid tiers or feature limitations. Optional Joplin Cloud at €4.99/month for managed sync service. Self-hosted sync available through Nextcloud, Dropbox, OneDrive, S3, or WebDAV.',
+    logo: '/images/tool-logo/joplin.webp',
+    website: 'https://joplinapp.org',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'notes',
+      'open-source',
+      'encryption',
+      'markdown',
+      'self-hosted',
+      'privacy',
+      'cross-platform',
+      'todo'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'open-source', text: 'Fully open-source with transparent development and community governance' },
+      { id: 'e2e-encryption', text: 'End-to-end encryption protecting notes during sync and storage' },
+      { id: 'flexible-sync', text: 'Sync through Nextcloud, Dropbox, OneDrive, S3, WebDAV, or Joplin Cloud' },
+      { id: 'markdown-support', text: 'Full markdown support with WYSIWYG editor option' }
+    ],
+    platforms: ['windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Note Organization',
+        description: 'Organize notes in notebooks and sub-notebooks with tags and search functionality.',
+        icon: 'book'
+      },
+      {
+        id: '2',
+        title: 'Encrypted Sync',
+        description: 'End-to-end encrypted synchronization across all your devices.',
+        icon: 'lock'
+      },
+      {
+        id: '3',
+        title: 'Web Clipper',
+        description: 'Browser extension to save web pages and screenshots directly to Joplin.',
+        icon: 'globe'
+      }
+    ]
+  },
+  {
+    id: '342',
+    slug: 'meistertask',
+    name: 'MeisterTask',
+    tagline: 'Visual task management with Kanban boards for teams',
+    description: 'MeisterTask is a visual task management platform using Kanban boards to help teams organize, track, and manage work collaboratively. Provides intuitive drag-and-drop interface with automation and integration capabilities.',
+    overview: '',
+    pricingDescription: 'Free tier with basic features and limited projects. Pro at $8.25/user/month for unlimited projects and advanced features. Business at $20.75/user/month with admin controls and priority support. Enterprise with custom pricing.',
+    logo: '/images/tool-logo/meistertask.webp',
+    website: 'https://meistertask.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'task-management',
+      'kanban',
+      'project-management',
+      'collaboration',
+      'visual',
+      'teams',
+      'automation',
+      'workflow'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'visual-kanban', text: 'Intuitive Kanban boards with drag-and-drop task management' },
+      { id: 'automation', text: 'Built-in automation rules reducing repetitive manual work' },
+      { id: 'integrations', text: 'Connect with Slack, GitHub, Zendesk, and 100+ other tools' },
+      { id: 'customizable', text: 'Custom fields, tags, and workflows adapting to team processes' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Kanban Boards',
+        description: 'Visual boards with customizable columns representing workflow stages.',
+        icon: 'kanban'
+      },
+      {
+        id: '2',
+        title: 'Task Automation',
+        description: 'Automate repetitive actions based on triggers and conditions.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'Collaboration',
+        description: 'Assign tasks, add comments, attach files, and track progress together.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '343',
+    slug: 'onenote',
+    name: 'OneNote',
+    tagline: 'Microsoft\'s digital notebook for capturing and organizing information',
+    description: 'OneNote is Microsoft\'s comprehensive digital notebook enabling users to capture notes, drawings, screen clippings, and audio commentary in organized notebooks. Deep integration with Microsoft 365 and free availability makes it accessible to millions of users.',
+    overview: '',
+    pricingDescription: 'Completely free with Microsoft account. Included with Microsoft 365 subscriptions for enhanced features and increased storage. No separate pricing — access through free Microsoft account or Microsoft 365 subscription.',
+    logo: '/images/tool-logo/onenote.webp',
+    website: 'https://onenote.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'note-taking',
+      'microsoft',
+      'digital-notebook',
+      'organization',
+      'cross-platform',
+      'free',
+      'handwriting',
+      'collaboration'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-access', text: 'Completely free with Microsoft account — no subscription required' },
+      { id: 'flexible-canvas', text: 'Freeform canvas allowing notes, images, and drawings anywhere on page' },
+      { id: 'microsoft-integration', text: 'Deep integration with Outlook, Teams, and Microsoft 365 ecosystem' },
+      { id: 'handwriting-support', text: 'Excellent stylus and handwriting support for digital inking' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Notebook Organization',
+        description: 'Hierarchical organization with notebooks, sections, and pages.',
+        icon: 'book'
+      },
+      {
+        id: '2',
+        title: 'Rich Content',
+        description: 'Mix text, images, audio, drawings, files, and web clippings in notes.',
+        icon: 'image'
+      },
+      {
+        id: '3',
+        title: 'Collaboration',
+        description: 'Share notebooks and collaborate in real-time with others.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '344',
+    slug: 'pocket',
+    name: 'Pocket',
+    tagline: 'Save articles and videos to view later across all devices',
+    description: 'Pocket enables users to save articles, videos, and web content for later consumption. Provides offline reading, text-to-speech, and recommendation features for people wanting to consume content on their own schedule rather than immediately.',
+    overview: '',
+    pricingDescription: 'Free tier with unlimited saves and basic features. Pocket Premium at $4.99/month or $49.99/year adds permanent library, advanced search, and premium features. Annual billing offers discount.',
+    logo: '/images/tool-logo/pocket.webp',
+    website: 'https://getpocket.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'read-later',
+      'content-saving',
+      'offline-reading',
+      'articles',
+      'productivity',
+      'content-curation',
+      'text-to-speech',
+      'cross-platform'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'save-anything', text: 'Save articles, videos, and web pages from any device with one click' },
+      { id: 'offline-reading', text: 'Download content for offline reading without internet connection' },
+      { id: 'clean-reading', text: 'Distraction-free reading view removing ads and clutter from articles' },
+      { id: 'text-to-speech', text: 'Listen to saved articles with natural text-to-speech narration' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'One-Click Saving',
+        description: 'Save content from browsers, apps, and email with single click or tap.',
+        icon: 'bookmark'
+      },
+      {
+        id: '2',
+        title: 'Offline Access',
+        description: 'Download saved content for reading without internet connection.',
+        icon: 'download'
+      },
+      {
+        id: '3',
+        title: 'Listening Mode',
+        description: 'Listen to articles with text-to-speech while doing other activities.',
+        icon: 'headphones'
+      }
+    ]
+  },
+  {
+    id: '345',
+    slug: 'raindropio',
+    name: 'Raindrop.io',
+    tagline: 'All-in-one bookmark manager for organizing web content',
+    description: 'Raindrop.io is a comprehensive bookmark manager enabling users to save, organize, and rediscover web content including articles, videos, images, and pages. Provides collections, tags, full-text search, and visual organization for knowledge workers and researchers.',
+    overview: '',
+    pricingDescription: 'Free tier with unlimited bookmarks and basic features. Pro at $3/month or $28/year adds full-text search, permanent backup, and advanced features. Annual billing offers discount.',
+    logo: '/images/tool-logo/raindropio.webp',
+    website: 'https://raindrop.io',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'bookmarks',
+      'content-organization',
+      'research',
+      'knowledge-management',
+      'web-clipper',
+      'collections',
+      'search',
+      'productivity'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'unified-bookmarks', text: 'Save articles, videos, images, and pages in single organized platform' },
+      { id: 'visual-organization', text: 'Multiple view modes including grid, list, and mood board layouts' },
+      { id: 'full-text-search', text: 'Search within saved content text, not just titles and URLs' },
+      { id: 'collections', text: 'Organize bookmarks in nested collections with tags and filters' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Smart Collections',
+        description: 'Organize bookmarks in nested collections with automatic sorting and filtering.',
+        icon: 'folder'
+      },
+      {
+        id: '2',
+        title: 'Full-Text Search',
+        description: 'Search within article content, not just titles and descriptions.',
+        icon: 'search'
+      },
+      {
+        id: '3',
+        title: 'Visual Previews',
+        description: 'See visual previews of saved content with images and thumbnails.',
+        icon: 'image'
+      }
+    ]
+  },
+  {
+    id: '346',
+    slug: 'simplenote',
+    name: 'Simplenote',
+    tagline: 'Minimalist note-taking app focused on speed and simplicity',
+    description: 'Simplenote is a minimalist note-taking application prioritizing speed, simplicity, and reliability. Provides fast text notes with instant sync across devices without complex features or distractions, serving users wanting straightforward note-taking.',
+    overview: '',
+    pricingDescription: 'Completely free with all features included. No paid tiers, no limitations, no advertisements. Owned by Automattic (WordPress.com parent company) and provided as free service.',
+    logo: '/images/tool-logo/simplenote.webp',
+    website: 'https://simplenote.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'notes',
+      'minimalist',
+      'simple',
+      'fast',
+      'cross-platform',
+      'free',
+      'markdown',
+      'sync'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'completely-free', text: 'All features free forever — no paid tiers or limitations' },
+      { id: 'lightning-fast', text: 'Instant note creation and search with minimal interface overhead' },
+      { id: 'instant-sync', text: 'Real-time synchronization across all devices without delays' },
+      { id: 'version-history', text: 'Automatic version tracking enabling restoration of previous note versions' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Fast Notes',
+        description: 'Create and access notes instantly with minimal interface and fast performance.',
+        icon: 'zap'
+      },
+      {
+        id: '2',
+        title: 'Tag Organization',
+        description: 'Organize notes with tags for flexible categorization and filtering.',
+        icon: 'tag'
+      },
+      {
+        id: '3',
+        title: 'Markdown Support',
+        description: 'Write in markdown with preview option for formatted output.',
+        icon: 'square-pen'
+      }
+    ]
+  },
+  {
+    id: '347',
+    slug: 'slite',
+    name: 'Slite',
+    tagline: 'Knowledge base and team wiki for modern workplaces',
+    description: 'Slite is a team knowledge base and wiki platform enabling organizations to document processes, share knowledge, and maintain company information in centralized, searchable location. Serves modern teams wanting accessible documentation without wiki complexity.',
+    overview: '',
+    pricingDescription: 'Free tier with 50 documents. Standard at $8/user/month for unlimited documents. Premium at $12.50/user/month with advanced features and analytics. Enterprise with custom pricing for large organizations.',
+    logo: '/images/tool-logo/slite.webp',
+    website: 'https://slite.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'knowledge-base',
+      'wiki',
+      'documentation',
+      'team-collaboration',
+      'company-wiki',
+      'processes',
+      'onboarding',
+      'internal-docs'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'team-knowledge', text: 'Centralized knowledge base for company processes and documentation' },
+      { id: 'beautiful-editor', text: 'Modern document editor with templates and rich content support' },
+      { id: 'powerful-search', text: 'Search across all documents finding information instantly' },
+      { id: 'onboarding', text: 'Streamline new employee onboarding with organized documentation' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Document Creation',
+        description: 'Create rich documents with templates, images, embeds, and formatting.',
+        icon: 'file-text'
+      },
+      {
+        id: '2',
+        title: 'Knowledge Organization',
+        description: 'Organize documents in collections and channels with hierarchical structure.',
+        icon: 'folder'
+      },
+      {
+        id: '3',
+        title: 'Team Collaboration',
+        description: 'Collaborate on documents with comments, mentions, and real-time editing.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '348',
+    slug: 'smartsheet',
+    name: 'Smartsheet',
+    tagline: 'Enterprise work management platform with spreadsheet familiarity',
+    description: 'Smartsheet is an enterprise work management platform combining spreadsheet familiarity with powerful project management, automation, and collaboration features. Serves organizations managing complex projects, processes, and workflows at scale.',
+    overview: '',
+    pricingDescription: 'Free tier with limited features. Pro at $7/user/month for basic project management. Business at $25/user/month with advanced automation and reporting. Enterprise with custom pricing for large organizations. Annual billing required.',
+    logo: '/images/tool-logo/smartsheet.webp',
+    website: 'https://smartsheet.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'project-management',
+      'work-management',
+      'enterprise',
+      'spreadsheets',
+      'automation',
+      'collaboration',
+      'gantt-charts',
+      'workflows'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'spreadsheet-familiar', text: 'Spreadsheet-like interface reducing learning curve for Excel users' },
+      { id: 'enterprise-scale', text: 'Handles complex projects and processes for large organizations' },
+      { id: 'automation', text: 'Powerful workflow automation reducing manual repetitive work' },
+      { id: 'multiple-views', text: 'Grid, Gantt, calendar, and card views for different perspectives' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Grid View',
+        description: 'Spreadsheet-like grid with formulas, conditional formatting, and data validation.',
+        icon: 'table'
+      },
+      {
+        id: '2',
+        title: 'Workflow Automation',
+        description: 'Automate approvals, notifications, and updates based on triggers and conditions.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'Dashboards',
+        description: 'Create visual dashboards with charts, metrics, and real-time data.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '349',
+    slug: 'standardnotes',
+    name: 'Standard Notes',
+    tagline: 'Privacy-focused notes app with end-to-end encryption',
+    description: 'Standard Notes is a privacy-focused note-taking application providing end-to-end encryption and open-source transparency. Serves privacy-conscious users wanting secure note-taking without sacrificing features or usability.',
+    overview: '',
+    pricingDescription: 'Free tier with basic encrypted notes. Professional at $8.99/month or $89/year unlocks themes, editors, and advanced features. Lifetime purchase option available. All plans include end-to-end encryption.',
+    logo: '/images/tool-logo/standardnotes.webp',
+    website: 'https://standardnotes.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'notes',
+      'privacy',
+      'encryption',
+      'open-source',
+      'security',
+      'cross-platform',
+      'markdown',
+      'e2e-encryption'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'e2e-encryption', text: 'End-to-end encryption ensuring only you can read your notes' },
+      { id: 'open-source', text: 'Fully open-source with transparent security implementation' },
+      { id: 'extensible', text: 'Extend with themes, editors, and components while maintaining privacy' },
+      { id: 'long-term-focus', text: 'Built for longevity with sustainable business model and data portability' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Encrypted Notes',
+        description: 'Create and sync notes with end-to-end encryption across all devices.',
+        icon: 'lock'
+      },
+      {
+        id: '2',
+        title: 'Editors & Themes',
+        description: 'Extend with markdown editors, rich text, spreadsheets, and custom themes.',
+        icon: 'palette'
+      },
+      {
+        id: '3',
+        title: 'Tags & Organization',
+        description: 'Organize notes with tags, smart views, and nested folders.',
+        icon: 'tag'
+      }
+    ]
+  },
+  {
+    id: '350',
+    slug: 'teamgantt',
+    name: 'TeamGantt',
+    tagline: 'Beautiful Gantt chart software for project planning and collaboration',
+    description: 'TeamGantt provides beautiful, intuitive Gantt chart software for project planning and team collaboration. Enables project managers to create visual project timelines, manage resources, and track progress with drag-and-drop simplicity.',
+    overview: '',
+    pricingDescription: 'Free tier with 1 project and 60 tasks. Standard at $24.95/user/month for unlimited projects. Advanced at $29.95/user/month with advanced features and integrations. Annual billing offers discount.',
+    logo: '/images/tool-logo/teamgantt.webp',
+    website: 'https://teamgantt.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'gantt-chart',
+      'project-management',
+      'timeline',
+      'scheduling',
+      'collaboration',
+      'visual-planning',
+      'resource-management',
+      'project-tracking'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'beautiful-design', text: 'Visually appealing Gantt charts with intuitive drag-and-drop interface' },
+      { id: 'easy-collaboration', text: 'Team collaboration with real-time updates and commenting' },
+      { id: 'resource-management', text: 'Assign team members and track workload across projects' },
+      { id: 'multiple-views', text: 'Switch between Gantt, list, and calendar views seamlessly' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Gantt Charts',
+        description: 'Create and customize Gantt charts with drag-and-drop task management.',
+        icon: 'chart-column'
+      },
+      {
+        id: '2',
+        title: 'Task Dependencies',
+        description: 'Link tasks with dependencies showing how delays affect project timeline.',
+        icon: 'link'
+      },
+      {
+        id: '3',
+        title: 'Team Collaboration',
+        description: 'Collaborate with team members through comments, assignments, and updates.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '351',
+    slug: 'teamwork',
+    name: 'Teamwork',
+    tagline: 'Project management platform for client work and professional services',
+    description: 'Teamwork is a comprehensive project management platform designed specifically for agencies, consultancies, and professional services firms managing client projects. Combines project management, time tracking, resource management, and billing in unified platform.',
+    overview: '',
+    pricingDescription: 'Free tier with limited features for up to 5 users. Deliver at $13.99/user/month for core project management. Grow at $21.99/user/month adding advanced features and automation. Enterprise with custom pricing for large organizations.',
+    logo: '/images/tool-logo/teamwork.webp',
+    website: 'https://teamwork.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'project-management',
+      'client-work',
+      'agencies',
+      'time-tracking',
+      'resource-management',
+      'billing',
+      'professional-services',
+      'collaboration'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'client-focused', text: 'Built for agencies and professional services managing client projects' },
+      { id: 'time-tracking', text: 'Built-in time tracking connecting work to billing and profitability' },
+      { id: 'resource-management', text: 'Visual resource allocation preventing team overload and optimizing utilization' },
+      { id: 'profitability', text: 'Project profitability tracking showing revenue versus costs in real-time' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Project Management',
+        description: 'Manage projects with tasks, milestones, Gantt charts, and multiple view options.',
+        icon: 'clipboard-list'
+      },
+      {
+        id: '2',
+        title: 'Time Tracking',
+        description: 'Track time against tasks and projects with timer and manual entry options.',
+        icon: 'clock'
+      },
+      {
+        id: '3',
+        title: 'Resource Planning',
+        description: 'Visual workload management showing team capacity and allocation across projects.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '352',
+    slug: 'things3',
+    name: 'Things 3',
+    tagline: 'Elegant task manager for Apple devices with beautiful design',
+    description: 'Things 3 is a premium task management application designed exclusively for Apple devices. Combines beautiful design with powerful organization through areas, projects, and checklists for individuals wanting elegant personal productivity.',
+    overview: '',
+    pricingDescription: 'One-time purchase: $49.99 for Mac, $9.99 for iPhone, $9.99 for iPad. No subscription required. Lifetime updates within major version. Apple-only platform.',
+    logo: '/images/tool-logo/things3.webp',
+    website: 'https://culturedcode.com/things',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'task-management',
+      'apple',
+      'personal-productivity',
+      'gtD',
+      'beautiful-design',
+      'one-time-purchase',
+      'ios',
+      'mac'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'beautiful-design', text: 'Award-winning design with elegant animations and thoughtful interactions' },
+      { id: 'apple-native', text: 'Designed exclusively for Mac, iPhone, and iPad with native platform integration' },
+      { id: 'one-time-purchase', text: 'Single purchase with no subscription — own your productivity tool forever' },
+      { id: 'gtd-support', text: 'Implements Getting Things Done methodology with areas, projects, and next actions' }
+    ],
+    platforms: ['mac', 'ios'],
+    features: [
+      {
+        id: '1',
+        title: 'Areas & Projects',
+        description: 'Organize tasks in life areas containing projects with actionable tasks.',
+        icon: 'folder'
+      },
+      {
+        id: '2',
+        title: 'Today View',
+        description: 'Focused view showing today\'s tasks, scheduled items, and deadlines.',
+        icon: 'calendar'
+      },
+      {
+        id: '3',
+        title: 'Quick Entry',
+        description: 'Capture tasks instantly from anywhere with keyboard shortcuts and Siri.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '353',
+    slug: 'ticktick',
+    name: 'TickTick',
+    tagline: 'All-in-one task manager with calendar, habits, and Pomodoro timer',
+    description: 'TickTick is a comprehensive task management platform combining to-do lists, calendar, habit tracking, and Pomodoro timer in single application. Serves individuals and teams wanting unified productivity without multiple apps.',
+    overview: '',
+    pricingDescription: 'Free tier with basic features and limited lists. Premium at $2.79/month or $27.99/year unlocks unlimited lists, calendar view, and advanced features. Annual billing offers discount.',
+    logo: '/images/tool-logo/ticktick.webp',
+    website: 'https://ticktick.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'task-management',
+      'calendar',
+      'habits',
+      'pomodoro',
+      'productivity',
+      'cross-platform',
+      'time-management',
+      'all-in-one'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'all-in-one', text: 'Tasks, calendar, habits, and Pomodoro timer in single application' },
+      { id: 'cross-platform', text: 'Available on Windows, Mac, Linux, iOS, Android, and web with seamless sync' },
+      { id: 'calendar-integration', text: 'Two-way calendar sync with Google Calendar, Outlook, and Apple Calendar' },
+      { id: 'habit-tracking', text: 'Built-in habit tracker with streaks and statistics for building routines' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Task Management',
+        description: 'Organize tasks in lists with subtasks, priorities, tags, and due dates.',
+        icon: 'square-check'
+      },
+      {
+        id: '2',
+        title: 'Calendar View',
+        description: 'View tasks on calendar with drag-and-drop scheduling and time blocking.',
+        icon: 'calendar'
+      },
+      {
+        id: '3',
+        title: 'Habit Tracker',
+        description: 'Track daily habits with streaks, reminders, and progress statistics.',
+        icon: 'repeat'
+      }
+    ]
+  },
+  {
+    id: '354',
+    slug: 'ulysses',
+    name: 'Ulysses',
+    tagline: 'Professional writing app for authors, journalists, and bloggers',
+    description: 'Ulysses is a professional writing application designed for long-form content creation. Provides markdown editing, project organization, publishing capabilities, and distraction-free writing environment for serious writers.',
+    overview: '',
+    pricingDescription: 'Subscription at $5.99/month or $49.99/year for all Apple devices. Includes all features and updates. Apple-only platform (Mac, iPhone, iPad).',
+    logo: '/images/tool-logo/ulysses.webp',
+    website: 'https://ulysses.app',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'writing',
+      'markdown',
+      'authors',
+      'blogging',
+      'publishing',
+      'apple',
+      'long-form',
+      'distraction-free'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'professional-writing', text: 'Built for serious writers creating books, articles, and long-form content' },
+      { id: 'markdown-power', text: 'Full markdown support with live preview and export to multiple formats' },
+      { id: 'publishing', text: 'Direct publishing to WordPress, Medium, Ghost, and other platforms' },
+      { id: 'project-organization', text: 'Organize long works in chapters, scenes, and sections with flexible structure' }
+    ],
+    platforms: ['mac', 'ios'],
+    features: [
+      {
+        id: '1',
+        title: 'Markdown Editor',
+        description: 'Write in markdown with live preview, syntax highlighting, and formatting shortcuts.',
+        icon: 'square-pen'
+      },
+      {
+        id: '2',
+        title: 'Publishing',
+        description: 'Publish directly to WordPress, Medium, Ghost, and export to multiple formats.',
+        icon: 'upload'
+      },
+      {
+        id: '3',
+        title: 'Writing Goals',
+        description: 'Set word count goals and track writing progress with statistics and streaks.',
+        icon: 'target'
+      }
+    ]
+  },
+  {
+    id: '355',
+    slug: 'zohoone',
+    name: 'Zoho One',
+    tagline: 'Complete business operating system with 45+ integrated applications',
+    description: 'Zoho One is a comprehensive business platform providing 45+ integrated applications covering CRM, finance, HR, marketing, sales, support, and operations. Serves small to mid-market businesses wanting unified business management without assembling multiple vendors.',
+    overview: '',
+    pricingDescription: 'All Employee Pricing at $37/user/month requires licensing all employees. Flexible User Pricing at $105/user/month allows licensing specific users. Annual billing required. Includes all 45+ Zoho applications.',
+    logo: '/images/tool-logo/zohoone.webp',
+    website: 'https://zoho.com/one',
+    affiliateUrl: null,
+    categories: ['productivity', 'crm'],
+    tags: [
+      'business-suite',
+      'all-in-one',
+      'zoho-ecosystem',
+      'crm',
+      'finance',
+      'hr',
+      'marketing',
+      'unified-platform'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'complete-suite', text: '45+ integrated applications covering entire business operations in single platform' },
+      { id: 'unified-data', text: 'Shared data across all applications eliminating silos and duplicate entry' },
+      { id: 'cost-effective', text: 'Dramatically lower cost than assembling equivalent capabilities from multiple vendors' },
+      { id: 'scalable', text: 'Scales from small businesses to mid-market organizations without platform changes' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Business Applications',
+        description: 'Access to CRM, Books, People, Mail, Campaigns, Projects, and 40+ more applications.',
+        icon: 'grid-2x2'
+      },
+      {
+        id: '2',
+        title: 'Unified Analytics',
+        description: 'Cross-application analytics and reporting combining data from all business functions.',
+        icon: 'chart-column'
+      },
+      {
+        id: '3',
+        title: 'Workflow Automation',
+        description: 'Automate processes spanning multiple applications with visual workflow builder.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '356',
+    slug: 'shortcut',
+    name: 'Shortcut',
+    tagline: 'Project management platform built for software development teams',
+    description: 'Shortcut (formerly Clubhouse) is a project management platform designed specifically for software development teams. Combines story-based planning, sprint management, and GitHub/GitLab integration for agile development workflows.',
+    overview: '',
+    pricingDescription: 'Free for up to 10 users with core features. Team at $8.50/user/month for advanced features and integrations. Business at $12/user/month with enhanced security and support. Enterprise with custom pricing.',
+    logo: '/images/tool-logo/shortcut.webp',
+    website: 'https://shortcut.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'project-management',
+      'software-development',
+      'agile',
+      'scrum',
+      'kanban',
+      'github-integration',
+      'sprints',
+      'developer-tools'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'developer-focused', text: 'Built specifically for software development teams and agile workflows' },
+      { id: 'story-based', text: 'Plan work as user stories with epics, milestones, and iterations' },
+      { id: 'git-integration', text: 'Deep integration with GitHub and GitLab connecting code to project planning' },
+      { id: 'agile-tools', text: 'Sprint planning, velocity tracking, and burndown charts for agile teams' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Stories & Epics',
+        description: 'Plan work as user stories organized in epics and milestones for clear hierarchy.',
+        icon: 'book'
+      },
+      {
+        id: '2',
+        title: 'Sprint Management',
+        description: 'Plan and track sprints with velocity charts and burndown tracking.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'GitHub Integration',
+        description: 'Connect stories to GitHub pull requests and commits for code-to-plan visibility.',
+        icon: 'github'
+      }
+    ]
+  },
+  {
+    id: '357',
+    slug: 'height',
+    name: 'Height',
+    tagline: 'Autonomous project management with AI-powered automation',
+    description: 'Height is an AI-native project management platform that autonomously handles routine tasks, updates, and organization. Uses AI to reduce manual project management work while maintaining team visibility and control.',
+    overview: '',
+    pricingDescription: 'Free tier with basic features for small teams. Standard at $12/user/month with AI automation and advanced features. Pro at $24/user/month with enhanced AI capabilities and priority support. Enterprise with custom pricing.',
+    logo: '/images/tool-logo/height.webp',
+    website: 'https://height.app',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'project-management',
+      'ai-automation',
+      'autonomous',
+      'task-management',
+      'collaboration',
+      'modern',
+      'productivity',
+      'teams'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'ai-powered', text: 'AI autonomously handles routine project management tasks and updates' },
+      { id: 'autonomous-organization', text: 'Automatic task organization, prioritization, and status updates' },
+      { id: 'modern-interface', text: 'Clean, fast interface designed for contemporary team workflows' },
+      { id: 'reduced-overhead', text: 'Minimizes manual project management work through intelligent automation' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'AI Automation',
+        description: 'AI automatically organizes tasks, updates statuses, and handles routine management.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Task Management',
+        description: 'Flexible task organization with lists, boards, and timeline views.',
+        icon: 'square-check'
+      },
+      {
+        id: '3',
+        title: 'Team Collaboration',
+        description: 'Real-time collaboration with comments, mentions, and activity feeds.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '358',
+    slug: 'craft',
+    name: 'Craft',
+    tagline: 'Beautiful native document editor for Apple devices',
+    description: 'Craft is a beautiful document and note-taking application designed exclusively for Apple devices. Combines elegant design with powerful organization through nested pages, backlinks, and real-time collaboration for individuals and teams.',
+    overview: '',
+    pricingDescription: 'Free tier with basic features and limited storage. Plus at $4.99/month or $49.99/year for unlimited storage and advanced features. Business at $9.99/user/month for team collaboration. Apple-only platform.',
+    logo: '/images/tool-logo/craft.webp',
+    website: 'https://craft.do',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'notes',
+      'documents',
+      'apple',
+      'beautiful-design',
+      'collaboration',
+      'markdown',
+      'nested-pages',
+      'backlinks'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'beautiful-design', text: 'Award-winning design with elegant typography and thoughtful interactions' },
+      { id: 'apple-native', text: 'Designed exclusively for Mac, iPhone, and iPad with native platform features' },
+      { id: 'nested-pages', text: 'Organize documents in nested hierarchy with unlimited depth' },
+      { id: 'real-time-collaboration', text: 'Collaborate in real-time with team members on shared documents' }
+    ],
+    platforms: ['mac', 'ios'],
+    features: [
+      {
+        id: '1',
+        title: 'Document Editor',
+        description: 'Rich document editor with blocks, markdown support, and beautiful formatting.',
+        icon: 'file-text'
+      },
+      {
+        id: '2',
+        title: 'Nested Organization',
+        description: 'Organize documents in nested pages with drag-and-drop hierarchy management.',
+        icon: 'folder'
+      },
+      {
+        id: '3',
+        title: 'Backlinks',
+        description: 'Automatic backlinks showing which documents reference the current page.',
+        icon: 'link'
+      }
+    ]
+  },
+  {
+    id: '359',
+    slug: 'adobexd',
+    name: 'Adobe XD',
+    tagline: 'UI/UX design and prototyping tool for digital experiences',
+    description: 'Adobe XD is a vector-based user experience design tool for creating wireframes, prototypes, and designs for web and mobile applications. Part of Adobe Creative Cloud with deep integration across Adobe ecosystem.',
+    overview: '',
+    pricingDescription: 'Included with Adobe Creative Cloud All Apps at $54.99/month. Single App at $9.99/month for XD only. Free starter plan available with limited features. Annual billing offers discount.',
+    logo: '/images/tool-logo/adobexd.webp',
+    website: 'https://adobe.com/products/xd',
+    affiliateUrl: null,
+    categories: ['design'],
+    tags: [
+      'ui-design',
+      'ux-design',
+      'prototyping',
+      'wireframing',
+      'adobe',
+      'creative-cloud',
+      'collaboration',
+      'vector'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'vector-design', text: 'Vector-based design tools for creating scalable UI designs' },
+      { id: 'interactive-prototypes', text: 'Build interactive prototypes with auto-animate and voice prototyping' },
+      { id: 'adobe-integration', text: 'Seamless integration with Photoshop, Illustrator, and After Effects' },
+      { id: 'collaboration', text: 'Real-time co-editing and design sharing with stakeholders' }
+    ],
+    platforms: ['windows', 'mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Design Tools',
+        description: 'Vector drawing tools, repeat grids, and component libraries for UI design.',
+        icon: 'pen-tool'
+      },
+      {
+        id: '2',
+        title: 'Prototyping',
+        description: 'Create interactive prototypes with transitions, auto-animate, and voice commands.',
+        icon: 'play'
+      },
+      {
+        id: '3',
+        title: 'Collaboration',
+        description: 'Share designs, gather feedback, and co-edit in real-time with team members.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '360',
+    slug: 'affinitydesigner',
+    name: 'Affinity Designer',
+    tagline: 'Professional vector graphics editor with one-time purchase',
+    description: 'Affinity Designer is a professional vector graphics editor providing illustration, UI design, and typography tools without subscription pricing. Serves designers wanting professional capabilities with perpetual licensing.',
+    overview: '',
+    pricingDescription: 'One-time purchase at $69.99 for desktop (Windows or Mac). iPad version at $23.99 one-time. Universal License at $169.99 includes all Affinity apps on all platforms. No subscription required. Free trial available.',
+    logo: '/images/tool-logo/affinitydesigner.webp',
+    website: 'https://affinity.serif.com/designer',
+    affiliateUrl: null,
+    categories: ['design'],
+    tags: [
+      'vector-graphics',
+      'illustration',
+      'one-time-purchase',
+      'professional',
+      'ui-design',
+      'typography',
+      'no-subscription',
+      'alternative'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'one-time-purchase', text: 'Perpetual license with no subscription — own your design tool forever' },
+      { id: 'professional-features', text: 'Professional vector tools matching Adobe Illustrator capabilities' },
+      { id: 'vector-raster-switch', text: 'Switch between vector and raster workspaces within single document' },
+      { id: 'performance', text: 'Optimized performance handling complex documents with thousands of objects' }
+    ],
+    platforms: ['windows', 'mac', 'ios'],
+    features: [
+      {
+        id: '1',
+        title: 'Vector Tools',
+        description: 'Professional pen tool, shapes, typography, and vector editing capabilities.',
+        icon: 'pen-tool'
+      },
+      {
+        id: '2',
+        title: 'Artboards',
+        description: 'Multiple artboards for designing across different sizes and formats.',
+        icon: 'layout-freeform'
+      },
+      {
+        id: '3',
+        title: 'Export Options',
+        description: 'Export to SVG, PDF, PNG, JPEG, and other formats with precise control.',
+        icon: 'download'
+      }
+    ]
+  },
+  {
+    id: '361',
+    slug: 'aftereffects',
+    name: 'After Effects',
+    tagline: 'Industry-standard motion graphics and visual effects software',
+    description: 'Adobe After Effects is the industry-standard motion graphics and visual effects software used in film, television, and web content creation. Provides compositing, animation, and effects capabilities for professional motion design.',
+    overview: '',
+    pricingDescription: 'Included with Adobe Creative Cloud All Apps at $54.99/month. Single App at $22.99/month for After Effects only. Annual billing offers discount. Free trial available.',
+    logo: '/images/tool-logo/aftereffects.webp',
+    website: 'https://adobe.com/products/aftereffects',
+    affiliateUrl: null,
+    categories: ['design', 'media'],
+    tags: [
+      'motion-graphics',
+      'visual-effects',
+      'animation',
+      'compositing',
+      'adobe',
+      'creative-cloud',
+      'video-production',
+      'vfx'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'industry-standard', text: 'The standard tool for motion graphics and VFX in film and television' },
+      { id: 'compositing', text: 'Professional compositing with layers, masks, and blending modes' },
+      { id: 'animation-tools', text: 'Keyframe animation, expressions, and motion tracking capabilities' },
+      { id: 'plugin-ecosystem', text: 'Extensive third-party plugin ecosystem extending capabilities' }
+    ],
+    platforms: ['windows', 'mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Motion Graphics',
+        description: 'Create animated titles, lower thirds, transitions, and motion graphics.',
+        icon: 'zap'
+      },
+      {
+        id: '2',
+        title: 'Visual Effects',
+        description: 'Apply visual effects, compositing, and green screen keying to video.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'Expressions',
+        description: 'JavaScript-based expressions for automating animations and linking properties.',
+        icon: 'code'
+      }
+    ]
+  },
+  {
+    id: '362',
+    slug: 'axure',
+    name: 'Axure RP',
+    tagline: 'Professional prototyping tool for complex interactive designs',
+    description: 'Axure RP is a professional prototyping tool enabling UX designers to create realistic, interactive prototypes without coding. Provides advanced conditional logic, dynamic content, and documentation capabilities for complex application prototypes.',
+    overview: '',
+    pricingDescription: 'Standard at $25/user/month for core prototyping features. Team at $50/user/month adding collaboration and Axure Cloud features. Annual billing offers discount. Perpetual licenses available for enterprises.',
+    logo: '/images/tool-logo/axure.webp',
+    website: 'https://axure.com',
+    affiliateUrl: null,
+    categories: ['design'],
+    tags: [
+      'prototyping',
+      'ux-design',
+      'wireframing',
+      'interactive',
+      'documentation',
+      'enterprise',
+      'no-code',
+      'user-testing'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'complex-prototypes', text: 'Build prototypes with conditional logic, variables, and dynamic content' },
+      { id: 'documentation', text: 'Generate specifications and documentation alongside interactive prototypes' },
+      { id: 'enterprise-ready', text: 'Advanced features for large organizations and complex applications' },
+      { id: 'no-coding', text: 'Create sophisticated interactions without writing code' }
+    ],
+    platforms: ['windows', 'mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Interactive Prototyping',
+        description: 'Build prototypes with conditional logic, dynamic panels, and adaptive views.',
+        icon: 'zap'
+      },
+      {
+        id: '2',
+        title: 'Documentation',
+        description: 'Generate specifications, flow diagrams, and requirements documentation.',
+        icon: 'file-text'
+      },
+      {
+        id: '3',
+        title: 'Widget Libraries',
+        description: 'Pre-built UI components and customizable widget libraries for rapid prototyping.',
+        icon: 'grid-2x2'
+      }
+    ]
+  },
+  {
+    id: '363',
+    slug: 'balsamiq',
+    name: 'Balsamiq',
+    tagline: 'Rapid wireframing tool mimicking sketching on whiteboard',
+    description: 'Balsamiq is a rapid wireframing tool that reproduces the experience of sketching on a whiteboard or notepad. Enables quick low-fidelity wireframes for early-stage design thinking and user flow planning.',
+    overview: '',
+    pricingDescription: 'Cloud at $9/month for 3 projects. Cloud at $29/month for unlimited projects. Desktop at $99 one-time purchase for single user. Annual billing offers discount. 30-day free trial available.',
+    logo: '/images/tool-logo/balsamiq.webp',
+    website: 'https://balsamiq.com',
+    affiliateUrl: null,
+    categories: ['design'],
+    tags: [
+      'wireframing',
+      'rapid-prototyping',
+      'low-fidelity',
+      'ux-design',
+      'sketching',
+      'simple',
+      'brainstorming',
+      'early-design'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'rapid-wireframing', text: 'Create wireframes quickly with drag-and-drop components' },
+      { id: 'sketch-aesthetic', text: 'Hand-drawn style focusing on structure over visual polish' },
+      { id: 'simple-interface', text: 'Minimal learning curve enabling immediate productivity' },
+      { id: 'focus-on-ideas', text: 'Low-fidelity approach preventing distraction by visual details' }
+    ],
+    platforms: ['web', 'windows', 'mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Drag-and-Drop',
+        description: 'Drag pre-built UI components to quickly create wireframe layouts.',
+        icon: 'mouse-pointer'
+      },
+      {
+        id: '2',
+        title: 'UI Library',
+        description: 'Pre-built UI components for web, mobile, and desktop applications.',
+        icon: 'grid-2x2'
+      },
+      {
+        id: '3',
+        title: 'Quick Sharing',
+        description: 'Share wireframes via links, PDFs, or images for stakeholder feedback.',
+        icon: 'share-2'
+      }
+    ]
+  },
+  {
+    id: '364',
+    slug: 'behance',
+    name: 'Behance',
+    tagline: 'Creative portfolio platform for showcasing design work',
+    description: 'Behance is Adobe\'s platform for creative professionals to showcase portfolios, discover inspiration, and connect with opportunities. Serves designers, illustrators, photographers, and creative professionals building their professional presence.',
+    overview: '',
+    pricingDescription: 'Completely free for all users. No paid tiers or premium features. Included with Adobe Creative Cloud but available to anyone with free Adobe account. Monetized through job board and recruitment features.',
+    logo: '/images/tool-logo/behance.webp',
+    website: 'https://behance.net',
+    affiliateUrl: null,
+    categories: ['design', 'community'],
+    tags: [
+      'portfolio',
+      'creative-community',
+      'showcase',
+      'inspiration',
+      'networking',
+      'adobe',
+      'designers',
+      'freelance'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'completely-free', text: 'Free portfolio hosting and community access for all creative professionals' },
+      { id: 'professional-showcase', text: 'High-quality presentation of creative work with project case studies' },
+      { id: 'discovery', text: 'Curated galleries and trending work providing creative inspiration' },
+      { id: 'job-board', text: 'Creative job opportunities connecting talent with employers' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Project Showcases',
+        description: 'Create detailed project presentations with images, videos, and descriptions.',
+        icon: 'image'
+      },
+      {
+        id: '2',
+        title: 'Creative Discovery',
+        description: 'Browse curated galleries and trending work across creative disciplines.',
+        icon: 'compass'
+      },
+      {
+        id: '3',
+        title: 'Job Board',
+        description: 'Find creative job opportunities and freelance projects.',
+        icon: 'briefcase'
+      }
+    ]
+  },
+  {
+    id: '365',
+    slug: 'blender',
+    name: 'Blender',
+    tagline: 'Free open-source 3D creation suite for modeling, animation, and rendering',
+    description: 'Blender is a professional open-source 3D creation suite supporting the complete 3D pipeline — modeling, sculpting, animation, simulation, rendering, compositing, motion tracking, and video editing. Free forever with capabilities matching expensive proprietary software.',
+    overview: '',
+    pricingDescription: 'Completely free and open-source under GPL license. No paid tiers, subscriptions, or feature limitations. Funded through donations, corporate sponsorships, and Blender Foundation support. Available for Windows, Mac, and Linux.',
+    logo: '/images/tool-logo/blender.webp',
+    website: 'https://blender.org',
+    affiliateUrl: null,
+    categories: ['design', 'media'],
+    tags: [
+      '3d-modeling',
+      'animation',
+      'rendering',
+      'open-source',
+      'free',
+      'sculpting',
+      'visual-effects',
+      'professional'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'completely-free', text: 'Professional 3D software free forever with no limitations' },
+      { id: 'complete-pipeline', text: 'Full 3D creation pipeline from modeling to final render in single application' },
+      { id: 'open-source', text: 'Fully open-source with transparent development and community contributions' },
+      { id: 'professional-quality', text: 'Used in professional film, game, and VFX production worldwide' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Modeling & Sculpting',
+        description: 'Professional polygonal modeling, sculpting, and retopology tools.',
+        icon: 'box'
+      },
+      {
+        id: '2',
+        title: 'Animation & Rigging',
+        description: 'Character rigging, keyframe animation, and motion capture integration.',
+        icon: 'activity'
+      },
+      {
+        id: '3',
+        title: 'Rendering',
+        description: 'Cycles and Eevee render engines for photorealistic and real-time rendering.',
+        icon: 'sun'
+      }
+    ]
+  },
+  {
+    id: '366',
+    slug: 'dora',
+    name: 'Dora',
+    tagline: 'AI-powered 3D website builder for designers',
+    description: 'Dora is an AI-powered website builder enabling designers to create 3D animated websites without coding. Combines visual design tools with AI generation and 3D capabilities for next-generation web experiences.',
+    overview: '',
+    pricingDescription: 'Free tier with limited projects and Dora branding. Pro at $20/month for unlimited projects and custom domains. Team at $40/user/month adding collaboration features. Annual billing offers discount.',
+    logo: '/images/tool-logo/dora.webp',
+    website: 'https://dora.run',
+    affiliateUrl: null,
+    categories: ['design', 'web-development'],
+    tags: [
+      'website-builder',
+      'ai-design',
+      '3d-web',
+      'no-code',
+      'animation',
+      'designers',
+      'interactive',
+      'modern'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: '3d-capabilities', text: 'Create 3D animated websites without WebGL programming knowledge' },
+      { id: 'ai-generation', text: 'AI-powered generation of layouts, animations, and 3D elements' },
+      { id: 'visual-design', text: 'Visual design interface familiar to designers from tools like Figma' },
+      { id: 'no-coding', text: 'Build complex interactive websites without writing code' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: '3D Web Design',
+        description: 'Create 3D scenes, animations, and interactive web experiences visually.',
+        icon: 'box'
+      },
+      {
+        id: '2',
+        title: 'AI Assistant',
+        description: 'AI generates layouts, animations, and design suggestions from descriptions.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'Animation Tools',
+        description: 'Create scroll-triggered animations and interactive effects without code.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '367',
+    slug: 'dribbble',
+    name: 'Dribbble',
+    tagline: 'Design community and portfolio platform for creative professionals',
+    description: 'Dribbble is a design community platform where designers share work-in-progress shots, get feedback, and showcase portfolios. Serves UI/UX designers, illustrators, and visual designers building professional presence and connecting with opportunities.',
+    overview: '',
+    pricingDescription: 'Free for basic portfolio and community access. Pro at $12/month for advanced portfolio features and job board access. Teams at $24/user/month for team portfolios and hiring features. Annual billing offers discount.',
+    logo: '/images/tool-logo/dribbble.webp',
+    website: 'https://dribbble.com',
+    affiliateUrl: null,
+    categories: ['design', 'community'],
+    tags: [
+      'design-community',
+      'portfolio',
+      'inspiration',
+      'ui-design',
+      'networking',
+      'freelance',
+      'hiring',
+      'feedback'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'design-showcase', text: 'Share design work-in-progress shots and finished projects' },
+      { id: 'community-feedback', text: 'Get feedback and appreciation from fellow designers worldwide' },
+      { id: 'inspiration', text: 'Discover trending design work and creative inspiration daily' },
+      { id: 'hiring-platform', text: 'Connect with job opportunities and freelance projects' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Shots',
+        description: 'Share design work as shots with descriptions, tags, and project links.',
+        icon: 'camera'
+      },
+      {
+        id: '2',
+        title: 'Portfolio',
+        description: 'Build professional portfolio showcasing design work and case studies.',
+        icon: 'briefcase'
+      },
+      {
+        id: '3',
+        title: 'Job Board',
+        description: 'Find design job opportunities and freelance projects.',
+        icon: 'search'
+      }
+    ]
+  },
+  {
+    id: '368',
+    slug: 'envatoelements',
+    name: 'Envato Elements',
+    tagline: 'Unlimited creative assets subscription for designers and creators',
+    description: 'Envato Elements provides unlimited downloads of creative assets including stock photos, videos, music, templates, graphics, fonts, and design templates. Serves designers, marketers, and content creators needing diverse creative resources.',
+    overview: '',
+    pricingDescription: 'Individual at $16.50/month for unlimited downloads. Team at $39.90/month for 2 users. Enterprise with custom pricing for large teams. Annual billing offers 2 months free. All plans include unlimited downloads.',
+    logo: '/images/tool-logo/envatoelements.webp',
+    website: 'https://elements.envato.com',
+    affiliateUrl: null,
+    categories: ['design', 'media'],
+    tags: [
+      'creative-assets',
+      'stock-photos',
+      'templates',
+      'graphics',
+      'music',
+      'video',
+      'subscription',
+      'unlimited'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'unlimited-downloads', text: 'Download unlimited assets from millions of creative resources' },
+      { id: 'diverse-library', text: 'Photos, videos, music, templates, graphics, fonts, and more in single subscription' },
+      { id: 'commercial-license', text: 'All assets include commercial license for client and business use' },
+      { id: 'quality-curation', text: 'Professionally curated assets maintaining consistent quality standards' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Stock Library',
+        description: 'Access millions of stock photos, videos, music tracks, and sound effects.',
+        icon: 'image'
+      },
+      {
+        id: '2',
+        title: 'Templates',
+        description: 'Download design templates for presentations, social media, websites, and more.',
+        icon: 'layout-template'
+      },
+      {
+        id: '3',
+        title: 'Graphics & Fonts',
+        description: 'Access vector graphics, illustrations, icons, and premium fonts.',
+        icon: 'palette'
+      }
+    ]
+  },
+  {
+    id: '369',
+    slug: 'figma',
+    name: 'Figma',
+    tagline: 'Collaborative interface design tool for teams',
+    description: 'Figma is a cloud-based design tool enabling real-time collaboration for UI/UX design, prototyping, and design systems. The platform has become the industry standard for product design teams working together on digital interfaces.',
+    overview: '',
+    pricingDescription: 'Free tier with unlimited personal files and 3 Figma files per team. Professional at $12/editor/month with unlimited files and team libraries. Organization at $45/editor/month with advanced admin controls and design systems. Enterprise with custom pricing for large organizations.',
+    logo: '/images/tool-logo/figma.webp',
+    website: 'https://figma.com',
+    affiliateUrl: null,
+    categories: ['design', 'productivity'],
+    tags: [
+      'ui-design',
+      'ux-design',
+      'collaboration',
+      'prototyping',
+      'design-systems',
+      'real-time',
+      'vector',
+      'teams'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'real-time-collaboration', text: 'Multiple designers edit simultaneously with live cursors and instant sync' },
+      { id: 'browser-native', text: 'Works in browser without installation with desktop app option' },
+      { id: 'design-systems', text: 'Shared component libraries ensuring consistency across products' },
+      { id: 'developer-handoff', text: 'Automatic code generation and specs for development teams' }
+    ],
+    platforms: ['web', 'windows', 'mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Vector Design',
+        description: 'Professional vector tools for creating interfaces, icons, and illustrations.',
+        icon: 'pen-tool'
+      },
+      {
+        id: '2',
+        title: 'Prototyping',
+        description: 'Interactive prototypes with transitions, animations, and user flows.',
+        icon: 'play'
+      },
+      {
+        id: '3',
+        title: 'Components',
+        description: 'Reusable components with variants ensuring design system consistency.',
+        icon: 'copy'
+      }
+    ]
+  },
+  {
+    id: '370',
+    slug: 'freepik',
+    name: 'Freepik',
+    tagline: 'Creative resources platform with millions of free and premium assets',
+    description: 'Freepik provides millions of graphic resources including vectors, photos, PSD files, icons, and illustrations for designers and marketers. Offers both free and premium content with flexible licensing for commercial use.',
+    overview: '',
+    pricingDescription: 'Free tier with attribution requirement and daily download limits. Premium at €9.99/month for unlimited downloads without attribution. Annual billing offers discount. Team plans available for organizations.',
+    logo: '/images/tool-logo/freepik.webp',
+    website: 'https://freepik.com',
+    affiliateUrl: null,
+    categories: ['design', 'media'],
+    tags: [
+      'stock-assets',
+      'vectors',
+      'photos',
+      'psd',
+      'icons',
+      'illustrations',
+      'creative-resources',
+      'commercial-license'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'massive-library', text: 'Millions of vectors, photos, PSDs, and illustrations in single platform' },
+      { id: 'free-tier', text: 'Extensive free content with attribution for budget-conscious creators' },
+      { id: 'commercial-use', text: 'Clear licensing enabling commercial use in client and business projects' },
+      { id: 'daily-updates', text: 'New content added daily keeping library fresh and current' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Vector Graphics',
+        description: 'Download editable vector files in AI, EPS, and SVG formats.',
+        icon: 'pen-tool'
+      },
+      {
+        id: '2',
+        title: 'PSD Templates',
+        description: 'Layered Photoshop files for mockups, social media, and print design.',
+        icon: 'image'
+      },
+      {
+        id: '3',
+        title: 'Stock Photos',
+        description: 'High-quality photos for websites, marketing, and editorial use.',
+        icon: 'camera'
+      }
+    ]
+  },
+  {
+    id: '371',
+    slug: 'illustrator',
+    name: 'Adobe Illustrator',
+    tagline: 'Industry-standard vector graphics editor for illustration and design',
+    description: 'Adobe Illustrator is the professional vector graphics editor used by designers worldwide for creating logos, icons, illustrations, typography, and complex vector artwork. Part of Adobe Creative Cloud with decades of industry adoption.',
+    overview: '',
+    pricingDescription: 'Included with Creative Cloud All Apps at $54.99/month. Single App at $22.99/month for Illustrator only. Annual billing offers discount. Free trial available.',
+    logo: '/images/tool-logo/illustrator.webp',
+    website: 'https://adobe.com/products/illustrator',
+    affiliateUrl: null,
+    categories: ['design'],
+    tags: [
+      'vector-graphics',
+      'illustration',
+      'logo-design',
+      'typography',
+      'adobe',
+      'creative-cloud',
+      'professional',
+      'industry-standard'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'industry-standard', text: 'The professional standard for vector graphics used across industries' },
+      { id: 'comprehensive-tools', text: 'Advanced pen tool, typography, and illustration capabilities' },
+      { id: 'creative-cloud', text: 'Seamless integration with Photoshop, InDesign, and After Effects' },
+      { id: 'professional-output', text: 'Print-ready output with color management and prepress features' }
+    ],
+    platforms: ['windows', 'mac', 'ios'],
+    features: [
+      {
+        id: '1',
+        title: 'Vector Drawing',
+        description: 'Professional pen tool, shapes, and path editing for precise vector creation.',
+        icon: 'pen-tool'
+      },
+      {
+        id: '2',
+        title: 'Typography',
+        description: 'Advanced type tools with OpenType features and text manipulation.',
+        icon: 'type'
+      },
+      {
+        id: '3',
+        title: 'Artboards',
+        description: 'Multiple artboards for designing variations and multi-piece projects.',
+        icon: 'layout-freeform'
+      }
+    ]
+  },
+  {
+    id: '372',
+    slug: 'invision',
+    name: 'InVision',
+    tagline: 'Digital product design platform for prototyping and collaboration',
+    description: 'InVision is a digital product design platform enabling teams to create interactive prototypes, collaborate on designs, and manage design workflows. Serves product teams transitioning from design to development.',
+    overview: '',
+    pricingDescription: 'Free tier with 1 prototype and basic features. Starter at $7.95/user/month for unlimited prototypes. Professional at $15/user/month with advanced features. Enterprise with custom pricing for large organizations.',
+    logo: '/images/tool-logo/invision.webp',
+    website: 'https://invisionapp.com',
+    affiliateUrl: null,
+    categories: ['design', 'productivity'],
+    tags: [
+      'prototyping',
+      'collaboration',
+      'design-workflow',
+      'user-testing',
+      'product-design',
+      'stakeholder-review',
+      'handoff',
+      'teams'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'interactive-prototypes', text: 'Create clickable prototypes from static designs for user testing' },
+      { id: 'collaboration', text: 'Real-time collaboration with commenting and feedback collection' },
+      { id: 'design-handoff', text: 'Developer handoff with specs, assets, and code snippets' },
+      { id: 'user-testing', text: 'Built-in user testing capabilities for validating design decisions' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Prototyping',
+        description: 'Transform static designs into interactive prototypes with hotspots and transitions.',
+        icon: 'zap'
+      },
+      {
+        id: '2',
+        title: 'Collaboration',
+        description: 'Comment, annotate, and gather feedback from stakeholders and team members.',
+        icon: 'message-circle'
+      },
+      {
+        id: '3',
+        title: 'Design Management',
+        description: 'Organize designs, versions, and projects in centralized workspace.',
+        icon: 'folder'
+      }
+    ]
+  },
+  {
+    id: '373',
+    slug: 'invisioncommunity',
+    name: 'Invision Community',
+    tagline: 'Community platform for building engaged online communities',
+    description: 'Invision Community (formerly IP.Board) is a comprehensive community platform enabling organizations to build forums, knowledge bases, clubs, and social features. Serves brands, organizations, and communities wanting owned community spaces.',
+    overview: '',
+    pricingDescription: 'Cloud plans starting at $99/month for basic community features. Professional at $249/month with advanced features. Enterprise with custom pricing for large communities. Self-hosted licenses available with annual fees.',
+    logo: '/images/tool-logo/invisioncommunity.webp',
+    website: 'https://invisioncommunity.com',
+    affiliateUrl: null,
+    categories: ['community'],
+    tags: [
+      'forum',
+      'community-platform',
+      'knowledge-base',
+      'clubs',
+      'social-features',
+      'self-hosted',
+      'engagement',
+      'moderation'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'comprehensive-features', text: 'Forums, knowledge base, clubs, galleries, and social features in one platform' },
+      { id: 'self-hosted-option', text: 'Choose between cloud hosting or self-hosted deployment for data control' },
+      { id: 'customization', text: 'Extensive theming and customization options matching brand identity' },
+      { id: 'moderation-tools', text: 'Advanced moderation, spam prevention, and community management tools' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Forums',
+        description: 'Discussion forums with categories, topics, polls, and rich media support.',
+        icon: 'message-square'
+      },
+      {
+        id: '2',
+        title: 'Knowledge Base',
+        description: 'Organized documentation and FAQ sections with search and categorization.',
+        icon: 'book'
+      },
+      {
+        id: '3',
+        title: 'Clubs',
+        description: 'Member-created groups with dedicated spaces, events, and content.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '374',
+    slug: 'marvel',
+    name: 'Marvel',
+    tagline: 'Design and prototyping platform for digital product teams',
+    description: 'Marvel is a design platform enabling teams to create prototypes, conduct user testing, and collaborate on digital product design. Provides tools for wireframing, prototyping, and design handoff in unified platform.',
+    overview: '',
+    pricingDescription: 'Free tier with 1 project and basic features. Pro at $12/month for unlimited projects. Team at $42/month for 2+ users with collaboration features. Enterprise with custom pricing for large organizations.',
+    logo: '/images/tool-logo/marvel.webp',
+    website: 'https://marvelapp.com',
+    affiliateUrl: null,
+    categories: ['design', 'productivity'],
+    tags: [
+      'prototyping',
+      'wireframing',
+      'user-testing',
+      'collaboration',
+      'design-handoff',
+      'product-design',
+      'teams',
+      'feedback'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'quick-prototyping', text: 'Rapidly create interactive prototypes from sketches or designs' },
+      { id: 'user-testing', text: 'Built-in user testing with heatmaps, recordings, and feedback collection' },
+      { id: 'handoff-tools', text: 'Developer handoff with specs, assets, and code generation' },
+      { id: 'integrations', text: 'Connect with Sketch, Photoshop, and other design tools' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Prototyping',
+        description: 'Create interactive prototypes with transitions, gestures, and animations.',
+        icon: 'play'
+      },
+      {
+        id: '2',
+        title: 'User Testing',
+        description: 'Conduct user tests with recordings, heatmaps, and task completion tracking.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Collaboration',
+        description: 'Share prototypes and collect feedback from stakeholders and team members.',
+        icon: 'message-circle'
+      }
+    ]
+  },
+  {
+    id: '375',
+    slug: 'origamistudio',
+    name: 'Origami Studio',
+    tagline: 'Free prototyping tool for designing interactive interfaces',
+    description: 'Origami Studio is a free prototyping tool created by Facebook enabling designers to build interactive prototypes with real device integration. Provides patch-based visual programming for creating sophisticated interactions without coding.',
+    overview: '',
+    pricingDescription: 'Completely free with all features included. No paid tiers or subscriptions. Created and maintained by Facebook/Meta as free tool for design community.',
+    logo: '/images/tool-logo/origamistudio.webp',
+    website: 'https://origami.design',
+    affiliateUrl: null,
+    categories: ['design'],
+    tags: [
+      'prototyping',
+      'interactive-design',
+      'visual-programming',
+      'free',
+      'facebook',
+      'mobile-prototyping',
+      'animations',
+      'gestures'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'completely-free', text: 'All features free forever with no paid tiers or limitations' },
+      { id: 'visual-programming', text: 'Patch-based visual programming enabling complex interactions without code' },
+      { id: 'real-device', text: 'Test prototypes on real iOS and Android devices with live mirroring' },
+      { id: 'sophisticated-interactions', text: 'Create complex animations, gestures, and physics-based interactions' }
+    ],
+    platforms: ['mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Patch Editor',
+        description: 'Visual programming through connecting patches to create interaction logic.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'Device Mirroring',
+        description: 'Test prototypes on real iOS and Android devices with live preview.',
+        icon: 'smartphone'
+      },
+      {
+        id: '3',
+        title: 'Animation System',
+        description: 'Create sophisticated animations with springs, timing, and physics.',
+        icon: 'activity'
+      }
+    ]
+  },
+  {
+    id: '376',
+    slug: 'penpot',
+    name: 'Penpot',
+    tagline: 'Open-source design and prototyping platform for teams',
+    description: 'Penpot is an open-source design and prototyping platform providing collaborative interface design capabilities without vendor lock-in. Serves teams wanting open-source alternatives to proprietary design tools.',
+    overview: '',
+    pricingDescription: 'Completely free and open-source for self-hosting. Penpot Cloud free tier with unlimited files. Paid cloud plans starting at $7/user/month for additional features and support. Self-hosting completely free with full features.',
+    logo: '/images/tool-logo/penpot.webp',
+    website: 'https://penpot.app',
+    affiliateUrl: null,
+    categories: ['design', 'productivity'],
+    tags: [
+      'open-source',
+      'ui-design',
+      'prototyping',
+      'collaboration',
+      'self-hosted',
+      'figma-alternative',
+      'vector',
+      'teams'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'open-source', text: 'Fully open-source with transparent development and no vendor lock-in' },
+      { id: 'self-hosted', text: 'Deploy on your infrastructure for complete data control' },
+      { id: 'collaborative', text: 'Real-time collaboration with multiple designers working simultaneously' },
+      { id: 'svg-native', text: 'Native SVG format ensuring standards compliance and interoperability' }
+    ],
+    platforms: ['web', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Vector Design',
+        description: 'Professional vector tools for creating interfaces and illustrations.',
+        icon: 'pen-tool'
+      },
+      {
+        id: '2',
+        title: 'Prototyping',
+        description: 'Create interactive prototypes with transitions and user flows.',
+        icon: 'play'
+      },
+      {
+        id: '3',
+        title: 'Components',
+        description: 'Reusable components and design tokens for consistency.',
+        icon: 'copy'
+      }
+    ]
+  },
+  {
+    id: '377',
+    slug: 'photopea',
+    name: 'Photopea',
+    tagline: 'Free online photo editor with Photoshop-like capabilities',
+    description: 'Photopea is a free browser-based image editor providing Photoshop-like capabilities without installation or subscription. Serves users needing advanced image editing without Adobe subscription costs.',
+    overview: '',
+    pricingDescription: 'Completely free with all features included. Supported by non-intrusive advertisements. Premium at $9/month removes ads and provides additional features. No account required for basic use.',
+    logo: '/images/tool-logo/photopea.webp',
+    website: 'https://photopea.com',
+    affiliateUrl: null,
+    categories: ['design', 'media'],
+    tags: [
+      'photo-editing',
+      'image-editor',
+      'free',
+      'browser-based',
+      'photoshop-alternative',
+      'psd-support',
+      'layers',
+      'filters'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'completely-free', text: 'Full-featured image editor free with no subscription required' },
+      { id: 'browser-based', text: 'Works in browser without installation on any device' },
+      { id: 'psd-compatibility', text: 'Opens and saves Photoshop PSD files with layer support' },
+      { id: 'photoshop-familiar', text: 'Interface and tools familiar to Photoshop users reducing learning curve' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Layer-Based Editing',
+        description: 'Professional layer system with blending modes and adjustments.',
+        icon: 'layers'
+      },
+      {
+        id: '2',
+        title: 'PSD Support',
+        description: 'Open, edit, and save Photoshop files with full layer compatibility.',
+        icon: 'file-image'
+      },
+      {
+        id: '3',
+        title: 'Filters & Effects',
+        description: 'Extensive filters, adjustments, and effects for image manipulation.',
+        icon: 'sliders-vertical'
+      }
+    ]
+  },
+  {
+    id: '378',
+    slug: 'photoshop',
+    name: 'Adobe Photoshop',
+    tagline: 'Industry-standard raster graphics editor for photo editing and digital art',
+    description: 'Adobe Photoshop is the professional standard for raster graphics editing, photo manipulation, digital art, and image compositing. Used by photographers, designers, and digital artists worldwide for over three decades.',
+    overview: '',
+    pricingDescription: 'Included with Creative Cloud All Apps at $54.99/month. Photography plan at $9.99/month includes Photoshop and Lightroom. Single App at $22.99/month for Photoshop only. Annual billing offers discount.',
+    logo: '/images/tool-logo/photoshop.webp',
+    website: 'https://adobe.com/products/photoshop',
+    affiliateUrl: null,
+    categories: ['design', 'media'],
+    tags: [
+      'photo-editing',
+      'raster-graphics',
+      'digital-art',
+      'compositing',
+      'adobe',
+      'creative-cloud',
+      'professional',
+      'industry-standard'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'industry-standard', text: 'The professional standard for photo editing and digital imaging' },
+      { id: 'comprehensive-tools', text: 'Advanced selection, retouching, compositing, and painting capabilities' },
+      { id: 'ai-powered', text: 'Adobe Sensei AI features including neural filters and content-aware fill' },
+      { id: 'creative-cloud', text: 'Integration with Lightroom, Illustrator, and other Adobe applications' }
+    ],
+    platforms: ['windows', 'mac', 'ios'],
+    features: [
+      {
+        id: '1',
+        title: 'Photo Editing',
+        description: 'Professional photo retouching, color correction, and enhancement tools.',
+        icon: 'image'
+      },
+      {
+        id: '2',
+        title: 'Compositing',
+        description: 'Layer-based compositing with masks, blending modes, and adjustments.',
+        icon: 'layers'
+      },
+      {
+        id: '3',
+        title: 'Digital Painting',
+        description: 'Professional brushes and painting tools for digital art creation.',
+        icon: 'brush'
+      }
+    ]
+  },
+  {
+    id: '379',
+    slug: 'pixlr',
+    name: 'Pixlr',
+    tagline: 'Free online photo editor and design maker',
+    description: 'Pixlr is a free browser-based photo editor and graphic design platform providing AI-powered tools for image editing, design creation, and photo enhancement. Serves casual users and creators needing accessible editing without software installation.',
+    overview: '',
+    pricingDescription: 'Free tier with basic features and ads. Premium at $7.99/month removes ads and adds advanced features. Creative subscription at $12.99/month includes additional AI tools and assets. Annual billing offers discount.',
+    logo: '/images/tool-logo/pixlr.webp',
+    website: 'https://pixlr.com',
+    affiliateUrl: null,
+    categories: ['design', 'media'],
+    tags: [
+      'photo-editing',
+      'online-editor',
+      'free',
+      'ai-tools',
+      'graphic-design',
+      'browser-based',
+      'filters',
+      'templates'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'ai-powered', text: 'AI tools for background removal, object removal, and image enhancement' },
+      { id: 'browser-based', text: 'Edit photos and create designs directly in browser without installation' },
+      { id: 'multiple-editors', text: 'Pixlr X for quick edits and Pixlr E for advanced editing' },
+      { id: 'template-library', text: 'Pre-designed templates for social media, presentations, and marketing materials' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Photo Editor',
+        description: 'Layer-based editing with filters, adjustments, and retouching tools.',
+        icon: 'image'
+      },
+      {
+        id: '2',
+        title: 'AI Tools',
+        description: 'AI-powered background removal, object removal, and image enhancement.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'Design Templates',
+        description: 'Pre-made templates for social media posts, banners, and marketing materials.',
+        icon: 'layout-template'
+      }
+    ]
+  },
+  {
+    id: '380',
+    slug: 'principle',
+    name: 'Principle',
+    tagline: 'Animation tool for designing interactive interfaces on Mac',
+    description: 'Principle is a Mac-only animation tool enabling designers to create animated and interactive user interfaces. Provides timeline-based animation and auto-animation features for prototyping complex interactions without coding.',
+    overview: '',
+    pricingDescription: 'One-time purchase at $129 for perpetual license. Free updates within major version. Mac-only platform. Free trial available.',
+    logo: '/images/tool-logo/principle.webp',
+    website: 'https://principleformac.com',
+    affiliateUrl: null,
+    categories: ['design'],
+    tags: [
+      'animation',
+      'prototyping',
+      'interaction-design',
+      'mac',
+      'motion-design',
+      'ui-animation',
+      'one-time-purchase',
+      'timeline'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'timeline-animation', text: 'Timeline-based animation with keyframes and easing controls' },
+      { id: 'auto-animate', text: 'Automatically animates between artboard states for rapid prototyping' },
+      { id: 'mac-native', text: 'Optimized for Mac with Sketch and Figma integration' },
+      { id: 'one-time-purchase', text: 'Perpetual license with no subscription required' }
+    ],
+    platforms: ['mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Timeline Editor',
+        description: 'Keyframe animation with curves, easing, and precise timing control.',
+        icon: 'activity'
+      },
+      {
+        id: '2',
+        title: 'Auto Animate',
+        description: 'Automatically generates smooth transitions between artboard states.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'Drivers',
+        description: 'Create scroll-based, touch-based, and time-based animations.',
+        icon: 'sliders-vertical'
+      }
+    ]
+  },
+  {
+    id: '381',
+    slug: 'protopie',
+    name: 'ProtoPie',
+    tagline: 'Advanced interaction prototyping tool for realistic experiences',
+    description: 'ProtoPie is an advanced prototyping tool enabling designers to create highly realistic interactive prototypes with sensors, conditional logic, and cross-device interactions. Serves UX designers needing sophisticated prototypes without coding.',
+    overview: '',
+    pricingDescription: 'Free tier with 1 prototype and basic features. Pro at $24/user/month for unlimited prototypes and advanced features. Enterprise with custom pricing for teams. Annual billing offers discount.',
+    logo: '/images/tool-logo/protopie.webp',
+    website: 'https://protopie.io',
+    affiliateUrl: null,
+    categories: ['design', 'productivity'],
+    tags: [
+      'prototyping',
+      'interaction-design',
+      'advanced-interactions',
+      'sensors',
+      'no-code',
+      'user-testing',
+      'cross-device',
+      'realistic'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'realistic-prototypes', text: 'Create prototypes with real device sensors, inputs, and interactions' },
+      { id: 'no-coding', text: 'Build complex interactions through visual interface without programming' },
+      { id: 'cross-device', text: 'Prototype multi-device experiences with device-to-device communication' },
+      { id: 'sensor-integration', text: 'Access camera, microphone, accelerometer, and other device sensors' }
+    ],
+    platforms: ['windows', 'mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Advanced Interactions',
+        description: 'Conditional logic, variables, and complex interaction flows without code.',
+        icon: 'zap'
+      },
+      {
+        id: '2',
+        title: 'Device Sensors',
+        description: 'Access camera, microphone, GPS, accelerometer, and other device sensors.',
+        icon: 'smartphone'
+      },
+      {
+        id: '3',
+        title: 'Real-time Collaboration',
+        description: 'Collaborate with team members on prototypes in real-time.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '382',
+    slug: 'removebg',
+    name: 'Remove.bg',
+    tagline: 'AI-powered automatic background removal from images',
+    description: 'Remove.bg uses artificial intelligence to automatically remove backgrounds from images in seconds. Serves photographers, e-commerce businesses, designers, and marketers needing quick background removal without manual editing.',
+    overview: '',
+    pricingDescription: 'Free tier with limited preview resolution and 1 free high-res download. Subscription at $9/month for 40 images. Pay-as-you-go credits from $1.99 per image. API access available for developers.',
+    logo: '/images/tool-logo/removebg.webp',
+    website: 'https://remove.bg',
+    affiliateUrl: null,
+    categories: ['design', 'media', 'ai'],
+    tags: [
+      'background-removal',
+      'ai',
+      'image-editing',
+      'automation',
+      'ecommerce',
+      'photography',
+      'api',
+      'product-photos'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'ai-powered', text: 'Automatic background removal using advanced AI in seconds' },
+      { id: 'no-editing-skills', text: 'No Photoshop or editing knowledge required' },
+      { id: 'api-access', text: 'API integration for automated background removal in workflows' },
+      { id: 'bulk-processing', text: 'Process multiple images simultaneously for efficiency' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Automatic Removal',
+        description: 'Upload image and get background removed automatically in seconds.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'API Integration',
+        description: 'Integrate background removal into applications and workflows via API.',
+        icon: 'code'
+      },
+      {
+        id: '3',
+        title: 'Desktop Apps',
+        description: 'Native applications for Windows, Mac, and Linux for offline processing.',
+        icon: 'download'
+      }
+    ]
+  },
+  {
+    id: '383',
+    slug: 'rive',
+    name: 'Rive',
+    tagline: 'Real-time interactive animation tool for apps and games',
+    description: 'Rive is a real-time interactive animation tool enabling designers to create animations for apps, games, and websites that respond to user input and application state. Provides visual editor with runtime integration for multiple platforms.',
+    overview: '',
+    pricingDescription: 'Free tier with 3 files and basic features. Starter at $12/editor/month for unlimited files. Pro at $48/editor/month with advanced features and team collaboration. Enterprise with custom pricing.',
+    logo: '/images/tool-logo/rive.webp',
+    website: 'https://rive.app',
+    affiliateUrl: null,
+    categories: ['design', 'web-development'],
+    tags: [
+      'animation',
+      'interactive',
+      'real-time',
+      'game-animation',
+      'app-animation',
+      'state-machines',
+      'runtime',
+      'cross-platform'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'interactive-animations', text: 'Create animations that respond to user input and application state' },
+      { id: 'state-machines', text: 'Visual state machines controlling animation behavior and transitions' },
+      { id: 'runtime-integration', text: 'Native runtimes for iOS, Android, Web, Flutter, and game engines' },
+      { id: 'real-time-editing', text: 'See animations update in real-time as you edit' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Visual Editor',
+        description: 'Timeline and state machine editor for creating interactive animations.',
+        icon: 'activity'
+      },
+      {
+        id: '2',
+        title: 'State Machines',
+        description: 'Create logic controlling animation states and transitions visually.',
+        icon: 'git-branch'
+      },
+      {
+        id: '3',
+        title: 'Runtime Libraries',
+        description: 'Native runtimes for integrating animations into apps and games.',
+        icon: 'code'
+      }
+    ]
+  },
+  {
+    id: '384',
+    slug: 'sketch',
+    name: 'Sketch',
+    tagline: 'Professional UI design toolkit for Mac',
+    description: 'Sketch is a professional vector graphics editor designed specifically for user interface and user experience design on Mac. Pioneered modern UI design workflows with symbols, artboards, and design system capabilities.',
+    overview: '',
+    pricingDescription: 'Standard at $9/editor/month for individual designers. Business at $20/editor/month for team features. Enterprise with custom pricing. Mac-only platform. Free trial available.',
+    logo: '/images/tool-logo/sketch.webp',
+    website: 'https://sketch.com',
+    affiliateUrl: null,
+    categories: ['design', 'productivity'],
+    tags: [
+      'ui-design',
+      'ux-design',
+      'mac',
+      'vector',
+      'design-systems',
+      'symbols',
+      'prototyping',
+      'professional'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'mac-native', text: 'Designed exclusively for Mac with native platform optimization' },
+      { id: 'symbols-system', text: 'Reusable components with overrides for design system consistency' },
+      { id: 'design-systems', text: 'Shared libraries enabling team-wide design consistency' },
+      { id: 'plugin-ecosystem', text: 'Extensive plugin ecosystem extending functionality' }
+    ],
+    platforms: ['mac'],
+    features: [
+      {
+        id: '1',
+        title: 'Vector Design',
+        description: 'Professional vector tools optimized for interface design.',
+        icon: 'pen-tool'
+      },
+      {
+        id: '2',
+        title: 'Symbols',
+        description: 'Reusable components with variants and overrides.',
+        icon: 'copy'
+      },
+      {
+        id: '3',
+        title: 'Prototyping',
+        description: 'Create interactive prototypes with transitions and hotspots.',
+        icon: 'play'
+      }
+    ]
+  },
+  {
+    id: '385',
+    slug: 'spline',
+    name: 'Spline',
+    tagline: '3D design tool for creating interactive web experiences',
+    description: 'Spline is a 3D design tool enabling designers to create interactive 3D scenes and animations for websites without coding. Provides visual editor with real-time collaboration and web export capabilities.',
+    overview: '',
+    pricingDescription: 'Free tier with basic features and Spline branding. Pro at $9/editor/month for advanced features. Team at $19/editor/month with collaboration features. Enterprise with custom pricing.',
+    logo: '/images/tool-logo/spline.webp',
+    website: 'https://spline.design',
+    affiliateUrl: null,
+    categories: ['design', 'web-development'],
+    tags: [
+      '3d-design',
+      'web-3d',
+      'interactive',
+      'animation',
+      'no-code',
+      'real-time',
+      'collaboration',
+      'webgl'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: '3d-for-designers', text: 'Create 3D scenes without 3D modeling expertise or coding' },
+      { id: 'interactive-scenes', text: 'Build interactive 3D experiences responding to user input' },
+      { id: 'real-time-collaboration', text: 'Multiple designers work on 3D scenes simultaneously' },
+      { id: 'web-export', text: 'Export to web with embed code for easy website integration' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: '3D Editor',
+        description: 'Visual 3D editor with modeling, materials, and lighting tools.',
+        icon: 'box'
+      },
+      {
+        id: '2',
+        title: 'Animations',
+        description: 'Create animations and interactive states for 3D objects.',
+        icon: 'activity'
+      },
+      {
+        id: '3',
+        title: 'Web Integration',
+        description: 'Export scenes with embed code for website integration.',
+        icon: 'code'
+      }
+    ]
+  },
+  {
+    id: '386',
+    slug: 'unsplash',
+    name: 'Unsplash',
+    tagline: 'Free high-resolution photos from global photography community',
+    description: 'Unsplash is a platform providing free high-resolution photos contributed by photographers worldwide. Serves designers, marketers, publishers, and creators needing quality images without licensing costs or attribution requirements.',
+    overview: '',
+    pricingDescription: 'Completely free for all users. No paid tiers or premium features. Photos licensed under Unsplash License allowing commercial use without attribution. Optional Unsplash+ at $15/month for exclusive content.',
+    logo: '/images/tool-logo/unsplash.webp',
+    website: 'https://unsplash.com',
+    affiliateUrl: null,
+    categories: ['design', 'media'],
+    tags: [
+      'stock-photos',
+      'free',
+      'high-resolution',
+      'photography',
+      'commercial-use',
+      'creative-commons',
+      'images',
+      'community'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'completely-free', text: 'All photos free for commercial and personal use without attribution' },
+      { id: 'high-quality', text: 'Curated high-resolution photos from professional photographers' },
+      { id: 'commercial-license', text: 'Clear license enabling commercial use in projects and products' },
+      { id: 'community-driven', text: 'Photos contributed by global photography community' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Photo Library',
+        description: 'Browse and download millions of high-resolution photos.',
+        icon: 'image'
+      },
+      {
+        id: '2',
+        title: 'Collections',
+        description: 'Create and follow curated photo collections by theme.',
+        icon: 'folder'
+      },
+      {
+        id: '3',
+        title: 'API Access',
+        description: 'Integrate Unsplash photos into applications via API.',
+        icon: 'code'
+      }
+    ]
+  },
+  {
+    id: '387',
+    slug: 'uizard',
+    name: 'Uizard',
+    tagline: 'AI-powered UI design tool transforming ideas into prototypes',
+    description: 'Uizard is an AI-powered design tool enabling non-designers to create UI designs and prototypes from text descriptions, sketches, or screenshots. Uses AI to generate and refine designs without design expertise.',
+    overview: '',
+    pricingDescription: 'Free tier with limited projects and AI generations. Pro at $12/month for unlimited projects and advanced AI features. Business at $39/user/month with team collaboration. Enterprise with custom pricing.',
+    logo: '/images/tool-logo/uizard.webp',
+    website: 'https://uizard.io',
+    affiliateUrl: null,
+    categories: ['design', 'ai'],
+    tags: [
+      'ai-design',
+      'ui-design',
+      'prototyping',
+      'no-design-skills',
+      'text-to-design',
+      'sketch-to-ui',
+      'rapid-prototyping',
+      'generative-ai'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'ai-generation', text: 'Generate UI designs from text descriptions using AI' },
+      { id: 'sketch-to-design', text: 'Transform hand-drawn sketches into digital UI designs' },
+      { id: 'no-design-skills', text: 'Create professional designs without design expertise' },
+      { id: 'rapid-prototyping', text: 'Quickly prototype ideas for validation and testing' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'AI Design Generation',
+        description: 'Generate UI designs from text descriptions and prompts.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Sketch Recognition',
+        description: 'Convert hand-drawn wireframes into digital designs automatically.',
+        icon: 'square-pen'
+      },
+      {
+        id: '3',
+        title: 'Prototyping',
+        description: 'Create interactive prototypes from generated designs.',
+        icon: 'play'
+      }
+    ]
+  },
+  {
+    id: '388',
+    slug: 'adespresso',
+    name: 'AdEspresso',
+    tagline: 'Facebook and Instagram ads optimization platform',
+    description: 'AdEspresso is a specialized platform for creating, managing, and optimizing Facebook and Instagram advertising campaigns. Serves marketers wanting to maximize ad performance through split testing, analytics, and automated optimization.',
+    overview: '',
+    pricingDescription: 'Starter at $49/month for basic features and limited ad spend. Pro at $99/month for advanced optimization and higher ad spend limits. Agency at $299/month for unlimited accounts and team features. Annual billing offers discount.',
+    logo: '/images/tool-logo/adespresso.webp',
+    website: 'https://adespresso.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'facebook-ads',
+      'instagram-ads',
+      'ad-optimization',
+      'split-testing',
+      'analytics',
+      'social-media-ads',
+      'performance-marketing',
+      'automation'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'split-testing', text: 'Automatically test multiple ad variations to find best performers' },
+      { id: 'optimization-algorithms', text: 'AI-powered algorithms automatically optimize campaigns for better results' },
+      { id: 'advanced-analytics', text: 'Detailed reporting and insights beyond Facebook Ads Manager' },
+      { id: 'bulk-creation', text: 'Create hundreds of ad variations quickly for comprehensive testing' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Campaign Creation',
+        description: 'Create and manage Facebook and Instagram ad campaigns with advanced targeting.',
+        icon: 'target'
+      },
+      {
+        id: '2',
+        title: 'Split Testing',
+        description: 'Test multiple ad variations simultaneously to identify top performers.',
+        icon: 'git-branch'
+      },
+      {
+        id: '3',
+        title: 'Optimization',
+        description: 'Automatically optimize campaigns based on performance data and goals.',
+        icon: 'trending-up'
+      }
+    ]
+  },
+  {
+    id: '389',
+    slug: 'appcues',
+    name: 'Appcues',
+    tagline: 'User onboarding and product adoption platform',
+    description: 'Appcues enables SaaS companies to create in-app user onboarding experiences, feature announcements, and product tours without coding. Serves product teams wanting to improve user activation and feature adoption.',
+    overview: '',
+    pricingDescription: 'Essentials at $249/month for basic onboarding features. Growth at $699/month with advanced targeting and analytics. Enterprise with custom pricing for large-scale deployments. Pricing based on monthly active users.',
+    logo: '/images/tool-logo/appcues.webp',
+    website: 'https://appcues.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'productivity'],
+    tags: [
+      'user-onboarding',
+      'product-adoption',
+      'in-app-messaging',
+      'saas',
+      'feature-announcements',
+      'user-activation',
+      'no-code',
+      'product-tours'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'no-code-builder', text: 'Create onboarding flows and announcements without developer resources' },
+      { id: 'user-segmentation', text: 'Target specific user segments with personalized onboarding experiences' },
+      { id: 'analytics', text: 'Track engagement, completion rates, and feature adoption metrics' },
+      { id: 'checklist-flows', text: 'Guide users through key actions with interactive checklists' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Onboarding Flows',
+        description: 'Create guided tours, tooltips, and checklists for new user onboarding.',
+        icon: 'compass'
+      },
+      {
+        id: '2',
+        title: 'Announcements',
+        description: 'Share product updates and feature announcements through in-app modals.',
+        icon: 'bell'
+      },
+      {
+        id: '3',
+        title: 'Analytics',
+        description: 'Measure user engagement, completion rates, and adoption metrics.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '390',
+    slug: 'autopilot',
+    name: 'Autopilot',
+    tagline: 'Visual marketing automation platform for customer journeys',
+    description: 'Autopilot (now part of Ortto) is a visual marketing automation platform enabling marketers to create customer journeys through drag-and-drop workflows. Combines email marketing, SMS, and multi-channel automation in visual interface.',
+    overview: '',
+    pricingDescription: 'Starter at $149/month for 2,500 contacts. Growth at $299/month for 10,000 contacts. Pro at $599/month for 25,000 contacts. Enterprise with custom pricing. Pricing based on contact count.',
+    logo: '/images/tool-logo/autopilot.webp',
+    website: 'https://ortto.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'marketing-automation',
+      'customer-journeys',
+      'email-marketing',
+      'visual-builder',
+      'multi-channel',
+      'sms-marketing',
+      'workflows',
+      'saas'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'visual-journeys', text: 'Drag-and-drop journey builder for creating complex automation visually' },
+      { id: 'multi-channel', text: 'Combine email, SMS, in-app messages, and direct mail in single journeys' },
+      { id: 'smart-segments', text: 'Dynamic segments updating automatically based on behavior and attributes' },
+      { id: 'integrations', text: 'Connect with CRM, analytics, and business tools for unified data' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Journey Builder',
+        description: 'Visual workflow builder for creating multi-step customer journeys.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'Email Marketing',
+        description: 'Create and send email campaigns with personalization and automation.',
+        icon: 'mail'
+      },
+      {
+        id: '3',
+        title: 'Smart Segments',
+        description: 'Dynamic segments updating automatically based on user behavior.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '391',
+    slug: 'beehiiv',
+    name: 'Beehiiv',
+    tagline: 'Newsletter platform built for growth and monetization',
+    description: 'Beehiiv is a modern newsletter platform designed for creators and publishers wanting to grow and monetize their audience. Provides advanced growth tools, monetization features, and analytics beyond basic email platforms.',
+    overview: '',
+    pricingDescription: 'Free tier with unlimited subscribers and basic features. Launch at $49/month for advanced growth tools. Scale at $99/month with premium monetization features. Enterprise with custom pricing for large publishers.',
+    logo: '/images/tool-logo/beehiiv.webp',
+    website: 'https://beehiiv.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'media'],
+    tags: [
+      'newsletter',
+      'email-marketing',
+      'creator-economy',
+      'monetization',
+      'growth-tools',
+      'publishing',
+      'subscriptions',
+      'analytics'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'growth-tools', text: 'Built-in referral programs, recommendations, and growth features' },
+      { id: 'monetization', text: 'Paid subscriptions, premium content, and ad network integration' },
+      { id: 'modern-editor', text: 'Beautiful newsletter editor with rich content blocks and customization' },
+      { id: 'advanced-analytics', text: 'Detailed subscriber analytics and engagement tracking' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Newsletter Editor',
+        description: 'Rich content editor with blocks, customization, and mobile optimization.',
+        icon: 'square-pen'
+      },
+      {
+        id: '2',
+        title: 'Growth Tools',
+        description: 'Referral programs, recommendations, and subscriber acquisition features.',
+        icon: 'trending-up'
+      },
+      {
+        id: '3',
+        title: 'Monetization',
+        description: 'Paid subscriptions, premium content, and advertising opportunities.',
+        icon: 'dollar-sign'
+      }
+    ]
+  },
+  {
+    id: '392',
+    slug: 'benchmarkemail',
+    name: 'Benchmark Email',
+    tagline: 'Email marketing platform with simple pricing and easy design',
+    description: 'Benchmark Email provides email marketing with straightforward pricing, drag-and-drop editor, and marketing automation. Serves small to mid-size businesses wanting accessible email marketing without complexity.',
+    overview: '',
+    pricingDescription: 'Free tier with 250 contacts and basic features. Lite at $13/month for 500 contacts. Standard at $19/month for 1,500 contacts with automation. Pro at $99/month for advanced features. Pricing scales with contact count.',
+    logo: '/images/tool-logo/benchmarkemail.webp',
+    website: 'https://benchmarkemail.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'email-marketing',
+      'newsletters',
+      'marketing-automation',
+      'small-business',
+      'drag-and-drop',
+      'templates',
+      'simple-pricing',
+      'campaigns'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'simple-pricing', text: 'Transparent pricing based on contact count without hidden fees' },
+      { id: 'drag-and-drop', text: 'Easy email builder with templates and customization' },
+      { id: 'marketing-automation', text: 'Automated email sequences based on subscriber behavior' },
+      { id: 'list-management', text: 'Contact segmentation and list management tools' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Email Builder',
+        description: 'Drag-and-drop email editor with templates and customization options.',
+        icon: 'mail'
+      },
+      {
+        id: '2',
+        title: 'Automation',
+        description: 'Create automated email sequences triggered by subscriber actions.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'Analytics',
+        description: 'Track opens, clicks, and engagement with detailed campaign reports.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '393',
+    slug: 'capterra',
+    name: 'Capterra',
+    tagline: 'Software reviews and comparison platform for business buyers',
+    description: 'Capterra is a software discovery and reviews platform helping businesses find and compare software solutions. Serves software buyers researching options and software vendors reaching potential customers through reviews and listings.',
+    overview: '',
+    pricingDescription: 'Free for software buyers browsing reviews and comparisons. Vendors pay for enhanced listings, lead generation, and advertising. Pricing varies based on category, placement, and lead volume. Performance-based pricing available.',
+    logo: '/images/tool-logo/capterra.webp',
+    website: 'https://capterra.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'productivity'],
+    tags: [
+      'software-reviews',
+      'software-comparison',
+      'b2b',
+      'lead-generation',
+      'software-directory',
+      'buyer-research',
+      'g2-company',
+      'marketplace'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'verified-reviews', text: 'Authentic user reviews helping buyers make informed decisions' },
+      { id: 'software-comparison', text: 'Side-by-side feature comparison across software categories' },
+      { id: 'lead-generation', text: 'High-intent leads for software vendors from active buyers' },
+      { id: 'category-rankings', text: 'Software rankings and awards based on user feedback and features' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Software Directory',
+        description: 'Comprehensive directory of software solutions across hundreds of categories.',
+        icon: 'grid-2x2'
+      },
+      {
+        id: '2',
+        title: 'User Reviews',
+        description: 'Verified user reviews with ratings, pros, cons, and detailed feedback.',
+        icon: 'star'
+      },
+      {
+        id: '3',
+        title: 'Comparison Tools',
+        description: 'Compare software features, pricing, and reviews side-by-side.',
+        icon: 'columns-2'
+      }
+    ]
+  },
+  {
+    id: '394',
+    slug: 'customerio',
+    name: 'Customer.io',
+    tagline: 'Behavioral email and messaging automation platform',
+    description: 'Customer.io is a messaging automation platform enabling companies to send targeted emails, push notifications, SMS, and webhooks based on user behavior and attributes. Serves product and marketing teams wanting personalized, event-driven communication.',
+    overview: '',
+    pricingDescription: 'Essentials at $100/month for 12,000 profiles. Premium at $1,000/month for 100,000 profiles with advanced features. Enterprise with custom pricing for large-scale deployments. Pricing based on user profiles.',
+    logo: '/images/tool-logo/customerio.webp',
+    website: 'https://customer.io',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'messaging-automation',
+      'behavioral-email',
+      'push-notifications',
+      'event-driven',
+      'personalization',
+      'saas',
+      'transactional',
+      'multi-channel'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'event-driven', text: 'Trigger messages based on real-time user actions and attributes' },
+      { id: 'multi-channel', text: 'Send emails, push notifications, SMS, and webhooks from single platform' },
+      { id: 'advanced-segmentation', text: 'Create complex segments based on behavior, attributes, and computed properties' },
+      { id: 'transactional-email', text: 'Handle both marketing and transactional emails in unified platform' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Workflow Builder',
+        description: 'Visual workflow builder for creating event-driven messaging campaigns.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'Segmentation',
+        description: 'Advanced segmentation based on user behavior and custom attributes.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Multi-Channel',
+        description: 'Send emails, push notifications, SMS, and webhooks through single platform.',
+        icon: 'share-2'
+      }
+    ]
+  },
+  {
+    id: '395',
+    slug: 'document360',
+    name: 'Document360',
+    tagline: 'Knowledge base and documentation platform for SaaS companies',
+    description: 'Document360 is a knowledge base platform enabling SaaS companies to create, manage, and publish product documentation, help centers, and knowledge bases. Provides collaborative authoring with version control and analytics.',
+    overview: '',
+    pricingDescription: 'Standard at $139/month for basic features. Professional at $299/month with advanced features. Enterprise with custom pricing for large organizations. Pricing based on number of writers and projects.',
+    logo: '/images/tool-logo/document360.webp',
+    website: 'https://document360.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'marketing'],
+    tags: [
+      'knowledge-base',
+      'documentation',
+      'help-center',
+      'saas',
+      'technical-writing',
+      'collaboration',
+      'version-control',
+      'self-service'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'collaborative-authoring', text: 'Multiple writers collaborate on documentation with version control' },
+      { id: 'knowledge-base', text: 'Create organized help centers and product documentation' },
+      { id: 'analytics', text: 'Track article views, search queries, and user feedback' },
+      { id: 'ai-assistance', text: 'AI-powered content suggestions and automatic article generation' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Documentation Editor',
+        description: 'Rich text editor with markdown support and content blocks.',
+        icon: 'square-pen'
+      },
+      {
+        id: '2',
+        title: 'Version Control',
+        description: 'Track changes, compare versions, and rollback to previous states.',
+        icon: 'git-branch'
+      },
+      {
+        id: '3',
+        title: 'Analytics',
+        description: 'Track article performance, popular searches, and user feedback.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '396',
+    slug: 'g2',
+    name: 'G2',
+    tagline: 'Business software reviews and peer insights platform',
+    description: 'G2 is the world\'s largest business software review platform providing authentic user reviews, comparisons, and research reports. Serves software buyers researching solutions and vendors building reputation through verified reviews.',
+    overview: '',
+    pricingDescription: 'Free for buyers browsing reviews and comparisons. Vendors pay for profile management, lead generation, and marketing solutions. Pricing varies based on services, category, and engagement level. Custom quotes for enterprise solutions.',
+    logo: '/images/tool-logo/g2.webp',
+    website: 'https://g2.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'productivity'],
+    tags: [
+      'software-reviews',
+      'peer-insights',
+      'b2b',
+      'lead-generation',
+      'software-comparison',
+      'market-research',
+      'reputation',
+      'buyer-intent'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'verified-reviews', text: 'Millions of authentic reviews from verified software users' },
+      { id: 'grid-reports', text: 'Proprietary Grid reports ranking software by market presence and satisfaction' },
+      { id: 'buyer-intent', text: 'High-intent buyer data showing active software researchers' },
+      { id: 'peer-insights', text: 'Detailed user feedback helping buyers make informed decisions' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Software Reviews',
+        description: 'Verified user reviews with ratings, detailed feedback, and use cases.',
+        icon: 'star'
+      },
+      {
+        id: '2',
+        title: 'Comparison Tools',
+        description: 'Compare software features, pricing, reviews, and ratings side-by-side.',
+        icon: 'columns-2'
+      },
+      {
+        id: '3',
+        title: 'Research Reports',
+        description: 'Industry reports and Grid rankings showing market leaders and trends.',
+        icon: 'trending-up'
+      }
+    ]
+  },
+  {
+    id: '397',
+    slug: 'googleads',
+    name: 'Google Ads',
+    tagline: 'Google\'s advertising platform for search, display, and video ads',
+    description: 'Google Ads is Google\'s advertising platform enabling businesses to create and manage ads across Google Search, Display Network, YouTube, and partner sites. Serves advertisers of all sizes wanting to reach customers through Google\'s advertising ecosystem.',
+    overview: '',
+    pricingDescription: 'Pay-per-click model — advertisers pay only when users click ads. No monthly fees or minimum spend requirements. Budget fully controlled by advertiser. Costs vary by industry, competition, and targeting. Free to create account.',
+    logo: '/images/tool-logo/googleads.webp',
+    website: 'https://ads.google.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'search-ads',
+      'display-ads',
+      'ppc',
+      'google',
+      'youtube-ads',
+      'performance-marketing',
+      'lead-generation',
+      'ecommerce'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'massive-reach', text: 'Access billions of users through Google Search, Display, and YouTube' },
+      { id: 'intent-targeting', text: 'Reach users actively searching for products and services' },
+      { id: 'performance-tracking', text: 'Detailed conversion tracking and ROI measurement' },
+      { id: 'flexible-budget', text: 'Full budget control with no minimum spend requirements' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Search Ads',
+        description: 'Text ads appearing in Google Search results based on keyword targeting.',
+        icon: 'search'
+      },
+      {
+        id: '2',
+        title: 'Display Network',
+        description: 'Visual ads across millions of websites in Google Display Network.',
+        icon: 'image'
+      },
+      {
+        id: '3',
+        title: 'YouTube Ads',
+        description: 'Video ads appearing before, during, and after YouTube content.',
+        icon: 'video'
+      }
+    ]
+  },
+  {
+    id: '398',
+    slug: 'guru',
+    name: 'Guru',
+    tagline: 'AI-powered knowledge management and team wiki platform',
+    description: 'Guru is an AI-powered knowledge management platform that surfaces relevant information to teams where they work. Combines team wiki, knowledge base, and intelligent search to deliver answers in Slack, email, and other workflows.',
+    overview: '',
+    pricingDescription: 'Free tier with basic features for small teams. Standard at $10/user/month with advanced features. Enterprise with custom pricing for large organizations. All plans include unlimited cards and basic integrations.',
+    logo: '/images/tool-logo/guru.webp',
+    website: 'https://getguru.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'marketing'],
+    tags: [
+      'knowledge-management',
+      'team-wiki',
+      'ai-search',
+      'slack-integration',
+      'internal-knowledge',
+      'collaboration',
+      'documentation',
+      'enterprise'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'ai-powered', text: 'AI surfaces relevant knowledge automatically in Slack, email, and apps' },
+      { id: 'where-you-work', text: 'Delivers answers in existing workflows without switching tools' },
+      { id: 'verification-system', text: 'Built-in verification ensures knowledge stays current and accurate' },
+      { id: 'integrations', text: 'Connects with Slack, Teams, Gmail, Zendesk, and 100+ tools' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Knowledge Cards',
+        description: 'Create bite-sized knowledge cards with rich content and media.',
+        icon: 'book'
+      },
+      {
+        id: '2',
+        title: 'AI Search',
+        description: 'AI-powered search finds relevant knowledge across all cards instantly.',
+        icon: 'search'
+      },
+      {
+        id: '3',
+        title: 'Verification',
+        description: 'Automated verification system keeps knowledge current and accurate.',
+        icon: 'circle-check'
+      }
+    ]
+  },
+  {
+    id: '399',
+    slug: 'helpdocs',
+    name: 'HelpDocs',
+    tagline: 'Knowledge base platform for SaaS companies and product teams',
+    description: 'HelpDocs is a modern knowledge base platform enabling SaaS companies to create beautiful, searchable help centers and product documentation. Provides collaborative authoring with analytics and customization.',
+    overview: '',
+    pricingDescription: 'Starter at $49/month for 1,000 articles. Business at $149/month with advanced features. Enterprise with custom pricing for large organizations. All plans include unlimited users and basic customization.',
+    logo: '/images/tool-logo/helpdocs.webp',
+    website: 'https://helpdocs.io',
+    affiliateUrl: null,
+    categories: ['productivity', 'marketing'],
+    tags: [
+      'knowledge-base',
+      'help-center',
+      'documentation',
+      'saas',
+      'self-service',
+      'support',
+      'collaboration',
+      'search'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'beautiful-design', text: 'Modern, customizable help centers that match your brand' },
+      { id: 'powerful-search', text: 'Instant search with auto-suggestions and relevance ranking' },
+      { id: 'collaborative', text: 'Multiple authors collaborate with version control and workflows' },
+      { id: 'analytics', text: 'Track article performance, popular searches, and user feedback' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Article Editor',
+        description: 'Rich text editor with images, videos, code blocks, and formatting.',
+        icon: 'square-pen'
+      },
+      {
+        id: '2',
+        title: 'Search',
+        description: 'Powerful search with filters, suggestions, and relevance ranking.',
+        icon: 'search'
+      },
+      {
+        id: '3',
+        title: 'Analytics',
+        description: 'Track views, searches, feedback, and article performance.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '400',
+    slug: 'infusionsoft',
+    name: 'Infusionsoft',
+    tagline: 'Sales and marketing automation platform for small businesses',
+    description: 'Infusionsoft (now Keap) is a comprehensive sales and marketing automation platform designed for small businesses. Combines CRM, email marketing, automation, e-commerce, and payment processing in unified platform.',
+    overview: '',
+    pricingDescription: 'Pro at $79/month for 1,500 contacts. Max at $159/month for 5,000 contacts. Max Classic at $199/month with advanced features. Pricing scales with contact count. Annual billing offers discount.',
+    logo: '/images/tool-logo/infusionsoft.webp',
+    website: 'https://keap.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'sales', 'crm'],
+    tags: [
+      'marketing-automation',
+      'crm',
+      'small-business',
+      'email-marketing',
+      'ecommerce',
+      'sales-automation',
+      'keap',
+      'all-in-one'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'all-in-one', text: 'CRM, email, automation, e-commerce, and payments in single platform' },
+      { id: 'visual-campaign-builder', text: 'Drag-and-drop campaign builder for complex automation workflows' },
+      { id: 'ecommerce-integration', text: 'Built-in e-commerce and payment processing capabilities' },
+      { id: 'small-business-focus', text: 'Designed specifically for small business needs and complexity' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'CRM',
+        description: 'Contact management with tags, custom fields, and segmentation.',
+        icon: 'users'
+      },
+      {
+        id: '2',
+        title: 'Campaign Builder',
+        description: 'Visual automation builder for email sequences and workflows.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'E-commerce',
+        description: 'Built-in storefront, payment processing, and order management.',
+        icon: 'shopping-cart'
+      }
+    ]
+  },
+  {
+    id: '401',
+    slug: 'instapage',
+    name: 'Instapage',
+    tagline: 'Landing page platform for post-click optimization',
+    description: 'Instapage is a landing page platform focused on post-click optimization and conversion rate optimization. Enables marketers to create, personalize, and optimize landing pages at scale with A/B testing and analytics.',
+    overview: '',
+    pricingDescription: 'Build at $99/month for basic features. Convert at $199/month with personalization and A/B testing. Enterprise with custom pricing for large teams. All plans include unlimited landing pages.',
+    logo: '/images/tool-logo/instapage.webp',
+    website: 'https://instapage.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'landing-pages',
+      'conversion-optimization',
+      'ab-testing',
+      'personalization',
+      'post-click',
+      'ppc',
+      'lead-generation',
+      'marketing'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'post-click-optimization', text: 'Focused on optimizing the experience after ad clicks' },
+      { id: 'personalization', text: 'Dynamic content personalization based on visitor attributes' },
+      { id: 'ab-testing', text: 'Built-in A/B testing with statistical significance calculations' },
+      { id: 'ad-mapping', text: 'Map ads to landing pages for consistent post-click experiences' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Page Builder',
+        description: 'Drag-and-drop page builder with templates and customization.',
+        icon: 'layout-template'
+      },
+      {
+        id: '2',
+        title: 'A/B Testing',
+        description: 'Test page variations with statistical significance and winner selection.',
+        icon: 'git-branch'
+      },
+      {
+        id: '3',
+        title: 'Personalization',
+        description: 'Dynamic content based on visitor attributes, ads, and keywords.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '402',
+    slug: 'leadpages',
+    name: 'Leadpages',
+    tagline: 'Landing page and lead generation platform for marketers',
+    description: 'Leadpages is a landing page and lead generation platform enabling marketers to create high-converting landing pages, popups, and lead capture forms without coding. Serves small businesses and marketers wanting simple lead generation.',
+    overview: '',
+    pricingDescription: 'Standard at $37/month for basic features. Pro at $79/month with advanced features and A/B testing. All plans include unlimited landing pages and traffic. Annual billing offers discount.',
+    logo: '/images/tool-logo/leadpages.webp',
+    website: 'https://leadpages.net',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'landing-pages',
+      'lead-generation',
+      'popups',
+      'forms',
+      'small-business',
+      'no-code',
+      'conversion',
+      'marketing'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'simple-builder', text: 'Easy drag-and-drop page builder without coding required' },
+      { id: 'lead-generation', text: 'Focused on capturing leads through pages, popups, and forms' },
+      { id: 'templates', text: 'Hundreds of conversion-optimized templates for various industries' },
+      { id: 'integrations', text: 'Connects with email marketing, CRM, and payment platforms' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Landing Pages',
+        description: 'Create high-converting landing pages with drag-and-drop builder.',
+        icon: 'layout-template'
+      },
+      {
+        id: '2',
+        title: 'Popups & Alerts',
+        description: 'Create exit-intent popups, alert bars, and lead capture forms.',
+        icon: 'bell'
+      },
+      {
+        id: '3',
+        title: 'A/B Testing',
+        description: 'Test page variations to optimize conversion rates.',
+        icon: 'git-branch'
+      }
+    ]
+  },
+  {
+    id: '403',
+    slug: 'marketoengage',
+    name: 'Marketo Engage',
+    tagline: 'Enterprise marketing automation platform by Adobe',
+    description: 'Marketo Engage (now Adobe Marketo Engage) is an enterprise marketing automation platform providing lead management, account-based marketing, email marketing, and analytics for B2B organizations. Part of Adobe Experience Cloud.',
+    overview: '',
+    pricingDescription: 'Enterprise custom pricing based on database size, features, and usage. Typical implementations range $50K-$500K+ annually. Requires sales engagement and implementation services. Part of Adobe Experience Cloud.',
+    logo: '/images/tool-logo/marketoengage.webp',
+    website: 'https://adobe.com/marketo',
+    affiliateUrl: null,
+    categories: ['marketing', 'sales'],
+    tags: [
+      'marketing-automation',
+      'enterprise',
+      'lead-management',
+      'abm',
+      'b2b',
+      'adobe',
+      'email-marketing',
+      'scoring'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'enterprise-grade', text: 'Comprehensive B2B marketing automation for large organizations' },
+      { id: 'lead-management', text: 'Advanced lead scoring, nurturing, and lifecycle management' },
+      { id: 'account-based-marketing', text: 'ABM capabilities for targeting and engaging key accounts' },
+      { id: 'adobe-integration', text: 'Part of Adobe Experience Cloud for unified customer experience' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Lead Management',
+        description: 'Lead scoring, nurturing, and lifecycle management workflows.',
+        icon: 'users'
+      },
+      {
+        id: '2',
+        title: 'Email Marketing',
+        description: 'Advanced email campaigns with personalization and automation.',
+        icon: 'mail'
+      },
+      {
+        id: '3',
+        title: 'Analytics',
+        description: 'Revenue attribution, ROI measurement, and marketing performance.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '404',
+    slug: 'metaadsmanager',
+    name: 'Meta Ads Manager',
+    tagline: 'Facebook and Instagram advertising platform by Meta',
+    description: 'Meta Ads Manager is Meta\'s advertising platform for creating and managing ads across Facebook, Instagram, Messenger, and Audience Network. Serves businesses of all sizes wanting to reach audiences through Meta\'s social platforms.',
+    overview: '',
+    pricingDescription: 'Pay-per-click or pay-per-impression model. No monthly fees or minimum spend. Budget fully controlled by advertiser. Costs vary by audience, competition, and objectives. Free to create account and launch campaigns.',
+    logo: '/images/tool-logo/metaadsmanager.webp',
+    website: 'https://business.facebook.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'facebook-ads',
+      'instagram-ads',
+      'social-media-ads',
+      'meta',
+      'ppc',
+      'targeting',
+      'performance-marketing',
+      'retargeting'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'massive-audience', text: 'Access billions of users across Facebook, Instagram, and Messenger' },
+      { id: 'advanced-targeting', text: 'Detailed targeting by demographics, interests, behaviors, and custom audiences' },
+      { id: 'multiple-objectives', text: 'Campaign objectives for awareness, traffic, engagement, leads, and sales' },
+      { id: 'retargeting', text: 'Powerful retargeting to website visitors, app users, and customer lists' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Campaign Creation',
+        description: 'Create campaigns with objectives, audiences, placements, and budgets.',
+        icon: 'target'
+      },
+      {
+        id: '2',
+        title: 'Audience Targeting',
+        description: 'Target by demographics, interests, behaviors, and custom audiences.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Performance Tracking',
+        description: 'Track conversions, ROI, and campaign performance with detailed analytics.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '405',
+    slug: 'omnisend',
+    name: 'Omnisend',
+    tagline: 'E-commerce marketing automation platform for online stores',
+    description: 'Omnisend is a marketing automation platform built specifically for e-commerce businesses. Combines email, SMS, web push, and automation workflows designed for online stores and product-based businesses.',
+    overview: '',
+    pricingDescription: 'Free tier with 250 contacts and basic features. Standard at $16/month for 500 contacts. Pro at $59/month for 5,000 contacts with advanced features. Pricing scales with contact count. Annual billing offers discount.',
+    logo: '/images/tool-logo/omnisend.webp',
+    website: 'https://omnisend.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'ecommerce'],
+    tags: [
+      'ecommerce-marketing',
+      'email-marketing',
+      'sms-marketing',
+      'automation',
+      'shopify',
+      'woocommerce',
+      'abandoned-cart',
+      'multi-channel'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'ecommerce-focused', text: 'Built specifically for online stores and product businesses' },
+      { id: 'multi-channel', text: 'Email, SMS, web push, and automation in single platform' },
+      { id: 'abandoned-cart', text: 'Automated cart abandonment recovery sequences' },
+      { id: 'ecommerce-integrations', text: 'Deep integration with Shopify, WooCommerce, BigCommerce, and more' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Email Marketing',
+        description: 'Create and send email campaigns with e-commerce personalization.',
+        icon: 'mail'
+      },
+      {
+        id: '2',
+        title: 'SMS Marketing',
+        description: 'Send SMS campaigns and automated messages to customers.',
+        icon: 'message-square'
+      },
+      {
+        id: '3',
+        title: 'Automation',
+        description: 'Automated workflows for cart abandonment, welcome series, and more.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '406',
+    slug: 'ontraport',
+    name: 'Ontraport',
+    tagline: 'Business automation platform for entrepreneurs and small businesses',
+    description: 'Ontraport is a comprehensive business automation platform combining CRM, marketing automation, e-commerce, and business process automation. Serves entrepreneurs and small businesses wanting all-in-one business management.',
+    overview: '',
+    pricingDescription: 'Basic at $79/month for 1,000 contacts. Plus at $147/month for 5,000 contacts. Pro at $297/month for 25,000 contacts. Enterprise with custom pricing. Pricing scales with contact count and features.',
+    logo: '/images/tool-logo/ontraport.webp',
+    website: 'https://ontraport.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'sales', 'crm'],
+    tags: [
+      'business-automation',
+      'crm',
+      'marketing-automation',
+      'ecommerce',
+      'entrepreneurs',
+      'small-business',
+      'all-in-one',
+      'workflows'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'all-in-one', text: 'CRM, marketing, e-commerce, and business automation in single platform' },
+      { id: 'visual-campaign-builder', text: 'Drag-and-drop campaign and workflow builder' },
+      { id: 'business-processes', text: 'Automate business processes beyond marketing — onboarding, fulfillment, operations' },
+      { id: 'ecommerce', text: 'Built-in e-commerce and membership site capabilities' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'CRM',
+        description: 'Contact management with custom fields, tags, and segmentation.',
+        icon: 'users'
+      },
+      {
+        id: '2',
+        title: 'Campaign Builder',
+        description: 'Visual builder for marketing campaigns and business workflows.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'E-commerce',
+        description: 'Sell products, services, and memberships with payment processing.',
+        icon: 'shopping-cart'
+      }
+    ]
+  },
+  {
+    id: '407',
+    slug: 'optinmonster',
+    name: 'OptinMonster',
+    tagline: 'Lead generation and conversion optimization platform',
+    description: 'OptinMonster is a lead generation and conversion optimization platform enabling websites to capture leads through popups, floating bars, and other opt-in forms. Serves marketers wanting to grow email lists and convert visitors.',
+    overview: '',
+    pricingDescription: 'Basic at $9/month for 1 site. Plus at $19/month for 3 sites. Pro at $29/month for 5 sites with advanced features. Growth at $49/month for unlimited sites. All plans include unlimited pageviews.',
+    logo: '/images/tool-logo/optinmonster.webp',
+    website: 'https://optinmonster.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'lead-generation',
+      'popups',
+      'conversion-optimization',
+      'email-list-building',
+      'exit-intent',
+      'wordpress',
+      'forms',
+      'marketing'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'exit-intent', text: 'Exit-intent technology captures abandoning visitors' },
+      { id: 'multiple-formats', text: 'Popups, floating bars, slide-ins, and fullscreen overlays' },
+      { id: 'targeting-rules', text: 'Advanced targeting by page, behavior, device, and visitor attributes' },
+      { id: 'ab-testing', text: 'Test form variations to optimize conversion rates' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Form Builder',
+        description: 'Create popups, floating bars, and opt-in forms with drag-and-drop.',
+        icon: 'form'
+      },
+      {
+        id: '2',
+        title: 'Targeting',
+        description: 'Show forms based on page, behavior, device, and visitor attributes.',
+        icon: 'target'
+      },
+      {
+        id: '3',
+        title: 'A/B Testing',
+        description: 'Test form variations to optimize conversion rates.',
+        icon: 'git-branch'
+      }
+    ]
+  },
+  {
+    id: '408',
+    slug: 'ortto',
+    name: 'Ortto',
+    tagline: 'Customer data and marketing automation platform',
+    description: 'Ortto (formerly Autopilot) is a customer data platform with marketing automation capabilities, enabling businesses to unify customer data and create personalized multi-channel journeys. Combines CDP functionality with visual automation builder.',
+    overview: '',
+    pricingDescription: 'Starter at $149/month for 2,500 contacts. Growth at $299/month for 10,000 contacts. Pro at $599/month for 25,000 contacts with advanced features. Enterprise with custom pricing. Pricing based on contact count.',
+    logo: '/images/tool-logo/ortto.webp',
+    website: 'https://ortto.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'cdp',
+      'marketing-automation',
+      'customer-data',
+      'multi-channel',
+      'personalization',
+      'journeys',
+      'email-marketing',
+      'sms'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'unified-customer-data', text: 'Single customer view combining data from all touchpoints' },
+      { id: 'visual-journeys', text: 'Drag-and-drop journey builder for multi-channel automation' },
+      { id: 'smart-segments', text: 'Dynamic segments updating automatically based on behavior' },
+      { id: 'multi-channel', text: 'Email, SMS, in-app messages, and direct mail in unified platform' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Customer Data Platform',
+        description: 'Unify customer data from all sources into single customer profiles.',
+        icon: 'database'
+      },
+      {
+        id: '2',
+        title: 'Journey Builder',
+        description: 'Visual workflow builder for creating multi-channel customer journeys.',
+        icon: 'git-branch'
+      },
+      {
+        id: '3',
+        title: 'Smart Segments',
+        description: 'Dynamic segments updating automatically based on behavior and attributes.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '409',
+    slug: 'pardot',
+    name: 'Pardot',
+    tagline: 'B2B marketing automation platform by Salesforce',
+    description: 'Pardot (now Marketing Cloud Account Engagement) is Salesforce\'s B2B marketing automation platform providing lead management, email marketing, and sales alignment. Serves B2B organizations in Salesforce ecosystem needing sophisticated marketing automation.',
+    overview: '',
+    pricingDescription: 'Growth at $1,250/month for basic features. Plus at $2,500/month with advanced features. Advanced at $4,000/month with premium capabilities. Enterprise with custom pricing. Requires Salesforce CRM. Annual contracts required.',
+    logo: '/images/tool-logo/pardot.webp',
+    website: 'https://salesforce.com/marketing/engagement',
+    affiliateUrl: null,
+    categories: ['marketing', 'sales'],
+    tags: [
+      'marketing-automation',
+      'b2b',
+      'lead-management',
+      'salesforce',
+      'email-marketing',
+      'lead-scoring',
+      'account-based-marketing',
+      'enterprise'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'salesforce-integration', text: 'Native Salesforce CRM integration for seamless marketing-sales alignment' },
+      { id: 'lead-management', text: 'Advanced lead scoring, nurturing, and lifecycle management' },
+      { id: 'b2b-focused', text: 'Built specifically for B2B marketing and long sales cycles' },
+      { id: 'account-based-marketing', text: 'ABM capabilities for targeting strategic accounts' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Lead Management',
+        description: 'Lead scoring, grading, nurturing, and routing to sales teams.',
+        icon: 'users'
+      },
+      {
+        id: '2',
+        title: 'Email Marketing',
+        description: 'Advanced email campaigns with personalization and automation.',
+        icon: 'mail'
+      },
+      {
+        id: '3',
+        title: 'Salesforce Sync',
+        description: 'Bi-directional sync with Salesforce CRM for unified customer data.',
+        icon: 'refresh-cw'
+      }
+    ]
+  },
+  {
+    id: '410',
+    slug: 'sender',
+    name: 'Sender',
+    tagline: 'Email and SMS marketing platform for growing businesses',
+    description: 'Sender is an affordable email and SMS marketing platform providing automation, segmentation, and analytics for small to mid-size businesses. Offers generous free tier and competitive pricing for growing companies.',
+    overview: '',
+    pricingDescription: 'Free tier with 2,500 subscribers and 15,000 emails/month. Standard at $12/month for 5,000 subscribers. Professional at $25/month for 10,000 subscribers with advanced features. Pricing scales with subscriber count.',
+    logo: '/images/tool-logo/sender.webp',
+    website: 'https://sender.net',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'email-marketing',
+      'sms-marketing',
+      'automation',
+      'small-business',
+      'affordable',
+      'newsletters',
+      'segmentation',
+      'campaigns'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'generous-free-tier', text: '2,500 subscribers and 15,000 emails free monthly' },
+      { id: 'affordable-pricing', text: 'Competitive pricing making email marketing accessible' },
+      { id: 'email-and-sms', text: 'Both email and SMS marketing in single platform' },
+      { id: 'automation', text: 'Automated workflows triggered by subscriber behavior' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Email Campaigns',
+        description: 'Create and send email campaigns with drag-and-drop editor.',
+        icon: 'mail'
+      },
+      {
+        id: '2',
+        title: 'SMS Marketing',
+        description: 'Send SMS campaigns and automated text messages.',
+        icon: 'message-square'
+      },
+      {
+        id: '3',
+        title: 'Automation',
+        description: 'Automated workflows triggered by subscriber actions and attributes.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '411',
+    slug: 'substack',
+    name: 'Substack',
+    tagline: 'Newsletter platform enabling writers to build paid subscriptions',
+    description: 'Substack is a newsletter platform enabling writers, journalists, and creators to publish newsletters and monetize through paid subscriptions. Provides publishing tools, payment processing, and audience building features.',
+    overview: '',
+    pricingDescription: 'Free to publish with Substack taking 10% of subscription revenue. No monthly fees or upfront costs. Writers keep 90% of subscription revenue minus payment processing fees. Free newsletters have no cost.',
+    logo: '/images/tool-logo/substack.webp',
+    website: 'https://substack.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'media'],
+    tags: [
+      'newsletter',
+      'publishing',
+      'creator-economy',
+      'subscriptions',
+      'writing',
+      'journalism',
+      'monetization',
+      'independent-media'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'revenue-sharing', text: 'Free to publish — Substack takes 10% of paid subscription revenue' },
+      { id: 'subscription-monetization', text: 'Built-in payment processing for paid newsletter subscriptions' },
+      { id: 'simple-publishing', text: 'Easy-to-use editor for writing and publishing newsletters' },
+      { id: 'audience-network', text: 'Discovery through Substack\'s recommendation network' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Newsletter Editor',
+        description: 'Simple editor for writing and formatting newsletter content.',
+        icon: 'square-pen'
+      },
+      {
+        id: '2',
+        title: 'Subscriptions',
+        description: 'Manage paid subscriptions with automatic billing and renewals.',
+        icon: 'credit-card'
+      },
+      {
+        id: '3',
+        title: 'Analytics',
+        description: 'Track subscriber growth, engagement, and revenue metrics.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '412',
+    slug: 'tettra',
+    name: 'Tettra',
+    tagline: 'Team wiki and knowledge management with Slack integration',
+    description: 'Tettra is a team wiki and knowledge management platform with deep Slack integration, enabling teams to create, organize, and share internal knowledge. Surfaces relevant answers directly in Slack conversations.',
+    overview: '',
+    pricingDescription: 'Starter at $8.33/user/month for basic features. Pro at $12.50/user/month with advanced features. Enterprise with custom pricing for large organizations. All plans include unlimited pages and Slack integration.',
+    logo: '/images/tool-logo/tettra.webp',
+    website: 'https://tettra.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'marketing'],
+    tags: [
+      'team-wiki',
+      'knowledge-management',
+      'slack-integration',
+      'internal-docs',
+      'collaboration',
+      'documentation',
+      'onboarding',
+      'processes'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'slack-integration', text: 'Deep Slack integration surfacing knowledge in conversations' },
+      { id: 'ai-assistant', text: 'Kai AI assistant answers questions using your knowledge base' },
+      { id: 'easy-authoring', text: 'Simple editor for creating and updating knowledge pages' },
+      { id: 'integrations', text: 'Connects with Google Drive, Notion, Confluence, and more' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Knowledge Pages',
+        description: 'Create organized knowledge pages with rich content and media.',
+        icon: 'book'
+      },
+      {
+        id: '2',
+        title: 'Slack Integration',
+        description: 'Surface relevant knowledge directly in Slack conversations.',
+        icon: 'message-square'
+      },
+      {
+        id: '3',
+        title: 'AI Assistant',
+        description: 'AI-powered assistant answering questions from your knowledge base.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '413',
+    slug: 'tiktokadsmanager',
+    name: 'TikTok Ads Manager',
+    tagline: 'Advertising platform for reaching TikTok\'s massive audience',
+    description: 'TikTok Ads Manager is the advertising platform for creating and managing ads on TikTok, reaching over 1 billion monthly active users. Serves brands wanting to reach younger audiences through short-form video content.',
+    overview: '',
+    pricingDescription: 'Pay-per-click or pay-per-impression model. Minimum daily budget of $50. No monthly fees. Costs vary by targeting, competition, and objectives. Free to create account and launch campaigns.',
+    logo: '/images/tool-logo/tiktokadsmanager.webp',
+    website: 'https://ads.tiktok.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'tiktok-ads',
+      'video-ads',
+      'social-media-ads',
+      'gen-z',
+      'short-form-video',
+      'performance-marketing',
+      'brand-awareness',
+      'ecommerce'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'massive-reach', text: 'Access over 1 billion monthly active users globally' },
+      { id: 'younger-audience', text: 'Reach Gen Z and millennial audiences effectively' },
+      { id: 'video-native', text: 'Native video advertising format matching TikTok content' },
+      { id: 'creative-tools', text: 'Built-in video creation and editing tools for ad production' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Campaign Creation',
+        description: 'Create campaigns with objectives, audiences, and budgets.',
+        icon: 'target'
+      },
+      {
+        id: '2',
+        title: 'Video Ads',
+        description: 'Native video ads matching TikTok\'s short-form content style.',
+        icon: 'video'
+      },
+      {
+        id: '3',
+        title: 'Targeting',
+        description: 'Target by demographics, interests, behaviors, and custom audiences.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '414',
+    slug: 'trustmary',
+    name: 'Trustmary',
+    tagline: 'Review management and reputation marketing platform',
+    description: 'Trustmary is a review management platform helping businesses collect, manage, and showcase customer reviews across platforms. Serves local businesses and service companies wanting to build online reputation.',
+    overview: '',
+    pricingDescription: 'Starter at $90/month for 1 location. Business at $190/month for 3 locations. Enterprise with custom pricing for multiple locations. All plans include review collection and management features.',
+    logo: '/images/tool-logo/trustmary.webp',
+    website: 'https://trustmary.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'review-management',
+      'reputation',
+      'google-reviews',
+      'local-seo',
+      'customer-feedback',
+      'testimonials',
+      'trust-building',
+      'local-business'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'review-collection', text: 'Automated review request campaigns via email and SMS' },
+      { id: 'multi-platform', text: 'Collect reviews on Google, Facebook, Trustpilot, and more' },
+      { id: 'review-display', text: 'Showcase reviews on website with customizable widgets' },
+      { id: 'feedback-management', text: 'Respond to reviews and manage customer feedback centrally' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Review Collection',
+        description: 'Automated review request campaigns via email and SMS.',
+        icon: 'star'
+      },
+      {
+        id: '2',
+        title: 'Review Widgets',
+        description: 'Display reviews on website with customizable widgets.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '3',
+        title: 'Feedback Management',
+        description: 'Respond to reviews and manage customer feedback centrally.',
+        icon: 'message-circle'
+      }
+    ]
+  },
+  {
+    id: '415',
+    slug: 'unbounce',
+    name: 'Unbounce',
+    tagline: 'Landing page platform with AI-powered optimization',
+    description: 'Unbounce is a landing page and conversion optimization platform with AI-powered features for creating, testing, and optimizing landing pages. Serves marketers wanting to improve conversion rates from campaigns.',
+    overview: '',
+    pricingDescription: 'Launch at $99/month for basic features. Optimize at $149/month with A/B testing. Accelerate at $249/month with advanced personalization. Scale at $699/month for agencies and high volume. Annual billing offers discount.',
+    logo: '/images/tool-logo/unbounce.webp',
+    website: 'https://unbounce.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'landing-pages',
+      'conversion-optimization',
+      'ab-testing',
+      'ai-optimization',
+      'ppc',
+      'lead-generation',
+      'marketing',
+      'campaigns'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'ai-optimization', text: 'Smart Traffic AI automatically optimizes page variants for conversions' },
+      { id: 'page-builder', text: 'Drag-and-drop builder with templates and customization' },
+      { id: 'ab-testing', text: 'Built-in A/B testing with statistical significance' },
+      { id: 'integrations', text: 'Connects with advertising platforms, CRM, and analytics tools' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Page Builder',
+        description: 'Drag-and-drop landing page builder with templates and customization.',
+        icon: 'layout-template'
+      },
+      {
+        id: '2',
+        title: 'Smart Traffic',
+        description: 'AI automatically routes visitors to highest-converting variants.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'A/B Testing',
+        description: 'Test page variations with statistical significance calculations.',
+        icon: 'git-branch'
+      }
+    ]
+  },
+  {
+    id: '416',
+    slug: 'userpilot',
+    name: 'Userpilot',
+    tagline: 'Product adoption platform for SaaS user onboarding',
+    description: 'Userpilot is a product adoption platform enabling SaaS companies to create in-app onboarding experiences, feature announcements, and user guidance without coding. Serves product teams wanting to improve activation and retention.',
+    overview: '',
+    pricingDescription: 'Essentials at $249/month for basic features. Growth at $749/month with advanced targeting. Enterprise with custom pricing for large organizations. Pricing based on monthly active users.',
+    logo: '/images/tool-logo/userpilot.webp',
+    website: 'https://userpilot.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'productivity'],
+    tags: [
+      'product-adoption',
+      'user-onboarding',
+      'in-app-messaging',
+      'saas',
+      'feature-announcements',
+      'no-code',
+      'user-activation',
+      'retention'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'no-code-builder', text: 'Create onboarding experiences without developer resources' },
+      { id: 'user-segmentation', text: 'Target specific user segments with personalized experiences' },
+      { id: 'analytics', text: 'Track engagement, feature adoption, and user behavior' },
+      { id: 'product-tours', text: 'Interactive tours, tooltips, and checklists for guidance' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Onboarding Flows',
+        description: 'Create guided tours, tooltips, and checklists for user onboarding.',
+        icon: 'compass'
+      },
+      {
+        id: '2',
+        title: 'Feature Announcements',
+        description: 'Announce new features through in-app modals and notifications.',
+        icon: 'bell'
+      },
+      {
+        id: '3',
+        title: 'Analytics',
+        description: 'Track user engagement, feature adoption, and activation metrics.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '417',
+    slug: 'ahrefswebmastertools',
+    name: 'Ahrefs Webmaster Tools',
+    tagline: 'Free SEO toolset for website owners',
+    description: 'Ahrefs Webmaster Tools provides free access to core SEO features including site audit, keyword tracking, and backlink analysis for verified website owners. Serves website owners wanting professional SEO tools without subscription costs.',
+    overview: '',
+    pricingDescription: 'Completely free for verified website owners. No paid tiers or limitations on core features. Requires domain verification through DNS, HTML file, or Google Search Console. Part of Ahrefs ecosystem.',
+    logo: '/images/tool-logo/ahrefswebmastertools.webp',
+    website: 'https://ahrefs.com/webmaster-tools',
+    affiliateUrl: null,
+    categories: ['seo'],
+    tags: [
+      'seo',
+      'site-audit',
+      'keyword-tracking',
+      'backlink-analysis',
+      'free',
+      'website-owners',
+      'technical-seo',
+      'ahrefs'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-access', text: 'Professional SEO tools free for verified website owners' },
+      { id: 'site-audit', text: 'Comprehensive technical SEO audit identifying issues' },
+      { id: 'keyword-tracking', text: 'Track keyword rankings and search performance' },
+      { id: 'backlink-analysis', text: 'Analyze backlink profile and link building opportunities' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Site Audit',
+        description: 'Technical SEO audit identifying crawlability, performance, and optimization issues.',
+        icon: 'search'
+      },
+      {
+        id: '2',
+        title: 'Keyword Tracking',
+        description: 'Track keyword rankings and monitor search visibility over time.',
+        icon: 'trending-up'
+      },
+      {
+        id: '3',
+        title: 'Backlink Analysis',
+        description: 'Analyze backlink profile, referring domains, and link opportunities.',
+        icon: 'link'
+      }
+    ]
+  },
+  {
+    id: '418',
+    slug: 'alsoasked',
+    name: 'AlsoAsked',
+    tagline: 'Question research tool showing related queries',
+    description: 'AlsoAsked visualizes the "People Also Ask" questions from Google search results, revealing related queries and topic clusters. Serves content creators and SEOs wanting to understand search intent and create comprehensive content.',
+    overview: '',
+    pricingDescription: 'Free tier with 3 searches per day. Pro at $15/month for unlimited searches and advanced features. Annual billing offers discount. All plans include visual question mapping.',
+    logo: '/images/tool-logo/alsoasked.webp',
+    website: 'https://alsoasked.com',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing'],
+    tags: [
+      'keyword-research',
+      'question-research',
+      'people-also-ask',
+      'content-ideas',
+      'search-intent',
+      'topic-clusters',
+      'seo',
+      'content-strategy'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'people-also-ask', text: 'Visualizes Google\'s "People Also Ask" questions in tree structure' },
+      { id: 'topic-clusters', text: 'Reveals related questions and topic relationships' },
+      { id: 'content-ideas', text: 'Generates content ideas based on actual search queries' },
+      { id: 'search-intent', text: 'Understands what searchers actually want to know' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Question Mapping',
+        description: 'Visual tree showing related questions and their relationships.',
+        icon: 'network'
+      },
+      {
+        id: '2',
+        title: 'Export Options',
+        description: 'Export question lists to CSV for content planning and research.',
+        icon: 'download'
+      },
+      {
+        id: '3',
+        title: 'Multi-Language',
+        description: 'Research questions in multiple languages and regions.',
+        icon: 'globe'
+      }
+    ]
+  },
+  {
+    id: '419',
+    slug: 'answerthepublic',
+    name: 'AnswerThePublic',
+    tagline: 'Question and keyword research visualization tool',
+    description: 'AnswerThePublic visualizes search questions and prepositions around keywords, revealing what people ask about topics. Serves content marketers and SEOs wanting comprehensive content coverage and question-based keyword research.',
+    overview: '',
+    pricingDescription: 'Free tier with 1 search per day. Individual at $11/month for unlimited searches. Pro at $99/month for teams and advanced features. Annual billing offers discount.',
+    logo: '/images/tool-logo/answerthepublic.webp',
+    website: 'https://answerthepublic.com',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing'],
+    tags: [
+      'keyword-research',
+      'question-research',
+      'content-ideas',
+      'visualization',
+      'search-intent',
+      'prepositions',
+      'comparisons',
+      'content-strategy'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'visual-research', text: 'Beautiful visualizations of questions, prepositions, and comparisons' },
+      { id: 'comprehensive-coverage', text: 'Reveals questions, prepositions, comparisons, and alphabetical suggestions' },
+      { id: 'content-planning', text: 'Generates content ideas covering all aspects of topics' },
+      { id: 'search-intent', text: 'Understands diverse ways people search for information' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Question Research',
+        description: 'Discover questions people ask about any topic with visual mapping.',
+        icon: 'circle-question-mark'
+      },
+      {
+        id: '2',
+        title: 'Prepositions',
+        description: 'Find preposition-based searches (for, with, without, near, etc.).',
+        icon: 'link'
+      },
+      {
+        id: '3',
+        title: 'Comparisons',
+        description: 'Discover comparison searches (vs, or, and, like).',
+        icon: 'columns-2'
+      }
+    ]
+  },
+  {
+    id: '420',
+    slug: 'brightlocal',
+    name: 'BrightLocal',
+    tagline: 'Local SEO platform for multi-location businesses',
+    description: 'BrightLocal is a comprehensive local SEO platform helping businesses manage local search presence across Google Business Profile, citations, reviews, and local rankings. Serves agencies and multi-location businesses managing local SEO at scale.',
+    overview: '',
+    pricingDescription: 'Build at $39/month for 1 location. Boost at $79/month for 5 locations. Track at $139/month for advanced tracking. Custom plans for agencies and enterprises. Pricing scales with locations and features.',
+    logo: '/images/tool-logo/brightlocal.webp',
+    website: 'https://brightlocal.com',
+    affiliateUrl: null,
+    categories: ['seo'],
+    tags: [
+      'local-seo',
+      'google-business-profile',
+      'citations',
+      'review-management',
+      'local-rankings',
+      'multi-location',
+      'agencies',
+      'local-search'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'local-rankings', text: 'Track local search rankings across geographic areas' },
+      { id: 'citation-building', text: 'Build and manage business citations across directories' },
+      { id: 'review-management', text: 'Monitor and respond to reviews across platforms' },
+      { id: 'google-business', text: 'Manage and optimize Google Business Profile listings' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Local Rank Tracking',
+        description: 'Track local search rankings across multiple locations and keywords.',
+        icon: 'map-pin'
+      },
+      {
+        id: '2',
+        title: 'Citation Building',
+        description: 'Build and audit business citations across directories and platforms.',
+        icon: 'list'
+      },
+      {
+        id: '3',
+        title: 'Review Monitoring',
+        description: 'Monitor and respond to reviews across Google, Facebook, and more.',
+        icon: 'star'
+      }
+    ]
+  },
+  {
+    id: '421',
+    slug: 'clearscope',
+    name: 'Clearscope',
+    tagline: 'Content optimization platform for SEO-focused writing',
+    description: 'Clearscope is a content optimization platform helping writers create comprehensive, SEO-optimized content through keyword analysis, content grading, and optimization recommendations. Serves content teams wanting to rank higher through better content.',
+    overview: '',
+    pricingDescription: 'Essentials at $170/month for basic features. Business at $370/month with advanced features. Enterprise with custom pricing for large teams. All plans include content optimization reports.',
+    logo: '/images/tool-logo/clearscope.webp',
+    website: 'https://clearscope.io',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing'],
+    tags: [
+      'content-optimization',
+      'seo-writing',
+      'keyword-analysis',
+      'content-grading',
+      'semantic-seo',
+      'content-strategy',
+      'on-page-seo',
+      'writing'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'content-grading', text: 'Grade content comprehensiveness and optimization level' },
+      { id: 'keyword-recommendations', text: 'Suggests related terms and topics to include' },
+      { id: 'competitor-analysis', text: 'Analyzes top-ranking content for keyword coverage' },
+      { id: 'optimization-reports', text: 'Detailed reports showing content gaps and opportunities' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Content Reports',
+        description: 'Generate optimization reports analyzing top-ranking content for any keyword.',
+        icon: 'file-text'
+      },
+      {
+        id: '2',
+        title: 'Content Editor',
+        description: 'Write and optimize content with real-time optimization feedback.',
+        icon: 'square-pen'
+      },
+      {
+        id: '3',
+        title: 'Keyword Analysis',
+        description: 'Analyze keyword difficulty, search volume, and ranking potential.',
+        icon: 'search'
+      }
+    ]
+  },
+  {
+    id: '422',
+    slug: 'googlesearchconsole',
+    name: 'Google Search Console',
+    tagline: 'Google\'s free tool for monitoring search performance',
+    description: 'Google Search Console is Google\'s official free tool for website owners to monitor search performance, submit sitemaps, fix indexing issues, and understand how Google sees their site. Essential tool for any website owner or SEO professional.',
+    overview: '',
+    pricingDescription: 'Completely free for all website owners. No paid tiers or premium features. Requires domain verification. Official Google tool with direct access to Google search data.',
+    logo: '/images/tool-logo/googlesearchconsole.webp',
+    website: 'https://search.google.com/search-console',
+    affiliateUrl: null,
+    categories: ['seo'],
+    tags: [
+      'google',
+      'search-performance',
+      'indexing',
+      'sitemaps',
+      'free',
+      'technical-seo',
+      'search-analytics',
+      'core-web-vitals'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'official-google-tool', text: 'Direct access to Google search data and indexing information' },
+      { id: 'search-performance', text: 'Detailed search analytics showing queries, clicks, and positions' },
+      { id: 'indexing-control', text: 'Submit sitemaps, request indexing, and fix crawl errors' },
+      { id: 'core-web-vitals', text: 'Monitor page experience metrics and performance issues' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Performance Reports',
+        description: 'Analyze search queries, clicks, impressions, and average position.',
+        icon: 'chart-column'
+      },
+      {
+        id: '2',
+        title: 'Index Coverage',
+        description: 'Monitor indexing status and fix crawl errors and issues.',
+        icon: 'circle-check'
+      },
+      {
+        id: '3',
+        title: 'Core Web Vitals',
+        description: 'Track page experience metrics including LCP, FID, and CLS.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '423',
+    slug: 'keywordinsights',
+    name: 'Keyword Insights',
+    tagline: 'AI-powered keyword clustering and content planning',
+    description: 'Keyword Insights uses AI to cluster keywords by search intent and generate content briefs, helping SEOs plan comprehensive content strategies. Serves content teams wanting data-driven content planning and topic clustering.',
+    overview: '',
+    pricingDescription: 'Free tier with limited features. Pro at $49/month for full features. Business at $149/month for teams and advanced features. Enterprise with custom pricing. Credits-based system for keyword processing.',
+    logo: '/images/tool-logo/keywordinsights.webp',
+    website: 'https://keywordinsights.ai',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing', 'ai'],
+    tags: [
+      'keyword-clustering',
+      'ai',
+      'content-planning',
+      'search-intent',
+      'topic-clusters',
+      'content-briefs',
+      'seo-strategy',
+      'automation'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'ai-clustering', text: 'AI automatically clusters keywords by search intent' },
+      { id: 'content-briefs', text: 'Generate detailed content briefs from keyword clusters' },
+      { id: 'intent-analysis', text: 'Identify informational, commercial, and transactional intent' },
+      { id: 'content-planning', text: 'Plan comprehensive content covering topic clusters' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Keyword Clustering',
+        description: 'AI-powered clustering of keywords by search intent and topic.',
+        icon: 'network'
+      },
+      {
+        id: '2',
+        title: 'Content Briefs',
+        description: 'Generate detailed content briefs with structure and recommendations.',
+        icon: 'file-text'
+      },
+      {
+        id: '3',
+        title: 'Intent Analysis',
+        description: 'Classify keywords by search intent for targeted content creation.',
+        icon: 'target'
+      }
+    ]
+  },
+  {
+    id: '424',
+    slug: 'keywordseverywhere',
+    name: 'Keywords Everywhere',
+    tagline: 'Browser extension adding keyword data to search results',
+    description: 'Keywords Everywhere is a browser extension that adds keyword search volume, CPC, and competition data directly to Google search results and other platforms. Serves SEOs and marketers wanting instant keyword insights while researching.',
+    overview: '',
+    pricingDescription: 'Free tier with limited searches. Paid credits starting at $10 for 10,000 credits. Credits never expire. Various credit packages available. One-time purchase model.',
+    logo: '/images/tool-logo/keywordseverywhere.webp',
+    website: 'https://keywordseverywhere.com',
+    affiliateUrl: null,
+    categories: ['seo'],
+    tags: [
+      'keyword-research',
+      'browser-extension',
+      'search-volume',
+      'cpc',
+      'competition',
+      'chrome-extension',
+      'firefox-addon',
+      'seo-tools'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'browser-extension', text: 'Adds keyword data directly to Google search results' },
+      { id: 'search-volume', text: 'Shows monthly search volume for keywords instantly' },
+      { id: 'cpc-data', text: 'Displays cost-per-click and competition metrics' },
+      { id: 'credits-system', text: 'Pay-as-you-go credits that never expire' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Search Results Enhancement',
+        description: 'Adds keyword metrics directly to Google search results pages.',
+        icon: 'search'
+      },
+      {
+        id: '2',
+        title: 'Related Keywords',
+        description: 'Shows related keywords and search suggestions with metrics.',
+        icon: 'link'
+      },
+      {
+        id: '3',
+        title: 'Multi-Platform',
+        description: 'Works with Google, YouTube, Amazon, and other search platforms.',
+        icon: 'globe'
+      }
+    ]
+  },
+  {
+    id: '425',
+    slug: 'localfalcon',
+    name: 'Local Falcon',
+    tagline: 'Local rank tracking with geo-grid visualization',
+    description: 'Local Falcon provides local rank tracking with visual geo-grid maps showing how rankings vary by location. Serves local businesses and agencies wanting to understand geographic ranking patterns and optimize local SEO.',
+    overview: '',
+    pricingDescription: 'Starter at $49/month for basic tracking. Professional at $99/month with advanced features. Agency at $199/month for multiple clients. Enterprise with custom pricing. All plans include geo-grid visualization.',
+    logo: '/images/tool-logo/localfalcon.webp',
+    website: 'https://localfalcon.com',
+    affiliateUrl: null,
+    categories: ['seo'],
+    tags: [
+      'local-seo',
+      'rank-tracking',
+      'geo-grid',
+      'local-rankings',
+      'google-maps',
+      'local-search',
+      'visualization',
+      'agencies'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'geo-grid-tracking', text: 'Visual geo-grid maps showing ranking variations by location' },
+      { id: 'local-pack', text: 'Track Google Maps and local pack rankings across areas' },
+      { id: 'competitor-analysis', text: 'See which competitors rank in different geographic areas' },
+      { id: 'location-insights', text: 'Understand how rankings vary across neighborhoods and cities' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Geo-Grid Tracking',
+        description: 'Visual maps showing local rankings across geographic grid points.',
+        icon: 'map'
+      },
+      {
+        id: '2',
+        title: 'Local Pack Monitoring',
+        description: 'Track Google Maps 3-pack rankings across different locations.',
+        icon: 'map-pin'
+      },
+      {
+        id: '3',
+        title: 'Competitor Tracking',
+        description: 'Monitor competitor rankings and visibility in local search.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '426',
+    slug: 'neuronwriter',
+    name: 'NeuronWriter',
+    tagline: 'AI content optimization with NLP and semantic analysis',
+    description: 'NeuronWriter combines AI writing assistance with SEO optimization, using NLP analysis to help create content that ranks. Provides content scoring, keyword recommendations, and AI writing features in single platform.',
+    overview: '',
+    pricingDescription: 'Bronze at $23/month for basic features. Silver at $45/month with more projects. Gold at $69/month for advanced features. Platinum at $117/month for agencies. All plans include AI writing and optimization.',
+    logo: '/images/tool-logo/neuronwriter.webp',
+    website: 'https://neuronwriter.com',
+    affiliateUrl: null,
+    categories: ['seo', 'marketing', 'ai'],
+    tags: [
+      'ai-writing',
+      'content-optimization',
+      'nlp',
+      'semantic-seo',
+      'content-scoring',
+      'keyword-analysis',
+      'ai-tools',
+      'writing-assistant'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'ai-writing', text: 'AI-powered content generation and writing assistance' },
+      { id: 'nlp-analysis', text: 'Natural language processing analyzing content quality and relevance' },
+      { id: 'content-scoring', text: 'Score content optimization level with improvement suggestions' },
+      { id: 'semantic-recommendations', text: 'Suggests semantically related terms and topics to include' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'AI Content Writer',
+        description: 'Generate and improve content with AI writing assistance.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Content Analysis',
+        description: 'Analyze content with NLP for optimization recommendations.',
+        icon: 'brain'
+      },
+      {
+        id: '3',
+        title: 'Competitor Analysis',
+        description: 'Analyze top-ranking content for keyword and topic coverage.',
+        icon: 'search'
+      }
+    ]
+  },
+  {
+    id: '427',
+    slug: 'nightwatch',
+    name: 'Nightwatch',
+    tagline: 'SEO platform for agencies with rank tracking and audits',
+    description: 'Nightwatch is a comprehensive SEO platform designed for agencies, providing rank tracking, site audits, backlink monitoring, and reporting. Serves SEO agencies managing multiple client campaigns with white-label capabilities.',
+    overview: '',
+    pricingDescription: 'Core at $99/month for basic features. Pro at $199/month with advanced features. Agency at $399/month for white-label and team features. Enterprise with custom pricing. All plans include unlimited keywords.',
+    logo: '/images/tool-logo/nightwatch.webp',
+    website: 'https://nightwatch.io',
+    affiliateUrl: null,
+    categories: ['seo'],
+    tags: [
+      'seo-agency',
+      'rank-tracking',
+      'site-audit',
+      'backlink-monitoring',
+      'white-label',
+      'reporting',
+      'multi-client',
+      'seo-platform'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'agency-focused', text: 'Built for SEO agencies managing multiple clients' },
+      { id: 'white-label', text: 'White-label reports and dashboards for client presentations' },
+      { id: 'unlimited-keywords', text: 'Track unlimited keywords across all plans' },
+      { id: 'comprehensive-tools', text: 'Rank tracking, audits, backlinks, and reporting in one platform' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Rank Tracking',
+        description: 'Track keyword rankings across search engines and locations.',
+        icon: 'trending-up'
+      },
+      {
+        id: '2',
+        title: 'Site Audits',
+        description: 'Technical SEO audits identifying issues and optimization opportunities.',
+        icon: 'search'
+      },
+      {
+        id: '3',
+        title: 'White-Label Reports',
+        description: 'Customizable white-label reports for client presentations.',
+        icon: 'file-text'
+      }
+    ]
+  },
+  {
+    id: '428',
+    slug: 'pageoptimizerpro',
+    name: 'PageOptimizer Pro',
+    tagline: 'On-page SEO optimization tool with detailed analysis',
+    description: 'PageOptimizer Pro provides detailed on-page SEO analysis comparing your pages against top-ranking competitors. Serves SEOs wanting granular on-page optimization recommendations based on actual ranking factors.',
+    overview: '',
+    pricingDescription: 'Basic at $12/month for limited analyses. Pro at $29/month for unlimited analyses. Agency at $79/month for team features. All plans include detailed on-page reports and competitor comparison.',
+    logo: '/images/tool-logo/pageoptimizerpro.webp',
+    website: 'https://pageoptimizer.pro',
+    affiliateUrl: null,
+    categories: ['seo'],
+    tags: [
+      'on-page-seo',
+      'content-optimization',
+      'competitor-analysis',
+      'technical-seo',
+      'page-analysis',
+      'seo-audit',
+      'optimization',
+      'ranking-factors'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'competitor-comparison', text: 'Compare your page against top-ranking competitors' },
+      { id: 'detailed-analysis', text: 'Granular analysis of on-page SEO factors and elements' },
+      { id: 'optimization-score', text: 'Score showing optimization level with specific recommendations' },
+      { id: 'actionable-insights', text: 'Specific recommendations for improving rankings' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Page Analysis',
+        description: 'Detailed analysis of on-page SEO factors and optimization level.',
+        icon: 'search'
+      },
+      {
+        id: '2',
+        title: 'Competitor Comparison',
+        description: 'Compare your page against top-ranking competitors for target keyword.',
+        icon: 'columns-2'
+      },
+      {
+        id: '3',
+        title: 'Optimization Score',
+        description: 'Score showing how well optimized your page is with recommendations.',
+        icon: 'chart-column'
+      }
+    ]
+  },
+  {
+    id: '429',
+    slug: 'screamingfrog',
+    name: 'Screaming Frog',
+    tagline: 'Website crawler for technical SEO audits',
+    description: 'Screaming Frog SEO Spider is a desktop website crawler providing comprehensive technical SEO audits. Crawls websites to identify issues with metadata, links, redirects, and site structure. Essential tool for technical SEO professionals.',
+    overview: '',
+    pricingDescription: 'Free version crawls up to 500 URLs. Paid license at £199/year for unlimited crawling. One-time annual payment. Desktop software for Windows, Mac, and Linux.',
+    logo: '/images/tool-logo/screamingfrog.webp',
+    website: 'https://screamingfrog.co.uk/seo-spider',
+    affiliateUrl: null,
+    categories: ['seo'],
+    tags: [
+      'technical-seo',
+      'website-crawler',
+      'site-audit',
+      'metadata',
+      'redirects',
+      'broken-links',
+      'desktop-software',
+      'seo-audit'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'comprehensive-crawling', text: 'Crawl entire websites identifying technical SEO issues' },
+      { id: 'metadata-analysis', text: 'Analyze titles, descriptions, headings, and metadata at scale' },
+      { id: 'link-analysis', text: 'Find broken links, redirect chains, and link issues' },
+      { id: 'site-structure', text: 'Visualize site architecture and identify structural problems' }
+    ],
+    platforms: ['windows', 'mac', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Website Crawling',
+        description: 'Crawl websites to analyze pages, metadata, and technical elements.',
+        icon: 'search'
+      },
+      {
+        id: '2',
+        title: 'Metadata Extraction',
+        description: 'Extract and analyze titles, descriptions, headings, and structured data.',
+        icon: 'tag'
+      },
+      {
+        id: '3',
+        title: 'Link Analysis',
+        description: 'Find broken links, redirects, and analyze internal linking structure.',
+        icon: 'link'
+      }
+    ]
+  },
+  {
+    id: '430',
+    slug: 'whitespark',
+    name: 'Whitespark',
+    tagline: 'Local SEO tools for citation building and rank tracking',
+    description: 'Whitespark provides local SEO tools specializing in citation building, local rank tracking, and review management. Serves local businesses and agencies wanting to improve local search visibility and manage online presence.',
+    overview: '',
+    pricingDescription: 'Local Citation Finder at $79 one-time. Rank Tracker at $35/month. Review Tracker at $35/month. Citation Builder service available separately. Various tools available individually or bundled.',
+    logo: '/images/tool-logo/whitespark.webp',
+    website: 'https://whitespark.ca',
+    affiliateUrl: null,
+    categories: ['seo'],
+    tags: [
+      'local-seo',
+      'citations',
+      'rank-tracking',
+      'review-management',
+      'local-search',
+      'google-business',
+      'directory-listings',
+      'local-marketing'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'citation-finder', text: 'Discover citation opportunities specific to your industry and location' },
+      { id: 'local-rankings', text: 'Track local search rankings across geographic areas' },
+      { id: 'review-tracking', text: 'Monitor reviews across multiple platforms and locations' },
+      { id: 'citation-building', text: 'Professional citation building service for accurate listings' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Citation Finder',
+        description: 'Find relevant citation opportunities for your business and industry.',
+        icon: 'list'
+      },
+      {
+        id: '2',
+        title: 'Rank Tracker',
+        description: 'Track local search rankings across different locations and keywords.',
+        icon: 'trending-up'
+      },
+      {
+        id: '3',
+        title: 'Review Tracker',
+        description: 'Monitor and manage reviews across Google, Facebook, and other platforms.',
+        icon: 'star'
+      }
+    ]
+  },
+  {
+    id: '431',
+    slug: 'bigcartel',
+    name: 'Big Cartel',
+    tagline: 'Simple online stores for artists and makers',
+    description: 'Big Cartel is an ecommerce platform built for independent artists and makers selling a small catalog of physical or digital products. Offers free and low-cost plans with built-in themes, discount codes, and straightforward order management without the complexity of larger platforms.',
+    overview: '',
+    pricingDescription: 'Free Gold plan for up to 5 products. Platinum at $9.99/month for 50 products, Diamond at $19.99/month for 250 products, and Titanium at $29.99/month for 500 products, with annual billing discounted. Paid tiers add custom domain support and theme code editing.',
+    logo: '/images/tool-logo/bigcartel.webp',
+    website: 'https://www.bigcartel.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'online-store',
+      'artists',
+      'makers',
+      'physical-products',
+      'themes',
+      'discount-codes',
+      'inventory',
+      'small-business'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-plan', text: 'Free plan for selling up to five products' },
+      { id: 'artist-focus', text: 'Built specifically for artists, makers, and small brands' },
+      { id: 'no-platform-fees', text: 'No platform transaction fee beyond payment processing' },
+      { id: 'editable-themes', text: 'Editable themes with custom domain support' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Storefront Themes',
+        description: 'Choose a built-in theme and edit colors, fonts, and layout without writing code.',
+        icon: 'palette'
+      },
+      {
+        id: '2',
+        title: 'Product Management',
+        description: 'List physical and digital products with variants, images, and inventory tracking.',
+        icon: 'package'
+      },
+      {
+        id: '3',
+        title: 'Orders and Discounts',
+        description: 'Process orders, issue refunds, and run discount codes from a single dashboard.',
+        icon: 'receipt'
+      }
+    ]
+  },
+  {
+    id: '432',
+    slug: 'ecwid',
+    name: 'Ecwid',
+    tagline: 'Embeddable store for any existing website',
+    description: 'Ecwid by Lightspeed is an ecommerce widget that adds a storefront to an existing website, blog, or social profile. Synchronizes inventory and orders across channels including Facebook, Instagram, Google Shopping, marketplaces, and in-person point of sale.',
+    overview: '',
+    pricingDescription: 'Free plan for up to 5 products. Venture from $15/month billed annually, Business from $35/month with unlimited products and abandoned cart saving, and Unlimited from $83/month adding staff accounts and Google Shopping. Monthly billing costs more.',
+    logo: '/images/tool-logo/ecwid.webp',
+    website: 'https://www.ecwid.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'embedded-store',
+      'multichannel',
+      'inventory-sync',
+      'point-of-sale',
+      'social-commerce',
+      'website-widget',
+      'small-business',
+      'lightspeed'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'embed-anywhere', text: 'Adds a full store to any website, blog, or social page' },
+      { id: 'multichannel', text: 'Sells across web, marketplaces, social networks, and in person' },
+      { id: 'inventory-sync', text: 'Keeps stock levels and orders synchronized across channels' },
+      { id: 'free-tier', text: 'Free plan covers a small product catalog' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Store Widget',
+        description: 'Embed a product catalog and shopping cart into an existing site with a code snippet.',
+        icon: 'code'
+      },
+      {
+        id: '2',
+        title: 'Channel Publishing',
+        description: 'Publish products to Facebook, Instagram, Google Shopping, and online marketplaces.',
+        icon: 'share-2'
+      },
+      {
+        id: '3',
+        title: 'Mobile Point of Sale',
+        description: 'Take payments and manage orders in person from the iOS and Android apps.',
+        icon: 'smartphone'
+      }
+    ]
+  },
+  {
+    id: '433',
+    slug: 'gumroad',
+    name: 'Gumroad',
+    tagline: 'Sell digital products directly to your audience',
+    description: 'Gumroad is a commerce platform for creators selling digital products, memberships, and courses without building a store. Handles payments, file delivery, sales tax and VAT, affiliate programs, and payouts, charging a flat percentage per sale instead of a monthly subscription.',
+    overview: '',
+    pricingDescription: 'No monthly subscription. Gumroad takes a flat 10% of each sale plus payment processing fees, covering hosting, delivery, and tax handling. Sales made through the Discover marketplace carry an additional fee.',
+    logo: '/images/tool-logo/gumroad.webp',
+    website: 'https://gumroad.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'digital-products',
+      'creators',
+      'memberships',
+      'courses',
+      'payments',
+      'affiliates',
+      'payouts',
+      'no-monthly-fee'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'no-subscription', text: 'No monthly fee, just a flat percentage per sale' },
+      { id: 'instant-delivery', text: 'Automatic delivery of files, license keys, and streamed content' },
+      { id: 'memberships', text: 'Recurring memberships and subscription products' },
+      { id: 'tax-handling', text: 'Sales tax and VAT calculated and remitted for you' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Product Checkout',
+        description: 'Create a product page and shareable checkout link without writing code.',
+        icon: 'shopping-cart'
+      },
+      {
+        id: '2',
+        title: 'Memberships and Courses',
+        description: 'Sell recurring memberships and structured course content to subscribers.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Affiliates and Payouts',
+        description: 'Recruit affiliates to promote products and receive payouts to a bank account.',
+        icon: 'hand-coins'
+      }
+    ]
+  },
+  {
+    id: '434',
+    slug: 'payhip',
+    name: 'Payhip',
+    tagline: 'Free storefront for digital products and memberships',
+    description: 'Payhip is an ecommerce platform for selling digital downloads, online courses, coaching, memberships, and physical products. The Free Forever plan charges only a transaction fee, while paid plans lower that fee and add custom domain and marketing features.',
+    overview: '',
+    pricingDescription: 'Free Forever plan charges a 5% transaction fee. Plus at $29/month reduces it to 2%, and Pro at $99/month removes the Payhip fee entirely. Payment processor fees apply on every plan.',
+    logo: '/images/tool-logo/payhip.webp',
+    website: 'https://payhip.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'digital-downloads',
+      'courses',
+      'memberships',
+      'store-builder',
+      'transaction-fees',
+      'custom-domain',
+      'eu-vat',
+      'coaching'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-forever', text: 'Free plan with no monthly cost, only a 5% fee' },
+      { id: 'vat-handling', text: 'Calculates and reports EU and UK VAT automatically' },
+      { id: 'multi-format', text: 'Sells downloads, courses, memberships, and physical goods' },
+      { id: 'store-builder', text: 'Built-in store builder with custom domain support' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Store Builder',
+        description: 'Build a storefront with product pages, coupons, and your own domain.',
+        icon: 'store'
+      },
+      {
+        id: '2',
+        title: 'Digital Delivery',
+        description: 'Deliver files, license keys, and streaming content automatically after purchase.',
+        icon: 'download'
+      },
+      {
+        id: '3',
+        title: 'Courses and Coaching',
+        description: 'Structure course lessons and sell coaching sessions from the same account.',
+        icon: 'graduation-cap'
+      }
+    ]
+  },
+  {
+    id: '435',
+    slug: 'sendowl',
+    name: 'SendOwl',
+    tagline: 'Digital delivery cart for creators and small teams',
+    description: 'SendOwl is a digital delivery platform that attaches a cart and checkout to an existing site, blog, or social profile. Delivers files, license keys, and streaming content, with integrations for payment providers, email services, and affiliate programs.',
+    overview: '',
+    pricingDescription: 'Paid subscription plans start around $9/month for a small product catalog and limited storage, rising to roughly $39/month for larger libraries. Paid plans add no percentage fee on top of payment processing. Verify current tiers on the vendor page.',
+    logo: '/images/tool-logo/sendowl.webp',
+    website: 'https://www.sendowl.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'digital-delivery',
+      'file-hosting',
+      'license-keys',
+      'checkout',
+      'subscriptions',
+      'affiliates',
+      'integrations',
+      'drip-content'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'attach-anywhere', text: 'Adds checkout buttons to any website or blog' },
+      { id: 'secure-delivery', text: 'Stamped PDFs, expiring links, and license keys' },
+      { id: 'subscriptions', text: 'Recurring billing with drip-fed content' },
+      { id: 'integrations', text: 'Connects to Stripe, PayPal, and email marketing tools' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Checkout Links',
+        description: 'Generate buy buttons and checkout links to embed on any page.',
+        icon: 'link'
+      },
+      {
+        id: '2',
+        title: 'Secure File Delivery',
+        description: 'Deliver downloads with expiring links, PDF stamping, and license keys.',
+        icon: 'file-lock'
+      },
+      {
+        id: '3',
+        title: 'Affiliate Management',
+        description: 'Create affiliate programs and track referrals, sales, and payouts.',
+        icon: 'handshake'
+      }
+    ]
+  },
+  {
+    id: '436',
+    slug: 'opencart',
+    name: 'OpenCart',
+    tagline: 'Free open-source shopping cart you host yourself',
+    description: 'OpenCart is a free, open-source ecommerce platform written in PHP with a MySQL backend. Provides product management, multi-store support, an extension marketplace, and payment gateways, all self-hosted so merchants control their server and pay no license fee.',
+    overview: '',
+    pricingDescription: 'The software is free and open source under the GPL. Costs come from hosting, a domain, an SSL certificate, premium themes and extensions from the OpenCart marketplace, and optional paid support plans.',
+    logo: '/images/tool-logo/opencart.webp',
+    website: 'https://www.opencart.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'open-source',
+      'self-hosted',
+      'php',
+      'multi-store',
+      'extensions',
+      'payment-gateways',
+      'shopping-cart',
+      'no-license-fee'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'no-license-fee', text: 'Free to download and run with no license cost' },
+      { id: 'multi-store', text: 'Manage several storefronts from one admin panel' },
+      { id: 'extensions', text: 'Thousands of themes and extensions in the marketplace' },
+      { id: 'self-hosted', text: 'Full control over the server, data, and source code' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Multi-Store Admin',
+        description: 'Run multiple storefronts with shared or separate catalogs from one dashboard.',
+        icon: 'store'
+      },
+      {
+        id: '2',
+        title: 'Extension Marketplace',
+        description: 'Add payment, shipping, and marketing features through installable extensions.',
+        icon: 'puzzle'
+      },
+      {
+        id: '3',
+        title: 'Catalog and Orders',
+        description: 'Manage products, options, coupons, reviews, and order statuses.',
+        icon: 'clipboard-list'
+      }
+    ]
+  },
+  {
+    id: '437',
+    slug: 'prestashop',
+    name: 'PrestaShop',
+    tagline: 'Open-source ecommerce platform with a European base',
+    description: 'PrestaShop is an open-source ecommerce platform written in PHP that merchants self-host. Offers a modular catalog, multi-language and multi-currency support, and a large marketplace of themes and modules, with particularly strong adoption across Europe and Latin America.',
+    overview: '',
+    pricingDescription: 'The core software is free and open source. Merchants pay for hosting, premium modules and themes from the PrestaShop Addons marketplace, and optionally the hosted cloud edition, which is billed monthly per store.',
+    logo: '/images/tool-logo/prestashop.webp',
+    website: 'https://www.prestashop.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'open-source',
+      'self-hosted',
+      'php',
+      'multilingual',
+      'multi-currency',
+      'modules',
+      'europe',
+      'shopping-cart'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'open-core', text: 'Free open-source core you can modify and self-host' },
+      { id: 'multilingual', text: 'Built-in multi-language and multi-currency storefronts' },
+      { id: 'addons-market', text: 'Large marketplace of paid modules and themes' },
+      { id: 'eu-adoption', text: 'Widely deployed across Europe and Latin America' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Catalog Management',
+        description: 'Manage products, combinations, attributes, stock levels, and supplier data.',
+        icon: 'boxes'
+      },
+      {
+        id: '2',
+        title: 'Localization',
+        description: 'Configure languages, currencies, tax rules, and regional payment methods.',
+        icon: 'globe'
+      },
+      {
+        id: '3',
+        title: 'Module System',
+        description: 'Extend checkout, shipping, and marketing through installable modules.',
+        icon: 'layers'
+      }
+    ]
+  },
+  {
+    id: '438',
+    slug: 'shopware',
+    name: 'Shopware',
+    tagline: 'Open-source commerce platform for growing merchants',
+    description: 'Shopware is a Symfony-based open-source commerce platform aimed at mid-market and enterprise merchants. Ships with an API-first architecture, a visual rule builder, a drag-and-drop CMS, and B2B components, offered as a self-hosted Community Edition or as paid cloud plans.',
+    overview: '',
+    pricingDescription: 'Community Edition is free and open source. Managed cloud plans are billed monthly per environment and start in the mid hundreds of euros per month, with higher tiers adding B2B components and larger traffic allowances. Check current tiers on the vendor page.',
+    logo: '/images/tool-logo/shopware.webp',
+    website: 'https://shopware.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'open-source',
+      'symfony',
+      'api-first',
+      'b2b',
+      'rule-builder',
+      'cms',
+      'mid-market',
+      'headless'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'api-first', text: 'API-first architecture suited to headless storefronts' },
+      { id: 'free-edition', text: 'Community Edition is free and open source' },
+      { id: 'rule-builder', text: 'Visual rule builder for pricing, shipping, and promotions' },
+      { id: 'b2b-suite', text: 'B2B suite with budgets, quotes, and company accounts' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Shopping Experiences',
+        description: 'Build landing pages and product listings with the drag-and-drop CMS.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '2',
+        title: 'Rule Builder',
+        description: 'Define pricing, shipping, and promotion rules without writing code.',
+        icon: 'workflow'
+      },
+      {
+        id: '3',
+        title: 'Storefront API',
+        description: 'Expose catalog and cart data through APIs for custom frontends.',
+        icon: 'code'
+      }
+    ]
+  },
+  {
+    id: '439',
+    slug: 'magento',
+    name: 'Magento',
+    tagline: 'Open-source commerce for enterprise merchants',
+    description: 'Magento is the PHP commerce platform behind Magento Open Source and Adobe Commerce. Handles large multi-store catalogs, complex pricing rules, and B2B workflows, with an extension marketplace and full control over the codebase for merchants with development resources.',
+    overview: '',
+    pricingDescription: 'Magento Open Source is free to download and self-host. Adobe Commerce is licensed against annual gross sales value and runs into tens of thousands of dollars per year, while Adobe Commerce Cloud adds managed hosting. Budget separately for development, hosting, and extensions.',
+    logo: '/images/tool-logo/magento.webp',
+    website: 'https://magento.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'open-source',
+      'adobe-commerce',
+      'php',
+      'enterprise',
+      'b2b',
+      'multi-store',
+      'extensions',
+      'headless'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'open-source-core', text: 'Magento Open Source is free to download and modify' },
+      { id: 'enterprise-scale', text: 'Handles large catalogs and high order volumes' },
+      { id: 'multi-store', text: 'Runs multiple stores, currencies, and languages' },
+      { id: 'b2b-features', text: 'Quotes, company accounts, and tiered pricing for B2B' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Catalog and Pricing',
+        description: 'Manage large catalogs with configurable products, bundles, and tiered pricing.',
+        icon: 'boxes'
+      },
+      {
+        id: '2',
+        title: 'Multi-Store Management',
+        description: 'Operate multiple storefronts, languages, and currencies from one admin panel.',
+        icon: 'globe'
+      },
+      {
+        id: '3',
+        title: 'Extension Framework',
+        description: 'Add payment, shipping, ERP, and PIM integrations through extensions.',
+        icon: 'puzzle'
+      }
+    ]
+  },
+  {
+    id: '440',
+    slug: 'memberful',
+    name: 'Memberful',
+    tagline: 'Add paid memberships to your existing website',
+    description: 'Memberful is a membership and subscription platform owned by Patreon that layers paid access onto an existing website. Handles subscriptions, digital downloads, courses, private RSS feeds, and community access, with integrations for WordPress, Ghost, Discord, and email services.',
+    overview: '',
+    pricingDescription: 'A free plan charges a percentage fee per transaction. Paid plans start around $25/month billed annually for a limited member count, scaling upward with member totals and features such as custom fields and coupons. Verify current tiers on the vendor page.',
+    logo: '/images/tool-logo/memberful.webp',
+    website: 'https://memberful.com',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'community'],
+    tags: [
+      'memberships',
+      'subscriptions',
+      'wordpress',
+      'courses',
+      'private-rss',
+      'discord',
+      'patreon',
+      'creator-economy'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'site-overlay', text: 'Adds paid access to a website you already run' },
+      { id: 'patreon-owned', text: 'Owned by Patreon and focused on creator memberships' },
+      { id: 'private-feeds', text: 'Protected RSS feeds for podcast and video content' },
+      { id: 'integrations', text: 'Connects to WordPress, Ghost, Discord, and email tools' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Subscription Billing',
+        description: 'Create plans with recurring billing, trials, coupons, and proration.',
+        icon: 'repeat'
+      },
+      {
+        id: '2',
+        title: 'Member Dashboard',
+        description: 'Give members one sign-in area for downloads, courses, and community access.',
+        icon: 'user-check'
+      },
+      {
+        id: '3',
+        title: 'Content Protection',
+        description: 'Restrict pages, files, and RSS feeds to paying members only.',
+        icon: 'lock'
+      }
+    ]
+  },
+  {
+    id: '441',
+    slug: 'memberstack',
+    name: 'Memberstack',
+    tagline: 'Memberships and gating for static and JS websites',
+    description: 'Memberstack adds authentication, paid memberships, and content gating to static sites and single-page apps without a custom backend. Integrates with Stripe and works with Webflow, Next.js, and other frontend frameworks.',
+    overview: '',
+    pricingDescription: 'A free plan supports testing with a per-transaction fee. Paid plans are billed monthly and scale by member count and monthly recurring revenue, starting in the tens of dollars per month. Verify current tiers on the vendor page.',
+    logo: '/images/tool-logo/memberstack.webp',
+    website: 'https://www.memberstack.com',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'web-development'],
+    tags: [
+      'memberships',
+      'authentication',
+      'content-gating',
+      'stripe',
+      'webflow',
+      'static-sites',
+      'paywalls',
+      'developer-tools'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'no-backend', text: 'Adds accounts and paywalls without building a backend' },
+      { id: 'stripe-native', text: 'Billing runs through your own Stripe account' },
+      { id: 'static-friendly', text: 'Works with Webflow, Next.js, and other static frontends' },
+      { id: 'gating', text: 'Protects pages and sections with simple attributes' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Client Authentication',
+        description: 'Add sign-up, login, and password reset flows to any frontend.',
+        icon: 'lock-keyhole'
+      },
+      {
+        id: '2',
+        title: 'Membership Plans',
+        description: 'Define paid plans and gate pages or individual elements by plan.',
+        icon: 'badge-check'
+      },
+      {
+        id: '3',
+        title: 'Stripe Billing',
+        description: 'Charge subscriptions through your own Stripe account and sync status.',
+        icon: 'credit-card'
+      }
+    ]
+  },
+  {
+    id: '442',
+    slug: 'outseta',
+    name: 'Outseta',
+    tagline: 'CRM, billing, and memberships for SaaS and communities',
+    description: 'Outseta is an all-in-one platform for subscription businesses combining CRM, email marketing, membership access, live chat, help desk, and subscription billing. Targets SaaS startups, membership sites, and online communities that want to avoid stitching together separate tools.',
+    overview: '',
+    pricingDescription: 'A free plan supports a limited member count with transaction fees. Paid plans start around $45/month and scale by number of members, with CRM, email, and billing included rather than sold as separate add-ons.',
+    logo: '/images/tool-logo/outseta.webp',
+    website: 'https://www.outseta.com',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'crm'],
+    tags: [
+      'subscriptions',
+      'crm',
+      'memberships',
+      'email-marketing',
+      'help-desk',
+      'live-chat',
+      'saas',
+      'all-in-one'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'all-in-one', text: 'CRM, billing, email, and support in a single product' },
+      { id: 'member-based', text: 'Priced by member count rather than per tool' },
+      { id: 'free-plan', text: 'Free plan for early-stage membership businesses' },
+      { id: 'auth-widgets', text: 'Drop-in authentication and account widgets for your site' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Subscription Billing',
+        description: 'Manage recurring plans, trials, invoices, and failed payment recovery.',
+        icon: 'repeat'
+      },
+      {
+        id: '2',
+        title: 'Integrated CRM',
+        description: 'Track people, accounts, and deals alongside membership activity.',
+        icon: 'contact'
+      },
+      {
+        id: '3',
+        title: 'Email and Support',
+        description: 'Send campaigns and answer tickets or live chat without extra tools.',
+        icon: 'mail'
+      }
+    ]
+  },
+  {
+    id: '443',
+    slug: 'samcart',
+    name: 'SamCart',
+    tagline: 'Checkout pages and funnels for info-product sellers',
+    description: 'SamCart is a checkout and funnel builder for coaches, course creators, and digital product sellers. Provides conversion-tested checkout templates, order bumps, one-click upsells, subscription management, an affiliate center, and automatic sales tax handling.',
+    overview: '',
+    pricingDescription: 'Paid plans only, billed monthly or annually, starting in the tens of dollars per month for core checkout features and rising through tiers that add subscriptions, upsells, cart abandonment, and CRM integrations. A trial is offered. Verify current tiers on the vendor page.',
+    logo: '/images/tool-logo/samcart.webp',
+    website: 'https://www.samcart.com',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'marketing'],
+    tags: [
+      'checkout',
+      'one-click-upsells',
+      'order-bumps',
+      'subscriptions',
+      'funnels',
+      'course-creators',
+      'sales-tax',
+      'affiliates'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'checkout-templates', text: 'Conversion-tested checkout page templates' },
+      { id: 'upsells', text: 'Order bumps and one-click upsells on every checkout' },
+      { id: 'subscriptions', text: 'Subscription billing with dunning and trial handling' },
+      { id: 'tax-handling', text: 'Automatic sales tax and VAT calculation' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Checkout Builder',
+        description: 'Design checkout pages from templates using drag-and-drop blocks.',
+        icon: 'shopping-cart'
+      },
+      {
+        id: '2',
+        title: 'Upsells and Bumps',
+        description: 'Attach order bumps and one-click upsell offers to any product.',
+        icon: 'trending-up'
+      },
+      {
+        id: '3',
+        title: 'Subscription Management',
+        description: 'Bill recurring plans, retry failed payments, and manage trials.',
+        icon: 'refresh-cw'
+      }
+    ]
+  },
+  {
+    id: '444',
+    slug: 'thrivecart',
+    name: 'ThriveCart',
+    tagline: 'Lifetime-license cart with upsells and affiliates',
+    description: 'ThriveCart is a shopping cart and funnel platform sold as a one-time license rather than a subscription. Includes checkout templates, order bumps, upsell funnels, an affiliate center, and subscription billing, with no platform transaction fee on sales.',
+    overview: '',
+    pricingDescription: 'Sold as a one-time license, historically in the $495 to $695 range including unlimited products and funnels. Optional paid add-ons cover a website builder and the Learn course platform. No monthly fee and no platform transaction fee. Verify the current price on the vendor page.',
+    logo: '/images/tool-logo/thrivecart.webp',
+    website: 'https://thrivecart.com',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'marketing'],
+    tags: [
+      'shopping-cart',
+      'lifetime-license',
+      'upsells',
+      'affiliate-center',
+      'subscriptions',
+      'course-platform',
+      'funnels',
+      'no-transaction-fees'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'one-time-payment', text: 'One-time license instead of a monthly subscription' },
+      { id: 'affiliate-center', text: 'Built-in affiliate recruitment, tracking, and payouts' },
+      { id: 'no-platform-fees', text: 'No platform transaction fee on sales' },
+      { id: 'learn-addon', text: 'Optional ThriveCart Learn course hosting' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Cart and Checkout',
+        description: 'Build cart, checkout, and embedded pages with bump and upsell offers.',
+        icon: 'shopping-basket'
+      },
+      {
+        id: '2',
+        title: 'Affiliate Management',
+        description: 'Recruit affiliates, set commission rules, and track payouts.',
+        icon: 'handshake'
+      },
+      {
+        id: '3',
+        title: 'Subscription Billing',
+        description: 'Charge recurring payments with dunning and plan management.',
+        icon: 'repeat'
+      }
+    ]
+  },
+  {
+    id: '445',
+    slug: 'kartra',
+    name: 'Kartra',
+    tagline: 'All-in-one funnel, email, and membership platform',
+    description: 'Kartra is an all-in-one marketing platform bundling funnel and page building, email and SMS marketing, video hosting, membership sites, a help desk, booking calendars, and affiliate management. Aimed at course creators, coaches, and small marketing teams replacing several separate subscriptions.',
+    overview: '',
+    pricingDescription: 'Plans are billed monthly or annually and scale by contact count, starting around $99/month for the entry tier with a limited lead allowance and rising through tiers with higher contact caps and email volumes. A low-cost trial is typically offered. Verify current tiers on the vendor page.',
+    logo: '/images/tool-logo/kartra.webp',
+    website: 'https://home.kartra.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'ecommerce'],
+    tags: [
+      'funnels',
+      'email-marketing',
+      'membership-sites',
+      'video-hosting',
+      'help-desk',
+      'calendars',
+      'affiliates',
+      'all-in-one'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'all-in-one', text: 'Pages, email, video, memberships, and support in one tool' },
+      { id: 'automation', text: 'Visual campaign builder with behavioral triggers' },
+      { id: 'video-hosting', text: 'Native video hosting with viewer engagement analytics' },
+      { id: 'done-for-you', text: 'Prebuilt campaign templates for common offers' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Page and Funnel Builder',
+        description: 'Create landing pages, checkouts, and complete funnels with drag and drop.',
+        icon: 'layout-grid'
+      },
+      {
+        id: '2',
+        title: 'Email and Automation',
+        description: 'Send broadcasts and build automated sequences based on subscriber behavior.',
+        icon: 'send'
+      },
+      {
+        id: '3',
+        title: 'Memberships and Helpdesk',
+        description: 'Gate course content and answer support tickets inside the platform.',
+        icon: 'graduation-cap'
+      }
+    ]
+  },
+  {
+    id: '446',
+    slug: 'judgeme',
+    name: 'Judge.me',
+    tagline: 'Product reviews app for online stores',
+    description: 'Judge.me is a product reviews platform for Shopify, WooCommerce, BigCommerce, and other commerce systems. Collects text, photo, and video reviews through automated request emails, displays them with rich snippets, and syndicates ratings to shopping and ad channels.',
+    overview: '',
+    pricingDescription: 'Free plan includes unlimited review requests with no order limit and basic display widgets. The Awesome plan is around $15/month per store and adds photo and video reviews, custom review forms, and shopping channel integrations.',
+    logo: '/images/tool-logo/judgeme.webp',
+    website: 'https://judge.me',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'marketing'],
+    tags: [
+      'product-reviews',
+      'shopify',
+      'woocommerce',
+      'photo-reviews',
+      'video-reviews',
+      'rich-snippets',
+      'social-proof',
+      'review-requests'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-unlimited', text: 'Free plan with unlimited review request emails' },
+      { id: 'media-reviews', text: 'Collects photo and video reviews from customers' },
+      { id: 'rich-snippets', text: 'Star ratings in search results through schema markup' },
+      { id: 'multi-platform', text: 'Works with Shopify, WooCommerce, and BigCommerce' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Review Requests',
+        description: 'Send automated post-purchase emails asking customers for reviews.',
+        icon: 'mail'
+      },
+      {
+        id: '2',
+        title: 'Review Widgets',
+        description: 'Display rating summaries, review carousels, and all-reviews pages.',
+        icon: 'star'
+      },
+      {
+        id: '3',
+        title: 'Channel Syndication',
+        description: 'Share ratings with Google Shopping, Meta, and other ad channels.',
+        icon: 'share-2'
+      }
+    ]
+  },
+  {
+    id: '447',
+    slug: 'loox',
+    name: 'Loox',
+    tagline: 'Photo and video reviews for Shopify stores',
+    description: 'Loox is a reviews app for Shopify stores focused on collecting photo and video reviews. Automates post-purchase review requests, displays visual review galleries on product pages, and syndicates ratings to Google, Meta, and TikTok advertising channels.',
+    overview: '',
+    pricingDescription: 'Paid plans billed monthly, starting around $10/month for low order volumes and scaling by monthly order count up to several hundred dollars for high-volume stores. A trial period is offered. Verify current tiers on the vendor page.',
+    logo: '/images/tool-logo/loox.webp',
+    website: 'https://loox.io',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'marketing'],
+    tags: [
+      'photo-reviews',
+      'video-reviews',
+      'shopify',
+      'social-proof',
+      'review-automation',
+      'ugc',
+      'google-shopping',
+      'ad-creative'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'visual-reviews', text: 'Collects photo and video reviews from buyers' },
+      { id: 'automation', text: 'Automated review requests with discount incentives' },
+      { id: 'ad-syndication', text: 'Pushes star ratings to Google, Meta, and TikTok' },
+      { id: 'ugc-ads', text: 'Turns customer photos into advertising creative' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Review Automation',
+        description: 'Trigger email requests that ask for a photo in exchange for a discount code.',
+        icon: 'mail'
+      },
+      {
+        id: '2',
+        title: 'Visual Galleries',
+        description: 'Show photo and video review carousels on product and site-wide pages.',
+        icon: 'image'
+      },
+      {
+        id: '3',
+        title: 'Ad Integrations',
+        description: 'Syndicate ratings to Google Shopping, Meta, and TikTok ad accounts.',
+        icon: 'megaphone'
+      }
+    ]
+  },
+  {
+    id: '448',
+    slug: 'yotpo',
+    name: 'Yotpo',
+    tagline: 'Ecommerce marketing suite for reviews, loyalty, and SMS',
+    description: 'Yotpo is an ecommerce marketing platform offering ratings and reviews, user-generated content, loyalty and referral programs, SMS marketing, and email marketing. Sells modular products that share one customer data layer, aimed at mid-market and enterprise direct-to-consumer brands.',
+    overview: '',
+    pricingDescription: 'A free plan covers basic reviews for low-volume stores. Paid products are quoted by order volume and module, with Reviews, Loyalty, SMS, and Email priced separately or bundled. Enterprise plans are custom, so request a quote for exact figures.',
+    logo: '/images/tool-logo/yotpo.webp',
+    website: 'https://www.yotpo.com',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'marketing'],
+    tags: [
+      'ratings-and-reviews',
+      'ugc',
+      'loyalty',
+      'referrals',
+      'sms-marketing',
+      'email-marketing',
+      'dtc',
+      'modular-suite'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'modular', text: 'Buy reviews, loyalty, SMS, or email as separate modules' },
+      { id: 'visual-ugc', text: 'Collects customer photos and videos for site and ads' },
+      { id: 'enterprise-ready', text: 'Built for mid-market and enterprise DTC brands' },
+      { id: 'free-tier', text: 'Free plan for stores with low order volume' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Ratings and Reviews',
+        description: 'Collect, moderate, and display reviews with rich snippets and galleries.',
+        icon: 'star'
+      },
+      {
+        id: '2',
+        title: 'Loyalty and Referrals',
+        description: 'Run points, tiers, and referral programs tied to customer behavior.',
+        icon: 'award'
+      },
+      {
+        id: '3',
+        title: 'SMS and Email',
+        description: 'Send triggered flows and campaigns across SMS and email channels.',
+        icon: 'message-square'
+      }
+    ]
+  },
+  {
+    id: '449',
+    slug: 'birdeye',
+    name: 'Birdeye',
+    tagline: 'Reputation and customer messaging for local businesses',
+    description: 'Birdeye is a customer experience platform for local and multi-location businesses covering review generation and management, business listings, social publishing, web chat and messaging, surveys, and an AI assistant that drafts content and replies.',
+    overview: '',
+    pricingDescription: 'Pricing is quote-based per business location, typically starting in the low hundreds of dollars per month per location, with bundles covering reviews, listings, messaging, and social. Multi-location chains receive volume pricing. Request a quote for exact figures.',
+    logo: '/images/tool-logo/birdeye.webp',
+    website: 'https://birdeye.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'reputation-management',
+      'reviews',
+      'listings',
+      'social-publishing',
+      'webchat',
+      'surveys',
+      'multi-location',
+      'local-business'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'all-in-one-cx', text: 'Reviews, listings, messaging, and social in one platform' },
+      { id: 'multi-location', text: 'Designed for chains and franchises with many locations' },
+      { id: 'ai-assistant', text: 'AI drafts review responses and marketing content' },
+      { id: 'unified-inbox', text: 'Single inbox for chat, SMS, and social messages' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Review Management',
+        description: 'Request, monitor, and respond to reviews across many platforms.',
+        icon: 'star'
+      },
+      {
+        id: '2',
+        title: 'Listings and Social',
+        description: 'Keep business listings accurate and schedule social posts centrally.',
+        icon: 'map-pin'
+      },
+      {
+        id: '3',
+        title: 'Messaging and Surveys',
+        description: 'Answer web chat and SMS in one inbox and run customer surveys.',
+        icon: 'message-circle'
+      }
+    ]
+  },
+  {
+    id: '450',
+    slug: 'podium',
+    name: 'Podium',
+    tagline: 'Unified inbox, reviews, and payments for local businesses',
+    description: 'Podium is a customer communication platform for local businesses that consolidates SMS, web chat, social messages, reviews, listings, and payments into a single inbox, with an AI employee that answers leads, books appointments, and requests reviews.',
+    overview: '',
+    pricingDescription: 'Quote-based pricing, typically starting in the low hundreds of dollars per month per location for the core plan and increasing with AI, payments, and marketing modules. There are no published self-serve tiers, so request a quote for current numbers.',
+    logo: '/images/tool-logo/podium.webp',
+    website: 'https://www.podium.com',
+    affiliateUrl: null,
+    categories: ['marketing', 'communication'],
+    tags: [
+      'unified-inbox',
+      'sms',
+      'reviews',
+      'payments',
+      'ai-employee',
+      'webchat',
+      'listings',
+      'local-business'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'sms-first', text: 'Leads and customers communicate over text message' },
+      { id: 'one-inbox', text: 'Combines SMS, chat, social, and reviews in a single inbox' },
+      { id: 'ai-employee', text: 'AI answers leads, books jobs, and requests reviews' },
+      { id: 'payments', text: 'Send payment links and invoices inside conversations' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Unified Inbox',
+        description: 'Manage every customer conversation across channels in one thread.',
+        icon: 'messages-square'
+      },
+      {
+        id: '2',
+        title: 'Reviews and Listings',
+        description: 'Request reviews and keep directory listings synchronized automatically.',
+        icon: 'star'
+      },
+      {
+        id: '3',
+        title: 'AI Employee',
+        description: 'Automate lead responses, appointment booking, and review requests.',
+        icon: 'bot'
+      }
+    ]
+  },
+  {
+    id: '451',
+    slug: 'reputation',
+    name: 'Reputation.com',
+    tagline: 'Reputation and customer experience platform',
+    description: 'Reputation.com is a reputation management and customer experience platform for enterprises and multi-location brands, covering review generation and response, listings accuracy, surveys, social publishing, and analytics. Merged with Vendasta to broaden local marketing capabilities.',
+    overview: '',
+    pricingDescription: 'Quote-based enterprise pricing, generally billed per location per month with additional platform fees for analytics and integrations. No public price list is published, so contact sales for current figures.',
+    logo: '/images/tool-logo/reputation.webp',
+    website: 'https://reputation.com',
+    affiliateUrl: null,
+    categories: ['marketing'],
+    tags: [
+      'reputation-management',
+      'reviews',
+      'listings',
+      'surveys',
+      'enterprise',
+      'multi-location',
+      'social-publishing',
+      'analytics'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'enterprise-focus', text: 'Built for large brands operating many locations' },
+      { id: 'vendasta-merger', text: 'Combined with Vendasta to add local marketing tools' },
+      { id: 'closed-loop', text: 'Surveys and reviews feed one customer experience record' },
+      { id: 'analytics', text: 'Cross-location benchmarking and reputation scoring' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Review Generation',
+        description: 'Collect and respond to reviews across major platforms at scale.',
+        icon: 'star'
+      },
+      {
+        id: '2',
+        title: 'Listings Accuracy',
+        description: 'Distribute and correct business data across directories and maps.',
+        icon: 'map-pin'
+      },
+      {
+        id: '3',
+        title: 'Surveys and Insights',
+        description: 'Run NPS and custom surveys with location-level benchmarking.',
+        icon: 'chart-pie'
+      }
+    ]
+  },
+  {
+    id: '452',
+    slug: 'cloudflarezerotrust',
+    name: 'Cloudflare Zero Trust',
+    tagline: 'Zero trust access and secure web gateway',
+    description: 'Cloudflare Zero Trust is a SASE platform that replaces corporate VPNs with identity-based access. Includes Access for private applications, Gateway for DNS and HTTP filtering, Tunnel for exposing internal services, and device posture checks, all running on the global Cloudflare network.',
+    overview: '',
+    pricingDescription: 'Free for up to 50 users and includes Access, Gateway, Tunnel, and posture checks. Paid Standard and Enterprise plans are billed per user per month and add higher user limits, support tiers, and advanced controls.',
+    logo: '/images/tool-logo/cloudflarezerotrust.webp',
+    website: 'https://www.cloudflare.com/zero-trust/',
+    affiliateUrl: null,
+    categories: ['security'],
+    tags: [
+      'zero-trust',
+      'sase',
+      'vpn-replacement',
+      'access-control',
+      'dns-filtering',
+      'cloudflare-tunnel',
+      'device-posture',
+      'identity'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-tier', text: 'Free for up to 50 users across the full feature set' },
+      { id: 'vpn-replacement', text: 'Replaces VPNs with per-application identity checks' },
+      { id: 'global-network', text: 'Traffic routes through the Cloudflare edge network' },
+      { id: 'idp-integrations', text: 'Works with Okta, Entra ID, Google Workspace, and others' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Access Policies',
+        description: 'Gate internal and SaaS applications behind identity and device rules.',
+        icon: 'shield-check'
+      },
+      {
+        id: '2',
+        title: 'Secure Web Gateway',
+        description: 'Filter DNS and HTTP traffic with logging and data loss controls.',
+        icon: 'filter'
+      },
+      {
+        id: '3',
+        title: 'Cloudflare Tunnel',
+        description: 'Expose internal services without opening inbound firewall ports.',
+        icon: 'network'
+      }
+    ]
+  },
+  {
+    id: '453',
+    slug: 'dashlane',
+    name: 'Dashlane',
+    tagline: 'Business password manager with VPN and monitoring',
+    description: 'Dashlane is a password manager for individuals and businesses that stores credentials, notes, and payment details, autofills them across devices, and adds a built-in VPN, dark web monitoring, and admin controls for shared team access.',
+    overview: '',
+    pricingDescription: 'A free tier covers one device with a limited number of passwords. Premium for individuals is billed annually at roughly $60 per year, and Business plans are priced per user per year in the low tens of dollars per user per month equivalent. Verify current tiers on the vendor page.',
+    logo: '/images/tool-logo/dashlane.webp',
+    website: 'https://www.dashlane.com',
+    affiliateUrl: null,
+    categories: ['security', 'productivity'],
+    tags: [
+      'password-manager',
+      'autofill',
+      'vpn',
+      'dark-web-monitoring',
+      'team-sharing',
+      'sso',
+      'two-factor',
+      'encryption'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'cross-device', text: 'Syncs passwords across desktop, mobile, and browsers' },
+      { id: 'built-in-vpn', text: 'Includes a VPN on paid personal and business plans' },
+      { id: 'admin-controls', text: 'Shared vaults, groups, and access logs for teams' },
+      { id: 'zero-knowledge', text: 'Zero-knowledge encryption protected by a master password' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Password Vault',
+        description: 'Store credentials, notes, and payment cards with autofill everywhere.',
+        icon: 'lock'
+      },
+      {
+        id: '2',
+        title: 'Team Sharing',
+        description: 'Share vaults and manage user groups, roles, and access logs.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Security Monitoring',
+        description: 'Watch for breaches and dark web exposure and audit weak passwords.',
+        icon: 'shield-alert'
+      }
+    ]
+  },
+  {
+    id: '454',
+    slug: 'keepersecurity',
+    name: 'Keeper Security',
+    tagline: 'Enterprise password and secrets management',
+    description: 'Keeper Security provides a zero-knowledge password manager plus privileged access management for teams of any size. Offers encrypted vaults, secret sharing, SSO and SCIM integration, audit reporting, and add-on modules such as BreachWatch and a secrets manager for infrastructure credentials.',
+    overview: '',
+    pricingDescription: 'Consumer plans start under $3 per month billed annually. Business and Enterprise plans are quoted per user per year and add the admin console, SCIM provisioning, and audit features, while privileged access modules are priced separately.',
+    logo: '/images/tool-logo/keepersecurity.webp',
+    website: 'https://www.keepersecurity.com',
+    affiliateUrl: null,
+    categories: ['security'],
+    tags: [
+      'password-manager',
+      'privileged-access',
+      'zero-knowledge',
+      'secrets-management',
+      'sso',
+      'scim',
+      'audit-logs',
+      'encryption'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'zero-knowledge', text: 'Zero-knowledge architecture with per-record encryption' },
+      { id: 'pam-modules', text: 'Privileged access and secrets manager add-on modules' },
+      { id: 'compliance', text: 'Audit logs and reporting that support SOC 2 and ISO work' },
+      { id: 'any-size', text: 'Plans spanning single users to large enterprises' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Encrypted Vault',
+        description: 'Store passwords, keys, and files in a zero-knowledge encrypted vault.',
+        icon: 'vault'
+      },
+      {
+        id: '2',
+        title: 'Admin Console',
+        description: 'Enforce policies, provision users with SCIM, and review audit logs.',
+        icon: 'shield-user'
+      },
+      {
+        id: '3',
+        title: 'Secrets Manager',
+        description: 'Manage credentials for applications and infrastructure through an API.',
+        icon: 'key-round'
+      }
+    ]
+  },
+  {
+    id: '455',
+    slug: 'nordlayer',
+    name: 'NordLayer',
+    tagline: 'Business VPN and network access for remote teams',
+    description: 'NordLayer is a network security service from the Nord Security family providing business VPN tunnels, site-to-site connections, DNS filtering, threat blocking, and identity-based access controls for remote and distributed teams.',
+    overview: '',
+    pricingDescription: 'Paid plans are billed per user per month with a minimum seat count, starting around $8 per user per month for the entry tier and rising for plans that add dedicated servers, site-to-site gateways, and single sign-on. Annual billing costs less. Verify current tiers on the vendor page.',
+    logo: '/images/tool-logo/nordlayer.webp',
+    website: 'https://nordlayer.com',
+    affiliateUrl: null,
+    categories: ['security'],
+    tags: [
+      'business-vpn',
+      'site-to-site',
+      'dns-filtering',
+      'threat-blocking',
+      'identity-access',
+      'remote-work',
+      'sase',
+      'network-security'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'team-vpn', text: 'Business VPN tunnels with per-user access control' },
+      { id: 'site-to-site', text: 'Connects offices and cloud networks securely' },
+      { id: 'threat-blocking', text: 'DNS filtering and malicious domain blocking' },
+      { id: 'sso-support', text: 'Identity provider and SSO integration on higher tiers' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Business VPN',
+        description: 'Encrypt traffic for remote users through shared or dedicated gateways.',
+        icon: 'shield'
+      },
+      {
+        id: '2',
+        title: 'Access Control',
+        description: 'Assign users to groups and gate networks by identity and device.',
+        icon: 'user-shield'
+      },
+      {
+        id: '3',
+        title: 'Threat Protection',
+        description: 'Block malicious domains and trackers with DNS-level filtering.',
+        icon: 'globe-lock'
+      }
+    ]
+  },
+  {
+    id: '456',
+    slug: 'protonpass',
+    name: 'Proton Pass',
+    tagline: 'Password manager with privacy-first defaults',
+    description: 'Proton Pass is a password manager from Proton that stores credentials with end-to-end encryption, generates email aliases to hide a real address, blocks phishing through domain matching, and adds Proton Sentinel account monitoring on paid plans.',
+    overview: '',
+    pricingDescription: 'A free plan covers unlimited logins across unlimited devices with a limited number of email aliases. Pass Plus and full Proton bundle plans are billed annually, with Pass Plus in the low tens of dollars per year. Business plans are quoted per user.',
+    logo: '/images/tool-logo/protonpass.webp',
+    website: 'https://proton.me/pass',
+    affiliateUrl: null,
+    categories: ['security', 'productivity'],
+    tags: [
+      'password-manager',
+      'end-to-end-encryption',
+      'email-aliases',
+      'phishing-protection',
+      'proton-sentinel',
+      'open-source',
+      'privacy',
+      'autofill'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-unlimited', text: 'Free plan with unlimited passwords on unlimited devices' },
+      { id: 'aliases', text: 'Hide-my-email aliases for signup forms' },
+      { id: 'phishing-defense', text: 'Domain matching prevents autofill on lookalike sites' },
+      { id: 'proton-family', text: 'Part of the Proton suite alongside Mail, VPN, and Drive' }
+    ],
+    platforms: ['web', 'windows', 'mac', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Encrypted Vault',
+        description: 'Store logins, notes, cards, and two-factor codes with end-to-end encryption.',
+        icon: 'lock'
+      },
+      {
+        id: '2',
+        title: 'Email Aliases',
+        description: 'Create unique aliases that forward mail to your real inbox.',
+        icon: 'at-sign'
+      },
+      {
+        id: '3',
+        title: 'Account Monitoring',
+        description: 'Watch for breaches and suspicious sign-in attempts with Proton Sentinel.',
+        icon: 'eye'
+      }
+    ]
+  },
+  {
+    id: '457',
+    slug: 'brex',
+    name: 'Brex',
+    tagline: 'Corporate cards and spend management for companies',
+    description: 'Brex is a financial platform offering corporate cards, expense management, bill pay, travel booking, and business banking for startups and mid-market companies. Brex is not a bank and delivers deposit services through FDIC-insured partner banks.',
+    overview: '',
+    pricingDescription: 'The core platform is free, with revenue coming from interchange on card spend. Paid tiers are priced per user per month and add advanced approvals, accounting integrations, and higher limits. Deposit accounts are provided by partner banks.',
+    logo: '/images/tool-logo/brex.webp',
+    website: 'https://www.brex.com',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'corporate-cards',
+      'spend-management',
+      'expense-reports',
+      'bill-pay',
+      'travel',
+      'business-banking',
+      'startups',
+      'approvals'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-core', text: 'Core platform is free, funded by card interchange' },
+      { id: 'spend-controls', text: 'Per-card limits, merchant blocks, and approval workflows' },
+      { id: 'business-underwriting', text: 'Underwritten on business financials rather than a personal guarantee' },
+      { id: 'integrations', text: 'Syncs spend data with NetSuite, QuickBooks, and Slack' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Corporate Cards',
+        description: 'Issue virtual and physical cards with individual limits and controls.',
+        icon: 'credit-card'
+      },
+      {
+        id: '2',
+        title: 'Expense Automation',
+        description: 'Capture receipts, match transactions, and close the books faster.',
+        icon: 'receipt-text'
+      },
+      {
+        id: '3',
+        title: 'Bill Pay and Travel',
+        description: 'Pay vendors and book travel from the same account and balance.',
+        icon: 'plane'
+      }
+    ]
+  },
+  {
+    id: '458',
+    slug: 'ramp',
+    name: 'Ramp',
+    tagline: 'Corporate cards and expense automation with savings insights',
+    description: 'Ramp is a spend management platform combining corporate cards, expense reports, bill pay, procurement, and travel. The software is free and monetized through card interchange, and it surfaces duplicate subscriptions and overspending to reduce costs.',
+    overview: '',
+    pricingDescription: 'The core platform is free for businesses, with revenue from card interchange. Ramp Plus is a paid per-user tier adding procurement workflows, custom roles, and advanced approvals. Ramp is not a bank and works with FDIC-insured partner banks.',
+    logo: '/images/tool-logo/ramp.webp',
+    website: 'https://ramp.com',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'corporate-cards',
+      'spend-management',
+      'expense-automation',
+      'bill-pay',
+      'procurement',
+      'travel',
+      'cost-savings',
+      'accounting-sync'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-software', text: 'Software is free, funded by card interchange' },
+      { id: 'savings-insights', text: 'Flags duplicate subscriptions and overspending' },
+      { id: 'fast-close', text: 'Automated expense reports speed up month-end close' },
+      { id: 'procurement', text: 'Intake forms and purchase approvals on the paid tier' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Card Controls',
+        description: 'Issue cards with merchant, category, and spend limits enforced at authorization.',
+        icon: 'credit-card'
+      },
+      {
+        id: '2',
+        title: 'Expense Automation',
+        description: 'Match receipts to transactions and push entries into accounting software.',
+        icon: 'receipt'
+      },
+      {
+        id: '3',
+        title: 'Bill Pay and Procurement',
+        description: 'Pay vendors and route purchase requests through approval workflows.',
+        icon: 'file-check'
+      }
+    ]
+  },
+  {
+    id: '459',
+    slug: 'mercury',
+    name: 'Mercury',
+    tagline: 'Banking and financial stack for startups',
+    description: 'Mercury is a financial platform for startups and venture-backed companies offering business checking, savings, corporate cards, bill pay, invoicing, venture debt, and investment products. Mercury is not a bank and provides services through FDIC-insured partner banks.',
+    overview: '',
+    pricingDescription: 'No monthly fees on core checking, savings, and card products, with revenue from interchange and interest. A paid Mercury Plus tier adds premium support and higher limits for a monthly fee. Wires and certain services carry their own fees.',
+    logo: '/images/tool-logo/mercury.webp',
+    website: 'https://mercury.com',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'business-banking',
+      'checking',
+      'savings',
+      'corporate-cards',
+      'bill-pay',
+      'startups',
+      'venture-debt',
+      'invoicing'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'no-monthly-fees', text: 'Core accounts carry no monthly maintenance fees' },
+      { id: 'startup-focus', text: 'Built for startups and venture-backed companies' },
+      { id: 'multi-entity', text: 'Manages several legal entities from one login' },
+      { id: 'partner-banks', text: 'Not a bank itself, services run through partner banks' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Business Accounts',
+        description: 'Open checking and savings accounts with FDIC-insured partner banks.',
+        icon: 'landmark'
+      },
+      {
+        id: '2',
+        title: 'Cards and Bill Pay',
+        description: 'Issue virtual and physical cards and schedule vendor payments.',
+        icon: 'credit-card'
+      },
+      {
+        id: '3',
+        title: 'Treasury and Credit',
+        description: 'Put idle cash to work and access venture debt or invoice financing.',
+        icon: 'trending-up'
+      }
+    ]
+  },
+  {
+    id: '460',
+    slug: 'expensify',
+    name: 'Expensify',
+    tagline: 'Expense reports with receipt scanning and corporate cards',
+    description: 'Expensify automates expense reporting through SmartScan receipt capture, credit card reconciliation, and approval workflows. Adds corporate cards, invoicing, multi-currency reimbursement, and travel booking through Expensify Travel.',
+    overview: '',
+    pricingDescription: 'A free plan covers a small number of manually submitted reports. Paid plans are billed per active user per month, cheaper with an annual commitment, and higher tiers add card reconciliation, travel, and accounting integrations. Verify current tiers on the vendor page.',
+    logo: '/images/tool-logo/expensify.webp',
+    website: 'https://www.expensify.com',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'expense-reports',
+      'receipt-scanning',
+      'smartscan',
+      'reimbursements',
+      'corporate-cards',
+      'travel',
+      'invoicing',
+      'approval-workflows'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'smartscan', text: 'Receipt scanning extracts merchant, date, and amount' },
+      { id: 'auto-reconciliation', text: 'Matches card transactions to receipts automatically' },
+      { id: 'reimbursement', text: 'Pays employees back across currencies and countries' },
+      { id: 'accounting-sync', text: 'Exports to QuickBooks, Xero, NetSuite, and Sage' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Receipt Capture',
+        description: 'Photograph receipts and let SmartScan extract the line items.',
+        icon: 'scan-text'
+      },
+      {
+        id: '2',
+        title: 'Report Automation',
+        description: 'Build, submit, and approve expense reports with configurable rules.',
+        icon: 'clipboard-check'
+      },
+      {
+        id: '3',
+        title: 'Corporate Cards',
+        description: 'Issue virtual and physical cards that reconcile directly into reports.',
+        icon: 'credit-card'
+      }
+    ]
+  },
+  {
+    id: '461',
+    slug: 'dext',
+    name: 'Dext',
+    tagline: 'Receipt capture and bookkeeping automation',
+    description: 'Dext Prepare is bookkeeping automation that captures receipts, invoices, and bank data, extracts the fields, and publishes coded transactions to accounting packages. Widely used by accounting firms processing client bookkeeping at volume.',
+    overview: '',
+    pricingDescription: 'Priced per client per month for accounting firms, with volume discounts as client counts grow, and per-business pricing for companies handling their own bookkeeping. Tiers differ by supplier list size, user count, and integrations. Request pricing for exact figures.',
+    logo: '/images/tool-logo/dext.webp',
+    website: 'https://dext.com',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'bookkeeping',
+      'receipt-capture',
+      'ocr',
+      'accountants',
+      'bank-feeds',
+      'data-extraction',
+      'xero',
+      'quickbooks'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'extraction-accuracy', text: 'Extracts supplier, date, amount, and tax from documents' },
+      { id: 'accountant-focused', text: 'Built for firms processing many client books' },
+      { id: 'bank-feeds', text: 'Matches bank transactions to captured documents' },
+      { id: 'accounting-sync', text: 'Publishes coded entries to Xero and QuickBooks' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Document Capture',
+        description: 'Upload or email receipts and invoices from desktop or mobile.',
+        icon: 'file-scan'
+      },
+      {
+        id: '2',
+        title: 'Data Extraction',
+        description: 'Read line items, tax, and supplier details automatically from documents.',
+        icon: 'scan-text'
+      },
+      {
+        id: '3',
+        title: 'Publish to Accounting',
+        description: 'Send coded transactions to Xero, QuickBooks, or Sage.',
+        icon: 'upload'
+      }
+    ]
+  },
+  {
+    id: '462',
+    slug: 'chargebee',
+    name: 'Chargebee',
+    tagline: 'Subscription billing and revenue management',
+    description: 'Chargebee is a subscription billing platform handling recurring invoicing, proration, plan changes, tax calculation, dunning, and revenue recognition. Offers hosted checkout pages, a broad integration catalog, and reporting for SaaS and subscription businesses.',
+    overview: '',
+    pricingDescription: 'A free plan covers a limited volume of cumulative billing. Paid plans start around $249/month for the Starter tier and scale with billing volume, while Performance and Enterprise tiers add revenue recognition, retention tools, and higher support levels.',
+    logo: '/images/tool-logo/chargebee.webp',
+    website: 'https://www.chargebee.com',
+    affiliateUrl: null,
+    categories: ['finance', 'ecommerce'],
+    tags: [
+      'subscription-billing',
+      'recurring-invoicing',
+      'dunning',
+      'tax',
+      'hosted-checkout',
+      'revenue-recognition',
+      'saas',
+      'payment-orchestration'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'billing-engine', text: 'Handles proration, upgrades, and complex billing cycles' },
+      { id: 'dunning', text: 'Retry logic and emails to recover failed payments' },
+      { id: 'tax-and-compliance', text: 'Tax calculation and revenue recognition modules' },
+      { id: 'integrations', text: 'Connects to payment gateways, accounting, and data tools' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Recurring Billing',
+        description: 'Define plans, cycles, coupons, and proration rules for subscriptions.',
+        icon: 'repeat'
+      },
+      {
+        id: '2',
+        title: 'Hosted Checkout',
+        description: 'Publish checkout pages and a customer portal without building them.',
+        icon: 'shopping-cart'
+      },
+      {
+        id: '3',
+        title: 'Revenue Operations',
+        description: 'Track MRR, churn, and receivables with dunning and reporting.',
+        icon: 'chart-line'
+      }
+    ]
+  },
+  {
+    id: '463',
+    slug: 'paddle',
+    name: 'Paddle',
+    tagline: 'Merchant of record for SaaS billing and tax',
+    description: 'Paddle is a merchant of record for software companies, taking legal ownership of each sale so it handles payment processing, sales tax and VAT registration, invoicing, chargebacks, and compliance. Suits SaaS and digital product sellers that want to avoid registering for tax in every market.',
+    overview: '',
+    pricingDescription: 'No monthly fee. Paddle charges a percentage plus a fixed amount per transaction, historically around 5% plus 50 cents, covering payment processing, tax filing, and fraud handling. Volume pricing is negotiable for larger sellers.',
+    logo: '/images/tool-logo/paddle.webp',
+    website: 'https://www.paddle.com',
+    affiliateUrl: null,
+    categories: ['finance', 'ecommerce'],
+    tags: [
+      'merchant-of-record',
+      'saas-billing',
+      'sales-tax',
+      'vat',
+      'subscriptions',
+      'chargebacks',
+      'compliance',
+      'global-payments'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'merchant-of-record', text: 'Takes legal ownership of sales, so tax becomes its responsibility' },
+      { id: 'tax-handling', text: 'Registers for, calculates, and remits sales tax and VAT' },
+      { id: 'no-monthly-fee', text: 'Pay per transaction with no fixed subscription' },
+      { id: 'saas-billing', text: 'Built for SaaS subscriptions and usage-based pricing' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Checkout and Billing',
+        description: 'Run hosted or embedded checkout with subscriptions and usage pricing.',
+        icon: 'shopping-cart'
+      },
+      {
+        id: '2',
+        title: 'Tax and Compliance',
+        description: 'Handle global tax registration, calculation, filing, and remittance.',
+        icon: 'landmark'
+      },
+      {
+        id: '3',
+        title: 'Revenue Operations',
+        description: 'Manage chargebacks, fraud screening, renewals, and revenue reporting.',
+        icon: 'shield-check'
+      }
+    ]
+  },
+  {
+    id: '464',
+    slug: 'paypal',
+    name: 'PayPal',
+    tagline: 'Consumer wallet and merchant payment processing',
+    description: 'PayPal operates a global consumer wallet alongside merchant services including online checkout buttons, invoicing, card processing through Braintree, point-of-sale hardware, and working capital. Buyers pay from a balance, bank account, card, or PayPal Credit.',
+    overview: '',
+    pricingDescription: 'No monthly fee for a standard business account. Online transactions are typically charged around 3.49% plus a fixed fee, in-person card payments less, and international or currency-converted transactions cost more. Braintree card processing is priced separately.',
+    logo: '/images/tool-logo/paypal.webp',
+    website: 'https://www.paypal.com',
+    affiliateUrl: null,
+    categories: ['finance', 'ecommerce'],
+    tags: [
+      'payments',
+      'digital-wallet',
+      'checkout',
+      'invoicing',
+      'braintree',
+      'point-of-sale',
+      'buyer-protection',
+      'global'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'buyer-network', text: 'Hundreds of millions of active consumer accounts' },
+      { id: 'buyer-protection', text: 'Purchase protection raises checkout confidence' },
+      { id: 'no-monthly-fee', text: 'Standard business accounts have no monthly fee' },
+      { id: 'braintree', text: 'Braintree adds full card processing and tokenization' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Checkout Buttons',
+        description: 'Add PayPal, Venmo, and card buttons to a website or mobile app.',
+        icon: 'shopping-cart'
+      },
+      {
+        id: '2',
+        title: 'Invoicing and Links',
+        description: 'Send invoices, payment links, and QR codes to collect money.',
+        icon: 'receipt'
+      },
+      {
+        id: '3',
+        title: 'Card Processing',
+        description: 'Accept cards directly with Braintree and store payment methods securely.',
+        icon: 'credit-card'
+      }
+    ]
+  },
+  {
+    id: '465',
+    slug: 'stripe',
+    name: 'Stripe',
+    tagline: 'Payments infrastructure and APIs for the internet',
+    description: 'Stripe is a payments platform providing APIs for accepting card and wallet payments, subscription billing, marketplace payouts through Connect, in-person payments with Terminal, fraud screening with Radar, and financial infrastructure such as issuing and Treasury.',
+    overview: '',
+    pricingDescription: 'No monthly fee for the standard API. Card-not-present transactions are typically 2.9% plus 30 cents in the US, with different rates for international cards, currency conversion, and wallet methods. Billing, Connect, Radar, and Terminal carry their own per-transaction or monthly fees.',
+    logo: '/images/tool-logo/stripe.webp',
+    website: 'https://stripe.com',
+    affiliateUrl: null,
+    categories: ['finance', 'web-development'],
+    tags: [
+      'payments',
+      'api',
+      'subscriptions',
+      'connect',
+      'terminal',
+      'fraud-detection',
+      'billing',
+      'developer-tools'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'api-first', text: 'Payments delivered as documented APIs and SDKs' },
+      { id: 'global-methods', text: 'Supports cards, wallets, and local payment methods worldwide' },
+      { id: 'marketplaces', text: 'Connect handles marketplace splits and payouts' },
+      { id: 'modular', text: 'Add billing, issuing, treasury, and fraud as needed' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Payments API',
+        description: 'Accept cards, wallets, and local methods with prebuilt UI components.',
+        icon: 'credit-card'
+      },
+      {
+        id: '2',
+        title: 'Billing',
+        description: 'Manage subscriptions, invoices, proration, and failed payment recovery.',
+        icon: 'repeat'
+      },
+      {
+        id: '3',
+        title: 'Connect and Terminal',
+        description: 'Route marketplace payouts and accept in-person card payments.',
+        icon: 'network'
+      }
+    ]
+  },
+  {
+    id: '466',
+    slug: 'square',
+    name: 'Square',
+    tagline: 'Point of sale, payments, and business tools',
+    description: 'Square from Block provides point-of-sale software and hardware, online checkout, invoicing, payment processing, payroll, team management, loans, and banking products for small and mid-sized businesses, all under one account across online and in-person sales.',
+    overview: '',
+    pricingDescription: 'No monthly fee for the basic point-of-sale software. Card rates are around 2.6% plus 10 cents for tapped, dipped, or swiped payments and roughly 2.9% plus 30 cents online, with invoicing and keyed transactions priced higher. Paid Square Plus and Premium plans add reporting, team, and marketing features.',
+    logo: '/images/tool-logo/square.webp',
+    website: 'https://squareup.com',
+    affiliateUrl: null,
+    categories: ['finance', 'ecommerce'],
+    tags: [
+      'point-of-sale',
+      'payments',
+      'invoicing',
+      'payroll',
+      'hardware',
+      'small-business',
+      'online-store',
+      'team-management'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-pos', text: 'Free point-of-sale app with no monthly fee' },
+      { id: 'hardware', text: 'Readers, registers, and terminals for in-person selling' },
+      { id: 'unified', text: 'One account for online and in-person sales' },
+      { id: 'add-ons', text: 'Payroll, marketing, loans, and banking in the same suite' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Point of Sale',
+        description: 'Ring up sales, manage inventory, and take payments on any device.',
+        icon: 'shopping-basket'
+      },
+      {
+        id: '2',
+        title: 'Online and Invoicing',
+        description: 'Sell through a free website, checkout links, and emailed invoices.',
+        icon: 'receipt-text'
+      },
+      {
+        id: '3',
+        title: 'Team and Payroll',
+        description: 'Track hours, manage shifts, and run payroll for employees.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '467',
+    slug: 'wave',
+    name: 'Wave',
+    tagline: 'Free accounting and invoicing for micro businesses',
+    description: 'Wave is accounting software for freelancers and micro businesses offering free bookkeeping, invoicing, and receipt scanning, with paid payment processing, payroll, and advisor services. Runs in the browser with no seat charge for the core accounting product.',
+    overview: '',
+    pricingDescription: 'Accounting, invoicing, and receipt scanning are free with unlimited users and collaborators. Revenue comes from payment processing, historically around 2.9% plus 60 cents for card payments on invoices in the US, with cheaper percentage-based bank transfer fees, and from Payroll plans charged per employee per month in the US and Canada.',
+    logo: '/images/tool-logo/wave.webp',
+    website: 'https://www.waveapps.com',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'accounting',
+      'invoicing',
+      'receipt-scanning',
+      'bookkeeping',
+      'payroll',
+      'free-software',
+      'small-business',
+      'payments'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-accounting', text: 'Bookkeeping and invoicing are free with unlimited users' },
+      { id: 'payment-revenue', text: 'Costs appear only when card payments are accepted' },
+      { id: 'receipt-scanning', text: 'Capture and categorize receipts from the mobile app' },
+      { id: 'payroll-addon', text: 'US and Canadian payroll available as a paid add-on' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Bookkeeping',
+        description: 'Track income and expenses with bank feeds and automatic categorization.',
+        icon: 'book-open'
+      },
+      {
+        id: '2',
+        title: 'Invoicing',
+        description: 'Create estimates and invoices with online payment and reminder options.',
+        icon: 'file-text'
+      },
+      {
+        id: '3',
+        title: 'Receipts',
+        description: 'Photograph receipts and have them matched to bank transactions.',
+        icon: 'scan-text'
+      }
+    ]
+  },
+  {
+    id: '468',
+    slug: 'wisebusiness',
+    name: 'Wise Business',
+    tagline: 'Multi-currency accounts and international transfers',
+    description: 'Wise Business gives companies local account details in several currencies, holds and converts balances at the mid-market exchange rate, pays suppliers internationally, and issues debit cards for teams. Suited to businesses that pay or get paid across borders.',
+    overview: '',
+    pricingDescription: 'A one-time fee unlocks account features, then costs are per transaction. Transfers are priced as a small percentage plus a fixed fee that varies by currency route, and conversions follow published rate tables. Receiving money into local account details is often free. Check the pricing calculator for a specific route.',
+    logo: '/images/tool-logo/wisebusiness.webp',
+    website: 'https://wise.com/business',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'multi-currency',
+      'international-transfers',
+      'fx',
+      'local-account-details',
+      'business-debit-cards',
+      'cross-border',
+      'mid-market-rate',
+      'supplier-payments'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'local-details', text: 'Hold and receive money with local account details in many currencies' },
+      { id: 'mid-market-rate', text: 'Converts at the mid-market rate with a transparent fee' },
+      { id: 'batch-payments', text: 'Pay many suppliers or contractors in a single batch' },
+      { id: 'team-cards', text: 'Issue Wise debit cards to employees' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Multi-Currency Account',
+        description: 'Hold balances and receive payments with local account details.',
+        icon: 'wallet'
+      },
+      {
+        id: '2',
+        title: 'International Payments',
+        description: 'Send money abroad with upfront fees and the mid-market rate.',
+        icon: 'arrow-left-right'
+      },
+      {
+        id: '3',
+        title: 'Business Cards',
+        description: 'Issue cards with spend limits and automated expense records.',
+        icon: 'credit-card'
+      }
+    ]
+  },
+  {
+    id: '469',
+    slug: 'zohobooks',
+    name: 'Zoho Books',
+    tagline: 'Online accounting for small businesses',
+    description: 'Zoho Books is online accounting software covering invoicing, expense tracking, bank reconciliation, inventory, project billing, and tax reporting. Integrates with the wider Zoho suite and offers a free plan for businesses under an annual revenue threshold.',
+    overview: '',
+    pricingDescription: 'A free plan serves businesses under roughly $50,000 annual revenue with up to two users. Paid plans are billed per organization per month with an annual discount, scaling through Standard, Professional, Premium, and Elite tiers that add inventory, multi-currency, and advanced automation.',
+    logo: '/images/tool-logo/zohobooks.webp',
+    website: 'https://www.zoho.com/books/',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'accounting',
+      'invoicing',
+      'bank-reconciliation',
+      'inventory',
+      'project-billing',
+      'tax',
+      'zoho',
+      'automation'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-plan', text: 'Free plan for small businesses under a revenue cap' },
+      { id: 'zoho-suite', text: 'Connects to Zoho CRM, Expense, and Inventory' },
+      { id: 'automation', text: 'Workflow rules automate recurring accounting tasks' },
+      { id: 'client-portal', text: 'Customer portal for invoices, payments, and statements' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Invoicing and Billing',
+        description: 'Send invoices, estimates, and payment links with automated reminders.',
+        icon: 'file-text'
+      },
+      {
+        id: '2',
+        title: 'Bank Reconciliation',
+        description: 'Import bank feeds and match transactions using categorization rules.',
+        icon: 'landmark'
+      },
+      {
+        id: '3',
+        title: 'Reports and Tax',
+        description: 'Generate financial statements and tax reports ready for filing.',
+        icon: 'chart-pie'
+      }
+    ]
+  },
+  {
+    id: '470',
+    slug: 'sage',
+    name: 'Sage',
+    tagline: 'Accounting and finance software for growing companies',
+    description: 'Sage offers accounting software across company sizes, from Sage Business Cloud Accounting for small firms to Sage 50 for desktop-led accounting and Sage Intacct for multi-entity mid-market finance teams. Covers general ledger, invoicing, cash flow, payroll, and financial reporting.',
+    overview: '',
+    pricingDescription: 'Cloud accounting plans are billed monthly per company, with the entry tier in the low tens of dollars and higher tiers adding inventory, multi-currency, and budgeting. Sage Intacct is quoted annually by module and entity count, and Sage 50 licenses are sold per seat.',
+    logo: '/images/tool-logo/sage.webp',
+    website: 'https://www.sage.com',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'accounting',
+      'general-ledger',
+      'payroll',
+      'invoicing',
+      'cash-flow',
+      'multi-entity',
+      'sage-intacct',
+      'united-kingdom'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'product-range', text: 'Spans micro-business cloud accounting to enterprise finance' },
+      { id: 'multi-entity', text: 'Sage Intacct handles multi-entity consolidations' },
+      { id: 'uk-presence', text: 'Long-established across the UK, Ireland, and Europe' },
+      { id: 'accountant-access', text: 'Built-in collaboration for external accountants' }
+    ],
+    platforms: ['web', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Financial Management',
+        description: 'Manage the general ledger, bank feeds, and reconciliations.',
+        icon: 'book-open'
+      },
+      {
+        id: '2',
+        title: 'Invoicing and Payments',
+        description: 'Raise invoices, chase payments, and accept cards online.',
+        icon: 'receipt'
+      },
+      {
+        id: '3',
+        title: 'Reporting and Planning',
+        description: 'Build cash flow forecasts, budgets, and statutory reports.',
+        icon: 'chart-line'
+      }
+    ]
+  },
+  {
+    id: '471',
+    slug: 'copilotmoney',
+    name: 'Copilot Money',
+    tagline: 'Subscription budgeting and net worth tracking',
+    description: 'Copilot Money is a subscription personal finance app that aggregates bank, card, investment, and loan accounts, categorizes transactions, tracks budgets and net worth, and surfaces cash flow insights. Launched on Apple platforms before expanding to web and Android.',
+    overview: '',
+    pricingDescription: 'Subscription only, billed annually at roughly $95 per year, with a higher effective rate on monthly billing and a trial period for new users. There is no free tier. Verify current pricing on the vendor page.',
+    logo: '/images/tool-logo/copilotmoney.webp',
+    website: 'https://www.copilot.money',
+    affiliateUrl: null,
+    categories: ['finance', 'productivity'],
+    tags: [
+      'budgeting',
+      'net-worth',
+      'account-aggregation',
+      'personal-finance',
+      'cash-flow',
+      'subscription-tracking',
+      'ios',
+      'privacy'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'all-accounts', text: 'Aggregates banks, cards, loans, and investments' },
+      { id: 'design-focus', text: 'Native Apple design with fast performance' },
+      { id: 'cash-flow', text: 'Income and spending views with category budgets' },
+      { id: 'subscription-only', text: 'Paid model with no advertising or data sales' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Account Aggregation',
+        description: 'Link accounts and see balances, net worth, and history in one place.',
+        icon: 'wallet'
+      },
+      {
+        id: '2',
+        title: 'Budgets and Categories',
+        description: 'Set category budgets and track actual spending against them.',
+        icon: 'pie-chart'
+      },
+      {
+        id: '3',
+        title: 'Cash Flow Insights',
+        description: 'Compare income and expenses over time and spot recurring charges.',
+        icon: 'chart-line'
+      }
+    ]
+  },
+  {
+    id: '472',
+    slug: 'empower',
+    name: 'Empower',
+    tagline: 'Free financial dashboard and wealth management',
+    description: 'Empower Personal Dashboard is a free tool tracking net worth, investments, budgets, and cash flow by aggregating bank and brokerage accounts. Includes retirement planning, investment check-up, and fee analysis, with paid advisory services layered on top.',
+    overview: '',
+    pricingDescription: 'The dashboard and planning tools are free. Empower monetizes through advisory services charging a percentage of assets under management on a tiered schedule, and runs a separate retirement recordkeeping business for employer plans.',
+    logo: '/images/tool-logo/empower.webp',
+    website: 'https://www.empower.com',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'net-worth',
+      'investment-tracking',
+      'retirement-planning',
+      'budgeting',
+      'wealth-management',
+      'free-dashboard',
+      'portfolio-analysis',
+      'aggregation'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-dashboard', text: 'Net worth and budget tracking at no cost' },
+      { id: 'investment-views', text: 'Portfolio allocation, fees, and performance analysis' },
+      { id: 'retirement-tools', text: 'Retirement planner and savings projections' },
+      { id: 'advisory-upsell', text: 'Paid human wealth management available on top' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Net Worth Tracking',
+        description: 'Aggregate accounts and watch assets and liabilities over time.',
+        icon: 'trending-up'
+      },
+      {
+        id: '2',
+        title: 'Investment Analysis',
+        description: 'Review allocation, expense ratios, and performance across holdings.',
+        icon: 'chart-pie'
+      },
+      {
+        id: '3',
+        title: 'Budgeting and Planner',
+        description: 'Set budgets and model retirement and savings goals.',
+        icon: 'goal'
+      }
+    ]
+  },
+  {
+    id: '473',
+    slug: 'everydollar',
+    name: 'EveryDollar',
+    tagline: 'Zero-based budgeting from Ramsey Solutions',
+    description: 'EveryDollar is a zero-based budgeting app from Ramsey Solutions where every dollar of income is assigned a job before the month begins. The free plan uses manual entry, while Premium adds bank feeds, custom reports, and debt tracking through the Ramsey+ membership.',
+    overview: '',
+    pricingDescription: 'The free plan supports manual transaction entry with unlimited budgets. Premium has been listed at $79.99 per year or $17.99 per month with a trial of around two weeks, and is also sold inside the broader Ramsey+ membership, so the effective price depends on the bundle and running promotions.',
+    logo: '/images/tool-logo/everydollar.webp',
+    website: 'https://www.ramseysolutions.com/ramseyplus/everydollar',
+    affiliateUrl: null,
+    categories: ['finance', 'productivity'],
+    tags: [
+      'zero-based-budgeting',
+      'budgeting',
+      'ramsey',
+      'debt-payoff',
+      'manual-entry',
+      'bank-feeds',
+      'personal-finance',
+      'household'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'zero-based', text: 'Every dollar of income gets assigned before the month begins' },
+      { id: 'free-core', text: 'Free plan with manual entry and unlimited budgets' },
+      { id: 'ramsey-method', text: 'Follows the Ramsey baby steps for debt and savings' },
+      { id: 'household-sharing', text: 'Share one budget with a spouse or partner' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Monthly Budgets',
+        description: 'Plan income and expenses line by line for each month.',
+        icon: 'calculator'
+      },
+      {
+        id: '2',
+        title: 'Transaction Tracking',
+        description: 'Enter spending manually or sync bank feeds on the Premium plan.',
+        icon: 'list-checks'
+      },
+      {
+        id: '3',
+        title: 'Debt and Goals',
+        description: 'Track payoff progress and savings goals with progress views.',
+        icon: 'target'
+      }
+    ]
+  },
+  {
+    id: '474',
+    slug: 'mint',
+    name: 'Mint',
+    tagline: 'Intuit personal finance app, discontinued in 2024',
+    description: 'Mint was a free personal finance app from Intuit that aggregated accounts, categorized spending, tracked budgets and net worth, and offered credit monitoring. Intuit shut Mint down in March 2024 and moved users to Credit Karma, ending the most widely used free budgeting app of its era.',
+    overview: '',
+    pricingDescription: 'Mint was free and advertising-supported, with revenue from product recommendations and referral offers. The service was discontinued in March 2024, so no plans are available to buy. Former users were directed to Credit Karma or third-party budgeting apps.',
+    logo: '/images/tool-logo/mint.webp',
+    website: 'https://mint.intuit.com',
+    affiliateUrl: null,
+    categories: ['finance', 'productivity'],
+    tags: [
+      'discontinued',
+      'personal-finance',
+      'budgeting',
+      'account-aggregation',
+      'intuit',
+      'credit-karma',
+      'net-worth',
+      'free-app'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'shut-down', text: 'Discontinued by Intuit in March 2024' },
+      { id: 'was-free', text: 'Free to use and supported by product referrals' },
+      { id: 'credit-karma', text: 'Remaining users were migrated to Credit Karma' },
+      { id: 'replacement-market', text: 'Former users moved to Monarch, Copilot, and PocketGuard' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Account Aggregation',
+        description: 'Linked bank, card, loan, and investment accounts in one dashboard.',
+        icon: 'wallet'
+      },
+      {
+        id: '2',
+        title: 'Budgets and Categories',
+        description: 'Auto-categorized spending with monthly budget targets.',
+        icon: 'pie-chart'
+      },
+      {
+        id: '3',
+        title: 'Credit Monitoring',
+        description: 'Tracked credit score and alerts through the Credit Karma integration.',
+        icon: 'shield-check'
+      }
+    ]
+  },
+  {
+    id: '475',
+    slug: 'monarchmoney',
+    name: 'Monarch Money',
+    tagline: 'Subscription budgeting and net worth tracking',
+    description: 'Monarch Money is a subscription personal finance platform built by former Mint team members. Aggregates accounts, categorizes transactions, tracks budgets, cash flow, investments, and net worth, and supports shared household access without ads or data selling.',
+    overview: '',
+    pricingDescription: 'Subscription only, billed annually at roughly $100 per year or about $15 per month on monthly billing, with a free trial. No ad-supported free tier exists. Verify current pricing on the vendor page.',
+    logo: '/images/tool-logo/monarchmoney.webp',
+    website: 'https://www.monarchmoney.com',
+    affiliateUrl: null,
+    categories: ['finance', 'productivity'],
+    tags: [
+      'budgeting',
+      'net-worth',
+      'account-aggregation',
+      'household-sharing',
+      'cash-flow',
+      'investment-tracking',
+      'mint-alternative',
+      'personal-finance'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'mint-alternative', text: 'Built by former Mint team members after the shutdown' },
+      { id: 'household', text: 'Shared budgets with a partner or advisor at no extra cost' },
+      { id: 'no-ads', text: 'Subscription model with no advertising or data sales' },
+      { id: 'customization', text: 'Flexible categories, rules, and manual override controls' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Aggregated Accounts',
+        description: 'Link banks, cards, loans, and brokerages into one dashboard.',
+        icon: 'wallet'
+      },
+      {
+        id: '2',
+        title: 'Budgets and Cash Flow',
+        description: 'Set category budgets and monitor income against spending.',
+        icon: 'pie-chart'
+      },
+      {
+        id: '3',
+        title: 'Net Worth and Investments',
+        description: 'Track net worth over time and review portfolio allocation.',
+        icon: 'trending-up'
+      }
+    ]
+  },
+  {
+    id: '476',
+    slug: 'pocketguard',
+    name: 'PocketGuard',
+    tagline: 'Budgeting app that calculates safe-to-spend money',
+    description: 'PocketGuard is a budgeting app that connects accounts, categorizes transactions, and calculates an in-my-pocket figure showing what can be spent after bills, goals, and necessities. Offers both a free tier and a Plus subscription.',
+    overview: '',
+    pricingDescription: 'A free tier covers manual entry with reduced functionality. PocketGuard Plus has been priced at $74.99 per year or $12.99 per month with a seven-day trial, and a one-time Lifetime option around $149.99 grants permanent access to Plus features. Verify current prices and Lifetime availability on the vendor page.',
+    logo: '/images/tool-logo/pocketguard.webp',
+    website: 'https://pocketguard.com',
+    affiliateUrl: null,
+    categories: ['finance', 'productivity'],
+    tags: [
+      'budgeting',
+      'safe-to-spend',
+      'account-aggregation',
+      'bill-insights',
+      'subscription-tracking',
+      'personal-finance',
+      'mobile-first',
+      'ads-free-plus'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'in-my-pocket', text: 'Shows what can be spent after bills and goals' },
+      { id: 'bill-insights', text: 'Flags recurring charges and subscription creep' },
+      { id: 'free-tier', text: 'Free budgeting plan supported by advertising' },
+      { id: 'mobile-first', text: 'Mobile app experience rather than a desktop product' }
+    ],
+    platforms: ['ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Spending Plan',
+        description: 'Assign income to bills, necessities, goals, and discretionary money.',
+        icon: 'calculator'
+      },
+      {
+        id: '2',
+        title: 'Account Sync',
+        description: 'Link accounts to import and categorize transactions automatically.',
+        icon: 'refresh-cw'
+      },
+      {
+        id: '3',
+        title: 'Subscription Tracking',
+        description: 'Detect recurring charges and review them in one list.',
+        icon: 'repeat'
+      }
+    ]
+  },
+  {
+    id: '477',
+    slug: 'harvest',
+    name: 'Harvest',
+    tagline: 'Time tracking and invoicing for client work',
+    description: 'Harvest is time tracking and invoicing software for agencies, consultancies, and freelancers. Tracks time by project and task, turns entries into invoices, sends payment reminders, accepts online payments, and reports on project budgets and profitability.',
+    overview: '',
+    pricingDescription: 'A free plan covers one seat and two active projects. Teams is $9 per person per month billed annually or $11 monthly. Enterprise is $14 annual or $17.50 monthly and adds advanced reporting and admin controls. Enterprise Plus is quoted individually. The optional Harvest Forecast capacity planning tool is priced separately.',
+    logo: '/images/tool-logo/harvest.webp',
+    website: 'https://www.getharvest.com',
+    affiliateUrl: null,
+    categories: ['finance', 'productivity'],
+    tags: [
+      'time-tracking',
+      'invoicing',
+      'agencies',
+      'project-budgets',
+      'timesheets',
+      'payments',
+      'reporting',
+      'capacity-planning'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'time-to-invoice', text: 'Turns tracked time into invoices in a few clicks' },
+      { id: 'free-tier', text: 'Free plan for one person and two projects' },
+      { id: 'budget-alerts', text: 'Warns when a project approaches its budget' },
+      { id: 'payments', text: 'Accepts cards and PayPal directly from invoices' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Time Tracking',
+        description: 'Log time in the browser, mobile app, or integrations such as Slack.',
+        icon: 'timer'
+      },
+      {
+        id: '2',
+        title: 'Invoicing and Payments',
+        description: 'Create invoices from tracked time and send payment reminders.',
+        icon: 'receipt'
+      },
+      {
+        id: '3',
+        title: 'Project Reporting',
+        description: 'Review budgets, profitability, and team utilization by project.',
+        icon: 'chart-bar'
+      }
+    ]
+  },
+  {
+    id: '478',
+    slug: 'freeagent',
+    name: 'FreeAgent',
+    tagline: 'Accounting for freelancers and micro businesses',
+    description: 'FreeAgent is accounting software for freelancers, contractors, and micro businesses with a strong UK presence. Covers invoicing, expenses, bank reconciliation, payroll for directors and employees, VAT and Making Tax Digital submission, and cash flow forecasting.',
+    overview: '',
+    pricingDescription: 'Paid subscription billed monthly per business, around £19 per month for sole traders and £29 per month for limited companies, excluding VAT, with a 50% discount for the first six months. FreeAgent is free for customers of qualifying NatWest group business accounts (NatWest, Royal Bank of Scotland, Ulster Bank, Mettle).',
+    logo: '/images/tool-logo/freeagent.webp',
+    website: 'https://www.freeagent.com',
+    affiliateUrl: null,
+    categories: ['finance'],
+    tags: [
+      'accounting',
+      'invoicing',
+      'expenses',
+      'payroll',
+      'vat',
+      'making-tax-digital',
+      'freelancers',
+      'united-kingdom'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'free-with-bank', text: 'Free for qualifying NatWest group business customers in the UK' },
+      { id: 'mtd-ready', text: 'Files VAT returns and supports Making Tax Digital' },
+      { id: 'contractor-friendly', text: 'Handles director payroll and dividend records' },
+      { id: 'cash-flow', text: 'Built-in cash flow forecasting and tax estimates' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Invoicing and Expenses',
+        description: 'Send invoices, track bills, and attach receipt photos.',
+        icon: 'file-text'
+      },
+      {
+        id: '2',
+        title: 'Bank Feeds',
+        description: 'Import bank transactions and reconcile them against your records.',
+        icon: 'landmark'
+      },
+      {
+        id: '3',
+        title: 'Payroll and Tax',
+        description: 'Run payroll and submit VAT returns directly to the tax authority.',
+        icon: 'calculator'
+      }
+    ]
+  },
+  {
+    id: '479',
+    slug: '15five',
+    name: '15Five',
+    tagline: 'Continuous performance management and check-ins',
+    description: '15Five is a performance management platform built around weekly check-ins, one-on-one agendas, goal tracking, feedback, and engagement surveys. Aimed at managers and HR teams that want continuous performance conversations instead of a single annual review cycle.',
+    overview: '',
+    pricingDescription: 'Paid plans are billed per user per month with an annual commitment, historically around $4 per user for engagement features, $10 for performance management, and $16 for the full platform including objectives and reviews. Check the vendor page for current tiers.',
+    logo: '/images/tool-logo/15five.webp',
+    website: 'https://www.15five.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'performance-management',
+      'weekly-check-ins',
+      'one-on-ones',
+      'goals',
+      'engagement-surveys',
+      'feedback',
+      'manager-tools',
+      'continuous-review'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'weekly-checkin', text: 'Structured weekly check-ins replace annual review forms' },
+      { id: 'manager-focus', text: 'Built around one-on-ones and manager development' },
+      { id: 'objectives', text: 'Goal and OKR tracking tied to review cycles' },
+      { id: 'engagement', text: 'Pulse surveys with sentiment and driver analysis' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Check-ins',
+        description: 'Collect weekly written updates on wins, blockers, and support needs.',
+        icon: 'message-square'
+      },
+      {
+        id: '2',
+        title: 'Reviews and Goals',
+        description: 'Run performance cycles with objectives, ratings, and calibration.',
+        icon: 'target'
+      },
+      {
+        id: '3',
+        title: 'Engagement Surveys',
+        description: 'Measure sentiment with pulse surveys and action planning.',
+        icon: 'activity'
+      }
+    ]
+  },
+  {
+    id: '480',
+    slug: 'ashby',
+    name: 'Ashby',
+    tagline: 'All-in-one recruiting CRM and ATS',
+    description: 'Ashby is a recruiting platform combining an applicant tracking system, candidate relationship management, interview scheduling, and deep analytics in a single product. Targets venture-backed and mid-sized companies that want recruiting data without stitching tools together.',
+    overview: '',
+    pricingDescription: 'Quote-based pricing billed annually, generally starting in the low thousands of dollars per year for smaller teams and scaling with headcount and modules such as CRM and assessments. No public self-serve pricing, so request a quote.',
+    logo: '/images/tool-logo/ashby.webp',
+    website: 'https://www.ashbyhq.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'ats',
+      'recruiting-crm',
+      'interview-scheduling',
+      'recruiting-analytics',
+      'candidate-pipeline',
+      'structured-hiring',
+      'offer-management',
+      'startups'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'unified-data', text: 'ATS and CRM share one candidate data model' },
+      { id: 'analytics', text: 'Deep funnel, pipeline, and source analytics built in' },
+      { id: 'scheduling', text: 'Self-scheduling interview links without recruiter overhead' },
+      { id: 'crm-pipelines', text: 'Nurture talent pools and re-engage past candidates' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Applicant Tracking',
+        description: 'Move candidates through stages with scorecards and structured feedback.',
+        icon: 'list-checks'
+      },
+      {
+        id: '2',
+        title: 'Recruiting CRM',
+        description: 'Build talent pools, run campaigns, and track nurture outreach.',
+        icon: 'users'
+      },
+      {
+        id: '3',
+        title: 'Scheduling and Analytics',
+        description: 'Coordinate interviews automatically and analyze funnel conversion.',
+        icon: 'calendar'
+      }
+    ]
+  },
+  {
+    id: '481',
+    slug: 'cultureamp',
+    name: 'Culture Amp',
+    tagline: 'Employee engagement surveys and performance',
+    description: 'Culture Amp is an employee experience platform running engagement, effectiveness, and development surveys alongside performance reviews and goal setting. Provides benchmark data from a large company database and tools for turning survey results into action plans.',
+    overview: '',
+    pricingDescription: 'Quote-based pricing billed annually, generally charged per employee per year with minimum contract sizes. Modules for engagement, performance, and development are priced separately or bundled, so request a quote for current figures.',
+    logo: '/images/tool-logo/cultureamp.webp',
+    website: 'https://www.cultureamp.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'employee-engagement',
+      'surveys',
+      'performance-reviews',
+      'feedback',
+      'benchmarks',
+      'action-plans',
+      'people-analytics',
+      'culture'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'survey-library', text: 'Research-backed question sets for engagement and effectiveness' },
+      { id: 'benchmarks', text: 'Compare results against a large company database' },
+      { id: 'action-planning', text: 'Managers build and track plans from survey results' },
+      { id: 'performance', text: 'Reviews, goals, and feedback in the same platform' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Engagement Surveys',
+        description: 'Run pulse and full surveys with segmentation and sentiment analysis.',
+        icon: 'clipboard-list'
+      },
+      {
+        id: '2',
+        title: 'Insights and Benchmarks',
+        description: 'Compare scores to external benchmarks and track trends over time.',
+        icon: 'chart-bar'
+      },
+      {
+        id: '3',
+        title: 'Performance and Goals',
+        description: 'Run review cycles with goals, feedback, and development plans.',
+        icon: 'target'
+      }
+    ]
+  },
+  {
+    id: '482',
+    slug: 'deelongage',
+    name: 'Deel Engage',
+    tagline: 'Performance reviews, surveys, and PIPs from Deel',
+    description: 'Deel Engage is the people performance product inside the Deel platform, covering performance reviews, engagement surveys, one-on-ones, goals, and performance improvement plans for global teams, whether workers are employed through Deel or independently.',
+    overview: '',
+    pricingDescription: 'Priced per employee per month and frequently bundled with Deel hiring and payroll contracts. Standalone pricing is quoted by sales based on headcount and selected modules, so request a quote for current figures.',
+    logo: '/images/tool-logo/deelongage.webp',
+    website: 'https://www.deel.com/engage',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'performance-reviews',
+      'engagement-surveys',
+      'one-on-ones',
+      'goals',
+      'performance-improvement',
+      'global-teams',
+      'deel',
+      'feedback'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'deel-ecosystem', text: 'Connects to Deel hiring, contracts, and payroll data' },
+      { id: 'global-teams', text: 'Built for distributed and multi-country workforces' },
+      { id: 'pip-workflows', text: 'Structured performance improvement plans with tracking' },
+      { id: 'review-cycles', text: 'Configurable cycles, templates, and calibration steps' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Performance Reviews',
+        description: 'Run review cycles with templates, ratings, and calibration.',
+        icon: 'clipboard-check'
+      },
+      {
+        id: '2',
+        title: 'Engagement Surveys',
+        description: 'Collect feedback with pulse surveys and manager dashboards.',
+        icon: 'message-circle'
+      },
+      {
+        id: '3',
+        title: 'Goals and One-on-Ones',
+        description: 'Track objectives and keep recurring meeting agendas and notes.',
+        icon: 'goal'
+      }
+    ]
+  },
+  {
+    id: '483',
+    slug: 'factorial',
+    name: 'Factorial',
+    tagline: 'All-in-one HR software for European SMEs',
+    description: 'Factorial is an HR platform for small and mid-sized European companies covering time off, shift scheduling, time tracking, document management, recruiting, onboarding, performance, and payroll integrations in a single system.',
+    overview: '',
+    pricingDescription: 'Quote-based pricing billed per employee per month with a minimum seat count, typically in the low single-digit euros for core HR and higher when talent, payroll, or expense modules are added. A free trial is offered.',
+    logo: '/images/tool-logo/factorial.webp',
+    website: 'https://factorialhr.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'hris',
+      'time-off',
+      'shift-scheduling',
+      'document-management',
+      'recruiting',
+      'onboarding',
+      'europe',
+      'sme'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'all-in-one', text: 'Core HR, time, recruiting, and documents in one platform' },
+      { id: 'europe-focus', text: 'Localised for European labour rules and languages' },
+      { id: 'shift-management', text: 'Shift planning and time clock for hourly teams' },
+      { id: 'payroll-integrations', text: 'Exports payroll-ready data to local providers' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Time and Absence',
+        description: 'Manage leave requests, balances, approvals, and time clock entries.',
+        icon: 'calendar-check'
+      },
+      {
+        id: '2',
+        title: 'Employee Records',
+        description: 'Store documents, contracts, and personal data in one place.',
+        icon: 'folder'
+      },
+      {
+        id: '3',
+        title: 'Recruiting and Onboarding',
+        description: 'Post jobs, track candidates, and run onboarding checklists.',
+        icon: 'user-plus'
+      }
+    ]
+  },
+  {
+    id: '484',
+    slug: 'greenhouse',
+    name: 'Greenhouse',
+    tagline: 'Structured hiring ATS for growing companies',
+    description: 'Greenhouse is an applicant tracking system built around structured hiring, with defined job scorecards, interview kits, calibrated scorecards, and recruiting analytics. Used by mid-market and enterprise teams running high-volume, multi-stakeholder hiring processes.',
+    overview: '',
+    pricingDescription: 'Quote-based pricing billed annually, generally starting in the mid four figures per year for smaller teams and scaling with employee count and modules such as CRM, onboarding, and DEI analytics. No public price list, so request a quote.',
+    logo: '/images/tool-logo/greenhouse.webp',
+    website: 'https://www.greenhouse.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'ats',
+      'structured-hiring',
+      'interview-kits',
+      'scorecards',
+      'recruiting-analytics',
+      'candidate-pipeline',
+      'mid-market',
+      'onboarding'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'structured-hiring', text: 'Scorecards and interview kits standardize evaluation' },
+      { id: 'calibration', text: 'Debrief tools reduce bias in hiring decisions' },
+      { id: 'analytics', text: 'Pipeline and source reporting for recruiting leadership' },
+      { id: 'integrations', text: 'Large marketplace of sourcing, assessment, and background tools' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Pipeline Management',
+        description: 'Track candidates through stages with tasks, kits, and scorecards.',
+        icon: 'list-checks'
+      },
+      {
+        id: '2',
+        title: 'Interview Coordination',
+        description: 'Schedule panels, collect feedback, and run debriefs in one flow.',
+        icon: 'calendar'
+      },
+      {
+        id: '3',
+        title: 'Recruiting Analytics',
+        description: 'Analyze funnel conversion, source quality, and time to hire.',
+        icon: 'chart-line'
+      }
+    ]
+  },
+  {
+    id: '485',
+    slug: 'jazzhr',
+    name: 'JazzHR',
+    tagline: 'Affordable applicant tracking for small businesses',
+    description: 'JazzHR is an applicant tracking system for small and mid-sized businesses and part of the Employ family of recruiting brands. Posts jobs to multiple boards, screens and scores candidates, schedules interviews, and collects team feedback at a lower price point than enterprise systems.',
+    overview: '',
+    pricingDescription: 'Paid plans billed monthly with an annual discount, historically starting around $199 per month for the entry tier with caps on active jobs and employee records, rising through higher tiers that add career pages, text messaging, and e-signatures.',
+    logo: '/images/tool-logo/jazzhr.webp',
+    website: 'https://www.jazzhr.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'ats',
+      'job-posting',
+      'candidate-screening',
+      'small-business',
+      'interview-scheduling',
+      'recruiting',
+      'employ',
+      'career-page'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'affordable', text: 'Lower price point than enterprise applicant tracking systems' },
+      { id: 'job-distribution', text: 'Posts openings to major job boards at once' },
+      { id: 'scoring', text: 'Custom questionnaires and scoring rank applicants' },
+      { id: 'employ-family', text: 'Part of Employ alongside Jobvite and NexusHive' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Job Posting',
+        description: 'Publish openings to job boards and a branded career page.',
+        icon: 'megaphone'
+      },
+      {
+        id: '2',
+        title: 'Candidate Screening',
+        description: 'Score applicants with questionnaires, reviews, and workflows.',
+        icon: 'filter'
+      },
+      {
+        id: '3',
+        title: 'Interview Scheduling',
+        description: 'Coordinate interviews and gather team feedback in one record.',
+        icon: 'calendar'
+      }
+    ]
+  },
+  {
+    id: '486',
+    slug: 'lattice',
+    name: 'Lattice',
+    tagline: 'Performance, engagement, and HRIS platform',
+    description: 'Lattice is a people management platform combining performance reviews, OKRs and goals, engagement surveys, one-on-ones, compensation planning, career paths, and an HRIS. Sold as modular products that share one employee record.',
+    overview: '',
+    pricingDescription: 'Modular per-user per-month pricing, historically around $11 per user for engagement, $11 for performance, and $10 for compensation, with HRIS priced higher and bundles discounted. Most plans require an annual contract and a minimum seat count.',
+    logo: '/images/tool-logo/lattice.webp',
+    website: 'https://lattice.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'performance-reviews',
+      'okrs',
+      'engagement',
+      'compensation',
+      'hris',
+      'career-paths',
+      'one-on-ones',
+      'people-analytics'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'modular', text: 'Buy performance, engagement, or compensation separately' },
+      { id: 'one-record', text: 'Modules share a single employee record and hierarchy' },
+      { id: 'hris', text: 'HRIS module can replace a separate system of record' },
+      { id: 'compensation', text: 'Compensation planning tied to review outcomes' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Reviews and Goals',
+        description: 'Run review cycles with OKRs, ratings, and calibration.',
+        icon: 'target'
+      },
+      {
+        id: '2',
+        title: 'Engagement and Feedback',
+        description: 'Pulse surveys, continuous feedback, and one-on-one agendas.',
+        icon: 'message-circle'
+      },
+      {
+        id: '3',
+        title: 'HRIS and Compensation',
+        description: 'Maintain employee records, org charts, and pay planning.',
+        icon: 'id-card'
+      }
+    ]
+  },
+  {
+    id: '487',
+    slug: 'lever',
+    name: 'Lever',
+    tagline: 'Applicant tracking with built-in recruiting CRM',
+    description: 'Lever is a recruiting platform combining applicant tracking with candidate relationship management, so recruiters nurture passive candidates in the same pipeline as active applicants. Offers interview scheduling, feedback forms, offer letters, and recruiting analytics.',
+    overview: '',
+    pricingDescription: 'Quote-based pricing billed annually, with tiers differentiated by candidate volume, user count, and add-ons such as DEI analytics, nurture campaigns, and advanced scheduling. Entry contracts typically start in the low five figures per year. Request a quote for current figures.',
+    logo: '/images/tool-logo/lever.webp',
+    website: 'https://www.lever.co',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'ats',
+      'recruiting-crm',
+      'candidate-nurture',
+      'interview-scheduling',
+      'offer-letters',
+      'recruiting-analytics',
+      'talent-pipeline',
+      'requisition-management'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'crm-ats', text: 'Applicant tracking and candidate relationship tools in one pipeline' },
+      { id: 'nurture', text: 'Re-engage past candidates with automated campaigns' },
+      { id: 'scheduling', text: 'Interview scheduling with calendar and panel coordination' },
+      { id: 'analytics', text: 'Pipeline velocity and source reporting for recruiters' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Pipeline and CRM',
+        description: 'Track applicants and passive candidates through a shared pipeline.',
+        icon: 'list-checks'
+      },
+      {
+        id: '2',
+        title: 'Interview Workflow',
+        description: 'Schedule interviews, send feedback forms, and manage offers.',
+        icon: 'calendar'
+      },
+      {
+        id: '3',
+        title: 'Recruiting Analytics',
+        description: 'Measure pipeline health, conversion, and time to fill.',
+        icon: 'chart-line'
+      }
+    ]
+  },
+  {
+    id: '488',
+    slug: 'namely',
+    name: 'Namely',
+    tagline: 'HR, payroll, and benefits for mid-sized companies',
+    description: 'Namely is an HR platform for mid-sized companies covering employee records, payroll, benefits administration, performance management, and time tracking, positioned as a replacement for spreadsheets and point solutions in companies of roughly 50 to 1000 employees.',
+    overview: '',
+    pricingDescription: 'Quote-based pricing billed per employee per month with a platform minimum, historically in the mid single digits to low teens per employee for HRIS, with payroll and benefits modules added. Request a quote for current figures.',
+    logo: '/images/tool-logo/namely.webp',
+    website: 'https://www.namely.com',
+    affiliateUrl: null,
+    categories: ['hr', 'finance'],
+    tags: [
+      'hris',
+      'payroll',
+      'benefits',
+      'performance',
+      'mid-market',
+      'time-tracking',
+      'employee-self-service',
+      'onboarding'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'mid-market', text: 'Designed for companies of roughly 50 to 1000 employees' },
+      { id: 'hr-payroll-benefits', text: 'Combines HRIS, payroll, and benefits administration' },
+      { id: 'self-service', text: 'Employee self-service portal for records and requests' },
+      { id: 'onboarding', text: 'Onboarding workflows with tasks and document signing' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Employee Records',
+        description: 'Store org charts, documents, and personal data centrally.',
+        icon: 'id-card'
+      },
+      {
+        id: '2',
+        title: 'Payroll and Benefits',
+        description: 'Run payroll and manage benefits enrollment and renewals.',
+        icon: 'banknote'
+      },
+      {
+        id: '3',
+        title: 'Performance and Time',
+        description: 'Track goals and reviews alongside time off and timesheets.',
+        icon: 'target'
+      }
+    ]
+  },
+  {
+    id: '489',
+    slug: 'paycor',
+    name: 'Paycor',
+    tagline: 'HCM with payroll and workforce management',
+    description: 'Paycor is a human capital management platform for US mid-market employers covering payroll, HR, benefits administration, talent management, recruiting, time and attendance, and workforce scheduling, with vertical offerings for healthcare, restaurants, manufacturing, and nonprofits.',
+    overview: '',
+    pricingDescription: 'Quote-based pricing per employee per month with a base platform fee, historically starting around $88 per month plus a few dollars per employee for core payroll and HR, rising with talent, time, and benefits modules. Request a quote for current figures.',
+    logo: '/images/tool-logo/paycor.webp',
+    website: 'https://www.paycor.com',
+    affiliateUrl: null,
+    categories: ['hr', 'finance'],
+    tags: [
+      'hcm',
+      'payroll',
+      'time-and-attendance',
+      'benefits',
+      'talent-management',
+      'recruiting',
+      'us-mid-market',
+      'scheduling'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'us-focus', text: 'Built for US payroll, tax, and compliance requirements' },
+      { id: 'vertical-plans', text: 'Tailored offerings for healthcare, food, and manufacturing' },
+      { id: 'workforce-management', text: 'Time clocks, scheduling, and labour cost controls' },
+      { id: 'full-hcm', text: 'Payroll, HR, talent, and recruiting in one system' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Payroll and Tax',
+        description: 'Run payroll, file taxes, and manage garnishments and deductions.',
+        icon: 'banknote'
+      },
+      {
+        id: '2',
+        title: 'Time and Scheduling',
+        description: 'Capture time from clocks and mobile, then build shift schedules.',
+        icon: 'clock'
+      },
+      {
+        id: '3',
+        title: 'Talent and Recruiting',
+        description: 'Post jobs, track applicants, and manage onboarding and reviews.',
+        icon: 'user-plus'
+      }
+    ]
+  },
+  {
+    id: '490',
+    slug: 'paylocity',
+    name: 'Paylocity',
+    tagline: 'Cloud payroll and HCM for US employers',
+    description: 'Paylocity is a cloud payroll and human capital management provider for US small and mid-sized employers, offering payroll and tax filing, benefits administration, time and labour management, talent tools, expense management, and an employee community experience.',
+    overview: '',
+    pricingDescription: 'Quote-based pricing with a base monthly fee plus a per-employee charge, historically around $30 to $60 base plus $4 to $8 per employee per month depending on modules. Payroll tax filing and year-end forms are included. Request a quote for current figures.',
+    logo: '/images/tool-logo/paylocity.webp',
+    website: 'https://www.paylocity.com',
+    affiliateUrl: null,
+    categories: ['hr', 'finance'],
+    tags: [
+      'payroll',
+      'hcm',
+      'benefits',
+      'time-and-labour',
+      'talent',
+      'expense-management',
+      'us-employers',
+      'employee-community'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'us-payroll', text: 'Payroll, tax filing, and year-end forms for US employers' },
+      { id: 'benefits-integration', text: 'Benefits administration tied directly to payroll deductions' },
+      { id: 'community', text: 'Employee community, recognition, and learning features' },
+      { id: 'module-range', text: 'Adds time, talent, expense, and scheduling modules' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Payroll Processing',
+        description: 'Calculate pay, file taxes, and issue year-end forms.',
+        icon: 'banknote'
+      },
+      {
+        id: '2',
+        title: 'Time and Labour',
+        description: 'Track time and attendance with scheduling and labour rules.',
+        icon: 'clock'
+      },
+      {
+        id: '3',
+        title: 'Benefits and HR',
+        description: 'Administer benefits, documents, and employee self-service.',
+        icon: 'heart-handshake'
+      }
+    ]
+  },
+  {
+    id: '491',
+    slug: 'personio',
+    name: 'Personio',
+    tagline: 'All-in-one HR software for European SMEs',
+    description: 'Personio is an HR platform for small and mid-sized companies across Europe covering recruiting, employee records, absence and time tracking, performance, compensation, and payroll integrations with local providers, with strong German, Spanish, French, and UK coverage.',
+    overview: '',
+    pricingDescription: 'Quote-based pricing billed per employee per month with a minimum employee count and annual contract, tiered as Essential, Professional, and Enterprise. Recruiting, performance, and compensation modules are added at higher tiers. Request a quote for current figures.',
+    logo: '/images/tool-logo/personio.webp',
+    website: 'https://www.personio.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'hris',
+      'recruiting',
+      'absence-management',
+      'time-tracking',
+      'performance',
+      'compensation',
+      'europe',
+      'payroll-integration'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'europe-first', text: 'Localised for German, Spanish, French, and UK requirements' },
+      { id: 'all-in-one', text: 'Recruiting through offboarding in a single platform' },
+      { id: 'payroll-integration', text: 'Exports payroll data to local payroll providers' },
+      { id: 'tiered-modules', text: 'Talent and compensation modules on higher tiers' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Employee Data',
+        description: 'Keep records, documents, and org structure in one system.',
+        icon: 'id-card'
+      },
+      {
+        id: '2',
+        title: 'Absence and Time',
+        description: 'Request and approve leave and track working hours.',
+        icon: 'calendar-check'
+      },
+      {
+        id: '3',
+        title: 'Recruiting and Onboarding',
+        description: 'Post roles, manage candidates, and run onboarding plans.',
+        icon: 'user-plus'
+      }
+    ]
+  },
+  {
+    id: '492',
+    slug: 'ukgpro',
+    name: 'UKG Pro',
+    tagline: 'Enterprise HCM with payroll and workforce management',
+    description: 'UKG Pro is an enterprise human capital management suite combining core HR, payroll, benefits, talent management, and workforce management with people analytics and AI-assisted tools. Built for large employers with complex scheduling, multi-jurisdiction payroll, and compliance needs.',
+    overview: '',
+    pricingDescription: 'Quote-based enterprise pricing, typically billed per employee per month under an annual contract, with implementation fees and module selection driving total cost. Entry pricing is commonly in the mid teens to low twenties per employee per month. Request a quote for current figures.',
+    logo: '/images/tool-logo/ukgpro.webp',
+    website: 'https://www.ukg.com',
+    affiliateUrl: null,
+    categories: ['hr', 'finance'],
+    tags: [
+      'hcm',
+      'enterprise',
+      'payroll',
+      'workforce-management',
+      'talent',
+      'people-analytics',
+      'benefits',
+      'compliance'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'enterprise-scale', text: 'Built for large employers with complex payroll needs' },
+      { id: 'workforce-management', text: 'Advanced scheduling, time, and labour cost tools' },
+      { id: 'people-analytics', text: 'Sentiment and retention analytics across the workforce' },
+      { id: 'ai-tools', text: 'AI assistants for HR questions and manager tasks' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Core HR and Payroll',
+        description: 'Maintain employee records and run multi-jurisdiction payroll.',
+        icon: 'banknote'
+      },
+      {
+        id: '2',
+        title: 'Workforce Management',
+        description: 'Schedule shifts, capture time, and forecast labour demand.',
+        icon: 'clock'
+      },
+      {
+        id: '3',
+        title: 'Talent and Analytics',
+        description: 'Manage performance, succession, and workforce analytics.',
+        icon: 'chart-line'
+      }
+    ]
+  },
+  {
+    id: '493',
+    slug: 'workable',
+    name: 'Workable',
+    tagline: 'Recruiting software with sourcing and scheduling',
+    description: 'Workable is recruiting software for small and mid-sized companies offering job posting, a candidate pipeline, AI-assisted sourcing from a large passive candidate database, interview scheduling, evaluations, and offer management, with optional HR and onboarding features.',
+    overview: '',
+    pricingDescription: 'Published tiered pricing rather than a quote: an entry tier, a standard tier, a premier tier, and an enterprise option, with the monthly price driven mainly by company size band. Lower tiers cap active job slots and exclude AI sourcing. Historically a few hundred dollars per month for the smallest band, premier roughly double. A free trial is offered; confirm current figures on the vendor page.',
+    logo: '/images/tool-logo/workable.webp',
+    website: 'https://www.workable.com',
+    affiliateUrl: null,
+    categories: ['hr'],
+    tags: [
+      'recruiting',
+      'ats',
+      'job-posting',
+      'ai-sourcing',
+      'interview-scheduling',
+      'evaluations',
+      'onboarding',
+      'sme'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'ai-sourcing', text: 'Search a large passive candidate database with AI assistance' },
+      { id: 'job-posting', text: 'Publish roles to many job boards from one place' },
+      { id: 'structured-evaluation', text: 'Standardized scorecards and interview question sets' },
+      { id: 'quick-setup', text: 'Self-serve setup without an implementation project' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Job Posting',
+        description: 'Create requisitions and distribute them to job boards and social channels.',
+        icon: 'megaphone'
+      },
+      {
+        id: '2',
+        title: 'Candidate Pipeline',
+        description: 'Screen, schedule, and evaluate candidates with shared scorecards.',
+        icon: 'list-checks'
+      },
+      {
+        id: '3',
+        title: 'Sourcing and Offers',
+        description: 'Find passive candidates and manage offers and onboarding tasks.',
+        icon: 'search'
+      }
+    ]
+  },
+  {
+    id: '494',
+    slug: 'zenefits',
+    name: 'Zenefits',
+    tagline: 'HR, benefits, and payroll platform, now TriNet HR',
+    description: 'Zenefits was an HR platform for small and mid-sized US businesses covering employee records, benefits administration, payroll, time tracking, and compliance. TriNet acquired it in 2022 and the product now operates as TriNet HR powered by Zenefits.',
+    overview: '',
+    pricingDescription: 'Sold as TriNet HR powered by Zenefits with quote-based per-employee per-month pricing, historically tiered as Essentials, Growth, and Zen with HR, payroll, and benefits modules included at higher levels. Request a quote for current figures.',
+    logo: '/images/tool-logo/zenefits.webp',
+    website: 'https://www.zenefits.com',
+    affiliateUrl: null,
+    categories: ['hr', 'finance'],
+    tags: [
+      'hris',
+      'benefits',
+      'payroll',
+      'compliance',
+      'time-tracking',
+      'trinet',
+      'us-small-business',
+      'onboarding'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-27',
+    highlights: [
+      { id: 'trinet-acquisition', text: 'Acquired by TriNet in 2022 and rebranded' },
+      { id: 'benefits-brokerage', text: 'Benefits administration with broker support' },
+      { id: 'compliance', text: 'Guidance on federal and state employment rules' },
+      { id: 'all-in-one', text: 'HR, payroll, time, and benefits in a single platform' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'HR and Onboarding',
+        description: 'Maintain employee records and run onboarding paperwork.',
+        icon: 'id-card'
+      },
+      {
+        id: '2',
+        title: 'Benefits Administration',
+        description: 'Manage enrollment, carriers, and payroll deduction sync.',
+        icon: 'heart'
+      },
+      {
+        id: '3',
+        title: 'Payroll and Time',
+        description: 'Run payroll with time tracking and compliance alerts.',
+        icon: 'banknote'
       }
     ]
   }

@@ -1,0 +1,37 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const gitlabContent: ToolContent = {
+  overview: `GitLab has established itself as the leading complete DevOps platform, delivering the entire software development lifecycle in a single application. Unlike fragmented toolchains requiring integration between Git hosting, CI/CD, security scanning, monitoring, and deployment tools, GitLab provides unified capabilities across planning, source code management, continuous integration, security, compliance, and monitoring. This comprehensive approach eliminates integration complexity while providing consistent user experience across all development stages.
+
+The single-application philosophy addresses real development pain points. Organizations typically assemble toolchains from multiple vendors — GitHub for code, Jenkins for CI, SonarQube for security, Jira for issues, and more. Each tool requires separate authentication, configuration, and maintenance. Data moves between tools through integrations that break, lag, or lose context. GitLab consolidates these capabilities, providing seamless workflow from idea to production without context-switching between platforms.
+
+The built-in CI/CD represents GitLab's strongest technical capability. GitLab CI provides sophisticated pipeline definitions in YAML configuration files, executing in Docker containers with auto-scaling runners. The system handles complex scenarios — multi-stage pipelines, parallel jobs, manual approvals, environments, deployment strategies, and matrix builds. Pipelines integrate naturally with code changes, triggering automatically on commits, merge requests, and schedules. The CI/CD quality rivals or exceeds specialized tools like Jenkins or CircleCI while eliminating integration complexity.
+
+Self-managed deployment provides complete infrastructure control. Organizations install GitLab on their own servers, maintaining complete data sovereignty and customization options. This capability serves regulated industries, government organizations, and enterprises with strict infrastructure policies. Self-managed deployments can integrate with internal authentication, customize workflows, and implement security policies impossible with SaaS-only platforms. The self-managed option distinguishes GitLab from GitHub's primarily SaaS approach.
+
+Security scanning integrates throughout the development lifecycle. SAST (Static Application Security Testing) analyzes source code for vulnerabilities. DAST (Dynamic Application Security Testing) tests running applications. Dependency scanning identifies vulnerable libraries. Container scanning checks Docker images. License compliance ensures acceptable licenses. Secret detection prevents credential exposure. These security capabilities run automatically in pipelines, catching issues before production.
+
+Compliance frameworks address enterprise requirements. Audit logs track all platform activity. Approval workflows enforce review requirements. Code ownership policies control who can modify specific code. Compliance pipelines enforce mandatory checks. These features help organizations meet regulatory requirements like SOC 2, HIPAA, GDPR, and FedRAMP without custom tooling.
+
+Issue tracking and project management integrate with code. Issues, epics, and milestones connect directly to code changes and merge requests. Burndown charts track progress. Roadmaps visualize delivery plans. Time tracking captures effort estimates. This integration provides development visibility without separate project management tools.
+
+Container registry hosts Docker images alongside code. Developers publish, version, and manage container images through the same platform hosting source code. Images connect naturally to CI/CD pipelines and deployment processes. This consolidation eliminates separate container registry infrastructure.
+
+Package registry manages dependencies across languages. Maven, npm, PyPI, NuGet, Conan, and other package types receive native support. Organizations publish private packages and control access through GitLab permissions. This consolidation simplifies dependency management across projects.
+
+GitLab Pages provides static site hosting for documentation and project sites. Developers publish documentation directly from repository content. The platform handles SSL, CDN distribution, and custom domains. This capability serves documentation needs without separate hosting services.
+
+The AI capabilities through GitLab Duo provide AI assistance across the DevOps lifecycle. Code suggestions, vulnerability explanations, merge request summaries, and pipeline debugging leverage AI to improve development efficiency. Duo integrates naturally into existing GitLab workflows rather than requiring separate AI tools.
+
+The pricing structure reflects the platform's comprehensive nature. Free tier provides unlimited repositories and core features including CI/CD with 400 compute minutes monthly. Premium at $29/user/month adds advanced CI/CD, code ownership, approval rules, and security features. Ultimate at $99/user/month provides enterprise security, compliance, portfolio management, and advanced analytics. Self-managed deployment uses the same pricing with infrastructure provided by customers.
+
+GitLab's limitations center on complexity and resource requirements for self-managed deployments. The comprehensive feature set creates a learning curve for teams needing simple repository hosting. Self-managed installations require significant infrastructure and administration expertise. Small teams may find GitLab's capabilities excessive for their needs, preferring simpler alternatives.
+
+The pricing for Ultimate tier represents significant investment. At $99/user/month, GitLab Ultimate costs substantially more than competitors. Organizations must evaluate whether comprehensive DevOps capabilities justify the premium compared to assembling separate tools.
+
+Performance with very large repositories requires optimization. Monorepos with extensive history and large binary files may need Git LFS and careful configuration. While GitLab handles large codebases well, teams must understand best practices.
+
+For users evaluating GitLab, the platform fits organizations wanting complete DevOps capabilities in one application. It fits enterprises needing self-managed deployment for compliance or control. It fits teams frustrated with fragmented toolchains requiring integration. It fits organizations prioritizing security and compliance automation. It fits DevOps teams managing complex deployment pipelines. Teams needing simple repository hosting, preferring GitHub's ecosystem, or wanting minimal complexity should consider GitHub, Bitbucket, or simpler Git hosting alongside GitLab for comprehensive coverage.
+
+GitLab represents the complete DevOps platform approach — recognizing that software development involves interconnected stages benefiting from unified tooling rather than fragmented services. The comprehensive capabilities, self-managed option, and built-in CI/CD create compelling value for organizations managing sophisticated development processes. As DevOps practices mature and security requirements grow, GitLab's consolidated approach becomes increasingly attractive to organizations wanting simplified infrastructure without sacrificing capability.`
+}

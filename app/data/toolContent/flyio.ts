@@ -1,0 +1,37 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const flyioContent: ToolContent = {
+  overview: `Fly.io has established itself as the leading platform for deploying applications globally at the edge, solving a fundamental challenge in modern web development: running servers physically close to users for minimal latency. Rather than deploying to centralized data centers in Virginia or Oregon like traditional cloud providers, Fly.io runs applications across 30+ global regions, placing compute and data near users regardless of their location. This edge-first approach delivers sub-50ms response times globally while maintaining the simplicity of Docker-based deployment.
+
+The edge computing philosophy addresses modern application requirements. Users expect instant responses regardless of location, but traditional cloud architectures force requests to travel to centralized data centers and back. A user in Tokyo accessing a Virginia-hosted application experiences 150-200ms network latency regardless of application optimization. Fly.io eliminates this latency by running application instances in Tokyo (and Singapore, Sydney, São Paulo, and dozens of other regions). This architecture particularly benefits real-time applications, gaming, APIs, and global user bases.
+
+Docker-native deployment preserves developer workflows. Fly.io transforms existing Docker containers into micro-VMs running on their infrastructure without requiring code changes or rewrites. Developers continue building applications using familiar frameworks and tools, then deploy via "fly launch" commands. This compatibility means teams can adopt Fly.io incrementally, deploying specific applications globally without rebuilding entire stacks.
+
+The Firecracker micro-VM technology provides the foundation for Fly.io's performance. Rather than traditional containers or VMs, Fly.io uses Firecracker — the same technology powering AWS Lambda — to run lightweight virtual machines that start in milliseconds, consume minimal resources, and provide strong isolation. This technology enables running thousands of application instances across global regions without the overhead of traditional virtualization.
+
+Fly Machines represent a revolutionary approach to infrastructure control. The Machines API allows programmatic creation, destruction, starting, and stopping of VMs in milliseconds via simple API calls. This capability enables building serverless-style architectures with full VM power — applications that scale from zero to thousands of instances based on demand. Developers build auto-scaling systems, on-demand compute environments, and ephemeral infrastructure that exists only when needed.
+
+Fly Postgres provides globally distributed PostgreSQL without operational complexity. The service replicates data across regions automatically, providing low-latency read access from any region while maintaining consistency. Write operations route to the primary region while reads distribute globally. This architecture serves applications needing both global distribution and transactional consistency — the holy grail of distributed databases.
+
+The global regions network spans 30+ locations across six continents. Major metropolitan areas have multiple points of presence, ensuring users connect to nearby infrastructure. The network continues expanding based on user demand and strategic coverage needs. This global footprint enables truly worldwide application deployment rather than multi-region deployments limited to a handful of locations.
+
+Automatic traffic routing sends users to the nearest application instance. Fly.io's proxy layer intelligently routes requests based on user location, application instance health, and capacity. Users automatically connect to optimal instances without DNS configuration or routing complexity. This automation makes global deployment accessible without DevOps expertise.
+
+Private networking connects applications across regions securely. Applications in different regions communicate through Fly.io's private network without traversing public internet. This capability enables building distributed systems where components in different regions interact efficiently and securely.
+
+The pricing model aligns with usage patterns rather than reserved capacity. Free allowance supports small personal projects with 3 shared-cpu VMs and 3GB persistent storage. Production applications pay based on actual compute, bandwidth, and storage usage — typically $1.94/month for small shared VMs scaling up for dedicated resources. No minimum commitments or reserved instances required. This flexibility makes Fly.io economical for projects of any scale.
+
+The CLI tool provides developer-friendly infrastructure management. Commands like "fly launch," "fly deploy," and "fly status" handle common operations intuitively. The CLI integrates naturally into development workflows and CI/CD pipelines. Developers manage infrastructure using the same tools they use for application development.
+
+Multi-cloud infrastructure runs across multiple underlying providers for resilience. Fly.io doesn't depend on a single cloud provider, reducing risk of provider-specific outages affecting applications. This multi-cloud approach provides infrastructure diversity and negotiating leverage.
+
+Fly.io's limitations center on complexity compared to simpler platforms. The global distribution and edge concepts require understanding distributed systems principles. Teams accustomed to single-region deployment face a learning curve. The platform's power comes with responsibility for understanding how distributed applications behave across regions.
+
+The observability tooling, while adequate, doesn't match enterprise monitoring platforms. Teams needing sophisticated APM, tracing, and analytics might supplement Fly.io with dedicated monitoring services. The platform provides essential metrics and logs but not comprehensive observability suites.
+
+Database options, while improving, don't cover every use case. Fly Postgres works well for many applications but teams needing specialized databases (Redis clusters, Cassandra, etc.) must manage these separately or use Fly.io for compute only.
+
+For users evaluating Fly.io, the platform fits applications with global user bases needing low latency. It fits real-time applications, gaming, and APIs requiring fast responses worldwide. It fits developers wanting Docker-based deployment with global distribution. It fits teams building distributed systems across regions. It fits applications scaling from zero to massive traffic. Teams with single-region user bases, simple deployment needs, or preference for fully managed PaaS should consider Vercel, Railway, or traditional cloud providers alongside Fly.io.
+
+Fly.io represents the edge computing revolution — recognizing that modern applications serve global audiences and should run where users actually are rather than where cloud providers happen to have data centers. The platform's combination of Docker simplicity, global distribution, and micro-VM performance enables application architectures previously requiring significant infrastructure expertise. As applications increasingly serve worldwide users and latency sensitivity grows, Fly.io's edge-first approach becomes essential infrastructure for global web applications.`
+}

@@ -1,0 +1,33 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const rytrContent: ToolContent = {
+  overview: `Rytr has positioned itself as an accessible AI writing assistant serving content creators, marketers, and business professionals across 40+ specialized use cases. Unlike general-purpose AI chatbots, Rytr provides templated workflows for specific content types — blog posts, emails, social media captions, ad copy, product descriptions, and more. This use-case-focused approach makes AI writing assistance approachable for users who might not know how to prompt general AI models effectively.
+
+The 40+ use cases represent Rytr's core organizational principle. Rather than providing a blank canvas for AI writing, Rytr offers specialized templates for specific content types. Blog post generation includes headline creation, outline development, section writing, and conclusion crafting. Email writing covers subject lines, greetings, body content, and calls-to-action. Social media content includes caption generation, hashtag suggestions, and engagement optimization. Each use case provides appropriate structure and parameters for that content type.
+
+Tone and style customization enables content adaptation for different audiences and contexts. Rytr offers 20+ tone options including professional, casual, persuasive, humorous, formal, conversational, and more. Users select tones matching their brand voice, target audience, and communication context. A marketing email needs different tone than a technical documentation piece. This customization helps maintain consistent brand voice across different content types.
+
+Multilingual support extends Rytr's utility globally. The platform supports 30+ languages including English, Spanish, French, German, Portuguese, Chinese, Japanese, Arabic, Hindi, and many others. Users can write content in their native language or create multilingual content for international audiences. The language support covers major global languages, making Rytr useful for businesses operating across multiple markets.
+
+The plagiarism checker provides content originality verification. After generating content, users can check it against internet sources to ensure originality. This feature matters for SEO content, academic writing, and professional applications requiring unique content. The plagiarism checker helps users avoid accidental duplication and maintain content quality standards.
+
+Character-based pricing reflects writing volume needs. The free tier provides 10,000 characters monthly — enough for exploration and small projects. Saver plan at $9/month offers 100,000 characters for regular content creators. Unlimited plan at $29/month removes character limits for heavy users producing content daily. Annual plans provide 2 months free, making committed usage more economical. This pricing scales with content production volume rather than time-based subscriptions.
+
+The writing workflow emphasizes efficiency over conversation. Unlike chat-based AI assistants requiring back-and-forth dialogue, Rytr's interface focuses on input parameters and output generation. Users specify use case, tone, language, and key information, then receive generated content. This workflow suits users wanting quick content generation rather than conversational collaboration. The interface prioritizes speed and efficiency for content production workflows.
+
+Content refinement tools help improve generated outputs. Users can regenerate content with different variations, expand sections for more detail, shorten content for brevity, or rephrase sentences for clarity. These refinement options allow iterative improvement without starting from scratch. The ability to generate multiple variations helps users select the best output rather than accepting first attempts.
+
+The platform's focus on specific use cases makes it accessible to users without prompt engineering expertise. General AI chatbots require users to craft effective prompts — a skill many lack. Rytr's templated approach removes this barrier by providing appropriate structure for each content type. Users fill in relevant information and receive appropriately formatted content without learning prompt engineering techniques.
+
+Business applications drive Rytr adoption. Marketers use it for ad copy, email campaigns, and social media content. E-commerce businesses generate product descriptions at scale. Bloggers produce content for SEO and audience engagement. Small business owners create marketing materials without hiring copywriters. The platform serves practical business needs rather than creative exploration.
+
+Rytr's limitations center on depth and creativity compared to general AI assistants. The templated approach produces competent but sometimes formulaic content. For highly creative writing, complex reasoning, or nuanced content requiring deep understanding, general AI assistants like ChatGPT or Claude often produce superior results. Rytr excels at efficient content production rather than creative excellence.
+
+The character-based pricing can become expensive for heavy users. Professionals generating large volumes of content may find the Unlimited plan necessary, representing significant monthly cost. Users producing content at scale should evaluate whether Rytr's efficiency gains justify the cost compared to alternatives.
+
+Content quality varies by use case and input quality. Some templates produce better results than others. The quality of generated content depends heavily on the input information users provide — better input leads to better output. Users must invest effort in providing clear, relevant information for each generation.
+
+For users evaluating Rytr, the platform fits content creators needing efficient production across multiple content types. It fits marketers creating ad copy, emails, and social content. It fits small businesses generating marketing materials without dedicated copywriters. It fits bloggers producing SEO content regularly. Users needing maximum creativity, complex reasoning, conversational collaboration, or specialized knowledge should consider ChatGPT, Claude, or other general AI assistants alongside or instead of Rytr.
+
+Rytr represents the use-case-focused approach to AI writing — recognizing that most business content follows predictable patterns that can be templated effectively. The platform's 40+ use cases, multilingual support, and tone customization provide practical value for content production workflows. As AI writing assistance becomes standard for content creation, tools like Rytr that simplify the process through templating serve users wanting efficient content production without mastering prompt engineering or conversational AI interaction.`
+}

@@ -1,0 +1,35 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const contentsquareContent: ToolContent = {
+  overview: `Contentsquare has established itself as the leading enterprise digital experience analytics platform, serving Fortune 500 companies and global brands needing to understand user behavior at massive scale. The platform combines traditional UX analytics tools — heatmaps, session replay, journey analysis — with AI-powered insights that automatically identify friction points, quantify their revenue impact, and prioritize fixes by business value. This enterprise-focused approach distinguishes Contentsquare from tools like Hotjar or FullStory that serve smaller-scale use cases.
+
+The enterprise scale capability handles billions of user sessions monthly. While typical analytics tools process millions of sessions, Contentsquare operates at the scale required by global e-commerce sites, financial institutions, and media companies with massive traffic volumes. The platform maintains performance and insight quality regardless of data volume, enabling analysis of complete user populations rather than sampled subsets.
+
+The AI-powered insight engine represents Contentsquare's signature innovation. Rather than requiring analysts to manually review heatmaps and session recordings searching for issues, Contentsquare's AI automatically detects UX problems, quantifies their impact, and recommends fixes. The system identifies rage clicks, error clicks, dead clicks, and other frustration signals, then calculates how much revenue these issues cost. This automatic insight generation transforms UX optimization from manual detective work into data-driven prioritization.
+
+Revenue impact quantification bridges UX and business metrics. Contentsquare doesn't just identify that users struggle with a form — it calculates that this form issue costs $2.3 million annually in abandoned purchases. This quantification enables UX teams to prioritize fixes by business value rather than severity or intuition. Executives understand UX investments in revenue terms, facilitating budget allocation and resource prioritization.
+
+Journey analysis reveals complete user paths across sessions and devices. Modern users interact with brands across multiple sessions, devices, and channels before converting. Contentsquare maps these complete journeys, showing how users move from mobile browsing to desktop purchasing, how they return after email campaigns, and where they drop off in multi-step processes. This journey visibility reveals optimization opportunities invisible when analyzing individual sessions.
+
+Heatmaps and zone-based analysis provide visual behavior understanding. Click heatmaps show where users interact. Scroll heatmaps reveal content engagement. Attention heatmaps indicate where users focus. Zone-based analysis compares engagement across page regions. These visualizations help teams understand user attention and interaction patterns at glance rather than reading reports.
+
+Session replay enables qualitative behavior understanding. Teams watch recorded user sessions to see actual behavior, identify confusion points, and understand why metrics look certain ways. Contentsquare's session replay includes AI-generated highlights showing interesting moments — rage clicks, errors, hesitations — rather than requiring reviewers to watch entire sessions. This efficiency makes session review practical at scale.
+
+The struggle score quantifies user frustration. Contentsquare calculates a struggle score for each session based on behavior signals like repeated clicks, rapid scrolling, and error encounters. This score identifies frustrated users automatically, enabling teams to focus session review on problematic experiences rather than reviewing sessions randomly.
+
+Conversion funnel analysis reveals drop-off reasons. Traditional funnel analysis shows where users drop off but not why. Contentsquare combines funnel metrics with behavioral analysis, showing that users abandon at payment because the form produces validation errors or the submit button doesn't respond. This combination of quantitative and qualitative insights accelerates funnel optimization.
+
+The platform's enterprise features address large organization requirements. Role-based access controls manage team permissions. SSO integration connects with corporate identity systems. Audit logs track platform usage. Data residency options comply with regional regulations. Dedicated customer success provides strategic guidance. These features enable enterprise adoption at scale.
+
+Implementation support ensures successful deployment. Contentsquare provides implementation services, tag management guidance, and training for enterprise customers. This support helps organizations deploy correctly, configure properly, and train teams effectively. The implementation investment pays off through faster time-to-value and better adoption.
+
+The pricing reflects enterprise value and scale. Custom pricing based on monthly sessions, features, and implementation scope. Typical implementations range from $50K to $500K+ annually depending on organization size and requirements. This pricing positions Contentsquare for enterprises where UX optimization directly impacts millions in revenue.
+
+Contentsquare's limitations center on accessibility and complexity for smaller organizations. The enterprise pricing excludes small and medium businesses. The platform's comprehensive features require dedicated analysts and UX researchers to extract maximum value. Organizations without UX teams may not utilize Contentsquare's full capabilities.
+
+The learning curve for advanced features exists. While basic heatmaps and session replay work intuitively, advanced features like journey analysis, AI insights, and revenue quantification require training and experience. Teams benefit from Contentsquare's training resources and customer success support.
+
+For users evaluating Contentsquare, the platform fits enterprise organizations with high-traffic digital properties. It fits e-commerce companies optimizing conversion at scale. It fits financial institutions improving digital customer experience. It fits organizations with dedicated UX teams. It fits companies quantifying UX impact in revenue terms. Small businesses, startups, or organizations without UX resources should consider Hotjar, FullStory, or Microsoft Clarity alongside Contentsquare for scaled alternatives.
+
+Contentsquare represents the enterprise approach to digital experience analytics — recognizing that large organizations need analytics operating at massive scale with automatic insights and revenue quantification. The platform's combination of behavioral data, AI-powered analysis, and business impact measurement provides competitive advantage for companies where digital experience directly drives revenue. For enterprises where UX optimization represents millions in potential revenue, Contentsquare provides the analytics infrastructure to identify and prioritize improvements systematically.`
+}

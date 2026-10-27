@@ -1,0 +1,35 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const udioContent: ToolContent = {
+  overview: `Udio has established itself as a premium AI music generation platform, competing directly with Suno while emphasizing high-fidelity audio quality and advanced production controls. The platform generates complete songs with exceptional audio clarity, realistic vocals, complex arrangements, and professional mastering that appeals to users prioritizing audio quality over rapid iteration. Udio's focus on production value and detailed controls makes it particularly valuable for musicians, producers, and audio professionals wanting refined results.
+
+High-fidelity audio quality represents Udio's signature advantage. Generated songs feature exceptional clarity, proper frequency balance, and professional mastering that sounds polished and release-ready. The audio quality exceeds many competitors, producing songs suitable for commercial streaming platforms, professional presentations, and critical listening. This fidelity matters for users where audio quality is paramount rather than just acceptable.
+
+Realistic vocal generation across various styles distinguishes Udio from earlier AI music tools. The platform produces highly convincing vocals with appropriate emotion, phrasing, stylistic characteristics, and technical execution for different genres. Male and female vocals are available with various qualities — powerful belting, smooth crooning, rap delivery, whispered intimacy, and more. The vocal realism makes generated songs believable as human performances.
+
+Complex musical arrangements demonstrate Udio's sophisticated understanding of music composition. Generated songs feature multiple instruments playing together with proper arrangement, counterpoint, and musical interaction. The complexity goes beyond simple melodies to include bass lines, drum patterns, harmonic progressions, and instrumental interplay that creates rich, layered compositions. This arrangement sophistication serves users wanting musically interesting results rather than simple tunes.
+
+Advanced production controls provide detailed customization beyond basic prompts. Users can specify tempo, key signature, time signature, instrumentation, vocal style, and production characteristics. This control enables precise direction over generated music rather than accepting whatever the AI produces. Musicians and producers particularly value this control for achieving specific musical requirements.
+
+The remix and extend capabilities enable iterative song development. Users can remix existing generations with new styles, different instrumentation, or varied production approaches. Songs can be extended with additional sections — verses, choruses, bridges, instrumental breaks — while maintaining musical coherence. This workflow supports developing songs through multiple iterations rather than single-shot generation.
+
+Genre versatility covers the full spectrum of musical styles. Udio creates music across pop, rock, electronic, hip-hop, jazz, classical, country, folk, R&B, metal, world music, and countless niche genres. The platform handles genre combinations and fusion styles effectively, serving diverse creative needs from commercial jingles to artistic compositions.
+
+The credit-based pricing model reflects music generation's computational costs while providing tiered access. The free tier provides limited daily generations — enough for exploration and evaluation. Standard at $10/month offers increased credits and commercial rights for regular creators. Pro at $30/month provides priority generation and advanced features for serious users. Premium at $100/month delivers maximum credits and dedicated support for heavy users and commercial operations. Credits are consumed per generation based on duration and quality settings.
+
+Commercial usage rights accompany paid subscriptions, allowing users to monetize generated songs through streaming platforms, YouTube, client work, or commercial projects. Free tier generations carry personal use restrictions. This clarity helps professionals understand licensing requirements without legal uncertainty.
+
+The web-based interface provides streamlined access to Udio's capabilities. Users create songs through text prompts describing genre, mood, lyrics, and style preferences. The interface displays generation progress and provides playback controls for evaluating results. The workflow emphasizes efficiency for music creation rather than complex production environments.
+
+Udio's approach to music generation prioritizes quality over quantity. While some platforms optimize for rapid generation of many variations, Udio emphasizes producing fewer, higher-quality results. This quality-first approach serves users willing to wait slightly longer for superior audio fidelity and musical sophistication.
+
+The platform's limitations center on generation speed and iterative workflow. Music generation takes longer than image generation due to computational complexity — typically 1-3 minutes per song depending on duration and server load. Users must plan for this latency rather than expecting instant results. The iterative workflow requires generating multiple versions to achieve desired results, demanding patience and multiple attempts.
+
+Creative control, while advanced, remains less granular than traditional music production software. Users can't specify exact chord progressions, precise rhythmic patterns, or detailed arrangement instructions. The AI interprets prompts creatively rather than following exact specifications. Users wanting maximum control should combine Udio with traditional DAWs for detailed editing.
+
+The platform's focus on complete songs means it doesn't serve all audio creation needs. Users wanting simple loops, sound effects, or background music might find Udio's song-focused approach excessive. Dedicated sound design tools might better serve those specific needs.
+
+For users evaluating Udio, the platform fits musicians and producers prioritizing audio quality and production value. It fits content creators needing professional-quality music for videos and presentations. It fits songwriters wanting to hear compositions with high-fidelity production. It fits audio professionals exploring AI-assisted music creation. Users prioritizing rapid iteration, maximum creative control, or simple audio generation should consider Suno alongside Udio for comprehensive coverage.
+
+Udio represents the quality-focused approach to AI music generation — recognizing that some users prioritize audio fidelity and production sophistication over speed and accessibility. The platform's high-fidelity output, realistic vocals, and advanced controls serve users where audio quality matters significantly. As AI music generation continues advancing rapidly, Udio's emphasis on production value positions it as a leading choice for creators wanting professional-quality music without traditional production resources.`
+}

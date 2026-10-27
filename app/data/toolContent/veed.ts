@@ -1,0 +1,37 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const veedContent: ToolContent = {
+  overview: `VEED has established itself as a comprehensive online video editing platform, combining traditional video editing capabilities with AI-powered tools for content creators, marketers, educators, and businesses. The platform's browser-based approach eliminates software installation while providing professional editing features including cutting, trimming, transitions, effects, text overlays, and audio editing alongside AI capabilities like auto-subtitles, transcription, translation, and video enhancement.
+
+The browser-based editing model represents VEED's core accessibility advantage. Users edit videos entirely in web browsers without downloading or installing software. This approach works across operating systems (Windows, Mac, Linux, ChromeOS) and devices with internet access. The cloud-based architecture enables collaboration, automatic saving, and access from anywhere without local storage constraints. This accessibility makes professional video editing available to users without powerful computers or technical expertise.
+
+AI-powered auto-subtitles address accessibility and engagement requirements. The platform automatically generates accurate subtitles synchronized with video audio, then styles them with customizable fonts, colors, sizes, and positioning. Subtitles are essential for social media content (many users watch without sound), accessibility compliance, and international audiences. VEED's auto-subtitles eliminate tedious manual captioning work while ensuring accuracy.
+
+Video transcription converts spoken audio to text with high accuracy. Users can transcribe entire videos for blog posts, show notes, searchable content, or accessibility purposes. The transcription accuracy handles various accents, speaking styles, and audio qualities reasonably well. Export options support multiple formats for different use cases.
+
+AI translation extends content reach globally. Users can translate subtitles and transcriptions into multiple languages, enabling content to serve international audiences. This capability matters for businesses operating across markets, educators reaching diverse students, and creators wanting global reach. The translation quality is sufficient for practical use though may require review for critical applications.
+
+Screen and webcam recording enables tutorial and presentation creation. Users can record their screen, webcam, or both simultaneously for creating tutorials, presentations, product demonstrations, and educational content. The recording interface provides options for selecting specific screen regions, audio sources, and recording quality. This built-in capability eliminates need for separate recording software.
+
+Brand kits maintain consistent visual identity across videos. Users create brand kits with logos, colors, fonts, and styling that apply automatically to all videos. This consistency matters for businesses, content creators, and organizations building recognizable brands. Rather than manually applying branding to each video, brand kits ensure professional, cohesive appearance across all content.
+
+The comprehensive editing suite provides traditional video editing capabilities. Users can cut, trim, split, and arrange clips on timelines. Add transitions between scenes. Apply filters and effects. Adjust color, brightness, and contrast. Add text overlays, titles, and lower thirds. Mix audio tracks and adjust volume levels. These capabilities cover most video editing needs without requiring complex desktop software.
+
+AI video enhancement tools improve video quality automatically. Users can enhance low-quality footage, stabilize shaky video, remove backgrounds, and apply AI-powered filters. These tools address common video quality issues without manual correction work. The enhancement quality is sufficient for most applications though may not match professional color grading software.
+
+The pricing structure accommodates different usage levels and needs. The free tier provides basic features with watermark — enough for evaluation and small projects. Lite at $18/month removes watermark and enables HD exports for casual creators. Pro at $30/month adds advanced AI tools and 4K exports for serious content producers. Business at $59/month includes team collaboration and brand kits for organizations. Enterprise plans offer custom pricing and dedicated support for large-scale operations.
+
+Storage and project management organize video work effectively. Users maintain libraries of uploaded media, created projects, and exported videos. The cloud-based storage enables access from any device while automatic saving prevents work loss. Project organization features help manage multiple videos efficiently.
+
+Export options support various formats, resolutions, and aspect ratios. Users can export videos optimized for different platforms — YouTube, Instagram, TikTok, LinkedIn, or general web use. The export quality ranges from standard definition to 4K depending on subscription tier. Batch export capabilities serve users processing multiple videos.
+
+Collaboration features enable team video production. Multiple users can work on projects together, leave comments, and review videos collaboratively. This capability serves marketing teams, agencies, and organizations where video production involves multiple stakeholders. The collaboration tools streamline team workflows compared to sharing files back and forth.
+
+VEED's limitations center on performance compared to desktop software. Browser-based editing can feel less responsive than native desktop applications, especially with large video files or complex projects. Internet connection quality affects performance. Users working with 4K footage or extensive effects may prefer desktop software like Premiere Pro or DaVinci Resolve for complex projects.
+
+The subscription model can become expensive for heavy users. Professional video creators generating large volumes of content may find monthly costs significant compared to one-time software purchases. Users should evaluate whether VEED's convenience and AI tools justify ongoing subscription costs versus traditional editing software.
+
+For users evaluating VEED, the platform fits content creators needing accessible video editing without software installation. It fits marketers creating social media content with auto-subtitles and branding. It fits educators creating instructional videos and tutorials. It fits businesses producing marketing videos and presentations. It fits teams collaborating on video projects. Users needing maximum performance, complex visual effects, or offline editing should consider desktop software alongside VEED for comprehensive coverage.
+
+VEED represents the democratization of professional video editing — making powerful editing capabilities accessible through browsers without technical barriers. The platform's combination of traditional editing tools and AI-powered features serves the growing population of content creators, marketers, and educators producing video content regularly. As video content continues dominating online engagement, tools like VEED that simplify video production become increasingly valuable for anyone creating video content.`
+}

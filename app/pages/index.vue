@@ -4,9 +4,9 @@
     
     <HomeCategories />
 
-    <HomeRecentlyAddedTools />
-
     <HomeFeaturedTools />
+
+    <HomeRecentlyAddedTools />
 
     <HomeAlternativesTools />
 

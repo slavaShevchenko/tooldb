@@ -1,0 +1,37 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const windsurfContent: ToolContent = {
+  overview: `Windsurf by Codeium represents the evolution of AI-native IDEs, combining deep code intelligence with agentic AI capabilities through its signature Cascade workflow. Built on Codeium's foundation of unlimited free code completions and semantic search, Windsurf adds an AI agent that can execute multi-step coding tasks across entire codebases — planning changes, editing files, running terminal commands, and debugging errors with developer oversight. This combination positions Windsurf as a comprehensive AI development environment competing directly with Cursor and GitHub Copilot.
+
+Cascade represents Windsurf's signature innovation — an agentic workflow system where AI executes complex coding tasks through multiple steps. Unlike chat-based assistants requiring constant human direction, Cascade plans implementation approaches, creates and modifies files across the project, runs terminal commands, executes tests, and iterates based on results. Developers describe goals in natural language — "Add user authentication with JWT tokens" or "Refactor this component to use React hooks" — and Cascade executes the work autonomously while maintaining developer oversight.
+
+The deep codebase understanding distinguishes Windsurf from superficial AI assistants. The IDE indexes your entire project, understanding file relationships, function signatures, type definitions, import structures, and architectural patterns. When Cascade executes tasks, it references this comprehensive understanding to make coherent changes across multiple files. This codebase awareness produces more accurate modifications than AI tools working with limited context.
+
+The unlimited free completions from Codeium provide constant AI assistance. While using Cascade for complex tasks, developers simultaneously benefit from Tab-style code completions across all languages. This dual-layer AI support means developers receive both proactive suggestions during typing and conversational assistance for complex problems. The free tier provides these completions without credit limits or usage caps.
+
+The semantic code search enables intelligent codebase navigation. Rather than text-based search finding exact matches, semantic search understands meaning and intent. Developers search "authentication middleware" and find relevant code regardless of specific variable names. This capability helps understand large codebases and locate specific functionality efficiently.
+
+Terminal integration allows Cascade to execute development commands. The agent runs npm install, executes tests, starts development servers, runs database migrations, and performs other terminal operations as part of task execution. Each command requires developer approval, maintaining control while enabling automation. This capability handles routine development tasks without manual terminal switching.
+
+File editing capabilities extend across the project. Cascade creates new files with appropriate structure, modifies existing files with surgical precision, and deletes files when necessary. The AI understands diff-style modifications, making targeted changes while preserving surrounding code. This precision prevents accidental damage to working code during complex refactoring.
+
+The debugging assistance helps resolve errors efficiently. When code fails tests or produces errors, Cascade analyzes error messages, examines relevant code, and proposes fixes. The agent can run tests iteratively, refining solutions until they pass. This debugging workflow accelerates problem resolution compared to manual debugging.
+
+The IDE interface balances familiarity with AI-native design. Built on similar foundations to VS Code, Windsurf provides familiar editing experiences while integrating AI capabilities throughout. Developers comfortable with modern IDEs adapt quickly while gaining AI superpowers. The interface displays code, AI conversations, file trees, and terminal in unified workspace.
+
+The pricing structure provides accessible entry points. Free tier offers unlimited completions and basic Cascade usage for individual developers — sufficient for evaluation and light usage. Pro at $15/month unlocks advanced AI models, priority processing, and unlimited Cascade actions for serious development. Teams at $30/user/month adds collaboration features and admin controls for organizations.
+
+The multi-model support provides flexibility. Windsurf integrates various AI models — developers can select optimal models for different tasks. Some models excel at code generation, others at reasoning, others at explanation. This flexibility addresses the reality that no single AI model dominates across all coding tasks.
+
+Privacy and security features address organizational concerns. The platform provides configurable data retention, privacy modes, and enterprise security features. Organizations can control what code transmits to external servers and how AI processes their codebase. These features enable adoption in environments with strict data handling requirements.
+
+Windsurf's limitations center on resource consumption compared to traditional editors. Running AI models, indexing large codebases, and executing agentic workflows requires more memory and CPU than basic editors. Developers on older hardware or working with massive codebases may notice performance differences. This resource usage reflects the computational cost of AI capabilities.
+
+The agentic workflow, while powerful, requires developer oversight. Cascade can make incorrect assumptions or implement solutions not matching requirements. Developers must review Cascade's work rather than blindly accepting changes. The AI accelerates development but doesn't replace human judgment.
+
+The learning curve for effective Cascade usage shouldn't be underestimated. Developers must learn effective prompting, understand Cascade's capabilities and limitations, and develop workflows incorporating AI assistance. The platform's power comes from understanding how to leverage its features effectively.
+
+For users evaluating Windsurf, the platform fits developers wanting comprehensive AI assistance in their IDE. It fits teams wanting agentic coding capabilities. It fits developers already using Codeium wanting deeper AI integration. It fits professionals spending most time writing code. It fits teams wanting free unlimited completions with optional advanced features. Developers preferring chat-based interaction, needing minimal resource usage, or working in highly restricted environments should consider GitHub Copilot, Cursor, or Cline alongside Windsurf.
+
+Windsurf represents the agentic IDE approach — recognizing that AI coding assistance works best when AI can execute complex tasks autonomously while developers maintain oversight. The combination of Codeium's unlimited completions, deep codebase understanding, and Cascade's agentic workflow creates a powerful development environment. As AI capabilities continue advancing rapidly, Windsurf's approach to embedding autonomous AI agents throughout development workflows positions it at the forefront of how software development will evolve.`
+}

@@ -1,7 +1,13 @@
 <template>
   <LayoutSection>
-    <div class="search-wrapper">
-      <div class="search">
+    <div
+      ref="searchRef"
+      class="search-wrapper"
+    >
+      <div
+        class="search"
+        @click="isOpen = true"
+      >
         <BaseIcon
           name="search"
           :size="32"
@@ -19,7 +25,7 @@
       </div>
 
       <div
-        v-if="query.length >= 2"
+        v-if="isOpen && query.length >= 2"
         class="dropdown"
       >
         <template v-if="toolResults.length">
@@ -106,12 +112,14 @@
 </template>
 
 <script setup lang="ts">
-import { computed, watch } from 'vue'
-import { useDebounceFn } from '@vueuse/core'
+import { computed, ref, watch } from 'vue'
+import { onClickOutside, useDebounceFn } from '@vueuse/core'
 
 import { routes } from '~/constants/routes'
 
 const search = ref('')
+const isOpen = ref(false)
+const searchRef = ref<HTMLElement | null>(null)
 
 const { query, results } = useToolSearch()
 
@@ -127,7 +135,14 @@ const debouncedSearch = useDebounceFn((value: string) => {
   query.value = value
 }, 300)
 
-watch(search, debouncedSearch)
+watch(search, (value) => {
+  isOpen.value = value.trim().length > 0
+  debouncedSearch(value)
+})
+
+onClickOutside(searchRef, () => {
+  isOpen.value = false
+})
 </script>
 
 <style scoped lang="scss">
@@ -153,7 +168,9 @@ watch(search, debouncedSearch)
   top: calc(100% + var(--space-0-5));
   left: 0;
   right: 0;
-  overflow: hidden;
+  max-height: min(24rem, 60vh);
+  overflow: hidden auto;
+  overscroll-behavior: contain;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);

@@ -1,0 +1,35 @@
+import type { ToolContent } from '~/types/toolContent'
+
+export const runwayContent: ToolContent = {
+  overview: `Runway has established itself as the premier creative AI platform for video generation, image editing, and multimedia tools, serving filmmakers, designers, agencies, and creative professionals worldwide. The company's continuous innovation in AI models — from Gen-1 through Gen-3 Alpha — has pushed the boundaries of what's possible with AI-powered creative tools. Runway's comprehensive approach combines video generation, image generation, video editing, and specialized creative tools in a unified platform used for professional production work.
+
+Gen-3 Alpha represents Runway's flagship video generation capability, producing photorealistic video with exceptional motion quality, realistic physics, and cinematic aesthetics. The model generates videos from text prompts describing scenes, actions, camera movements, and styles. Output quality features smooth motion, coherent lighting, realistic materials, and professional camera work that makes generated video suitable for production applications beyond experimentation. Gen-3 Alpha has become the benchmark against which other AI video generators are measured.
+
+The comprehensive tool suite distinguishes Runway from pure generation platforms. Beyond video and image generation, Runway provides 30+ AI Magic Tools including green screen removal, motion tracking, object removal, inpainting, frame interpolation, and more. These tools address real production workflows — removing backgrounds, tracking motion for visual effects, cleaning up footage, extending clips, and performing tasks that previously required expensive specialized software or manual labor.
+
+Professional adoption validates Runway's production quality. Filmmakers use Gen-3 Alpha for concept visualization, pre-visualization, and even final footage in some applications. Agencies use Runway tools for client work and creative production. Designers incorporate AI generation into design workflows. Educators use Runway for teaching creative AI applications. This professional adoption demonstrates that Runway outputs meet production standards rather than just experimental quality.
+
+Image generation capabilities complement video tools. Users create and edit images using AI with tools for text-to-image generation, inpainting (adding or removing content), outpainting (extending image boundaries), upscaling, and style transfer. These image tools serve designers, photographers, and visual artists needing AI assistance for image creation and editing workflows.
+
+Video editing tools transform Runway into a post-production platform. Green screen removal automatically removes backgrounds without manual keying. Motion tracking follows objects through video for visual effects work. Object removal eliminates unwanted elements from footage. Frame interpolation creates smooth slow motion. These tools streamline video editing workflows that previously required complex manual work.
+
+The continuous innovation pace keeps Runway at the forefront of creative AI. The company regularly releases new models, tools, and capabilities pushing the boundaries of what's possible. Gen-1 introduced video-to-video transformation. Gen-2 enabled text-to-video generation. Gen-3 Alpha dramatically improved photorealistic quality. This rapid innovation creates expectation that Runway will continue leading creative AI development.
+
+The credit-based pricing model reflects computational costs while providing flexibility. Each generation or tool usage consumes credits based on complexity, duration, and resolution. The free tier provides limited credits with basic features — enough for exploration and small projects. Standard at $15/user/month offers 625 monthly credits for regular creators. Pro at $35/user/month provides 2,250 monthly credits for professionals using Runway extensively. Unlimited at $95/user/month removes credit limits for heavy users and production work. Annual plans offer discounts.
+
+Commercial usage rights accompany paid subscriptions, allowing users to monetize generated content through client work, commercial projects, or product sales. Free tier usage carries personal use restrictions. This clarity helps professionals understand licensing requirements without legal uncertainty.
+
+The platform's API access enables integration into production workflows and custom tools. Studios can integrate Runway generation into their pipelines, design tools, or production systems. This automation potential transforms AI generation from manual creative work into systematic production capability for organizations using Runway at scale.
+
+Generation speed for video takes longer than image generation due to computational complexity. Most video generations require several minutes depending on duration, resolution, and server load. Users must plan for this latency rather than expecting instant results. Image generation completes faster, typically in 10-30 seconds depending on complexity.
+
+Video duration capabilities have expanded across Runway versions. Gen-3 Alpha generates videos up to 10 seconds with consistent quality. While shorter than some competitors, the quality and editing tools often matter more than raw duration for creative projects. Users frequently combine multiple generations with editing tools to create longer sequences.
+
+Runway's limitations center on cost at scale and learning curve. The credit-based system can become expensive for heavy users generating large volumes of content. Production studios must carefully manage credit usage or invest in Unlimited plans. The platform's many features and tools require time to learn and master effectively. New users face a learning curve before fully leveraging Runway's capabilities.
+
+The creative control balance distinguishes Runway from pure automation tools. While providing AI-powered generation and editing, Runway maintains human creative control throughout workflows. Users direct the AI rather than accepting whatever it produces. This approach serves creative professionals wanting AI assistance while maintaining artistic vision and editorial control.
+
+For users evaluating Runway, the platform fits filmmakers and video professionals needing AI-powered production tools. It fits designers wanting comprehensive creative AI capabilities. It fits agencies using AI for client work and creative production. It fits educators teaching creative AI applications. Users needing simple, focused tools or maximum cost efficiency should consider specialized alternatives alongside Runway for specific use cases.
+
+Runway represents the professional creative AI platform — combining cutting-edge AI models with comprehensive creative tools for production workflows. The company's continuous innovation, professional adoption, and comprehensive approach position it as essential infrastructure for creative professionals embracing AI. As AI capabilities continue advancing rapidly, Runway's commitment to pushing creative boundaries while serving professional workflows makes it a leader in the creative AI revolution.`
+}
