@@ -501,6 +501,54 @@ import { personioContent } from './personio'
 import { ukgProContent } from './ukgpro'
 import { workableContent } from './workable'
 import { zenefitsContent } from './zenefits'
+import { codesandboxContent } from './codesandbox'
+import { stackblitzContent } from './stackblitz'
+import { aiderContent } from './aider'
+import { continueContent } from './continue'
+import { supabaseContent } from './supabase'
+import { firebaseContent } from './firebase'
+import { vercelContent } from './vercel'
+import { herokuContent } from './heroku'
+import { haiperContent } from './haiper'
+import { stableaudioContent } from './stableaudio'
+import { playhtContent } from './playht'
+import { resembleaiContent } from './resembleai'
+import { wellsaidlabsContent } from './wellsaidlabs'
+import { vizardContent } from './vizard'
+import { munchContent } from './munch'
+import { pirschContent } from './pirsch'
+import { luckyorangeContent } from './luckyorange'
+import { lemonsqueezyContent } from './lemonsqueezy'
+import { printfulContent } from './printful'
+import { gelatoContent } from './gelato'
+import { easyshipContent } from './easyship'
+import { cartflowsContent } from './cartflows'
+import { framerContent } from './framer'
+import { readymagContent } from './readymag'
+import { clockifyContent } from './clockify'
+import { skedpalContent } from './skedpal'
+import { logseqContent } from './logseq'
+import { roamresearchContent } from './roamresearch'
+import { calendlyContent } from './calendly'
+import { savvycalContent } from './savvycal'
+import { codilityContent } from './codility'
+import { hackerrankContent } from './hackerrank'
+import { multiplierContent } from './multiplier'
+import { smartleadContent } from './smartlead'
+import { mailshakeContent } from './mailshake'
+import { folkContent } from './folk'
+import { attioContent } from './attio'
+import { outreachContent } from './outreach'
+import { salesloftContent } from './salesloft'
+import { crispContent } from './crisp'
+import { tawktoContent } from './tawkto'
+import { liveagentContent } from './liveagent'
+import { cannyContent } from './canny'
+import { featurebaseContent } from './featurebase'
+import { noltContent } from './nolt'
+import { frontContent } from './front'
+import { missiveContent } from './missive'
+import { hiverContent } from './hiver'
 
 export const getToolContent = (slug: string) => {
   return toolContent[slug as keyof typeof toolContent]
@@ -1010,4 +1058,52 @@ export const toolContent = {
   ukgpro: ukgProContent,
   workable: workableContent,
   zenefits: zenefitsContent,
+  codesandbox: codesandboxContent,
+  stackblitz: stackblitzContent,
+  aider: aiderContent,
+  continue: continueContent,
+  supabase: supabaseContent,
+  firebase: firebaseContent,
+  vercel: vercelContent,
+  heroku: herokuContent,
+  haiper: haiperContent,
+  stableaudio: stableaudioContent,
+  playht: playhtContent,
+  resembleai: resembleaiContent,
+  wellsaidlabs: wellsaidlabsContent,
+  vizard: vizardContent,
+  munch: munchContent,
+  pirsch: pirschContent,
+  luckyorange: luckyorangeContent,
+  lemonsqueezy: lemonsqueezyContent,
+  printful: printfulContent,
+  gelato: gelatoContent,
+  easyship: easyshipContent,
+  cartflows: cartflowsContent,
+  framer: framerContent,
+  readymag: readymagContent,
+  clockify: clockifyContent,
+  skedpal: skedpalContent,
+  logseq: logseqContent,
+  roamresearch: roamresearchContent,
+  calendly: calendlyContent,
+  savvycal: savvycalContent,
+  codility: codilityContent,
+  hackerrank: hackerrankContent,
+  multiplier: multiplierContent,
+  smartlead: smartleadContent,
+  mailshake: mailshakeContent,
+  folk: folkContent,
+  attio: attioContent,
+  outreach: outreachContent,
+  salesloft: salesloftContent,
+  crisp: crispContent,
+  tawkto: tawktoContent,
+  liveagent: liveagentContent,
+  canny: cannyContent,
+  featurebase: featurebaseContent,
+  nolt: noltContent,
+  front: frontContent,
+  missive: missiveContent,
+  hiver: hiverContent,
 } as const

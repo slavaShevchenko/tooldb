@@ -28884,5 +28884,2592 @@ export const tools: Tool[] = [
         icon: 'banknote'
       }
     ]
+  },
+  {
+    id: '495',
+    slug: 'codesandbox',
+    name: 'CodeSandbox',
+    tagline: 'Cloud development environments for fast full-stack work',
+    description: 'CodeSandbox is a browser-based development platform that boots complete cloud environments from a Git repository or a template in seconds. Developers write, run, preview and share full-stack code without provisioning servers or installing toolchains locally, with real-time collaboration, branch previews and snapshots built in.',
+    overview: '',
+    pricingDescription: 'Free Hobby plan with limits on concurrent sandboxes and private repositories. Paid Pro and Teams plans are billed per user per month and add more compute, private environments, additional collaborators and team administration. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/codesandbox.webp',
+    website: 'https://codesandbox.io',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'online-ide',
+      'cloud-development',
+      'sandboxes',
+      'prototyping',
+      'collaboration',
+      'git-integration'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'instant-boot', text: 'Boots a full dev environment from a Git repo in seconds' },
+      { id: 'microvms', text: 'Firecracker microVMs give each sandbox an isolated machine' },
+      { id: 'branch-previews', text: 'Live preview URL for every branch and commit' },
+      { id: 'multiplayer', text: 'Real-time editing with shared terminals and cursors' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Cloud Environments',
+        description: 'Run containers and dev servers in the browser with no local setup.',
+        icon: 'cloud'
+      },
+      {
+        id: '2',
+        title: 'Git Workflow',
+        description: 'Import repositories, commit, branch and open pull requests from the editor.',
+        icon: 'git-branch'
+      },
+      {
+        id: '3',
+        title: 'Live Collaboration',
+        description: 'Edit together in real time with shared terminals, cursors and preview links.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '496',
+    slug: 'stackblitz',
+    name: 'StackBlitz',
+    tagline: 'Instant full-stack environments powered by WebContainers',
+    description: 'StackBlitz is an online development environment that runs Node.js entirely inside the browser through its WebContainers technology. Projects boot in about a second, need no server provisioning, and work offline, which makes it a common choice for documentation examples, reproductions, teaching and rapid prototyping of full-stack JavaScript applications.',
+    overview: '',
+    pricingDescription: 'Free tier for public projects with generous limits. Paid plans are billed per user per month and add private repositories, higher resource limits, always-on deployments and team features. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/stackblitz.webp',
+    website: 'https://stackblitz.com',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'online-ide',
+      'webcontainers',
+      'nodejs',
+      'prototyping',
+      'frontend',
+      'developer-tools'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'webcontainers', text: 'Runs Node.js natively in the browser, not on a remote server' },
+      { id: 'instant-boot', text: 'Full-stack projects start in roughly one second' },
+      { id: 'secure-by-default', text: 'No network access unless the project explicitly opens it' },
+      { id: 'works-offline', text: 'Keeps running when the connection drops' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'WebContainers Runtime',
+        description: 'Execute Node.js, npm and dev servers client-side with millisecond startup.',
+        icon: 'cpu'
+      },
+      {
+        id: '2',
+        title: 'Framework Starters',
+        description: 'Launch preconfigured projects for React, Vue, Angular, Svelte, Next.js and Astro.',
+        icon: 'code'
+      },
+      {
+        id: '3',
+        title: 'Sharing and Embeds',
+        description: 'Publish reproducible bug reports and embed runnable code in documentation.',
+        icon: 'share-2'
+      }
+    ]
+  },
+  {
+    id: '497',
+    slug: 'aider',
+    name: 'Aider',
+    tagline: 'Open-source AI pair programming in your terminal',
+    description: 'Aider is a command-line AI pair programming tool that edits code directly in your local repository. It builds a map of the whole repo so the model understands project structure, applies multi-file changes, and commits each edit to Git automatically. It works with the model provider and API key you already have rather than locking you into a subscription.',
+    overview: '',
+    pricingDescription: 'The Aider software itself is free and open source under a permissive licence. You pay your own model provider for API usage, so real cost depends on the model and token volume. Aider also supports locally hosted open-weight models at no API cost.',
+    logo: '/images/tool-logo/aider.webp',
+    website: 'https://aider.chat',
+    affiliateUrl: null,
+    categories: ['ai', 'web-development'],
+    tags: [
+      'ai-coding',
+      'cli',
+      'pair-programming',
+      'open-source',
+      'git',
+      'llm'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'open-source', text: 'Free CLI tool with the source published' },
+      { id: 'repo-map', text: 'Compresses the whole repository into model context' },
+      { id: 'auto-commits', text: 'Creates a Git commit with a sensible message for every edit' },
+      { id: 'model-agnostic', text: 'Works with hosted APIs and locally served open models' }
+    ],
+    platforms: ['mac', 'windows', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Terminal Pair Programming',
+        description: 'Chat with the model and watch it edit files directly in your working tree.',
+        icon: 'terminal'
+      },
+      {
+        id: '2',
+        title: 'Git Integration',
+        description: 'Commits changes automatically and cooperates with your existing branch workflow.',
+        icon: 'git-branch'
+      },
+      {
+        id: '3',
+        title: 'Repository Awareness',
+        description: 'Uses a ranked repo map so large codebases fit inside the context window.',
+        icon: 'map'
+      }
+    ]
+  },
+  {
+    id: '498',
+    slug: 'continue',
+    name: 'Continue',
+    tagline: 'Open-source AI code assistant for VS Code and JetBrains',
+    description: 'Continue is an open-source extension that brings AI autocomplete, chat and custom agents into VS Code and JetBrains IDEs. It lets teams plug in any model, including self-hosted ones, and define their own rules, context providers and agents through configuration files that live in the repository.',
+    overview: '',
+    pricingDescription: 'The extension is free and open source. Costs come from the model provider you connect, whether a hosted API or a self-hosted endpoint. A companion hub and hosted team offering add paid tiers for shared agents and managed models. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/continue.webp',
+    website: 'https://continue.dev',
+    affiliateUrl: null,
+    categories: ['ai', 'web-development', 'productivity'],
+    tags: [
+      'ai-coding',
+      'code-assistant',
+      'open-source',
+      'vscode',
+      'jetbrains',
+      'autocomplete',
+      'custom-agents'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'model-agnostic', text: 'Connect any model, including local and self-hosted endpoints' },
+      { id: 'repo-context', text: 'Pulls files, folders and symbols into the prompt with @ mentions' },
+      { id: 'custom-agents', text: 'Define agents and rules as config files committed to the repo' },
+      { id: 'ide-native', text: 'Runs inside VS Code and JetBrains without leaving the editor' }
+    ],
+    platforms: ['mac', 'windows', 'linux'],
+    features: [
+      {
+        id: '1',
+        title: 'Autocomplete',
+        description: 'Inline suggestions across multiple files as you type.',
+        icon: 'text-cursor-input'
+      },
+      {
+        id: '2',
+        title: 'Context-Aware Chat',
+        description: 'Ask questions about the codebase with files, docs and terminal output attached.',
+        icon: 'message-square'
+      },
+      {
+        id: '3',
+        title: 'Agents and Rules',
+        description: 'Build repeatable agents and coding standards shared across the team.',
+        icon: 'bot'
+      }
+    ]
+  },
+  {
+    id: '499',
+    slug: 'supabase',
+    name: 'Supabase',
+    tagline: 'Open-source Firebase alternative built on Postgres',
+    description: 'Supabase is a backend platform built around a real Postgres database rather than a proprietary datastore. It bundles authentication, object storage, realtime subscriptions, edge functions and vector search with auto-generated APIs, and the whole stack is open source so it can be self-hosted.',
+    overview: '',
+    pricingDescription: 'Free plan with two projects, limited database size, storage and monthly active users. Pro plan is a fixed monthly base fee plus usage for compute, storage, egress and additional features. Team and Enterprise plans add controls, higher limits and support. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/supabase.webp',
+    website: 'https://supabase.com',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'backend-as-a-service',
+      'postgres',
+      'authentication',
+      'storage',
+      'realtime',
+      'open-source',
+      'edge-functions'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'real-postgres', text: 'A full Postgres database, not a NoSQL abstraction' },
+      { id: 'self-hostable', text: 'Entire stack is open source and runs on your own infrastructure' },
+      { id: 'row-level-security', text: 'Authorisation rules live in the database itself' },
+      { id: 'vector-support', text: 'pgvector for embeddings and semantic search out of the box' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Database and APIs',
+        description: 'Manage tables in a studio and query them through auto-generated REST and GraphQL APIs.',
+        icon: 'database'
+      },
+      {
+        id: '2',
+        title: 'Auth and Storage',
+        description: 'Handle email, magic link and OAuth sign-in plus object storage with policy control.',
+        icon: 'shield-check'
+      },
+      {
+        id: '3',
+        title: 'Realtime and Functions',
+        description: 'Subscribe to database changes and run serverless TypeScript at the edge.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '500',
+    slug: 'firebase',
+    name: 'Firebase',
+    tagline: 'Google app platform with database, auth and hosting',
+    description: 'Firebase is the Google app development platform covering realtime data storage, authentication, cloud functions, hosting, storage, push messaging and crash reporting. It is aimed at mobile and web teams that want managed infrastructure with client SDKs and no backend to operate.',
+    overview: '',
+    pricingDescription: 'Spark plan is free with daily limits on reads, writes and function invocations. Blaze plan is pay-as-you-go per operation, gigabyte and invocation, with monthly free allowances. Larger workloads on Blaze scale with usage, so costs need monitoring. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/firebase.webp',
+    website: 'https://firebase.google.com',
+    affiliateUrl: null,
+    categories: ['web-development', 'analytics'],
+    tags: [
+      'backend-as-a-service',
+      'mobile',
+      'authentication',
+      'hosting',
+      'analytics',
+      'google',
+      'realtime'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'google-backed', text: 'Runs on Google Cloud infrastructure with first-party SDKs' },
+      { id: 'free-tier', text: 'Spark plan covers prototypes and small apps at no cost' },
+      { id: 'crashlytics', text: 'Crash reporting and performance monitoring included' },
+      { id: 'mobile-depth', text: 'Mature SDKs for iOS, Android, Flutter and the web' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Firestore and Realtime Database',
+        description: 'Store and sync document data across clients with offline persistence.',
+        icon: 'database'
+      },
+      {
+        id: '2',
+        title: 'Authentication',
+        description: 'Sign users in with email, phone, passkeys and dozens of identity providers.',
+        icon: 'key-round'
+      },
+      {
+        id: '3',
+        title: 'Hosting and Functions',
+        description: 'Deploy static sites and serverless backend logic on Google infrastructure.',
+        icon: 'server'
+      }
+    ]
+  },
+  {
+    id: '501',
+    slug: 'vercel',
+    name: 'Vercel',
+    tagline: 'Frontend cloud for deploying and scaling web apps',
+    description: 'Vercel is a deployment platform for frontend and full-stack JavaScript applications, and the company behind Next.js. It builds from a Git push, serves through a global edge network, and creates a preview URL for every branch, with serverless functions, image optimisation and analytics included.',
+    overview: '',
+    pricingDescription: 'Hobby plan is free for non-commercial use with usage limits. Pro plan is billed per seat per month plus usage for bandwidth, function invocations and image optimisation. Enterprise adds custom limits, security reviews and support. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/vercel.webp',
+    website: 'https://vercel.com',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'hosting',
+      'deployment',
+      'nextjs',
+      'edge-network',
+      'serverless',
+      'frontend',
+      'preview-environments'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'preview-deploys', text: 'Every pull request gets its own live URL' },
+      { id: 'nextjs-creators', text: 'Built and maintained by the team behind Next.js' },
+      { id: 'edge-network', text: 'Global CDN with edge functions close to users' },
+      { id: 'zero-config', text: 'Detects the framework and build settings automatically' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Git-Based Deploys',
+        description: 'Connect a repository and ship on every push with instant rollbacks.',
+        icon: 'git-branch'
+      },
+      {
+        id: '2',
+        title: 'Edge Network and CDN',
+        description: 'Serve cached static and dynamic content from points of presence worldwide.',
+        icon: 'globe'
+      },
+      {
+        id: '3',
+        title: 'Serverless and AI',
+        description: 'Run functions, streaming responses and AI SDK workloads without managing servers.',
+        icon: 'server'
+      }
+    ]
+  },
+  {
+    id: '502',
+    slug: 'heroku',
+    name: 'Heroku',
+    tagline: 'Container platform for building and running apps',
+    description: 'Heroku is a platform-as-a-service that runs applications in managed containers called dynos. Teams deploy with a Git push or from CI, attach managed data services from an add-on marketplace, and let the platform handle operating systems, patching and scaling.',
+    overview: '',
+    pricingDescription: 'No free tier since November 2022. Eco and Basic plans suit small apps at a low fixed monthly cost, while Professional plans charge per dyno type and hour with additional fees for private spaces, managed Postgres tiers and add-ons. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/heroku.webp',
+    website: 'https://www.heroku.com',
+    affiliateUrl: null,
+    categories: ['web-development'],
+    tags: [
+      'paas',
+      'hosting',
+      'deployment',
+      'dynos',
+      'addons',
+      'postgres',
+      'salesforce'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'git-push-deploy', text: 'Ship with a single command and no infrastructure config' },
+      { id: 'no-free-tier', text: 'Free and hobby plans were retired in November 2022' },
+      { id: 'addon-marketplace', text: 'Hundreds of managed data and monitoring add-ons' },
+      { id: 'buildpacks', text: 'Language support through buildpacks for Node, Python, Ruby, Go and Java' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Dynos and Buildpacks',
+        description: 'Run processes in managed containers with language support chosen by buildpack.',
+        icon: 'container'
+      },
+      {
+        id: '2',
+        title: 'Managed Data Services',
+        description: 'Provision Heroku Postgres, Kafka and Redis without operating them yourself.',
+        icon: 'database'
+      },
+      {
+        id: '3',
+        title: 'Release Pipelines',
+        description: 'Promote code through review, staging and production with review apps per pull request.',
+        icon: 'workflow'
+      }
+    ]
+  },
+  {
+    id: '503',
+    slug: 'haiper',
+    name: 'Haiper',
+    tagline: 'Generative AI video creation and editing',
+    description: 'Haiper is a generative video platform that creates short clips from text prompts or still images and offers editing tools such as repaint, keyframe control and upscaling. It is used by marketers and creators who need quick video assets without a shoot or a motion graphics team.',
+    overview: '',
+    pricingDescription: 'Free tier with a limited number of daily or monthly credits and watermarked output at lower resolution. Paid plans are subscription tiers that raise credit allowances, remove watermarks, enable longer clips and higher resolution, and add commercial usage rights. Current figures and the product direction are published on the vendor site.',
+    logo: '/images/tool-logo/haiper.webp',
+    website: 'https://haiper.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'media'],
+    tags: [
+      'ai-video',
+      'text-to-video',
+      'generative-video',
+      'video-editing',
+      'creative-tools',
+      'image-to-video'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'text-to-video', text: 'Generates short clips from a written prompt' },
+      { id: 'image-to-video', text: 'Animates a still image with camera and motion control' },
+      { id: 'credit-based', text: 'Free allowance to test output before paying' },
+      { id: 'api-access', text: 'Programmatic generation for product teams' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Prompt to Video',
+        description: 'Describe a scene and generate a short clip with selectable duration and style.',
+        icon: 'film'
+      },
+      {
+        id: '2',
+        title: 'Image Animation',
+        description: 'Turn a static image into motion with keyframes and camera direction.',
+        icon: 'image'
+      },
+      {
+        id: '3',
+        title: 'Video Editing Tools',
+        description: 'Repaint regions, upscale resolution and refine generated footage.',
+        icon: 'scissors'
+      }
+    ]
+  },
+  {
+    id: '504',
+    slug: 'stableaudio',
+    name: 'Stable Audio',
+    tagline: 'AI music and sound effect generation from Stability AI',
+    description: 'Stable Audio is the generative audio tool from Stability AI for creating music tracks and sound effects from text prompts. It produces stereo audio up to several minutes long and is trained on licensed audio data, which gives the output a clearer commercial usage position than models trained on scraped material.',
+    overview: '',
+    pricingDescription: 'Free plan with a monthly credit allowance for non-commercial generation. Paid plans are monthly subscriptions that increase credits, extend maximum track length, improve generation speed and grant commercial usage rights on the paid tiers. API usage is billed separately. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/stableaudio.webp',
+    website: 'https://stableaudio.com',
+    affiliateUrl: null,
+    categories: ['ai', 'media'],
+    tags: [
+      'ai-music',
+      'text-to-audio',
+      'sound-effects',
+      'generative-audio',
+      'music-production',
+      'licensing'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'licensed-training-data', text: 'Trained on licensed audio, easing commercial use' },
+      { id: 'long-form-output', text: 'Generates stereo tracks up to several minutes on paid tiers' },
+      { id: 'prompt-control', text: 'Specify tempo, instruments, mood and structure in the prompt' },
+      { id: 'api', text: 'Audio generation available through an API for products' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Text to Music',
+        description: 'Generate instrumental tracks from a written description of genre, mood and tempo.',
+        icon: 'music'
+      },
+      {
+        id: '2',
+        title: 'Sound Effects',
+        description: 'Create short effects and textures for games, video and interfaces.',
+        icon: 'audio-lines'
+      },
+      {
+        id: '3',
+        title: 'Audio to Audio',
+        description: 'Transform an uploaded recording with a prompt to change style or instrumentation.',
+        icon: 'wand-sparkles'
+      }
+    ]
+  },
+  {
+    id: '505',
+    slug: 'playht',
+    name: 'PlayHT',
+    tagline: 'AI voice generator with cloning and speech API',
+    description: 'PlayHT is a text-to-speech platform offering a large library of synthetic voices across many languages, plus instant and professional voice cloning. It serves creators producing audiobooks, podcasts, video narration and IVR audio, and exposes the same models through an API and plugins.',
+    overview: '',
+    pricingDescription: 'Free plan with a limited word or character allowance for non-commercial use. Paid plans are monthly subscriptions that raise the word allowance, unlock higher-quality models, voice cloning, commercial rights and API access, with higher tiers for larger volumes. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/playht.webp',
+    website: 'https://play.ht',
+    affiliateUrl: null,
+    categories: ['ai', 'media'],
+    tags: [
+      'text-to-speech',
+      'ai-voice',
+      'voice-cloning',
+      'voiceover',
+      'podcasting',
+      'api',
+      'audiobooks'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'voice-library', text: 'Hundreds of voices across many languages and accents' },
+      { id: 'voice-cloning', text: 'Instant cloning from a short sample and higher-fidelity professional cloning' },
+      { id: 'low-latency-models', text: 'Turbo and mini models built for conversational and real-time use' },
+      { id: 'api-and-plugins', text: 'REST API plus integrations for common authoring tools' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Text to Speech Studio',
+        description: 'Convert scripts to audio with pronunciation, pacing and emotion controls.',
+        icon: 'mic'
+      },
+      {
+        id: '2',
+        title: 'Voice Cloning',
+        description: 'Create a reusable synthetic voice from a short recording of a speaker.',
+        icon: 'copy'
+      },
+      {
+        id: '3',
+        title: 'Speech API',
+        description: 'Generate audio programmatically for apps, agents and media pipelines.',
+        icon: 'plug'
+      }
+    ]
+  },
+  {
+    id: '506',
+    slug: 'resembleai',
+    name: 'Resemble AI',
+    tagline: 'Generative voice platform with cloning and detection',
+    description: 'Resemble AI builds synthetic speech for products, offering voice cloning, real-time speech-to-speech conversion, multilingual localisation and a developer API. It also works on the defensive side with audio watermarking and deepfake detection, which matters for enterprises deploying voice AI in customer-facing channels.',
+    overview: '',
+    pricingDescription: 'Free tier with a small credit allowance for evaluation. Paid plans are monthly subscriptions that increase generation minutes, unlock cloning, real-time APIs and commercial rights, with enterprise agreements for higher volumes, dedicated infrastructure and compliance needs. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/resembleai.webp',
+    website: 'https://www.resemble.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'media', 'security'],
+    tags: [
+      'voice-cloning',
+      'text-to-speech',
+      'generative-voice',
+      'deepfake-detection',
+      'api',
+      'localization',
+      'enterprise'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'real-time-speech', text: 'Speech-to-speech conversion with latency suited to live agents' },
+      { id: 'perth-watermarking', text: 'Embeds and detects synthetic audio to counter deepfakes' },
+      { id: 'multilingual', text: 'Clone a voice and localise it across many languages' },
+      { id: 'enterprise-focus', text: 'Controls, consent workflows and compliance for production deployments' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Voice Cloning',
+        description: 'Build a custom neural voice from recorded samples with speaker consent.',
+        icon: 'mic'
+      },
+      {
+        id: '2',
+        title: 'Real-Time Synthesis',
+        description: 'Stream generated speech for agents, games and interactive media.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'Deepfake Detection',
+        description: 'Score audio for synthetic manipulation and watermark generated output.',
+        icon: 'shield-alert'
+      }
+    ]
+  },
+  {
+    id: '507',
+    slug: 'wellsaidlabs',
+    name: 'WellSaid Labs',
+    tagline: 'Enterprise AI voice studio with ethically sourced narrators',
+    description: 'WellSaid Labs is a text-to-speech studio built for corporate and enterprise audio production. Its voice avatars are created from professional narrators who consent to and are compensated for AI use, which gives legal and brand teams a clearer position than voices of unknown origin. Output is aimed at e-learning, corporate video, product narration and internal communications.',
+    overview: '',
+    pricingDescription: 'Paid subscription plans billed per user per month or per year, with tiers differentiated by monthly download or render limits, number of voice avatars available, pronunciation tooling, API access and team features. A short free trial is offered. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/wellsaidlabs.webp',
+    website: 'https://wellsaidlabs.com',
+    affiliateUrl: null,
+    categories: ['ai', 'media', 'education'],
+    tags: [
+      'text-to-speech',
+      'ai-voice',
+      'voice-avatars',
+      'enterprise',
+      'elearning',
+      'narration',
+      'ethical-ai'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'ethical-sourcing', text: 'Narrators consent to and are paid for AI voice use' },
+      { id: 'studio-quality', text: 'Voices recorded and tuned for professional narration' },
+      { id: 'team-workflow', text: 'Shared projects, roles and review for production teams' },
+      { id: 'api', text: 'Programmatic generation for product and LMS pipelines' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Voice Avatar Library',
+        description: 'Choose from professional narrators with distinct styles and accents.',
+        icon: 'mic'
+      },
+      {
+        id: '2',
+        title: 'Production Studio',
+        description: 'Edit scripts, control pacing and pronunciation, and render audio in the browser.',
+        icon: 'sliders-vertical'
+      },
+      {
+        id: '3',
+        title: 'Team and API Access',
+        description: 'Share projects across a team or generate audio programmatically.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '508',
+    slug: 'vizard',
+    name: 'Vizard',
+    tagline: 'Turn long videos into short social clips with AI',
+    description: 'Vizard is an AI video repurposing tool that takes long-form recordings such as webinars, podcasts, Zoom calls and interviews and cuts them into vertical clips for TikTok, YouTube Shorts, Instagram Reels and LinkedIn. It handles transcription, clip selection, reframing, captions and subtitles automatically.',
+    overview: '',
+    pricingDescription: 'Free plan with a limited number of monthly upload minutes and watermarked exports. Paid plans are monthly or annual subscriptions that raise upload minutes, remove watermarks, extend export length and resolution, and add brand kits and team seats. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/vizard.webp',
+    website: 'https://vizard.ai',
+    affiliateUrl: null,
+    categories: ['ai', 'media', 'marketing'],
+    tags: [
+      'ai-video',
+      'video-clipping',
+      'shorts',
+      'captions',
+      'repurposing',
+      'social-media',
+      'podcast'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'auto-clipping', text: 'Finds the strongest moments in a long recording automatically' },
+      { id: 'ai-reframing', text: 'Reframes 16:9 footage to vertical with speaker tracking' },
+      { id: 'captions', text: 'Generates animated subtitles in multiple languages' },
+      { id: 'url-import', text: 'Pulls source video from Zoom, Drive, YouTube and recording links' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'AI Clip Selection',
+        description: 'Analyses the transcript and proposes shareable segments with virality scores.',
+        icon: 'scissors'
+      },
+      {
+        id: '2',
+        title: 'Reframe and Captions',
+        description: 'Convert to vertical or square formats and add styled auto captions.',
+        icon: 'type'
+      },
+      {
+        id: '3',
+        title: 'Publishing',
+        description: 'Schedule and post clips to social channels or export for an editor.',
+        icon: 'share-2'
+      }
+    ]
+  },
+  {
+    id: '509',
+    slug: 'munch',
+    name: 'Munch',
+    tagline: 'AI video repurposing driven by trend and engagement data',
+    description: 'Munch extracts short clips from long-form video and scores them against current social trends and engagement patterns. It is aimed at marketing teams and agencies that need a steady output of platform-native clips from webinars, interviews, podcasts and brand footage without manual editing.',
+    overview: '',
+    pricingDescription: 'Paid subscription plans billed monthly or annually, differentiated by the number of upload hours or processed minutes per month, export resolution, watermark removal, number of seats and access to trend analytics. A free trial is available rather than a permanent free plan. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/munch.webp',
+    website: 'https://www.getmunch.com',
+    affiliateUrl: null,
+    categories: ['ai', 'media', 'marketing'],
+    tags: [
+      'ai-video',
+      'video-repurposing',
+      'shorts',
+      'social-media',
+      'captions',
+      'trend-analysis',
+      'marketing'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'trend-scoring', text: 'Ranks clips against live social trends and engagement signals' },
+      { id: 'multi-format-export', text: 'Outputs vertical, square and landscape versions from one source' },
+      { id: 'auto-captions', text: 'Adds subtitles and generated social copy for each clip' },
+      { id: 'team-output', text: 'Built for agencies producing volume across brands' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'AI Highlight Extraction',
+        description: 'Scans long footage and pulls out the moments most likely to perform.',
+        icon: 'sparkles'
+      },
+      {
+        id: '2',
+        title: 'Trend Analytics',
+        description: 'Compare clip performance against current topics on each platform.',
+        icon: 'trending-up'
+      },
+      {
+        id: '3',
+        title: 'Format and Captions',
+        description: 'Resize, caption and add posting copy ready for social channels.',
+        icon: 'monitor'
+      }
+    ]
+  },
+  {
+    id: '510',
+    slug: 'pirsch',
+    name: 'Pirsch',
+    tagline: 'Cookieless, privacy-first web analytics',
+    description: 'Pirsch is a lightweight web analytics platform that tracks visits without cookies or local storage, so it works without a consent banner in most jurisdictions. It offers real-time dashboards, funnels, custom events and an API, and the tracking script is small enough to avoid affecting page weight.',
+    overview: '',
+    pricingDescription: 'Paid subscription plans priced by monthly pageviews and number of sites, with a free trial period. Higher tiers raise the pageview limit, unlock funnels, custom events, longer data retention, team access and API usage. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/pirsch.webp',
+    website: 'https://pirsch.io',
+    affiliateUrl: null,
+    categories: ['analytics'],
+    tags: [
+      'web-analytics',
+      'privacy',
+      'cookieless',
+      'gdpr',
+      'dashboards',
+      'funnels',
+      'api'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'no-cookies', text: 'Tracking without cookies or local storage' },
+      { id: 'gdpr', text: 'EU-hosted with no personal data persisted by default' },
+      { id: 'lightweight', text: 'Tracking script adds roughly a kilobyte to the page' },
+      { id: 'server-side', text: 'Track from the backend instead of the browser if preferred' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Traffic Dashboards',
+        description: 'See visitors, sources, pages, devices and locations in real time.',
+        icon: 'layout-dashboard'
+      },
+      {
+        id: '2',
+        title: 'Funnels and Events',
+        description: 'Measure conversion steps and track custom events without extra code overhead.',
+        icon: 'chart-line'
+      },
+      {
+        id: '3',
+        title: 'API and Integrations',
+        description: 'Query analytics data programmatically and push it to other tools.',
+        icon: 'plug'
+      }
+    ]
+  },
+  {
+    id: '511',
+    slug: 'luckyorange',
+    name: 'Lucky Orange',
+    tagline: 'Heatmaps, session recordings and conversion tools',
+    description: 'Lucky Orange is a conversion optimisation suite that records how visitors actually use a site. It combines dynamic heatmaps, session replays, conversion funnels, form analytics, live chat, polls and announcements in a single script, which makes it a lower-cost alternative to running several separate behaviour tools.',
+    overview: '',
+    pricingDescription: 'Free plan covers a small number of pageviews per month. Paid plans are monthly or annual subscriptions priced by pageview volume, adding session recording history, more heatmaps, longer data retention, additional seats and advanced features. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/luckyorange.webp',
+    website: 'https://www.luckyorange.com',
+    affiliateUrl: null,
+    categories: ['analytics', 'marketing'],
+    tags: [
+      'heatmaps',
+      'session-recording',
+      'conversion-optimization',
+      'live-chat',
+      'surveys',
+      'ux-analytics',
+      'funnels'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'free-plan', text: 'Free tier for low-traffic sites' },
+      { id: 'dynamic-heatmaps', text: 'Heatmaps keep working on single-page apps and filtered views' },
+      { id: 'form-analytics', text: 'Shows where visitors hesitate or abandon forms' },
+      { id: 'all-in-one', text: 'Recordings, chat, polls and announcements from one snippet' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Heatmaps',
+        description: 'Visualise clicks, scroll depth and mouse movement across pages.',
+        icon: 'flame'
+      },
+      {
+        id: '2',
+        title: 'Session Recordings',
+        description: 'Replay individual visits to find friction and errors.',
+        icon: 'video'
+      },
+      {
+        id: '3',
+        title: 'Chat and Polls',
+        description: 'Talk to visitors live and ask on-page questions to capture intent.',
+        icon: 'message-circle'
+      }
+    ]
+  },
+  {
+    id: '512',
+    slug: 'lemonsqueezy',
+    name: 'Lemon Squeezy',
+    tagline: 'Merchant of record for digital products and SaaS',
+    description: 'Lemon Squeezy sells digital products, subscriptions and software on your behalf as the merchant of record. That means it owns the transaction, calculates and remits sales tax and VAT worldwide, handles chargebacks and fraud, and pays you out, so the seller never registers for tax in every jurisdiction.',
+    overview: '',
+    pricingDescription: 'No monthly fee. Revenue is taken as a percentage of each transaction plus a small fixed amount per sale, with additional fees for affiliate payouts and payout processing. Stripe acquired the company in 2024, and commercial terms should be confirmed on the vendor pricing page.',
+    logo: '/images/tool-logo/lemonsqueezy.webp',
+    website: 'https://www.lemonsqueezy.com',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'finance'],
+    tags: [
+      'merchant-of-record',
+      'digital-products',
+      'subscriptions',
+      'payments',
+      'saas-billing',
+      'sales-tax',
+      'checkout'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'merchant-of-record', text: 'Handles global sales tax and VAT registration and remittance' },
+      { id: 'no-monthly-fee', text: 'Pay per transaction instead of a subscription' },
+      { id: 'license-keys', text: 'Built-in key generation and validation for software' },
+      { id: 'stripe-owned', text: 'Acquired by Stripe in 2024' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Checkout and Storefront',
+        description: 'Sell through hosted checkouts, an overlay, or a full storefront with no code.',
+        icon: 'shopping-cart'
+      },
+      {
+        id: '2',
+        title: 'Subscriptions and Billing',
+        description: 'Manage recurring plans, trials, proration, dunning and customer self-service.',
+        icon: 'repeat'
+      },
+      {
+        id: '3',
+        title: 'Tax and Compliance',
+        description: 'Tax is calculated, collected and filed by the platform as merchant of record.',
+        icon: 'landmark'
+      }
+    ]
+  },
+  {
+    id: '513',
+    slug: 'printful',
+    name: 'Printful',
+    tagline: 'Print-on-demand and fulfillment for custom products',
+    description: 'Printful is a print-on-demand and fulfillment company that manufactures and ships custom products under your brand. You list designs in a store, and Printful prints, packs and ships each order after the customer pays, so there is no inventory to buy or warehouse to run.',
+    overview: '',
+    pricingDescription: 'Free to sign up and free to use, with revenue made on the base cost of each product plus printing and shipping. Optional paid memberships add discounts on product base costs, branding features and tools. Warehousing and fulfillment services are quoted separately. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/printful.webp',
+    website: 'https://www.printful.com',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'design'],
+    tags: [
+      'print-on-demand',
+      'fulfillment',
+      'dropshipping',
+      'merchandise',
+      'warehousing',
+      'custom-products',
+      'integrations'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'no-inventory', text: 'Products are made only after an order is placed' },
+      { id: 'global-network', text: 'Fulfillment centers in North America, Europe, Mexico and Australia' },
+      { id: 'branding', text: 'Custom pack-ins, labels and packaging on eligible products' },
+      { id: 'integrations', text: 'Connects to Shopify, Etsy, WooCommerce, Amazon, eBay and more' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Product Catalog and Mockups',
+        description: 'Design apparel, accessories and home goods and generate mockup images for listings.',
+        icon: 'shirt'
+      },
+      {
+        id: '2',
+        title: 'Order Sync and Fulfillment',
+        description: 'Orders arrive from connected stores and ship automatically without manual steps.',
+        icon: 'package'
+      },
+      {
+        id: '3',
+        title: 'Warehousing Services',
+        description: 'Store non-print-on-demand inventory and combine it into the same shipments.',
+        icon: 'warehouse'
+      }
+    ]
+  },
+  {
+    id: '514',
+    slug: 'gelato',
+    name: 'Gelato',
+    tagline: 'Global print-on-demand production network',
+    description: 'Gelato is a print-on-demand platform that routes each order to a production facility close to the buyer. Because printing happens locally across a network of partner facilities, shipping is faster and cheaper and the carbon cost of transport is lower than shipping everything from one hub.',
+    overview: '',
+    pricingDescription: 'Free to start, with revenue earned on product base cost plus printing and shipping per order. Gelato+ and Gelato+ Gold are monthly subscriptions that add discounted product prices, premium templates, mockup tools, branding options and shipping perks. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/gelato.webp',
+    website: 'https://www.gelato.com',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'design'],
+    tags: [
+      'print-on-demand',
+      'global-network',
+      'merchandise',
+      'dropshipping',
+      'photo-books',
+      'apparel',
+      'integrations'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'local-production', text: 'Orders print near the customer across a partner network' },
+      { id: 'global-reach', text: 'Production in dozens of countries on multiple continents' },
+      { id: 'no-inventory', text: 'Nothing is manufactured until an order is paid for' },
+      { id: 'subscription-perks', text: 'Gelato+ adds discounts and premium design tools' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Production Routing',
+        description: 'Each order is assigned to the nearest capable facility automatically.',
+        icon: 'globe'
+      },
+      {
+        id: '2',
+        title: 'Design and Mockups',
+        description: 'Create product designs and marketing mockups in the browser.',
+        icon: 'palette'
+      },
+      {
+        id: '3',
+        title: 'Store Integrations and API',
+        description: 'Connect Shopify, Etsy, WooCommerce and others, or build on the API.',
+        icon: 'plug'
+      }
+    ]
+  },
+  {
+    id: '515',
+    slug: 'easyship',
+    name: 'Easyship',
+    tagline: 'Shipping rates, labels and landed cost automation',
+    description: 'Easyship is a shipping platform that compares courier rates, generates labels, and calculates duties and taxes at checkout so buyers see the true landed cost. It is used by ecommerce merchants and crowdfunding campaigns that ship internationally and want discounted rates without negotiating carrier contracts.',
+    overview: '',
+    pricingDescription: 'Free plan with a limited number of shipments per month. Paid plans are monthly subscriptions that raise shipment volume, unlock automation rules, cheaper rate access, branded tracking and team features. Shipping costs and carrier rates are billed separately per label. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/easyship.webp',
+    website: 'https://www.easyship.com',
+    affiliateUrl: null,
+    categories: ['ecommerce'],
+    tags: [
+      'shipping',
+      'logistics',
+      'courier-comparison',
+      'shipping-labels',
+      'duties-taxes',
+      'fulfillment',
+      'international'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'rate-comparison', text: 'Compare discounted rates across many couriers at once' },
+      { id: 'landed-cost', text: 'Duties and taxes calculated and shown at checkout' },
+      { id: 'automation-rules', text: 'Pick the cheapest or fastest service automatically per rule' },
+      { id: 'crowdfunding', text: 'Purpose-built flow for Kickstarter and Indiegogo surveys' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Rates and Labels',
+        description: 'Buy discounted labels from multiple couriers and print them in bulk.',
+        icon: 'scale'
+      },
+      {
+        id: '2',
+        title: 'Duties and Tax Engine',
+        description: 'Calculate landed cost per destination and collect it before shipment.',
+        icon: 'landmark'
+      },
+      {
+        id: '3',
+        title: 'Tracking and Automation',
+        description: 'Send branded tracking updates and apply rules to route each order.',
+        icon: 'truck'
+      }
+    ]
+  },
+  {
+    id: '516',
+    slug: 'cartflows',
+    name: 'CartFlows',
+    tagline: 'Sales funnel builder for WooCommerce',
+    description: 'CartFlows is a funnel builder plugin for WordPress and WooCommerce. It replaces the default checkout flow with multi-step funnels containing landing pages, order bumps, one-click upsells and downsells, thank-you pages and A/B tests, so merchants can raise order value without leaving WordPress.',
+    overview: '',
+    pricingDescription: 'A free plugin covers basic funnels, checkout templates and order bumps. Pro is an annual licence per number of sites that adds one-click upsells and downsells, A/B split testing, cart abandonment, dynamic offers and priority support. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/cartflows.webp',
+    website: 'https://cartflows.com',
+    affiliateUrl: null,
+    categories: ['ecommerce', 'marketing'],
+    tags: [
+      'sales-funnels',
+      'woocommerce',
+      'wordpress',
+      'checkout',
+      'upsells',
+      'order-bumps',
+      'ab-testing'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'woocommerce-native', text: 'Built specifically for WooCommerce stores on WordPress' },
+      { id: 'one-click-upsells', text: 'Add offers after purchase without re-entering payment details' },
+      { id: 'page-builder-agnostic', text: 'Works with Elementor, Divi, Beaver Builder and Gutenberg' },
+      { id: 'free-plugin', text: 'Usable funnel and checkout features at no cost' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Funnel Builder',
+        description: 'Assemble landing pages, checkouts and thank-you pages into a sequence.',
+        icon: 'workflow'
+      },
+      {
+        id: '2',
+        title: 'Order Bumps and Upsells',
+        description: 'Offer add-ons at checkout and one-click offers after purchase.',
+        icon: 'shopping-cart'
+      },
+      {
+        id: '3',
+        title: 'Split Testing',
+        description: 'Test funnel steps against each other and keep the better performer.',
+        icon: 'flask-conical'
+      }
+    ]
+  },
+  {
+    id: '517',
+    slug: 'framer',
+    name: 'Framer',
+    tagline: 'Design and publish websites on a visual canvas',
+    description: 'Framer is a website builder where the design canvas is the production output. Teams lay out pages visually, add effects and interactions, manage content through a built-in CMS with localisation, and publish to a global CDN without writing or maintaining a build pipeline. Code overrides are available when needed.',
+    overview: '',
+    pricingDescription: 'Free plan publishes to a Framer subdomain with a banner. Paid site plans are billed per site per month and differ by custom domain support, traffic limits, CMS item counts, localisation, staging and editor seats. Enterprise adds higher limits and controls. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/framer.webp',
+    website: 'https://www.framer.com',
+    affiliateUrl: null,
+    categories: ['design', 'web-development'],
+    tags: [
+      'website-builder',
+      'no-code',
+      'design-tool',
+      'react',
+      'cms',
+      'ai-website',
+      'prototyping'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'canvas-is-production', text: 'What you design is what ships, built on React' },
+      { id: 'ai-generation', text: 'Generate page layouts and copy from a prompt' },
+      { id: 'built-in-cms', text: 'Structured content with collections and localisation' },
+      { id: 'code-overrides', text: 'Drop in React components when the visual tools are not enough' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Visual Canvas',
+        description: 'Design responsive pages with components, variants and effects.',
+        icon: 'layout-template'
+      },
+      {
+        id: '2',
+        title: 'CMS and Localization',
+        description: 'Model content in collections and translate sites per locale.',
+        icon: 'globe'
+      },
+      {
+        id: '3',
+        title: 'AI Tools',
+        description: 'Generate wireframes, layouts, copy and translations from prompts.',
+        icon: 'wand-sparkles'
+      }
+    ]
+  },
+  {
+    id: '518',
+    slug: 'readymag',
+    name: 'Readymag',
+    tagline: 'Design tool for digital publications and portfolios',
+    description: 'Readymag is a browser-based design tool for building editorial pages, portfolios, presentations and microsites. It works from a blank canvas rather than templates, with fine control over typography, layout, animation and scroll behaviour, which makes it popular with designers, studios and art-directed brand projects.',
+    overview: '',
+    pricingDescription: 'Free plan publishes to a Readymag subdomain with limits on the number of projects. Paid plans are billed monthly or annually per account and add custom domains, more projects, removal of branding, additional fonts, form and analytics features, and team or client collaboration options. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/readymag.webp',
+    website: 'https://readymag.com',
+    affiliateUrl: null,
+    categories: ['design', 'web-development'],
+    tags: [
+      'website-builder',
+      'design-tool',
+      'portfolio',
+      'digital-publications',
+      'no-code',
+      'animations',
+      'editorial'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'blank-canvas', text: 'Design from scratch instead of fitting a template' },
+      { id: 'typography-control', text: 'Fine-grained type, grid and spacing tools' },
+      { id: 'scroll-animations', text: 'Trigger animation and layout changes on scroll and viewport' },
+      { id: 'editorial-focus', text: 'Built for long-form and art-directed pages' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Design Canvas',
+        description: 'Place text, images, video and shapes with precise layout control.',
+        icon: 'mouse-pointer-click'
+      },
+      {
+        id: '2',
+        title: 'Animation and Interaction',
+        description: 'Animate elements on scroll, hover and viewport position without code.',
+        icon: 'move'
+      },
+      {
+        id: '3',
+        title: 'Publishing and Domains',
+        description: 'Publish to a custom domain with password protection and analytics.',
+        icon: 'globe'
+      }
+    ]
+  },
+  {
+    id: '519',
+    slug: 'clockify',
+    name: 'Clockify',
+    tagline: 'Time tracking and timesheets for teams',
+    description: 'Clockify is a time tracking platform where individuals and teams log hours against projects and tasks using a timer or a timesheet. Managers get reports on where time went, mark hours as billable, set rates and export the data for invoicing or payroll.',
+    overview: '',
+    pricingDescription: 'Free plan supports unlimited users and unlimited tracking with core timesheets, reports and apps. Paid plans are billed per user per month and add scheduling, time off, approval workflows, invoicing, locking of timesheets, SSO and advanced reporting. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/clockify.webp',
+    website: 'https://clockify.me',
+    affiliateUrl: null,
+    categories: ['productivity', 'hr'],
+    tags: [
+      'time-tracking',
+      'timesheets',
+      'reports',
+      'billing',
+      'scheduling',
+      'team-management',
+      'productivity'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'free-unlimited-users', text: 'Free plan with no cap on team size' },
+      { id: 'every-platform', text: 'Web, desktop, mobile and browser extension coverage' },
+      { id: 'billable-hours', text: 'Rates and billable flags feed straight into reports' },
+      { id: 'kiosk-mode', text: 'Shared device clock-in for shift and hourly workers' }
+    ],
+    platforms: ['web', 'mac', 'windows', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Timer and Timesheet',
+        description: 'Track with a running timer or fill in a weekly timesheet grid.',
+        icon: 'clock'
+      },
+      {
+        id: '2',
+        title: 'Reports and Billing',
+        description: 'Summarise time by project, client or user and export for invoicing.',
+        icon: 'chart-column'
+      },
+      {
+        id: '3',
+        title: 'Scheduling and Time Off',
+        description: 'Plan shifts on a calendar and manage leave requests and approvals.',
+        icon: 'calendar-clock'
+      }
+    ]
+  },
+  {
+    id: '520',
+    slug: 'skedpal',
+    name: 'SkedPal',
+    tagline: 'Automatic time blocking and intelligent scheduling',
+    description: 'SkedPal schedules your tasks into your calendar automatically. You add tasks with a duration and a priority, define Time Maps describing when each kind of work may happen, and SkedPal places everything and reschedules the rest of the week whenever a meeting runs long or a task slips.',
+    overview: '',
+    pricingDescription: 'Paid subscription billed per user per month or per year, with a free trial period and no permanent free plan. Team and business plans add shared scheduling, delegation and administration. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/skedpal.webp',
+    website: 'https://www.skedpal.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'time-blocking',
+      'scheduling',
+      'calendar',
+      'task-management',
+      'automation',
+      'time-maps',
+      'productivity'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'auto-scheduling', text: 'Places every task in the calendar without manual dragging' },
+      { id: 'auto-rescheduling', text: 'Rebuilds the plan when meetings overrun or tasks slip' },
+      { id: 'time-maps', text: 'Rules that control when each category of work can be scheduled' },
+      { id: 'two-way-sync', text: 'Reads and writes to Google Calendar, Outlook and task managers' }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Automatic Time Blocking',
+        description: 'Tasks with durations are placed into free calendar slots by priority and due date.',
+        icon: 'calendar-check'
+      },
+      {
+        id: '2',
+        title: 'Time Maps',
+        description: 'Define allowed windows for deep work, admin, meetings and personal time.',
+        icon: 'map'
+      },
+      {
+        id: '3',
+        title: 'Integrations and Sync',
+        description: 'Connect calendars, Todoist, Asana and other task sources to feed the scheduler.',
+        icon: 'repeat'
+      }
+    ]
+  },
+  {
+    id: '521',
+    slug: 'logseq',
+    name: 'Logseq',
+    tagline: 'Open-source, local-first knowledge base and outliner',
+    description: 'Logseq is a knowledge management tool that stores everything as plain Markdown or Org-mode files on your own device. Notes are written as outlines of blocks, blocks can be referenced and embedded anywhere else, and backlinks build a graph of connections without a proprietary database.',
+    overview: '',
+    pricingDescription: 'The application is free and open source, with source published under an open licence. Optional paid services cover synchronisation between devices and hosted features. Self-hosting your own sync through a Git repository or a sync folder costs nothing.',
+    logo: '/images/tool-logo/logseq.webp',
+    website: 'https://logseq.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'note-taking',
+      'knowledge-management',
+      'outliner',
+      'open-source',
+      'local-first',
+      'graph',
+      'markdown'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'local-first', text: 'Notes live as plain Markdown or Org files you own' },
+      { id: 'open-source', text: 'Source is public and the app costs nothing' },
+      { id: 'block-references', text: 'Any block can be linked or embedded in another page' },
+      { id: 'pdf-annotation', text: 'Highlight and annotate PDFs directly into your notes' }
+    ],
+    platforms: ['mac', 'windows', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Outliner and Blocks',
+        description: 'Write notes as nested bullet blocks that are individually addressable.',
+        icon: 'list-tree'
+      },
+      {
+        id: '2',
+        title: 'Backlinks and Graph',
+        description: 'Automatic bidirectional links and a visual map of how pages connect.',
+        icon: 'network'
+      },
+      {
+        id: '3',
+        title: 'Journals and Queries',
+        description: 'Capture into daily notes and pull information back out with queries.',
+        icon: 'notebook'
+      }
+    ]
+  },
+  {
+    id: '522',
+    slug: 'roamresearch',
+    name: 'Roam Research',
+    tagline: 'Networked note-taking for research and thinking',
+    description: 'Roam Research is a note-taking tool built around bidirectional links and block-level references. Every day opens a daily note, anything written can be linked from anywhere else, and unlinked references surface connections automatically, which makes it a tool for researchers and writers building knowledge over years.',
+    overview: '',
+    pricingDescription: 'Paid subscription billed per user per month or at a discounted annual rate, plus a long-term multi-year Believer plan. There is no permanent free tier, only a trial period. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/roamresearch.webp',
+    website: 'https://roamresearch.com',
+    affiliateUrl: null,
+    categories: ['productivity'],
+    tags: [
+      'note-taking',
+      'knowledge-management',
+      'networked-notes',
+      'zettelkasten',
+      'outliner',
+      'research',
+      'graph'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'bidirectional-links', text: 'Every page shows the pages that link back to it' },
+      { id: 'block-references', text: 'Reference and embed a single bullet from anywhere in the graph' },
+      { id: 'daily-notes', text: 'Default capture surface that keeps friction near zero' },
+      { id: 'community-extensions', text: 'Large ecosystem of user scripts and roam/js customisation' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Networked Pages',
+        description: 'Link pages with double brackets and see backlinks and unlinked mentions.',
+        icon: 'link-2'
+      },
+      {
+        id: '2',
+        title: 'Daily Notes and Blocks',
+        description: 'Capture thoughts into an outliner organised by day and topic.',
+        icon: 'calendar'
+      },
+      {
+        id: '3',
+        title: 'Graph and Queries',
+        description: 'Explore connections visually and filter notes with query blocks.',
+        icon: 'network'
+      }
+    ]
+  },
+  {
+    id: '523',
+    slug: 'calendly',
+    name: 'Calendly',
+    tagline: 'Scheduling automation for meetings and interviews',
+    description: 'Calendly removes the back-and-forth of finding a meeting time. You publish your availability as booking links, invitees pick a slot that suits them, and the event lands on both calendars with the right video conference details, reminders and follow-up workflows attached.',
+    overview: '',
+    pricingDescription: 'Free plan includes one event type and basic integrations. Paid plans are billed per seat per month and add multiple event types, group and round-robin scheduling, workflows, payment collection, team administration and analytics. Enterprise adds SSO, security review and advanced controls. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/calendly.webp',
+    website: 'https://calendly.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'sales'],
+    tags: [
+      'scheduling',
+      'calendar',
+      'meetings',
+      'booking',
+      'automation',
+      'sales-enablement',
+      'round-robin'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'free-single-event', text: 'Free plan covers one event type and core calendar sync' },
+      { id: 'round-robin', text: 'Distribute bookings across a team by availability' },
+      { id: 'embeds', text: 'Put scheduling directly on a website or in an email signature' },
+      { id: 'workflows', text: 'Automated reminders, follow-ups and internal notifications' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Booking Pages',
+        description: 'Publish availability as links or embedded forms with custom questions.',
+        icon: 'calendar-check'
+      },
+      {
+        id: '2',
+        title: 'Calendar and Routing',
+        description: 'Sync multiple calendars, respect buffers, and route leads to the right person.',
+        icon: 'repeat'
+      },
+      {
+        id: '3',
+        title: 'Workflows and Payments',
+        description: 'Send reminders, collect payment at booking and trigger post-meeting actions.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '524',
+    slug: 'savvycal',
+    name: 'SavvyCal',
+    tagline: 'Scheduling with an overlay calendar for both sides',
+    description: 'SavvyCal is a meeting scheduling tool whose distinguishing feature is an overlay calendar that shows the invitee their own existing commitments behind your available slots. Both parties can see conflicts before booking, which reduces reschedules and makes the experience less one-sided than a plain availability grid.',
+    overview: '',
+    pricingDescription: 'Paid subscription billed per user per month or per year, with a free trial period. Tiers differ by number of scheduling links, team features, round-robin routing, branding removal, workflows and API access. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/savvycal.webp',
+    website: 'https://savvycal.com',
+    affiliateUrl: null,
+    categories: ['productivity', 'sales'],
+    tags: [
+      'scheduling',
+      'calendar',
+      'meetings',
+      'booking',
+      'round-robin',
+      'time-zones',
+      'sales'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'overlay-calendar', text: 'Invitees see their own events behind your open slots' },
+      { id: 'time-zone-aware', text: 'Slots display in each invitee local time automatically' },
+      { id: 'team-routing', text: 'Round-robin and collective links for shared calendars' },
+      { id: 'design-focus', text: 'Booking pages that look considered rather than generic' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Overlay Scheduling',
+        description: 'Show availability layered over the invitee calendar to avoid conflicts.',
+        icon: 'calendar'
+      },
+      {
+        id: '2',
+        title: 'Team Links and Routing',
+        description: 'Create round-robin, collective and group booking links for a team.',
+        icon: 'users-round'
+      },
+      {
+        id: '3',
+        title: 'Embeds and Integrations',
+        description: 'Embed links on a site and connect calendars, conferencing and CRMs.',
+        icon: 'puzzle'
+      }
+    ]
+  },
+  {
+    id: '525',
+    slug: 'codility',
+    name: 'Codility',
+    tagline: 'Technical screening and developer assessment platform',
+    description: 'Codility is a technical hiring platform that evaluates engineers through coding tests, real-life tasks, take-home projects and live interviews. Scoring is automated on correctness and performance, and proctoring features help teams trust that results reflect the candidate actual work.',
+    overview: '',
+    pricingDescription: 'Quote-based subscription billed annually, generally priced per recruiter seat or by annual assessment volume, with tiers for interview features, proctoring, ATS integrations and support. A free trial is available. Current figures come from the vendor sales team rather than a public price list.',
+    logo: '/images/tool-logo/codility.webp',
+    website: 'https://www.codility.com',
+    affiliateUrl: null,
+    categories: ['hr', 'education'],
+    tags: [
+      'technical-hiring',
+      'coding-assessments',
+      'recruitment',
+      'developer-screening',
+      'interviews',
+      'proctoring',
+      'ats'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'automated-scoring', text: 'Tests are graded on correctness and runtime performance' },
+      { id: 'real-life-tasks', text: 'Assessments that mirror actual engineering work' },
+      { id: 'proctoring', text: 'Signals that flag copied or AI-generated solutions' },
+      { id: 'pipeline-integration', text: 'Connects to applicant tracking systems and hiring workflows' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Coding Tests',
+        description: 'Assess algorithms, code quality and problem solving in a browser IDE.',
+        icon: 'square-code'
+      },
+      {
+        id: '2',
+        title: 'Projects and Proctoring',
+        description: 'Assign take-home work and monitor for plagiarism and suspicious behaviour.',
+        icon: 'shield-check'
+      },
+      {
+        id: '3',
+        title: 'Interviews and Pipelines',
+        description: 'Run live technical interviews with shared code and structured scorecards.',
+        icon: 'users'
+      }
+    ]
+  },
+  {
+    id: '526',
+    slug: 'hackerrank',
+    name: 'HackerRank',
+    tagline: 'Developer skills platform for hiring and practice',
+    description: 'HackerRank combines a technical assessment platform for employers with a large practice community for developers. Companies screen candidates with coding tests, structured interviews and scorecards, while individuals use the same question library and certifications to prepare and demonstrate skills.',
+    overview: '',
+    pricingDescription: 'Free tier for individual developers covering practice problems and certifications. Employer plans are quote-based annual subscriptions priced by assessment volume and feature set, with tiers for interviews, proctoring, ATS integration and enterprise controls. Current figures come from the vendor sales team.',
+    logo: '/images/tool-logo/hackerrank.webp',
+    website: 'https://www.hackerrank.com',
+    affiliateUrl: null,
+    categories: ['hr', 'education', 'web-development'],
+    tags: [
+      'technical-hiring',
+      'coding-assessments',
+      'developer-skills',
+      'interviews',
+      'recruitment',
+      'certifications',
+      'practice'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'question-library', text: 'Large maintained library of coding and role-specific questions' },
+      { id: 'certifications', text: 'Free skills certifications candidates can share' },
+      { id: 'multi-language', text: 'Supports dozens of programming languages in one IDE' },
+      { id: 'practice-community', text: 'Free side for developers to train and compete' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Skills Assessments',
+        description: 'Screen candidates with automated coding, SQL and role-specific tests.',
+        icon: 'square-code'
+      },
+      {
+        id: '2',
+        title: 'Technical Interviews',
+        description: 'Run live interviews in a shared editor with structured scorecards.',
+        icon: 'video'
+      },
+      {
+        id: '3',
+        title: 'Certifications and Insights',
+        description: 'Verify skills with certifications and benchmark against a global population.',
+        icon: 'badge-check'
+      }
+    ]
+  },
+  {
+    id: '527',
+    slug: 'multiplier',
+    name: 'Multiplier',
+    tagline: 'Global employment, payroll and contractor platform',
+    description: 'Multiplier is a global HR platform that lets companies hire employees and contractors in other countries without opening a local entity. It acts as employer of record, runs compliant contracts and payroll, manages benefits and handles offboarding across a large number of jurisdictions.',
+    overview: '',
+    pricingDescription: 'Paid per employee per month for employer of record services, with separate per-contractor pricing for contractor-only management and quote-based pricing for global payroll where you already have an entity. Volume discounts and annual commitments apply. Current figures come from the vendor sales team.',
+    logo: '/images/tool-logo/multiplier.webp',
+    website: 'https://www.usemultiplier.com',
+    affiliateUrl: null,
+    categories: ['hr', 'finance'],
+    tags: [
+      'employer-of-record',
+      'global-payroll',
+      'contractors',
+      'international-hiring',
+      'compliance',
+      'onboarding',
+      'benefits'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'no-local-entity', text: 'Hire abroad without registering a company in that country' },
+      { id: 'broad-coverage', text: 'Employment support across a large number of countries' },
+      { id: 'compliance', text: 'Locally compliant contracts, statutory benefits and filings' },
+      { id: 'single-platform', text: 'Employees, contractors and payroll in one system' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Employer of Record',
+        description: 'Hire and employ staff internationally on compliant local contracts.',
+        icon: 'landmark'
+      },
+      {
+        id: '2',
+        title: 'Global Payroll',
+        description: 'Run payroll in local currency with statutory deductions and filings handled.',
+        icon: 'banknote'
+      },
+      {
+        id: '3',
+        title: 'Contractor Management',
+        description: 'Onboard, pay and document contractors worldwide from one dashboard.',
+        icon: 'user-check'
+      }
+    ]
+  },
+  {
+    id: '528',
+    slug: 'smartlead',
+    name: 'Smartlead',
+    tagline: 'Cold email platform built for scale and deliverability',
+    description: 'Smartlead is a cold email outreach platform designed for high-volume sending. It connects unlimited mailboxes, rotates sends across them to protect sender reputation, warms inboxes continuously, and centralises replies in a master inbox, with an API that agencies and product teams build on.',
+    overview: '',
+    pricingDescription: 'Paid monthly or annual subscription priced by tier, with plans differentiated by the number of active leads, sending volume, warmup slots, team seats, white-label client portals and API access. There is a trial period rather than a permanent free plan. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/smartlead.webp',
+    website: 'https://smartlead.ai',
+    affiliateUrl: null,
+    categories: ['sales', 'marketing'],
+    tags: [
+      'cold-email',
+      'outreach',
+      'email-warmup',
+      'deliverability',
+      'sales-automation',
+      'agencies',
+      'api'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'unlimited-mailboxes', text: 'Connect as many sending accounts as you need' },
+      { id: 'built-in-warmup', text: 'Continuous inbox warmup to protect deliverability' },
+      { id: 'master-inbox', text: 'All replies from every campaign in one place' },
+      { id: 'white-label', text: 'Client portals and branding for agencies' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Campaign Sending',
+        description: 'Build multi-step sequences and rotate sends across connected mailboxes.',
+        icon: 'mail'
+      },
+      {
+        id: '2',
+        title: 'Deliverability Tools',
+        description: 'Warm up inboxes, enforce daily limits and monitor sender health.',
+        icon: 'shield-check'
+      },
+      {
+        id: '3',
+        title: 'Master Inbox and API',
+        description: 'Handle replies centrally and drive campaigns programmatically.',
+        icon: 'inbox'
+      }
+    ]
+  },
+  {
+    id: '529',
+    slug: 'mailshake',
+    name: 'Mailshake',
+    tagline: 'Sales outreach across email, phone and LinkedIn',
+    description: 'Mailshake is a sales engagement platform for outbound prospecting. Teams build email cadences with follow-ups that stop automatically on a reply, add phone tasks and LinkedIn steps to the same sequence, and track opens, clicks and responses against a built-in lead database.',
+    overview: '',
+    pricingDescription: 'Paid monthly or annual subscription per user, with tiers separating email-only outreach from the combined email, phone and LinkedIn plan, and a higher tier that adds the built-in lead database and deliverability features. No permanent free plan, only a trial. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/mailshake.webp',
+    website: 'https://mailshake.com',
+    affiliateUrl: null,
+    categories: ['sales', 'marketing'],
+    tags: [
+      'cold-email',
+      'sales-cadences',
+      'outreach',
+      'lead-generation',
+      'email-automation',
+      'dialer',
+      'prospecting'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'multi-channel', text: 'Email, phone and LinkedIn steps in one cadence' },
+      { id: 'auto-pause', text: 'Sequences stop the moment a prospect replies' },
+      { id: 'lead-database', text: 'Built-in prospect data to feed campaigns' },
+      { id: 'simple-builder', text: 'Cadence setup that non-technical sellers can use' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Email Cadences',
+        description: 'Sequence follow-ups with personalisation, A/B testing and reply detection.',
+        icon: 'send'
+      },
+      {
+        id: '2',
+        title: 'Lead Data and Research',
+        description: 'Find and verify prospect contacts without leaving the platform.',
+        icon: 'user-search'
+      },
+      {
+        id: '3',
+        title: 'Dialer and Analytics',
+        description: 'Run call tasks and measure reply, open and meeting rates per campaign.',
+        icon: 'phone'
+      }
+    ]
+  },
+  {
+    id: '530',
+    slug: 'folk',
+    name: 'folk',
+    tagline: 'Lightweight relationship CRM for growing teams',
+    description: 'folk is a fast, flexible CRM built around relationships rather than records. Contacts are enriched automatically from email and LinkedIn, pipelines are simple drag-and-drop boards, and email campaigns run from the same place, which suits founders, recruiters, agencies and small sales teams that find enterprise CRMs too heavy.',
+    overview: '',
+    pricingDescription: 'Paid subscription billed per user per month or per year, with tiers that add enrichment credits, email volume, automation, analytics, integrations and administrative controls. A free trial is offered. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/folk.webp',
+    website: 'https://www.folk.app',
+    affiliateUrl: null,
+    categories: ['crm', 'sales'],
+    tags: [
+      'crm',
+      'relationship-management',
+      'sales-pipeline',
+      'enrichment',
+      'startups',
+      'recruiting',
+      'email-campaigns'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'auto-enrichment', text: 'Fills in company and role data from an email address' },
+      { id: 'fast-setup', text: 'Usable pipeline in minutes rather than a configuration project' },
+      { id: 'built-in-email', text: 'Send sequences and track engagement without another tool' },
+      { id: 'flexible-objects', text: 'Adapt tables to deals, candidates, investors or partners' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Relationship Pipelines',
+        description: 'Manage contacts on boards with custom fields and multiple relationship types.',
+        icon: 'users'
+      },
+      {
+        id: '2',
+        title: 'Enrichment and Email',
+        description: 'Enrich records automatically and send tracked campaigns from the CRM.',
+        icon: 'user-search'
+      },
+      {
+        id: '3',
+        title: 'Automation and Sync',
+        description: 'Trigger tasks and next steps and sync with calendars, email and other tools.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '531',
+    slug: 'attio',
+    name: 'Attio',
+    tagline: 'Data-driven CRM with a flexible object model',
+    description: 'Attio is a CRM whose data model is built from objects and relationships rather than fixed contact and opportunity records. Teams sync email and calendar, enrich records automatically, design their own pipelines and reports, and layer AI on top of data they control, which makes it usable for sales, support, partnerships and fundraising alike.',
+    overview: '',
+    pricingDescription: 'Free plan covers small teams with core CRM features and email sync. Paid plans are billed per user per month or per year and add enrichment credits, automations, reporting, API limits, security controls and support. Enterprise is quote-based. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/attio.webp',
+    website: 'https://attio.com',
+    affiliateUrl: null,
+    categories: ['crm', 'sales'],
+    tags: [
+      'crm',
+      'sales-pipeline',
+      'data-model',
+      'enrichment',
+      'automation',
+      'ai-crm',
+      'reporting'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'custom-objects', text: 'Model any record type and the relationships between them' },
+      { id: 'email-and-calendar-sync', text: 'Records build themselves from real communication history' },
+      { id: 'built-in-enrichment', text: 'Company and person data filled in without a third-party tool' },
+      { id: 'free-tier', text: 'Genuinely usable plan for small teams at no cost' }
+    ],
+    platforms: ['web', 'ios'],
+    features: [
+      {
+        id: '1',
+        title: 'Custom Data Model',
+        description: 'Define objects, attributes and relationships that match how you work.',
+        icon: 'database'
+      },
+      {
+        id: '2',
+        title: 'Enrichment and AI',
+        description: 'Auto-fill records and ask questions of your CRM data in natural language.',
+        icon: 'sparkles'
+      },
+      {
+        id: '3',
+        title: 'Automations and Reports',
+        description: 'Route and update records automatically and build pipeline reports.',
+        icon: 'workflow'
+      }
+    ]
+  },
+  {
+    id: '532',
+    slug: 'outreach',
+    name: 'Outreach',
+    tagline: 'Sales execution platform for sequences and pipeline',
+    description: 'Outreach is a sales execution platform that orchestrates outbound and inbound selling across email, phone and social. Reps work from sequenced playbooks, managers get conversation intelligence and forecasting, and everything writes back to the CRM so pipeline data stays current without manual entry.',
+    overview: '',
+    pricingDescription: 'Quote-based annual subscription per user, with modules priced separately for sales engagement, conversation intelligence, deal management and forecasting, and analytics. Minimum seat counts and multi-year commitments are common at enterprise level. Current figures come from the vendor sales team.',
+    logo: '/images/tool-logo/outreach.webp',
+    website: 'https://www.outreach.io',
+    affiliateUrl: null,
+    categories: ['sales', 'crm'],
+    tags: [
+      'sales-engagement',
+      'sequences',
+      'pipeline',
+      'conversation-intelligence',
+      'forecasting',
+      'enterprise',
+      'crm-integration'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'multi-channel-sequences', text: 'Email, call and social steps in one repeatable playbook' },
+      { id: 'kaia-intelligence', text: 'Records, transcribes and analyses sales conversations' },
+      { id: 'deal-management', text: 'Guided next steps and risk signals per opportunity' },
+      { id: 'crm-writeback', text: 'Keeps Salesforce and Microsoft Dynamics data up to date automatically' }
+    ],
+    platforms: ['web', 'ios'],
+    features: [
+      {
+        id: '1',
+        title: 'Sequences and Tasks',
+        description: 'Automate multi-step outreach and give reps a prioritised daily task list.',
+        icon: 'send'
+      },
+      {
+        id: '2',
+        title: 'Conversation Intelligence',
+        description: 'Record and analyse calls to coach reps and surface deal risk.',
+        icon: 'mic'
+      },
+      {
+        id: '3',
+        title: 'Forecasting and Analytics',
+        description: 'Track pipeline health, rep activity and forecast accuracy in one view.',
+        icon: 'chart-line'
+      }
+    ]
+  },
+  {
+    id: '533',
+    slug: 'salesloft',
+    name: 'Salesloft',
+    tagline: 'Revenue orchestration and sales engagement platform',
+    description: 'Salesloft is a revenue orchestration platform covering the full seller workflow: cadences for outreach, deal and pipeline management, conversation intelligence, forecasting and AI-assisted prioritisation. It is positioned at the enterprise end of sales engagement and has absorbed several adjacent products through acquisition.',
+    overview: '',
+    pricingDescription: 'Quote-based annual subscription per user, sold in platform bundles that combine sales engagement, revenue intelligence, conversation intelligence, data and forecasting. Pricing depends on seat count, modules and contract length, and is not published. Current figures come from the vendor sales team.',
+    logo: '/images/tool-logo/salesloft.webp',
+    website: 'https://salesloft.com',
+    affiliateUrl: null,
+    categories: ['sales', 'crm'],
+    tags: [
+      'sales-engagement',
+      'cadences',
+      'revenue-orchestration',
+      'ai',
+      'pipeline',
+      'enterprise',
+      'analytics'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'rhythm-ai', text: 'AI layer that ranks accounts and buyers by intent signals' },
+      { id: 'full-workflow', text: 'Engagement, deals, forecasting and intelligence in one platform' },
+      { id: 'acquisition-led', text: 'Grew through buying adjacent revenue technology products' },
+      { id: 'enterprise-scale', text: 'Built for large sales organisations with governance needs' }
+    ],
+    platforms: ['web', 'ios'],
+    features: [
+      {
+        id: '1',
+        title: 'Cadences',
+        description: 'Automate personalised multi-channel outreach sequences at scale.',
+        icon: 'send'
+      },
+      {
+        id: '2',
+        title: 'Revenue Orchestration',
+        description: 'Route, score and progress deals with rules and AI-driven guidance.',
+        icon: 'workflow'
+      },
+      {
+        id: '3',
+        title: 'Intelligence and Analytics',
+        description: 'Analyse conversations, forecast pipeline and report on rep performance.',
+        icon: 'chart-line'
+      }
+    ]
+  },
+  {
+    id: '534',
+    slug: 'crisp',
+    name: 'Crisp',
+    tagline: 'Customer messaging platform with chat, bots and inbox',
+    description: 'Crisp is an all-in-one customer messaging platform. A single widget on the site handles live chat, chatbot flows, a searchable knowledge base, email campaigns and a shared inbox that also collects WhatsApp, Messenger, Instagram and SMS conversations, with a CRM record attached to each contact.',
+    overview: '',
+    pricingDescription: 'Free plan covers two seats with basic chat and a widget. Paid plans are billed per workspace per month and add chatbot, knowledge base, campaigns, plugins, more seats, longer retention and removal of branding. Enterprise is quote-based. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/crisp.webp',
+    website: 'https://crisp.chat',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'live-chat',
+      'customer-messaging',
+      'helpdesk',
+      'chatbot',
+      'knowledge-base',
+      'shared-inbox',
+      'omnichannel'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'free-plan', text: 'Free tier for two seats with no time limit' },
+      { id: 'omnichannel', text: 'Chat, email, WhatsApp, Messenger, Instagram and SMS in one inbox' },
+      { id: 'chatbot', text: 'Visual bot builder with no-code flows' },
+      { id: 'plugin-marketplace', text: 'Extend with CRM, payment, translation and routing plugins' }
+    ],
+    platforms: ['web', 'mac', 'windows', 'linux', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Live Chat and Inbox',
+        description: 'Talk to visitors from a shared inbox with assignment, notes and canned replies.',
+        icon: 'messages-square'
+      },
+      {
+        id: '2',
+        title: 'Chatbot and Knowledge Base',
+        description: 'Deflect tickets with bot flows and searchable self-serve documentation.',
+        icon: 'bot'
+      },
+      {
+        id: '3',
+        title: 'Campaigns and CRM',
+        description: 'Send email campaigns and keep a contact record with conversation history.',
+        icon: 'mail'
+      }
+    ]
+  },
+  {
+    id: '535',
+    slug: 'tawkto',
+    name: 'tawk.to',
+    tagline: 'Free live chat, ticketing and knowledge base',
+    description: 'tawk.to is a live chat platform that is free for unlimited agents and unlimited chats. It provides a website widget, a shared dashboard, mobile apps, triggers, scheduling, a knowledge base and ticketing, and monetises by selling access to its own trained chat operators rather than charging for the software.',
+    overview: '',
+    pricingDescription: 'The software is free with no seat or chat limits. Revenue comes from optional paid services, principally outsourced chat agents hired through the company marketplace, plus additional paid offerings such as AI assistants, removal of branding and advanced reporting. Current figures are published on the vendor site.',
+    logo: '/images/tool-logo/tawkto.webp',
+    website: 'https://www.tawk.to',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'live-chat',
+      'customer-support',
+      'helpdesk',
+      'knowledge-base',
+      'tickets',
+      'free',
+      'website-widget'
+    ],
+    pricing: 'Free',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'free-forever', text: 'Unlimited agents and chats at no cost' },
+      { id: 'hired-operators', text: 'Option to rent trained chat agents instead of staffing your own' },
+      { id: 'multi-platform', text: 'Web dashboard plus iOS and Android apps for agents' },
+      { id: 'ticketing-included', text: 'Convert chats into tickets and maintain a knowledge base' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Chat Widget and Dashboard',
+        description: 'Add a customisable widget and monitor all conversations from one dashboard.',
+        icon: 'message-circle'
+      },
+      {
+        id: '2',
+        title: 'Ticketing and Knowledge Base',
+        description: 'Turn conversations into tickets and publish self-service articles.',
+        icon: 'book-open'
+      },
+      {
+        id: '3',
+        title: 'Monitoring and Triggers',
+        description: 'Watch visitor behaviour and start chats automatically on set conditions.',
+        icon: 'activity'
+      }
+    ]
+  },
+  {
+    id: '536',
+    slug: 'liveagent',
+    name: 'LiveAgent',
+    tagline: 'Help desk with ticketing, chat and call center',
+    description: 'LiveAgent is a help desk that pulls email, live chat, calls, social media and contact forms into one universal inbox of tickets. It adds a knowledge base, customer portal, automation rules, SLA tracking and reporting, which lets a support team run all channels from a single queue.',
+    overview: '',
+    pricingDescription: 'A limited free plan exists alongside paid plans billed per agent per month or per year. Tiers differ by ticket history length, number of departments, automation and time tracking features, call centre capability, integrations and API access. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/liveagent.webp',
+    website: 'https://www.liveagent.com',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'helpdesk',
+      'ticketing',
+      'live-chat',
+      'customer-support',
+      'knowledge-base',
+      'call-center',
+      'automation'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'universal-inbox', text: 'Every channel lands in a single ticket queue' },
+      { id: 'feature-breadth', text: 'Hundreds of support features without extra products' },
+      { id: 'call-center', text: 'Built-in VoIP calling alongside chat and email' },
+      { id: 'customer-portal', text: 'Self-service portal with forums and knowledge base' }
+    ],
+    platforms: ['web', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Universal Inbox',
+        description: 'Manage email, chat, calls, social and form submissions as tickets.',
+        icon: 'inbox'
+      },
+      {
+        id: '2',
+        title: 'Chat and Call Center',
+        description: 'Run real-time chat and VoIP calls from the same agent interface.',
+        icon: 'headphones'
+      },
+      {
+        id: '3',
+        title: 'Automation and SLA',
+        description: 'Route, tag and escalate tickets with rules and service level targets.',
+        icon: 'zap'
+      }
+    ]
+  },
+  {
+    id: '537',
+    slug: 'canny',
+    name: 'Canny',
+    tagline: 'Product feedback, voting and public roadmap',
+    description: 'Canny is a feedback management platform where users submit ideas, others vote and comment, and the product team triages everything on a public board. Status changes are pushed back to voters, a roadmap shows what is planned, and a changelog records what shipped.',
+    overview: '',
+    pricingDescription: 'Free plan covers a single board with core feedback collection and voting. Paid plans are billed monthly or annually and add multiple boards, private boards, custom domains, advanced roadmap and changelog features, AI categorisation, integrations, SSO and team seats. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/canny.webp',
+    website: 'https://canny.io',
+    affiliateUrl: null,
+    categories: ['productivity', 'community'],
+    tags: [
+      'feedback-management',
+      'feature-requests',
+      'roadmap',
+      'changelog',
+      'product-management',
+      'voting',
+      'user-feedback'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'free-plan', text: 'Collect and vote on feedback at no cost' },
+      { id: 'closed-loop', text: 'Notifies voters when their idea changes status' },
+      { id: 'roadmap-and-changelog', text: 'Publish plans and shipped work from the same data' },
+      { id: 'integrations', text: 'Syncs with Jira, Slack, Intercom, Zendesk and more' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Feedback Boards',
+        description: 'Collect ideas, merge duplicates and sort by vote and segment.',
+        icon: 'list-checks'
+      },
+      {
+        id: '2',
+        title: 'Voting and Prioritisation',
+        description: 'Let users vote and comment so demand informs the roadmap.',
+        icon: 'mouse-pointer-click'
+      },
+      {
+        id: '3',
+        title: 'Roadmap and Changelog',
+        description: 'Show planned, in progress and released work on a public page.',
+        icon: 'milestone'
+      }
+    ]
+  },
+  {
+    id: '538',
+    slug: 'featurebase',
+    name: 'Featurebase',
+    tagline: 'Feedback boards, roadmap and changelog in one tool',
+    description: 'Featurebase collects user feedback on a board, groups duplicates automatically, and turns prioritised items into a public roadmap and changelog. AI assists with categorisation and summarising, and integrations push accepted ideas into engineering tools and team chat.',
+    overview: '',
+    pricingDescription: 'Free plan covers a single board with feedback and voting. Paid plans are billed monthly or annually and add AI features, multiple boards, custom domains, removal of branding, SSO, integrations, analytics and additional team members. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/featurebase.webp',
+    website: 'https://www.featurebase.app',
+    affiliateUrl: null,
+    categories: ['productivity', 'community'],
+    tags: [
+      'feedback-management',
+      'feature-requests',
+      'changelog',
+      'roadmap',
+      'product-management',
+      'ai',
+      'user-feedback'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'ai-grouping', text: 'Detects duplicates and categorises feedback automatically' },
+      { id: 'three-surfaces', text: 'Board, roadmap and changelog fed from one dataset' },
+      { id: 'user-authentication', text: 'Identify voters through SSO or in-app widgets' },
+      { id: 'integrations', text: 'Push items to Slack, Discord, Jira and other tools' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Feedback Board',
+        description: 'Collect, vote on and triage feature requests from users.',
+        icon: 'message-square'
+      },
+      {
+        id: '2',
+        title: 'Roadmap and Changelog',
+        description: 'Publish progress and release notes tied to the original feedback.',
+        icon: 'milestone'
+      },
+      {
+        id: '3',
+        title: 'AI Assistance',
+        description: 'Summarise feedback, suggest categories and detect duplicates.',
+        icon: 'sparkles'
+      }
+    ]
+  },
+  {
+    id: '539',
+    slug: 'nolt',
+    name: 'Nolt',
+    tagline: 'Simple feedback board and roadmap for product teams',
+    description: 'Nolt is a lightweight feedback board where users post ideas, vote and comment, and the team marks status on a public roadmap. It is deliberately narrow in scope, with quick setup, single flat pricing and no configuration overhead, which appeals to small product teams that do not want a suite.',
+    overview: '',
+    pricingDescription: 'Paid monthly or annual subscription per board, with a single flat rate covering feedback, voting, roadmap, changelog, SSO, custom domain and integrations. A free trial is offered and there is no permanent free plan. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/nolt.webp',
+    website: 'https://nolt.io',
+    affiliateUrl: null,
+    categories: ['productivity', 'community'],
+    tags: [
+      'feedback-management',
+      'feature-requests',
+      'roadmap',
+      'product-management',
+      'voting',
+      'simple',
+      'user-feedback'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'fast-setup', text: 'A working board in minutes with almost no configuration' },
+      { id: 'flat-pricing', text: 'One rate rather than feature-gated tiers' },
+      { id: 'public-roadmap', text: 'Statuses and releases visible to users' },
+      { id: 'sso-and-domains', text: 'Single sign-on and a custom domain included' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Feedback and Voting',
+        description: 'Let users post ideas and vote so demand is visible and ranked.',
+        icon: 'list-checks'
+      },
+      {
+        id: '2',
+        title: 'Status and Roadmap',
+        description: 'Move items through statuses and publish progress on a public board.',
+        icon: 'mouse-pointer-click'
+      },
+      {
+        id: '3',
+        title: 'Identity and Integrations',
+        description: 'Require sign-in, identify voters and connect Slack and Jira.',
+        icon: 'milestone'
+      }
+    ]
+  },
+  {
+    id: '540',
+    slug: 'front',
+    name: 'Front',
+    tagline: 'Customer communication platform with a shared inbox',
+    description: 'Front is a customer communication platform built on a shared inbox. Email, SMS, social, chat and voice conversations arrive in collaborative queues where teammates comment internally, assign work, follow service level agreements and trigger automations, with CRM and help desk systems kept in sync.',
+    overview: '',
+    pricingDescription: 'Paid subscription billed per seat per month or per year, with tiers that increase automation depth, SLA and routing capabilities, analytics, retention, security controls and integration options. No permanent free plan, only a trial. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/front.webp',
+    website: 'https://front.com',
+    affiliateUrl: null,
+    categories: ['communication'],
+    tags: [
+      'shared-inbox',
+      'customer-communication',
+      'helpdesk',
+      'email-management',
+      'collaboration',
+      'automation',
+      'omnichannel'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'omnichannel-inbox', text: 'Email, SMS, social, chat and voice in one queue' },
+      { id: 'internal-collaboration', text: 'Comment, mention and assign without the customer seeing it' },
+      { id: 'rules-engine', text: 'Route, tag and escalate automatically with powerful rules' },
+      { id: 'no-duplicate-replies', text: 'Prevents two agents answering the same conversation' }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Shared Inbox',
+        description: 'Work customer conversations as a team with assignment and internal comments.',
+        icon: 'inbox'
+      },
+      {
+        id: '2',
+        title: 'SLAs, Routing and Automation',
+        description: 'Apply service level targets and route messages with a rules engine.',
+        icon: 'workflow'
+      },
+      {
+        id: '3',
+        title: 'Analytics and Integrations',
+        description: 'Measure response and resolution times and sync with CRM and support tools.',
+        icon: 'chart-line'
+      }
+    ]
+  },
+  {
+    id: '541',
+    slug: 'missive',
+    name: 'Missive',
+    tagline: 'Team email and collaborative shared inboxes',
+    description: 'Missive is an email client built for teams. Shared addresses sit alongside personal mailboxes, conversations carry an internal chat thread so colleagues can discuss before replying, and work can be assigned, labelled and turned into tasks, all in native desktop and mobile apps.',
+    overview: '',
+    pricingDescription: 'Free plan supports a small number of users with core shared inbox and chat features. Paid plans are billed per user per month or per year and add retention periods, larger attachments, more integrations, SMS and WhatsApp channels, automation and administrative controls. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/missive.webp',
+    website: 'https://missiveapp.com',
+    affiliateUrl: null,
+    categories: ['communication', 'productivity'],
+    tags: [
+      'team-email',
+      'shared-inbox',
+      'collaboration',
+      'email-management',
+      'tasks',
+      'internal-chat',
+      'sms'
+    ],
+    pricing: 'Freemium',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'chat-in-threads', text: 'Discuss an email internally before anyone replies' },
+      { id: 'shared-addresses', text: 'Manage team mailboxes next to personal ones' },
+      { id: 'native-apps', text: 'Real desktop and mobile clients, not a wrapped web page' },
+      { id: 'assignment-and-tasks', text: 'Turn conversations into assigned work with due dates' }
+    ],
+    platforms: ['web', 'mac', 'windows', 'ios', 'android'],
+    features: [
+      {
+        id: '1',
+        title: 'Shared Inboxes',
+        description: 'Collaborate on team email addresses with assignment, labels and collision detection.',
+        icon: 'inbox'
+      },
+      {
+        id: '2',
+        title: 'Thread Chat',
+        description: 'Hold internal conversations attached to any email thread.',
+        icon: 'messages-square'
+      },
+      {
+        id: '3',
+        title: 'Tasks and Channels',
+        description: 'Create tasks from emails and add SMS, WhatsApp and chat channels.',
+        icon: 'list-checks'
+      }
+    ]
+  },
+  {
+    id: '542',
+    slug: 'hiver',
+    name: 'Hiver',
+    tagline: 'Gmail-based help desk and shared inbox',
+    description: 'Hiver turns Gmail into a multi-user help desk. Teams work a shared address such as support or billing from the Gmail interface they already know, adding assignment, statuses, collision detection, service level agreements, automations, a knowledge base and analytics on top of it.',
+    overview: '',
+    pricingDescription: 'Paid subscription billed per user per month or per year, with tiers that add voice and WhatsApp channels, service level agreements, automation depth, AI features, reporting, integrations and security controls. A free trial is offered and there is no permanent free plan. Current figures are published on the vendor pricing page.',
+    logo: '/images/tool-logo/hiver.webp',
+    website: 'https://hiver.com',
+    affiliateUrl: null,
+    categories: ['communication', 'productivity'],
+    tags: [
+      'gmail',
+      'helpdesk',
+      'shared-inbox',
+      'customer-support',
+      'sla',
+      'automation',
+      'team-email'
+    ],
+    pricing: 'Paid',
+    featured: false,
+    rating: 0,
+    reviewCount: 0,
+    lastUpdated: '2026-10-28',
+    highlights: [
+      { id: 'inside-gmail', text: 'Runs in the Gmail interface with no new tool to learn' },
+      { id: 'shared-addresses', text: 'Support, finance and billing inboxes worked as a team' },
+      { id: 'sla-and-automation', text: 'Deadlines, routing and auto-assignment without spreadsheets' },
+      { id: 'ai-assist', text: 'Drafts, summaries and categorisation on top of the inbox' }
+    ],
+    platforms: ['web'],
+    features: [
+      {
+        id: '1',
+        title: 'Shared Gmail Inbox',
+        description: 'Assign, status-track and collaborate on team email inside Gmail.',
+        icon: 'mail'
+      },
+      {
+        id: '2',
+        title: 'SLAs and Automation',
+        description: 'Set response and resolution targets and automate routing and tagging.',
+        icon: 'zap'
+      },
+      {
+        id: '3',
+        title: 'Analytics and AI',
+        description: 'Report on team performance and use AI for drafts and summaries.',
+        icon: 'chart-line'
+      }
+    ]
   }
 ]

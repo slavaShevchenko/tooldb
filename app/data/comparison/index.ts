@@ -23,8 +23,6 @@ import { surveymonkeyVsTypeformVsJotformVsGoogleforms } from './surveymonkey-vs-
 import { surferVsAhrefsVsSemrushVsMoz } from './surfer-vs-ahrefs-vs-semrush-vs-moz'
 import { similarwebVsSpyfuVsSerankingVsAhrefs } from './similarweb-vs-spyfu-vs-seranking-vs-ahrefs'
 import { brand24VsSproutsocialVsHootsuiteVsMention } from './brand24-vs-sproutsocial-vs-hootsuite-vs-mention'
-
-// from google SEO
 import { woorankVsSeobilityVsSistrix } from './woorank-vs-seobility-vs-sistrix'
 import { raventoolsVsAgencyanalyticsVsAccuranker } from './raventools-vs-agencyanalytics-vs-accuranker'
 import { seobilityVsSeopowersuiteVsSitebulb } from './seobility-vs-seopowersuite-vs-sitebulb'
@@ -58,8 +56,6 @@ const comparisionPostData: ComparisonPageData[] = [
   surferVsAhrefsVsSemrushVsMoz,
   similarwebVsSpyfuVsSerankingVsAhrefs,
   brand24VsSproutsocialVsHootsuiteVsMention,
-
-  // from google SEO
   woorankVsSeobilityVsSistrix,
   raventoolsVsAgencyanalyticsVsAccuranker,
   seobilityVsSeopowersuiteVsSitebulb,
