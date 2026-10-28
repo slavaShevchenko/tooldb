@@ -14209,7 +14209,7 @@ export const tools: Tool[] = [
     overview: '',
     pricingDescription: 'Completely free and open-source — you only pay for the LLM API usage you choose. Works with OpenAI, Anthropic, Google, local models, and any compatible API provider. No subscription fees, no platform markup. Typical costs range $0.01-0.50 per interaction depending on model and context size.',
     logo: '/images/tool-logo/cline.webp',
-    website: 'https://github.com/cline/cline',
+    website: 'https://cline.bot',
     affiliateUrl: null,
     categories: ['ai', 'web-development', 'productivity'],
     tags: [
