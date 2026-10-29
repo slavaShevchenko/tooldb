@@ -1,0 +1,34 @@
+COMPARISON SLUG: opusclip-vs-vizard-vs-munch
+TOOLS (order matters):
+slug: opusclip
+name: OpusClip
+tagline: AI video repurposing tool creating short-form clips from long videos
+description: OpusClip is an AI-powered video repurposing platform that automatically transforms long videos (podcasts, webinars, tutorials) into engaging short-form clips optimized for TikTok, YouTube Shorts, Instagram Reels, and LinkedIn. Uses AI to identify viral moments, add captions, and optimize for social media engagement.
+pricing: Freemium
+pricingDescription: Free tier with limited exports and watermark. Creator at $15/month for 600 minutes processing. Pro at $29/month for 1,500 minutes processing and priority support. Business at $99/month for 4,500 minutes with team collaboration. Enterprise plans with custom pricing and dedicated support. Annual plans offer 20% discount.
+categories: ai, media, productivity
+tags: video-editing, ai-video, short-form, social-media, content-repurposing, tiktok, youtube-shorts, automation
+website: https://opus.pro
+features: Auto Clip Generation / Caption Generation / Platform Optimization
+---
+slug: vizard
+name: Vizard
+tagline: Turn long videos into short social clips with AI
+description: Vizard is an AI video repurposing tool that takes long-form recordings such as webinars, podcasts, Zoom calls and interviews and cuts them into vertical clips for TikTok, YouTube Shorts, Instagram Reels and LinkedIn. It handles transcription, clip selection, reframing, captions and subtitles automatically.
+pricing: Freemium
+pricingDescription: Free plan with a limited number of monthly upload minutes and watermarked exports. Paid plans are monthly or annual subscriptions that raise upload minutes, remove watermarks, extend export length and resolution, and add brand kits and team seats. Current figures are published on the vendor pricing page.
+categories: ai, media, marketing
+tags: ai-video, video-clipping, shorts, captions, repurposing, social-media, podcast
+website: https://vizard.ai
+features: AI Clip Selection / Reframe and Captions / Publishing
+---
+slug: munch
+name: Munch
+tagline: AI video repurposing driven by trend and engagement data
+description: Munch extracts short clips from long-form video and scores them against current social trends and engagement patterns. It is aimed at marketing teams and agencies that need a steady output of platform-native clips from webinars, interviews, podcasts and brand footage without manual editing.
+pricing: Paid
+pricingDescription: Paid subscription plans billed monthly or annually, differentiated by the number of upload hours or processed minutes per month, export resolution, watermark removal, number of seats and access to trend analytics. A free trial is available rather than a permanent free plan. Current figures are published on the vendor pricing page.
+categories: ai, media, marketing
+tags: ai-video, video-repurposing, shorts, social-media, captions, trend-analysis, marketing
+website: https://www.getmunch.com
+features: AI Highlight Extraction / Trend Analytics / Format and Captions

@@ -1,0 +1,34 @@
+COMPARISON SLUG: midjourney-vs-flux-vs-stable-diffusion
+TOOLS (order matters):
+slug: midjourney
+name: Midjourney
+tagline: Leading AI art generator known for exceptional artistic quality and aesthetic diversity
+description: Midjourney is the premier AI image generation platform, renowned for producing stunning artistic imagery with exceptional aesthetic quality. Known for its distinctive visual style, Midjourney has become the go-to choice for artists, designers, and creators seeking high-quality AI-generated art across diverse styles from photorealism to abstract expression.
+pricing: Paid
+pricingDescription: Basic at $10/month for approximately 200 images. Standard at $30/month for unlimited relaxed generation plus 15 fast hours. Pro at $60/month for unlimited relaxed generation plus 30 fast hours and stealth mode. Mega at $120/month for unlimited relaxed generation plus 60 fast hours. Annual plans offer 2 months free. No free tier — requires subscription for any usage.
+categories: ai, design
+tags: image-generation, ai-art, artistic, creative, generative-ai, digital-art, aesthetics, design
+website: https://midjourney.com
+features: Artistic Generation / Style Reference / Variations & Upscaling
+---
+slug: flux
+name: Flux
+tagline: Open-source text-to-image model with exceptional text rendering
+description: Flux is a family of open-weight text-to-image models developed by Black Forest Labs, a team founded by original Stable Diffusion creators. Known for photorealistic output, exceptional text rendering in images, and flexible deployment options — available via API, cloud services, or self-hosted on local hardware.
+pricing: Free
+pricingDescription: Flux.1 [schnell] is fully open source and free for commercial use. Flux.1 [dev] has a non-commercial license. Flux.1 [pro] available via Black Forest Labs API and cloud partners (Fal.ai, Replicate, Together AI) at approximately $0.01-0.06 per image. Self-hosting requires GPU hardware (minimum 12GB VRAM recommended).
+categories: ai, design, web-development
+tags: image-generation, ai-art, text-to-image, generative-ai, open-source, stable-diffusion, self-hosted, api
+website: https://blackforestlabs.ai
+features: Photorealistic Generation / Model Variants / Local Deployment
+---
+slug: stablediffusion
+name: Stable Diffusion
+tagline: Open-source image generation model with full customization and local deployment
+description: Stable Diffusion is the pioneering open-source text-to-image generation model that revolutionized AI art creation. Available through multiple interfaces (Automatic1111, ComfyUI, Diffusers) and deployable locally on personal hardware, it offers unlimited customization through fine-tuning, LoRAs, and ControlNet for complete creative control.
+pricing: Free
+pricingDescription: Completely free and open-source under CreativeML Open RAIL-M license. Self-hosting requires GPU hardware (minimum 8GB VRAM recommended). Cloud services like RunDiffusion, DreamStudio, and various API providers offer hosted access at $0.002-0.05 per image. Custom model training and fine-tuning services available commercially.
+categories: ai, design, web-development
+tags: image-generation, ai-art, open-source, text-to-image, self-hosted, fine-tuning, loras, controlnet
+website: https://stability.ai
+features: Local Generation / Custom Training / ControlNet

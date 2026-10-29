@@ -1,0 +1,34 @@
+COMPARISON SLUG: v0-vs-boltnew-vs-lovable
+TOOLS (order matters):
+slug: v0
+name: v0
+tagline: AI-powered UI generator creating React components from text descriptions
+description: v0 by Vercel generates production-ready React and Next.js UI components from natural language descriptions. Built on shadcn/ui and Tailwind CSS, v0 produces clean, accessible, customizable code that developers can directly integrate into applications — bridging the gap between design ideas and working code.
+pricing: Freemium
+pricingDescription: Free tier with limited monthly generations. Premium at $20/month for unlimited generations, priority processing, and private projects. Team plans at $30/user/month for collaboration and shared components. Enterprise with custom pricing. All generated code is yours to use commercially without restrictions.
+categories: ai, design, web-development
+tags: ai-ui, react, nextjs, shadcn, tailwind-css, component-generator, vercel, ui-design
+website: https://v0.dev
+features: UI Generation / Code Export / Iterative Refinement
+---
+slug: boltnew
+name: Bolt.new
+tagline: AI-powered full-stack web development directly in the browser
+description: Bolt.new by StackBlitz is an AI-powered development environment enabling full-stack web application creation entirely in the browser. Uses AI to generate, run, and deploy complete applications with Node.js backend, databases, and frontend frameworks — no local setup required.
+pricing: Freemium
+pricingDescription: Free tier with limited daily AI tokens and basic features. Pro at $20/month for increased tokens, priority processing, and private projects. Team at $40/user/month for collaboration features and shared workspaces. Enterprise with custom pricing. Tokens consumed by AI generation and code execution.
+categories: web-development, ai
+tags: ai-development, web-development, full-stack, browser-ide, stackblitz, rapid-prototyping, deployment, no-setup
+website: https://bolt.new
+features: AI App Generation / WebContainers IDE / Instant Deployment
+---
+slug: lovable
+name: Lovable
+tagline: AI full-stack app builder creating production-ready web applications
+description: Lovable is an AI-powered full-stack application builder that transforms natural language descriptions into complete, production-ready web applications. Generates React frontends, Supabase backends, authentication, and deployment — enabling anyone to build SaaS applications, internal tools, and prototypes without traditional coding.
+pricing: Freemium
+pricingDescription: Free tier with limited credits and public projects. Starter at $20/month for private projects and more credits. Launch at $50/month for higher limits and priority processing. Scale at $100/month for heavy usage and advanced features. Credits consumed by AI generation and deployments. Annual plans available.
+categories: ai, web-development, design
+tags: ai-app-builder, full-stack, react, supabase, no-code, rapid-prototyping, saas-builder, deployment
+website: https://lovable.dev
+features: App Generation / Supabase Integration / One-Click Deploy

@@ -1,0 +1,34 @@
+COMPARISON SLUG: railway-vs-flyio-vs-heroku
+TOOLS (order matters):
+slug: railway
+name: Railway
+tagline: Infrastructure platform making deployment as easy as push-to-deploy
+description: Railway is an infrastructure platform that brings the simplicity of Heroku to modern development with Git-based deployments, automatic scaling, built-in databases, and collaborative environments. Deploy applications, databases, and services from GitHub repositories with zero configuration.
+pricing: Freemium
+pricingDescription: Free tier with $5 monthly credit for hobby projects. Developer plan at $5/month for personal use with additional credits. Team plan at $20/user/month for collaboration features and shared resources. Enterprise with custom pricing. Pay only for actual compute, memory, and network usage — no minimum commitments.
+categories: web-development
+tags: deployment, hosting, paas, heroku-alternative, databases, git-deployment, serverless, infrastructure
+website: https://railway.app
+features: Git-Push Deploy / Managed Databases / Auto-Scaling
+---
+slug: flyio
+name: Fly.io
+tagline: Global application deployment platform running servers close to users
+description: Fly.io transforms Docker containers into micro-VMs deployed across 30+ global regions, running applications physically close to users for minimal latency. Specializes in full-stack apps, databases, and services needing low-latency global distribution without complex infrastructure management.
+pricing: Freemium
+pricingDescription: Free allowance for small personal projects including 3 shared-cpu VMs and 3GB persistent storage. Pay-as-you-go pricing: shared-cpu at $1.94/month, dedicated-cpu from $9.25/month. Bandwidth and storage billed separately. No minimum commitments — scale up or down instantly. Enterprise plans available.
+categories: web-development
+tags: deployment, hosting, edge-computing, docker, global-infrastructure, paas, serverless, micro-vms
+website: https://fly.io
+features: Global Deployment / Fly Postgres / Machines API
+---
+slug: heroku
+name: Heroku
+tagline: Container platform for building and running apps
+description: Heroku is a platform-as-a-service that runs applications in managed containers called dynos. Teams deploy with a Git push or from CI, attach managed data services from an add-on marketplace, and let the platform handle operating systems, patching and scaling.
+pricing: Paid
+pricingDescription: No free tier since November 2022. Eco and Basic plans suit small apps at a low fixed monthly cost, while Professional plans charge per dyno type and hour with additional fees for private spaces, managed Postgres tiers and add-ons. Current figures are published on the vendor pricing page.
+categories: web-development
+tags: paas, hosting, deployment, dynos, addons, postgres, salesforce
+website: https://www.heroku.com
+features: Dynos and Buildpacks / Managed Data Services / Release Pipelines

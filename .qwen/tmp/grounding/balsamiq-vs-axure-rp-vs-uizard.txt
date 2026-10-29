@@ -1,0 +1,34 @@
+COMPARISON SLUG: balsamiq-vs-axure-rp-vs-uizard
+TOOLS (order matters):
+slug: balsamiq
+name: Balsamiq
+tagline: Rapid wireframing tool mimicking sketching on whiteboard
+description: Balsamiq is a rapid wireframing tool that reproduces the experience of sketching on a whiteboard or notepad. Enables quick low-fidelity wireframes for early-stage design thinking and user flow planning.
+pricing: Paid
+pricingDescription: Cloud at $9/month for 3 projects. Cloud at $29/month for unlimited projects. Desktop at $99 one-time purchase for single user. Annual billing offers discount. 30-day free trial available.
+categories: design
+tags: wireframing, rapid-prototyping, low-fidelity, ux-design, sketching, simple, brainstorming, early-design
+website: https://balsamiq.com
+features: Drag-and-Drop / UI Library / Quick Sharing
+---
+slug: axure
+name: Axure RP
+tagline: Professional prototyping tool for complex interactive designs
+description: Axure RP is a professional prototyping tool enabling UX designers to create realistic, interactive prototypes without coding. Provides advanced conditional logic, dynamic content, and documentation capabilities for complex application prototypes.
+pricing: Paid
+pricingDescription: Standard at $25/user/month for core prototyping features. Team at $50/user/month adding collaboration and Axure Cloud features. Annual billing offers discount. Perpetual licenses available for enterprises.
+categories: design
+tags: prototyping, ux-design, wireframing, interactive, documentation, enterprise, no-code, user-testing
+website: https://axure.com
+features: Interactive Prototyping / Documentation / Widget Libraries
+---
+slug: uizard
+name: Uizard
+tagline: AI-powered UI design tool transforming ideas into prototypes
+description: Uizard is an AI-powered design tool enabling non-designers to create UI designs and prototypes from text descriptions, sketches, or screenshots. Uses AI to generate and refine designs without design expertise.
+pricing: Freemium
+pricingDescription: Free tier with limited projects and AI generations. Pro at $12/month for unlimited projects and advanced AI features. Business at $39/user/month with team collaboration. Enterprise with custom pricing.
+categories: design, ai
+tags: ai-design, ui-design, prototyping, no-design-skills, text-to-design, sketch-to-ui, rapid-prototyping, generative-ai
+website: https://uizard.io
+features: AI Design Generation / Sketch Recognition / Prototyping

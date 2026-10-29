@@ -1,0 +1,34 @@
+COMPARISON SLUG: protopie-vs-principle-vs-origami-studio
+TOOLS (order matters):
+slug: protopie
+name: ProtoPie
+tagline: Advanced interaction prototyping tool for realistic experiences
+description: ProtoPie is an advanced prototyping tool enabling designers to create highly realistic interactive prototypes with sensors, conditional logic, and cross-device interactions. Serves UX designers needing sophisticated prototypes without coding.
+pricing: Freemium
+pricingDescription: Free tier with 1 prototype and basic features. Pro at $24/user/month for unlimited prototypes and advanced features. Enterprise with custom pricing for teams. Annual billing offers discount.
+categories: design, productivity
+tags: prototyping, interaction-design, advanced-interactions, sensors, no-code, user-testing, cross-device, realistic
+website: https://protopie.io
+features: Advanced Interactions / Device Sensors / Real-time Collaboration
+---
+slug: principle
+name: Principle
+tagline: Animation tool for designing interactive interfaces on Mac
+description: Principle is a Mac-only animation tool enabling designers to create animated and interactive user interfaces. Provides timeline-based animation and auto-animation features for prototyping complex interactions without coding.
+pricing: Paid
+pricingDescription: One-time purchase at $129 for perpetual license. Free updates within major version. Mac-only platform. Free trial available.
+categories: design
+tags: animation, prototyping, interaction-design, mac, motion-design, ui-animation, one-time-purchase, timeline
+website: https://principleformac.com
+features: Timeline Editor / Auto Animate / Drivers
+---
+slug: origamistudio
+name: Origami Studio
+tagline: Free prototyping tool for designing interactive interfaces
+description: Origami Studio is a free prototyping tool created by Facebook enabling designers to build interactive prototypes with real device integration. Provides patch-based visual programming for creating sophisticated interactions without coding.
+pricing: Free
+pricingDescription: Completely free with all features included. No paid tiers or subscriptions. Created and maintained by Facebook/Meta as free tool for design community.
+categories: design
+tags: prototyping, interactive-design, visual-programming, free, facebook, mobile-prototyping, animations, gestures
+website: https://origami.design
+features: Patch Editor / Device Mirroring / Animation System

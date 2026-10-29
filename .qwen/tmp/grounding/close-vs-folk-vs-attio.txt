@@ -1,0 +1,34 @@
+COMPARISON SLUG: close-vs-folk-vs-attio
+TOOLS (order matters):
+slug: close
+name: Close
+tagline: CRM with built-in calling, email, and SMS for sales teams
+description: Modern CRM platform integrating calling, email, SMS, and automation directly into the sales workflow for high-velocity outreach teams.
+pricing: Paid
+pricingDescription: User-based pricing with communication features included in all plans. Free trial available for evaluation.
+categories: crm, sales, communication
+tags: crm, sales-calling, email-outreach, sms-marketing, sales-automation, power-dialer, call-recording, lead-management
+website: https://www.close.com
+features: Built-in VoIP Calling / Email Sequences / Smart Views
+---
+slug: folk
+name: folk
+tagline: Lightweight relationship CRM for growing teams
+description: folk is a fast, flexible CRM built around relationships rather than records. Contacts are enriched automatically from email and LinkedIn, pipelines are simple drag-and-drop boards, and email campaigns run from the same place, which suits founders, recruiters, agencies and small sales teams that find enterprise CRMs too heavy.
+pricing: Paid
+pricingDescription: Paid subscription billed per user per month or per year, with tiers that add enrichment credits, email volume, automation, analytics, integrations and administrative controls. A free trial is offered. Current figures are published on the vendor pricing page.
+categories: crm, sales
+tags: crm, relationship-management, sales-pipeline, enrichment, startups, recruiting, email-campaigns
+website: https://www.folk.app
+features: Relationship Pipelines / Enrichment and Email / Automation and Sync
+---
+slug: attio
+name: Attio
+tagline: Data-driven CRM with a flexible object model
+description: Attio is a CRM whose data model is built from objects and relationships rather than fixed contact and opportunity records. Teams sync email and calendar, enrich records automatically, design their own pipelines and reports, and layer AI on top of data they control, which makes it usable for sales, support, partnerships and fundraising alike.
+pricing: Freemium
+pricingDescription: Free plan covers small teams with core CRM features and email sync. Paid plans are billed per user per month or per year and add enrichment credits, automations, reporting, API limits, security controls and support. Enterprise is quote-based. Current figures are published on the vendor pricing page.
+categories: crm, sales
+tags: crm, sales-pipeline, data-model, enrichment, automation, ai-crm, reporting
+website: https://attio.com
+features: Custom Data Model / Enrichment and AI / Automations and Reports

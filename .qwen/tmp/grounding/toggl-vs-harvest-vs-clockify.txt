@@ -1,0 +1,34 @@
+COMPARISON SLUG: toggl-vs-harvest-vs-clockify
+TOOLS (order matters):
+slug: toggl
+name: Toggl
+tagline: Time tracking platform for productivity insights
+description: Comprehensive time tracking solution helping individuals and teams understand time investment, improve productivity, and make data-driven decisions.
+pricing: Freemium
+pricingDescription: Free plan for individuals. Premium plans unlock advanced reporting and team features.
+categories: productivity, analytics
+tags: time-tracking, productivity, billable-hours, project-tracking, team-productivity, time-management, freelancer-tools, analytics
+website: https://toggl.com
+features: Simple Time Tracking / Productivity Reports / Billable Time Management
+---
+slug: harvest
+name: Harvest
+tagline: Time tracking and invoicing for client work
+description: Harvest is time tracking and invoicing software for agencies, consultancies, and freelancers. Tracks time by project and task, turns entries into invoices, sends payment reminders, accepts online payments, and reports on project budgets and profitability.
+pricing: Freemium
+pricingDescription: A free plan covers one seat and two active projects. Teams is $9 per person per month billed annually or $11 monthly. Enterprise is $14 annual or $17.50 monthly and adds advanced reporting and admin controls. Enterprise Plus is quoted individually. The optional Harvest Forecast capacity planning tool is priced separately.
+categories: finance, productivity
+tags: time-tracking, invoicing, agencies, project-budgets, timesheets, payments, reporting, capacity-planning
+website: https://www.getharvest.com
+features: Time Tracking / Invoicing and Payments / Project Reporting
+---
+slug: clockify
+name: Clockify
+tagline: Time tracking and timesheets for teams
+description: Clockify is a time tracking platform where individuals and teams log hours against projects and tasks using a timer or a timesheet. Managers get reports on where time went, mark hours as billable, set rates and export the data for invoicing or payroll.
+pricing: Freemium
+pricingDescription: Free plan supports unlimited users and unlimited tracking with core timesheets, reports and apps. Paid plans are billed per user per month and add scheduling, time off, approval workflows, invoicing, locking of timesheets, SSO and advanced reporting. Current figures are published on the vendor pricing page.
+categories: productivity, hr
+tags: time-tracking, timesheets, reports, billing, scheduling, team-management, productivity
+website: https://clockify.me
+features: Timer and Timesheet / Reports and Billing / Scheduling and Time Off

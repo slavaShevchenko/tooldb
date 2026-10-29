@@ -1,0 +1,34 @@
+COMPARISON SLUG: supabase-vs-firebase-vs-appwrite
+TOOLS (order matters):
+slug: supabase
+name: Supabase
+tagline: Open-source Firebase alternative built on Postgres
+description: Supabase is a backend platform built around a real Postgres database rather than a proprietary datastore. It bundles authentication, object storage, realtime subscriptions, edge functions and vector search with auto-generated APIs, and the whole stack is open source so it can be self-hosted.
+pricing: Freemium
+pricingDescription: Free plan with two projects, limited database size, storage and monthly active users. Pro plan is a fixed monthly base fee plus usage for compute, storage, egress and additional features. Team and Enterprise plans add controls, higher limits and support. Current figures are published on the vendor pricing page.
+categories: web-development
+tags: backend-as-a-service, postgres, authentication, storage, realtime, open-source, edge-functions
+website: https://supabase.com
+features: Database and APIs / Auth and Storage / Realtime and Functions
+---
+slug: firebase
+name: Firebase
+tagline: Google app platform with database, auth and hosting
+description: Firebase is the Google app development platform covering realtime data storage, authentication, cloud functions, hosting, storage, push messaging and crash reporting. It is aimed at mobile and web teams that want managed infrastructure with client SDKs and no backend to operate.
+pricing: Freemium
+pricingDescription: Spark plan is free with daily limits on reads, writes and function invocations. Blaze plan is pay-as-you-go per operation, gigabyte and invocation, with monthly free allowances. Larger workloads on Blaze scale with usage, so costs need monitoring. Current figures are published on the vendor pricing page.
+categories: web-development, analytics
+tags: backend-as-a-service, mobile, authentication, hosting, analytics, google, realtime
+website: https://firebase.google.com
+features: Firestore and Realtime Database / Authentication / Hosting and Functions
+---
+slug: appwrite
+name: Appwrite
+tagline: Open-source backend-as-a-service alternative to Firebase
+description: Appwrite is an open-source backend platform providing developers with self-hostable APIs for authentication, databases, storage, functions, and messaging. Offers complete control over infrastructure while delivering modern backend capabilities through simple SDKs across web, mobile, and desktop platforms.
+pricing: Freemium
+pricingDescription: Completely free and open-source for self-hosting with unlimited usage. Appwrite Cloud offers managed hosting: Free tier with generous limits, Pro at $15/member/month for additional resources and features, Scale with custom pricing for enterprise needs. Self-hosting requires your own server infrastructure.
+categories: web-development, productivity
+tags: backend, baas, open-source, self-hosted, firebase-alternative, authentication, database, api
+website: https://appwrite.io
+features: Authentication / Database & Storage / Cloud Functions

@@ -1,0 +1,34 @@
+COMPARISON SLUG: obsidian-vs-logseq-vs-roam-research
+TOOLS (order matters):
+slug: obsidian
+name: Obsidian
+tagline: Local-first knowledge base with 1,400+ community plugins
+description: Obsidian is a free local-first knowledge base built on plain-text Markdown files stored on your own filesystem. Famous for its 1,400+ community plugins, bidirectional linking, and graph view that visualizes note connections. The default choice for privacy-conscious knowledge workers who value data ownership and extensibility.
+pricing: Freemium
+pricingDescription: Core app 100% free forever with unlimited vaults. Obsidian Sync $4-8/month (optional). Publish $8-10/month (optional). Commercial license $50/year. All core features remain free.
+categories: productivity, ai
+tags: knowledge-base, local-first, markdown, second-brain, note-taking, bidirectional-links, plugins, privacy
+website: https://obsidian.md
+features: Bidirectional Linking / Graph View / Plugin Ecosystem
+---
+slug: logseq
+name: Logseq
+tagline: Open-source, local-first knowledge base and outliner
+description: Logseq is a knowledge management tool that stores everything as plain Markdown or Org-mode files on your own device. Notes are written as outlines of blocks, blocks can be referenced and embedded anywhere else, and backlinks build a graph of connections without a proprietary database.
+pricing: Free
+pricingDescription: The application is free and open source, with source published under an open licence. Optional paid services cover synchronisation between devices and hosted features. Self-hosting your own sync through a Git repository or a sync folder costs nothing.
+categories: productivity
+tags: note-taking, knowledge-management, outliner, open-source, local-first, graph, markdown
+website: https://logseq.com
+features: Outliner and Blocks / Backlinks and Graph / Journals and Queries
+---
+slug: roamresearch
+name: Roam Research
+tagline: Networked note-taking for research and thinking
+description: Roam Research is a note-taking tool built around bidirectional links and block-level references. Every day opens a daily note, anything written can be linked from anywhere else, and unlinked references surface connections automatically, which makes it a tool for researchers and writers building knowledge over years.
+pricing: Paid
+pricingDescription: Paid subscription billed per user per month or at a discounted annual rate, plus a long-term multi-year Believer plan. There is no permanent free tier, only a trial period. Current figures are published on the vendor pricing page.
+categories: productivity
+tags: note-taking, knowledge-management, networked-notes, zettelkasten, outliner, research, graph
+website: https://roamresearch.com
+features: Networked Pages / Daily Notes and Blocks / Graph and Queries

@@ -1,0 +1,34 @@
+COMPARISON SLUG: thrivecart-vs-samcart-vs-cartflows
+TOOLS (order matters):
+slug: thrivecart
+name: ThriveCart
+tagline: Lifetime-license cart with upsells and affiliates
+description: ThriveCart is a shopping cart and funnel platform sold as a one-time license rather than a subscription. Includes checkout templates, order bumps, upsell funnels, an affiliate center, and subscription billing, with no platform transaction fee on sales.
+pricing: Paid
+pricingDescription: Sold as a one-time license, historically in the $495 to $695 range including unlimited products and funnels. Optional paid add-ons cover a website builder and the Learn course platform. No monthly fee and no platform transaction fee. Verify the current price on the vendor page.
+categories: ecommerce, marketing
+tags: shopping-cart, lifetime-license, upsells, affiliate-center, subscriptions, course-platform, funnels, no-transaction-fees
+website: https://thrivecart.com
+features: Cart and Checkout / Affiliate Management / Subscription Billing
+---
+slug: samcart
+name: SamCart
+tagline: Checkout pages and funnels for info-product sellers
+description: SamCart is a checkout and funnel builder for coaches, course creators, and digital product sellers. Provides conversion-tested checkout templates, order bumps, one-click upsells, subscription management, an affiliate center, and automatic sales tax handling.
+pricing: Paid
+pricingDescription: Paid plans only, billed monthly or annually, starting in the tens of dollars per month for core checkout features and rising through tiers that add subscriptions, upsells, cart abandonment, and CRM integrations. A trial is offered. Verify current tiers on the vendor page.
+categories: ecommerce, marketing
+tags: checkout, one-click-upsells, order-bumps, subscriptions, funnels, course-creators, sales-tax, affiliates
+website: https://www.samcart.com
+features: Checkout Builder / Upsells and Bumps / Subscription Management
+---
+slug: cartflows
+name: CartFlows
+tagline: Sales funnel builder for WooCommerce
+description: CartFlows is a funnel builder plugin for WordPress and WooCommerce. It replaces the default checkout flow with multi-step funnels containing landing pages, order bumps, one-click upsells and downsells, thank-you pages and A/B tests, so merchants can raise order value without leaving WordPress.
+pricing: Freemium
+pricingDescription: A free plugin covers basic funnels, checkout templates and order bumps. Pro is an annual licence per number of sites that adds one-click upsells and downsells, A/B split testing, cart abandonment, dynamic offers and priority support. Current figures are published on the vendor pricing page.
+categories: ecommerce, marketing
+tags: sales-funnels, woocommerce, wordpress, checkout, upsells, order-bumps, ab-testing
+website: https://cartflows.com
+features: Funnel Builder / Order Bumps and Upsells / Split Testing

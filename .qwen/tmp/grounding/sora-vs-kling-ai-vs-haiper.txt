@@ -1,0 +1,34 @@
+COMPARISON SLUG: sora-vs-kling-ai-vs-haiper
+TOOLS (order matters):
+slug: sora
+name: Sora
+tagline: 
+description: 
+pricing: Paid
+pricingDescription: Included in ChatGPT Plus ($20/month) with limited generations. ChatGPT Pro ($200/month) provides higher limits and priority access. No standalone subscription — requires ChatGPT subscription. Enterprise plans with custom pricing available. Generations consume credits based on duration and resolution.
+categories: ai, media
+tags: ai-video, video-generation, text-to-video, cinematic, openai, generative-ai, content-creation, storytelling
+website: https://openai.com/sora
+features: Text-to-Video / Image-to-Video / Video Extension
+---
+slug: klingai
+name: Kling AI
+tagline: Advanced AI video generation platform with cinematic quality
+description: Kling AI is a leading AI video generation platform developed by Kuaishou, producing high-quality videos from text prompts and images. Known for cinematic motion, realistic human movement, and extended video durations — competing directly with Sora, Runway Gen-3, and Pika Labs.
+pricing: Freemium
+pricingDescription: Free tier with 66 daily credits (approximately 6 videos). Standard plan at $9/month for 660 monthly credits. Pro plan at $49/month for 3,000 monthly credits and priority generation. Premier plan at $119/month for 8,000 monthly credits and maximum features. Credits are consumed per second of video generated.
+categories: ai, media
+tags: ai-video, video-generation, text-to-video, generative-ai, cinematic, animation, content-creation, social-media
+website: https://klingai.com
+features: Text-to-Video / Image-to-Video / Motion Brush
+---
+slug: haiper
+name: Haiper
+tagline: Generative AI video creation and editing
+description: Haiper is a generative video platform that creates short clips from text prompts or still images and offers editing tools such as repaint, keyframe control and upscaling. It is used by marketers and creators who need quick video assets without a shoot or a motion graphics team.
+pricing: Freemium
+pricingDescription: Free tier with a limited number of daily or monthly credits and watermarked output at lower resolution. Paid plans are subscription tiers that raise credit allowances, remove watermarks, enable longer clips and higher resolution, and add commercial usage rights. Current figures and the product direction are published on the vendor site.
+categories: ai, media
+tags: ai-video, text-to-video, generative-video, video-editing, creative-tools, image-to-video
+website: https://haiper.ai
+features: Prompt to Video / Image Animation / Video Editing Tools

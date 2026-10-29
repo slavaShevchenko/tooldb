@@ -1,0 +1,34 @@
+COMPARISON SLUG: vercel-vs-netlify-vs-render
+TOOLS (order matters):
+slug: vercel
+name: Vercel
+tagline: Frontend cloud for deploying and scaling web apps
+description: Vercel is a deployment platform for frontend and full-stack JavaScript applications, and the company behind Next.js. It builds from a Git push, serves through a global edge network, and creates a preview URL for every branch, with serverless functions, image optimisation and analytics included.
+pricing: Freemium
+pricingDescription: Hobby plan is free for non-commercial use with usage limits. Pro plan is billed per seat per month plus usage for bandwidth, function invocations and image optimisation. Enterprise adds custom limits, security reviews and support. Current figures are published on the vendor pricing page.
+categories: web-development
+tags: hosting, deployment, nextjs, edge-network, serverless, frontend, preview-environments
+website: https://vercel.com
+features: Git-Based Deploys / Edge Network and CDN / Serverless and AI
+---
+slug: netlify
+name: Netlify
+tagline: Web development and deployment platform
+description: Comprehensive platform enabling developers to build, deploy, and scale modern websites and web applications with Git-based continuous deployment and global edge network.
+pricing: Freemium
+pricingDescription: Generous free tier for individual developers. Premium plans unlock additional build minutes, team features, and enterprise capabilities.
+categories: web-development
+tags: hosting, jamstack, continuous-deployment, serverless, edge-functions, static-sites, web-development, deployment
+website: https://www.netlify.com
+features: Continuous Deployment / Global Edge Network / Serverless Functions
+---
+slug: render
+name: Render
+tagline: Unified cloud platform for deploying web services, sites, and databases
+description: Render is a unified cloud platform making deployment as simple as Heroku while offering modern infrastructure for web services, static sites, cron jobs, background workers, and managed databases. Provides automatic CI/CD from Git, auto-scaling, and private networking without DevOps complexity.
+pricing: Freemium
+pricingDescription: Free tier for static sites and basic services. Starter services from $7/month, Standard from $25/month with more resources. Managed PostgreSQL from $20/month, Redis from $30/month. Usage-based pricing for bandwidth and storage. Team plans at $20/user/month with collaboration features. No per-seat surprises.
+categories: web-development
+tags: deployment, hosting, paas, heroku-alternative, static-sites, managed-databases, auto-scaling, ci-cd
+website: https://render.com
+features: Web Services / Static Sites / Managed Databases

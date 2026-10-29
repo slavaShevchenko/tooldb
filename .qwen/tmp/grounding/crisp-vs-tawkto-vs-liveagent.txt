@@ -1,0 +1,34 @@
+COMPARISON SLUG: crisp-vs-tawkto-vs-liveagent
+TOOLS (order matters):
+slug: crisp
+name: Crisp
+tagline: Customer messaging platform with chat, bots and inbox
+description: Crisp is an all-in-one customer messaging platform. A single widget on the site handles live chat, chatbot flows, a searchable knowledge base, email campaigns and a shared inbox that also collects WhatsApp, Messenger, Instagram and SMS conversations, with a CRM record attached to each contact.
+pricing: Freemium
+pricingDescription: Free plan covers two seats with basic chat and a widget. Paid plans are billed per workspace per month and add chatbot, knowledge base, campaigns, plugins, more seats, longer retention and removal of branding. Enterprise is quote-based. Current figures are published on the vendor pricing page.
+categories: communication
+tags: live-chat, customer-messaging, helpdesk, chatbot, knowledge-base, shared-inbox, omnichannel
+website: https://crisp.chat
+features: Live Chat and Inbox / Chatbot and Knowledge Base / Campaigns and CRM
+---
+slug: tawkto
+name: tawk.to
+tagline: Free live chat, ticketing and knowledge base
+description: tawk.to is a live chat platform that is free for unlimited agents and unlimited chats. It provides a website widget, a shared dashboard, mobile apps, triggers, scheduling, a knowledge base and ticketing, and monetises by selling access to its own trained chat operators rather than charging for the software.
+pricing: Free
+pricingDescription: The software is free with no seat or chat limits. Revenue comes from optional paid services, principally outsourced chat agents hired through the company marketplace, plus additional paid offerings such as AI assistants, removal of branding and advanced reporting. Current figures are published on the vendor site.
+categories: communication
+tags: live-chat, customer-support, helpdesk, knowledge-base, tickets, free, website-widget
+website: https://www.tawk.to
+features: Chat Widget and Dashboard / Ticketing and Knowledge Base / Monitoring and Triggers
+---
+slug: liveagent
+name: LiveAgent
+tagline: Help desk with ticketing, chat and call center
+description: LiveAgent is a help desk that pulls email, live chat, calls, social media and contact forms into one universal inbox of tickets. It adds a knowledge base, customer portal, automation rules, SLA tracking and reporting, which lets a support team run all channels from a single queue.
+pricing: Freemium
+pricingDescription: A limited free plan exists alongside paid plans billed per agent per month or per year. Tiers differ by ticket history length, number of departments, automation and time tracking features, call centre capability, integrations and API access. Current figures are published on the vendor pricing page.
+categories: communication
+tags: helpdesk, ticketing, live-chat, customer-support, knowledge-base, call-center, automation
+website: https://www.liveagent.com
+features: Universal Inbox / Chat and Call Center / Automation and SLA

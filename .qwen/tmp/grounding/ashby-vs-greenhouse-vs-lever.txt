@@ -1,0 +1,34 @@
+COMPARISON SLUG: ashby-vs-greenhouse-vs-lever
+TOOLS (order matters):
+slug: ashby
+name: Ashby
+tagline: All-in-one recruiting CRM and ATS
+description: Ashby is a recruiting platform combining an applicant tracking system, candidate relationship management, interview scheduling, and deep analytics in a single product. Targets venture-backed and mid-sized companies that want recruiting data without stitching tools together.
+pricing: Paid
+pricingDescription: Quote-based pricing billed annually, generally starting in the low thousands of dollars per year for smaller teams and scaling with headcount and modules such as CRM and assessments. No public self-serve pricing, so request a quote.
+categories: hr
+tags: ats, recruiting-crm, interview-scheduling, recruiting-analytics, candidate-pipeline, structured-hiring, offer-management, startups
+website: https://www.ashbyhq.com
+features: Applicant Tracking / Recruiting CRM / Scheduling and Analytics
+---
+slug: greenhouse
+name: Greenhouse
+tagline: Structured hiring ATS for growing companies
+description: Greenhouse is an applicant tracking system built around structured hiring, with defined job scorecards, interview kits, calibrated scorecards, and recruiting analytics. Used by mid-market and enterprise teams running high-volume, multi-stakeholder hiring processes.
+pricing: Paid
+pricingDescription: Quote-based pricing billed annually, generally starting in the mid four figures per year for smaller teams and scaling with employee count and modules such as CRM, onboarding, and DEI analytics. No public price list, so request a quote.
+categories: hr
+tags: ats, structured-hiring, interview-kits, scorecards, recruiting-analytics, candidate-pipeline, mid-market, onboarding
+website: https://www.greenhouse.com
+features: Pipeline Management / Interview Coordination / Recruiting Analytics
+---
+slug: lever
+name: Lever
+tagline: Applicant tracking with built-in recruiting CRM
+description: Lever is a recruiting platform combining applicant tracking with candidate relationship management, so recruiters nurture passive candidates in the same pipeline as active applicants. Offers interview scheduling, feedback forms, offer letters, and recruiting analytics.
+pricing: Paid
+pricingDescription: Quote-based pricing billed annually, with tiers differentiated by candidate volume, user count, and add-ons such as DEI analytics, nurture campaigns, and advanced scheduling. Entry contracts typically start in the low five figures per year. Request a quote for current figures.
+categories: hr
+tags: ats, recruiting-crm, candidate-nurture, interview-scheduling, offer-letters, recruiting-analytics, talent-pipeline, requisition-management
+website: https://www.lever.co
+features: Pipeline and CRM / Interview Workflow / Recruiting Analytics

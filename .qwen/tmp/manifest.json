@@ -1,0 +1,402 @@
+[
+  {
+    "slug": "cursor-vs-windsurf-vs-github-copilot",
+    "tools": [
+      "cursor",
+      "windsurf",
+      "githubcopilot"
+    ]
+  },
+  {
+    "slug": "v0-vs-boltnew-vs-lovable",
+    "tools": [
+      "v0",
+      "boltnew",
+      "lovable"
+    ]
+  },
+  {
+    "slug": "replit-vs-codesandbox-vs-stackblitz",
+    "tools": [
+      "replit",
+      "codesandbox",
+      "stackblitz"
+    ]
+  },
+  {
+    "slug": "cline-vs-aider-vs-continue",
+    "tools": [
+      "cline",
+      "aider",
+      "continue"
+    ]
+  },
+  {
+    "slug": "supabase-vs-firebase-vs-appwrite",
+    "tools": [
+      "supabase",
+      "firebase",
+      "appwrite"
+    ]
+  },
+  {
+    "slug": "neon-vs-planetscale-vs-mongodb-atlas",
+    "tools": [
+      "neon",
+      "planetscale",
+      "mongodbatlas"
+    ]
+  },
+  {
+    "slug": "vercel-vs-netlify-vs-render",
+    "tools": [
+      "vercel",
+      "netlify",
+      "render"
+    ]
+  },
+  {
+    "slug": "railway-vs-flyio-vs-heroku",
+    "tools": [
+      "railway",
+      "flyio",
+      "heroku"
+    ]
+  },
+  {
+    "slug": "midjourney-vs-flux-vs-stable-diffusion",
+    "tools": [
+      "midjourney",
+      "flux",
+      "stablediffusion"
+    ]
+  },
+  {
+    "slug": "runway-vs-pika-vs-luma-ai",
+    "tools": [
+      "runway",
+      "pika",
+      "lumiai"
+    ]
+  },
+  {
+    "slug": "sora-vs-kling-ai-vs-haiper",
+    "tools": [
+      "sora",
+      "klingai",
+      "haiper"
+    ]
+  },
+  {
+    "slug": "suno-vs-udio-vs-stable-audio",
+    "tools": [
+      "suno",
+      "udio",
+      "stableaudio"
+    ]
+  },
+  {
+    "slug": "playht-vs-resemble-ai-vs-wellsaid-labs",
+    "tools": [
+      "playht",
+      "resembleai",
+      "wellsaidlabs"
+    ]
+  },
+  {
+    "slug": "opusclip-vs-vizard-vs-munch",
+    "tools": [
+      "opusclip",
+      "vizard",
+      "munch"
+    ]
+  },
+  {
+    "slug": "adobe-firefly-vs-leonardo-ai-vs-ideogram",
+    "tools": [
+      "adobefirefly",
+      "leonardoai",
+      "ideogram"
+    ]
+  },
+  {
+    "slug": "posthog-vs-logrocket-vs-fullstory",
+    "tools": [
+      "posthog",
+      "logrocket",
+      "fullstory"
+    ]
+  },
+  {
+    "slug": "plausible-vs-fathom-analytics-vs-pirsch",
+    "tools": [
+      "plausible",
+      "fathomanalytics",
+      "pirsch"
+    ]
+  },
+  {
+    "slug": "mixpanel-vs-amplitude-vs-heap",
+    "tools": [
+      "mixpanel",
+      "amplitude",
+      "heap"
+    ]
+  },
+  {
+    "slug": "microsoft-clarity-vs-hotjar-vs-lucky-orange",
+    "tools": [
+      "microsoftclarity",
+      "hotjar",
+      "luckyorange"
+    ]
+  },
+  {
+    "slug": "metabase-vs-looker-vs-tableau",
+    "tools": [
+      "metabase",
+      "looker",
+      "tableau"
+    ]
+  },
+  {
+    "slug": "circle-vs-mighty-networks-vs-geneva",
+    "tools": [
+      "circle",
+      "mightynetworks",
+      "geneva"
+    ]
+  },
+  {
+    "slug": "ghost-vs-substack-vs-beehiiv",
+    "tools": [
+      "ghost",
+      "substack",
+      "beehiiv"
+    ]
+  },
+  {
+    "slug": "memberstack-vs-memberful-vs-outseta",
+    "tools": [
+      "memberstack",
+      "memberful",
+      "outseta"
+    ]
+  },
+  {
+    "slug": "discourse-vs-vanilla-forums-vs-tribe",
+    "tools": [
+      "discourse",
+      "vanillaforums",
+      "tribe"
+    ]
+  },
+  {
+    "slug": "gumroad-vs-lemon-squeezy-vs-payhip",
+    "tools": [
+      "gumroad",
+      "lemonsqueezy",
+      "payhip"
+    ]
+  },
+  {
+    "slug": "ecwid-vs-bigcartel-vs-shopware",
+    "tools": [
+      "ecwid",
+      "bigcartel",
+      "shopware"
+    ]
+  },
+  {
+    "slug": "printify-vs-printful-vs-gelato",
+    "tools": [
+      "printify",
+      "printful",
+      "gelato"
+    ]
+  },
+  {
+    "slug": "shipbob-vs-shippo-vs-easyship",
+    "tools": [
+      "shipbob",
+      "shippo",
+      "easyship"
+    ]
+  },
+  {
+    "slug": "thrivecart-vs-samcart-vs-cartflows",
+    "tools": [
+      "thrivecart",
+      "samcart",
+      "cartflows"
+    ]
+  },
+  {
+    "slug": "stripe-vs-paddle-vs-lemon-squeezy",
+    "tools": [
+      "stripe",
+      "paddle",
+      "lemonsqueezy"
+    ]
+  },
+  {
+    "slug": "figma-vs-penpot-vs-sketch",
+    "tools": [
+      "figma",
+      "penpot",
+      "sketch"
+    ]
+  },
+  {
+    "slug": "balsamiq-vs-axure-rp-vs-uizard",
+    "tools": [
+      "balsamiq",
+      "axure",
+      "uizard"
+    ]
+  },
+  {
+    "slug": "protopie-vs-principle-vs-origami-studio",
+    "tools": [
+      "protopie",
+      "principle",
+      "origamistudio"
+    ]
+  },
+  {
+    "slug": "spline-vs-rive-vs-dora",
+    "tools": [
+      "spline",
+      "rive",
+      "dora"
+    ]
+  },
+  {
+    "slug": "framer-vs-dora-vs-readymag",
+    "tools": [
+      "framer",
+      "dora",
+      "readymag"
+    ]
+  },
+  {
+    "slug": "toggl-vs-harvest-vs-clockify",
+    "tools": [
+      "toggl",
+      "harvest",
+      "clockify"
+    ]
+  },
+  {
+    "slug": "motion-vs-reclaim-ai-vs-skedpal",
+    "tools": [
+      "motion",
+      "reclaimai",
+      "skedpal"
+    ]
+  },
+  {
+    "slug": "obsidian-vs-logseq-vs-roam-research",
+    "tools": [
+      "obsidian",
+      "logseq",
+      "roamresearch"
+    ]
+  },
+  {
+    "slug": "todoist-vs-ticktick-vs-things-3",
+    "tools": [
+      "todoist",
+      "ticktick",
+      "things3"
+    ]
+  },
+  {
+    "slug": "fantastical-vs-calendly-vs-savvycal",
+    "tools": [
+      "fantastical",
+      "calendly",
+      "savvycal"
+    ]
+  },
+  {
+    "slug": "testgorilla-vs-codility-vs-hackerrank",
+    "tools": [
+      "testgorilla",
+      "codility",
+      "hackerrank"
+    ]
+  },
+  {
+    "slug": "ashby-vs-greenhouse-vs-lever",
+    "tools": [
+      "ashby",
+      "greenhouse",
+      "lever"
+    ]
+  },
+  {
+    "slug": "lattice-vs-15five-vs-culture-amp",
+    "tools": [
+      "lattice",
+      "15five",
+      "cultureamp"
+    ]
+  },
+  {
+    "slug": "oyster-vs-papaya-global-vs-multiplier",
+    "tools": [
+      "oyster",
+      "papayaglobal",
+      "multiplier"
+    ]
+  },
+  {
+    "slug": "instantly-vs-smartlead-vs-mailshake",
+    "tools": [
+      "instantly",
+      "smartlead",
+      "mailshake"
+    ]
+  },
+  {
+    "slug": "close-vs-folk-vs-attio",
+    "tools": [
+      "close",
+      "folk",
+      "attio"
+    ]
+  },
+  {
+    "slug": "replyio-vs-outreach-vs-salesloft",
+    "tools": [
+      "replyio",
+      "outreach",
+      "salesloft"
+    ]
+  },
+  {
+    "slug": "crisp-vs-tawkto-vs-liveagent",
+    "tools": [
+      "crisp",
+      "tawkto",
+      "liveagent"
+    ]
+  },
+  {
+    "slug": "canny-vs-featurebase-vs-nolt",
+    "tools": [
+      "canny",
+      "featurebase",
+      "nolt"
+    ]
+  },
+  {
+    "slug": "front-vs-missive-vs-hiver",
+    "tools": [
+      "front",
+      "missive",
+      "hiver"
+    ]
+  }
+]
