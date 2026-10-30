@@ -26,10 +26,9 @@
             technologies.
           </p>
           <p>
-            If you contact us, suggest a tool, or inquire about a paid listing
-            or partnership, we may collect your email address, name, company
-            name, product website, message and any other information you
-            choose to provide.
+            If you contact us, inquire about a paid listing or partnership,
+            we may collect your email address, name, company name, product
+            website, message and any other information you choose to provide.
           </p>
           <p>
             If you purchase a paid listing, we may also retain relevant
@@ -44,8 +43,8 @@
           <h2>How we use information</h2>
           <p>
             We use information to operate and maintain ToolDB, improve the
-            catalog, understand website usage, respond to inquiries, review
-            tool submissions, manage paid listings and partnerships, prevent
+            catalog, understand website usage, respond to inquiries, manage
+            paid listings and partnerships, update tool information, prevent
             abuse, and protect the security and reliability of the website.
           </p>
           <p>

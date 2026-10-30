@@ -39,10 +39,9 @@
         <section>
           <h2>Paid Listings and Featured Placement</h2>
           <p>
-            ToolDB offers paid listing opportunities for eligible SaaS,
-            software and AI products. The standard offer is a one-time
-            payment of €50 for a lifetime listing in the ToolDB catalog
-            and featured placement on the homepage.
+            The standard offer is a one-time payment of €50 for companies
+            requesting a lifetime listing in the ToolDB catalog and featured
+            placement on the homepage.
           </p>
           <p>
             All submissions are subject to editorial review. Payment does
@@ -81,10 +80,10 @@
             payment instructions will be confirmed before payment is made.
           </p>
           <p>
-            A listing will generally be published after the submission
-            has been approved and the agreed payment has been received.
-            ToolDB may request additional information before making
-            a decision.
+            A listing will be published after the product has passed
+            editorial review, been approved by ToolDB, and the agreed
+            payment has been received. ToolDB may request additional
+            information before making a decision.
           </p>
           <p>
             If a submission is rejected before publication, any payment
@@ -134,9 +133,10 @@
           <p>
             By submitting product descriptions, logos, images or other
             materials for a listing, you confirm that you have the necessary
-            rights or permissions to provide those materials and authorize
-            ToolDB to use, reproduce, display and adapt them as reasonably
-            necessary to review, publish, promote and maintain the listing.
+            rights or permissions to provide those materials and grant ToolDB
+            a non-exclusive, royalty-free license to use, reproduce, display
+            and adapt them as reasonably necessary to review, publish,
+            promote and maintain the listing.
           </p>
           <p>
             You remain responsible for the accuracy of the materials you

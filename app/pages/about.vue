@@ -45,7 +45,7 @@
           <p>
             We maintain strict editorial independence. Affiliate relationships
             do not influence which tools we include, how we describe them or
-            what we recommend. Paid submissions are subject to the same
+            what we recommend. Paid listings are subject to the same
             quality standards as other listings. Payment does not guarantee
             a positive review or a higher position in organic search results.
             You can learn more about our business model on our
@@ -59,8 +59,8 @@
           <h2>Paid Listings</h2>
           <p>
             Want to give your product more visibility? For a one-time payment
-            of €50, you can submit your SaaS or AI tool for a featured listing
-            on ToolDB.
+            of €50, you can request a lifetime listing in the ToolDB catalog
+            and featured placement on our homepage.
           </p>
 
           <ul class="paid-listing__features">
@@ -98,19 +98,27 @@
         <section>
           <h2>Growing the catalog</h2>
           <p>
-            ToolDB is actively growing. We regularly add new tools, update
-            existing entries when features or pricing change, and expand
-            into new categories based on what our users need. If there is
-            a tool you think should be included or information that needs
-            updating, we welcome your feedback.
+            ToolDB is continuously growing. Our editorial team independently
+            researches the software market and discovers promising tools to
+            include in our catalog. We regularly update existing entries when
+            features or pricing change and expand into new categories.
+          </p>
+          <p>
+            As new products gain popularity and recognition, they may be
+            discovered and added to ToolDB through our editorial research.
+            Companies that want to secure a listing can request paid placement
+            through our
+            <NuxtLink :to="routes.contact()">
+              contact page
+            </NuxtLink>.
           </p>
         </section>
 
         <section>
           <h2>Contact</h2>
           <p>
-            Have questions, suggestions or want to recommend a tool? Visit
-            our
+            Have questions, feedback, or interested in a paid listing?
+            Visit our
             <NuxtLink :to="routes.contact()">
               contact page
             </NuxtLink>
@@ -138,8 +146,7 @@
               <p class="about-author__bio">
                 Frontend developer with 10+ years of experience building web applications
                 and evaluating digital tools daily. I created ToolDB because I was tired
-                of spending hours comparing software across dozens of tabs. Every tool
-                in this catalog has been personally researched or used in real projects.
+                of spending hours comparing software across dozens of tabs.
               </p>
               <div class="about-author__links">
                 <a

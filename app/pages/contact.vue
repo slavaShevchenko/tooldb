@@ -3,13 +3,13 @@
     <LayoutSection
       heading-tag="h1"
       title="Contact Us"
-      description="Have questions, feedback, or a tool suggestion for ToolDB? We'd love to hear from you."
+      description="Have questions, feedback, or interested in listing your product on ToolDB? We'd love to hear from you."
     >
       <div class="contact__content">
         <p class="contact__intro">
-          The best way to reach us is via email. Whether you want to suggest
-          a new digital tool, report outdated information, or discuss a
-          partnership, we'd love to hear from you.
+          The best way to reach us is via email. Whether you want to request
+          a paid listing for your product, report outdated information, or
+          discuss a partnership, we'd love to hear from you.
         </p>
 
         <div class="contact__email-box">
@@ -27,30 +27,34 @@
 
         <ul class="contact__list">
           <li>
-            <strong>🛠️ Suggest a Tool</strong>
+            <strong>🚀 Paid Listings — €50 One-Time</strong>
             <p>
-              Know a great SaaS, AI tool, or software we missed? Send us
-              the name, website, and a brief description of why it belongs
-              in our catalog. Every submission is reviewed before inclusion.
+              Want your product featured on ToolDB? For a one-time payment of €50,
+              you can request a lifetime listing in our catalog and featured
+              placement on our homepage.
+            </p>
+            <p>
+              There are no recurring listing fees. All listings are subject to
+              editorial review and must meet our quality standards. Featured
+              placement is promotional and does not guarantee specific traffic
+              or business results.
+            </p>
+            <p>
+              Interested? Email us with your product name, website, and a short
+              description of your tool to get started.
             </p>
           </li>
 
           <li>
-            <strong>🚀 Paid Listings — €50 One-Time</strong>
+            <strong>🔍 Organic Inclusion</strong>
             <p>
-              Want to give your product more visibility? For a one-time
-              payment of €50, you can get a lifetime listing in the ToolDB
-              catalog and featured placement on our homepage.
+              We independently research and discover promising software and AI
+              tools for our catalog. As products grow in popularity and recognition,
+              our editorial team may discover and add them organically.
             </p>
             <p>
-              There are no recurring listing fees. All submissions are
-              subject to editorial review and must meet our quality standards.
-              Featured placement is promotional and does not guarantee
-              specific traffic or business results.
-            </p>
-            <p>
-              Interested? Email us with your product name, website, and
-              a short description of your tool to get started.
+              Want to ensure your product gets considered without waiting?
+              You can request a paid listing instead.
             </p>
           </li>
 
@@ -97,7 +101,7 @@ definePageMeta({
 
 useSeo({
   title: 'Contact Us - ToolDB',
-  description: 'Contact ToolDB to suggest software, report outdated information, purchase a featured listing for €50, or discuss partnerships and advertising.',
+  description: 'Contact ToolDB to request a paid software listing for €50, report outdated information, or discuss partnerships and advertising.',
   canonical: 'https://tooldb.org/contact',
 })
 </script>

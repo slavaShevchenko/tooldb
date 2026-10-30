@@ -20,9 +20,8 @@
           <h2>Paid listings and sponsored placements</h2>
           <p>
             ToolDB offers paid listing opportunities for SaaS, software and
-            AI tools. For a one-time payment of €50, a tool may be eligible
-            for a lifetime listing in our catalog and featured placement
-            on the ToolDB homepage.
+            AI tools. For a one-time payment of €50, companies can request a lifetime
+l           listing in our catalog and featured placement on the ToolDB homepage.
           </p>
           <p>
             All submissions are subject to editorial review and must meet
