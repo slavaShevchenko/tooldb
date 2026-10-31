@@ -18,11 +18,10 @@
         class="rating__layer"
         aria-hidden="true"
       >
-        <BaseIcon
+        <span
           v-for="star in RATING_STARS"
           :key="`base-${star}`"
-          name="star"
-          :size="24"
+          class="rating__star"
         />
       </span>
 
@@ -31,11 +30,10 @@
         :style="{ '--fill': fillPercent }"
         aria-hidden="true"
       >
-        <BaseIcon
+        <span
           v-for="star in RATING_STARS"
           :key="`fill-${star}`"
-          name="star"
-          :size="24"
+          class="rating__star"
         />
       </span>
 
@@ -219,6 +217,11 @@ const onKeydown = (event: KeyboardEvent) => {
 <style scoped lang="scss">
 .rating {
   --star-gap: var(--space-0-25);
+  --star-size: var(--space-1-5);
+
+  // Lucide ships no filled star and @nuxt/icon masks its icons from the stroke,
+  // so the solid silhouette is masked here from the very same Lucide path.
+  --star-svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z'/%3E%3C/svg%3E");
 
   position: relative;
   display: flex;
@@ -249,16 +252,30 @@ const onKeydown = (event: KeyboardEvent) => {
   display: flex;
   align-items: center;
   gap: var(--star-gap);
-  color: var(--color-border-main);
 }
 
 .rating__layer--fill {
   position: absolute;
   inset: 0;
-  color: var(--color-secondary);
   clip-path: inset(0 calc(100% - var(--fill, 0%)) 0 0);
   transition: clip-path var(--transition-fast);
   pointer-events: none;
+}
+
+.rating__star {
+  flex: none;
+  width: var(--star-size);
+  height: var(--star-size);
+  background-color: var(--color-border-main);
+  -webkit-mask: var(--star-svg) center / 100% 100% no-repeat;
+  mask: var(--star-svg) center / 100% 100% no-repeat;
+}
+
+// Both gradient stops are 75% opaque, so the filled star needs its own backdrop:
+// without it the grey star underneath shows through and dulls the gradient.
+.rating__layer--fill .rating__star {
+  background-color: var(--color-background);
+  background-image: linear-gradient(135deg, var(--color-secondary-75) 0%, var(--color-primary-75) 100%);
 }
 
 .rating__hits {

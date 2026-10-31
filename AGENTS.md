@@ -916,7 +916,7 @@ Set `voters` намеренно не используется: `GET rating:{slug
 ```bash
 npm run build
 set -a && . ./.env && set +a && PORT=3100 node .output/server/index.mjs &   # в фоне
-node scripts/test-rating.mjs                                                 # 42 проверки API + SSR
+node scripts/test-rating.mjs                                                 # 44 проверки API + SSR
 ```
 
 Скрипт сам очищает созданные ключи. `curl`-примеры и troubleshooting — в `docs/rating-system.md`.
