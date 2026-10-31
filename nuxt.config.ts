@@ -51,6 +51,10 @@ export default defineNuxtConfig({
   ],
 
   runtimeConfig: {
+    ratingRedisUrl: '',
+    ratingRedisToken: '',
+    ratingRedisReadOnlyToken: '',
+    ratingIpPepper: '',
     public: {
       siteUrl: 'https://tooldb.org',
     },

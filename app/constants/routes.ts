@@ -31,3 +31,7 @@ export const routes = {
 
   comparison: (slug: string) => `/comparisons/${slug}`,
 } as const
+
+export const apiRoutes = {
+  rating: () => '/api/rating',
+} as const
