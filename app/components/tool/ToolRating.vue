@@ -232,7 +232,7 @@ const onKeydown = (event: KeyboardEvent) => {
 }
 
 .rating--pending {
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .rating__stars {
@@ -266,7 +266,7 @@ const onKeydown = (event: KeyboardEvent) => {
   flex: none;
   width: var(--star-size);
   height: var(--star-size);
-  background-color: var(--color-border-main);
+  background-color: var(--color-primary-25);
   -webkit-mask: var(--star-svg) center / 100% 100% no-repeat;
   mask: var(--star-svg) center / 100% 100% no-repeat;
 }
@@ -275,7 +275,7 @@ const onKeydown = (event: KeyboardEvent) => {
 // without it the grey star underneath shows through and dulls the gradient.
 .rating__layer--fill .rating__star {
   background-color: var(--color-background);
-  background-image: linear-gradient(135deg, var(--color-secondary-75) 0%, var(--color-primary-75) 100%);
+  background-image: linear-gradient(135deg, var(--color-secondary) 25%, var(--color-primary) 100%);
 }
 
 .rating__hits {
