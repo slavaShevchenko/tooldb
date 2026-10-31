@@ -445,6 +445,7 @@ export const useTools = () => {
 | `useToolSearch` | Поиск инструментов и категорий |
 | `usePopularSearches` | Популярные поисковые запросы |
 | `usePageCurtain` | Анимация перехода между страницами |
+| `useToolRating` | Пользовательский рейтинг инструмента: чтение, голос, отзыв, optimistic UI |
 | `useJsonLd` | JSON-LD структурированные данные (несколько функций) |
 
 ---
@@ -830,12 +831,101 @@ max-width: var(--container-width-wide);   // 90rem (1440px)
 | Добавить JSON-LD для сравнений | `composables/useComparisonJsonLd.ts` |
 | Пагинация | `composables/usePagination.ts`, `constants/pagination.ts` |
 | Глобальные стили | `assets/styles/base/_globals.scss`, `_reset.scss`, `_typography.scss` |
+| Изменить рейтинг (UI) | `components/tool/ToolRating.vue` |
+| Изменить логику рейтинга | `composables/useToolRating.ts`, `server/utils/rating.ts` |
+| Изменить доступ к Redis | `server/utils/upstash.ts` |
+| Изменить HTTP-контракт рейтинга | `server/api/rating.{get,post,delete}.ts`, `types/rating.ts` |
+| Изменить лимиты голосов | `server/utils/rating.ts` (константы в начале файла) |
 
 ---
 
-## 11. 🏗 Current Project Status
+## 11. ⭐ Rating System (пользовательские оценки)
 
-**Текущий milestone**: Comparisons system (completed)
+Единственная динамическая фича проекта: голоса хранятся в **Upstash Redis** и читаются через Nitro server routes. `Vercel KV` больше не существует (продукт закрыт, сторы мигрированы на Upstash), поэтому используется прямой REST-вызов Upstash **без npm-пакетов** — обычный `fetch` в `server/utils/upstash.ts`.
+
+### Слои
+
+```
+app/components/tool/ToolRating.vue      UI: 5 звёзд, hover, клавиатура, состояния
+app/composables/useToolRating.ts        чтение, голос, отзыв, optimistic UI
+app/constants/rating.ts                 RATING_STARS / RATING_MIN / RATING_MAX
+app/types/rating.ts                     ToolRatingState, ToolRatingAggregate, RatingVotePayload
+server/api/rating.{get,post,delete}.ts  HTTP-граница
+server/utils/rating.ts                  валидация, лимиты, ключи Redis, cookie
+server/utils/upstash.ts                 REST-транспорт (pipeline), таймаут 1.5 с
+```
+
+Страница `app/pages/tools/[slug].vue` (для JSON-LD) и `ToolRating.vue` (для UI) вызывают один `useToolRating(slug)`; общий ключ `useAsyncData` (`tool-rating:{slug}`) дедуплицирует запрос. Внутри используется `useRequestFetch()`, а не `$fetch`, иначе httpOnly cookie не уходит на сервер при SSR и `yourVote` теряется.
+
+### Endpoints
+
+| Метод | URL | Вход | Ответ |
+|-------|-----|------|-------|
+| GET | `/api/rating?slug={slug}` | — | `ToolRatingState`, заголовок `cache-control: no-store` |
+| POST | `/api/rating` | `{ slug, rating, loadedAt, email? }` | `ToolRatingState` |
+| DELETE | `/api/rating?slug={slug}` | — | `ToolRatingState` |
+
+`ToolRatingState = { slug, rating, count, yourVote, enabled }`, где `rating` — среднее с одним знаком после запятой, а `enabled: false` означает «Redis не настроен» (виджет тогда не рендерится вообще).
+
+Коды ошибок: `404` неизвестный slug, `400` невалидная оценка или тайминг, `429` превышен лимит, `503` хранилище недоступно/не настроено.
+
+### Данные в Redis
+
+| Ключ | Тип | TTL | Назначение |
+|------|-----|-----|-----------|
+| `rating:{slug}` | HASH `sum`, `count` | — | агрегат, читается одним `HMGET` |
+| `rating:{slug}:v:{voterId}` | STRING `1..5` | 365 дней | голос одного посетителя |
+| `rl:vote:m:{ipHash}:{минута}` | STRING counter | 120 с | не более 5 голосов в минуту |
+| `rl:vote:d:{ipHash}:{дата}` | STRING counter | 24 ч | не более 10 голосов в день |
+
+Set `voters` намеренно не используется: `GET rating:{slug}:v:{id}` даёт ту же проверку «уже голосовал» и позволяет менять голос дельтой (`HINCRBY sum (new - old)`), не раздувая память.
+
+⚠️ `/pipeline` у Upstash отвечает **голым массивом** `[{ result }, …]`, а одиночная команда — объектом `{ result }`; `HMGET` возвращает плоский массив значений. Парсинг в `server/utils/upstash.ts` и `parseAggregate()` написан именно под это.
+
+### Идентификация и защита от накрутки
+
+- `voterId` — UUID v4 в **httpOnly cookie `tdb_vid`** (SameSite=Lax, 1 год, `Secure` только на https). Ставится сервером при первом голосе, перед использованием в ключе Redis проверяется regex'ом.
+- `ipHash` — HMAC-SHA256 от `IP + User-Agent` с серверным секретом, первые 32 hex-символа. Сырой IP нигде не сохраняется.
+- Honeypot: скрытое поле `email` в виджете. Любое значение → сервер отвечает `200` и ничего не пишет.
+- `loadedAt` с клиента: меньше 500 мс или больше 24 ч → `400`.
+- Turnstile/капча не подключены — осознанно, чтобы не тянуть внешний скрипт.
+
+### Переменные окружения
+
+| Переменная | Обязательна | Назначение |
+|-----------|-------------|-----------|
+| `TOOLDB_KV_REST_API_URL` | да | REST-эндпоинт Upstash |
+| `TOOLDB_KV_REST_API_TOKEN` | да | запись (голоса, лимиты) |
+| `TOOLDB_KV_REST_API_READ_ONLY_TOKEN` | нет | чтение; ограничивает ущерб при утечке |
+| `RATING_IP_PEPPER` | нет | отдельный секрет HMAC; без него используется токен записи |
+
+Те же значения можно задать через `runtimeConfig`: `NUXT_RATING_REDIS_URL`, `NUXT_RATING_REDIS_TOKEN`, `NUXT_RATING_REDIS_READ_ONLY_TOKEN`, `NUXT_RATING_IP_PEPPER` — они имеют приоритет над именами выше. Шаблон — `.env.example`, сам `.env` в gitignore. Без переменных API отвечает `enabled: false` (GET) и `503` (POST/DELETE), страницы продолжают рендериться.
+
+### JSON-LD и SEO
+
+`useSoftwareApplicationJsonLd(tool, aggregate)` добавляет `aggregateRating` **только при `count > 0`** и только из реальных голосов.
+
+⚠️ Поля `rating` и `reviewCount` в `app/data/tools.ts` — редакционные и для большинства инструментов выдуманные. Публиковать их как `AggregateRating` нельзя: это недостоверная структурированная разметка и риск ручных санкций Google. Они используются только для сортировки `trendingTools` в `useTools`.
+
+Агрегат кэшируется через `defineCachedFunction` (`maxAge: 60`, `swr: false`) — максимум одно обращение к Redis на инструмент в минуту на инстанс. После голоса slug попадает в `staleAggregates`, и следующее чтение обновляется синхронно, поэтому проголосовавший видит свой результат сразу. `swr: true` здесь ломает поведение: Nitro вернул бы устаревшее значение даже после инвалидации.
+
+⚠️ Если для `/tools/**` когда-либо включат `routeRules` с `swr`/`isr`, HTML начнёт кэшироваться вместе с персональным `yourVote`. Тогда чтение собственного голоса нужно перенести на клиент.
+
+### Проверка
+
+```bash
+npm run build
+set -a && . ./.env && set +a && PORT=3100 node .output/server/index.mjs &   # в фоне
+node scripts/test-rating.mjs                                                 # 42 проверки API + SSR
+```
+
+Скрипт сам очищает созданные ключи. `curl`-примеры и troubleshooting — в `docs/rating-system.md`.
+
+---
+
+## 12. 🏗 Current Project Status
+
+**Текущий milestone**: User ratings (completed)
 
 **Завершено**:
 - Foundation (Nuxt 4, TS, SCSS, design tokens)
@@ -846,12 +936,14 @@ max-width: var(--container-width-wide);   // 90rem (1440px)
 - Blog
 - Alternatives
 - **Comparisons** (полная система: типы, данные, компоненты, страницы, SEO, JSON-LD, навигация, sitemap)
+- **Ratings** (Upstash Redis, Nitro API, виджет звёзд, защита от накрутки, `aggregateRating` в JSON-LD)
 
 **Следующие шаги**:
 - Tool page polish
 - Related tools
 - Collections
+- Отзывы (текстовые) — после того как рейтинги соберут трафик
 
 ---
 
-*Документ сгенерирован на основе полного аудита кодовой базы. Последнее обновление: 2026-09-24.*
+*Документ сгенерирован на основе полного аудита кодовой базы. Последнее обновление: 2026-10-31.*
