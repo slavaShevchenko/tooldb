@@ -64,28 +64,30 @@
       Use arrow keys to preview a rating, then press Enter to submit it.
     </p>
 
-    <p
-      class="rating__summary"
-      aria-live="polite"
-    >
-      {{ summary }}
-    </p>
-
-    <p
-      v-if="yourVote"
-      class="rating__own"
-    >
-      Your rating: {{ yourVote }}/{{ RATING_MAX }}
-
-      <button
-        type="button"
-        class="rating__remove"
-        :disabled="pending"
-        @click="withdraw"
+    <div class="rating__wrap">
+      <p
+        class="rating__summary"
+        aria-live="polite"
       >
-        Remove
-      </button>
-    </p>
+        {{ summary }}
+      </p>
+      <span v-if="yourVote">|</span>
+      <p
+        v-if="yourVote"
+        class="rating__own"
+      >
+        Your rating: {{ yourVote }}/{{ RATING_MAX }}
+
+        <button
+          type="button"
+          class="rating__remove"
+          :disabled="pending"
+          @click="withdraw"
+        >
+          Remove
+        </button>
+      </p>
+    </div>
 
     <p
       v-if="error"
@@ -284,7 +286,12 @@ const onKeydown = (event: KeyboardEvent) => {
   display: flex;
   gap: var(--star-gap);
 }
-
+.rating__wrap {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-0-5);
+  color: var(--color-text-secondary);
+}
 .rating__button {
   flex: 1 1 0;
   min-width: 0;
@@ -312,7 +319,7 @@ const onKeydown = (event: KeyboardEvent) => {
 .rating__summary {
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-semibold);
-  color: var(--color-text);
+  color: var(--color-text-secondary);
 }
 
 .rating__own {
