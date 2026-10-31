@@ -31,14 +31,10 @@
           </BasePill>
         </BasePillGrid>
 
-        <!-- <div class="tool-info__rating">
-          <BaseIcon
-            name="star"
-            :size="20"
-            :color="'var(--color-secondary)'"
-          />
-          {{ tool.rating }}
-        </div> -->
+        <ToolRating
+          :slug="tool.slug"
+          :name="tool.name"
+        />
       </div>
     </div>
     <div class="tool-info__right">
@@ -132,16 +128,6 @@ const getCategoryName = (slug: string) => {
   margin-bottom: var(--space-1);
   color: var(--color-text-secondary);
   line-height: 1.6;
-}
-
-.tool-info__rating {
-  display: flex;
-  align-items: center;
-  gap: var(--space-0-5);
-  margin-bottom: var(--space-1);
-  padding-top: var(--space-1);
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-text-secondary);
 }
 
 @media (max-width: 919px) {
