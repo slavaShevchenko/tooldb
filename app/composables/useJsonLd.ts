@@ -1,3 +1,6 @@
+import type { MaybeRefOrGetter } from 'vue'
+import type { ToolRatingAggregate } from '~/types/rating'
+
 export const useSoftwareApplicationJsonLd = (tool: {
   name: string
   description: string
@@ -5,7 +8,7 @@ export const useSoftwareApplicationJsonLd = (tool: {
   pricing: string
   platforms: string[]
   categories: string[]
-}) => {
+}, rating?: MaybeRefOrGetter<ToolRatingAggregate | null>) => {
   const platformMap: Record<string, string> = {
     web: 'WebApplication',
     ios: 'IOSApplication',
@@ -23,27 +26,45 @@ export const useSoftwareApplicationJsonLd = (tool: {
         ? 'EducationalApplication'
         : 'BusinessApplication'
 
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'SoftwareApplication',
-    name: tool.name,
-    description: tool.description,
-    url: `https://tooldb.org/tools/${tool.slug}`,
-    applicationCategory,
-    operatingSystem: tool.platforms.map(p => platformMap[p] || p).join(', '),
-    offers: {
-      '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'USD',
-      description: tool.pricing,
-    },
-  }
+  const innerHTML = computed(() => {
+    // Google rejects empty aggregates, so the block is emitted only for real votes.
+    const aggregate = toValue(rating)
+
+    const jsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'SoftwareApplication',
+      name: tool.name,
+      description: tool.description,
+      url: `https://tooldb.org/tools/${tool.slug}`,
+      applicationCategory,
+      operatingSystem: tool.platforms.map(p => platformMap[p] || p).join(', '),
+      ...(aggregate && aggregate.count > 0
+        ? {
+            aggregateRating: {
+              '@type': 'AggregateRating',
+              ratingValue: aggregate.rating.toFixed(1),
+              ratingCount: String(aggregate.count),
+              bestRating: '5',
+              worstRating: '1',
+            },
+          }
+        : {}),
+      offers: {
+        '@type': 'Offer',
+        price: '0',
+        priceCurrency: 'USD',
+        description: tool.pricing,
+      },
+    }
+
+    return JSON.stringify(jsonLd)
+  })
 
   useHead({
     script: [
       {
         type: 'application/ld+json',
-        innerHTML: JSON.stringify(jsonLd),
+        innerHTML,
       },
     ],
   })

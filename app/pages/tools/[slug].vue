@@ -23,7 +23,9 @@ if (!tool.value) {
   })
 }
 
-useSoftwareApplicationJsonLd(tool.value)
+const { aggregate } = await useToolRating(tool.value.slug)
+
+useSoftwareApplicationJsonLd(tool.value, aggregate)
 
 useBreadcrumbJsonLd([
   { name: 'Home', url: '/' },
