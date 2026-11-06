@@ -7,8 +7,11 @@ export const useComparisonJsonLd = (
 ) => {
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'WebPage',
+    // Article closes the GSC "article pages" gap for comparisons,
+    // WebPage keeps the existing page-level signals.
+    '@type': ['WebPage', 'Article'],
     name: comparison.title,
+    headline: comparison.title,
     description: comparison.description,
     datePublished: comparison.date,
     dateModified: comparison.date,

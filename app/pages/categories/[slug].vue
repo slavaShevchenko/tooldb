@@ -48,6 +48,15 @@ if (category.value) {
     { name: 'Categories', url: '/categories' },
     { name: category.value.name, url: `/categories/${category.value.slug}` },
   ])
+
+  useItemListJsonLd(
+    tools.value.map((tool, index) => ({
+      name: tool.name,
+      url: `/tools/${tool.slug}`,
+      position: index + 1,
+    })),
+    `${category.value.name} Tools`,
+  )
 }
 
 if (!category.value) {

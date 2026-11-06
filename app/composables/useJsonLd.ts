@@ -5,17 +5,18 @@ export const useSoftwareApplicationJsonLd = (tool: {
   name: string
   description: string
   slug: string
+  logo: string
   pricing: string
   platforms: string[]
   categories: string[]
 }, rating?: MaybeRefOrGetter<ToolRatingAggregate | null>) => {
   const platformMap: Record<string, string> = {
-    web: 'WebApplication',
-    ios: 'IOSApplication',
-    android: 'AndroidApplication',
-    windows: 'WindowsApplication',
-    mac: 'MacOSApplication',
-    linux: 'LinuxApplication',
+    web: 'Web',
+    ios: 'iOS',
+    android: 'Android',
+    windows: 'Windows',
+    mac: 'macOS',
+    linux: 'Linux',
   }
 
   const applicationCategory = tool.categories.includes('web-development')
@@ -26,16 +27,22 @@ export const useSoftwareApplicationJsonLd = (tool: {
         ? 'EducationalApplication'
         : 'BusinessApplication'
 
+  const absoluteUrl = (path: string) =>
+    path.startsWith('http') ? path : `https://tooldb.org${path}`
+
   const innerHTML = computed(() => {
     // Google rejects empty aggregates, so the block is emitted only for real votes.
     const aggregate = toValue(rating)
 
     const jsonLd = {
       '@context': 'https://schema.org',
-      '@type': 'SoftwareApplication',
+      // Product satisfies the GSC "product pages" check, SoftwareApplication
+      // keeps the markup semantically correct for digital tools.
+      '@type': ['SoftwareApplication', 'Product'],
       name: tool.name,
       description: tool.description,
       url: `https://tooldb.org/tools/${tool.slug}`,
+      image: absoluteUrl(tool.logo),
       applicationCategory,
       operatingSystem: tool.platforms.map(p => platformMap[p] || p).join(', '),
       ...(aggregate && aggregate.count > 0
@@ -49,12 +56,19 @@ export const useSoftwareApplicationJsonLd = (tool: {
             },
           }
         : {}),
-      offers: {
-        '@type': 'Offer',
-        price: '0',
-        priceCurrency: 'USD',
-        description: tool.pricing,
-      },
+      // price '0' is only honest when a free plan exists;
+      // for Paid tools we omit offers instead of claiming a wrong price.
+      ...(tool.pricing === 'Free' || tool.pricing === 'Freemium'
+        ? {
+            offers: {
+              '@type': 'Offer',
+              price: '0',
+              priceCurrency: 'USD',
+              availability: 'https://schema.org/InStock',
+              description: tool.pricing,
+            },
+          }
+        : {}),
     }
 
     return JSON.stringify(jsonLd)
@@ -65,6 +79,41 @@ export const useSoftwareApplicationJsonLd = (tool: {
       {
         type: 'application/ld+json',
         innerHTML,
+      },
+    ],
+  })
+}
+
+export const useOrganizationJsonLd = () => {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': 'https://tooldb.org/#organization',
+        name: 'ToolDB',
+        url: 'https://tooldb.org',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://tooldb.org/favicon/web-app-manifest-512x512.png',
+        },
+      },
+      {
+        '@type': 'WebSite',
+        '@id': 'https://tooldb.org/#website',
+        url: 'https://tooldb.org',
+        name: 'ToolDB',
+        inLanguage: 'en',
+        publisher: { '@id': 'https://tooldb.org/#organization' },
+      },
+    ],
+  }
+
+  useHead({
+    script: [
+      {
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify(jsonLd),
       },
     ],
   })
@@ -146,7 +195,7 @@ export const useAuthorJsonLd = () => {
     '@type': 'Person',
     name: 'Slava Shevchenko',
     url: 'https://tooldb.org/about',
-    image: 'https://tooldb.org/images/slava.webp',
+    image: 'https://tooldb.org/images/author/slava.webp',
     jobTitle: 'Frontend Developer',
     description: 'Frontend developer with 10+ years of experience evaluating and using digital tools for web development projects.',
     sameAs: [
@@ -196,6 +245,10 @@ export const useBlogPostingJsonLd = (post: {
       '@type': 'Organization',
       name: 'ToolDB',
       url: 'https://tooldb.org',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://tooldb.org/favicon/web-app-manifest-512x512.png',
+      },
     },
   }
 
