@@ -88,8 +88,98 @@
           </NuxtLink>
         </template>
 
+        <template v-if="blogResults.length">
+          <div class="section-title">
+            Blog
+          </div>
+
+          <NuxtLink
+            v-for="result in blogResults"
+            :key="result.post.id"
+            :to="routes.blogPost(result.post.slug)"
+            class="item"
+          >
+            <BaseIcon
+              name="file-text"
+              :size="20"
+              class="blog-icon"
+            />
+
+            <div class="content">
+              <div class="name">
+                {{ result.post.title }}
+              </div>
+            </div>
+
+            <BaseIcon
+              name="arrow-right"
+              class="arrow"
+            />
+          </NuxtLink>
+        </template>
+
+        <template v-if="comparisonResults.length">
+          <div class="section-title">
+            Comparisons
+          </div>
+
+          <NuxtLink
+            v-for="result in comparisonResults"
+            :key="result.comparison.id"
+            :to="routes.comparison(result.comparison.slug)"
+            class="item"
+          >
+            <BaseIcon
+              name="scale"
+              :size="20"
+              class="comparison-icon"
+            />
+
+            <div class="content">
+              <div class="name">
+                {{ result.comparison.title }}
+              </div>
+            </div>
+
+            <BaseIcon
+              name="arrow-right"
+              class="arrow"
+            />
+          </NuxtLink>
+        </template>
+
+        <template v-if="alternativeResults.length">
+          <div class="section-title">
+            Alternatives
+          </div>
+
+          <NuxtLink
+            v-for="result in alternativeResults"
+            :key="result.alternative.id"
+            :to="routes.alternative(result.alternative.slug)"
+            class="item"
+          >
+            <img
+              :src="result.alternative.logo"
+              :alt="result.alternative.name"
+              class="logo"
+            >
+
+            <div class="content">
+              <div class="name">
+                {{ result.alternative.name }} Alternatives
+              </div>
+            </div>
+
+            <BaseIcon
+              name="arrow-right"
+              class="arrow"
+            />
+          </NuxtLink>
+        </template>
+
         <div
-          v-if="!toolResults.length && !categoryResults.length"
+          v-if="!toolResults.length && !categoryResults.length && !blogResults.length && !comparisonResults.length && !alternativeResults.length"
           class="empty"
         >
           <BaseIcon
@@ -129,6 +219,18 @@ const toolResults = computed(() =>
 
 const categoryResults = computed(() =>
   results.value.filter(result => result.type === 'category'),
+)
+
+const blogResults = computed(() =>
+  results.value.filter(result => result.type === 'blog'),
+)
+
+const comparisonResults = computed(() =>
+  results.value.filter(result => result.type === 'comparison'),
+)
+
+const alternativeResults = computed(() =>
+  results.value.filter(result => result.type === 'alternative'),
 )
 
 const debouncedSearch = useDebounceFn((value: string) => {
@@ -211,7 +313,9 @@ onClickOutside(searchRef, () => {
 }
 
 .logo,
-.category-icon {
+.category-icon,
+.blog-icon,
+.comparison-icon {
   width: var(--space-2-5);
   height: var(--space-2-5);
   flex-shrink: 0;
@@ -222,6 +326,14 @@ onClickOutside(searchRef, () => {
 }
 
 .category-icon {
+  color: var(--color-primary);
+}
+
+.blog-icon {
+  color: var(--color-secondary);
+}
+
+.comparison-icon {
   color: var(--color-primary);
 }
 
