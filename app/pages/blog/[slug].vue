@@ -44,6 +44,7 @@ useSeo({
   description: post.value.description,
   image: post.value.image,
   canonical: `https://tooldb.org${routes.blogPost(post.value.slug)}`,
+  type: 'article',
 })
 </script>
 

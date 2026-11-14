@@ -10,6 +10,7 @@ interface SeoOptions {
   image?: MaybeRef<string>
   robots?: MaybeRef<string>
   canonical?: MaybeRef<string>
+  type?: MaybeRef<string>
 
   appendPageNumber?: boolean
 }
@@ -20,6 +21,7 @@ export const useSeo = ({
   image = appSeo.defaultImage,
   robots = 'index, follow',
   canonical,
+  type = 'website',
   appendPageNumber = false,
 }: SeoOptions) => {
   const route = useRoute()
@@ -57,6 +59,7 @@ export const useSeo = ({
     ogSiteName: appSeo.siteName,
     ogImage: () => unref(image),
     ogUrl: () => canonicalUrl.value,
+    ogType: () => unref(type),
     twitterCard: 'summary_large_image',
     twitterTitle: () => seoTitle.value,
     twitterDescription: () => unref(description),
