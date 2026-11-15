@@ -38,7 +38,10 @@
         </BasePillGrid>
       </div>
     </div>
-    <div class="alt-item__best-for">
+    <div
+      v-if="alternative.bestFor"
+      class="alt-item__best-for"
+    >
       <h3 class="alt-item__small-header">
         Best for
       </h3>
@@ -46,7 +49,10 @@
         {{ alternative.bestFor }}
       </div>
     </div>
-    <div class="alt-item__strengths">
+    <div
+      v-if="alternative.keyStrengths?.length"
+      class="alt-item__strengths"
+    >
       <h3 class="alt-item__small-header">
         Key strengths
       </h3>
@@ -54,6 +60,21 @@
         :icon-size="16"
         :items="alternative.keyStrengths"
       />
+    </div>
+    <div
+      v-if="!alternative.bestFor && !alternative.keyStrengths?.length && tool.content?.overview"
+      class="alt-item__overview"
+    >
+      <div class="alt-item__overview-text">
+        {{ tool.content.overview }}
+      </div>
+      <!-- <BaseButton
+        :to="routes.tool(tool.slug)"
+        size="sm"
+        variant="secondary"
+      >
+        Read more →
+      </BaseButton> -->
     </div>
     <div class="alt-item__actions">
       <BaseButton
@@ -140,6 +161,21 @@ const getCategoryName = (slug: string) => {
 .alt-item__strengths {
   flex: 1 1 auto;
 }
+.alt-item__overview {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-0-75);
+}
+.alt-item__overview-text {
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: var(--color-text-secondary);
+}
 .alt-item__actions {
   flex: 0 0 160px;
   align-self: center;
@@ -169,7 +205,8 @@ const getCategoryName = (slug: string) => {
   }
   .alt-item__description,
   .alt-item__best-for,
-  .alt-item__strengths {
+  .alt-item__strengths,
+  .alt-item__overview {
     margin-bottom: var(--space-2);
   }
 }

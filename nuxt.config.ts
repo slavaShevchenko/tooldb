@@ -55,6 +55,7 @@ export default defineNuxtConfig({
     ratingRedisToken: '',
     ratingRedisReadOnlyToken: '',
     ratingIpPepper: '',
+    groqApiKey: process.env.GROQ_API_KEY || '',
     public: {
       siteUrl: 'https://tooldb.org',
     },

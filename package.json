@@ -3,11 +3,13 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "prebuild": "tsx scripts/generate-ai-search-data.ts",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "generate-ai-data": "tsx scripts/generate-ai-search-data.ts"
   },
   "dependencies": {
     "@nuxt/icon": "2.3.1",
@@ -15,13 +17,15 @@
     "@vercel/speed-insights": "^2.0.0",
     "@vueuse/core": "14.3.0",
     "nuxt": "4.4.8",
+    "openai": "^4.77.0",
     "vue": "3.5.39",
     "vue-router": "5.1.0"
   },
   "devDependencies": {
     "@iconify-json/lucide": "1.2.120",
     "@iconify-json/simple-icons": "^1.2.93",
-    "sass-embedded": "1.100.0"
+    "sass-embedded": "1.100.0",
+    "tsx": "^4.19.2"
   },
   "overrides": {
     "@vercel/analytics": {
