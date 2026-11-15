@@ -51,18 +51,26 @@ export const useSeo = ({
     unref(canonical) || `${config.public.siteUrl}${route.path}`,
   )
 
+  const seoDescription = computed(() => {
+    const text = unref(description)
+    if (text.length <= 160) return text
+    const truncated = text.slice(0, 160)
+    const lastSpace = truncated.lastIndexOf(' ')
+    return lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated
+  })
+
   useSeoMeta({
     title: () => seoTitle.value,
-    description: () => unref(description),
+    description: () => seoDescription.value,
     ogTitle: () => seoTitle.value,
-    ogDescription: () => unref(description),
+    ogDescription: () => seoDescription.value,
     ogSiteName: appSeo.siteName,
     ogImage: () => unref(image),
     ogUrl: () => canonicalUrl.value,
     ogType: () => unref(type),
     twitterCard: 'summary_large_image',
     twitterTitle: () => seoTitle.value,
-    twitterDescription: () => unref(description),
+    twitterDescription: () => seoDescription.value,
     twitterImage: () => unref(image),
     robots: () => unref(robots),
   })
