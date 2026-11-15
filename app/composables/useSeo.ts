@@ -59,8 +59,16 @@ export const useSeo = ({
     return lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated
   })
 
+  const truncatedTitle = computed(() => {
+    const text = seoTitle.value
+    if (text.length <= 60) return text
+    const truncated = text.slice(0, 60)
+    const lastSpace = truncated.lastIndexOf(' ')
+    return lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated
+  })
+
   useSeoMeta({
-    title: () => seoTitle.value,
+    title: () => truncatedTitle.value,
     description: () => seoDescription.value,
     ogTitle: () => seoTitle.value,
     ogDescription: () => seoDescription.value,
