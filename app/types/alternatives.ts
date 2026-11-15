@@ -1,7 +1,7 @@
 export interface AlternativeItem {
   slug: string
-  bestFor: string
-  keyStrengths: string[]
+  bestFor?: string
+  keyStrengths?: string[]
 }
 
 export interface AlternativePage {
