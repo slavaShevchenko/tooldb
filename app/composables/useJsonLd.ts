@@ -36,9 +36,7 @@ export const useSoftwareApplicationJsonLd = (tool: {
 
     const jsonLd = {
       '@context': 'https://schema.org',
-      // Product satisfies the GSC "product pages" check, SoftwareApplication
-      // keeps the markup semantically correct for digital tools.
-      '@type': ['SoftwareApplication', 'Product'],
+      '@type': 'SoftwareApplication',
       name: tool.name,
       description: tool.description,
       url: `https://tooldb.org/tools/${tool.slug}`,
@@ -53,19 +51,6 @@ export const useSoftwareApplicationJsonLd = (tool: {
               ratingCount: String(aggregate.count),
               bestRating: '5',
               worstRating: '1',
-            },
-          }
-        : {}),
-      // price '0' is only honest when a free plan exists;
-      // for Paid tools we omit offers instead of claiming a wrong price.
-      ...(tool.pricing === 'Free' || tool.pricing === 'Freemium'
-        ? {
-            offers: {
-              '@type': 'Offer',
-              price: '0',
-              priceCurrency: 'USD',
-              availability: 'https://schema.org/InStock',
-              description: tool.pricing,
             },
           }
         : {}),
